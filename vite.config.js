@@ -4,10 +4,8 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  // *** RUTA BASE CONFIGURADA PARA GITHUB PAGES ***
-  // Anterior: '/04-WebApp-Prehistoria/'
-  // Nuevo: '/Parque-Prehistoria/' (Coincide con el nombre del repositorio)
-  base: '/Parque-Prehistoria/', 
+  // *** RUTA BASE CONFIGURADA PARA GITHUB PAGES (Engranajes-Ciencia/Parque-Prehistoria) ***
+  base: '/Parque-Prehistoria/',
   // ***********************************************
   plugins: [react()],
   server: {

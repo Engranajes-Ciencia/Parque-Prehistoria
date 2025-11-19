@@ -81,12 +81,12 @@
         *Cada desarrollador debe seguir estos pasos para obtener el proyecto en su equipo:
 
         
-        git clone https://github.com/usuario/nombre-del-repositorio.git
+        git clone https://github.com/Engranajes-Ciencia/Parque-Prehistoria.git
 
         Luego, entra en la carpeta del proyecto:
 
         
-        cd nombre-del-repositorio
+        cd Parque-Prehistoria
 
             📦 Instalación de dependencias
         Una vez dentro del proyecto, instala las dependencias necesarias con el siguiente comando:

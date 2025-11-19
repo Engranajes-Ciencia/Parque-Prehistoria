@@ -13,30 +13,34 @@ const avatarNameMap = {
     exploradora: "Enheduanna",
 };
 
+const qrBasePath = `${import.meta.env.BASE_URL}assets/images/qr/`;
+
 // Lista de paradas disponibles con URLs de QR
 const paradasDisponibles = [
-    
-    { id: 1, nombre: "Parada1", qrUrl: "/04-WebApp-Prehistoria/images/qr/a1.png" },
-    { id: 2, nombre: "Parada2", qrUrl: "/04-WebApp-Prehistoria/images/qr/a2.png" },
-    { id: 3, nombre: "Parada3", qrUrl: "/04-WebApp-Prehistoria/images/qr/a3.png" },
-    { id: 4, nombre: "Parada4", qrUrl: "/04-WebApp-Prehistoria/images/qr/a4.png" },
-    { id: 5, nombre: "Parada5", qrUrl: "/04-WebApp-Prehistoria/images/qr/a5.png" },
-    { id: 6, nombre: "Parada6", qrUrl: "/04-WebApp-Prehistoria/images/qr/a6.png" },
-    { id: 7, nombre: "Parada7", qrUrl: "/04-WebApp-Prehistoria/images/qr/a7.png" },
-    { id: 8, nombre: "Parada8", qrUrl: "/04-WebApp-Prehistoria/images/qr/a8.png" },
-    { id: 9, nombre: "Parada9", qrUrl: "/04-WebApp-Prehistoria/images/qr/a9.png" },
-    { id: 10, nombre: "Parada10", qrUrl: "/04-WebApp-Prehistoria/images/qr/a10.webp" },
-    { id: 11, nombre: "Parada11", qrUrl: "/04-WebApp-Prehistoria/images/qr/a11.webp" },
-    { id: 12, nombre: "Parada12", qrUrl: "/04-WebApp-Prehistoria/images/qr/a12.webp" },
-    { id: 13, nombre: "Parada13", qrUrl: "/04-WebApp-Prehistoria/images/qr/a13.webp" },
-    { id: 14, nombre: "Parada14", qrUrl: "/04-WebApp-Prehistoria/images/qr/a14.webp" },
-    { id: 15, nombre: "Parada15", qrUrl: "/04-WebApp-Prehistoria/images/qr/a15.webp" },
-    { id: 16, nombre: "Parada16", qrUrl: "/04-WebApp-Prehistoria/images/qr/a16.webp" },
-    { id: 17, nombre: "Parada17", qrUrl: "/04-WebApp-Prehistoria/images/qr/a17.webp" },
-    { id: 18, nombre: "Parada18", qrUrl: "/04-WebApp-Prehistoria/images/qr/a18.webp" },
-    { id: 19, nombre: "Parada19", qrUrl: "/04-WebApp-Prehistoria/images/qr/a19.webp" },
-    { id: 20, nombre: "Parada20", qrUrl: "/04-WebApp-Prehistoria/images/qr/a20.webp" }
-];
+    { id: 1, nombre: "Parada1", file: "a1.png" },
+    { id: 2, nombre: "Parada2", file: "a2.png" },
+    { id: 3, nombre: "Parada3", file: "a3.png" },
+    { id: 4, nombre: "Parada4", file: "a4.png" },
+    { id: 5, nombre: "Parada5", file: "a5.png" },
+    { id: 6, nombre: "Parada6", file: "a6.png" },
+    { id: 7, nombre: "Parada7", file: "a7.png" },
+    { id: 8, nombre: "Parada8", file: "a8.png" },
+    { id: 9, nombre: "Parada9", file: "a9.png" },
+    { id: 10, nombre: "Parada10", file: "a10.png" },
+    { id: 11, nombre: "Parada11", file: "a11.webp" },
+    { id: 12, nombre: "Parada12", file: "a12.webp" },
+    { id: 13, nombre: "Parada13", file: "a13.webp" },
+    { id: 14, nombre: "Parada14", file: "a14.webp" },
+    { id: 15, nombre: "Parada15", file: "a15.webp" },
+    { id: 16, nombre: "Parada16", file: "a16.webp" },
+    { id: 17, nombre: "Parada17", file: "a17.webp" },
+    { id: 18, nombre: "Parada18", file: "a18.webp" },
+    { id: 19, nombre: "Parada19", file: "a19.webp" },
+    { id: 20, nombre: "Parada20", file: "a20.webp" },
+].map((parada) => ({
+    ...parada,
+    qrUrl: `${qrBasePath}${parada.file}`,
+}));
 
 
 function Mapa() {
@@ -66,7 +70,8 @@ function Mapa() {
     const descargarQR = (parada) => {
         const link = document.createElement("a");
         link.href = parada.qrUrl;
-        link.download = `${parada.nombre}-QR.png`; // Nombre del archivo descargado
+        const extension = parada.file?.split(".").pop() || "png";
+        link.download = `${parada.nombre}-QR.${extension}`; // Nombre del archivo descargado
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
