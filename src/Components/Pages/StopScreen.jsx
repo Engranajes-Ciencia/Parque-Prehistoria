@@ -59,7 +59,7 @@ const StopScreen = ({ stop, onNext, onPrev, stopIndex, totalStops }) => {
                 </div>
 
                 <audio ref={audioGeneralRef} src={stop.audio} />
-                <audio ref={audioKidsRef} src={stop.audioENG} /> {/* User noted audioENG is actually kids audio */}
+                <audio ref={audioKidsRef} src={stop.audioENG} />
             </div>
         </div>
     );
