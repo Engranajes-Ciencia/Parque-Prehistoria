@@ -1,0 +1,82 @@
+:root {
+  /* Premium Color Palette */
+  --primary-color: #D4AF37; /* Gold */
+  --primary-dark: #AA8C2C;
+  --secondary-color: #2C3E50; /* Dark Blue/Grey */
+  --accent-color: #E74C3C; /* Red for actions */
+  --background-dark: #1a1a1a;
+  --text-light: #ecf0f1;
+  --text-dark: #2c3e50;
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  
+  /* Typography */
+  --font-main: 'Outfit', sans-serif; /* Assuming we can load this or fallback */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-main), system-ui, -apple-system, sans-serif;
+  background-color: var(--background-dark);
+  color: var(--text-light);
+  overflow-x: hidden;
+}
+
+/* Reset & Utilities */
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+/* Glassmorphism Card */
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+}
+
+/* Button Styles */
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+  color: white;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.6);
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid var(--text-light);
+  color: var(--text-light);
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-text {
+  background: none;
+  color: var(--text-light);
+  text-decoration: underline;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}

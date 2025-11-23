@@ -1,0 +1,370 @@
+{
+  "modojuego": {
+    "titulo": "Elige un modo de juego",
+    "subtitulo": "¿Vienes en familia o con el cole?",
+    "modoIndividual": "Modo en familia",
+    "modoEquipo": "Modo colegio",
+    "proximamente": "Próximamente"
+  },
+  "portada": {
+    "titulo": "Parque de la Prehistórica",
+    "descripcion": "¡Bienvenidos a esta aventura prehistórica! Acabáis de embarcaros en un apasionante viaje en el tiempo, con el que descubriréis la historia de nuestro planeta, desde el origen de la vida hasta la aparición de las primeras civilizaciones. En cada parada encontraréis un código QR que os conducirá a una explicación detallada, y en diez de ellas encontraréis una actividad interactiva. Id superándolas para conseguir las insignias y obtener vuestro diploma al final. ¿Estáis preparados para convertiros en auténticos exploradores del tiempo? ¡Vuestra aventura comienza ya!",
+    "empezar": "¡Empezar aventura!",
+    "audio": "/sounds/vozPortadaESP.mp3"
+  },
+  "form": {
+    "nombre": "Nombre de explorador/a:",
+    "placeholderNombre": "Escribid un nombre...",
+    "guia": "Elige a vuestro guía:",
+    "botonAventura": "¡Empezar la aventura!",
+    "alertaNombreInvalido": "El nombre solo puede contener letras, números y espacios.",
+    "alertaFaltanDatos": "Por favor, escribid un nombre de equipo y eligid un avatar."
+  },
+  "mapa": {
+    "saludo": "¡Saludos {{nombre}}!",
+    "dialogo": "Yo seré vuestro guía {{guia}}.<0></0>{{nombre}} tener prendas raras.<0></0><0></0>¿{{nombre}} no sois de aquí?<0></0><0></0>No importa,<0></0><0></0>¡{{nombre}} y {{guia}} explorararemos estas tierras!",
+    "instruccion": "Escanea un código QR o selecciona una actividad para comenzar.",
+    "botonQR": "Escanear Código QR",
+    "botonVolver": "Volver",
+    "botonNoQR": "No hay QR disponible",
+    "seleccionQR": "Selecciona un código QR",
+    "botonCerrar": "❌"
+  },
+  "escaner": {
+    "titulo": "Escanea el código QR",
+    "escaneando": "Escaneando... apunta con la cámara al QR",
+    "qrInvalido": "QR no válido. Asegúrate de que el QR contiene una URL con /actividad/número",
+    "qrActividadDetectado": "Actividad detectada: ID {{id}}",
+    "permisoDenegado": "Permiso de cámara denegado. Habilita el acceso desde la configuración.",
+    "noCamaraEncontrada": "No se encontró una cámara en el dispositivo.",
+    "codigoSecretoEncontrado": "¡Código secreto encontrado!",
+    "botonSinQr": "🚫 Parada sin QR",
+    "paradaNumero": "Parada {{id}}"
+  },
+  "scannerUI": {
+    "chooseImage": "Cargar imagen - Ninguna imagen seleccionada",
+    "chooseImageButton": "Elegir imagen",
+    "scanImage": "Escanear imagen",
+    "requestPermissions": "Solicitar permisos de cámara"
+  },
+  "entreActividades": {
+    "mapa": "Mapa del recorrido",
+    "guiaTexto": "¡Buen trabajo {{nombre}}! Has completado {{completadas}} de 20 paradas.",
+    "escanear": "Escanear siguiente parada",
+    "final": "Ver pantalla final",
+    "medallas": "Ver medallas"
+  },
+  "final": {
+    "enhorabuena": "¡Enhorabuena!",
+    "completado": "100% completado",
+    "explorador": "Explorador del tiempo",
+    "exploradora": "Exploradora del tiempo",
+    "nombreDefault": "Explorador/a",
+    "paradasCompletadas": "Has completado todas las paradas de la Aventura Prehistórica",
+    "diplomaInfantil": "Diploma infantil",
+    "diplomaAdulto": "Diploma Adulto",
+    "descarga": "Descargar Diploma",
+    "reiniciar": "Reiniciar juego",
+    "galeria": "Ver Galeria de Medallas",
+    "alertaSelecciona": "Selecciona un tipo de diploma",
+    "alertaNoCargaImagen": "No se pudo cargar la imagen del diploma"
+  },
+  "actividad": {
+    "accesoDenegado": "Acceso denegado. Escanea el código QR.",
+    "error": "Ha ocurrido un error al cargar la actividad.",
+    "saludo": "· ¡Hola {{nombre}}! ·",
+    "pausarAudio": "⏸️ Pausar audio",
+    "reproducirAudio": "▶️ Audio general",
+    "pausarAudioENG": "⏸️ Pausar audio",
+    "reproducirAudioENG": "▶️ Audio infantil",
+    "sabiasQue": "¿Sabías que...?",
+    "verMapaActividad": "🗺️ Ver mapa",
+    "EscanearQR": "📲 Escanear codigo QR"
+  },
+    "modoSecreto": {
+      "¡Enhorabuena!": "¡Enhorabuena!",
+      "Has encontrado el código secreto del parque.": "Has encontrado el código secreto del parque.",
+      "Una actividad especial te espera..": "Una actividad especial te espera..",
+      "¡Modo Secreto Desbloqueado!": "¡Modo Secreto Desbloqueado!",
+      "mensajeConteoRegresivo": "Tienes {{time}} segundos para completar la actividad especial:",
+      "tiempoTerminado": "¡Tiempo terminado! Puedes continuar.",
+      "⏳ Tiempo agotado — Volver": "⏳ Tiempo agotado — Volver",
+      "CofreCerrado": "Cofre cerrado",
+      "CofreAbierto": "Cofre abierto",
+      "actividad-secreta": "Actividad secreta"
+    },
+
+    "admin": {
+      "tituloPanel": "Panel de Estadísticas (Local)",
+      "auth": {
+        "titulo": "Panel de Administración", 
+        "subtitulo": "Acceso restringido. Introduce la clave para continuar.",
+        "labelClave": "Clave de Acceso", 
+        "placeholderClave": "Introduce tu clave secreta",
+        "botonEntrar": "Acceder",
+        "notaSeguridad": "Este panel es para uso administrativo exclusivo."
+      },
+      "secciones": {
+        "datosJugador": "Datos del Jugador",
+        "metricasUso": "Métricas de Uso",
+        "progreso": "Progreso del Juego",
+        "administracion": "Administración"
+      },
+      "labels": {
+        "nombre": "Nombre",
+        "avatar": "Avatar",
+        "iniciosJuego": "Inicios del juego",
+        "tiempoTotal": "Tiempo total de uso (aprox.)",
+        "actividadesCompletadas": "Actividades Completadas (IDs y Títulos)",
+        "modoSecreto": "Modo Secreto Desbloqueado",
+        "ultimoReset": "Último Reseteo de Estadísticas"
+      },
+      "stats": {
+        "noDefinido": "No definido",
+        "ninguna": "Ninguna",
+        "actividadDesconocida": "Actividad Desconocida",
+        "nunca": "Nunca"
+      },
+      "unidades": {
+        "veces": "veces",
+        "segundos": "segundos",
+        "minutos": "minutos",
+        "horas": "horas"
+      },
+      "respuestas": {
+        "si": "Sí",
+        "no": "No"
+      },
+      "botones": {
+        "volver": "Volver",
+        "copiarStats": "Copiar Estadísticas",
+        "resetStats": "Resetear Estadísticas y Progreso"
+      },
+      "confirmaciones": {
+        "resetTotal": "¿Estás seguro de que quieres resetear TODAS las estadísticas y datos de progreso de esta tablet? Esta acción no se puede deshacer."
+      },
+      "alertas": {
+        "statsReseteadas": "Todas las estadísticas y datos de progreso han sido reseteados en esta tablet.",
+        "claveIncorrecta": "Clave incorrecta.",
+        "statsCopiadas": "Estadísticas copiadas al portapapeles."
+      },
+      "errores": {
+        "copiarStats": "Error al copiar estadísticas: "
+      },
+      "notas": {
+        "datosLocales": "Estos datos son específicos de esta tablet/navegador y se almacenan localmente."
+      }
+    },
+  "1": {
+    "titulo": "Bienvenido. Comienza la aventura",
+    "avatarDialogo": {
+      "dialogo": "¡Hola aventureros! Yo seré vuestro guía en este recorrido por la historia de la humanidad.",
+      "mensaje": "¡Bienvenidos y bienvenidas al Parque de las ciencias de la Prehistoria! Os invito a acompañarme en un apasionante ”viaje en el tiempo”, que comienza con la aparición de las primeras formas de vida que poblaron la Tierra, y termina con las primeras civilizaciones humanas. En este recorrido descubriremos cómo evolucionó la vida en nuestro planeta: las plantas, los dinosaurios, ¡y hasta nuestros antepasados los homínidos!. Exploraremos un museo al aire libre con actividades divertidas para toda la familia. Eso sí, muy importante: no toquéis las maquetas y recordad no tirar nada al suelo. ¡Cuidar el parque es parte de la aventura!.",
+      "sabiasQue": "¿Sabías que la vida en la Tierra comenzó hace más de 3.500 millones de años?"
+    }
+  },
+  "2": {
+    "titulo": "El origen de la vida",
+    "avatarDialogo": {
+      "dialogo": " Estás en la parada 2. Mira a tu alrededor… aquí comenzó todo.",
+      "mensaje": "Vamos a acercarnos al surco que hay en el suelo… imaginemos que por aquí fluye el cauce de un río. ¿Sabíais que la vida en la Tierra empezó en el agua? 🌊 Hace unos 4.500 millones de años se formó nuestro planeta. Al principio era un lugar hostil: volcanes en erupción, mares de lava y una atmósfera tóxica que no permitía la vida. ¡Nada que ver con la Tierra que conocemos hoy! 🌋🌪️ Tuvieron que pasar millones de años hasta que aparecieron las primeras formas de vida. ¿Sabéis cuáles eran? Eran diminutas bacterias llamadas cianobacterias, que vivían en el agua. Al fosilizarse, dejaron huella en las rocas marinas, y se han encontrado restos en la bahía de Shark, en Australia. Estas bacterias fueron muy importantes: empezaron a producir oxígeno, y con el paso del tiempo ayudaron a transformar la atmósfera, haciendo posible que surgieran nuevas y maravillosas formas de vida. Pero… ¿cómo pudieron sobrevivir en un planeta con condiciones tan extremas? 🤔 Para entenderlo, acerquémonos a la reproducción de la Gran Fuente Prismática de Yellowstone, en Estados Unidos. Aún hoy existen lugares en la Tierra con condiciones muy parecidas a las del pasado, auténticas ventanas al origen de la vida. La Gran Fuente Prismática es una laguna de aguas muy calientes —pueden llegar a los 70 °C— y ricas en minerales. ¡Parece de otro planeta y está llena de colores brillantes! 🌈 Esos colores no son pintura: están formados por colonias de microbios y bacterias. Cada color corresponde a un grupo diferente que ha aprendido a vivir en condiciones extremas, igual que hicieron las primeras bacterias hace miles de millones de años. Algunas obtienen energía de los minerales del agua, y otras usan la luz, pero de una forma muy distinta a las plantas actuales. Prosigamos nuestro viaje y acerquémonos de nuevo al cauce del río. Hace unos 500 millones de años, la vida dio un paso enorme: salió del agua en forma de plantas. Las primeras fueron los musgos, que no tenían tallo y absorbían el agua directamente del suelo. Gracias a ellos, la vida comenzó a conquistar la tierra firme. Más tarde aparecieron los helechos, que aunque aún no tenían un tallo como el de las plantas modernas, ya desarrollaron un sistema primitivo para transportar agua y nutrientes. 👉 Ahora, os invito a buscar algunos helechos junto al río, ¡seguro que encontráis alguno muy cerca! 🌿 Estos helechos gigantes absorbían mucho carbono del aire y, al morir, se acumulaban en capas que con el paso de millones de años se transformaron en carbón vegetal. Sí, ¡el mismo que se sigue extrayendo hoy en día de las minas!",
+      "sabiasQue": "¿Sabías que las primeras formas de vida eran capaces de vivir sin oxígeno?"
+    }
+  },
+  "3": {
+    "titulo": "Las primeras plantas",
+    "avatarDialogo": {
+      "dialogo": "Parada 3. ¡Mira estos vegetales! Son los primeros habitantes verdes del planeta.",
+      "mensaje": "Y aquí llega una sorpresa: mucha gente cree que después de las plantas… ¡aparecieron los dinosaurios! Pero no fue así. Antes hubo criaturas increíbles que dominaron mares y tierras. ¿Sabéis cuáles son? Los primeros fueron los trilobites, unos artrópodos marinos que aparecieron hace más de 500 millones de años, en el periodo Cámbrico, y que llenaron los océanos. Más tarde llegaron los amonites, cefalópodos marinos parecidos a caracolas, que convivieron con los últimos trilobites. Fijaos bien en las rocas del río: allí encontraréis reproducciones de sus fósiles, ¡para que podáis verlos de cerca! Como veis, el mundo prehistórico fue mucho más variado y sorprendente de lo que podíais imaginar… ¡y esto solo acaba de empezar!",
+      "sabiasQue": "¿Sabías que sin estas plantas, los animales nunca podrían haber vivido en tierra?"
+    }
+  },
+  "4": {
+    "titulo": "Prototaxiles y Meganeuras",
+    "avatarDialogo": {
+      "dialogo": "Parada 4. ¡Colosos fúngicos y libélulas gigantes, todo en un solo vistazo!",
+      "mensaje": "¿Veis esas estructuras verticales blancas? Son reproducciones de Prototaxites. un hongo gigantesco que podía medir hasta 8 metros de altura. Imaginaos un bosque cubierto no por árboles… ¡sino por hongos enormes! En esta época también apareció un animal clave en la evolución: el Tiktaalik. Era un pez con aletas muy especiales, parecidas a patas, que le permitieron salir del agua y caminar sobre tierra firme. Fue uno de los primeros en hacer ese gran salto. Mirad hacia las rocas, justo frente al Prototaxites: allí podéis ver una reproducción de su fósil. En el aire encontramos a la impresionante Meganeura, un insecto gigante parecido a una libélula, con alas de casi 70 cm. Se alimentaba de otros insectos y hasta de pequeños reptiles. ¡Imaginad una libélula del tamaño de un cuervo volando sobre vuestras cabezas! Fijaos en el suelo, junto al fósil del Tiktaalik: allí tenéis la reproducción de la Meganeura, ¡parece una gran libélula!",
+      "sabiasQue": "¿Sabías que hace más de 300 millones de años existieron hongos de 8 metros y libélulas gigantes que cazaban reptiles? ¡Eran los reyes antes de los dinosaurios!"
+    }
+  },
+  "5": {
+    "titulo": "Los primeros árboles",
+    "avatarDialogo": {
+      "dialogo": "Parada 5.¡Contempla los primeros bosques que estrenaron la sombra del planeta!",
+      "mensaje": "Mientras tanto, las plantas también evolucionaban: de pequeños helechos empezaron a surgir los primeros árboles, como las araucarias, que aún hoy podemos ver en algunos lugares del mundo. Estos árboles gigantes formaron bosques que se convirtieron en auténticos pulmones verdes del planeta. Levantad la vista: ese árbol que parece un pino es una reproducción de una araucaria, descendiente de aquellos primeros árboles. De la resina de algunos de estos árboles se formó el ámbar, una joya natural que atrapó en su interior insectos, hojas y hasta plumas. Gracias a él, los científicos pueden estudiar cómo era la flora y la fauna de hace millones de años… ¡como si tuviéramos cápsulas del tiempo!",
+      "sabiasQue": "¿Sabías que los primeros árboles podían crecer hasta 30 metros, ¡mucho antes de que existieran los dinosaurios!"
+    }
+  },
+  "6": {
+    "titulo": "Las primeras flores",
+    "avatarDialogo": {
+      "dialogo": "Parada 6. Hace 150 millones de años, las flores y sus polinizadores pintaron de vida el mundo que hoy reconocemos.",
+      "mensaje": "Continuamos nuestro viaje por el tiempo. Como ya habéis visto, durante mucho tiempo, la Tierra estuvo cubierta por musgos, helechos y grandes árboles sin flores, como las coníferas. Estos árboles se reproducían lanzando polen al viento, ¡esperando que alguna semilla tuviera suerte! Pero era poco eficiente… Entonces, hace más de 100 millones de años ocurrió algo maravilloso, surgieron las primeras angiospermas, ¿Sabéis lo que son?: son plantas con flores, más pequeñas, pero ¡mucho más listas!, porque en vez de depender del viento, empezaron a atraer insectos con sus bonitos colores, formas y olores para que estos les ayudaran a transportar el polen, esto se llama polinización. ¿conocéis el nombre de algún insecto que haga esto? ¡Las abejas, por ejemplo, muy bien! Además, desarrollaron frutos que protegían las semillas y hacían que los animales las llevaran aún más lejos. Este gran avance hizo que las plantas se expandieran por todo el planeta, creando más alimentos y hábitats para otros seres vivos. Como veis, las angiospermas cambiaron la historia de la vida en la Tierra… ¡y aún lo siguen haciendo! Observad a vuestro alrededor: ¿cuántas flores y árboles frutales sois capaces de encontrar?",
+      "sabiasQue": "¿Sabías que las primeras flores surgieron hace 150 millones de años y transformaron la reproducción de las plantas?"
+    }
+  },
+  "7": {
+    "titulo": "Los primeros dinosaurios",
+    "avatarDialogo": {
+      "dialogo": "Parada 7.¡Aquí comenzó la era de los gigantes que dominaron la Tierra!",
+      "mensaje": "Continuando nuestro viaje en el tiempo, hacemos una parada en el Triásico, la primera etapa del Mesozoico, hace unos 230 millones de años, cuando aparecieron los primeros dinosaurios. El paisaje estaba dominado por plantas sin frutos ni flores, y apenas había otros animales… ¿Qué creéis que comían entonces? ¡Lo que tenían a su alcance! Los primeros dinosaurios eran herbívoros y se alimentaban de helechos, hojas de acacias y otras plantas bajas. Uno de estos grandes herbívoros fue el triceratops, como el que tenéis frente a vosotros, aunque vivió mucho después, en el Cretácico. Era un dinosaurio cuadrúpedo, con un cuello corto, ideal para comer plantas cercanas al suelo como los helechos. Su nombre significa “cara con tres cuernos”: dos largos sobre los ojos y uno más pequeño sobre la nariz, que usaba para defenderse o impresionar a otros dinosaurios. Si avanzáis en el camino veréis un brontosaurio, vivió en el Jurásico y también era cuadrúpedo, pero con un cuello muy largo, perfecto para alcanzar las copas altas de los árboles de cuyas hojas se alimentaba. Este ejemplar representa a una cría, ya que un adulto sería mucho más grande que el triceratops, el brontosaurio era más del doble de largo que un triceratops y bastante más alto, gracias a su cuello enorme ¿Habéis visto el volcán que hay a la derecha del brontosaurio? Antes de continuar el viaje es importante hacer un inciso para explicar que mucho antes de que existieran los dinosaurios, la Tierra vivió una gran catástrofe. Hace unos 252 millones de años, al final del Pérmico, ocurrió la mayor extinción masiva de la historia: Desapareció el 90% de la vida en el nuestro planeta ¿El motivo? Probablemente una combinación de volcanes en erupción, cambios en el clima y alteraciones en el aire y el mar. Fue como “reiniciar” el planeta. Casi toda la vida desapareció… y poco a poco, la Tierra volvió a llenarse de seres nuevos.",
+      "sabiasQue": "¿Sabías que los primeros dinosaurios aparecieron hace más de 230 millones de años y dominaron la Tierra durante casi 170 millones de años?"
+    }
+  },
+  "8": {
+    "titulo": "La deriva continental",
+    "avatarDialogo": {
+      "dialogo": "Parada 8. La deriva continental creó nuevos caminos para que los primeros dinosaurios conquistaran la Tierra",
+      "mensaje": "En esa época, los continentes no estaban separados como hoy. Todos formaban un único supercontinente con forma de “C” llamado Pangea, rodeado por un gran océano: Pantalasa. Entre lo que hoy es África, Europa y Asia, se extendía otro mar más pequeño pero muy importante: el mar de Tetis ¿Cómo sabemos que esto fue así? Gracias a los fósiles. Se han encontrado restos idénticos en América, Europa y África, lo que demuestra que esos territorios estuvieron unidos alguna vez. Si miráis al suelo, veréis una hendidura que representa la unión entre Sudamérica y África, tal y como estaban en la Pangea ¿Cuándo empezó a separarse Pangea? Durante el Mesozoico, por el movimiento de las placas tectónicas. La deriva continental ocurrió en tres grandes etapas: 1. Jurásico: América del Norte se separa de Asia. 2. Cretácico: Sudamérica, India y África comienzan a separarse. 3. Cenozoico: Australia se separa de la Antártida ¡Y la Tierra sigue cambiando! Hoy en día, la grieta del este de África nos recuerda que la deriva continental continúa. Os invito a seguir avanzando por el camino observando con atención el suelo, quizás encontréis alguna huella de dinosaurio… ¿la habéis encontrado? Las huellas fosilizadas se llaman ignitas, son unas marcas dejadas por el paso del dinosaurio sobre barro o arena, que con el tiempo se endurecieron y quedaron fosilizadas ¿De qué dinosaurio creéis que es esa huella? En este caso, corresponde al famoso Tyrannosaurus rex. Era un dinosaurio carnívoro, que se alimentaba de otros animales, ¡uno de los más temidos! Y vivió en el Cretácico. Podía alcanzar los 12 metros de largo, pesar más de 8 toneladas y dejar huellas tan profundas que hoy permiten a los paleontólogos saber cómo caminaban, qué tamaño tenían o cuánto pesaban, incluso aunque no se haya encontrado su esqueleto completo.",
+      "sabiasQue": "¿Sabías que la deriva continental sigue moviendo a Europa y Norteamérica unos 2 cm al año?"
+    }
+  },
+  "9": {
+    "titulo": "Los segundos dinosaurios",
+    "avatarDialogo": {
+      "dialogo": "Parada 9. Estás en la parada 9: Dinosaurios gigantes. Prepárate para descubrir algo fascinante.",
+      "mensaje": "Existieron otros depredadores fascinantes, como el allosaurio y el dromeosaurio. Aquí podéis ver al Allosaurio, un gran carnívoro bípedo, es decir, caminaba sobre dos patas. Mirad cuántos dientes afilados tiene ¿Qué creéis que comía? Exacto: otros dinosaurios.Su nombre significa “lagarto diferente”, por la forma especial de sus vértebras y las protuberancias de su cráneo. Tenía patas traseras fuertes y delanteras cortas, con tres dedos y garras… ¡muy parecidas a las de algunas aves rapaces! Un poco más allá está el dromeosaurio, pariente de los famosos velociraptores que aparecen en la película Parque Jurásico. También era carnívoro, bípedo, muy rápido… y tenía plumas. Fijaos en sus patas traseras: tienen una garra curvada hacia arriba, como un espolón… ¿A qué os recuerda? ¡A las gallinas! Las aves actuales son descendientes directos de estos dinosaurios con plumas, y muchos reptiles de hoy, como los lagartos o cocodrilos, vienen de otras ramas extinguidas. Pero… si los dinosaurios eran tantos y tan variados, ¿por qué ya no los vemos? Hace unos 65 millones de años, un asteroide gigantesco impactó en lo que hoy es México, provocando incendios, volcanes y un cambio climático extremo. El cielo se cubrió de cenizas, la luz del sol no podía pasar, y comenzó un frío intenso. Las plantas murieron, y con ellas, los dinosaurios herbívoros. Al desaparecer estos, los carnívoros también se quedaron sin alimento. Fue una gran extinción masiva, en la que desapareció casi el 50% de la vida en la Tierra. No todos los dinosaurios se extinguieron: las aves actuales son los últimos dinosaurios vivos. Cada vez que veáis una gallina, un gorrión o un águila… ¡estáis viendo a los supervivientes de una historia que empezó hace millones de años y continua gracias a la evolución!",
+      "sabiasQue": "¿Sabías que el triceratops tenía tres cuernos para defenderse?"
+    }
+  },
+  "10": {
+    "titulo": "Galápagos y Darwin",
+    "avatarDialogo": {
+      "dialogo": "Parada 10. Galápagos: el laboratorio natural donde Darwin reveló los secretos de la evolución",
+      "mensaje": "En esta parada vamos a viajar hasta las islas Galápagos, un archipiélago volcánico en medio del Pacífico, a unos 1000 km de la costa de Ecuador. Fue allí donde, en el siglo XIX, el naturalista Charles Darwin descubrió un auténtico laboratorio natural. Darwin observó que, a pesar de estar tan alejadas del continente, las Galápagos tenían una enorme variedad de especies animales. Por ejemplo, los pinzones, unas pequeñas aves cuyos picos cambiaban de forma en cada isla según su dieta y el alimento disponible. De estas observaciones, Darwin concluyó algo revolucionario: Las especies que mejor se adaptan a su medio ambiente son las que logran sobrevivir y reproducirse. A este proceso lo llamó selección natural, y lo recogió en su famosa obra “El origen de las especies” (1859), que cambió para siempre la forma de entender la vida en la Tierra. Pero no solo vio aves… también encontró iguanas marinas y tortugas gigantes, como la que tenéis delante, que reforzaban su idea de cómo el aislamiento geográfico favorece la aparición de nuevas especies. Más tarde, los científicos unieron las ideas de Darwin con los descubrimientos de Gregor Mendel sobre la genética, dando lugar a la llamada teoría sintética moderna de la evolución, también conocida como neodarwinismo. Esta teoría explica cómo, a lo largo de millones de años, la vida en la Tierra ha cambiado y se ha diversificado gracias a la adaptación y la herencia genética. Así, desde los dinosaurios hasta los animales que vemos hoy, todos formamos parte de la gran historia de la evolución.",
+      "sabiasQue": "¿Sabías que Darwin tardó más de 20 años en publicar su teoría, motivado en gran parte por lo que aprendió en Galápagos?"
+    }
+  },
+  "11": {
+    "titulo": "Las huellas de Laetoli",
+    "avatarDialogo": {
+      "dialogo": "¡Parada 11! Vamos tras las huellas del pasado. ¿Listo para caminar con nuestros antecesores?",
+      "mensaje": " ¿Quién falta por aparecer en nuestro viaje en el tiempo? ¡Pues claro, nosotros! Para ello tenemos que retroceder a hace unos 70 millones de años, cuando aparecieron los primeros primates. Para conocerlos mejor, vamos a viajar simbólicamente hasta Tanzania, en África. Para ello, acercaos a la esquina izquierda, donde está la vegetación: allí comienza nuestro “bosque de Jane Goodall”. Jane Goodall, una de las científicas más reconocidas del mundo, dedicó gran parte de su vida a estudiar a los chimpancés, viviendo junto a ellos. Descubrió algo asombroso: los chimpancés usan herramientas, como tallos o ramas, para conseguir alimento. Hasta entonces se pensaba que el ser humano era el único capaz de hacerlo. Además, observó que los chimpancés muestran emociones y comportamientos sociales, lo que nos acerca aún más a comprender nuestra propia historia. Pero para llegar al Homo sapiens, primero tenemos que pasar por los homínidos. Aquí entra otra gran científica: Mary Leakey, paleontóloga que descubrió las famosas huellas de Laetoli, en Tanzania, de hace unos 4 millones de años. En nuestro recorrido, estas huellas están en el suelo, a la derecha. Pertenecían a un Australopithecus afarensis, conocido popularmente como Lucy, llamada “la madre de la humanidad”. Gracias a este hallazgo sabemos que medían entre 1,15 y 1,45 m y que eran bípedos, es decir, caminaban erguidos sobre dos pies, como nosotros. Al lado de las huellas hemos añadido una mano simbólica, para explicar la importancia del pulgar oponible: es el pulgar que puede tocarse con el resto de los dedos, lo que nos permite agarrar, sujetar y manipular objetos con precisión. Este fue un paso decisivo en el camino evolutivo que, con el tiempo, nos llevó hasta el Homo sapiens… ¡y hasta nosotros!",
+      "sabiasQue": "¿Sabías que fueron descubiertas en Tanzania en 1978?"
+    }
+  },
+  "12": {
+    "titulo": "Atapuerca",
+    "avatarDialogo": {
+      "dialogo": "Parada 12. Atapuerca, donde el legado de los dinosaurios dio paso a los primeros humanos",
+      "mensaje": "En esta parada vais a ver dos areneros, que representan un yacimiento arqueológico. Un yacimiento es un lugar donde se conservan restos de nuestros antepasados durante miles o incluso millones de años. El ejemplo más importante en España es la Sierra de Atapuerca, en Burgos, considerada uno de los lugares clave para el estudio de la evolución humana en Europa. Allí se han encontrado fósiles de varias especies de homínidos, como: Homo antecessor, uno de los primeros europeos, de hace unos 800.000 años. Homo heidelbergensis, antepasado de los neandertales, de hace unos 400.000 años. Restos de Homo sapiens, nuestra propia especie. Entre los hallazgos más importantes destacan: La mandíbula de la Sima del Elefante, con 1,2 millones de años, el fósil humano más antiguo de Europa. Y los restos de más de 30 individuos en la Sima de los Huesos, fundamentales para comprender la evolución de los neandertales. Fijaos en que los areneros están divididos con cuerdas en cuadrículas. Esto es exactamente lo que hacen los arqueólogos: dividen el terreno en cuadrículas numeradas para registrar con precisión dónde aparece cada hallazgo. Así, si encuentran un diente, una herramienta o un hueso, pueden anotar su posición exacta y después reconstruir la historia pieza a pieza, como si fuera un gran puzle. En los areneros podéis imaginar cómo es el trabajo real: con paciencia, pinceles y herramientas pequeñas, los arqueólogos retiran la tierra cuidadosamente hasta descubrir huellas del pasado. Pero no todos los yacimientos guardan restos de humanos. También existen los yacimientos paleontológicos, donde se encuentran fósiles de dinosaurios. Allí trabajan los paleontólogos, que excavan con las mismas técnicas cuidadosas para recuperar fósiles sin dañarlos. Tanto arqueólogos como paleontólogos nos ayudan a viajar en el tiempo, desde los dinosaurios hasta los primeros seres humanos… ¡y a entender mejor la historia de la vida en la Tierra!",
+      "sabiasQue": "¿Sabías que en Atapuerca se encontraron restos humanos tan antiguos que ayudaron a reescribir la historia de cómo llegó el hombre a Europa?"
+    }
+  },
+  "13": {
+    "titulo": "El hombre de Neandertal",
+    "avatarDialogo": {
+      "dialogo": "Parada 13. El hombre de Neandertal, un antepasado fuerte que caminó junto a los primeros humanos",
+      "mensaje": "Aquí encontramos dos elementos que nos ayudan a conocer mejor a los neandertales: una lanza de caza y un sauce. Los neandertales vivieron en Europa y parte de Asia hace entre 400.000 y 40.000 años. Eran muy parecidos a nosotros, el Homo sapiens, pero algo más robustos y de baja estatura (alrededor de 1,60 m). Su cráneo era más alargado, con cejas prominentes, una nariz grande adaptada al frío y una mandíbula poderosa. Técnicas de caza: Los neandertales fabricaban lanzas de madera endurecida al fuego, a veces con puntas de piedra. No cazaban solos, sino en grupos organizados. Una de sus técnicas consistía en cavar agujeros en el suelo para que los animales quedaran atrapados, y entonces podían acercarse y tirar sus lanzas con más seguridad. De esta forma cazaban grandes animales como caballos salvajes, ciervos o bisontes, compartiendo después la carne y aprovechando también la piel y los huesos. Curación y cuidado: Las heridas eran habituales en la caza, y sabemos de ellas gracias a los huesos y cráneos encontrados en yacimientos, que muestran fracturas o golpes que llegaron a curarse en vida. Para aliviar el dolor recurrían a la naturaleza. El sauce, el árbol que veis aquí, era muy importante: de su corteza obtenían una sustancia que calmaba el dolor y la fiebre. Es el mismo principio que, siglos más tarde, se usaría para crear la aspirina. Esto nos muestra que los neandertales no solo eran grandes cazadores, sino también conocedores de la naturaleza y capaces de cuidarse unos a otros.",
+      "sabiasQue": "¿Sabías que el hombre de Neandertal tenía un cerebro tan grande o incluso más que el nuestro?"
+    }
+  },
+  "14": {
+    "titulo": "Cráneos y evolución humana",
+    "avatarDialogo": {
+      "dialogo": "Parada 14. Cada cráneo cuenta la historia de cómo evolucionó nuestra especie",
+      "mensaje": "Bienvenidos a nuestro pequeño museo. En estas vitrinas vemos cráneos de homínidos como chimpancés y gorilas (los que estudió Jane Goodall), y también de australopithecus, con un cerebro mucho más pequeño que el nuestro (aproximadamente el 35%). Entre ellos está la representación del cráneo de Lucy, llamada “la madre de la humanidad”, cuyo nombre se inspiró en la canción de The Beatles. Más adelante aparecen cráneos de distintas especies de Homo, nuestra propia familia. Nos detenemos en el Homo neanderthalensis: hoy sabemos, gracias al análisis del genoma, que se cruzaron con Homo sapiens, y que todavía conservamos cerca de un 2% de ADN neandertal en los humanos euroasiáticos ¿Y qué significa eso? Ese pequeño porcentaje de ADN nos sigue influyendo hoy en cosas como: El sistema inmunitario, que heredó defensas frente a enfermedades. La piel y el cabello, que en algunos casos son más claros gracias a esa herencia. Incluso la forma del cuerpo o la tolerancia a ciertos climas fríos. Fijaos en cómo la forma de la cabeza ha ido cambiando a lo largo de la evolución, permitiendo que el cerebro creciera. Ese cerebro más grande nos permitió hablar, planificar, crear herramientas y obras de arte como estos objetos que pueden verse en la última vitrina. Los propulsores (de hiena o de caballo de Bruniquel), que se usaban para lanzar lanzas con más fuerza y distancia. Lo sorprendente es que estaban finamente tallados en hueso, convertidos en auténticas obras de arte. Las Venus paleolíticas, como la famosa Venus de Willendorf. Estas estatuillas femeninas, con atributos muy marcados y sin rostro, se interpretan como símbolos de fertilidad y representación de la Gran Madre. Y por último, abajo de la vitrina,una lámpara paleolítica magdaleniense, hallada en la cueva de Lascaux, hecha con grasa animal y restos vegetales como el enebro. Gracias a estas lámparas, los humanos pudieron iluminar el interior de las cuevas para pintar lo que veremos a continuación.",
+      "sabiasQue": "¿Sabías que estudiar cráneos antiguos nos permite entender cómo cambiaron nuestras habilidades y comportamiento con la evolución?"
+    }
+  },
+  "15": {
+    "titulo": "Cuevas y arte rupestre",
+    "avatarDialogo": {
+      "dialogo": "Parada 15. ¿Ves esas pinturas? Son mensajes silenciosos de una humanidad muy antigua.",
+      "mensaje": "Bienvenidos y bienvenidas a esta reproducción de una cueva que reúne ejemplos de las pinturas rupestres más impresionantes encontradas en distintos lugares del mundo. Comenzamos situándonos en el centro de la cueva, mirando a la pared opuesta a la salida. ¿veis esas huellas de manos en la pared? Son lo que se denominan manos en positivo y negativo: aparecen en muchas cuevas del mundo, son huellas hechas soplando pigmento con la mano apoyada en la roca (negativo) o pintándola y presionándola sobre la pared (positivo). Demuestran que existía una técnica compartida y transmitida entre comunidades. Ahora os propongo una adivinanza: ¿Qué representan esos dibujos que ocupan el centro de la pared?... ¡Son focas! se han encontrado en una cueva de Nerja (Málaga) y nos demuestran que hace miles de años el clima era tan frío que había focas en la costa andaluza. Algunos estudios creen que podrían haber sido pintadas por neandertales, lo que cambiaría la idea de que solo los sapiens tenían capacidad artística. A continuación, dirigir la atención hacia la pared a vuestra derecha, estais ante La reproducción de la “sala de los toros” de la cueva de Lascaux (Francia), nos muestra caballos, bisontes y ciervos de gran policromía, pintados con pigmentos naturales de origen mineral y mezclados con grasas animales o vegetales. Los artistas aprovecharon las formas de la roca para dar volumen y realismo. Continuamos ahora contemplando la pared izquierda en la que vemos el panel de los leones de la cueva de Chauvet (Francia). Vemos una escena de caza, con gran dinamismo, en la que aparecen rinocerontes y leones. Si nos giramos mirando a la izquierda de la salida vemos El Chamán de Trois-Frères (Francia), una figura mitad humana, mitad animal, que parece danzar en un rito mágico. Es una de las primeras pruebas de chamanismo y espiritualidad en la prehistoria. Al otro lado de la puerta vemos una pintura que representa un mamut, animal que coexistió con el hombre en el Paleolítico.  Estas manifestaciones artísticas nos muestran que el arte rupestre no era simple decoración: Servía para transmitir conocimientos, como las técnicas de caza. Expresaba creencias y espiritualidad, relacionadas con la naturaleza y los animales. Y, sobre todo, es la primera prueba de que el ser humano soñaba, imaginaba y creaba símbolos.",
+      "sabiasQue": "¿Sabías que usaban pigmentos naturales de rocas y carbón?"
+    }
+  },
+  "16": {
+    "titulo": "Los poblados nómadas",
+    "avatarDialogo": {
+      "dialogo": "Llegamos a la parada 16. ¡Los nómadas eran exploradores como nosotros!",
+      "mensaje": "¡Bienvenidos y bienvenidas a un poblado nómada típico del Paleolítico! Paleolítico significa piedra antigua (por el uso de herramientas de piedra tallada, rudimentarias), es la primera y más larga etapa de la Prehistoria. En el Paleolítico, los seres humanos eran nómadas: no vivían en un lugar fijo, sino que se desplazaban constantemente en busca de alimento, agua y refugio. Esto se debía a que el clima cambiaba con frecuencia —épocas muy frías llamadas glaciaciones se alternaban con otras más templada. Para sobrevivir, tenían que adaptarse, moverse y colaborar. Estas viviendas, hechas con palos, pieles y piedras, eran ligeras y fáciles de desmontar. A veces también se refugiaban en cuevas ¿Cómo conseguían alimentos? Cazando, pescando o recolectando frutos y raíces. Cada persona tenía un papel: unos cazaban, otros cuidaban de los niños o preparaban herramientas. Vivían en clanes, pequeños grupos familiares unidos por la cooperación. Si varios clanes se unían, formaban una tribu. Como podéis ver, el fuego era el corazón del poblado: daba calor, luz, protección y permitía cocinar los alimentos, esto último ayudó a mejorar la salud de sus habitantes.",
+      "sabiasQue": "¿Sabías que no tenían casas fijas y vivían en chozas?"
+    }
+  },
+  "17": {
+    "titulo": "Primeros poblados sedentarios",
+    "avatarDialogo": {
+      "dialogo": "¡Parada 17! Dejar de moverse y empezar a construir... ¡eso sí que fue un gran cambio!",
+      "mensaje": "Mirad bien este poblado… algo ha cambiado ¿verdad? Ya no viven en cuevas, ni tipis, ni se trasladan de un lugar a otro. Ahora son sedentarios, es decir, viven siempre en el mismo sitio. ¿Y sabéis qué permitió este gran cambio? La agricultura. Cultivaban plantas y domesticaban animales, así que ya no necesitaban ir buscando comida constantemente. Por eso como podéis ver, las casas ya son fijas y resistentes, hechas con adobe, madera y piedra. Y en el centro del poblado está el fuego, punto de encuentro para cocinar, calentarse, protegerse y reunirse. Al fondo tenéis el corral, donde criaban animales, y el pozo, que les daba agua sin tener que desplazarse. Esa gran cabaña es la casa de todos: allí tomaban decisiones importantes, celebraban rituales o se reunían los guerreros. ¿Veis esas pieles extendidas al sol? Es el secadero de pieles, que usaban para preparar ropa, calzado y mantas. Junto al fuego está el merendero, donde toda la comunidad comía junta, compartiendo alimentos y momentos. La empalizada protegía todo esto: personas, animales, cultivos… y lo que para ellos ya era valioso. Gracias a la agricultura, nació una nueva forma de vida: más estable, organizada… ¡y muy parecida a la nuestra!",
+      "sabiasQue": "¿Sabías que comenzaron a construir aldeas permanentes?"
+    }
+  },
+  "18": {
+    "titulo": "Pinturas del Sáhara y de Laja Alta",
+    "avatarDialogo": {
+      "dialogo": "Parada 18. Estas pinturas revelan cómo en la Prehistoria ya cuidaban su ganado y surcaban los mares",
+      "mensaje": "Fijaos bien en este gran mural con pinturas rupestres. Cada una nos cuenta una historia de cómo vivían nuestros antepasados. Mirad al centro, a la derecha, esas figuras humanas en grupo. Representan a personas cuidando del ganado, y fueron encontradas en el Sáhara, en Argelia. Son muy realistas y nos muestran la vida social y cotidiana de aquel momento. La ganadería fue una auténtica revolución: ya no dependían solo de la caza, ahora podían criar animales y asegurarse alimento, pieles y compañía durante todo el año. Más allá, observad la pintura de un carro en el que aparece una rueda. Es un hallazgo impresionante, porque la rueda fue uno de los inventos más importantes de la historia: facilitó el transporte, la agricultura y el comercio…Y ahora, girad la vista hacia la derecha, junto a la entrada de la casa de Çatal Hüyük ¿Veis esos barcos de vela? Se descubrieron en Laja Alta, Cádiz.  Al principio se pensó que eran de época fenicia, pero ya hay estudios de la Universidad de Granada, que apuntan a la Edad del Cobre, una etapa de transición entre el Neolítico y la Edad del Bronce. Estamos ante un solo mural, pero con escenas que nos hablan de viajes, animales, personas… y de cómo el ser humano empezó a contar su historia a través de imágenes. Y ahora decidme…: si vosotros pudierais pintar en esta pared vuestra vida cotidiana ¿qué escena dibujaríais?",
+      "sabiasQue": "¿Sabías que las pinturas del Sahara y La Laja Alta son algunas de las primeras evidencias de sociedades organizadas y navegación antigua?"
+    }
+  },
+  "19": {
+    "titulo": "Çatalhöyük",
+    "avatarDialogo": {
+      "dialogo": "Parada 19. Esta es una de las primeras ciudades donde comenzó la vida en comunidad",
+      "mensaje": "Bienvenidos y bienvenidas a la reproducción de una casa de Çatal Hüyük, una ciudad muy antigua en Turquía, de hace 9.000 años ¿Veis la escalera apoyada en la pared? ¡Con ella entraban a la casa por el techo! No tenían puertas en el suelo, así evitaban ratones, animales peligrosos e incluso las inundaciones causadas por el río cercano. Como podéis observar, dentro había hornos para hacer pan, vasijas de barro y hasta un mapa de la ciudad pintado en la pared. La vida de sus habitantes era mucho más confortable y organizada que antes. Veneraban a una diosa madre, que veis al fondo representada por una figura femenina de grandes curvas, para ellos era un símbolo de fertilidad y protección, porque aseguraba la caza, los cultivos y la continuidad de la comunidad. Está rodeada de toros símbolo de virilidad y de la caza. Ahora, mirad la pared del fondo ¿Reconocéis qué aves están ahí representadas? Son buitres, que rodean unas figuras humanas sin cabeza. Creían que el alma estaba en la cabeza, por eso cuando falleció sus seres queridos, enterraban solo los cráneos ¿Dónde? bajo el suelo de sus casas. Çatal Hüyük ya tenía jefes, templos, comida que guardaban e intercambiaban... Fue el inicio de las grandes civilizaciones. Estas enormes piedras fueron colocadas hace unos 5.000 años, en plena Edad del Cobre y del Bronce ¿Os imagináis cómo pudieron mover y levantar rocas de más de 40 toneladas sin grúas ni máquinas?",
+      "sabiasQue": "¿Sabías que en Çatalhöyük, las casas se construían unas junto a otras sin calles, y la gente entraba por el techo?"
+    }
+  },
+  "20": {
+    "titulo": "Stonehenge",
+    "avatarDialogo": {
+      "dialogo": "¡Mira estas piedras gigantes en la ultima parada! ¿Quién las puso ahí? ¡Vamos a investigarlo!",
+      "mensaje": "Aquí terminamos nuestro viaje en el tiempo, frente a la impresionante reproducción de Stonehenge, Inglaterra. Su construcción sigue siendo un misterio. Algunos creen que era un templo religioso, otros un observatorio astronómico para marcar los solsticios y las estaciones, y otros que fue un lugar de reunión ceremonial. Lo que sí sabemos es que aquí se reunían muchas personas, lo que demuestra una sociedad organizada y con creencias compartidas. El sol se alinea con algunas piedras en los solsticios: un espectáculo que sigue fascinando hoy igual que hace miles de años. Hemos viajado juntos por el tiempo y llegado hasta estas grandes piedras de Stonehenge en la edad del Cobre. Gracias a este viaje en el tiempo, habéis podido comprobar que los humanos siempre hemos tenido algo en común: nos gusta soñar, creer y construir cosas juntos… y que la historia no son solo piedras antiguas… es el camino que nos ha llevado a ser como somos ahora. ¡Gracias por acompañarnos en este viaje en el tiempo! ¡Y hasta la próxima!",
+      "sabiasQue": "¿Sabías que algunas alineaciones indican los solsticios?"
+    }
+  },
+  "vitrinaVirtual": {
+    "galeriaVirtual": "Galería Virtual Medallas Prehistóricas",
+    "conseguido": "Has conseguido {{completadas}} de {{total}} medallas",
+    "volver": "Volver",
+    "medallas": {
+      "3": {
+        "titulo": "Primeras plantas",
+        "curiosidad": "Colonizaron la tierra hace más de 450 millones de años."
+      },
+  
+      "6": {
+        "titulo": "Primeras flores",
+        "curiosidad": "Aparecieron hace 150 millones de años."
+      },
+      "9": {
+        "titulo": "Segundos dinosaurios",
+        "curiosidad": "Dominaron la Tierra durante millones de años."
+      },
+      "10": {
+        "titulo": "Tortugas de las Galápagos",
+        "curiosidad": "Su caparazón puede cambiar según la isla."
+      },
+      "11": {
+        "titulo": "Huellas de Laetoli",
+        "curiosidad": "Conserva huellas humanas de hace más de 800.000 años."
+      },
+      "13": {
+        "titulo": "El hombre de Neandertal",
+        "curiosidad": "Su cerebro era más grande que el de los humanos modernos."
+      },
+      "15": {   
+        "titulo": "Cuevas y arte rupestre",
+        "curiosidad": "Algunas pinturas tienen más de 30.000 años."
+      },
+      "16": {
+        "titulo": "Poblados nómadas",
+        "curiosidad": "Vivían en chozas y seguían a los animales."
+      },
+      "19": {
+        "titulo": "Çatalhöyük",
+        "curiosidad": "No había calles; los techos servían como aceras."
+      },
+      "20": {
+        "titulo": "Stonehenge",
+        "curiosidad": "Fue construido hace más de 4.500 años."
+      }
+    }
+  }
+}
+  
+
+
+
