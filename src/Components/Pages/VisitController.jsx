@@ -85,49 +85,52 @@ const VisitController = () => {
     setViewState(VIEW_STATE.MAP);
   };
 
-  // Render based on state
-  if (viewState === VIEW_STATE.STOP) {
-    return (
-      <StopScreen
-        stop={currentStop}
-        onNext={handleNext}
-        onPrev={handlePrev}
-        stopIndex={currentStopIndex}
-        totalStops={actividades.length}
-      />
-    );
-  }
+  // Render logic
+  const isChallengeActive = viewState === VIEW_STATE.CHALLENGE;
+  const isChallengePrompt = viewState === VIEW_STATE.CHALLENGE_PROMPT;
+  const isMapActive = viewState === VIEW_STATE.MAP;
+  const isStopActive = viewState === VIEW_STATE.STOP;
 
-  if (viewState === VIEW_STATE.CHALLENGE_PROMPT) {
-    return (
-      <ChallengePrompt
-        onYes={() => onChallengeDecision(true)}
-        onNo={() => onChallengeDecision(false)}
-        onBack={handlePrev}
-      />
-    );
-  }
+  return (
+    <>
+      {/* ALWAYS render ChallengeView if there is a URL, but hide it if not active. 
+          This preserves the iframe state (progress) when user navigates away temporarily. */}
+      <div style={{ display: isChallengeActive ? 'block' : 'none', height: '100%', width: '100%' }}>
+        {currentStop.geniallyURL && currentStop.geniallyURL !== "#" && (
+          <ChallengeView
+            url={currentStop.geniallyURL}
+            onFinish={onChallengeFinish}
+          />
+        )}
+      </div>
 
-  if (viewState === VIEW_STATE.CHALLENGE) {
-    return (
-      <ChallengeView
-        url={currentStop.geniallyURL}
-        onFinish={onChallengeFinish}
-      />
-    );
-  }
+      {isStopActive && (
+        <StopScreen
+          stop={currentStop}
+          onNext={handleNext}
+          onPrev={handlePrev}
+          stopIndex={currentStopIndex}
+          totalStops={actividades.length}
+        />
+      )}
 
-  if (viewState === VIEW_STATE.MAP) {
-    return (
-      <IntermediateMap
-        nextStop={nextStop}
-        onContinue={handleNext}
-        onBack={handlePrev}
-      />
-    );
-  }
+      {isChallengePrompt && (
+        <ChallengePrompt
+          onYes={() => onChallengeDecision(true)}
+          onNo={() => onChallengeDecision(false)}
+          onBack={handlePrev}
+        />
+      )}
 
-  return null;
+      {isMapActive && (
+        <IntermediateMap
+          nextStop={nextStop}
+          onContinue={handleNext}
+          onBack={handlePrev}
+        />
+      )}
+    </>
+  );
 };
 
 export default VisitController;
