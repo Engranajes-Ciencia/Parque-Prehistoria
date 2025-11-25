@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import actividades from '../../config/data/actividades.json';
 import StopScreen from './StopScreen';
 import IntermediateMap from './IntermediateMap';
@@ -15,8 +15,22 @@ const VIEW_STATE = {
 
 const VisitController = () => {
   const navigate = useNavigate();
-  const [currentStopIndex, setCurrentStopIndex] = useState(0);
-  const [viewState, setViewState] = useState(VIEW_STATE.STOP);
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  // Initialize state from URL or defaults
+  const initialStopIndex = parseInt(searchParams.get('stop')) - 1 || 0;
+  const initialViewState = searchParams.get('view') || VIEW_STATE.STOP;
+
+  const [currentStopIndex, setCurrentStopIndex] = useState(initialStopIndex);
+  const [viewState, setViewState] = useState(initialViewState);
+
+  // Sync state to URL
+  useEffect(() => {
+    setSearchParams({
+      stop: currentStopIndex + 1,
+      view: viewState
+    });
+  }, [currentStopIndex, viewState, setSearchParams]);
 
   // Ensure we have data
   if (!actividades || actividades.length === 0) {
