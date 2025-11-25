@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import './StopScreen.css';
+import sabiasQueData from '../../config/data/sabias_que.json';
 
 const StopScreen = ({ stop, onNext, onPrev, stopIndex, totalStops }) => {
     const audioGeneralRef = useRef(null);
@@ -62,6 +63,8 @@ const StopScreen = ({ stop, onNext, onPrev, stopIndex, totalStops }) => {
         if (type === 'kids') setIsPlayingKids(false);
     };
 
+    const sabiasQueText = sabiasQueData[stop.id];
+
     return (
         <div className="stop-screen" style={{ backgroundImage: `url(${stop.imagenAlternativa})` }}>
             <div className="stop-overlay">
@@ -88,15 +91,21 @@ const StopScreen = ({ stop, onNext, onPrev, stopIndex, totalStops }) => {
                         </button>
                     </div>
 
-                    <div className="did-you-know">
-                        <h3>¿Sabías qué...</h3>
-                        <p>Aquí iría el texto de curiosidades si existiera en el JSON, o un texto genérico.</p>
-                    </div>
+                    {sabiasQueText && (
+                        <div className="did-you-know">
+                            <h3>¿Sabías qué...</h3>
+                            <p>{sabiasQueText}</p>
+                        </div>
+                    )}
                 </div>
 
                 <div className="nav-controls">
-                    <button className="nav-btn prev" onClick={onPrev}>←</button>
-                    <button className="nav-btn next" onClick={onNext}>→</button>
+                    <button className="nav-btn prev" onClick={onPrev}>
+                        <span className="nav-arrow">←</span> Anterior
+                    </button>
+                    <button className="nav-btn next" onClick={onNext}>
+                        Siguiente <span className="nav-arrow">→</span>
+                    </button>
                 </div>
 
                 <audio
