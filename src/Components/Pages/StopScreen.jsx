@@ -65,8 +65,27 @@ const StopScreen = ({ stop, onNext, onPrev, stopIndex, totalStops }) => {
 
     const sabiasQueText = sabiasQueData[stop.id];
 
+    const [backgroundImage, setBackgroundImage] = useState('');
+
+    useEffect(() => {
+        const backgroundImages = [
+            '/assets/images/nogenially/craneos.png',
+            '/assets/images/nogenially/arboles.png',
+            '/assets/images/nogenially/bienvenida.jpeg',
+            '/assets/images/nogenially/dinos.png',
+            '/assets/images/nogenially/laetoli.png',
+            '/assets/images/nogenially/meganeura.png',
+            '/assets/images/nogenially/origen.png',
+            '/assets/images/nogenially/pangea.png',
+            '/assets/images/nogenially/sahara.png',
+            '/assets/images/nogenially/sedentario.png'
+        ];
+        const randomImage = backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
+        setBackgroundImage(randomImage);
+    }, [stop]);
+
     return (
-        <div className="stop-screen" style={{ backgroundImage: `url(${stop.imagenAlternativa})` }}>
+        <div className="stop-screen" style={{ backgroundImage: `url(${backgroundImage})` }}>
             <div className="stop-overlay">
                 <div className="stop-header">
                     <span className="stop-counter">Parada {stopIndex + 1} / {totalStops}</span>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './IntermediateMap.css';
 
-const IntermediateMap = ({ nextStop, onContinue, onBack }) => {
+const IntermediateMap = ({ nextStop, nextStopIndex, onContinue, onBack }) => {
     return (
         <div className="intermediate-map">
             <div className="map-card">
@@ -14,7 +14,7 @@ const IntermediateMap = ({ nextStop, onContinue, onBack }) => {
                     For now, a static image or the next stop's image. 
                 */}
                     <img src={nextStop?.imagenAlternativa} alt="Mapa" className="map-img" />
-                    <p className="map-instruction">Dirígete hacia: {nextStop?.ubicacion}</p>
+                    <p className="map-instruction">Dirígete hacia: {nextStop?.ubicacion} a la parada {nextStopIndex}</p>
                 </div>
 
                 <div className="nav-controls-map">

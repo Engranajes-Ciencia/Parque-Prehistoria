@@ -139,6 +139,7 @@ const VisitController = () => {
       {isMapActive && (
         <IntermediateMap
           nextStop={nextStop}
+          nextStopIndex={currentStopIndex + 2}
           onContinue={handleNext}
           onBack={handlePrev}
         />
