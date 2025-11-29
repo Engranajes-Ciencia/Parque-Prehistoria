@@ -68,17 +68,18 @@ const StopScreen = ({ stop, onNext, onPrev, stopIndex, totalStops }) => {
     const [backgroundImage, setBackgroundImage] = useState('');
 
     useEffect(() => {
+        const baseUrl = import.meta.env.BASE_URL;
         const backgroundImages = [
-            '/assets/images/nogenially/craneos.png',
-            '/assets/images/nogenially/arboles.png',
-            '/assets/images/nogenially/bienvenida.jpeg',
-            '/assets/images/nogenially/dinos.png',
-            '/assets/images/nogenially/laetoli.png',
-            '/assets/images/nogenially/meganeura.png',
-            '/assets/images/nogenially/origen.png',
-            '/assets/images/nogenially/pangea.png',
-            '/assets/images/nogenially/sahara.png',
-            '/assets/images/nogenially/sedentario.png'
+            `${baseUrl}assets/images/nogenially/craneos.png`,
+            `${baseUrl}assets/images/nogenially/arboles.png`,
+            `${baseUrl}assets/images/nogenially/bienvenida.jpeg`,
+            `${baseUrl}assets/images/nogenially/dinos.png`,
+            `${baseUrl}assets/images/nogenially/laetoli.png`,
+            `${baseUrl}assets/images/nogenially/meganeura.png`,
+            `${baseUrl}assets/images/nogenially/origen.png`,
+            `${baseUrl}assets/images/nogenially/pangea.png`,
+            `${baseUrl}assets/images/nogenially/sahara.png`,
+            `${baseUrl}assets/images/nogenially/sedentario.png`
         ];
         const randomImage = backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
         setBackgroundImage(randomImage);

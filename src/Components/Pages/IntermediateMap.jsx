@@ -14,7 +14,7 @@ const IntermediateMap = ({ nextStop, nextStopIndex, onContinue, onBack }) => {
                     For now, a static image or the next stop's image. 
                 */}
                     <img src={nextStop?.imagenAlternativa} alt="Mapa" className="map-img" />
-                    <p className="map-instruction">Dirígete hacia: {nextStop?.ubicacion} a la parada {nextStopIndex}</p>
+                    <p className="map-instruction">Dirígete hacia la parada {nextStopIndex}</p>
                 </div>
 
                 <div className="nav-controls-map">
