@@ -69,20 +69,27 @@ const StopScreen = ({ stop, onNext, onPrev, stopIndex, totalStops }) => {
 
     useEffect(() => {
         const baseUrl = import.meta.env.BASE_URL;
-        const backgroundImages = [
-            `${baseUrl}assets/images/nogenially/craneos.png`,
-            `${baseUrl}assets/images/nogenially/arboles.png`,
-            `${baseUrl}assets/images/nogenially/bienvenida.jpeg`,
-            `${baseUrl}assets/images/nogenially/dinos.png`,
-            `${baseUrl}assets/images/nogenially/laetoli.png`,
-            `${baseUrl}assets/images/nogenially/meganeura.png`,
-            `${baseUrl}assets/images/nogenially/origen.png`,
-            `${baseUrl}assets/images/nogenially/pangea.png`,
-            `${baseUrl}assets/images/nogenially/sahara.png`,
-            `${baseUrl}assets/images/nogenially/sedentario.png`
-        ];
-        const randomImage = backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
-        setBackgroundImage(randomImage);
+
+        // Check if we have a generated image for this stop (currently 1-7)
+        if (stop.id <= 7) {
+            setBackgroundImage(`${baseUrl}assets/images/stops/stop_${stop.id}.png`);
+        } else {
+            // Fallback to random image for other stops
+            const backgroundImages = [
+                `${baseUrl}assets/images/nogenially/craneos.png`,
+                `${baseUrl}assets/images/nogenially/arboles.png`,
+                `${baseUrl}assets/images/nogenially/bienvenida.jpeg`,
+                `${baseUrl}assets/images/nogenially/dinos.png`,
+                `${baseUrl}assets/images/nogenially/laetoli.png`,
+                `${baseUrl}assets/images/nogenially/meganeura.png`,
+                `${baseUrl}assets/images/nogenially/origen.png`,
+                `${baseUrl}assets/images/nogenially/pangea.png`,
+                `${baseUrl}assets/images/nogenially/sahara.png`,
+                `${baseUrl}assets/images/nogenially/sedentario.png`
+            ];
+            const randomImage = backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
+            setBackgroundImage(randomImage);
+        }
     }, [stop]);
 
     return (
