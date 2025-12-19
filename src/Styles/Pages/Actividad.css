@@ -1,10 +1,19 @@
-/* src/components/pages/Actividad.css */
+ src/components/pages/Actividad.css 
+
+* {
+  outline: 5px solid magenta !important;
+}
+
+
+body {
+  background: lime;
+}
 
 .audio-button-container {
   display: flex;
   justify-content: center;     
   align-items: center;
-  gap: 1rem;                   
+  gap: 1.5rem;                   
   padding: 20px 40px 20px 20px;               
   margin: 20px auto;
   width: 100%;
@@ -13,25 +22,29 @@
   background-size: cover;      
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  flex-wrap: wrap;
+  border: 5px solid red;
 }
 
 .audio-button,
 .audio-button-alt {
   justify-content: center;
   text-align: center;
-  width: 240px;
-  padding: 12px 24px;
-  font-size: 16px;
+  width: 1500px;
+  min-width: 650px;
+  padding: 30px 42px;
+  font-size: 50px;
   font-weight: bold;
   color: #fff;
   background-color: #1976d2;
   border: none;
-  border-radius: 8px;
+  border-radius: 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   display: flex;
   align-items: center;
-  gap: 8px; 
+  gap: 20px; 
+  max-width: 2000px;
 }
 
 
@@ -151,9 +164,9 @@ p {
   font-size: 1.1rem;
   font-weight: bold;
   margin-top: 14px auto;
-  background: #fff8e1df;
+  background: #000000df;
   padding: 18px 20px;
-  border-left: 6px solid #ffc107;
+  border-left: 6px solid #000000;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease;
@@ -368,16 +381,16 @@ p {
 
 /* Ajustes para el modo oscuro para .btn-volver */
 .dark .btn-volver {
-  background-color: #005cbf;
+  background-color: red;
   color: #e0e0e0 !important;
   box-shadow: 0 5px 15px rgba(0, 92, 191, 0.5);
   text-shadow: none;
 }
 
 .dark .btn-volver:hover {
-  background-color: #004c9e;
+  background-color: red;
   transform: translateY(-3px) scale(1.03);
-  box-shadow: 0 8px 20px rgba(0, 76, 158, 0.6);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.6);
 }
 
 
@@ -490,7 +503,7 @@ p {
   .sabiasque {
     font-size: 1rem;
     /* Texto del sabías qué más pequeño */
-    padding: 14px 16px;
+    
     gap: 8px;
   }
 
@@ -528,10 +541,7 @@ p {
     font-size: 24px;
   }
 
-  .sabiasque {
-    padding: 12px 14px;
-    font-size: 0.9rem;
-  }
+  
 
   .sabiasque::before {
     font-size: 20px;
@@ -542,3 +552,14 @@ p {
     font-size: 0.9rem;
   }
 }
+
+@media (max-width: 480px) {
+  .sabiasque {
+    padding: 8px 10px;
+    margin:6px auto;
+    max-width: 85%;
+    width: 85%;
+    box-sizing: border-box;
+    background: red;
+  }
+  }

@@ -4,7 +4,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.9);
+    background: lab(0% 0 0 / 0.902);
     z-index: 200;
     display: flex;
     flex-direction: column;
@@ -13,12 +13,15 @@
 }
 
 .challenge-container {
-    width: 95%;
-    height: 90%;
+    width: 90%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
     position: relative;
+    max-width: 1600px;
+    margin: 0 auto;
+    align-items: center;
 }
 
 .genially-iframe {
@@ -26,21 +29,49 @@
     height: 100%;
     border: none;
     border-radius: 12px;
-    background: white;
+    background: rgb(255, 255, 255);
 }
 
 .btn-close-challenge {
+    margin: 0px auto 90px;
+    display: block;
     align-self: center;
     background: var(--primary-color);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 50px;
-    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    padding: 60px 20px;
+    border-radius: 1px;
+    font-weight: 1000;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     z-index: 10;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.20 ease;
+    width: clamp(0px, 60%, 480px);
+    text-align: center;
+    box-shadow: 0 4px 12px hsla(0, 0%, 0%, 0.251);
+   
+
 }
 
 .btn-close-challenge:hover {
     transform: scale(1.05);
     background: var(--primary-dark);
 }
+
+.btn-close-challenge:active {
+    transform: scale(0,95);
+}
+
+@media (max-width: 768px) {
+    .btn-close-challenge {
+        margin-top: 10px;
+        position: sticky;
+        bottom: 10px;
+        z-index: 50;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        font-size: 1.6rem;
+        width: 90%;
+    }
+    }

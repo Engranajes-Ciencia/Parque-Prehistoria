@@ -1,32 +1,4 @@
-:root {
-  /* Prehistoric Nature Palette - Cheerful & Light */
-  --primary-color: #FF8C42;
-  /* Vibrant Orange (Amber/Fire) */
-  --primary-dark: #E67E22;
-  --secondary-color: #88B04B;
-  /* Prehistoric Green (Fern/Plant) */
-  --accent-color: #FF6B6B;
-  /* Bright Red/Coral for important actions */
 
-  --background-light: #FDF6E3;
-  /* Light Parchment/Sand */
-  --background-dark: #F4ECC2;
-  /* Slightly darker sand for contrast */
-
-  --text-main: #3E2723;
-  /* Dark Brown (Earth/Wood) - High contrast on light bg */
-  --text-light: #FDF6E3;
-  /* Light text for buttons */
-
-  --glass-bg: rgba(255, 255, 255, 0.6);
-  /* Lighter glass */
-  --glass-border: rgba(255, 255, 255, 0.8);
-  --shadow: 0 8px 32px 0 rgba(62, 39, 35, 0.15);
-  /* Softer shadow */
-
-  /* Typography */
-  --font-main: 'Outfit', sans-serif;
-}
 
 body {
   margin: 0;
@@ -58,7 +30,7 @@ button {
 /* Button Styles */
 .btn-primary {
   background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
-  color: white;
+  color: var(--letras-color);
   padding: 12px 24px;
   border-radius: 50px;
   font-weight: bold;

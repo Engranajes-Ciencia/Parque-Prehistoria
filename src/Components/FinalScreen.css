@@ -1,0 +1,63 @@
+.final-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/assets/fondos/final-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.final-card {
+  background: rgb(131, 150, 45);
+  padding: 36px 48px;
+  border-radius: 20px;
+  text-align: center;
+
+  max-width: 500px; /* ⬅️ MÁS ANCHA */
+  width: 70%;
+}
+
+
+
+
+
+.final-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.final-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 20px 0 28px;
+  padding: 18px 36px;
+
+  border-radius: 999px;
+
+  background-color: #a34141;
+  color: #ff0000;
+
+  font-size: 1.25rem;   /* ⬅️ MÁS GRANDE */
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.final-tag {
+  border: none;
+  cursor: pointer;
+}
+
+.final-tag:focus {
+  outline: none;
+}
+
+
+
+
+

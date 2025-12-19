@@ -1,0 +1,50 @@
+:root {
+  /* 🎧 Audio buttons */
+  --audio-main-bg: rgb(156, 85, 31);
+  --audio-main-border: rgb(255, 255, 255); /* Audio General(Recuadro) */
+
+  --audio-alt-bg: rgb(68, 92, 223); 
+  --audio-alt-border: rgb(255, 255, 255); /* Audio Infantil(Recuadro) */
+
+  --audio-text: rgb(0, 0, 0); /* Texto de Audio General e Infantil */
+}
+
+:root {
+  --nav-btn-text: rgb(92, 53, 53); /* Color del texto de Anterior y Siguiente en las pantallas de Sabías qué */
+  --nav-btn-bg: rgb(255, 201, 4); /* Color del recuadro que contiene el texto de Anterior y Siguiente en las pantallas de Sabías qué */
+}
+
+:root {
+     .stop-overlay {
+  --stop-overlay-bg: rgba(111, 112, 69, 0.9);/* Color del recuadro donde va todo el contenido en las páginas de Sabías qué*/
+}
+
+}
+
+:root {
+  --primary-color: #ff5500; /*Cambia Prehistoria de la página de bienvenida, Iniciar Visita de la misma página, Parada1/19..., ¿Sabías qué..., el título de las paradas de los mapas, el recuadro de Terminar Reto y Continuar cuando aceptas el desafío, el botón de ¡Sí, Vamos!y el botón de continuar de las paradas de los mapas y el botón de FINALIZAR VISITA de la última página*/
+  --primary-dark: #000000; /*Sombreado del botón INICIAR VISITA, continuar de las pantallas de mapas, ¡Sí, Vamos! de la pantalla de desafío disponible y del de FINALIZAR VISITA*/
+  --secondary-color: #434216;/*Recuadro en el que va el contenido de las pantallas de mapas*/
+  --accent-color: #000000;
+  --background-light: #ffd900; /*Zona donde está puesto el fondo de pantalla*/
+  --background-dark: #000000;
+  --text-main: #000000; /*Título de las pantallas en donde están los audios, Texto de abajo de Parada y de ¿Sabías qué, de pregunta de desafío, Has completado la Visita y Gracias por recorrer...*/
+  --text-light: #76663a;/*Borde de Instrucciones e Instrucciones, borde de Volver y Volver en las paradas de mapas, No, seguir al mapa y su borde en las pantallas de Desafío Disponible, Volver de esa misma pantalla y Volver y su borde en la última pantalla*/
+  --glass-bg: rgba(0, 0, 0, 0.6);
+  --glass-border: rgba(0, 0, 0, 0.8);
+  --shadow: 0 8px 32px 0 rgba(255, 204, 0, 0.979);
+  --font-main: 'Outfit', sans-serif;
+}
+
+:root {
+  --Siguiente-Paradacolor: hsl(73, 70%, 8%);/*Texto de Siguiente parada dentro de los mapas*/
+  --Fondo-color:rgba(67, 166, 166, 0.55);/*Recuadro de Siguiente parada dentro de los mapas*/
+}
+
+:root {
+  --letras-color: rgb(35, 60, 25);/*Texto INICIAR VISITA , FINALIZAR VISITA, continuar de las pantallas de mapas y Sí Vamos de las pantallas de desafío disponible*/
+}
+
+
+
+

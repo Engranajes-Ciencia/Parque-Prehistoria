@@ -1,6 +1,8 @@
 import React, { useRef, useEffect, useState } from 'react';
 import './StopScreen.css';
 import sabiasQueData from '../../config/data/sabias_que.json';
+import { fondoAleatorio } from "../../config/fondos";
+
 
 const StopScreen = ({ stop, onNext, onPrev, stopIndex, totalStops }) => {
     const audioGeneralRef = useRef(null);
@@ -65,16 +67,12 @@ const StopScreen = ({ stop, onNext, onPrev, stopIndex, totalStops }) => {
 
     const sabiasQueText = sabiasQueData[stop.id];
 
-    const [backgroundImage, setBackgroundImage] = useState('');
+    const [, setBackgroundImage] = useState('');
 
     useEffect(() => {
         const baseUrl = import.meta.env.BASE_URL;
 
-        // Check if we have a generated image for this stop (currently 1-7)
-        if (stop.id <= 7) {
-            setBackgroundImage(`${baseUrl}assets/images/stops/stop_${stop.id}.png`);
-        } else {
-            // Fallback to random image for other stops
+        // Fallback to random image for other stops
             const backgroundImages = [
                 `${baseUrl}assets/images/nogenially/craneos.png`,
                 `${baseUrl}assets/images/nogenially/arboles.png`,
@@ -89,11 +87,19 @@ const StopScreen = ({ stop, onNext, onPrev, stopIndex, totalStops }) => {
             ];
             const randomImage = backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
             setBackgroundImage(randomImage);
-        }
+        
     }, [stop]);
 
     return (
-        <div className="stop-screen" style={{ backgroundImage: `url(${backgroundImage})` }}>
+        <div 
+           className="stop-screen"
+           style={{
+              backgroundImage: `url(${fondoAleatorio()})`,
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat"
+           }}
+        >
+
             <div className="stop-overlay">
                 <div className="stop-header">
                     <span className="stop-counter">Parada {stopIndex + 1} / {totalStops}</span>

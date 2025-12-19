@@ -1,16 +1,18 @@
-import React, { useState, useEffect } from 'react';
-import { useNavigate, useSearchParams } from 'react-router-dom';
-import actividades from '../../config/data/actividades.json';
-import StopScreen from './StopScreen';
-import IntermediateMap from './IntermediateMap';
-import ChallengePrompt from './ChallengePrompt';
-import ChallengeView from './ChallengeView';
+import React, { useState, useEffect } from "react";
+import { useNavigate, useSearchParams } from "react-router-dom";
+import actividades from "../../config/data/actividades.json";
+
+import StopScreen from "./StopScreen";
+import IntermediateMap from "./IntermediateMap";
+import ChallengePrompt from "./ChallengePrompt";
+import ChallengeView from "./ChallengeView";
+import FinalScreen from "../FinalScreen";
 
 const VIEW_STATE = {
-  STOP: 'STOP',
-  CHALLENGE_PROMPT: 'CHALLENGE_PROMPT',
-  CHALLENGE: 'CHALLENGE',
-  MAP: 'MAP'
+  STOP: "STOP",
+  CHALLENGE_PROMPT: "CHALLENGE_PROMPT",
+  CHALLENGE: "CHALLENGE",
+  MAP: "MAP",
 };
 
 const VisitController = () => {
@@ -18,8 +20,8 @@ const VisitController = () => {
   const [searchParams, setSearchParams] = useSearchParams();
 
   // Initialize state from URL or defaults
-  const initialStopIndex = parseInt(searchParams.get('stop')) - 1 || 0;
-  const initialViewState = searchParams.get('view') || VIEW_STATE.STOP;
+  const initialStopIndex = parseInt(searchParams.get("stop")) - 1 || 0;
+  const initialViewState = searchParams.get("view") || VIEW_STATE.STOP;
 
   const [currentStopIndex, setCurrentStopIndex] = useState(initialStopIndex);
   const [viewState, setViewState] = useState(initialViewState);
@@ -28,7 +30,7 @@ const VisitController = () => {
   useEffect(() => {
     setSearchParams({
       stop: currentStopIndex + 1,
-      view: viewState
+      view: viewState,
     });
   }, [currentStopIndex, viewState, setSearchParams]);
 
@@ -41,75 +43,66 @@ const VisitController = () => {
   const nextStop = actividades[currentStopIndex + 1];
 
   const handleNext = () => {
-    // Logic to move from STOP -> (CHALLENGE?) -> MAP -> NEXT STOP
-
     if (viewState === VIEW_STATE.STOP) {
-      // Check if current stop has a challenge
-      const hasChallenge = currentStop.geniallyURL && currentStop.geniallyURL !== "#";
+      const hasChallenge =
+        currentStop.geniallyURL && currentStop.geniallyURL !== "#";
 
       if (hasChallenge) {
         setViewState(VIEW_STATE.CHALLENGE_PROMPT);
       } else {
-        // No challenge, go to map (if there is a next stop)
-        if (nextStop) {
-          setViewState(VIEW_STATE.MAP);
-        } else {
-          // End of tour
-          navigate('/final'); // Or some end screen
-        }
+        // Siempre vamos a MAP; el render decide si es mapa o final
+        setViewState(VIEW_STATE.MAP);
       }
-    } else if (viewState === VIEW_STATE.CHALLENGE_PROMPT) {
-      // This state is handled by the prompt buttons (Yes/No)
     } else if (viewState === VIEW_STATE.MAP) {
-      // Move to next stop
       if (nextStop) {
-        setCurrentStopIndex(prev => prev + 1);
+        setCurrentStopIndex((prev) => prev + 1);
         setViewState(VIEW_STATE.STOP);
       }
     }
   };
 
   const handlePrev = () => {
-    // Logic to go back
     if (viewState === VIEW_STATE.STOP) {
       if (currentStopIndex > 0) {
-        setCurrentStopIndex(prev => prev - 1);
+        setCurrentStopIndex((prev) => prev - 1);
         setViewState(VIEW_STATE.STOP);
       } else {
-        navigate('/'); // Back to start
+        navigate("/");
       }
-    } else if (viewState === VIEW_STATE.MAP) {
-      setViewState(VIEW_STATE.STOP); // Back to the stop we just finished
-    } else if (viewState === VIEW_STATE.CHALLENGE_PROMPT) {
-      setViewState(VIEW_STATE.STOP); // Back to the stop
+    } else if (
+      viewState === VIEW_STATE.MAP ||
+      viewState === VIEW_STATE.CHALLENGE_PROMPT
+    ) {
+      setViewState(VIEW_STATE.STOP);
     } else if (viewState === VIEW_STATE.CHALLENGE) {
-      setViewState(VIEW_STATE.CHALLENGE_PROMPT); // Back to prompt
+      setViewState(VIEW_STATE.CHALLENGE_PROMPT);
     }
   };
 
   const onChallengeDecision = (play) => {
-    if (play) {
-      setViewState(VIEW_STATE.CHALLENGE);
-    } else {
-      setViewState(VIEW_STATE.MAP);
-    }
+    setViewState(play ? VIEW_STATE.CHALLENGE : VIEW_STATE.MAP);
   };
 
   const onChallengeFinish = () => {
     setViewState(VIEW_STATE.MAP);
   };
 
-  // Render logic
-  const isChallengeActive = viewState === VIEW_STATE.CHALLENGE;
-  const isChallengePrompt = viewState === VIEW_STATE.CHALLENGE_PROMPT;
-  const isMapActive = viewState === VIEW_STATE.MAP;
+  // Render flags
   const isStopActive = viewState === VIEW_STATE.STOP;
+  const isChallengePrompt = viewState === VIEW_STATE.CHALLENGE_PROMPT;
+  const isChallengeActive = viewState === VIEW_STATE.CHALLENGE;
+  const isMapActive = viewState === VIEW_STATE.MAP;
 
   return (
     <>
-      {/* ALWAYS render ChallengeView if there is a URL, but hide it if not active. 
-          This preserves the iframe state (progress) when user navigates away temporarily. */}
-      <div style={{ display: isChallengeActive ? 'block' : 'none', height: '100%', width: '100%' }}>
+      {/* Challenge iframe (persistente) */}
+      <div
+        style={{
+          display: isChallengeActive ? "block" : "none",
+          height: "100%",
+          width: "100%",
+        }}
+      >
         {currentStop.geniallyURL && currentStop.geniallyURL !== "#" && (
           <ChallengeView
             url={currentStop.geniallyURL}
@@ -136,7 +129,15 @@ const VisitController = () => {
         />
       )}
 
-      {isMapActive && (
+      {/* MAPA O PANTALLA FINAL */}
+      {isMapActive && !nextStop && (
+        <FinalScreen
+          onBack={handlePrev}
+          onFinish={() => navigate("/")}
+        />
+      )}
+
+      {isMapActive && nextStop && (
         <IntermediateMap
           nextStop={nextStop}
           nextStopIndex={currentStopIndex + 2}
@@ -149,3 +150,4 @@ const VisitController = () => {
 };
 
 export default VisitController;
+

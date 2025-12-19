@@ -5,13 +5,14 @@
     "ubicacion": "Entrada principal del parque",
     "posX": 58.21,
     "posY": 79.75,
+    "labelPos": {
     "audio": "sounds/paradasaudio/ESP/parada1ESP.mp3",
     "audioENG": "sounds/paradasaudio/ENG/parada1ENG.mp3",
     "geniallyURL": "#",
     "imagenAlternativa": "assets/images/nogenially/bienvenida.jpeg",
     "completada": false
   },
-  {
+  
     "id": 2,
     "titulo": "El origen de la vida",
     "ubicacion": "Zona de fósiles marinos",
@@ -29,6 +30,10 @@
     "ubicacion": "Área de musgos y helechos antiguos",
     "posX": 78.82,
     "posY": 66.66,
+    "labelPos": {
+      "top": "20%",
+      "left": "50%"
+    },
     "audio": "sounds/paradasaudio/ESP/parada3ESP.mp3",
     "audioENG": "sounds/paradasaudio/ENG/parada3ENG.mp3",
     "geniallyURL": "https://view.genially.com/68ee02cfb105d8dc9ecb89c3/interactive-content-actividad-3",
@@ -41,6 +46,10 @@
     "ubicacion": "#",
     "posX": 61.2,
     "posY": 69.95,
+    "labelPos": {
+      "top": "34%",
+      "left": "50%"
+    },
     "audio": "sounds/paradasaudio/ESP/parada4ESP.mp3",
     "audioENG": "sounds/paradasaudio/ENG/parada4ENG.mp3",
     "geniallyURL": "#",
@@ -53,6 +62,10 @@
     "ubicacion": "#",
     "posX": 69.23,
     "posY": 66.21,
+    "labelPos": {
+      "top": "12%",
+      "left": "50%"
+    },
     "audio": "sounds/paradasaudio/ESP/parada5ESP.mp3",
     "audioENG": "sounds/paradasaudio/ENG/parada5ENG.mp3",
     "geniallyURL": "#",
@@ -65,6 +78,10 @@
     "ubicacion": "#",
     "posX": 71.51,
     "posY": 61.98,
+    "labelPos": {
+      "top": "6%",
+      "left": "50%"
+    },
     "audio": "sounds/paradasaudio/ESP/parada6ESP.mp3",
     "audioENG": "sounds/paradasaudio/ENG/parada6ENG.mp3",
     "geniallyURL": "https://view.genially.com/68ee07010787fb6a73733a3c/interactive-content-actividad-6",
@@ -77,6 +94,10 @@
     "ubicacion": "  # ",
     "posX": 51.45,
     "posY": 61.36,
+    "labelPos": {
+      "top": "5%",
+      "left": "50%"
+    },
     "audio": "sounds/paradasaudio/ESP/parada7ESP.mp3",
     "audioENG": "sounds/paradasaudio/ENG/parada7ENG.mp3",
     "geniallyURL": "#",
@@ -89,6 +110,10 @@
     "ubicacion": "#",
     "posX": 72.53,
     "posY": 52.61,
+    "labelPos": {
+      "top": "16%",
+      "left": "50%"
+    },
     "audio": "sounds/paradasaudio/ESP/parada8ESP.mp3",
     "audioENG": "sounds/paradasaudio/ENG/parada8ENG.mp3",
     "geniallyURL": "#",
@@ -101,6 +126,10 @@
     "ubicacion": "#",
     "posX": 56.09,
     "posY": 46.71,
+    "labelPos": {
+      "top": "29%",
+      "left": "50%"
+    },
     "audio": "sounds/paradasaudio/ESP/parada9ESP.mp3",
     "audioENG": "sounds/paradasaudio/ENG/parada9ENG.mp3",
     "geniallyURL": "https://view.genially.com/68ef39e2586139c9f3e489d6/interactive-content-actividad-9",
@@ -113,6 +142,10 @@
     "ubicacion": "#",
     "posX": 71.04,
     "posY": 39.78,
+    "labelPos": {
+      "top": "11%",
+      "left": "50%"
+    },
     "audio": "sounds/paradasaudio/ESP/parada10ESP.mp3",
     "audioENG": "sounds/paradasaudio/ENG/parada10ENG.mp3",
     "geniallyURL": "https://view.genially.com/68f5f51baad946dbd6ea6b7b/interactive-content-actividad-10",
@@ -125,6 +158,10 @@
     "ubicacion": "Descubrimiento de pisadas humanas fósiles",
     "posX": 54.12,
     "posY": 35.16,
+    "labelPos": {
+      "top": "22%",
+      "left": "50%"
+    },
     "audio": "sounds/paradasaudio/ESP/parada11ESP.mp3",
     "audioENG": "sounds/paradasaudio/ENG/parada11ENG.mp3",
     "geniallyURL": "#",
@@ -137,6 +174,10 @@
     "ubicacion": "#",
     "posX": 67.5,
     "posY": 26.47,
+    "labelPos": {
+      "top": "17%",
+      "left": "50%"
+    },
     "audio": "sounds/paradasaudio/ESP/parada12ESP.mp3",
     "audioENG": "sounds/paradasaudio/ENG/parada12ENG.mp3",
     "geniallyURL": "#",
@@ -149,6 +190,10 @@
     "ubicacion": "#",
     "posX": 63.8,
     "posY": 18.47,
+    "labelPos": {
+      "top": "25%",
+      "left": "50%"
+    },
     "audio": "sounds/paradasaudio/ESP/parada13ESP.mp3",
     "audioENG": "sounds/paradasaudio/ENG/parada13ENG.mp3",
     "geniallyURL": "https://view.genially.com/68f755c9252dbad0c21a9919/interactive-content-actividad-13",
@@ -161,6 +206,10 @@
     "ubicacion": "#",
     "posX": 54.75,
     "posY": 24.71,
+    "labelPos": {
+      "top": "23%",
+      "left": "50%"
+    },
     "audio": "sounds/paradasaudio/ESP/parada14ESP.mp3",
     "audioENG": "sounds/paradasaudio/ENG/parada14ENG.mp3",
     "geniallyURL": "#",
@@ -173,6 +222,10 @@
     "ubicacion": "Arte prehistórico",
     "posX": 49.56,
     "posY": 24.15,
+    "labelPos":{
+      "top": "49%",
+      "left": "50%"
+    },
     "audio": "sounds/paradasaudio/ESP/parada15ESP.mp3",
     "audioENG": "sounds/paradasaudio/ENG/parada15ENG.mp3",
     "geniallyURL": "https://view.genially.com/68ff2d3eee4df7a756168425/interactive-content-actividad-15",
@@ -185,6 +238,10 @@
     "ubicacion": "Estilo de vida de los nómadas",
     "posX": 47.12,
     "posY": 15.79,
+    "labelPos":{
+      "top": "14%",
+      "left": "50%"
+    },
     "audio": "sounds/paradasaudio/ESP/parada16ESP.mp3",
     "audioENG": "sounds/paradasaudio/ENG/parada16ENG.mp3",
     "geniallyURL": "https://view.genially.com/68ff61b786a40dd51efb585f/interactive-content-actividad-16",
@@ -197,6 +254,10 @@
     "ubicacion": "Primeros asentamientos",
     "posX": 23.21,
     "posY": 25.66,
+    "labelPos":{
+      "top": "21%",
+      "left": "50%"
+    },
     "audio": "sounds/paradasaudio/ESP/parada17ESP.mp3",
     "audioENG": "sounds/paradasaudio/parada17ENG.mp3",
     "geniallyURL": "#",
@@ -209,6 +270,10 @@
     "ubicacion": "#",
     "posX": 40.2,
     "posY": 30.12,
+    "labelPos":{
+      "top": "37%",
+      "left": "50%"
+    },
     "audio": "sounds/paradasaudio/ESP/parada18ESP.mp3",
     "audioENG": "sounds/paradasaudio/ENG/parada18ENG.mp3",
     "geniallyURL": "#",
@@ -221,6 +286,10 @@
     "ubicacion": "#",
     "posX": 47.36,
     "posY": 32.68,
+    "labelPos":{
+      "top": "17%",
+      "left": "50%"
+    },
     "audio": "sounds/paradasaudio/ESP/parada19ESP.mp3",
     "audioENG": "sounds/paradasaudio/ENG/parada19ENG.mp3",
     "geniallyURL": "https://view.genially.com/690863493fd7e2c420abcdce/interactive-content-actividad-19",
@@ -233,6 +302,10 @@
     "ubicacion": "Monumento megalítico",
     "posX": 46.33,
     "posY": 40.21,
+    "labelPos":{
+      "top": "43%",
+      "left": "50%"
+    },
     "audio": "sounds/paradasaudio/ESP/parada20ESP.mp3",
     "audioENG": "sounds/paradasaudio/ENG/parada20ENG.mp3",
     "geniallyURL": "https://view.genially.com/69087e20554a3cf6afeaf404/interactive-content-actividad-20",

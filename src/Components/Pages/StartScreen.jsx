@@ -1,21 +1,26 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './StartScreen.css';
 
 const StartScreen = () => {
     const navigate = useNavigate();
     const audioRef = useRef(null);
+    const [isPlaying, setIsPlaying] = useState(false);
 
     const playInstructions = () => {
-        if (audioRef.current) {
-            audioRef.current.play();
+        if (!audioRef.current) return;
+
+        if (isPlaying) {
+            audioRef.current.pause();
+        } else {
+            audioRef.current.play().catch(() => {
+                console.warn("Autoplay bloqueado por el navegador");
+            });
         }
+
+        setIsPlaying(!isPlaying);
     };
 
-    // Use inline style for background image to handle relative path correctly in production
-    // or use a class if we are sure about the path. 
-    // Best way: import the image if possible, but it's in public.
-    // So we use relative path "assets/..." which resolves to repo root.
     const bgStyle = {
         backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/images/nogenially/bienvenida.jpeg')`
     };
@@ -28,14 +33,14 @@ const StartScreen = () => {
 
                 <div className="button-group">
                     <button className="btn-secondary" onClick={playInstructions}>
-                        🔊 Instrucciones
+                        {isPlaying ? "⏸️ Pausar audio" : "🔊 Instrucciones"}
                     </button>
+
                     <button className="btn-primary" onClick={() => navigate('/visit')}>
                         Iniciar Visita
                     </button>
                 </div>
 
-                {/* Relative path to audio in public folder */}
                 <audio ref={audioRef} src="sounds/vozPortadaESP.mp3" />
             </div>
         </div>
@@ -43,3 +48,4 @@ const StartScreen = () => {
 };
 
 export default StartScreen;
+
