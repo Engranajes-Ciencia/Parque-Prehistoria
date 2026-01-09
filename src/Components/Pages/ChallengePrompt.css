@@ -40,6 +40,37 @@
     flex-direction: column;
     gap: 15px;
     margin-bottom: 20px;
+    align-items: center;
+    /* Centra los botones horizontalmente */
+}
+
+/* Hacemos que el botón secundario tenga la misma estética que el primario */
+.prompt-actions .btn-secondary {
+    background: #5d6d7e;
+    /* Un color sólido grisáceo que combina con el fondo */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    width: 250px;
+    /* Ancho fijo para que ambos midan lo mismo */
+    transition: all 0.3s ease;
+}
+
+.prompt-actions .btn-primary {
+    width: 250px;
+    /* Ancho fijo para que coincida con el secundario */
+}
+
+.prompt-actions .btn-secondary:hover {
+    transform: translateY(-2px);
+    background: #465664;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
 }
 
 @keyframes popIn {

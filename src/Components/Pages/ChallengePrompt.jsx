@@ -6,11 +6,11 @@ const ChallengePrompt = ({ onYes, onNo, onBack }) => {
         <div className="challenge-prompt">
             <div className="prompt-card">
                 <h2>¡Desafío Disponible!</h2>
-                <p>¿Quieres realizar un reto interactivo antes de continuar?</p>
+                <p>¿Quieres realizar un juego antes de continuar?</p>
 
                 <div className="prompt-actions">
                     <button className="btn-primary" onClick={onYes}>¡Sí, vamos!</button>
-                    <button className="btn-secondary" onClick={onNo}>No, seguir al mapa</button>
+                    <button className="btn-secondary" onClick={onNo}>No, volver al mapa</button>
                 </div>
 
                 <button className="btn-text" onClick={onBack}>Volver</button>
