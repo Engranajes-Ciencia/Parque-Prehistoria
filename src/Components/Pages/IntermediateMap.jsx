@@ -40,7 +40,7 @@ console.log("NEXT STOP 👉", nextStop);
       }}
     >
       <div className="map-card">
-        <h2>{isLastStop ? "Fin del recorrido" : "Siguiente Parada"}</h2>
+        <h2>{isLastStop ? "Fin del recorrido" : "Caminad a la siguiente Parada"}</h2>
 
         <h3 className="next-stop-title">{nextStop?.titulo}</h3>
 
@@ -55,7 +55,7 @@ console.log("NEXT STOP 👉", nextStop);
                 transform: "translateX(-50%)",
               }}
             >
-              Siguiente parada
+              Dirigíos aquí
             </div>
 
             <img
