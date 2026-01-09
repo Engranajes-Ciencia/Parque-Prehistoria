@@ -30,7 +30,7 @@
 :root {
   --primary-color: #ff5500d1;
   /*Cambia Prehistoria de la página de bienvenida, Iniciar Visita de la misma página, Parada1/19..., ¿Sabías qué..., el título de las paradas de los mapas, el recuadro de Terminar Reto y Continuar cuando aceptas el desafío, el botón de ¡Sí, Vamos!y el botón de continuar de las paradas de los mapas y el botón de FINALIZAR VISITA de la última página*/
-  --primary-dark: #000000;
+  --primary-dark: #ffffff;
   /*Sombreado del botón INICIAR VISITA, continuar de las pantallas de mapas, ¡Sí, Vamos! de la pantalla de desafío disponible y del de FINALIZAR VISITA*/
   --secondary-color: #e9e9e9;
   /*Recuadro en el que va el contenido de las pantallas de mapas*/
@@ -56,6 +56,6 @@
 }
 
 :root {
-  --letras-color: rgb(35, 60, 25);
+  --letras-color: rgb(218, 247, 29);
   /*Texto INICIAR VISITA , FINALIZAR VISITA, continuar de las pantallas de mapas y Sí Vamos de las pantallas de desafío disponible*/
 }

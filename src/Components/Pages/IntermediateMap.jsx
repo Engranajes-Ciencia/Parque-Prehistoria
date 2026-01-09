@@ -18,9 +18,9 @@ const IntermediateMap = ({ nextStop, onContinue, onBack }) => {
   const isLastStop = !nextStop;
 
   <p style={{ color: "red" }}>
-  isLastStop: {String(isLastStop)}
-</p>
-console.log("NEXT STOP 👉", nextStop);
+    isLastStop: {String(isLastStop)}
+  </p>
+  console.log("NEXT STOP 👉", nextStop);
 
 
 
@@ -40,7 +40,7 @@ console.log("NEXT STOP 👉", nextStop);
       }}
     >
       <div className="map-card">
-        <h2>{isLastStop ? "Fin del recorrido" : "Caminad a la siguiente Parada"}</h2>
+        <h2>{isLastStop ? "Fin del recorrido" : "Caminad a la siguiente parada"}</h2>
 
         <h3 className="next-stop-title">{nextStop?.titulo}</h3>
 
@@ -69,7 +69,7 @@ console.log("NEXT STOP 👉", nextStop);
         {/* Mensaje final */}
         {isLastStop && (
           <p className="final-message">
-            Has completado la visita 🎉  
+            Has completado la visita 🎉
             ¡Gracias por explorar el parque!
           </p>
         )}
