@@ -17,26 +17,32 @@ const FinalScreen = ({ onBack, onFinish }) => {
     // 2️⃣ Obtener la primera página
     const page = pdfDoc.getPages()[0];
 
-    // 3️⃣ Fuente
+    // 3️⃣ Fuente y medidas
     const font = await pdfDoc.embedFont(StandardFonts.HelveticaBold);
+    const text = name.toUpperCase();
+    const textSize = 24;
+    const { width } = page.getSize();
+    const textWidth = font.widthOfTextAtSize(text, textSize);
 
     // 4️⃣ Fecha
     const today = new Date().toLocaleDateString("es-ES");
+    const dateSize = 24;
+    const dateWidth = font.widthOfTextAtSize(today, dateSize);
 
-    // 5️⃣ Escribir el NOMBRE (ajusta coordenadas si quieres)
-    page.drawText(name.toUpperCase(), {
-      x: 200,
+    // 5️⃣ Escribir el NOMBRE (Centrado horizontalmente)
+    page.drawText(text, {
+      x: (width / 2) - (textWidth / 2),
       y: 370,
-      size: 24,
+      size: textSize,
       font,
-      color: rgb(0, 0, 0), // rojo similar al diploma
+      color: rgb(0, 0, 0),
     });
 
-    // 6️⃣ Escribir la FECHA
+    // 6️⃣ Escribir la FECHA (Centrada horizontalmente)
     page.drawText(today, {
-      x: 380,
+      x: (width / 2) - (dateWidth / 2),
       y: 190,
-      size: 24,
+      size: dateSize,
       font,
       color: rgb(0, 0, 0),
     });
@@ -51,10 +57,13 @@ const FinalScreen = ({ onBack, onFinish }) => {
     link.click();
   };
 
+  const today = new Date().toLocaleDateString("es-ES");
+
   return (
     <div className="final-screen">
       <div className="final-card">
         <h1>¡Has completado la visita! 🎉</h1>
+        <p className="final-date">Fecha: {today}</p>
 
         {!showForm && (
           <button
@@ -67,13 +76,6 @@ const FinalScreen = ({ onBack, onFinish }) => {
 
         {showForm && (
           <div className="diploma-form">
-            <input
-              type="text"
-              placeholder="Nombre completo"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-            />
-
             <button
               className="final-tag"
               disabled={!name}
@@ -81,6 +83,13 @@ const FinalScreen = ({ onBack, onFinish }) => {
             >
               Descargar Diploma
             </button>
+
+            <input
+              type="text"
+              placeholder="Nombre completo"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+            />
           </div>
         )}
 

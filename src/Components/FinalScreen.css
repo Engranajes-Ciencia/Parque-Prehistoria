@@ -15,13 +15,17 @@
   border-radius: 20px;
   text-align: center;
 
-  max-width: 500px; /* ⬅️ MÁS ANCHA */
+  max-width: 500px;
+  /* ⬅️ MÁS ANCHA */
   width: 70%;
 }
 
-
-
-
+.final-date {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
 
 .final-actions {
   margin-top: 20px;
@@ -43,12 +47,10 @@
   background-color: #a34141;
   color: #ff0000;
 
-  font-size: 1.25rem;   /* ⬅️ MÁS GRANDE */
+  font-size: 1.25rem;
+  /* ⬅️ MÁS GRANDE */
   font-weight: 800;
   letter-spacing: 0.04em;
-}
-
-.final-tag {
   border: none;
   cursor: pointer;
 }
@@ -57,7 +59,32 @@
   outline: none;
 }
 
+.diploma-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
 
+.diploma-form .final-tag {
+  margin: 0;
+}
 
+.diploma-form input {
+  padding: 14px 24px;
+  border-radius: 12px;
+  border: 4px solid #a34141;
+  font-size: 1.1rem;
+  width: 90%;
+  max-width: 350px;
+  text-align: center;
+  background-color: #fff;
+  color: #333;
+  outline: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
-
+.diploma-form input::placeholder {
+  color: #999;
+}

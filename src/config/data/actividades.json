@@ -15,7 +15,7 @@
   
     "id": 2,
     "titulo": "El origen de la vida",
-    "ubicacion": "Zona de fósiles marinos",
+    "ubicacion": "Zona de la laguna multicolor",
     "posX": 77.72,
     "posY": 74.43,
     "audio": "sounds/paradasaudio/ESP/parada2ESP.mp3",
@@ -43,7 +43,7 @@
   {
     "id": 4,
     "titulo": "Prototaxiles y Meganeuras",
-    "ubicacion": "#",
+    "ubicacion": "Zona de la libélula gigante",
     "posX": 61.2,
     "posY": 69.95,
     "labelPos": {
@@ -59,7 +59,7 @@
   {
     "id": 5,
     "titulo": "Los primeros árboles",
-    "ubicacion": "#",
+    "ubicacion": "Zona de los primeros bosques",
     "posX": 69.23,
     "posY": 66.21,
     "labelPos": {
@@ -75,7 +75,7 @@
   {
     "id": 6,
     "titulo": "Las primeras flores",
-    "ubicacion": "#",
+    "ubicacion": "Zona de las plantas con flores",
     "posX": 71.51,
     "posY": 61.98,
     "labelPos": {
@@ -91,7 +91,7 @@
   {
     "id": 7,
     "titulo": "Los primeros dinosaurios",
-    "ubicacion": "  # ",
+    "ubicacion": "Zona del tricerátops y brontosaurio",
     "posX": 51.45,
     "posY": 61.36,
     "labelPos": {
@@ -107,7 +107,7 @@
   {
     "id": 8,
     "titulo": "La deriva continental",
-    "ubicacion": "#",
+    "ubicacion": "Zona del volcán y placas tectónicas",
     "posX": 72.53,
     "posY": 52.61,
     "labelPos": {
@@ -123,7 +123,7 @@
   {
     "id": 9,
     "titulo": "Los segundos dinosaurios",
-    "ubicacion": "#",
+    "ubicacion": "Zona del velociraptor y el allosaurio",
     "posX": 56.09,
     "posY": 46.71,
     "labelPos": {
@@ -139,7 +139,7 @@
   {
     "id": 10,
     "titulo": "Galápagos y Darwin",
-    "ubicacion": "#",
+    "ubicacion": "Zona de la tortuga gigante",
     "posX": 71.04,
     "posY": 39.78,
     "labelPos": {
@@ -171,7 +171,7 @@
   {
     "id": 12,
     "titulo": "Atapuerca",
-    "ubicacion": "#",
+    "ubicacion": "Zona de los areneros de Atapuerca",
     "posX": 67.5,
     "posY": 26.47,
     "labelPos": {
@@ -187,7 +187,7 @@
   {
     "id": 13,
     "titulo": "El hombre de Neandertal",
-    "ubicacion": "#",
+    "ubicacion": "Zona previa al museo",
     "posX": 63.8,
     "posY": 18.47,
     "labelPos": {
@@ -203,7 +203,7 @@
   {
     "id": 14,
     "titulo": "Cráneos y evolución humana",
-    "ubicacion": "#",
+    "ubicacion": "El interior del museo",
     "posX": 54.75,
     "posY": 24.71,
     "labelPos": {
@@ -219,7 +219,7 @@
   {
     "id": 15,
     "titulo": "Cuevas y arte rupestre",
-    "ubicacion": "Arte prehistórico",
+    "ubicacion": "Las cuevas de arte prehistórico",
     "posX": 49.56,
     "posY": 24.15,
     "labelPos":{
@@ -235,7 +235,7 @@
   {
     "id": 16,
     "titulo": "Los poblados nómadas",
-    "ubicacion": "Estilo de vida de los nómadas",
+    "ubicacion": "Zona del poblado nómada",
     "posX": 47.12,
     "posY": 15.79,
     "labelPos":{
@@ -251,7 +251,7 @@
   {
     "id": 17,
     "titulo": "Primeros poblados sedentarios",
-    "ubicacion": "Primeros asentamientos",
+    "ubicacion": "Zona del poblado sedentario",
     "posX": 23.21,
     "posY": 25.66,
     "labelPos":{
@@ -267,7 +267,7 @@
   {
     "id": 18,
     "titulo": "Pinturas del Sáhara y de Laja Alta",
-    "ubicacion": "#",
+    "ubicacion": "Zona de la pared con pinturas antiguas",
     "posX": 40.2,
     "posY": 30.12,
     "labelPos":{
@@ -283,7 +283,7 @@
   {
     "id": 19,
     "titulo": "Çatalhöyük",
-    "ubicacion": "#",
+    "ubicacion": "Interior de la vivienda de Çatalhöyük",
     "posX": 47.36,
     "posY": 32.68,
     "labelPos":{
@@ -299,7 +299,7 @@
   {
     "id": 20,
     "titulo": "Stonehenge",
-    "ubicacion": "Monumento megalítico",
+    "ubicacion": "Zona de Stonehenge",
     "posX": 46.33,
     "posY": 40.21,
     "labelPos":{
