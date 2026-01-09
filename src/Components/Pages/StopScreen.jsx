@@ -73,31 +73,31 @@ const StopScreen = ({ stop, onNext, onPrev, stopIndex, totalStops }) => {
         const baseUrl = import.meta.env.BASE_URL;
 
         // Fallback to random image for other stops
-            const backgroundImages = [
-                `${baseUrl}assets/images/nogenially/craneos.png`,
-                `${baseUrl}assets/images/nogenially/arboles.png`,
-                `${baseUrl}assets/images/nogenially/bienvenida.jpeg`,
-                `${baseUrl}assets/images/nogenially/dinos.png`,
-                `${baseUrl}assets/images/nogenially/laetoli.png`,
-                `${baseUrl}assets/images/nogenially/meganeura.png`,
-                `${baseUrl}assets/images/nogenially/origen.png`,
-                `${baseUrl}assets/images/nogenially/pangea.png`,
-                `${baseUrl}assets/images/nogenially/sahara.png`,
-                `${baseUrl}assets/images/nogenially/sedentario.png`
-            ];
-            const randomImage = backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
-            setBackgroundImage(randomImage);
-        
+        const backgroundImages = [
+            `${baseUrl}assets/images/nogenially/craneos.png`,
+            `${baseUrl}assets/images/nogenially/arboles.png`,
+            `${baseUrl}assets/images/nogenially/bienvenida.jpeg`,
+            `${baseUrl}assets/images/nogenially/dinos.png`,
+            `${baseUrl}assets/images/nogenially/laetoli.png`,
+            `${baseUrl}assets/images/nogenially/meganeura.png`,
+            `${baseUrl}assets/images/nogenially/origen.png`,
+            `${baseUrl}assets/images/nogenially/pangea.png`,
+            `${baseUrl}assets/images/nogenially/sahara.png`,
+            `${baseUrl}assets/images/nogenially/sedentario.png`
+        ];
+        const randomImage = backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
+        setBackgroundImage(randomImage);
+
     }, [stop]);
 
     return (
-        <div 
-           className="stop-screen"
-           style={{
-              backgroundImage: `url(${fondoAleatorio()})`,
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat"
-           }}
+        <div
+            className="stop-screen"
+            style={{
+                backgroundImage: `url(${fondoAleatorio()})`,
+                backgroundSize: "cover",
+                backgroundRepeat: "no-repeat"
+            }}
         >
 
             <div className="stop-overlay">
@@ -114,13 +114,13 @@ const StopScreen = ({ stop, onNext, onPrev, stopIndex, totalStops }) => {
                             className={`btn-audio ${isPlayingGeneral ? 'playing' : ''}`}
                             onClick={toggleGeneral}
                         >
-                            {isPlayingGeneral ? '⏸️ Pausar General' : '🎧 Audio General'}
+                            {isPlayingGeneral ? 'Pausar General' : 'Audio General'}
                         </button>
                         <button
                             className={`btn-audio ${isPlayingKids ? 'playing' : ''}`}
                             onClick={toggleKids}
                         >
-                            {isPlayingKids ? '⏸️ Pausar Infantil' : '🧒 Audio Infantil'}
+                            {isPlayingKids ? 'Pausar Infantil' : 'Audio Infantil'}
                         </button>
                     </div>
 
