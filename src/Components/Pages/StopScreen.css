@@ -76,7 +76,7 @@
 
 .audio-controls button {
     padding: 20px 40px;
-    font-size: 26px;
+    font-size: 20px;
     border-radius: 16px;
     width: 600px;
     height: 100px;
@@ -91,7 +91,8 @@
 .audio-controls button:last-child {
     background-color: var(--audio-alt-bg);
     border: 6px solid var(--audio-alt-border);
-    color: var(--audio-text);;
+    color: var(--audio-text);
+    ;
 }
 
 
@@ -120,7 +121,7 @@
 }
 
 .nav-btn {
-    background:var(--nav-btn-bg);
+    background: var(--nav-btn-bg);
     color: var(--nav-btn-text);
     border: none;
     padding: 12px 24px;

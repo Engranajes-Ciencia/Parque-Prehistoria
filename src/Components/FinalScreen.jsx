@@ -32,7 +32,7 @@ const FinalScreen = ({ onBack, onFinish }) => {
     // 5️⃣ Escribir el NOMBRE (Centrado horizontalmente)
     page.drawText(text, {
       x: (width / 2) - (textWidth / 2),
-      y: 370,
+      y: 1000,
       size: textSize,
       font,
       color: rgb(0, 0, 0),
@@ -41,7 +41,7 @@ const FinalScreen = ({ onBack, onFinish }) => {
     // 6️⃣ Escribir la FECHA (Centrada horizontalmente)
     page.drawText(today, {
       x: (width / 2) - (dateWidth / 2),
-      y: 190,
+      y: 1490,
       size: dateSize,
       font,
       color: rgb(0, 0, 0),
