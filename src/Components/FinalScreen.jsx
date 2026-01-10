@@ -20,19 +20,19 @@ const FinalScreen = ({ onBack, onFinish }) => {
     // 3️⃣ Fuente y medidas
     const font = await pdfDoc.embedFont(StandardFonts.HelveticaBold);
     const text = name.toUpperCase();
-    const textSize = 24;
+    const textSize = 90;
     const { width } = page.getSize();
     const textWidth = font.widthOfTextAtSize(text, textSize);
 
     // 4️⃣ Fecha
     const today = new Date().toLocaleDateString("es-ES");
-    const dateSize = 24;
+    const dateSize = 60;
     const dateWidth = font.widthOfTextAtSize(today, dateSize);
 
     // 5️⃣ Escribir el NOMBRE (Centrado horizontalmente)
     page.drawText(text, {
       x: (width / 2) - (textWidth / 2),
-      y: 1000,
+      y: 780,
       size: textSize,
       font,
       color: rgb(0, 0, 0),
@@ -41,7 +41,7 @@ const FinalScreen = ({ onBack, onFinish }) => {
     // 6️⃣ Escribir la FECHA (Centrada horizontalmente)
     page.drawText(today, {
       x: (width / 2) - (dateWidth / 2),
-      y: 1490,
+      y: 1520,
       size: dateSize,
       font,
       color: rgb(0, 0, 0),
