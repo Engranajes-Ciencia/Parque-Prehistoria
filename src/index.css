@@ -18,48 +18,57 @@ button {
 /* Glassmorphism Card */
 .glass-card {
   background: var(--glass-bg);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--glass-border);
-  border-radius: 16px;
+  border-radius: 12px;
   box-shadow: var(--shadow);
 }
 
 /* Button Styles */
 .btn-primary {
-  background: var(--primary-color);
+  background: linear-gradient(180deg, var(--primary-color) 0%, var(--primary-dark) 100%);
   color: var(--letras-color);
-  padding: 12px 24px;
-  border-radius: 50px;
-  font-weight: bold;
-  font-size: 1.1rem;
-  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+  padding: 14px 28px;
+  border-radius: 8px; /* Bordes más rectos, estilo moderno */
+  font-weight: 600; /* Semi-bold en lugar de bold oscuro */
+  font-size: 1.15rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15), 0 1px 3px rgba(0, 0, 0, 0.1), inset 0 2px 2px rgba(255, 255, 255, 0.25); /* Sombra suave y realista + brillo superior */
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.6);
+  background: linear-gradient(180deg, var(--primary-color) 0%, #8c4618 100%);
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.15), inset 0 2px 2px rgba(255, 255, 255, 0.25);
 }
 
 .btn-secondary {
-  background: transparent;
-  border: 2px solid var(--text-light);
-  color: var(--text-light);
-  padding: 10px 20px;
-  border-radius: 50px;
-  font-weight: bold;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.5) 100%); /* Efecto sutil */
+  border: 1px solid var(--text-light); /* Borde más sutil */
+  color: var(--text-main);
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.08), inset 0 2px 2px rgba(255, 255, 255, 0.6);
 }
 
 .btn-secondary:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.8);
+  border-color: var(--text-main);
 }
 
 .btn-text {
   background: none;
   color: var(--text-light);
   text-decoration: underline;
-  font-size: 0.9rem;
-  margin-top: 10px;
+  text-underline-offset: 4px; /* Separación más elegante del subrayado */
+  font-size: 0.95rem;
+  margin-top: 12px;
+  font-weight: 500;
+}
+.btn-text:hover {
+  color: var(--text-main);
 }

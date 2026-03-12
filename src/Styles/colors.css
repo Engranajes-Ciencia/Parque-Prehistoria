@@ -1,61 +1,60 @@
 :root {
   /* 🎧 Audio buttons */
-  --audio-main-bg: rgb(231, 111, 0);
-  --audio-main-border: rgb(255, 255, 255);
+  --audio-main-bg: #8c5a35; /* Un terracota oscuro/marrón cálido */
+  --audio-main-border: #f4ead5; /* Crema suave */
   /* Audio General(Recuadro) */
 
-  --audio-alt-bg: rgb(68, 92, 223);
-  --audio-alt-border: rgb(255, 255, 255);
+  --audio-alt-bg: #4a5c53; /* Un verde pizarra/olivo oscuro */
+  --audio-alt-border: #f4ead5;
   /* Audio Infantil(Recuadro) */
 
-  --audio-text: rgb(0, 0, 0);
+  --audio-text: #f4ead5; /* Texto claro para contrastar con los fondos oscuros */
   /* Texto de Audio General e Infantil */
 }
 
 :root {
-  --nav-btn-text: rgb(92, 53, 53);
+  --nav-btn-text: #4a3b32; /* Marrón muy oscuro, casi gris cálido */
   /* Color del texto de Anterior y Siguiente en las pantallas de Sabías qué */
-  --nav-btn-bg: rgb(255, 201, 4);
+  --nav-btn-bg: #d9b882; /* Un dorado/crema apagado y elegante */
   /* Color del recuadro que contiene el texto de Anterior y Siguiente en las pantallas de Sabías qué */
 }
 
 :root {
   .stop-overlay {
-    --stop-overlay-bg: rgba(228, 228, 228, 0.9);
+    --stop-overlay-bg: rgba(244, 234, 213, 0.95); /* Un crema muy opaco y limpio */
     /* Color del recuadro donde va todo el contenido en las páginas de Sabías qué*/
   }
-
 }
 
 :root {
-  --primary-color: #ff5500d1;
+  --primary-color: #c97a3e; /* Naranja/terracota elegante */
   /*Cambia Prehistoria de la página de bienvenida, Iniciar Visita de la misma página, Parada1/19..., ¿Sabías qué..., el título de las paradas de los mapas, el recuadro de Terminar Reto y Continuar cuando aceptas el desafío, el botón de ¡Sí, Vamos!y el botón de continuar de las paradas de los mapas y el botón de FINALIZAR VISITA de la última página*/
-  --primary-dark: #ffffff;
+  --primary-dark: #a65f2c; /* Tono más oscuro del primario para hovers/sombras */
   /*Sombreado del botón INICIAR VISITA, continuar de las pantallas de mapas, ¡Sí, Vamos! de la pantalla de desafío disponible y del de FINALIZAR VISITA*/
-  --secondary-color: #e9e9e9;
+  --secondary-color: #f7f3eb; /* Un blanco roto muy cálido y limpio */
   /*Recuadro en el que va el contenido de las pantallas de mapas*/
-  --accent-color: #000000;
-  --background-light: #ffd900;
+  --accent-color: #4a5c53; /* Acento en verde pizarra */
+  --background-light: #e8ded1; /* Fondo general neutro y cálido */
   /*Zona donde está puesto el fondo de pantalla*/
-  --background-dark: #000000;
-  --text-main: #000000;
+  --background-dark: #2c2826; /* Gris oscuro cálido */
+  --text-main: #332d29; /* Texto principal oscuro y legible */
   /*Título de las pantallas en donde están los audios, Texto de abajo de Parada y de ¿Sabías qué, de pregunta de desafío, Has completado la Visita y Gracias por recorrer...*/
-  --text-light: #76663a;
+  --text-light: #8c7b6c; /* Texto secundario más suave */
   /*Borde de Instrucciones e Instrucciones, borde de Volver y Volver en las paradas de mapas, No, seguir al mapa y su borde en las pantallas de Desafío Disponible, Volver de esa misma pantalla y Volver y su borde en la última pantalla*/
-  --glass-bg: rgba(0, 0, 0, 0.6);
-  --glass-border: rgba(0, 0, 0, 0.8);
-  --shadow: 0 8px 32px 0 rgba(255, 204, 0, 0.979);
+  --glass-bg: rgba(255, 255, 255, 0.7); /* Fondo glass más limpio y claro */
+  --glass-border: rgba(255, 255, 255, 0.4);
+  --shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1); /* Sombra negra suave, no amarilla */
   --font-main: 'Outfit', sans-serif;
 }
 
 :root {
-  --Siguiente-Paradacolor: hsl(73, 70%, 8%);
+  --Siguiente-Paradacolor: #f4ead5; /* Texto claro */
   /*Texto de Siguiente parada dentro de los mapas*/
-  --Fondo-color: rgba(67, 166, 166, 0.55);
+  --Fondo-color: rgba(74, 92, 83, 0.85); /* Fondo pizarra semitransparente */
   /*Recuadro de Siguiente parada dentro de los mapas*/
 }
 
 :root {
-  --letras-color: rgb(218, 247, 29);
+  --letras-color: #ffffff; /* Blanco puro para máxima legibilidad en botones primarios */
   /*Texto INICIAR VISITA , FINALIZAR VISITA, continuar de las pantallas de mapas y Sí Vamos de las pantallas de desafío disponible*/
 }

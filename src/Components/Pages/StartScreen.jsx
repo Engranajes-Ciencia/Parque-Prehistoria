@@ -33,7 +33,11 @@ const StartScreen = () => {
 
                 <div className="button-group">
                     <button className="btn-secondary" onClick={playInstructions}>
-                        {isPlaying ? "⏸️ Pausar audio" : "🔊 Instrucciones"}
+                        {isPlaying ? "⏸️ Pausar audio" : "🔊 Bienvenida"}
+                    </button>
+                    
+                    <button className="btn-secondary" onClick={() => navigate('/instrucciones')}>
+                        Instrucciones
                     </button>
 
                     <button className="btn-primary" onClick={() => navigate('/visit')}>

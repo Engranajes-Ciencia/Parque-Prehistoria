@@ -11,6 +11,7 @@ import LoadingSpinner from "../../Components/Commons/LoadingSpinner";
 // New Components
 import StartScreen from "../../Components/Pages/StartScreen";
 import VisitController from "../../Components/Pages/VisitController";
+import Instrucciones from "../../Components/Pages/Instrucciones";
 
 // Carga componentes lentos, grandes, finales o de poco uso cuando se visitan para ganar velocidad en la app
 const Final = lazy(() => import("../../Components/Pages/Final"));
@@ -37,6 +38,7 @@ function AppRouter() {
         <Routes>
             {/* New Linear Flow */}
             <Route path="/" element={<StartScreen />} />
+            <Route path="/instrucciones" element={<Instrucciones />} />
             <Route path="/visit" element={<VisitController />} />
 
             {/* Rutas con Lazy Loading (envueltas en Layout y Suspense) */}

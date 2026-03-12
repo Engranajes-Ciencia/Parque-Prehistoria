@@ -45,29 +45,22 @@
 .button-group {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px; /* Increased gap slightly for better breathing room */
     align-items: center;
     position: relative;
+    width: 100%;
 }
 
-.btn-primary {
-    width: 350px;
-    padding: 20px 30px;
-    margin-top: 5px;
-    border-radius: 20px;
-
-
-
+.button-group .btn-primary,
+.button-group .btn-secondary {
+    width: 90%; /* Responsive width */
+    max-width: 320px; /* Uniform max width for all buttons */
+    padding: 16px 24px; /* Consistent padding */
+    font-size: 1.2rem; /* Consistent readable font size */
+    margin: 0; /* Remove top margins to let the gap handle spacing */
 }
 
-.btn-secondary {
-    width: 400px;
-    padding: 20px 30px;
-    font-size: 32px;
-    border-radius: 20px;
-    margin-top: 5px;
-    position: relative;
-}
+/* Remove the old overly specific button classes since they're merged above */
 
 @keyframes fadeIn {
     from {
