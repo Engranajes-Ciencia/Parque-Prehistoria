@@ -70,7 +70,7 @@ const FinalScreen = ({ onBack, onFinish }) => {
             className="final-tag"
             onClick={() => setShowForm(true)}
           >
-            🎓 Generar diploma
+            Generar diploma
           </button>
         )}
 
@@ -81,7 +81,7 @@ const FinalScreen = ({ onBack, onFinish }) => {
               disabled={!name}
               onClick={downloadDiploma}
             >
-              🎓 Generar diploma
+              Descargar diploma
             </button>
 
             <input
@@ -96,9 +96,6 @@ const FinalScreen = ({ onBack, onFinish }) => {
         <div className="final-actions">
           <button className="btn-secondary" onClick={onBack}>
             Volver
-          </button>
-          <button className="btn-primary" onClick={onFinish}>
-            Finalizar visita
           </button>
         </div>
       </div>
