@@ -62,7 +62,7 @@ const FinalScreen = ({ onBack, onFinish }) => {
   return (
     <div className="final-screen">
       <div className="final-card">
-        <h1>¡Has completado la visita! 🎉</h1>
+        <h1>🎉 ¡Has completado la visita! 🎉</h1>
         <p className="final-date">Fecha: {today}</p>
 
         {!showForm && (
@@ -70,7 +70,7 @@ const FinalScreen = ({ onBack, onFinish }) => {
             className="final-tag"
             onClick={() => setShowForm(true)}
           >
-            🎓 Descargar Diploma
+            🎓 Generar diploma
           </button>
         )}
 
@@ -81,12 +81,12 @@ const FinalScreen = ({ onBack, onFinish }) => {
               disabled={!name}
               onClick={downloadDiploma}
             >
-              Descargar Diploma
+              🎓 Generar diploma
             </button>
 
             <input
               type="text"
-              placeholder="Nombre completo"
+              placeholder="Nombre de la familia o equipo"
               value={name}
               onChange={(e) => setName(e.target.value)}
             />

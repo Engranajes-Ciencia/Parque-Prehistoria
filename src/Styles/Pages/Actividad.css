@@ -84,7 +84,7 @@
 
  .saludo1 {
    display: flex;
-   font-size: 1.5rem;
+   font-size: 1.8rem;
    font-weight: 700;
    color: #146acc;
    margin: 0;
@@ -136,7 +136,7 @@
  }
 
  h3 {
-   font-size: 38px;
+   font-size: 44px;
    margin-top: 15px;
    margin-bottom: 15px;
    text-align: center;
@@ -152,7 +152,7 @@
    position: relative;
    max-width: 100%;
    width: auto;
-   font-size: 1.1rem;
+   font-size: 1.3rem;
    font-weight: bold;
    margin-top: 14px auto;
    background: #000000df;
@@ -178,10 +178,13 @@
  .sabiasque::before {
 
    content: "💡";
-   font-size: 28px;
-   margin-right: 10px;
+   font-size: 34px;
    margin-right: 10px;
    flex-shrink: 0;
+ }
+
+ .sabiasque strong {
+   font-size: 1.5rem;
  }
 
 
