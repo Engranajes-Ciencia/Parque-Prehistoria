@@ -5,14 +5,13 @@
     "ubicacion": "Entrada principal del parque",
     "posX": 58.21,
     "posY": 79.75,
-    "labelPos": {
     "audio": "sounds/paradasaudio/ESP/parada1ESP.mp3",
     "audioENG": "sounds/paradasaudio/ENG/parada1ENG.mp3",
     "geniallyURL": "#",
     "imagenAlternativa": "assets/images/nogenially/bienvenida.jpeg",
     "completada": false
   },
-  
+  {
     "id": 2,
     "titulo": "El origen de la vida",
     "ubicacion": "Zona de la laguna multicolor",
@@ -259,7 +258,7 @@
       "left": "50%"
     },
     "audio": "sounds/paradasaudio/ESP/parada17ESP.mp3",
-    "audioENG": "sounds/paradasaudio/parada17ENG.mp3",
+    "audioENG": "sounds/paradasaudio/ENG/parada17ENG.mp3",
     "geniallyURL": "#",
     "imagenAlternativa": "assets/images/nogenially/Parada_17.jpg",
     "completada": false

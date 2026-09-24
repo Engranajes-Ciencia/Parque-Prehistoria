@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import useOrientation from "./UseOrientation";
 
 import "./App.css";
 import "./index.css";
@@ -10,7 +9,6 @@ import AppRouter from "./config/routes/AppRouter";
 
 // Importa los componentes globales que se renderizan en todas las páginas
 import ConnectionAlert from './Components/Commons/ConnectionAlert';
-import InactivityTimer from './Components/Commons/InactivityTimer';
 
 
 function App() {
@@ -41,7 +39,6 @@ function App() {
     <Router>
       {/* Componentes globales */}
       <ConnectionAlert />
-      <InactivityTimer />
       <AppRouter />
     </Router>
   );

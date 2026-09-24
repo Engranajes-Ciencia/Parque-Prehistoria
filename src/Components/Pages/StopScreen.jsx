@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect, useState, useMemo } from 'react';
 import './StopScreen.css';
 import sabiasQueData from '../../config/data/sabias_que.json';
 import { fondoAleatorio } from "../../config/fondos";
@@ -33,7 +33,7 @@ const StopScreen = ({ stop, onNext, onPrev, stopIndex, totalStops }) => {
 
         if (audioGeneralRef.current) {
             if (audioGeneralRef.current.paused) {
-                audioGeneralRef.current.play();
+                audioGeneralRef.current.play().catch(() => setIsPlayingGeneral(false));
                 setIsPlayingGeneral(true);
             } else {
                 audioGeneralRef.current.pause();
@@ -50,7 +50,7 @@ const StopScreen = ({ stop, onNext, onPrev, stopIndex, totalStops }) => {
 
         if (audioKidsRef.current) {
             if (audioKidsRef.current.paused) {
-                audioKidsRef.current.play();
+                audioKidsRef.current.play().catch(() => setIsPlayingKids(false));
                 setIsPlayingKids(true);
             } else {
                 audioKidsRef.current.pause();
@@ -67,34 +67,16 @@ const StopScreen = ({ stop, onNext, onPrev, stopIndex, totalStops }) => {
 
     const sabiasQueText = sabiasQueData[stop.id];
 
-    const [, setBackgroundImage] = useState('');
-
-    useEffect(() => {
-        const baseUrl = import.meta.env.BASE_URL;
-
-        // Fallback to random image for other stops
-        const backgroundImages = [
-            `${baseUrl}assets/images/nogenially/craneos.png`,
-            `${baseUrl}assets/images/nogenially/arboles.png`,
-            `${baseUrl}assets/images/nogenially/bienvenida.jpeg`,
-            `${baseUrl}assets/images/nogenially/dinos.png`,
-            `${baseUrl}assets/images/nogenially/laetoli.png`,
-            `${baseUrl}assets/images/nogenially/meganeura.png`,
-            `${baseUrl}assets/images/nogenially/origen.png`,
-            `${baseUrl}assets/images/nogenially/pangea.png`,
-            `${baseUrl}assets/images/nogenially/sahara.png`,
-            `${baseUrl}assets/images/nogenially/sedentario.png`
-        ];
-        const randomImage = backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
-        setBackgroundImage(randomImage);
-
-    }, [stop]);
+    // Fondo aleatorio estable por parada (sin useMemo cambiaría en cada render,
+    // p. ej. al pulsar los botones de audio)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    const fondo = useMemo(() => fondoAleatorio(), [stop]);
 
     return (
         <div
             className="stop-screen"
             style={{
-                backgroundImage: `url(${fondoAleatorio()})`,
+                backgroundImage: `url(${fondo})`,
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat"
             }}
@@ -126,7 +108,7 @@ const StopScreen = ({ stop, onNext, onPrev, stopIndex, totalStops }) => {
 
                     {sabiasQueText && (
                         <div className="did-you-know">
-                            <h3>¿Sabías qué...</h3>
+                            <h3>¿Sabías que...?</h3>
                             <p>{sabiasQueText}</p>
                         </div>
                     )}

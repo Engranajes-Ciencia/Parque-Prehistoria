@@ -24,7 +24,9 @@ function AdminStats() {
     const { t } = useTranslation("pages");
     const navigate = useNavigate();
     
-    const [isAuthenticated, setIsAuthenticated] = useState(false);
+    const [isAuthenticated, setIsAuthenticated] = useState(
+        () => sessionStorage.getItem('adminAuthenticated') === 'true'
+    );
     const [inputKey, setInputKey] = useState("");
     const [stats, setStats] = useState({
         inicios: 0,

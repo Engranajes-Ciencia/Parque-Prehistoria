@@ -1,16 +1,24 @@
 import "./FinalScreen.css";
 import { useState } from "react";
-import { PDFDocument, rgb, StandardFonts } from "pdf-lib";
 
-const FinalScreen = ({ onBack, onFinish }) => {
+const FinalScreen = ({ onBack }) => {
   const [name, setName] = useState("");
   const [showForm, setShowForm] = useState(false);
+  const [generating, setGenerating] = useState(false);
 
   const downloadDiploma = async () => {
+    if (generating) return;
+    setGenerating(true);
+    try {
+    // pdf-lib se carga bajo demanda para aligerar el bundle inicial
+    const { PDFDocument, rgb, StandardFonts } = await import("pdf-lib");
+
     // 1️⃣ Cargar el PDF original
-    const existingPdfBytes = await fetch(
+    const response = await fetch(
       `${import.meta.env.BASE_URL}assets/diploma/diploma.pdf`
-    ).then(res => res.arrayBuffer());
+    );
+    if (!response.ok) throw new Error(`No se pudo cargar el diploma (${response.status})`);
+    const existingPdfBytes = await response.arrayBuffer();
 
     const pdfDoc = await PDFDocument.load(existingPdfBytes);
 
@@ -51,10 +59,18 @@ const FinalScreen = ({ onBack, onFinish }) => {
     const pdfBytes = await pdfDoc.save();
     const blob = new Blob([pdfBytes], { type: "application/pdf" });
     const link = document.createElement("a");
+    const url = URL.createObjectURL(blob);
 
-    link.href = URL.createObjectURL(blob);
+    link.href = url;
     link.download = "diploma-personalizado.pdf";
     link.click();
+    setTimeout(() => URL.revokeObjectURL(url), 10000);
+    } catch (error) {
+      console.error("Error generando el diploma:", error);
+      alert("No se pudo generar el diploma. Comprueba la conexión e inténtalo de nuevo.");
+    } finally {
+      setGenerating(false);
+    }
   };
 
   const today = new Date().toLocaleDateString("es-ES");
@@ -78,10 +94,10 @@ const FinalScreen = ({ onBack, onFinish }) => {
           <div className="diploma-form">
             <button
               className="final-tag"
-              disabled={!name}
+              disabled={!name.trim() || generating}
               onClick={downloadDiploma}
             >
-              Descargar diploma
+              {generating ? "Generando..." : "Descargar diploma"}
             </button>
 
             <input

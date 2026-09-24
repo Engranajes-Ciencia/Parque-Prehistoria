@@ -18,7 +18,7 @@ function Portada() {
         const playAudio = async () => {
             try {
                 await audio.play();
-            } catch (error) {
+            } catch {
                 console.warn("Autoplay bloqueado. Se necesita interacción del usuario.");
             }
         };

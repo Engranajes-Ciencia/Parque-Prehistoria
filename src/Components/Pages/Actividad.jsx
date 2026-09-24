@@ -108,11 +108,11 @@ function Actividad() {
   useEffect(() => {
     return () => {
       if (audioRef.current) {
-        try { audioRef.current.pause(); } catch {}
+        try { audioRef.current.pause(); } catch { /* audio ya detenido */ }
         setIsPlaying(false);
       }
       if (audioAltRef.current) {
-        try { audioAltRef.current.pause(); } catch {}
+        try { audioAltRef.current.pause(); } catch { /* audio ya detenido */ }
         setIsAudioAltPlaying(false);
       }
     };
@@ -136,7 +136,7 @@ function Actividad() {
     // Si id no es válido o no hay traducciones, devolvemos objeto vacío para evitar crashes
     try {
       return t(`${id}`, { returnObjects: true }) || {};
-    } catch (e) {
+    } catch {
       return {};
     }
   }, [id, t]);

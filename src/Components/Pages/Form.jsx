@@ -46,7 +46,7 @@ function Form() {
     const play = async () => {
       try {
         await dinoRef.current.play();
-      } catch (error) {
+      } catch {
         console.warn(" Autoplay bloqueado para dino.mp3");
       }
     };

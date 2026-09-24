@@ -19,19 +19,28 @@ const VisitController = () => {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
 
-  // Initialize state from URL or defaults
-  const initialStopIndex = parseInt(searchParams.get("stop")) - 1 || 0;
-  const initialViewState = searchParams.get("view") || VIEW_STATE.STOP;
+  // Initialize state from URL or defaults (clamped to valid values)
+  const parsedStop = parseInt(searchParams.get("stop"), 10);
+  const initialStopIndex = Number.isNaN(parsedStop)
+    ? 0
+    : Math.min(Math.max(parsedStop - 1, 0), actividades.length - 1);
+  const viewFromUrl = searchParams.get("view");
+  const initialViewState = Object.values(VIEW_STATE).includes(viewFromUrl)
+    ? viewFromUrl
+    : VIEW_STATE.STOP;
 
   const [currentStopIndex, setCurrentStopIndex] = useState(initialStopIndex);
   const [viewState, setViewState] = useState(initialViewState);
 
-  // Sync state to URL
+  // Sync state to URL (replace para no llenar el historial del navegador)
   useEffect(() => {
-    setSearchParams({
-      stop: currentStopIndex + 1,
-      view: viewState,
-    });
+    setSearchParams(
+      {
+        stop: currentStopIndex + 1,
+        view: viewState,
+      },
+      { replace: true }
+    );
   }, [currentStopIndex, viewState, setSearchParams]);
 
   // Ensure we have data
@@ -131,10 +140,7 @@ const VisitController = () => {
 
       {/* MAPA O PANTALLA FINAL */}
       {isMapActive && !nextStop && (
-        <FinalScreen
-          onBack={handlePrev}
-          onFinish={() => navigate("/")}
-        />
+        <FinalScreen onBack={handlePrev} />
       )}
 
       {isMapActive && nextStop && (

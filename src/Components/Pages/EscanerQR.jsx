@@ -118,7 +118,6 @@ function EscanerQR() {
   // Inicializa escáner y traduce textos una vez, y cada vez que cambia el idioma (t)
   useEffect(() => {
   const qrReaderId = "qr-reader";
-  const container = document.getElementById(qrReaderId);
 
   if (!qrScannerRef.current) {
     qrScannerRef.current = new Html5QrcodeScanner(

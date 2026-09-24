@@ -6,7 +6,7 @@ import "../../Styles/Layout/Header.css";
 function Header() {
   const navigate = useNavigate();
   const [modoOscuro, setModoOscuro] = useState(false);
-  const { i18n, t } = useTranslation();
+  const { i18n } = useTranslation();
 
   const [logoClickCount, setLogoClickCount] = useState(0);
   const logoClickTimer = useRef(null);

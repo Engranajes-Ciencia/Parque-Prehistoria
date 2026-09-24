@@ -11,7 +11,7 @@ export const fondosMapa = [
     `${BASE}assets/form-fondo/sahara.png`,
     `${BASE}assets/form-fondo/sedentario.png`,
     `${BASE}assets/form-fondo/arboles.png`,
-    `${BASE}assets/form-fondo/bienvenida.png`,
+    `${BASE}assets/form-fondo/bienvenida.jpeg`,
     `${BASE}assets/form-fondo/craneos.png`,
     `${BASE}assets/form-fondo/dinos.png`,
     `${BASE}assets/form-fondo/laetoli.png`,

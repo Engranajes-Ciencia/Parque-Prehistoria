@@ -12,17 +12,19 @@ const StartScreen = () => {
 
         if (isPlaying) {
             audioRef.current.pause();
+            setIsPlaying(false);
         } else {
-            audioRef.current.play().catch(() => {
-                console.warn("Autoplay bloqueado por el navegador");
-            });
+            audioRef.current.play()
+                .then(() => setIsPlaying(true))
+                .catch(() => {
+                    console.warn("Autoplay bloqueado por el navegador");
+                    setIsPlaying(false);
+                });
         }
-
-        setIsPlaying(!isPlaying);
     };
 
     const bgStyle = {
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/images/nogenially/bienvenida.jpeg')`
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('${import.meta.env.BASE_URL}assets/images/nogenially/bienvenida.jpeg')`
     };
 
     return (
@@ -45,7 +47,11 @@ const StartScreen = () => {
                     </button>
                 </div>
 
-                <audio ref={audioRef} src="sounds/vozPortadaESP.mp3" />
+                <audio
+                    ref={audioRef}
+                    src={`${import.meta.env.BASE_URL}sounds/vozPortadaESP.mp3`}
+                    onEnded={() => setIsPlaying(false)}
+                />
             </div>
         </div>
     );
