@@ -41,3 +41,7 @@ arte/**/*.png
 arte/**/*.jpg
 Mapa e imágenes de parque/**/*.png
 Mapa e imágenes de parque/**/*.jpg
+
+# Banco de pruebas sin red: copias desechables
+herramientas/prueba-sin-red/site/
+herramientas/prueba-sin-red/perfil/
