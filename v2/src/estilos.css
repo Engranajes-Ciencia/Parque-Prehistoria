@@ -1255,3 +1255,137 @@ h3 {
   font-size: 1.05rem;
   margin: 20px 0 8px;
 }
+
+/* ---------- motor «Emparejar» ---------- */
+
+.pieza-dibujo {
+  font-size: 2.1rem;
+  line-height: 1.1;
+  display: grid;
+  place-items: center;
+  min-height: 48px;
+  pointer-events: none;
+}
+
+.pieza-dibujo img,
+.pieza-dibujo svg {
+  width: 60px;
+  height: 52px;
+  object-fit: contain;
+}
+
+.pareja-dentro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.pareja-mini {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.pareja-mini img,
+.pareja-mini svg {
+  width: 30px;
+  height: 26px;
+  object-fit: contain;
+}
+
+/* ---------- motor «Puzle» ---------- */
+
+.puzle {
+  width: 100%;
+  /* Que la bandeja de piezas quepa debajo sin tener que desplazar la pantalla al arrastrar. */
+  max-height: 46vh;
+  display: block;
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+  touch-action: none;
+}
+
+.puzle-hueco .sombra-pieza {
+  fill: rgba(40, 30, 20, 0.22);
+  stroke: rgba(255, 255, 255, 0.9);
+  stroke-width: 2;
+  stroke-dasharray: 6 5;
+}
+
+.puzle-hueco.esperando .sombra-pieza {
+  stroke: #ffd54f;
+}
+
+.puzle-hueco.sobre .sombra-pieza {
+  fill: rgba(255, 213, 79, 0.45);
+}
+
+.puzle-hueco.lleno > :first-child {
+  animation: encajar 0.35s ease-out;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+@keyframes encajar {
+  from {
+    transform: scale(0.6);
+    opacity: 0.4;
+  }
+}
+
+/* ---------- poliniza las flores ---------- */
+
+.prado {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+  background: linear-gradient(#bfe6f5, #dff3c8 45%, #9fcf6b);
+  overflow: hidden;
+}
+
+.prado-flor {
+  position: absolute;
+  width: 26%;
+  aspect-ratio: 1;
+  margin: -13% 0 0 -13%;
+  padding: 0;
+  border: 3px dashed transparent;
+  border-radius: 50%;
+  background: none;
+  transition: transform 0.15s;
+}
+
+.prado-flor svg {
+  width: 100%;
+  height: 100%;
+}
+
+.prado-flor.esperando {
+  border-color: var(--mostaza);
+}
+
+.prado-flor.sobre {
+  transform: scale(1.12);
+}
+
+.prado-abeja {
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  margin: -28px 0 0 -28px;
+  width: 56px;
+  height: 56px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: var(--sombra);
+  font-size: 2rem;
+  touch-action: none;
+  user-select: none;
+}
+
+.prado-abeja.elegida {
+  outline: 3px solid var(--mostaza);
+}

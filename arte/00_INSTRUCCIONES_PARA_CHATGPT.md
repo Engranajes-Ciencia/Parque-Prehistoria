@@ -288,7 +288,47 @@ Al acabar, compara tu mapa con la plantilla: **el camino tiene que seguir el mis
 
 Nada de texto ni números, como siempre. Al acabar, pon `M1` y `M3` una junto a otra y comprueba que **solo** cambian esas cinco cosas.
 
-## 11. Próximos lotes (NO generar todavía)
+## 11. LOTE ACTIVO (después del 5 bis): lote 6, paradas 3, 4, 5, 6, 8, 9 y 10
+
+Todo en el **estilo 1** y con las reglas de la sección 3 (sin texto, anatomía cuidada, sin huecos transparentes dentro de las figuras). Guarda en `arte/lote-06/`. Si es mucho de una vez, hazlo por partes (A, B, C…) y avisa a Álvaro de cuál has terminado.
+
+**Regla de oro de este lote: no juntes en una escena seres que no convivieron.** Cada portada es un momento concreto; la tabla dice cuál.
+
+### A. Portadas (1024×1536, con fondo, sin Alba, luminosas)
+
+| Archivo | Escena |
+|---|---|
+| `D3_parada03_portada.png` | Un **mar poco profundo del Devónico**, visto por dentro del agua, con luz: en el fondo arenoso caminan **trilobites** (cuerpo ovalado dividido en tres a lo largo, muchos segmentos, antenas cortas) y por encima nadan **amonites** (concha en espiral plana con costillas; de la abertura salen unos diez brazos cortos y un ojo grande; que no parezcan caracoles). Algún crinoide o coral. Nada de peces modernos ni tiburones. |
+| `D4_parada04_portada.png` | La **orilla de un río del Devónico**: columnas altas, blancas y rugosas de **Prototaxites** entre plantas diminutas (tallos verdes sin hojas, de un palmo como mucho); en el agua poco profunda, un **Tiktaalik** asomando la cabeza plana con los ojos encima. **Sin libélulas gigantes** (llegaron setenta millones de años después), sin hierba, sin flores, sin árboles grandes. |
+| `D5_parada05_portada.png` | Un **bosque del Devónico**: árboles de **Archaeopteris** (tronco recto; copa alargada de ramas con ramitas planas cubiertas de hojitas en forma de abanico, como frondas de helecho, **nada de agujas**), y algún árbol tipo helecho gigante (**Wattieza**: tronco recto con un penacho de ramas arriba, sin que parezca una palmera). Suelo con plantas bajas y musgo. **Sin flores, frutos, piñas, hierba ni animales grandes.** |
+| `D6_parada06_portada.png` | **Las primeras flores**, hace unos ciento veinte millones de años: plantas bajas y arbustos con **flores sencillas de muchos pétalos, blancas o crema, parecidas a las de una magnolia o un nenúfar**, junto a un lago, entre helechos y coníferas; **escarabajos** posados en las flores. **Sin abejas ni mariposas** (llegaron después), sin hierba. |
+| `D8_parada08_portada.png` | **Pangea rompiéndose**, hace unos doscientos millones de años: una llanura cruzada por **grietas larguísimas de las que sale lava** en cortinas de fuego (no un volcán con cono), y a lo lejos el mar empezando a entrar en la grieta. Cielo con nubes de gas. Sin animales en primer plano. |
+| `D9_parada09_portada.png` | La **orilla fangosa de un lago del Cretácico inferior** (la península ibérica hace unos ciento veinte millones de años): en el barro, un **rastro de huellas de tres dedos** en fila que se aleja; al fondo, dos **iguanodontes** (cabeza alargada con pico, pulgar en pincho, cola recta en el aire) caminando. Helechos, colas de caballo, cícadas y coníferas. Sin hierba. |
+| `D10_parada10_portada.png` | **El atardecer del último día de los grandes dinosaurios**, sin nada violento: un cielo naranja con una **estela brillante** que cruza muy alta; en primer plano, sobre una rama, **dos pájaros pequeños**, y en el suelo, un **mamífero diminuto** peludo (como una musaraña) mirando al cielo. Son los que sobrevivirán. Nada de dinosaurios muriendo ni fuego. |
+
+### B. Pegatinas (1024×1024, fondo transparente, como las del lote 4)
+
+| Archivo | Dibujo | Color del círculo |
+|---|---|---|
+| `K3_pegatina_parada03.png` | un amonites | turquesa `#3fb5b0` |
+| `K4_pegatina_parada04.png` | un Tiktaalik de cuerpo entero, con sus aletas delanteras «con codo» | verde agua `#8fcfb6` |
+| `K5_pegatina_parada05.png` | un Archaeopteris (el árbol de la portada D5) | verde bosque `#4f8a3a` |
+| `K6_pegatina_parada06.png` | una flor de cerezo de cinco pétalos con una abeja | rosa `#f2a6c0` |
+| `K8_pegatina_parada08.png` | un volcán en erupción, amable | naranja `#e8743b` |
+| `K9_pegatina_parada09.png` | una huella de dinosaurio de tres dedos en el barro | arena `#d9b27c` |
+| `K10_pegatina_parada10.png` | un pajarito posado y, detrás, en el cielo, la estela de un meteorito | azul atardecer `#5a6fb0` |
+
+### C. Piezas de los juegos (1024×1024, fondo transparente, cuerpo entero, sin sombra en el suelo)
+
+**Parada 3, «¿Cómo se hace un fósil?»:** cuatro tarjetas **con fondo** (no transparentes), cuadradas, del **mismo amonites**. Las describe con precisión el guion: `contenido/guiones/parada-03-la-vida-nace-en-el-agua.md`, sección «Reto», puntos 1 a 4. Archivos: `F1_fosil_vivo.png`, `F2_fosil_barro.png`, `F3_fosil_piedra.png`, `F4_fosil_aparece.png` (en la 4 sale Alba, idéntica a su ficha).
+
+**Parada 6, «Poliniza las flores»:** `G1_flor_cerezo.png` (flor de cerezo abierta, cinco pétalos rosa muy claro, vista de frente), `G2_abeja.png` (abeja amable con granitos de polen amarillo pegados a los pelos de las patas) y `G3_cereza.png` (una cereza roja con su rabito).
+
+**Parada 9, «¿De quién es la huella?»:** los tres dinosaurios, de perfil, **con los pies bien visibles**. La tabla del guion (`contenido/guiones/parada-09-huellas-de-dinosaurio.md`, sección «Reto») dice cómo es cada uno: `H1_teropodo.png` (carnívoro mediano de dos patas; **que no sea un alosaurio calcado**), `H2_iguanodonte.png` y `H3_sauropodo.png` (como el brontosaurio de la sección 3, adulto).
+
+**Parada 10, «¿Quién sobrevivió?»:** `S1_tiranosaurio.png` (brazos de **dos dedos**, cola recta en el aire), `S2_amonites.png`, `S3_pterosaurio.png` (reptil volador de cabeza grande **sin dientes** y cresta, alas de piel; que no parezca un ave), `S4_ave.png` (un pájaro pequeño de suelo, tipo codorniz, **sin dientes**), `S5_cocodrilo.png` y `S6_mamifero.png` (del tamaño de una musaraña, con pelo).
+
+## 12. Próximos lotes (NO generar todavía)
 
 - `D1` rehecha en el estilo 1, si Álvaro lo pide.
 - Lo que haga falta para las paradas que faltan.

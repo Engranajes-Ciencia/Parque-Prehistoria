@@ -45,6 +45,8 @@ Es la **única fuente de texto** de la parada. La app muestra y locuta exactamen
 
 - Las **etiquetas de la lista «Voz de Alba»** son las que te indique el encargo concreto, **al pie de la letra**: el código busca las frases por esas etiquetas.
 - Un párrafo citado se separa del siguiente con una línea `>` vacía.
+- **El narrador NO anuncia la parada** («Parada tres. La vida…»): la pantalla ya muestra número y título, y así una renumeración no obliga a regrabar. «Para todos» empieza directamente con la primera frase del contenido (decidido el 26-sep-2026).
+- **Numeración:** desde el 26-sep-2026 el recorrido tiene 21 paradas (ver `v2/src/contenido/paradas.ts`, `RECORRIDO`). Los textos antiguos (`src/locales/es/pages.json`, `README.md`) y la clasificación de fotos usan la numeración **antigua**: el encargo concreto te dice cuál es la equivalencia.
 
 ## Reglas de escritura
 
@@ -56,4 +58,6 @@ Es la **única fuente de texto** de la parada. La app muestra y locuta exactamen
 - **Rigor, prioridad absoluta** («del texto debe emanar la verdad»). Pasa `scientific-rigor-check` al final. Cada dato con cifra o atribución va en la tabla «Datos y fuentes» con su base. Si algo es debatido, el texto lo dice con una fórmula sencilla («probablemente», «los científicos aún discuten…») o lo evita. Corrige los errores del guion antiguo y anótalos en «Corregido respecto al guion antiguo».
 - **Material de partida:** los textos antiguos de la parada están en `src/locales/es/pages.json` (clave con el número de parada, campo `avatarDialogo.mensaje`) y en `README.md` (sección de audios). Son orientativos y **tienen errores**: no los copies sin comprobar. Las fotos del parque están en `Mapa e imágenes de parque/Imágenes/` (clasificadas en `CLASIFICACION_PROPUESTA.md`).
 - **Nombre del parque:** «Parque de Ciencias Prehistóricas» (el del cartel).
+- **Juego del reto:** el encargo concreto te da la mecánica y las etiquetas. Los motores que existen son: arrastrar piezas a un destino (o tocar pieza y luego destino), ordenar tarjetas, rascar para descubrir, tocar zonas de una imagen y tocar repetidamente para llenar un medidor. Si propones cambios, que sean dentro de esas mecánicas.
+- **Al terminar el reto, Alba dice primero la frase del último paso y después la de «Al terminar»**: que «Al terminar» no repita lo que ya dijo el último acierto.
 - Escribe **solo** tu fichero de guion. No toques código ni otros ficheros.

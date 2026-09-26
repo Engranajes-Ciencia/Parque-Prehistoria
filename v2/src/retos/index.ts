@@ -1,6 +1,13 @@
 import type { ComponentType } from "react";
 import type { ContenidoParada } from "../contenido/paradas";
 import AExcavar from "./AExcavar";
+import ArmaPangea from "./ArmaPangea";
+import ComoSeHaceUnFosil from "./ComoSeHaceUnFosil";
+import ConstruyeElArbol from "./ConstruyeElArbol";
+import DeQuienEsLaHuella from "./DeQuienEsLaHuella";
+import PolinizaLasFlores from "./PolinizaLasFlores";
+import QuienSobrevivio from "./QuienSobrevivio";
+import QuienVivioAntes from "./QuienVivioAntes";
 import ReconstruyeStonehenge from "./ReconstruyeStonehenge";
 import DeDondeViene from "./DeDondeViene";
 import DescubreElMural from "./DescubreElMural";
@@ -11,7 +18,14 @@ import QuienComeQue from "./QuienComeQue";
 /** El juego de cada parada. Se abre en #/parada/N/reto. */
 export const RETOS: Record<number, ComponentType<{ parada: ContenidoParada }>> = {
   2: FabricaOxigeno,
+  3: ComoSeHaceUnFosil,
+  4: QuienVivioAntes,
+  5: ConstruyeElArbol,
+  6: PolinizaLasFlores,
   7: QuienComeQue,
+  8: ArmaPangea,
+  9: DeQuienEsLaHuella,
+  10: QuienSobrevivio,
   13: AExcavar,
   16: ManoEnLaCueva,
   18: DeDondeViene,

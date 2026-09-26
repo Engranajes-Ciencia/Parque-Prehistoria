@@ -4,7 +4,7 @@
 
 **Qué hay en la parada** (según las fotos 72, de abril de 2025, y 95-98, de mayo de 2026): una **reproducción de la Gran Fuente Prismática de Yellowstone pintada en el suelo**, con relieve: la charca está algo elevada, con un reborde, y la orla baja en pendiente hasta la hierba. En la versión repintada de 2026 se ve, del centro hacia fuera: **azul intenso**, un anillo **turquesa**, un reborde **amarillo pálido** y una gran orla **rojo anaranjada** con regueros **blancos, negros y amarillos** que imitan los canales por donde se escurre el agua. En la de 2025 era azul, verde amarillento y naranja. En las fotos **no hay cuerda alrededor**: la hierba llega hasta la pintura y al lado pasa un camino con cuerda. **[VERIFICAR: si se puede rodear la fuente por fuera sin pisar la pintura; la misión lo da por hecho.]**
 
-**Lo que no se usa:** detrás de la fuente hay una gran zona pintada de azul con rocas e hileras de guijarros (fotos 92-94). **[VERIFICAR: si es el «surco del río» del guion antiguo, donde se buscaban helechos.]** No se menciona aquí: los helechos y el río pertenecen a la parada 3.
+**Lo que no se usa:** detrás de la fuente hay una gran zona pintada de azul con rocas e hileras de guijarros (fotos 92-94). **[VERIFICAR: si es el «surco del río» del guion antiguo, donde se buscaban helechos.]** No se menciona aquí. *(26-sep: con el recorrido nuevo, esa zona azul es la parada 3, «La vida nace en el agua», con el trilobites y el amonites; el cierre de «Para todos» se cambió para sembrarla.)*
 
 Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y frases cortas, porque suenan por el altavoz de un móvil al aire libre.
 
@@ -22,7 +22,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > Al principio, ese oxígeno no se quedaba en el aire: se lo tragaban el hierro del mar y los gases de los volcanes. Pero hace unos dos mil cuatrocientos millones de años empezó a acumularse. Es la Gran Oxidación. Para muchos microbios, aquel gas era un veneno. Hoy es la quinta parte del aire, y cada vez que respiráis usáis algo que empezó siendo el desecho de seres diminutos.
 >
-> Una última sorpresa: el verde de las hojas lo ponen los cloroplastos, piezas minúsculas que descienden de cianobacterias que se quedaron a vivir dentro de otras células. Pero durante casi toda esta historia la tierra firme no tuvo ni una planta. En la siguiente parada conoceremos a las primeras que se atrevieron a salir del agua.
+> Una última sorpresa: el verde de las hojas lo ponen los cloroplastos, piezas minúsculas que descienden de cianobacterias que se quedaron a vivir dentro de otras células. Pero durante casi toda esta historia no hubo ni un solo animal. En la siguiente parada, por fin, el mar se llena de ellos.
 
 *≈ 375 palabras · ≈ 2 min 20 s.*
 

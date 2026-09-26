@@ -58,6 +58,9 @@ PRONUNCIACION = {
     "Triceratops": "Tricerátops",
     "Lascaux": "Lascó",
     "Chauvet": "Chové",
+    "Archaeopteris": "Arqueópteris",
+    "Wegener": "Véguener",
+    "Garrotxa": "Garrocha",
 }
 
 

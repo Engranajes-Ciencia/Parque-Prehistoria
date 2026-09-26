@@ -18,12 +18,20 @@ export function useArrastre<Destino extends string>(
   const [sobre, setSobre] = useState<Destino | null>(null);
   const origen = useRef({ x: 0, y: 0 });
 
+  // Si dos destinos se solapan (los continentes de Pangea), gana aquel cuyo centro está más cerca.
   const destinoEn = (x: number, y: number): Destino | null => {
+    let mejor: Destino | null = null;
+    let distancia = Infinity;
     for (const d of Object.keys(destinos) as Destino[]) {
       const r = destinos[d].current?.getBoundingClientRect();
-      if (r && x >= r.left && x <= r.right && y >= r.top && y <= r.bottom) return d;
+      if (!r || x < r.left || x > r.right || y < r.top || y > r.bottom) continue;
+      const dist = Math.hypot(x - (r.left + r.right) / 2, y - (r.top + r.bottom) / 2);
+      if (dist < distancia) {
+        mejor = d;
+        distancia = dist;
+      }
     }
-    return null;
+    return mejor;
   };
 
   const soltar = (pieza: string, destino: Destino) => {

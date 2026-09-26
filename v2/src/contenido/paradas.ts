@@ -1,5 +1,12 @@
 import comun from "../../../contenido/guiones/comun.md?raw";
 import guion02 from "../../../contenido/guiones/parada-02-origen-de-la-vida.md?raw";
+import guion03 from "../../../contenido/guiones/parada-03-la-vida-nace-en-el-agua.md?raw";
+import guion04 from "../../../contenido/guiones/parada-04-prototaxites-meganeura-tiktaalik.md?raw";
+import guion05 from "../../../contenido/guiones/parada-05-primeros-arboles.md?raw";
+import guion06 from "../../../contenido/guiones/parada-06-primeras-flores.md?raw";
+import guion08 from "../../../contenido/guiones/parada-08-el-volcan.md?raw";
+import guion09 from "../../../contenido/guiones/parada-09-huellas-de-dinosaurio.md?raw";
+import guion10 from "../../../contenido/guiones/parada-10-segundos-dinosaurios.md?raw";
 import guion07 from "../../../contenido/guiones/parada-07-primeros-dinosaurios.md?raw";
 import guion13 from "../../../contenido/guiones/parada-13-atapuerca.md?raw";
 import guion16 from "../../../contenido/guiones/parada-16-cuevas-arte-rupestre.md?raw";
@@ -66,6 +73,53 @@ export const PARADAS: Record<number, ContenidoParada> = {
     foto: "img/p02/foto.webp",
     guion: leerGuion(guion02),
     reto: "Fábrica de oxígeno",
+  },
+  3: {
+    id: 3,
+    titulo: "La vida nace en el agua",
+    foto: "img/p03/foto.webp",
+    guion: leerGuion(guion03),
+    reto: "¿Cómo se hace un fósil?",
+  },
+  4: {
+    id: 4,
+    titulo: "Prototaxites, Meganeura y Tiktaalik",
+    foto: "img/p04/foto.webp",
+    guion: leerGuion(guion04),
+    reto: "¿Quién vivió antes?",
+  },
+  5: {
+    id: 5,
+    titulo: "Los primeros árboles",
+    guion: leerGuion(guion05),
+    reto: "Construye el primer árbol",
+  },
+  6: {
+    id: 6,
+    titulo: "Las primeras flores",
+    guion: leerGuion(guion06),
+    reto: "Poliniza las flores",
+  },
+  8: {
+    id: 8,
+    titulo: "El volcán",
+    foto: "img/p08/foto.webp",
+    guion: leerGuion(guion08),
+    reto: "Arma Pangea",
+  },
+  9: {
+    id: 9,
+    titulo: "Huellas de dinosaurio",
+    foto: "img/p09/foto.webp",
+    guion: leerGuion(guion09),
+    reto: "¿De quién es la huella?",
+  },
+  10: {
+    id: 10,
+    titulo: "Los segundos dinosaurios",
+    foto: "img/p10/foto.webp",
+    guion: leerGuion(guion10),
+    reto: "¿Quién sobrevivió?",
   },
   7: {
     id: 7,
