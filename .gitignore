@@ -22,3 +22,22 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Muestras y consultas de voz (se regeneran; el historial contiene textos de la cuenta)
+herramientas/muestras_voz/
+
+# Lista generada al compilar (vite.config.ts)
+v2/public/recursos.json
+
+# v2: lo que no va al repositorio
+v2/tsconfig.tsbuildinfo
+herramientas/__pycache__/
+.claude/
+_copias/
+_descartado/
+# Imágenes originales (cientos de MB): las que usa la app ya están en v2/public/img en .webp.
+# Los documentos de texto de estas carpetas sí se suben.
+arte/**/*.png
+arte/**/*.jpg
+Mapa e imágenes de parque/**/*.png
+Mapa e imágenes de parque/**/*.jpg

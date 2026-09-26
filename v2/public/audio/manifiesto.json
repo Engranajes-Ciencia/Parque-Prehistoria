@@ -1,0 +1,3928 @@
+{
+ "p07-peques": {
+  "archivo": "p07-peques.22675a11.mp3",
+  "parrafos": [
+   "¡Hola, exploradores! Soy Alba, la viajera del tiempo.",
+   "¿Veis ese dinosaurio con cuernos? Es un triceratops. Vamos a contarlos juntos: uno… dos… ¡y tres! Tenía un pico, como los loros, y solo comía plantas.",
+   "¿Y el del cuello tan largo? Es un brontosaurio bebé. De mayor sería larguísimo: ¡como dos autobuses!",
+   "Os cuento un secreto de viajera del tiempo: aunque aquí estén juntos, estos dos nunca se conocieron. ¡Vivieron en épocas muy, muy distintas! Lo sé porque he visitado las dos.",
+   "Y ahora, una pregunta: ¿quién llegaba a las hojas más altas de los árboles? ¡Descubridlo en el reto!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Hola, exploradores!",
+    "inicio": 0.0,
+    "fin": 1.416
+   },
+   {
+    "texto": "Soy Alba, la viajera del tiempo.",
+    "inicio": 1.997,
+    "fin": 3.994
+   },
+   {
+    "texto": "¿Veis ese dinosaurio con cuernos?",
+    "inicio": 4.898,
+    "fin": 7.011
+   },
+   {
+    "texto": "Es un triceratops.",
+    "inicio": 8.137,
+    "fin": 9.519
+   },
+   {
+    "texto": "Vamos a contarlos juntos: uno… dos…",
+    "inicio": 10.122,
+    "fin": 13.408
+   },
+   {
+    "texto": "¡y tres!",
+    "inicio": 13.954,
+    "fin": 15.486
+   },
+   {
+    "texto": "Tenía un pico, como los loros, y solo comía plantas.",
+    "inicio": 16.005,
+    "fin": 19.86
+   },
+   {
+    "texto": "¿Y el del cuello tan largo?",
+    "inicio": 20.772,
+    "fin": 22.421
+   },
+   {
+    "texto": "Es un brontosaurio bebé.",
+    "inicio": 23.57,
+    "fin": 25.242
+   },
+   {
+    "texto": "De mayor sería larguísimo: ¡como dos autobuses!",
+    "inicio": 25.846,
+    "fin": 29.828
+   },
+   {
+    "texto": "Os cuento un secreto de viajera del tiempo: aunque aquí estén juntos, estos dos nunca se conocieron.",
+    "inicio": 30.737,
+    "fin": 36.716
+   },
+   {
+    "texto": "¡Vivieron en épocas muy, muy distintas!",
+    "inicio": 37.262,
+    "fin": 39.932
+   },
+   {
+    "texto": "Lo sé porque he visitado las dos.",
+    "inicio": 40.501,
+    "fin": 42.858
+   },
+   {
+    "texto": "Y ahora, una pregunta: ¿quién llegaba a las hojas más altas de los árboles?",
+    "inicio": 43.759,
+    "fin": 48.206
+   },
+   {
+    "texto": "¡Descubridlo en el reto!",
+    "inicio": 49.285,
+    "fin": 51.329
+   }
+  ],
+  "duracion": 51.34,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 774,
+  "fecha": "2026-09-26T09:14:25"
+ },
+ "comun-saludo": {
+  "archivo": "comun-saludo.ba77abc7.mp3",
+  "parrafos": [
+   "¡Hola, exploradores! Soy Alba, la viajera del tiempo.",
+   "Hoy os acompaño por el parque: ¡vamos a viajar millones de años atrás!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Hola, exploradores!",
+    "inicio": 0.0,
+    "fin": 1.498
+   },
+   {
+    "texto": "Soy Alba, la viajera del tiempo.",
+    "inicio": 2.043,
+    "fin": 4.412
+   },
+   {
+    "texto": "Hoy os acompaño por el parque: ¡vamos a viajar millones de años atrás!",
+    "inicio": 5.316,
+    "fin": 9.774
+   }
+  ],
+  "duracion": 9.78,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 145,
+  "fecha": "2026-09-25T16:42:11"
+ },
+ "p07-todos": {
+  "archivo": "p07-todos.e22e8bfb.mp3",
+  "parrafos": [
+   "Para entender a los dinosaurios hay que empezar por una catástrofe. Hace doscientos cincuenta y dos millones de años, unas erupciones volcánicas gigantescas cambiaron el clima de todo el planeta. Fue la mayor extinción de la historia: desaparecieron más de ocho de cada diez especies del mar, y muchísimas de tierra firme.",
+   "En aquel mundo medio vacío, hace unos doscientos treinta millones de años, aparecen los primeros dinosaurios que conocemos. No se parecían a los que imagináis: muchos no eran más grandes que un perro, y corrían sobre dos patas. Nadie habría apostado por ellos. Y, sin embargo, acabaron reinando en la Tierra: desde los primeros hasta los últimos grandes dinosaurios pasaron más de ciento sesenta millones de años. Para hacernos una idea: nuestra especie lleva aquí unos trescientos mil. Ellos duraron más de quinientas veces eso.",
+   "Los dos que tenéis aquí llegaron mucho después. Mirad primero al triceratops. Fijaos en su cabeza: un pico como el de un loro, dos cuernos largos sobre los ojos, uno corto sobre la nariz y, detrás, una gran gola de hueso. Era herbívoro. Arrancaba plantas bajas con el pico y las troceaba con cientos de dientes que cortaban como tijeras y se le iban renovando toda la vida. Los cuernos le servían para defenderse, y probablemente también para pelear con otros triceratops, como hacen hoy los ciervos.",
+   "Ahora buscad al del cuello largo, un poco más allá: es una cría de brontosaurio. Un adulto medía más de veinte metros, casi como dos autobuses en fila, y pesaba tanto como tres elefantes. Con ese cuello podía comer en un círculo enorme sin dar un paso, y alcanzar ramas a las que otros no llegaban.",
+   "Y ahora, la sorpresa. Aunque aquí estén a pocos metros, estos dos animales nunca se conocieron. El brontosaurio vivió hace unos ciento cincuenta millones de años; el triceratops, hace menos de setenta. Entre uno y otro pasaron más de ochenta millones de años. Es decir: el triceratops vivió más cerca de nosotros que del brontosaurio.",
+   "Cuando decimos «la época de los dinosaurios», metemos en una sola foto un tiempo inmenso. Tan inmenso que, mientras tanto, hasta los continentes cambiaron de sitio. De eso trata, precisamente, la siguiente parada."
+  ],
+  "frases": [
+   {
+    "texto": "Para entender a los dinosaurios hay que empezar por una catástrofe.",
+    "inicio": 0.04,
+    "fin": 3.674
+   },
+   {
+    "texto": "Hace doscientos cincuenta y dos millones de años, unas erupciones volcánicas gigantescas cambiaron el clima de todo el planeta.",
+    "inicio": 4.382,
+    "fin": 11.58
+   },
+   {
+    "texto": "Fue la mayor extinción de la historia: desaparecieron más de ocho de cada diez especies del mar, y muchísimas de tierra firme.",
+    "inicio": 12.277,
+    "fin": 19.916
+   },
+   {
+    "texto": "En aquel mundo medio vacío, hace unos doscientos treinta millones de años, aparecen los primeros dinosaurios que conocemos.",
+    "inicio": 21.02,
+    "fin": 28.16
+   },
+   {
+    "texto": "No se parecían a los que imagináis: muchos no eran más grandes que un perro, y corrían sobre dos patas.",
+    "inicio": 28.81,
+    "fin": 35.207
+   },
+   {
+    "texto": "Nadie habría apostado por ellos.",
+    "inicio": 35.892,
+    "fin": 37.982
+   },
+   {
+    "texto": "Y, sin embargo, acabaron reinando en la Tierra: desde los primeros hasta los últimos grandes dinosaurios pasaron más de ciento sesenta millones de años.",
+    "inicio": 38.643,
+    "fin": 48.837
+   },
+   {
+    "texto": "Para hacernos una idea: nuestra especie lleva aquí unos trescientos mil.",
+    "inicio": 49.391,
+    "fin": 53.768
+   },
+   {
+    "texto": "Ellos duraron más de quinientas veces eso.",
+    "inicio": 54.407,
+    "fin": 57.379
+   },
+   {
+    "texto": "Los dos que tenéis aquí llegaron mucho después.",
+    "inicio": 58.486,
+    "fin": 60.889
+   },
+   {
+    "texto": "Mirad primero al triceratops.",
+    "inicio": 61.632,
+    "fin": 63.49
+   },
+   {
+    "texto": "Fijaos en su cabeza: un pico como el de un loro, dos cuernos largos sobre los ojos, uno corto sobre la nariz y, detrás, una gran gola de hueso.",
+    "inicio": 64.314,
+    "fin": 73.277
+   },
+   {
+    "texto": "Era herbívoro.",
+    "inicio": 74.02,
+    "fin": 75.205
+   },
+   {
+    "texto": "Arrancaba plantas bajas con el pico y las troceaba con cientos de dientes que cortaban como tijeras y se le iban renovando toda la vida.",
+    "inicio": 75.755,
+    "fin": 83.928
+   },
+   {
+    "texto": "Los cuernos le servían para defenderse, y probablemente también para pelear con otros triceratops, como hacen hoy los ciervos.",
+    "inicio": 84.625,
+    "fin": 92.288
+   },
+   {
+    "texto": "Ahora buscad al del cuello largo, un poco más allá: es una cría de brontosaurio.",
+    "inicio": 93.392,
+    "fin": 98.466
+   },
+   {
+    "texto": "Un adulto medía más de veinte metros, casi como dos autobuses en fila, y pesaba tanto como tres elefantes.",
+    "inicio": 99.104,
+    "fin": 105.432
+   },
+   {
+    "texto": "Con ese cuello podía comer en un círculo enorme sin dar un paso, y alcanzar ramas a las que otros no llegaban.",
+    "inicio": 106.256,
+    "fin": 112.943
+   },
+   {
+    "texto": "Y ahora, la sorpresa.",
+    "inicio": 114.059,
+    "fin": 115.777
+   },
+   {
+    "texto": "Aunque aquí estén a pocos metros, estos dos animales nunca se conocieron.",
+    "inicio": 116.462,
+    "fin": 120.642
+   },
+   {
+    "texto": "El brontosaurio vivió hace unos ciento cincuenta millones de años; el triceratops, hace menos de setenta.",
+    "inicio": 121.304,
+    "fin": 128.189
+   },
+   {
+    "texto": "Entre uno y otro pasaron más de ochenta millones de años.",
+    "inicio": 128.85,
+    "fin": 132.821
+   },
+   {
+    "texto": "Es decir: el triceratops vivió más cerca de nosotros que del brontosaurio.",
+    "inicio": 133.392,
+    "fin": 138.408
+   },
+   {
+    "texto": "Cuando decimos «la época de los dinosaurios», metemos en una sola foto un tiempo inmenso.",
+    "inicio": 139.508,
+    "fin": 145.185
+   },
+   {
+    "texto": "Tan inmenso que, mientras tanto, hasta los continentes cambiaron de sitio.",
+    "inicio": 145.824,
+    "fin": 150.526
+   },
+   {
+    "texto": "De eso trata, precisamente, la siguiente parada.",
+    "inicio": 151.164,
+    "fin": 154.369
+   }
+  ],
+  "duracion": 154.37,
+  "voz": "El Richar atenboru",
+  "voice_id": "WeuNkKS3AvTwCZZERkQa",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.49,
+   "similarity_boost": 0.43,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.55,
+   "pregunta": 0.8,
+   "parrafo": 1.1
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 2628,
+  "fecha": "2026-09-26T11:22:14"
+ },
+ "p07-mision": {
+  "archivo": "p07-mision.18a080df.mp3",
+  "parrafos": [
+   "¡Mirad bien a los dos dinosaurios! ¿Quién tiene la cabeza cerca del suelo? ¿Y quién la tiene allá arriba?",
+   "¡Ahora, imitadlos! Poneos a cuatro patas, como el triceratops, comiendo helechos del suelo… Y ahora estirad el cuello y los brazos todo lo que podáis, como el brontosaurio. ¡Qué buena foto!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Mirad bien a los dos dinosaurios!",
+    "inicio": 0.0,
+    "fin": 2.055
+   },
+   {
+    "texto": "¿Quién tiene la cabeza cerca del suelo?",
+    "inicio": 2.601,
+    "fin": 4.737
+   },
+   {
+    "texto": "¿Y quién la tiene allá arriba?",
+    "inicio": 5.805,
+    "fin": 7.802
+   },
+   {
+    "texto": "¡Ahora, imitadlos!",
+    "inicio": 8.812,
+    "fin": 10.263
+   },
+   {
+    "texto": "Poneos a cuatro patas, como el triceratops, comiendo helechos del suelo…",
+    "inicio": 10.89,
+    "fin": 15.755
+   },
+   {
+    "texto": "Y ahora estirad el cuello y los brazos todo lo que podáis, como el brontosaurio.",
+    "inicio": 16.312,
+    "fin": 21.142
+   },
+   {
+    "texto": "¡Qué buena foto!",
+    "inicio": 21.734,
+    "fin": 23.208
+   }
+  ],
+  "duracion": 23.23,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 404,
+  "fecha": "2026-09-25T16:42:43"
+ },
+ "p07-reto-acierto-1": {
+  "archivo": "p07-reto-acierto-1.3e134c7c.mp3",
+  "parrafos": [
+   "¡Ñam! ¡Muy bien!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Ñam!",
+    "inicio": 0.0,
+    "fin": 0.534
+   },
+   {
+    "texto": "¡Muy bien!",
+    "inicio": 1.103,
+    "fin": 1.858
+   }
+  ],
+  "duracion": 1.88,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 38,
+  "fecha": "2026-09-25T16:42:45"
+ },
+ "p07-reto-acierto-2": {
+  "archivo": "p07-reto-acierto-2.99fd0069.mp3",
+  "parrafos": [
+   "¡Eso es! Le encanta."
+  ],
+  "frases": [
+   {
+    "texto": "¡Eso es!",
+    "inicio": 0.0,
+    "fin": 0.813
+   },
+   {
+    "texto": "Le encanta.",
+    "inicio": 1.37,
+    "fin": 2.461
+   }
+  ],
+  "duracion": 2.48,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 42,
+  "fecha": "2026-09-25T16:42:46"
+ },
+ "p07-reto-acierto-3": {
+  "archivo": "p07-reto-acierto-3.90301672.mp3",
+  "parrafos": [
+   "¡Perfecto!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Perfecto!",
+    "inicio": 0.0,
+    "fin": 0.929
+   }
+  ],
+  "duracion": 0.94,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 10,
+  "fecha": "2026-09-25T16:42:47"
+ },
+ "p07-reto-al-empezar": {
+  "archivo": "p07-reto-al-empezar.3b178737.mp3",
+  "parrafos": [
+   "¡Tienen hambre! Arrastra cada planta hasta el dinosaurio que puede alcanzarla."
+  ],
+  "frases": [
+   {
+    "texto": "¡Tienen hambre!",
+    "inicio": 0.0,
+    "fin": 0.906
+   },
+   {
+    "texto": "Arrastra cada planta hasta el dinosaurio que puede alcanzarla.",
+    "inicio": 1.486,
+    "fin": 4.969
+   }
+  ],
+  "duracion": 4.99,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 100,
+  "fecha": "2026-09-25T16:42:44"
+ },
+ "p07-reto-planta-alta-al-triceratops": {
+  "archivo": "p07-reto-planta-alta-al-triceratops.fc17cf55.mp3",
+  "parrafos": [
+   "Mmm… no llega tan arriba. Prueba con el otro."
+  ],
+  "frases": [
+   {
+    "texto": "Mmm… no llega tan arriba.",
+    "inicio": 0.0,
+    "fin": 1.962
+   },
+   {
+    "texto": "Prueba con el otro.",
+    "inicio": 2.566,
+    "fin": 3.808
+   }
+  ],
+  "duracion": 3.81,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 67,
+  "fecha": "2026-09-26T09:14:09"
+ },
+ "p07-reto-planta-del-suelo-al-brontosaurio": {
+  "archivo": "p07-reto-planta-del-suelo-al-brontosaurio.94c0667a.mp3",
+  "parrafos": [
+   "¡A él también le gusta! Pero el triceratops no llega arriba: guárdale a él lo del suelo."
+  ],
+  "frases": [
+   {
+    "texto": "¡A él también le gusta!",
+    "inicio": 0.0,
+    "fin": 1.544
+   },
+   {
+    "texto": "Pero el triceratops no llega arriba: guárdale a él lo del suelo.",
+    "inicio": 2.101,
+    "fin": 6.455
+   }
+  ],
+  "duracion": 6.48,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 110,
+  "fecha": "2026-09-26T09:14:11"
+ },
+ "p07-reto-filete-a-cualquiera": {
+  "archivo": "p07-reto-filete-a-cualquiera.79ebebb0.mp3",
+  "parrafos": [
+   "¡Uy, no! Estos dos solo comían plantas."
+  ],
+  "frases": [
+   {
+    "texto": "¡Uy, no!",
+    "inicio": 0.0,
+    "fin": 0.546
+   },
+   {
+    "texto": "Estos dos solo comían plantas.",
+    "inicio": 1.103,
+    "fin": 2.972
+   }
+  ],
+  "duracion": 2.98,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 61,
+  "fecha": "2026-09-25T16:42:52"
+ },
+ "p07-reto-al-terminar": {
+  "archivo": "p07-reto-al-terminar.1f9122f0.mp3",
+  "parrafos": [
+   "¡Los dos están llenos! El del cuello largo llega a lo más alto, y el triceratops come a ras de suelo. ¡Toma tu pegatina!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Los dos están llenos!",
+    "inicio": 0.0,
+    "fin": 1.416
+   },
+   {
+    "texto": "El del cuello largo llega a lo más alto, y el triceratops come a ras de suelo.",
+    "inicio": 1.962,
+    "fin": 6.78
+   },
+   {
+    "texto": "¡Toma tu pegatina!",
+    "inicio": 7.349,
+    "fin": 9.009
+   }
+  ],
+  "duracion": 9.01,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 164,
+  "fecha": "2026-09-26T09:14:13"
+ },
+ "p02-todos": {
+  "archivo": "p02-todos.52dc703b.mp3",
+  "parrafos": [
+   "Mirad la charca de colores pintada en el suelo. Copia un lugar real: la Gran Fuente Prismática, en Yellowstone, Estados Unidos. Es un manantial caliente del tamaño de un campo de fútbol. Allí, los anillos de colores no los pone la pintura: los ponen seres vivos.",
+   "El agua brota por el centro casi hirviendo, tan caliente que ahí no crece ninguna alfombra de color; por eso veis azul, el color del agua limpia y profunda. Hacia los bordes, el agua se enfría, y en cada anillo vive una comunidad distinta de microbios, seres tan pequeños que no se ven. Juntos forman alfombras de colores: amarillas cerca del agua más caliente; naranjas y rojas, más lejos. Los colores funcionan casi como un termómetro.",
+   "¿Por qué empezamos aquí? Porque la vida empezó con microbios, y durante muchísimo tiempo no hubo nada más. La Tierra se formó hace unos cuatro mil quinientos millones de años; las huellas de vida más antiguas que casi nadie discute tienen unos tres mil quinientos millones de años. Dónde y cómo surgió la vida, aún no lo sabemos: quizá en aguas calientes como estas, o en fuentes termales del fondo del mar.",
+   "Entre aquellos microbios aparecieron las cianobacterias, que se fabricaban la comida con la luz del sol y con agua. Al romper el agua, soltaban un desecho que cambió el planeta: el oxígeno. Muchas formaban alfombras que, capa a capa, levantaban rocas: los estromatolitos. En la bahía Shark, en Australia, todavía crecen.",
+   "Al principio, ese oxígeno no se quedaba en el aire: se lo tragaban el hierro del mar y los gases de los volcanes. Pero hace unos dos mil cuatrocientos millones de años empezó a acumularse. Es la Gran Oxidación. Para muchos microbios, aquel gas era un veneno. Hoy es la quinta parte del aire, y cada vez que respiráis usáis algo que empezó siendo el desecho de seres diminutos.",
+   "Una última sorpresa: el verde de las hojas lo ponen los cloroplastos, piezas minúsculas que descienden de cianobacterias que se quedaron a vivir dentro de otras células. Pero durante casi toda esta historia la tierra firme no tuvo ni una planta. En la siguiente parada conoceremos a las primeras que se atrevieron a salir del agua."
+  ],
+  "frases": [
+   {
+    "texto": "Mirad la charca de colores pintada en el suelo.",
+    "inicio": 0.04,
+    "fin": 2.734
+   },
+   {
+    "texto": "Copia un lugar real: la Gran Fuente Prismática, en Yellowstone, Estados Unidos.",
+    "inicio": 3.465,
+    "fin": 8.817
+   },
+   {
+    "texto": "Es un manantial caliente del tamaño de un campo de fútbol.",
+    "inicio": 9.537,
+    "fin": 12.765
+   },
+   {
+    "texto": "Allí, los anillos de colores no los pone la pintura: los ponen seres vivos.",
+    "inicio": 13.414,
+    "fin": 18.894
+   },
+   {
+    "texto": "El agua brota por el centro casi hirviendo, tan caliente que ahí no crece ninguna alfombra de color; por eso veis azul, el color del agua limpia y profunda.",
+    "inicio": 20.001,
+    "fin": 29.881
+   },
+   {
+    "texto": "Hacia los bordes, el agua se enfría, y en cada anillo vive una comunidad distinta de microbios, seres tan pequeños que no se ven.",
+    "inicio": 30.52,
+    "fin": 38.89
+   },
+   {
+    "texto": "Juntos forman alfombras de colores: amarillas cerca del agua más caliente; naranjas y rojas, más lejos.",
+    "inicio": 39.529,
+    "fin": 46.483
+   },
+   {
+    "texto": "Los colores funcionan casi como un termómetro.",
+    "inicio": 47.145,
+    "fin": 50.001
+   },
+   {
+    "texto": "¿Por qué empezamos aquí?",
+    "inicio": 51.117,
+    "fin": 52.522
+   },
+   {
+    "texto": "Porque la vida empezó con microbios, y durante muchísimo tiempo no hubo nada más.",
+    "inicio": 53.369,
+    "fin": 58.431
+   },
+   {
+    "texto": "La Tierra se formó hace unos cuatro mil quinientos millones de años; las huellas de vida más antiguas que casi nadie discute tienen unos tres mil quinientos millones de años.",
+    "inicio": 59.221,
+    "fin": 68.717
+   },
+   {
+    "texto": "Dónde y cómo surgió la vida, aún no lo sabemos: quizá en aguas calientes como estas, o en fuentes termales del fondo del mar.",
+    "inicio": 69.402,
+    "fin": 77.82
+   },
+   {
+    "texto": "Entre aquellos microbios aparecieron las cianobacterias, que se fabricaban la comida con la luz del sol y con agua.",
+    "inicio": 78.941,
+    "fin": 85.861
+   },
+   {
+    "texto": "Al romper el agua, soltaban un desecho que cambió el planeta: el oxígeno.",
+    "inicio": 86.534,
+    "fin": 91.41
+   },
+   {
+    "texto": "Muchas formaban alfombras que, capa a capa, levantaban rocas: los estromatolitos.",
+    "inicio": 92.536,
+    "fin": 98.098
+   },
+   {
+    "texto": "En la bahía Shark, en Australia, todavía crecen.",
+    "inicio": 98.98,
+    "fin": 102.625
+   },
+   {
+    "texto": "Al principio, ese oxígeno no se quedaba en el aire: se lo tragaban el hierro del mar y los gases de los volcanes.",
+    "inicio": 103.735,
+    "fin": 110.538
+   },
+   {
+    "texto": "Pero hace unos dos mil cuatrocientos millones de años empezó a acumularse.",
+    "inicio": 111.247,
+    "fin": 115.403
+   },
+   {
+    "texto": "Es la Gran Oxidación.",
+    "inicio": 116.134,
+    "fin": 117.864
+   },
+   {
+    "texto": "Para muchos microbios, aquel gas era un veneno.",
+    "inicio": 118.7,
+    "fin": 122.032
+   },
+   {
+    "texto": "Hoy es la quinta parte del aire, y cada vez que respiráis usáis algo que empezó siendo el desecho de seres diminutos.",
+    "inicio": 122.598,
+    "fin": 129.657
+   },
+   {
+    "texto": "Una última sorpresa: el verde de las hojas lo ponen los cloroplastos, piezas minúsculas que descienden de cianobacterias que se quedaron a vivir dentro de otras células.",
+    "inicio": 130.778,
+    "fin": 141.064
+   },
+   {
+    "texto": "Pero durante casi toda esta historia la tierra firme no tuvo ni una planta.",
+    "inicio": 141.715,
+    "fin": 146.243
+   },
+   {
+    "texto": "En la siguiente parada conoceremos a las primeras que se atrevieron a salir del agua.",
+    "inicio": 146.94,
+    "fin": 151.583
+   }
+  ],
+  "duracion": 151.6,
+  "voz": "El Richar atenboru",
+  "voice_id": "WeuNkKS3AvTwCZZERkQa",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.49,
+   "similarity_boost": 0.43,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.55,
+   "pregunta": 0.8,
+   "parrafo": 1.1
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 2561,
+  "fecha": "2026-09-26T11:21:25"
+ },
+ "p02-peques": {
+  "archivo": "p02-peques.1d814602.mp3",
+  "parrafos": [
+   "¡Hola, exploradores! Soy Alba, la viajera del tiempo.",
+   "¿Veis los colores de esta charca? En la charca de verdad, los colores del borde los ponen seres vivos: microbios. Son tan pequeños que no se ven, pero hay tantos, tantos, que juntos parecen pintura.",
+   "Os cuento un secreto de viajera del tiempo. Hace muchísimo tiempo no había plantas ni animales: solo microbios. Lo sé porque he estado allí. ¡Y no se podía respirar! Tuve que llevar un casco de astronauta.",
+   "Pero unos microbios verdes empezaron a soltar burbujitas de oxígeno, eso que respiramos para vivir.",
+   "¿Me ayudáis a fabricar oxígeno? ¡Vamos al reto!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Hola, exploradores!",
+    "inicio": 0.0,
+    "fin": 1.556
+   },
+   {
+    "texto": "Soy Alba, la viajera del tiempo.",
+    "inicio": 2.148,
+    "fin": 4.226
+   },
+   {
+    "texto": "¿Veis los colores de esta charca?",
+    "inicio": 5.133,
+    "fin": 7.072
+   },
+   {
+    "texto": "En la charca de verdad, los colores del borde los ponen seres vivos: microbios.",
+    "inicio": 8.21,
+    "fin": 13.318
+   },
+   {
+    "texto": "Son tan pequeños que no se ven, pero hay tantos, tantos, que juntos parecen pintura.",
+    "inicio": 13.91,
+    "fin": 20.597
+   },
+   {
+    "texto": "Os cuento un secreto de viajera del tiempo.",
+    "inicio": 21.498,
+    "fin": 24.052
+   },
+   {
+    "texto": "Hace muchísimo tiempo no había plantas ni animales: solo microbios.",
+    "inicio": 24.609,
+    "fin": 28.824
+   },
+   {
+    "texto": "Lo sé porque he estado allí.",
+    "inicio": 29.37,
+    "fin": 31.076
+   },
+   {
+    "texto": "¡Y no se podía respirar!",
+    "inicio": 31.622,
+    "fin": 33.712
+   },
+   {
+    "texto": "Tuve que llevar un casco de astronauta.",
+    "inicio": 34.225,
+    "fin": 36.501
+   },
+   {
+    "texto": "Pero unos microbios verdes empezaron a soltar burbujitas de oxígeno, eso que respiramos para vivir.",
+    "inicio": 37.425,
+    "fin": 43.741
+   },
+   {
+    "texto": "¿Me ayudáis a fabricar oxígeno?",
+    "inicio": 44.647,
+    "fin": 46.714
+   },
+   {
+    "texto": "¡Vamos al reto!",
+    "inicio": 47.782,
+    "fin": 49.059
+   }
+  ],
+  "duracion": 49.06,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 755,
+  "fecha": "2026-09-26T11:21:37"
+ },
+ "p02-mision": {
+  "archivo": "p02-mision.c09e3655.mp3",
+  "parrafos": [
+   "¡Dad una vuelta alrededor de la charca, sin pisar la pintura! Contad sus colores, del centro hacia fuera. ¿Cuántos encontráis?",
+   "Los azules son el agua. El amarillo, el naranja y el rojo, en la charca de verdad, son alfombras de microbios distintos. Y ahora, señalad con el dedo: ¿dónde estaría el agua más caliente?"
+  ],
+  "frases": [
+   {
+    "texto": "¡Dad una vuelta alrededor de la charca, sin pisar la pintura!",
+    "inicio": 0.0,
+    "fin": 3.309
+   },
+   {
+    "texto": "Contad sus colores, del centro hacia fuera.",
+    "inicio": 3.866,
+    "fin": 6.467
+   },
+   {
+    "texto": "¿Cuántos encontráis?",
+    "inicio": 7.012,
+    "fin": 8.406
+   },
+   {
+    "texto": "Los azules son el agua.",
+    "inicio": 9.412,
+    "fin": 11.258
+   },
+   {
+    "texto": "El amarillo, el naranja y el rojo, en la charca de verdad, son alfombras de microbios distintos.",
+    "inicio": 11.873,
+    "fin": 18.561
+   },
+   {
+    "texto": "Y ahora, señalad con el dedo: ¿dónde estaría el agua más caliente?",
+    "inicio": 19.118,
+    "fin": 24.087
+   }
+  ],
+  "duracion": 24.09,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 401,
+  "fecha": "2026-09-26T11:21:41"
+ },
+ "p02-reto-al-empezar": {
+  "archivo": "p02-reto-al-empezar.3a3ee2a3.mp3",
+  "parrafos": [
+   "¡Toca las colonias verdes y soltarán burbujas de oxígeno! Llena el medidor."
+  ],
+  "frases": [
+   {
+    "texto": "¡Toca las colonias verdes y soltarán burbujas de oxígeno!",
+    "inicio": 0.0,
+    "fin": 3.68
+   },
+   {
+    "texto": "Llena el medidor.",
+    "inicio": 4.261,
+    "fin": 5.387
+   }
+  ],
+  "duracion": 5.41,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 97,
+  "fecha": "2026-09-26T11:21:42"
+ },
+ "p02-reto-al-tocar-1": {
+  "archivo": "p02-reto-al-tocar-1.81888f76.mp3",
+  "parrafos": [
+   "¡Burbujas!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Burbujas!",
+    "inicio": 0.0,
+    "fin": 0.975
+   }
+  ],
+  "duracion": 0.99,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 10,
+  "fecha": "2026-09-26T11:21:43"
+ },
+ "p02-reto-al-tocar-2": {
+  "archivo": "p02-reto-al-tocar-2.e5d9aa63.mp3",
+  "parrafos": [
+   "¡Más oxígeno!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Más oxígeno!",
+    "inicio": 0.0,
+    "fin": 1.254
+   }
+  ],
+  "duracion": 1.25,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 13,
+  "fecha": "2026-09-26T11:21:44"
+ },
+ "p02-reto-al-tocar-3": {
+  "archivo": "p02-reto-al-tocar-3.0292a1f2.mp3",
+  "parrafos": [
+   "¡Eso es!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Eso es!",
+    "inicio": 0.0,
+    "fin": 0.975
+   }
+  ],
+  "duracion": 0.99,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 8,
+  "fecha": "2026-09-26T11:21:44"
+ },
+ "p02-reto-a-la-mitad": {
+  "archivo": "p02-reto-a-la-mitad.d43aae64.mp3",
+  "parrafos": [
+   "¡Ya llevas medio medidor, sigue así!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Ya llevas medio medidor, sigue así!",
+    "inicio": 0.0,
+    "fin": 2.229
+   }
+  ],
+  "duracion": 2.25,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 36,
+  "fecha": "2026-09-26T11:21:45"
+ },
+ "p02-reto-al-terminar": {
+  "archivo": "p02-reto-al-terminar.4cbbba99.mp3",
+  "parrafos": [
+   "¡Medidor lleno! Tú lo has hecho en un momento, pero a los microbios de verdad les costó muchísimos millones de años. ¡Toma tu pegatina!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Medidor lleno!",
+    "inicio": 0.0,
+    "fin": 1.173
+   },
+   {
+    "texto": "Tú lo has hecho en un momento, pero a los microbios de verdad les costó muchísimos millones de años.",
+    "inicio": 1.718,
+    "fin": 7.198
+   },
+   {
+    "texto": "¡Toma tu pegatina!",
+    "inicio": 7.779,
+    "fin": 10.077
+   }
+  ],
+  "duracion": 10.08,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 179,
+  "fecha": "2026-09-26T11:21:47"
+ },
+ "p21-todos": {
+  "archivo": "p21-todos.469a8714.mp3",
+  "parrafos": [
+   "Llegamos a la última parada. Tenéis delante la réplica de un monumento inglés que no se levantó de una vez. Hace unos cinco mil años se cavó allí un foso en círculo. Unos quinientos años después llegaron las piedras gigantes. Quienes lo empezaron nunca vieron las grandes piedras, y quienes las levantaron no vieron el final: la obra duró más de mil años y pasó de padres a hijos.",
+   "Pensad en el esfuerzo. Las piedras grandes pesan unas veinticinco toneladas, como cinco elefantes; las mayores, treinta o más. Las trajeron desde unos veinticinco kilómetros. Las pequeñas, las piedras azules, vinieron de Gales, a más de doscientos kilómetros. Y en dos mil veinticuatro se descubrió que la gran losa del centro, la llamada Piedra del Altar, viene del norte de Escocia: a más de setecientos kilómetros. Todo, sin grúas ni motores: con cuerdas, madera, martillos de piedra y muchísimos brazos.",
+   "¿Y para qué? Su eje apunta hacia donde sale el sol el día más largo del año, el solsticio de verano; y, al otro lado, hacia donde se pone el más corto, el solsticio de invierno. Por eso hay quien lo ve como un calendario de piedra. Otros, como un templo, un lugar de reunión o un cementerio: allí se enterraron las cenizas de decenas de personas. Los arqueólogos aún lo discuten. Quizá fue todo a la vez.",
+   "Las piedras se movieron con cuerdas. Pero a las personas las movía otra cuerda, invisible: una idea compartida. No sabemos cuál. Sí sabemos que venía gente de lejos: en los banquetes de allí cerca se comían cerdos traídos de media Gran Bretaña. Hay quien piensa que ese es el gran invento de nuestra especie: creer juntos en algo, y que eso una a miles de personas que ni se conocen.",
+   "Y aquí termina nuestro viaje. Empezamos con las primeras bacterias. Vimos llegar las plantas y los dinosaurios, vimos moverse los continentes y a nuestra familia humana ponerse en pie, pintar cuevas y sembrar los primeros campos. Más de tres mil millones de años, hasta unas piedras levantadas por gente como nosotros, bajo el mismo sol que alumbró a aquellas bacterias. La historia sigue: el próximo capítulo lo escribís vosotros. Gracias por viajar con nosotros. ¡Hasta pronto!"
+  ],
+  "frases": [
+   {
+    "texto": "Llegamos a la última parada.",
+    "inicio": 0.04,
+    "fin": 1.596
+   },
+   {
+    "texto": "Tenéis delante la réplica de un monumento inglés que no se levantó de una vez.",
+    "inicio": 2.258,
+    "fin": 6.379
+   },
+   {
+    "texto": "Hace unos cinco mil años se cavó allí un foso en círculo.",
+    "inicio": 7.215,
+    "fin": 10.512
+   },
+   {
+    "texto": "Unos quinientos años después llegaron las piedras gigantes.",
+    "inicio": 11.511,
+    "fin": 15.737
+   },
+   {
+    "texto": "Quienes lo empezaron nunca vieron las grandes piedras, y quienes las levantaron no vieron el final: la obra duró más de mil años y pasó de padres a hijos.",
+    "inicio": 16.291,
+    "fin": 27.158
+   },
+   {
+    "texto": "Pensad en el esfuerzo.",
+    "inicio": 28.259,
+    "fin": 29.71
+   },
+   {
+    "texto": "Las piedras grandes pesan unas veinticinco toneladas, como cinco elefantes; las mayores, treinta o más.",
+    "inicio": 30.593,
+    "fin": 37.35
+   },
+   {
+    "texto": "Las trajeron desde unos veinticinco kilómetros.",
+    "inicio": 38.046,
+    "fin": 40.705
+   },
+   {
+    "texto": "Las pequeñas, las piedras azules, vinieron de Gales, a más de doscientos kilómetros.",
+    "inicio": 41.425,
+    "fin": 46.882
+   },
+   {
+    "texto": "Y en dos mil veinticuatro se descubrió que la gran losa del centro, la llamada Piedra del Altar, viene del norte de Escocia: a más de setecientos kilómetros.",
+    "inicio": 47.435,
+    "fin": 56.235
+   },
+   {
+    "texto": "Todo, sin grúas ni motores: con cuerdas, madera, martillos de piedra y muchísimos brazos.",
+    "inicio": 57.06,
+    "fin": 63.271
+   },
+   {
+    "texto": "¿Y para qué?",
+    "inicio": 64.392,
+    "fin": 65.17
+   },
+   {
+    "texto": "Su eje apunta hacia donde sale el sol el día más largo del año, el solsticio de verano; y, al otro lado, hacia donde se pone el más corto, el solsticio de invierno.",
+    "inicio": 66.168,
+    "fin": 75.967
+   },
+   {
+    "texto": "Por eso hay quien lo ve como un calendario de piedra.",
+    "inicio": 76.791,
+    "fin": 79.45
+   },
+   {
+    "texto": "Otros, como un templo, un lugar de reunión o un cementerio: allí se enterraron las cenizas de decenas de personas.",
+    "inicio": 80.239,
+    "fin": 88.401
+   },
+   {
+    "texto": "Los arqueólogos aún lo discuten.",
+    "inicio": 88.976,
+    "fin": 90.845
+   },
+   {
+    "texto": "Quizá fue todo a la vez.",
+    "inicio": 91.495,
+    "fin": 93.156
+   },
+   {
+    "texto": "Las piedras se movieron con cuerdas.",
+    "inicio": 94.257,
+    "fin": 96.382
+   },
+   {
+    "texto": "Pero a las personas las movía otra cuerda, invisible: una idea compartida.",
+    "inicio": 97.218,
+    "fin": 102.5
+   },
+   {
+    "texto": "No sabemos cuál.",
+    "inicio": 103.162,
+    "fin": 104.253
+   },
+   {
+    "texto": "Sí sabemos que venía gente de lejos: en los banquetes de allí cerca se comían cerdos traídos de media Gran Bretaña.",
+    "inicio": 104.95,
+    "fin": 111.95
+   },
+   {
+    "texto": "Hay quien piensa que ese es el gran invento de nuestra especie: creer juntos en algo, y que eso una a miles de personas que ni se conocen.",
+    "inicio": 112.519,
+    "fin": 120.692
+   },
+   {
+    "texto": "Y aquí termina nuestro viaje.",
+    "inicio": 121.796,
+    "fin": 123.584
+   },
+   {
+    "texto": "Empezamos con las primeras bacterias.",
+    "inicio": 124.222,
+    "fin": 126.324
+   },
+   {
+    "texto": "Vimos llegar las plantas y los dinosaurios, vimos moverse los continentes y a nuestra familia humana ponerse en pie, pintar cuevas y sembrar los primeros campos.",
+    "inicio": 127.009,
+    "fin": 136.413
+   },
+   {
+    "texto": "Más de tres mil millones de años, hasta unas piedras levantadas por gente como nosotros, bajo el mismo sol que alumbró a aquellas bacterias.",
+    "inicio": 137.156,
+    "fin": 145.62
+   },
+   {
+    "texto": "La historia sigue: el próximo capítulo lo escribís vosotros.",
+    "inicio": 146.171,
+    "fin": 150.026
+   },
+   {
+    "texto": "Gracias por viajar con nosotros.",
+    "inicio": 150.687,
+    "fin": 152.603
+   },
+   {
+    "texto": "¡Hasta pronto!",
+    "inicio": 153.241,
+    "fin": 154.577
+   }
+  ],
+  "duracion": 154.58,
+  "voz": "El Richar atenboru",
+  "voice_id": "WeuNkKS3AvTwCZZERkQa",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.49,
+   "similarity_boost": 0.43,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.55,
+   "pregunta": 0.8,
+   "parrafo": 1.1
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 2614,
+  "fecha": "2026-09-26T11:25:58"
+ },
+ "p21-peques": {
+  "archivo": "p21-peques.116b6c32.mp3",
+  "parrafos": [
+   "¡Hola, exploradores! Esta es nuestra última parada.",
+   "Estas piedras enormes se llaman Stonehenge. La gente las levantó hace muchísimo tiempo, tirando de cuerdas todos juntos.",
+   "Os cuento un secreto de viajera del tiempo: yo estuve allí la mañana del día más largo del año. ¿Y sabéis qué pasó? ¡El sol salió justo por el hueco entre dos piedras! Las colocaron así a propósito.",
+   "Ahora me toca despedirme: ¡me voy a otro viaje en el tiempo! Gracias por acompañarme. Pero antes, un último reto: ¿sabréis colar el rayo de sol entre las piedras? Y después, ¡recoged vuestro diploma al final de la app!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Hola, exploradores!",
+    "inicio": 0.0,
+    "fin": 1.509
+   },
+   {
+    "texto": "Esta es nuestra última parada.",
+    "inicio": 2.113,
+    "fin": 4.412
+   },
+   {
+    "texto": "Estas piedras enormes se llaman Stonehenge.",
+    "inicio": 5.316,
+    "fin": 8.555
+   },
+   {
+    "texto": "La gente las levantó hace muchísimo tiempo, tirando de cuerdas todos juntos.",
+    "inicio": 9.147,
+    "fin": 14.093
+   },
+   {
+    "texto": "Os cuento un secreto de viajera del tiempo: yo estuve allí la mañana del día más largo del año.",
+    "inicio": 14.994,
+    "fin": 20.636
+   },
+   {
+    "texto": "¿Y sabéis qué pasó?",
+    "inicio": 21.333,
+    "fin": 22.761
+   },
+   {
+    "texto": "¡El sol salió justo por el hueco entre dos piedras!",
+    "inicio": 23.829,
+    "fin": 26.917
+   },
+   {
+    "texto": "Las colocaron así a propósito.",
+    "inicio": 27.579,
+    "fin": 30.041
+   },
+   {
+    "texto": "Ahora me toca despedirme: ¡me voy a otro viaje en el tiempo!",
+    "inicio": 30.942,
+    "fin": 34.924
+   },
+   {
+    "texto": "Gracias por acompañarme.",
+    "inicio": 35.528,
+    "fin": 37.119
+   },
+   {
+    "texto": "Pero antes, un último reto: ¿sabréis colar el rayo de sol entre las piedras?",
+    "inicio": 37.664,
+    "fin": 42.796
+   },
+   {
+    "texto": "Y después, ¡recoged vuestro diploma al final de la app!",
+    "inicio": 43.852,
+    "fin": 47.567
+   }
+  ],
+  "duracion": 47.58,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 763,
+  "fecha": "2026-09-26T11:26:09"
+ },
+ "p21-mision": {
+  "archivo": "p21-mision.b5309ae4.mp3",
+  "parrafos": [
+   "¡Buscad las piedras que llevan otra tumbada encima, como una puerta de gigantes! ¿Cuántas encontráis? Contadlas sin tocarlas y sin subiros.",
+   "Ahora, ¡haced la vuestra! Dos exploradores de pie, uno frente al otro, juntan las manos por arriba: esa es la piedra de encima. ¿Cabe alguien por debajo?"
+  ],
+  "frases": [
+   {
+    "texto": "¡Buscad las piedras que llevan otra tumbada encima, como una puerta de gigantes!",
+    "inicio": 0.0,
+    "fin": 4.447
+   },
+   {
+    "texto": "¿Cuántas encontráis?",
+    "inicio": 5.027,
+    "fin": 6.432
+   },
+   {
+    "texto": "Contadlas sin tocarlas y sin subiros.",
+    "inicio": 7.535,
+    "fin": 10.077
+   },
+   {
+    "texto": "Ahora, ¡haced la vuestra!",
+    "inicio": 10.984,
+    "fin": 12.865
+   },
+   {
+    "texto": "Dos exploradores de pie, uno frente al otro, juntan las manos por arriba: esa es la piedra de encima.",
+    "inicio": 13.422,
+    "fin": 19.993
+   },
+   {
+    "texto": "¿Cabe alguien por debajo?",
+    "inicio": 20.643,
+    "fin": 22.919
+   }
+  ],
+  "duracion": 22.92,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 380,
+  "fecha": "2026-09-26T11:26:14"
+ },
+ "p21-reto-al-empezar": {
+  "archivo": "p21-reto-al-empezar.f051613a.mp3",
+  "parrafos": [
+   "¡Oh, no! Las piedras de Stonehenge se han caído. Ayúdame a levantarlas: arrastra cada piedra hasta su sombra."
+  ],
+  "frases": [
+   {
+    "texto": "¡Oh, no!",
+    "inicio": 0.0,
+    "fin": 0.697
+   },
+   {
+    "texto": "Las piedras de Stonehenge se han caído.",
+    "inicio": 1.265,
+    "fin": 3.808
+   },
+   {
+    "texto": "Ayúdame a levantarlas: arrastra cada piedra hasta su sombra.",
+    "inicio": 4.412,
+    "fin": 8.499
+   }
+  ],
+  "duracion": 8.52,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 153,
+  "fecha": "2026-09-26T11:26:16"
+ },
+ "p21-reto-al-poner-un-pilar": {
+  "archivo": "p21-reto-al-poner-un-pilar.0cd168d2.mp3",
+  "parrafos": [
+   "¡Arriba! Pesa más que cinco elefantes, y la trajeron desde unos veinticinco kilómetros, sin motores."
+  ],
+  "frases": [
+   {
+    "texto": "¡Arriba!",
+    "inicio": 0.0,
+    "fin": 0.604
+   },
+   {
+    "texto": "Pesa más que cinco elefantes, y la trajeron desde unos veinticinco kilómetros, sin motores.",
+    "inicio": 1.149,
+    "fin": 6.873
+   }
+  ],
+  "duracion": 6.9,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 122,
+  "fecha": "2026-09-26T11:26:17"
+ },
+ "p21-reto-dintel-antes-de-tiempo": {
+  "archivo": "p21-reto-dintel-antes-de-tiempo.e19794dc.mp3",
+  "parrafos": [
+   "¡Espera! Esa va tumbada encima. Primero levanta las dos que la sostienen."
+  ],
+  "frases": [
+   {
+    "texto": "¡Espera!",
+    "inicio": 0.0,
+    "fin": 0.766
+   },
+   {
+    "texto": "Esa va tumbada encima.",
+    "inicio": 1.335,
+    "fin": 2.914
+   },
+   {
+    "texto": "Primero levanta las dos que la sostienen.",
+    "inicio": 3.471,
+    "fin": 6.13
+   }
+  ],
+  "duracion": 6.14,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 117,
+  "fecha": "2026-09-26T11:26:18"
+ },
+ "p21-reto-al-poner-el-dintel": {
+  "archivo": "p21-reto-al-poner-el-dintel.a92b756c.mp3",
+  "parrafos": [
+   "¡Encaja como un mueble! La de arriba tiene agujeros donde entran unos salientes de las de abajo."
+  ],
+  "frases": [
+   {
+    "texto": "¡Encaja como un mueble!",
+    "inicio": 0.0,
+    "fin": 1.637
+   },
+   {
+    "texto": "La de arriba tiene agujeros donde entran unos salientes de las de abajo.",
+    "inicio": 2.206,
+    "fin": 6.316
+   }
+  ],
+  "duracion": 6.32,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 118,
+  "fecha": "2026-09-26T11:26:20"
+ },
+ "p21-reto-al-poner-una-piedra-azul": {
+  "archivo": "p21-reto-al-poner-una-piedra-azul.c174baa7.mp3",
+  "parrafos": [
+   "Las piedras azules son más pequeñas, pero vinieron de muy lejos: de unas montañas de Gales."
+  ],
+  "frases": [
+   {
+    "texto": "Las piedras azules son más pequeñas, pero vinieron de muy lejos: de unas montañas de Gales.",
+    "inicio": 0.0,
+    "fin": 5.759
+   }
+  ],
+  "duracion": 5.77,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 91,
+  "fecha": "2026-09-26T11:26:21"
+ },
+ "p21-reto-al-poner-la-piedra-del-talon": {
+  "archivo": "p21-reto-al-poner-la-piedra-del-talon.25be8e13.mp3",
+  "parrafos": [
+   "Esta se quedó sola, fuera del círculo. Mirad hacia ella: por ahí sale el sol el día más largo del año."
+  ],
+  "frases": [
+   {
+    "texto": "Esta se quedó sola, fuera del círculo.",
+    "inicio": 0.0,
+    "fin": 2.519
+   },
+   {
+    "texto": "Mirad hacia ella: por ahí sale el sol el día más largo del año.",
+    "inicio": 3.077,
+    "fin": 7.523
+   }
+  ],
+  "duracion": 7.52,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 124,
+  "fecha": "2026-09-26T11:26:22"
+ },
+ "p21-reto-fallo": {
+  "archivo": "p21-reto-fallo.527b3f8d.mp3",
+  "parrafos": [
+   "Esa no cabe ahí. Fíjate en la forma de la sombra."
+  ],
+  "frases": [
+   {
+    "texto": "Esa no cabe ahí.",
+    "inicio": 0.0,
+    "fin": 1.01
+   },
+   {
+    "texto": "Fíjate en la forma de la sombra.",
+    "inicio": 1.637,
+    "fin": 3.529
+   }
+  ],
+  "duracion": 3.55,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 71,
+  "fecha": "2026-09-26T11:26:23"
+ },
+ "p21-reto-al-terminar": {
+  "archivo": "p21-reto-al-terminar.f36c3328.mp3",
+  "parrafos": [
+   "¡Stonehenge está en pie! Y mira: el sol del solsticio sale justo por el hueco. ¡Toma tu pegatina!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Stonehenge está en pie!",
+    "inicio": 0.0,
+    "fin": 1.869
+   },
+   {
+    "texto": "Y mira: el sol del solsticio sale justo por el hueco.",
+    "inicio": 2.426,
+    "fin": 6.072
+   },
+   {
+    "texto": "¡Toma tu pegatina!",
+    "inicio": 6.641,
+    "fin": 8.638
+   }
+  ],
+  "duracion": 8.65,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 141,
+  "fecha": "2026-09-26T11:26:25"
+ },
+ "p19-todos": {
+  "archivo": "p19-todos.45a29a6e.mp3",
+  "parrafos": [
+   "Hoy, el Sáhara es el mayor desierto cálido del mundo: arena y roca hasta el horizonte. Sin embargo, este mural está lleno de jirafas, vacas y pastores. ¿Qué hacen ahí?",
+   "Hace unos diez mil años, aquello no era un desierto. Las lluvias llegaban mucho más al norte, y se cubrió de hierba, árboles y lagos, como la sabana africana de los documentales. Lo sabemos por los lagos secos, por huesos de hipopótamo hallados en plena arena… y por pinturas como estas.",
+   "Mirad a la izquierda: sobre el fondo gris hay jirafas que imitan un grabado en la roca. Una jirafa necesita árboles: si alguien las grabó allí, es porque las veía pasar.",
+   "En el centro, la gran figura blanca con cuernos copia una pintura del Tassili, en pleno Sáhara argelino. Nadie sabe quién es: quizá alguien con máscara, en una ceremonia.",
+   "A su derecha, las vacas y sus pastores. Hace unos siete mil años llegaron allí los primeros ganaderos, y pintaron sus rebaños: vacas blancas, negras, con manchas. Pero, hace unos cinco mil años, las lluvias empezaron a retirarse hacia el sur, y el Sáhara volvió a secarse poco a poco.",
+   "El carro, junto a las jirafas, es mucho más moderno: de hace unos tres mil años. En la pared están juntos, pero los separan miles de años.",
+   "A la derecha del todo, los barcos de vela. No son del Sáhara: se pintaron en la Laja Alta, en Cádiz, a algo más de cien kilómetros de aquí. Durante años se pensó que eran de la época de los fenicios, hace unos tres mil años. Un equipo de la Universidad de Granada defiende que tienen unos cinco mil. La fecha se midió en una pintura vecina, no en los propios barcos; pero, si se confirma, serían de los barcos de vela pintados más antiguos de Europa.",
+   "Este mural es como un álbum de fotos: junta escenas separadas por miles de años y miles de kilómetros. Todas cuentan cómo vivía la gente. Unos lo pintaron en las rocas. Otros, en las paredes de su casa, en uno de los primeros lugares donde miles de personas vivieron juntas. Allí se entraba en casa por el tejado. Os espera en la parada siguiente."
+  ],
+  "frases": [
+   {
+    "texto": "Hoy, el Sáhara es el mayor desierto cálido del mundo: arena y roca hasta el horizonte.",
+    "inicio": 0.04,
+    "fin": 5.404
+   },
+   {
+    "texto": "Sin embargo, este mural está lleno de jirafas, vacas y pastores.",
+    "inicio": 6.1,
+    "fin": 10.454
+   },
+   {
+    "texto": "¿Qué hacen ahí?",
+    "inicio": 11.22,
+    "fin": 12.579
+   },
+   {
+    "texto": "Hace unos diez mil años, aquello no era un desierto.",
+    "inicio": 13.679,
+    "fin": 16.837
+   },
+   {
+    "texto": "Las lluvias llegaban mucho más al norte, y se cubrió de hierba, árboles y lagos, como la sabana africana de los documentales.",
+    "inicio": 17.661,
+    "fin": 24.859
+   },
+   {
+    "texto": "Lo sabemos por los lagos secos, por huesos de hipopótamo hallados en plena arena… y por pinturas como estas.",
+    "inicio": 25.51,
+    "fin": 33.044
+   },
+   {
+    "texto": "Mirad a la izquierda: sobre el fondo gris hay jirafas que imitan un grabado en la roca.",
+    "inicio": 34.163,
+    "fin": 39.422
+   },
+   {
+    "texto": "Una jirafa necesita árboles: si alguien las grabó allí, es porque las veía pasar.",
+    "inicio": 40.223,
+    "fin": 45.959
+   },
+   {
+    "texto": "En el centro, la gran figura blanca con cuernos copia una pintura del Tassili, en pleno Sáhara argelino.",
+    "inicio": 47.072,
+    "fin": 53.33
+   },
+   {
+    "texto": "Nadie sabe quién es: quizá alguien con máscara, en una ceremonia.",
+    "inicio": 54.061,
+    "fin": 58.775
+   },
+   {
+    "texto": "A su derecha, las vacas y sus pastores.",
+    "inicio": 59.876,
+    "fin": 62.314
+   },
+   {
+    "texto": "Hace unos siete mil años llegaron allí los primeros ganaderos, y pintaron sus rebaños: vacas blancas, negras, con manchas.",
+    "inicio": 63.034,
+    "fin": 70.65
+   },
+   {
+    "texto": "Pero, hace unos cinco mil años, las lluvias empezaron a retirarse hacia el sur, y el Sáhara volvió a secarse poco a poco.",
+    "inicio": 71.44,
+    "fin": 79.01
+   },
+   {
+    "texto": "El carro, junto a las jirafas, es mucho más moderno: de hace unos tres mil años.",
+    "inicio": 80.124,
+    "fin": 85.209
+   },
+   {
+    "texto": "En la pared están juntos, pero los separan miles de años.",
+    "inicio": 85.941,
+    "fin": 89.83
+   },
+   {
+    "texto": "A la derecha del todo, los barcos de vela.",
+    "inicio": 90.943,
+    "fin": 93.462
+   },
+   {
+    "texto": "No son del Sáhara: se pintaron en la Laja Alta, en Cádiz, a algo más de cien kilómetros de aquí.",
+    "inicio": 94.438,
+    "fin": 100.846
+   },
+   {
+    "texto": "Durante años se pensó que eran de la época de los fenicios, hace unos tres mil años.",
+    "inicio": 101.543,
+    "fin": 106.21
+   },
+   {
+    "texto": "Un equipo de la Universidad de Granada defiende que tienen unos cinco mil.",
+    "inicio": 106.86,
+    "fin": 111.655
+   },
+   {
+    "texto": "La fecha se midió en una pintura vecina, no en los propios barcos; pero, si se confirma, serían de los barcos de vela pintados más antiguos de Europa.",
+    "inicio": 112.209,
+    "fin": 121.451
+   },
+   {
+    "texto": "Este mural es como un álbum de fotos: junta escenas separadas por miles de años y miles de kilómetros.",
+    "inicio": 122.558,
+    "fin": 129.408
+   },
+   {
+    "texto": "Todas cuentan cómo vivía la gente.",
+    "inicio": 130.081,
+    "fin": 132.264
+   },
+   {
+    "texto": "Unos lo pintaron en las rocas.",
+    "inicio": 133.262,
+    "fin": 134.981
+   },
+   {
+    "texto": "Otros, en las paredes de su casa, en uno de los primeros lugares donde miles de personas vivieron juntas.",
+    "inicio": 135.84,
+    "fin": 142.156
+   },
+   {
+    "texto": "Allí se entraba en casa por el tejado.",
+    "inicio": 142.727,
+    "fin": 144.712
+   },
+   {
+    "texto": "Os espera en la parada siguiente.",
+    "inicio": 145.444,
+    "fin": 147.325
+   }
+  ],
+  "duracion": 147.32,
+  "voz": "El Richar atenboru",
+  "voice_id": "WeuNkKS3AvTwCZZERkQa",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.49,
+   "similarity_boost": 0.43,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.55,
+   "pregunta": 0.8,
+   "parrafo": 1.1
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 2437,
+  "fecha": "2026-09-26T11:25:09"
+ },
+ "p19-peques": {
+  "archivo": "p19-peques.018739e1.mp3",
+  "parrafos": [
+   "¡Hola, exploradores! Soy Alba, la viajera del tiempo.",
+   "¿Sabéis qué es el Sáhara? Hoy es un desierto enorme, con arena y más arena.",
+   "Pero yo he viajado al Sáhara de hace muchísimo tiempo, ¡y estaba verde! Había hierba, árboles y lagos. Vi jirafas comiendo hojas y pastores cuidando de sus vacas. Lo sé porque he estado allí… ¡y una vaca casi me pisa!",
+   "La gente de entonces pintaba en las rocas lo que veía, como en esta pared. ¿Veis las jirafas blancas? ¿Y las vacas de cuernos largos?",
+   "En el reto hay cosas escondidas en el mural. ¿Me ayudáis a encontrarlas?"
+  ],
+  "frases": [
+   {
+    "texto": "¡Hola, exploradores!",
+    "inicio": 0.0,
+    "fin": 1.66
+   },
+   {
+    "texto": "Soy Alba, la viajera del tiempo.",
+    "inicio": 2.206,
+    "fin": 4.923
+   },
+   {
+    "texto": "¿Sabéis qué es el Sáhara?",
+    "inicio": 5.838,
+    "fin": 7.382
+   },
+   {
+    "texto": "Hoy es un desierto enorme, con arena y más arena.",
+    "inicio": 8.439,
+    "fin": 11.829
+   },
+   {
+    "texto": "Pero yo he viajado al Sáhara de hace muchísimo tiempo, ¡y estaba verde!",
+    "inicio": 12.747,
+    "fin": 17.763
+   },
+   {
+    "texto": "Había hierba, árboles y lagos.",
+    "inicio": 18.355,
+    "fin": 21.06
+   },
+   {
+    "texto": "Vi jirafas comiendo hojas y pastores cuidando de sus vacas.",
+    "inicio": 21.629,
+    "fin": 25.634
+   },
+   {
+    "texto": "Lo sé porque he estado allí…",
+    "inicio": 26.191,
+    "fin": 28.397
+   },
+   {
+    "texto": "¡y una vaca casi me pisa!",
+    "inicio": 28.922,
+    "fin": 31.105
+   },
+   {
+    "texto": "La gente de entonces pintaba en las rocas lo que veía, como en esta pared.",
+    "inicio": 32.017,
+    "fin": 36.487
+   },
+   {
+    "texto": "¿Veis las jirafas blancas?",
+    "inicio": 37.137,
+    "fin": 38.948
+   },
+   {
+    "texto": "¿Y las vacas de cuernos largos?",
+    "inicio": 40.016,
+    "fin": 42.512
+   },
+   {
+    "texto": "En el reto hay cosas escondidas en el mural.",
+    "inicio": 43.52,
+    "fin": 46.341
+   },
+   {
+    "texto": "¿Me ayudáis a encontrarlas?",
+    "inicio": 46.887,
+    "fin": 48.582
+   }
+  ],
+  "duracion": 48.59,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 725,
+  "fecha": "2026-09-26T11:25:18"
+ },
+ "p19-mision": {
+  "archivo": "p19-mision.1d31bedf.mp3",
+  "parrafos": [
+   "¡Buscad en la pared las jirafas blancas! ¿Cuántas cabezas de jirafa contáis?",
+   "Ahora buscad al gigante blanco con cuernos, el que tiene los brazos en alto. ¡Levantad los brazos vosotros también, como él! Y todo desde aquí, sin pasar la cuerda."
+  ],
+  "frases": [
+   {
+    "texto": "¡Buscad en la pared las jirafas blancas!",
+    "inicio": 0.0,
+    "fin": 2.566
+   },
+   {
+    "texto": "¿Cuántas cabezas de jirafa contáis?",
+    "inicio": 3.111,
+    "fin": 5.759
+   },
+   {
+    "texto": "Ahora buscad al gigante blanco con cuernos, el que tiene los brazos en alto.",
+    "inicio": 6.774,
+    "fin": 11.395
+   },
+   {
+    "texto": "¡Levantad los brazos vosotros también, como él!",
+    "inicio": 11.964,
+    "fin": 15.052
+   },
+   {
+    "texto": "Y todo desde aquí, sin pasar la cuerda.",
+    "inicio": 15.644,
+    "fin": 18.57
+   }
+  ],
+  "duracion": 18.58,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 306,
+  "fecha": "2026-09-26T11:25:21"
+ },
+ "p19-reto-al-empezar": {
+  "archivo": "p19-reto-al-empezar.ae73cc00.mp3",
+  "parrafos": [
+   "¡Busca cuatro cosas en el mural: un carro, gente bailando, vacas y barcos! Desliza el dedo para recorrerlo."
+  ],
+  "frases": [
+   {
+    "texto": "¡Busca cuatro cosas en el mural: un carro, gente bailando, vacas y barcos!",
+    "inicio": 0.0,
+    "fin": 4.714
+   },
+   {
+    "texto": "Desliza el dedo para recorrerlo.",
+    "inicio": 5.259,
+    "fin": 7.57
+   }
+  ],
+  "duracion": 7.58,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 129,
+  "fecha": "2026-09-26T11:25:23"
+ },
+ "p19-reto-al-encontrar-el-carro": {
+  "archivo": "p19-reto-al-encontrar-el-carro.20555db5.mp3",
+  "parrafos": [
+   "¡Un carro con rueda, tirado por un caballo! La rueda fue un invento que cambió el mundo."
+  ],
+  "frases": [
+   {
+    "texto": "¡Un carro con rueda, tirado por un caballo!",
+    "inicio": 0.0,
+    "fin": 2.519
+   },
+   {
+    "texto": "La rueda fue un invento que cambió el mundo.",
+    "inicio": 3.111,
+    "fin": 5.759
+   }
+  ],
+  "duracion": 5.77,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 110,
+  "fecha": "2026-09-26T11:25:24"
+ },
+ "p19-reto-al-encontrar-a-los-que-bailan": {
+  "archivo": "p19-reto-al-encontrar-a-los-que-bailan.72e366dd.mp3",
+  "parrafos": [
+   "¡Bailan cogidos de la mano, como en un corro!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Bailan cogidos de la mano, como en un corro!",
+    "inicio": 0.0,
+    "fin": 2.461
+   }
+  ],
+  "duracion": 2.48,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 45,
+  "fecha": "2026-09-26T11:25:25"
+ },
+ "p19-reto-al-encontrar-el-ganado": {
+  "archivo": "p19-reto-al-encontrar-el-ganado.9913cbc9.mp3",
+  "parrafos": [
+   "¡Vacas y pastores! Entonces, el Sáhara tenía hierba para todos."
+  ],
+  "frases": [
+   {
+    "texto": "¡Vacas y pastores!",
+    "inicio": 0.0,
+    "fin": 1.405
+   },
+   {
+    "texto": "Entonces, el Sáhara tenía hierba para todos.",
+    "inicio": 2.02,
+    "fin": 5.294
+   }
+  ],
+  "duracion": 5.3,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 85,
+  "fecha": "2026-09-26T11:25:26"
+ },
+ "p19-reto-al-encontrar-los-barcos": {
+  "archivo": "p19-reto-al-encontrar-los-barcos.b9c3c6cb.mp3",
+  "parrafos": [
+   "¡Barcos de vela! Estos no son del Sáhara: se pintaron cerca de aquí, en Cádiz."
+  ],
+  "frases": [
+   {
+    "texto": "¡Barcos de vela!",
+    "inicio": 0.0,
+    "fin": 1.265
+   },
+   {
+    "texto": "Estos no son del Sáhara: se pintaron cerca de aquí, en Cádiz.",
+    "inicio": 1.823,
+    "fin": 6.316
+   }
+  ],
+  "duracion": 6.32,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 100,
+  "fecha": "2026-09-26T11:25:27"
+ },
+ "p19-reto-al-terminar": {
+  "archivo": "p19-reto-al-terminar.6d8e0334.mp3",
+  "parrafos": [
+   "¡Lo encontraste todo! Hace miles de años, la gente pintaba su vida en las rocas. ¡Toma tu pegatina!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Lo encontraste todo!",
+    "inicio": 0.0,
+    "fin": 1.416
+   },
+   {
+    "texto": "Hace miles de años, la gente pintaba su vida en las rocas.",
+    "inicio": 1.997,
+    "fin": 5.654
+   },
+   {
+    "texto": "¡Toma tu pegatina!",
+    "inicio": 6.211,
+    "fin": 7.941
+   }
+  ],
+  "duracion": 7.94,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 143,
+  "fecha": "2026-09-26T11:25:28"
+ },
+ "p18-todos": {
+  "archivo": "p18-todos.24f85479.mp3",
+  "parrafos": [
+   "Empezad por el pozo. Parece poca cosa, pero es lo que más dice de este poblado. Una tienda se desmonta y se lleva a cuestas. Un pozo, no. Quien cava un pozo cuenta con volver a beber de él mañana, y el año que viene. Eso es ser sedentario: vivir siempre en el mismo sitio.",
+   "¿Qué permitió quedarse? Hace unos once mil años, en Oriente Próximo, en una franja de tierras con forma de media luna a la que llamamos el Creciente Fértil, algunos grupos empezaron a sembrar trigo, cebada y lentejas. Con los siglos, criaban también cabras, ovejas, vacas y cerdos. El perro se había adelantado: lo domesticaron cazadores, miles de años antes de la agricultura. En algunos lugares muy ricos hubo quien se quedó incluso antes de sembrar. Pero fue la agricultura la que permitió quedarse en muchísimos más sitios. Y no nació una sola vez: surgió por separado en varios rincones del mundo, como China o América. A la península ibérica llegó hace unos siete mil quinientos años, con gentes que bordearon el Mediterráneo, probablemente en barca.",
+   "Sembrar lo cambió todo. Una cosecha se puede guardar, y con comida guardada las familias tenían más hijos. Los pueblos crecieron, y hacían falta casas que duraran años. Fijaos en la cabaña: postes clavados en el suelo, paredes de ramas y un techo de plantas. Y mirad la empalizada. Lo que no se puede llevar, hay que defenderlo: la cosecha, los animales, la casa.",
+   "Pero no todo fueron ganancias. Los primeros agricultores comían menos variado que los cazadores, tenían más caries y eran, de media, algo más bajos. Sus huesos cuentan que trabajaban muy duro. Y al vivir muchos juntos, y pegados a sus animales, algunas enfermedades pasaban con más facilidad de unos a otros. Un historiador lo dijo de forma provocadora: quizá no fuimos nosotros quienes domesticamos al trigo, sino el trigo a nosotros.",
+   "Aquellos pueblos de agricultores y pastores no sabían escribir: la escritura tardaría aún miles de años. Pero algunos pintaron en las rocas lo que más les importaba. Primero, sus rebaños. Mucho después, carros y barcos. Esas pinturas os esperan en la siguiente parada."
+  ],
+  "frases": [
+   {
+    "texto": "Empezad por el pozo.",
+    "inicio": 0.04,
+    "fin": 1.445
+   },
+   {
+    "texto": "Parece poca cosa, pero es lo que más dice de este poblado.",
+    "inicio": 2.199,
+    "fin": 5.613
+   },
+   {
+    "texto": "Una tienda se desmonta y se lleva a cuestas.",
+    "inicio": 6.263,
+    "fin": 8.736
+   },
+   {
+    "texto": "Un pozo, no.",
+    "inicio": 9.467,
+    "fin": 11.046
+   },
+   {
+    "texto": "Quien cava un pozo cuenta con volver a beber de él mañana, y el año que viene.",
+    "inicio": 11.615,
+    "fin": 15.493
+   },
+   {
+    "texto": "Eso es ser sedentario: vivir siempre en el mismo sitio.",
+    "inicio": 16.131,
+    "fin": 19.835
+   },
+   {
+    "texto": "¿Qué permitió quedarse?",
+    "inicio": 20.945,
+    "fin": 22.385
+   },
+   {
+    "texto": "Hace unos once mil años, en Oriente Próximo, en una franja de tierras con forma de media luna a la que llamamos el Creciente Fértil, algunos grupos empezaron a sembrar trigo, cebada y lentejas.",
+    "inicio": 23.267,
+    "fin": 35.097
+   },
+   {
+    "texto": "Con los siglos, criaban también cabras, ovejas, vacas y cerdos.",
+    "inicio": 35.736,
+    "fin": 39.904
+   },
+   {
+    "texto": "El perro se había adelantado: lo domesticaron cazadores, miles de años antes de la agricultura.",
+    "inicio": 40.612,
+    "fin": 46.998
+   },
+   {
+    "texto": "En algunos lugares muy ricos hubo quien se quedó incluso antes de sembrar.",
+    "inicio": 47.566,
+    "fin": 52.198
+   },
+   {
+    "texto": "Pero fue la agricultura la que permitió quedarse en muchísimos más sitios.",
+    "inicio": 52.93,
+    "fin": 57.202
+   },
+   {
+    "texto": "Y no nació una sola vez: surgió por separado en varios rincones del mundo, como China o América.",
+    "inicio": 57.864,
+    "fin": 64.087
+   },
+   {
+    "texto": "A la península ibérica llegó hace unos siete mil quinientos años, con gentes que bordearon el Mediterráneo, probablemente en barca.",
+    "inicio": 64.76,
+    "fin": 72.457
+   },
+   {
+    "texto": "Sembrar lo cambió todo.",
+    "inicio": 73.562,
+    "fin": 75.106
+   },
+   {
+    "texto": "Una cosecha se puede guardar, y con comida guardada las familias tenían más hijos.",
+    "inicio": 75.849,
+    "fin": 80.76
+   },
+   {
+    "texto": "Los pueblos crecieron, y hacían falta casas que duraran años.",
+    "inicio": 81.492,
+    "fin": 85.16
+   },
+   {
+    "texto": "Fijaos en la cabaña: postes clavados en el suelo, paredes de ramas y un techo de plantas.",
+    "inicio": 85.892,
+    "fin": 91.72
+   },
+   {
+    "texto": "Y mirad la empalizada.",
+    "inicio": 92.294,
+    "fin": 93.745
+   },
+   {
+    "texto": "Lo que no se puede llevar, hay que defenderlo: la cosecha, los animales, la casa.",
+    "inicio": 94.407,
+    "fin": 100.282
+   },
+   {
+    "texto": "Pero no todo fueron ganancias.",
+    "inicio": 101.389,
+    "fin": 103.142
+   },
+   {
+    "texto": "Los primeros agricultores comían menos variado que los cazadores, tenían más caries y eran, de media, algo más bajos.",
+    "inicio": 103.885,
+    "fin": 110.932
+   },
+   {
+    "texto": "Sus huesos cuentan que trabajaban muy duro.",
+    "inicio": 111.733,
+    "fin": 114.16
+   },
+   {
+    "texto": "Y al vivir muchos juntos, y pegados a sus animales, algunas enfermedades pasaban con más facilidad de unos a otros.",
+    "inicio": 114.914,
+    "fin": 122.472
+   },
+   {
+    "texto": "Un historiador lo dijo de forma provocadora: quizá no fuimos nosotros quienes domesticamos al trigo, sino el trigo a nosotros.",
+    "inicio": 123.047,
+    "fin": 130.988
+   },
+   {
+    "texto": "Aquellos pueblos de agricultores y pastores no sabían escribir: la escritura tardaría aún miles de años.",
+    "inicio": 132.089,
+    "fin": 138.509
+   },
+   {
+    "texto": "Pero algunos pintaron en las rocas lo que más les importaba.",
+    "inicio": 139.287,
+    "fin": 142.759
+   },
+   {
+    "texto": "Primero, sus rebaños.",
+    "inicio": 143.467,
+    "fin": 145.185
+   },
+   {
+    "texto": "Mucho después, carros y barcos.",
+    "inicio": 145.986,
+    "fin": 148.9
+   },
+   {
+    "texto": "Esas pinturas os esperan en la siguiente parada.",
+    "inicio": 149.463,
+    "fin": 152.296
+   }
+  ],
+  "duracion": 152.31,
+  "voz": "El Richar atenboru",
+  "voice_id": "WeuNkKS3AvTwCZZERkQa",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.49,
+   "similarity_boost": 0.43,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.55,
+   "pregunta": 0.8,
+   "parrafo": 1.1
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 2600,
+  "fecha": "2026-09-26T11:24:17"
+ },
+ "p18-peques": {
+  "archivo": "p18-peques.04c1e1c2.mp3",
+  "parrafos": [
+   "¡Hola otra vez, exploradores! Soy Alba.",
+   "¿Os acordáis de las tiendas de la parada anterior? Aquella gente se mudaba una y otra vez. ¡Pero estas familias se quedaron! ¿Sabéis por qué? Porque aprendieron a sembrar semillas y a cuidar animales. ¡La comida crecía al lado de casa!",
+   "Por eso hicieron casas fuertes, y un pozo para sacar agua sin ir hasta el río. Lo sé porque he estado allí: olía a humo… ¡y a cabra!",
+   "Y ahora, un misterio: los perros, las vacas, las ovejas y los cerdos no siempre fueron así. ¿De qué animales salvajes vienen? ¡Descubridlo en el reto!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Hola otra vez, exploradores!",
+    "inicio": 0.0,
+    "fin": 1.753
+   },
+   {
+    "texto": "Soy Alba.",
+    "inicio": 2.322,
+    "fin": 3.065
+   },
+   {
+    "texto": "¿Os acordáis de las tiendas de la parada anterior?",
+    "inicio": 3.984,
+    "fin": 6.666
+   },
+   {
+    "texto": "Aquella gente se mudaba una y otra vez.",
+    "inicio": 7.734,
+    "fin": 10.184
+   },
+   {
+    "texto": "¡Pero estas familias se quedaron!",
+    "inicio": 10.729,
+    "fin": 12.784
+   },
+   {
+    "texto": "¿Sabéis por qué?",
+    "inicio": 13.353,
+    "fin": 14.897
+   },
+   {
+    "texto": "Porque aprendieron a sembrar semillas y a cuidar animales.",
+    "inicio": 15.904,
+    "fin": 19.921
+   },
+   {
+    "texto": "¡La comida crecía al lado de casa!",
+    "inicio": 20.49,
+    "fin": 23.102
+   },
+   {
+    "texto": "Por eso hicieron casas fuertes, y un pozo para sacar agua sin ir hasta el río.",
+    "inicio": 24.015,
+    "fin": 28.496
+   },
+   {
+    "texto": "Lo sé porque he estado allí: olía a humo…",
+    "inicio": 29.054,
+    "fin": 31.678
+   },
+   {
+    "texto": "¡y a cabra!",
+    "inicio": 32.235,
+    "fin": 33.396
+   },
+   {
+    "texto": "Y ahora, un misterio: los perros, las vacas, las ovejas y los cerdos no siempre fueron así.",
+    "inicio": 34.32,
+    "fin": 41.913
+   },
+   {
+    "texto": "¿De qué animales salvajes vienen?",
+    "inicio": 42.551,
+    "fin": 44.897
+   },
+   {
+    "texto": "¡Descubridlo en el reto!",
+    "inicio": 45.988,
+    "fin": 48.391
+   }
+  ],
+  "duracion": 48.4,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 753,
+  "fecha": "2026-09-26T11:24:29"
+ },
+ "p18-mision": {
+  "archivo": "p18-mision.230aa5e8.mp3",
+  "parrafos": [
+   "¡Buscad en el poblado tres cosas que un campamento nómada nunca tendría! Una pista: no se pueden llevar a cuestas.",
+   "Y ahora, mirad encima de la puerta de la cabaña. ¿De qué animal son esas cuernas? ¿De uno de granja… o de uno salvaje?"
+  ],
+  "frases": [
+   {
+    "texto": "¡Buscad en el poblado tres cosas que un campamento nómada nunca tendría!",
+    "inicio": 0.0,
+    "fin": 4.528
+   },
+   {
+    "texto": "Una pista: no se pueden llevar a cuestas.",
+    "inicio": 5.085,
+    "fin": 8.22
+   },
+   {
+    "texto": "Y ahora, mirad encima de la puerta de la cabaña.",
+    "inicio": 9.13,
+    "fin": 11.916
+   },
+   {
+    "texto": "¿De qué animal son esas cuernas?",
+    "inicio": 12.52,
+    "fin": 14.482
+   },
+   {
+    "texto": "¿De uno de granja… o de uno salvaje?",
+    "inicio": 15.527,
+    "fin": 18.697
+   }
+  ],
+  "duracion": 18.72,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 298,
+  "fecha": "2026-09-26T11:24:32"
+ },
+ "p18-reto-al-empezar": {
+  "archivo": "p18-reto-al-empezar.355ff7bb.mp3",
+  "parrafos": [
+   "Estos animales salvajes tienen parientes que viven con nosotros. ¡Une cada uno con el suyo!"
+  ],
+  "frases": [
+   {
+    "texto": "Estos animales salvajes tienen parientes que viven con nosotros.",
+    "inicio": 0.0,
+    "fin": 4.18
+   },
+   {
+    "texto": "¡Une cada uno con el suyo!",
+    "inicio": 4.725,
+    "fin": 6.92
+   }
+  ],
+  "duracion": 6.92,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 113,
+  "fecha": "2026-09-26T11:24:33"
+ },
+ "p18-reto-acierto-perro": {
+  "archivo": "p18-reto-acierto-perro.1f32ffc7.mp3",
+  "parrafos": [
+   "¡Muy bien! El perro viene de unos lobos muy antiguos. Fue el primer animal domesticado."
+  ],
+  "frases": [
+   {
+    "texto": "¡Muy bien!",
+    "inicio": 0.0,
+    "fin": 0.801
+   },
+   {
+    "texto": "El perro viene de unos lobos muy antiguos.",
+    "inicio": 1.382,
+    "fin": 3.82
+   },
+   {
+    "texto": "Fue el primer animal domesticado.",
+    "inicio": 4.365,
+    "fin": 6.548
+   }
+  ],
+  "duracion": 6.56,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 131,
+  "fecha": "2026-09-26T11:24:34"
+ },
+ "p18-reto-acierto-vaca": {
+  "archivo": "p18-reto-acierto-vaca.e41757a3.mp3",
+  "parrafos": [
+   "¡Eso es! La vaca viene del uro, un toro salvaje enorme que ya no existe."
+  ],
+  "frases": [
+   {
+    "texto": "¡Eso es!",
+    "inicio": 0.0,
+    "fin": 0.813
+   },
+   {
+    "texto": "La vaca viene del uro, un toro salvaje enorme que ya no existe.",
+    "inicio": 1.37,
+    "fin": 5.387
+   }
+  ],
+  "duracion": 5.41,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 94,
+  "fecha": "2026-09-26T11:24:36"
+ },
+ "p18-reto-acierto-oveja": {
+  "archivo": "p18-reto-acierto-oveja.80168c65.mp3",
+  "parrafos": [
+   "¡Sí! La oveja viene del muflón de Asia, que tiene poca lana. Las personas fueron criando a las más lanudas."
+  ],
+  "frases": [
+   {
+    "texto": "¡Sí!",
+    "inicio": 0.0,
+    "fin": 0.534
+   },
+   {
+    "texto": "La oveja viene del muflón de Asia, que tiene poca lana.",
+    "inicio": 1.115,
+    "fin": 4.586
+   },
+   {
+    "texto": "Las personas fueron criando a las más lanudas.",
+    "inicio": 5.155,
+    "fin": 8.034
+   }
+  ],
+  "duracion": 8.05,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 151,
+  "fecha": "2026-09-26T11:24:37"
+ },
+ "p18-reto-acierto-cerdo": {
+  "archivo": "p18-reto-acierto-cerdo.d88a15b8.mp3",
+  "parrafos": [
+   "¡Correcto! El cerdo viene del jabalí. Son tan parientes que todavía pueden tener crías juntos."
+  ],
+  "frases": [
+   {
+    "texto": "¡Correcto!",
+    "inicio": 0.0,
+    "fin": 0.848
+   },
+   {
+    "texto": "El cerdo viene del jabalí.",
+    "inicio": 1.405,
+    "fin": 2.995
+   },
+   {
+    "texto": "Son tan parientes que todavía pueden tener crías juntos.",
+    "inicio": 3.553,
+    "fin": 7.57
+   }
+  ],
+  "duracion": 7.58,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 138,
+  "fecha": "2026-09-26T11:24:38"
+ },
+ "p18-reto-fallo": {
+  "archivo": "p18-reto-fallo.ef198d81.mp3",
+  "parrafos": [
+   "¡Uy, casi! Busca al que más se le parece y prueba otra vez."
+  ],
+  "frases": [
+   {
+    "texto": "¡Uy, casi!",
+    "inicio": 0.0,
+    "fin": 0.836
+   },
+   {
+    "texto": "Busca al que más se le parece y prueba otra vez.",
+    "inicio": 1.382,
+    "fin": 3.994
+   }
+  ],
+  "duracion": 4.0,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 81,
+  "fecha": "2026-09-26T11:24:39"
+ },
+ "p18-reto-al-terminar": {
+  "archivo": "p18-reto-al-terminar.0198aa2a.mp3",
+  "parrafos": [
+   "¡Todos con su pariente! Criando a los más mansos durante miles de años, los salvajes se volvieron domésticos. ¡Toma tu pegatina!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Todos con su pariente!",
+    "inicio": 0.0,
+    "fin": 1.312
+   },
+   {
+    "texto": "Criando a los más mansos durante miles de años, los salvajes se volvieron domésticos.",
+    "inicio": 1.881,
+    "fin": 6.56
+   },
+   {
+    "texto": "¡Toma tu pegatina!",
+    "inicio": 7.129,
+    "fin": 8.87
+   }
+  ],
+  "duracion": 8.88,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 172,
+  "fecha": "2026-09-26T11:24:41"
+ },
+ "p16-todos": {
+  "archivo": "p16-todos.87426042.mp3",
+  "parrafos": [
+   "Imaginad que entráis en una cueva de verdad, hace treinta mil años. La única luz es una llamita que tiembla. Y de pronto, en la roca, aparece un caballo. Alguien lo pintó. Ese caballo es una de las pruebas más claras de algo muy humano: imaginar, y dejarlo dibujado en la piedra.",
+   "Buscad los toros de cuernos largos. Están copiados de la cueva de Lascaux, en Francia, pintada hace unos veinte mil años. Son uros, toros salvajes enormes que se extinguieron hace solo cuatrocientos años. A su lado corren caballos y ciervos.",
+   "Ahora buscad los leones y los rinocerontes. Están copiados de otra cueva francesa, Chauvet, y son mucho más antiguos: unos treinta y seis mil años. Fijaos: los leones no tienen melena. Así pintaban casi siempre a los leones de las cavernas.",
+   "Los colores salían de la tierra. El rojo y el amarillo, del ocre, una tierra rica en hierro. El negro, del carbón de la hoguera o de un mineral oscuro. Lo molían, lo mezclaban con agua y pintaban a la luz de antorchas o de lámparas de piedra que quemaban grasa de animal.",
+   "A veces ni siquiera usaban pincel. Apoyaban la mano en la roca, se llenaban la boca de pintura y la soplaban alrededor. Al retirar la mano, quedaba su silueta rodeada de color: una mano en negativo. Algunas manos son antiquísimas. Una, de la cueva de Maltravieso, en Cáceres, tendría más de sesenta y seis mil años, de cuando en la península solo vivían neandertales. Si es así, la pintó uno de ellos. Los científicos aún lo discuten.",
+   "Y ahora, lo más extraño: buscad un ser con cuerpo de bisonte y piernas de persona. Está copiado de la cueva de los Tres Hermanos, también en Francia. Un animal así nunca ha existido. ¿Es un cazador disfrazado, un brujo, un espíritu? No lo sabemos. Sabemos que estas pinturas significaban algo. Lo que no sabemos es qué.",
+   "Y una sorpresa: aquella gente casi nunca vivía en el fondo de las cuevas pintadas. Vivía en la entrada de algunas cuevas, bajo salientes de roca o al aire libre, en campamentos que se trasladaban con las estaciones y los animales. Uno de esos campamentos os espera en la siguiente parada."
+  ],
+  "frases": [
+   {
+    "texto": "Imaginad que entráis en una cueva de verdad, hace treinta mil años.",
+    "inicio": 0.04,
+    "fin": 3.802
+   },
+   {
+    "texto": "La única luz es una llamita que tiembla.",
+    "inicio": 4.568,
+    "fin": 6.971
+   },
+   {
+    "texto": "Y de pronto, en la roca, aparece un caballo.",
+    "inicio": 7.749,
+    "fin": 10.907
+   },
+   {
+    "texto": "Alguien lo pintó.",
+    "inicio": 11.615,
+    "fin": 13.229
+   },
+   {
+    "texto": "Ese caballo es una de las pruebas más claras de algo muy humano: imaginar, y dejarlo dibujado en la piedra.",
+    "inicio": 13.783,
+    "fin": 20.981
+   },
+   {
+    "texto": "Buscad los toros de cuernos largos.",
+    "inicio": 22.093,
+    "fin": 24.299
+   },
+   {
+    "texto": "Están copiados de la cueva de Lascaux, en Francia, pintada hace unos veinte mil años.",
+    "inicio": 25.1,
+    "fin": 30.963
+   },
+   {
+    "texto": "Son uros, toros salvajes enormes que se extinguieron hace solo cuatrocientos años.",
+    "inicio": 31.857,
+    "fin": 37.465
+   },
+   {
+    "texto": "A su lado corren caballos y ciervos.",
+    "inicio": 38.254,
+    "fin": 40.855
+   },
+   {
+    "texto": "Ahora buscad los leones y los rinocerontes.",
+    "inicio": 41.977,
+    "fin": 44.554
+   },
+   {
+    "texto": "Están copiados de otra cueva francesa, Chauvet, y son mucho más antiguos: unos treinta y seis mil años.",
+    "inicio": 45.239,
+    "fin": 52.078
+   },
+   {
+    "texto": "Fijaos: los leones no tienen melena.",
+    "inicio": 52.925,
+    "fin": 55.723
+   },
+   {
+    "texto": "Así pintaban casi siempre a los leones de las cavernas.",
+    "inicio": 56.42,
+    "fin": 59.856
+   },
+   {
+    "texto": "Los colores salían de la tierra.",
+    "inicio": 60.972,
+    "fin": 63.19
+   },
+   {
+    "texto": "El rojo y el amarillo, del ocre, una tierra rica en hierro.",
+    "inicio": 63.886,
+    "fin": 67.88
+   },
+   {
+    "texto": "El negro, del carbón de la hoguera o de un mineral oscuro.",
+    "inicio": 68.542,
+    "fin": 72.327
+   },
+   {
+    "texto": "Lo molían, lo mezclaban con agua y pintaban a la luz de antorchas o de lámparas de piedra que quemaban grasa de animal.",
+    "inicio": 72.988,
+    "fin": 80.755
+   },
+   {
+    "texto": "A veces ni siquiera usaban pincel.",
+    "inicio": 81.873,
+    "fin": 83.882
+   },
+   {
+    "texto": "Apoyaban la mano en la roca, se llenaban la boca de pintura y la soplaban alrededor.",
+    "inicio": 84.59,
+    "fin": 89.443
+   },
+   {
+    "texto": "Al retirar la mano, quedaba su silueta rodeada de color: una mano en negativo.",
+    "inicio": 90.104,
+    "fin": 95.05
+   },
+   {
+    "texto": "Algunas manos son antiquísimas.",
+    "inicio": 95.735,
+    "fin": 98.266
+   },
+   {
+    "texto": "Una, de la cueva de Maltravieso, en Cáceres, tendría más de sesenta y seis mil años, de cuando en la península solo vivían neandertales.",
+    "inicio": 98.829,
+    "fin": 107.037
+   },
+   {
+    "texto": "Si es así, la pintó uno de ellos.",
+    "inicio": 107.676,
+    "fin": 109.951
+   },
+   {
+    "texto": "Los científicos aún lo discuten.",
+    "inicio": 110.59,
+    "fin": 112.715
+   },
+   {
+    "texto": "Y ahora, lo más extraño: buscad un ser con cuerpo de bisonte y piernas de persona.",
+    "inicio": 113.828,
+    "fin": 119.621
+   },
+   {
+    "texto": "Está copiado de la cueva de los Tres Hermanos, también en Francia.",
+    "inicio": 120.306,
+    "fin": 124.289
+   },
+   {
+    "texto": "Un animal así nunca ha existido.",
+    "inicio": 124.95,
+    "fin": 127.191
+   },
+   {
+    "texto": "¿Es un cazador disfrazado, un brujo, un espíritu?",
+    "inicio": 127.852,
+    "fin": 132.404
+   },
+   {
+    "texto": "No lo sabemos.",
+    "inicio": 133.228,
+    "fin": 134.203
+   },
+   {
+    "texto": "Sabemos que estas pinturas significaban algo.",
+    "inicio": 134.865,
+    "fin": 137.442
+   },
+   {
+    "texto": "Lo que no sabemos es qué.",
+    "inicio": 138.104,
+    "fin": 140.473
+   },
+   {
+    "texto": "Y una sorpresa: aquella gente casi nunca vivía en el fondo de las cuevas pintadas.",
+    "inicio": 141.591,
+    "fin": 146.699
+   },
+   {
+    "texto": "Vivía en la entrada de algunas cuevas, bajo salientes de roca o al aire libre, en campamentos que se trasladaban con las estaciones y los animales.",
+    "inicio": 147.466,
+    "fin": 155.929
+   },
+   {
+    "texto": "Uno de esos campamentos os espera en la siguiente parada.",
+    "inicio": 156.719,
+    "fin": 159.749
+   }
+  ],
+  "duracion": 159.78,
+  "voz": "El Richar atenboru",
+  "voice_id": "WeuNkKS3AvTwCZZERkQa",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.49,
+   "similarity_boost": 0.43,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.55,
+   "pregunta": 0.8,
+   "parrafo": 1.1
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 2653,
+  "fecha": "2026-09-26T11:23:33"
+ },
+ "p16-peques": {
+  "archivo": "p16-peques.a21f7246.mp3",
+  "parrafos": [
+   "¡Hola, exploradores! Soy Alba, la viajera del tiempo.",
+   "Una vez entré en una cueva de verdad, hace muchísimo tiempo. Estaba oscurísima: solo había una lucecita de fuego. Allí vi a una chica apoyar la mano en la pared, llenarse la boca de pintura roja… ¡y soplar muy fuerte!",
+   "Cuando quitó la mano, en la roca se había quedado la forma de su mano, ¡rodeada de rojo! Pintaba sin pincel: ¡con la boca! Lo sé porque lo vi con mis propios ojos.",
+   "¿Queréis dejar vuestra mano en la cueva, como ella? ¡Vamos al reto!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Hola, exploradores!",
+    "inicio": 0.0,
+    "fin": 1.37
+   },
+   {
+    "texto": "Soy Alba, la viajera del tiempo.",
+    "inicio": 1.95,
+    "fin": 4.04
+   },
+   {
+    "texto": "Una vez entré en una cueva de verdad, hace muchísimo tiempo.",
+    "inicio": 4.95,
+    "fin": 8.688
+   },
+   {
+    "texto": "Estaba oscurísima: solo había una lucecita de fuego.",
+    "inicio": 9.257,
+    "fin": 13.263
+   },
+   {
+    "texto": "Allí vi a una chica apoyar la mano en la pared, llenarse la boca de pintura roja…",
+    "inicio": 13.855,
+    "fin": 18.836
+   },
+   {
+    "texto": "¡y soplar muy fuerte!",
+    "inicio": 19.474,
+    "fin": 21.483
+   },
+   {
+    "texto": "Cuando quitó la mano, en la roca se había quedado la forma de su mano, ¡rodeada de rojo!",
+    "inicio": 22.387,
+    "fin": 27.646
+   },
+   {
+    "texto": "Pintaba sin pincel: ¡con la boca!",
+    "inicio": 28.192,
+    "fin": 30.653
+   },
+   {
+    "texto": "Lo sé porque lo vi con mis propios ojos.",
+    "inicio": 31.257,
+    "fin": 33.904
+   },
+   {
+    "texto": "¿Queréis dejar vuestra mano en la cueva, como ella?",
+    "inicio": 34.808,
+    "fin": 37.606
+   },
+   {
+    "texto": "¡Vamos al reto!",
+    "inicio": 38.697,
+    "fin": 40.009
+   }
+  ],
+  "duracion": 40.03,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 654,
+  "fecha": "2026-09-26T11:23:40"
+ },
+ "p16-mision": {
+  "archivo": "p16-mision.91e08e40.mp3",
+  "parrafos": [
+   "¡Entrad en la cueva despacito y sin tocar las paredes, que las pinturas se estropean!",
+   "Ahora, buscad y contad: ¿cuántos caballos veis? ¿Y leones? ¿Y rinocerontes? Y lo más difícil: ¿dónde se esconde el ser que es mitad persona y mitad animal?"
+  ],
+  "frases": [
+   {
+    "texto": "¡Entrad en la cueva despacito y sin tocar las paredes, que las pinturas se estropean!",
+    "inicio": 0.0,
+    "fin": 6.13
+   },
+   {
+    "texto": "Ahora, buscad y contad: ¿cuántos caballos veis?",
+    "inicio": 7.04,
+    "fin": 9.896
+   },
+   {
+    "texto": "¿Y leones?",
+    "inicio": 10.953,
+    "fin": 11.87
+   },
+   {
+    "texto": "¿Y rinocerontes?",
+    "inicio": 12.938,
+    "fin": 14.331
+   },
+   {
+    "texto": "Y lo más difícil: ¿dónde se esconde el ser que es mitad persona y mitad animal?",
+    "inicio": 15.399,
+    "fin": 21.018
+   }
+  ],
+  "duracion": 21.04,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 306,
+  "fecha": "2026-09-26T11:23:44"
+ },
+ "p16-reto-al-empezar": {
+  "archivo": "p16-reto-al-empezar.41f4fd5b.mp3",
+  "parrafos": [
+   "¡Vamos a soplar pintura, como en la cueva! Pasa el dedo alrededor de la mano."
+  ],
+  "frases": [
+   {
+    "texto": "¡Vamos a soplar pintura, como en la cueva!",
+    "inicio": 0.0,
+    "fin": 2.136
+   },
+   {
+    "texto": "Pasa el dedo alrededor de la mano.",
+    "inicio": 2.694,
+    "fin": 4.83
+   }
+  ],
+  "duracion": 4.83,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 99,
+  "fecha": "2026-09-26T11:23:45"
+ },
+ "p16-reto-a-la-mitad": {
+  "archivo": "p16-reto-a-la-mitad.c1b3a1d7.mp3",
+  "parrafos": [
+   "¡Muy bien, sigue soplando! Ya se ve la forma de la mano."
+  ],
+  "frases": [
+   {
+    "texto": "¡Muy bien, sigue soplando!",
+    "inicio": 0.0,
+    "fin": 1.567
+   },
+   {
+    "texto": "Ya se ve la forma de la mano.",
+    "inicio": 2.113,
+    "fin": 3.994
+   }
+  ],
+  "duracion": 4.0,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 78,
+  "fecha": "2026-09-26T11:23:46"
+ },
+ "p16-reto-al-terminar": {
+  "archivo": "p16-reto-al-terminar.f35e74e4.mp3",
+  "parrafos": [
+   "¡Tu mano en la cueva, como hace miles de años! Igual que ellos, ya has dejado tu huella: ¡toma tu pegatina!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Tu mano en la cueva, como hace miles de años!",
+    "inicio": 0.0,
+    "fin": 2.891
+   },
+   {
+    "texto": "Igual que ellos, ya has dejado tu huella: ¡toma tu pegatina!",
+    "inicio": 3.448,
+    "fin": 7.663
+   }
+  ],
+  "duracion": 7.68,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 129,
+  "fecha": "2026-09-26T11:23:50"
+ },
+ "p13-todos": {
+  "archivo": "p13-todos.4793bb1b.mp3",
+  "parrafos": [
+   "Mirad estos dos areneros: representan un yacimiento, un lugar donde la tierra ha guardado restos del pasado. Huesos, dientes, herramientas de piedra, sobras de comida… Todo fue quedando tapado, capa sobre capa, y por eso lo más antiguo suele estar más abajo.",
+   "El más famoso de España está en la Sierra de Atapuerca, cerca de Burgos. Algunas de sus cuevas, llenas de tierra, quedaron a la vista por casualidad hace más de cien años, cuando se abrió una zanja enorme en la roca para que pasara un tren.",
+   "En la Sima del Elefante han aparecido una mandíbula y un trozo de cara de más de un millón de años: de los restos humanos más antiguos de Europa occidental. En la Gran Dolina, los del Homo antecessor, de hace unos ochocientos cincuenta mil años. Y en la Sima de los Huesos, miles de huesos de al menos veintiocho personas, de hace unos cuatrocientos treinta mil años.",
+   "Fijaos en las cuerdas. No son un adorno: en Atapuerca también se excava por cuadrados de un metro, cada uno con su letra y su número, y de cada hallazgo se apuntan el cuadrado y la profundidad. ¿Por qué tanto cuidado? Porque excavar es destruir: la tierra que se quita ya no vuelve a su sitio. Un hueso sacado sin apuntar es como una palabra arrancada de un libro: sigue ahí, pero ya no sabemos qué frase decía.",
+   "En Atapuerca trabajan juntos arqueólogos y paleontólogos. Los arqueólogos estudian lo que hicieron los humanos: sus herramientas, su comida, sus hogueras. Los paleontólogos estudian los fósiles de cualquier ser vivo del pasado, de un ratón a un dinosaurio. Pero en Atapuerca no saldrá ningún tiranosaurio. Los grandes dinosaurios desaparecieron más de sesenta millones de años antes de los primeros humanos.",
+   "Volvamos a la Sima de los Huesos. Los genes de aquellas personas, y la forma de sus caras y sus dientes, dicen que pertenecían ya a la rama de los neandertales. Esa rama siguió creciendo durante cientos de miles de años, y de ella salieron los neandertales que os esperan en la siguiente parada."
+  ],
+  "frases": [
+   {
+    "texto": "Mirad estos dos areneros: representan un yacimiento, un lugar donde la tierra ha guardado restos del pasado.",
+    "inicio": 0.04,
+    "fin": 6.298
+   },
+   {
+    "texto": "Huesos, dientes, herramientas de piedra, sobras de comida…",
+    "inicio": 6.936,
+    "fin": 10.779
+   },
+   {
+    "texto": "Todo fue quedando tapado, capa sobre capa, y por eso lo más antiguo suele estar más abajo.",
+    "inicio": 11.522,
+    "fin": 17.594
+   },
+   {
+    "texto": "El más famoso de España está en la Sierra de Atapuerca, cerca de Burgos.",
+    "inicio": 18.695,
+    "fin": 23.153
+   },
+   {
+    "texto": "Algunas de sus cuevas, llenas de tierra, quedaron a la vista por casualidad hace más de cien años, cuando se abrió una zanja enorme en la roca para que pasara un tren.",
+    "inicio": 23.85,
+    "fin": 33.37
+   },
+   {
+    "texto": "En la Sima del Elefante han aparecido una mandíbula y un trozo de cara de más de un millón de años: de los restos humanos más antiguos de Europa occidental.",
+    "inicio": 34.477,
+    "fin": 44.334
+   },
+   {
+    "texto": "En la Gran Dolina, los del Homo antecessor, de hace unos ochocientos cincuenta mil años.",
+    "inicio": 45.077,
+    "fin": 50.382
+   },
+   {
+    "texto": "Y en la Sima de los Huesos, miles de huesos de al menos veintiocho personas, de hace unos cuatrocientos treinta mil años.",
+    "inicio": 51.079,
+    "fin": 58.997
+   },
+   {
+    "texto": "Fijaos en las cuerdas.",
+    "inicio": 60.107,
+    "fin": 61.628
+   },
+   {
+    "texto": "No son un adorno: en Atapuerca también se excava por cuadrados de un metro, cada uno con su letra y su número, y de cada hallazgo se apuntan el cuadrado y la profundidad.",
+    "inicio": 62.475,
+    "fin": 72.274
+   },
+   {
+    "texto": "¿Por qué tanto cuidado?",
+    "inicio": 73.041,
+    "fin": 74.666
+   },
+   {
+    "texto": "Porque excavar es destruir: la tierra que se quita ya no vuelve a su sitio.",
+    "inicio": 75.595,
+    "fin": 81.887
+   },
+   {
+    "texto": "Un hueso sacado sin apuntar es como una palabra arrancada de un libro: sigue ahí, pero ya no sabemos qué frase decía.",
+    "inicio": 82.444,
+    "fin": 90.896
+   },
+   {
+    "texto": "En Atapuerca trabajan juntos arqueólogos y paleontólogos.",
+    "inicio": 92.009,
+    "fin": 95.434
+   },
+   {
+    "texto": "Los arqueólogos estudian lo que hicieron los humanos: sus herramientas, su comida, sus hogueras.",
+    "inicio": 96.165,
+    "fin": 102.446
+   },
+   {
+    "texto": "Los paleontólogos estudian los fósiles de cualquier ser vivo del pasado, de un ratón a un dinosaurio.",
+    "inicio": 103.166,
+    "fin": 108.936
+   },
+   {
+    "texto": "Pero en Atapuerca no saldrá ningún tiranosaurio.",
+    "inicio": 109.645,
+    "fin": 113.325
+   },
+   {
+    "texto": "Los grandes dinosaurios desaparecieron más de sesenta millones de años antes de los primeros humanos.",
+    "inicio": 113.876,
+    "fin": 120.331
+   },
+   {
+    "texto": "Volvamos a la Sima de los Huesos.",
+    "inicio": 121.455,
+    "fin": 123.487
+   },
+   {
+    "texto": "Los genes de aquellas personas, y la forma de sus caras y sus dientes, dicen que pertenecían ya a la rama de los neandertales.",
+    "inicio": 124.357,
+    "fin": 131.103
+   },
+   {
+    "texto": "Esa rama siguió creciendo durante cientos de miles de años, y de ella salieron los neandertales que os esperan en la siguiente parada.",
+    "inicio": 131.799,
+    "fin": 139.102
+   }
+  ],
+  "duracion": 139.12,
+  "voz": "El Richar atenboru",
+  "voice_id": "WeuNkKS3AvTwCZZERkQa",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.49,
+   "similarity_boost": 0.43,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.55,
+   "pregunta": 0.8,
+   "parrafo": 1.1
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 2307,
+  "fecha": "2026-09-26T11:22:39"
+ },
+ "p13-peques": {
+  "archivo": "p13-peques.8ec32ca5.mp3",
+  "parrafos": [
+   "¡Hola, exploradores! Soy Alba, la viajera del tiempo.",
+   "Hace muchísimo tiempo estuve en Atapuerca, unas cuevas de Burgos. Allí vivía gente que tallaba piedras para cortar la carne. Dejaron dientes, huesos y herramientas, y la tierra lo fue tapando todo.",
+   "Hoy los científicos lo desentierran con pinceles, despacito, despacito. Y cada vez que encuentran algo, ¡lo apuntan! Así saben dónde estaba cada cosa.",
+   "¿Veis las cuerdas del arenero? Hacen cuadrados, igual que en Atapuerca.",
+   "¿Me ayudáis a excavar y a apuntar lo que salga? ¡Vamos al reto!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Hola, exploradores!",
+    "inicio": 0.0,
+    "fin": 1.498
+   },
+   {
+    "texto": "Soy Alba, la viajera del tiempo.",
+    "inicio": 2.078,
+    "fin": 4.598
+   },
+   {
+    "texto": "Hace muchísimo tiempo estuve en Atapuerca, unas cuevas de Burgos.",
+    "inicio": 5.499,
+    "fin": 9.562
+   },
+   {
+    "texto": "Allí vivía gente que tallaba piedras para cortar la carne.",
+    "inicio": 10.131,
+    "fin": 13.394
+   },
+   {
+    "texto": "Dejaron dientes, huesos y herramientas, y la tierra lo fue tapando todo.",
+    "inicio": 13.986,
+    "fin": 19.152
+   },
+   {
+    "texto": "Hoy los científicos lo desentierran con pinceles, despacito, despacito.",
+    "inicio": 20.062,
+    "fin": 25.368
+   },
+   {
+    "texto": "Y cada vez que encuentran algo, ¡lo apuntan!",
+    "inicio": 25.96,
+    "fin": 28.967
+   },
+   {
+    "texto": "Así saben dónde estaba cada cosa.",
+    "inicio": 29.559,
+    "fin": 32.229
+   },
+   {
+    "texto": "¿Veis las cuerdas del arenero?",
+    "inicio": 33.136,
+    "fin": 34.808
+   },
+   {
+    "texto": "Hacen cuadrados, igual que en Atapuerca.",
+    "inicio": 35.899,
+    "fin": 38.569
+   },
+   {
+    "texto": "¿Me ayudáis a excavar y a apuntar lo que salga?",
+    "inicio": 39.47,
+    "fin": 42.071
+   },
+   {
+    "texto": "¡Vamos al reto!",
+    "inicio": 43.139,
+    "fin": 44.346
+   }
+  ],
+  "duracion": 44.36,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 688,
+  "fecha": "2026-09-26T11:22:49"
+ },
+ "p13-mision": {
+  "archivo": "p13-mision.ad58f3ae.mp3",
+  "parrafos": [
+   "¡Mirad las cuerdas del arenero! Forman cuadrados. ¿Cuántos contáis?",
+   "Ahora elegid un cuadrado y buscad en él solo con los ojos: ¿asoma algo? Si podéis excavar, hacedlo dentro de vuestro cuadrado, con el pincel y sin mover las cuerdas. ¡Y al terminar, dejadlo todo como estaba para los siguientes exploradores!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Mirad las cuerdas del arenero!",
+    "inicio": 0.0,
+    "fin": 1.707
+   },
+   {
+    "texto": "Forman cuadrados.",
+    "inicio": 2.252,
+    "fin": 3.402
+   },
+   {
+    "texto": "¿Cuántos contáis?",
+    "inicio": 4.005,
+    "fin": 5.666
+   },
+   {
+    "texto": "Ahora elegid un cuadrado y buscad en él solo con los ojos: ¿asoma algo?",
+    "inicio": 6.67,
+    "fin": 11.72
+   },
+   {
+    "texto": "Si podéis excavar, hacedlo dentro de vuestro cuadrado, con el pincel y sin mover las cuerdas.",
+    "inicio": 12.765,
+    "fin": 18.71
+   },
+   {
+    "texto": "¡Y al terminar, dejadlo todo como estaba para los siguientes exploradores!",
+    "inicio": 19.255,
+    "fin": 24.596
+   }
+  ],
+  "duracion": 24.62,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 395,
+  "fecha": "2026-09-26T11:22:53"
+ },
+ "p13-reto-al-empezar": {
+  "archivo": "p13-reto-al-empezar.72d3ad5c.mp3",
+  "parrafos": [
+   "¡Vamos a excavar como en Atapuerca! Rasca la arena con el dedo, y yo apunto todo lo que encuentres."
+  ],
+  "frases": [
+   {
+    "texto": "¡Vamos a excavar como en Atapuerca!",
+    "inicio": 0.0,
+    "fin": 2.043
+   },
+   {
+    "texto": "Rasca la arena con el dedo, y yo apunto todo lo que encuentres.",
+    "inicio": 2.659,
+    "fin": 6.641
+   }
+  ],
+  "duracion": 6.66,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 121,
+  "fecha": "2026-09-26T11:22:54"
+ },
+ "p13-reto-al-encontrar-el-diente": {
+  "archivo": "p13-reto-al-encontrar-el-diente.9dbe27e2.mp3",
+  "parrafos": [
+   "¡Un diente humano: nos cuenta qué comía su dueño! ¡Apuntado: casilla C dos!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Un diente humano: nos cuenta qué comía su dueño!",
+    "inicio": 0.0,
+    "fin": 3.193
+   },
+   {
+    "texto": "¡Apuntado: casilla C dos!",
+    "inicio": 3.75,
+    "fin": 6.177
+   }
+  ],
+  "duracion": 6.19,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 97,
+  "fecha": "2026-09-26T11:22:55"
+ },
+ "p13-reto-al-encontrar-la-mandibula": {
+  "archivo": "p13-reto-al-encontrar-la-mandibula.5a1d31d5.mp3",
+  "parrafos": [
+   "¡Una mandíbula: su forma nos ayuda a saber qué clase de humano era! ¡Apuntada: casilla A cuatro!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Una mandíbula: su forma nos ayuda a saber qué clase de humano era!",
+    "inicio": 0.0,
+    "fin": 4.122
+   },
+   {
+    "texto": "¡Apuntada: casilla A cuatro!",
+    "inicio": 4.667,
+    "fin": 7.291
+   }
+  ],
+  "duracion": 7.32,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 118,
+  "fecha": "2026-09-26T11:22:57"
+ },
+ "p13-reto-al-encontrar-el-bifaz": {
+  "archivo": "p13-reto-al-encontrar-el-bifaz.a28dcacc.mp3",
+  "parrafos": [
+   "¡Un bifaz: alguien afiló esta piedra a golpes, por las dos caras! ¡Apuntado: casilla D uno!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Un bifaz: alguien afiló esta piedra a golpes, por las dos caras!",
+    "inicio": 0.0,
+    "fin": 4.191
+   },
+   {
+    "texto": "¡Apuntado: casilla D uno!",
+    "inicio": 4.748,
+    "fin": 7.384
+   }
+  ],
+  "duracion": 7.39,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 113,
+  "fecha": "2026-09-26T11:22:58"
+ },
+ "p13-reto-al-encontrar-el-hueso": {
+  "archivo": "p13-reto-al-encontrar-el-hueso.88db7b45.mp3",
+  "parrafos": [
+   "¡Un hueso de animal con marcas de corte: alguien le quitó la carne con una piedra afilada! ¡Apuntado: casilla B tres!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Un hueso de animal con marcas de corte: alguien le quitó la carne con una piedra afilada!",
+    "inicio": 0.0,
+    "fin": 5.201
+   },
+   {
+    "texto": "¡Apuntado: casilla B tres!",
+    "inicio": 5.747,
+    "fin": 8.591
+   }
+  ],
+  "duracion": 8.6,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 139,
+  "fecha": "2026-09-26T11:22:59"
+ },
+ "p13-reto-al-terminar": {
+  "archivo": "p13-reto-al-terminar.884a1757.mp3",
+  "parrafos": [
+   "¡Todo apuntado, casilla por casilla: ahora podemos reconstruir lo que pasó aquí! ¡Toma tu pegatina!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Todo apuntado, casilla por casilla: ahora podemos reconstruir lo que pasó aquí!",
+    "inicio": 0.0,
+    "fin": 4.725
+   },
+   {
+    "texto": "¡Toma tu pegatina!",
+    "inicio": 5.294,
+    "fin": 7.198
+   }
+  ],
+  "duracion": 7.21,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 121,
+  "fecha": "2026-09-26T11:23:01"
+ }
+}

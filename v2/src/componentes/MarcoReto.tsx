@@ -1,0 +1,115 @@
+import { useEffect, useRef, useState, type ReactNode } from "react";
+import { ir } from "../App";
+import type { Dicho } from "../contenido/guion";
+import { ganarPegatina } from "../estado";
+import { locutar } from "../voz";
+import Alba, { type PoseAlba } from "./Alba";
+import Barra from "./Barra";
+import Pegatina from "./Pegatina";
+
+/**
+ * Lo que dice Alba en un reto: el texto del bocadillo y su locución. Habla al empezar.
+ * terminar(último, final): Alba explica primero el último paso y, cuando acaba de hablar,
+ * aparece la hoja de «¡Reto superado!» con la frase final.
+ */
+export function useAlba(inicial: Dicho) {
+  const [mensaje, setMensaje] = useState(inicial);
+  const [final, setFinal] = useState<Dicho | null>(null);
+  const [terminando, setTerminando] = useState(false);
+  const pendiente = useRef<Dicho | null>(null);
+  const reserva = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
+
+  useEffect(() => {
+    locutar(inicial.pista, [inicial.texto], "alba");
+  }, [inicial]);
+  useEffect(() => () => clearTimeout(reserva.current), []);
+
+  const cerrar = () => {
+    const f = pendiente.current;
+    if (!f) return;
+    pendiente.current = null;
+    clearTimeout(reserva.current);
+    setFinal(f);
+    setMensaje(f);
+    locutar(f.pista, [f.texto], "alba");
+  };
+
+  const decir = (d: Dicho) => {
+    const empezo = Date.now();
+    setMensaje(d);
+    locutar(d.pista, [d.texto], "alba", {
+      // Sin voz, alTerminar llega al instante: se deja un rato para leer.
+      alTerminar: () => {
+        if (pendiente.current) setTimeout(cerrar, Math.max(700, 60 * d.texto.length - (Date.now() - empezo)));
+      },
+    });
+  };
+
+  const terminar = (ultimo: Dicho | null, f: Dicho) => {
+    if (terminando || final) return;
+    pendiente.current = f;
+    setTerminando(true);
+    if (!ultimo) return cerrar();
+    reserva.current = setTimeout(cerrar, 25000); // por si el navegador nunca avisa del final
+    decir(ultimo);
+  };
+
+  return { mensaje, decir, final, terminar, acabado: terminando || !!final };
+}
+
+interface Props {
+  parada: number;
+  titulo: string;
+  mensaje: Dicho;
+  decir: (d: Dicho) => void;
+  /** Cuando llega, se gana la pegatina y aparece la hoja final con esta frase. */
+  final: Dicho | null;
+  pose?: PoseAlba;
+  /** Algo propio que enseñar en la hoja final (p. ej., la mano pintada). */
+  recuerdo?: ReactNode;
+  children: ReactNode;
+}
+
+export default function MarcoReto({ parada, titulo, mensaje, decir, final, pose, recuerdo, children }: Props) {
+  useEffect(() => {
+    if (final) ganarPegatina(parada);
+  }, [final, parada]);
+
+  return (
+    <main className="pantalla reto">
+      <Barra titulo={titulo} volver={`/parada/${parada}`} />
+
+      <div className="reto-alba">
+        <div className="reto-alba-figura">
+          <Alba pose={final ? "celebra" : (pose ?? "piensa")} />
+          <button className="boton-oir" onClick={() => decir(mensaje)} aria-label="Repetir lo que dice Alba">
+            🔊
+          </button>
+        </div>
+        <div className="bocadillo">
+          <p>{mensaje.texto}</p>
+        </div>
+      </div>
+
+      {children}
+
+      {final && (
+        <div className="velo">
+          <section className="hoja final" role="dialog" aria-label="¡Reto superado!">
+            <Alba pose="celebra" className="hoja-alba" />
+            <h2>¡Reto superado!</h2>
+            {recuerdo}
+            <Pegatina parada={parada} grande />
+            <p>{final.texto}</p>
+            <button className="boton grande" onClick={() => ir(`/parada/${parada}`)}>
+              Volver a la parada
+            </button>
+            <button className="boton secundario" onClick={() => ir("/album")}>
+              Ver mis pegatinas
+            </button>
+          </section>
+        </div>
+      )}
+    </main>
+  );
+}

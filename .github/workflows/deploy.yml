@@ -24,6 +24,16 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run build
+      # La app nueva (v2), en pruebas, se publica en /Parque-Prehistoria/v2/ sin tocar la actual.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: App nueva (v2)
+        working-directory: v2
+        run: |
+          npm ci
+          npm run build
+      - run: cp -r v2/dist dist/v2
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist   # si tu build sale a otra carpeta, cámbialo

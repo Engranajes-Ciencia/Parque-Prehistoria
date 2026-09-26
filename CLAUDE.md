@@ -1,0 +1,68 @@
+# Parque de la Prehistoria (app de visita guiada)
+
+App web para la visita autoguiada del Parque de la Prehistoria (Engranajes Ciencia). El visitante recorre 20 paradas con su móvil: en cada una escucha una audioguía, ve un "¿Sabías que…?" y, en las paradas que lo tienen, juega un reto de Genially; al terminar descarga un diploma en PDF con su nombre.
+
+## Stack y estructura
+- **React 19 + Vite 6** (JS, sin TypeScript), `HashRouter`, i18next, pdf-lib. Sin backend: todo es estático y el estado vive en `localStorage`/`sessionStorage`.
+- Publicada en **GitHub Pages** como `Engranajes-Ciencia/Parque-Prehistoria`, con `base: '/Parque-Prehistoria/'` (definido en `vite.config.js`).
+- `src/config/routes/AppRouter.jsx` — rutas reales: `/` (StartScreen), `/instrucciones`, `/visit`, `/final` (lazy), `/admin`. Todo lo demás redirige a `/`.
+- `src/Components/Pages/VisitController.jsx` — **corazón de la app**: máquina de estados `STOP → CHALLENGE_PROMPT → CHALLENGE → MAP` (y `FinalScreen` cuando no hay parada siguiente). El estado se refleja en la URL (`?stop=N&view=X`) con clamp de valores.
+- `src/config/data/actividades.json` — las 20 paradas. Fuente única de contenido del recorrido.
+- `src/config/data/sabias_que.json` — mapa `id de parada → texto` del "¿Sabías que…?".
+- `public/` — assets servidos tal cual: `sounds/paradasaudio/{ESP,ENG}`, `assets/images/nogenially` (imágenes de parada/mapa), `assets/form-fondo` (fondos), `assets/diploma/diploma.pdf` (plantilla del diploma), `icons/`, `fonts/`.
+- `src/Components/Pages/` mezcla el flujo nuevo (`StartScreen`, `StopScreen`, `IntermediateMap`, `ChallengePrompt`, `ChallengeView`, `Instrucciones`, `AdminStats`, `Final`) con el **flujo legacy** (`Mapa`, `EscanerQR`, `Vitrina*`, `ModoJuego`, `Portada`, `Form`, `Actividad`, `ModoSecreto`, `EntreActividades`), desconectado del router.
+- Ojo con dos componentes de nombre parecido: `src/Components/Pages/Final.jsx` es el de la ruta `/final`; `src/Components/FinalScreen.jsx` (fuera de `Pages/`) es el que renderiza `VisitController` al acabar el recorrido y el que genera el diploma.
+
+## Cómo se ejecuta
+Requiere Node 20 (es la versión que usa el workflow de despliegue).
+
+```powershell
+npm install
+npm run dev        # vite --host, puerto 3000, abre el navegador
+npm run build      # salida en dist/
+npm run preview    # sirve dist/
+npm run lint       # eslint .
+```
+
+- Hay una configuración de arranque para Claude Code en `.claude/launch.json`: **`prehistoria-dev`** (`npx vite --no-open`, puerto 3000). Es la vía preferida para levantar el servidor de desarrollo desde aquí.
+- Encadenar pasos en PowerShell 5.1 con `;` (no admite `&&`): `npm install; if ($?) { npm run dev }`.
+- **Despliegue**: automático con `.github/workflows/deploy.yml` en cada push a `main` (build + GitHub Pages). **Desde el 26-sep-2026 el mismo workflow compila también la v2 y la publica en `/Parque-Prehistoria/v2/`** (Node 22), sin tocar la app actual. Existe además `npm run deploy` (`gh-pages -d dist`), ruta manual alternativa; usar solo una de las dos.
+- `optimize-images.js` (sharp) recomprime en sitio las imágenes de `public/assets` mayores de 200 KB. **No está declarado en `package.json`**: se lanzaría a mano con `node optimize-images.js`; ejecución no verificada. Sobrescribe los originales.
+- No hay tests.
+
+## Convenciones
+- **Toda ruta a un asset de `public/` se construye con `` `${import.meta.env.BASE_URL}...` ``**, nunca con `/` inicial a pelo. Es lo que hace que la app funcione bajo el subdirectorio de GitHub Pages.
+- Excepción deliberada: las rutas dentro de `actividades.json` son relativas sin barra inicial (`sounds/paradasaudio/ESP/parada1ESP.mp3`) y se resuelven contra el documento. Mantener ese formato al añadir paradas.
+- Esquema de una parada en `actividades.json`: `id`, `titulo`, `ubicacion`, `posX`/`posY` (posición en el mapa legacy, %), `labelPos` opcional (`top`/`left` del cartel "Dirigíos aquí"), `audio` (ESP), `audioENG`, `geniallyURL`, `imagenAlternativa`, `completada`. **`geniallyURL: "#"` significa "parada sin reto"**: es la condición exacta que usa `VisitController` para saltarse el desafío.
+- Ficheros de audio: `parada{N}ESP.mp3` / `parada{N}ENG.mp3` en sus carpetas de idioma.
+- CSS: los componentes nuevos llevan su `.css` al lado (`StopScreen.css`); los legacy lo tienen en `src/Styles/Pages/`. Paleta común en `src/Styles/colors.css`.
+- Los ficheros JSON de datos y locales están en UTF-8 con acentos; al editarlos desde PowerShell hay que forzar `-Encoding utf8` o se corrompen.
+- Componentes en PascalCase, textos de UI del flujo nuevo escritos directamente en español.
+
+## Avisos
+- **Autenticación con GitHub**: el remoto es `https://github.com/Engranajes-Ciencia/Parque-Prehistoria.git`, sin token (el `ghp_…` que llevaba incrustado se quitó el 24-sep-2026: GitHub ya no lo aceptaba para `push` y había quedado expuesto). Los `push` pasan por Git Credential Manager, que abre un inicio de sesión en el navegador: **eso lo tiene que hacer Álvaro**; lanzado desde Claude, el `push` se queda colgado esperando la ventana. No volver a meter tokens en la URL.
+- **Carpeta fantasma** `APP PREHISTORIA/APP PREHISTORIA/`: restos de un clon viejo, hoy ~1.790 directorios **vacíos** (0 ficheros, incluido su `.git/`). No contiene código: no buscar ahí ni contarla en inventarios del proyecto.
+- **No borrar el código legacy** aunque no se use: está comentado a propósito en `AppRouter.jsx` ("kept for reference") y el flujo de medallas/QR/vitrina podría rescatarse.
+- **Los ficheros `*ENG.mp3` NO son inglés: son la versión infantil (4-6 años) en español**, de ~30 s (comprobado transcribiéndolos el 24-sep-2026). El botón "Audio Infantil" de `StopScreen`, que reproduce `stop.audioENG`, es correcto; solo el nombre del fichero y del campo engañan. Los `*ESP.mp3` son el audio general (7+).
+- **Versión 2 en preparación**: el plan está en `docs/plan/00_PLAN_V2.md` (rehacer desde cero, sin Genially, mapa cartoon, audios nuevos, juegos propios); su sección «Estado y decisiones tomadas» dice por dónde vamos. Leerlo antes de tocar nada de la app. Carpetas de la v2:
+  - `arte/00_INSTRUCCIONES_PARA_CHATGPT.md` — **las imágenes las genera ChatGPT** (lo decidió Álvaro) leyendo ese documento; yo lo mantengo (ficha de Alba, reglas de anatomía, lote activo) y reviso lo que deja en `arte/lote-NN/`. Al revisar: anatomía (cuernos, gola maciza, colas en el aire, nada de césped ni flores con el brontosaurio), Alba idéntica a su ficha, cero texto dentro de la imagen.
+  - `contenido/guiones/` — guiones de audio por parada, tal como se leerán (cifras con letras), con tabla de datos y fuentes; pasan `scientific-rigor-check`.
+  - `v2/` — **la app nueva** (React 19 + Vite 8 + TypeScript, sin router: navegación por `#/ruta` en `src/App.tsx`). Arranque en Claude Code: configuración **`prehistoria-v2`** (puerto 3100). A mano: `cd v2; npm install; npm run dev`. Comprobación: `npx tsc --noEmit` y `npx vite build`. Base relativa (`./`): la misma compilación sirve en cualquier subcarpeta. **Los textos NO se escriben en el código:** `src/contenido/paradas.ts` importa los guiones `.md` con `?raw` y `src/contenido/guion.ts` extrae las citas de las secciones «Para todos», «Para peques», «Mira bien» y «Sabías que» (falla al compilar si falta alguna). La voz actual (`src/voz.ts`, síntesis del navegador) es PROVISIONAL, igual que los dinosaurios SVG de `componentes/Dinos.tsx` y los emojis de la comida: se sustituyen por el lote 3 y por ElevenLabs. Progreso en `localStorage` (clave `prehistoria-v2`).
+  - `Mapa e imágenes de parque/` — material de Álvaro: 106 fotos del parque (clasificación propuesta en `Imágenes/CLASIFICACION_PROPUESTA.md`) y el mapa (`Mapa/`: con números, sin elementos, plano con dimensiones reales en `Recursos/`, y los elementos sueltos).
+  - `arte/aprobado/` — imágenes revisadas y aprobadas, ya recortadas; de ahí salen las `.webp` de `v2/public/img/`.
+  - **Paradas y juegos:** cada parada se registra en `v2/src/contenido/paradas.ts` (`PARADAS`: guion importado con `?raw`, `imagen` = ilustración o `foto` = foto del parque como portada provisional, nombre del `reto`) y su juego en `v2/src/retos/index.ts` (`RETOS`, se abre en `#/parada/N/reto`). Todos los juegos usan `componentes/MarcoReto.tsx` (Alba con bocadillo, repetir, hoja final y pegatina; `useAlba`) y, si hay que arrastrar, `componentes/useArrastre.ts` (arrastrar o tocar pieza + tocar destino). Las frases del juego salen del guion con `dichoDelReto(guion, parada, «Etiqueta»)`, que **falla al compilar/abrir si la etiqueta no existe**. Para escribir un guion nuevo: `docs/plan/01_ENCARGO_GUIONES.md`.
+  - **Regla del guion que lee la app:** las frases del reto son **solo** las de la lista que sigue a `**Voz de Alba:**`, hasta la primera línea en blanco. Las notas del reto van en párrafos, nunca como lista con «comillas» justo debajo.
+  - **Audio:** `herramientas/generar_audios.py` genera los MP3 de `v2/public/audio/` desde los guiones (misma lectura que la app), con marcas de tiempo por frase, volumen normalizado a −16 LUFS y MP3 mono 64 kbps, y lo anota todo en `v2/public/audio/manifiesto.json` (voz, modelo, ajustes, texto, tiempos). Solo regenera lo que ha cambiado (`--lista` para ver el estado, `--forzar` para rehacer). **Los MP3 llevan huella en el nombre** (`p07-todos.<8 hex>.mp3`) y la versión anterior se borra: el móvil guarda los audios con «primero la caché» y, con el mismo nombre, seguiría sonando la versión vieja. **Por lo mismo, una imagen que se rehace lleva nombre nuevo** (`mapa-m1.webp` → `mapa-m3.webp`), nunca se sobrescribe. La app (`src/voz.ts`) usa el MP3 **solo si su texto coincide con el guion actual**; si no, cae a la voz del navegador. Las pistas **se descubren solas** de los guiones: `pNN-todos`, `pNN-peques`, `pNN-mision` y `pNN-reto-<etiqueta en minúsculas y con guiones>` (con `-1`, `-2`… si la etiqueta tiene frases alternativas); la app deduce las mismas claves (`slug()` en `guion.ts` y en el generador: si se toca uno, se toca el otro). `--parada 12` genera solo esa parada. **Pausas:** cada párrafo se genera aparte (trozos de hasta 4 frases con `<break>`) y se pega con silencios exactos (`PAUSAS` en el generador); medido el 25-sep: sin esto Alba dejaba 0,10 s entre frases. Voces: narrador «El Richar atenboru» (`WeuNkKS3AvTwCZZERkQa`, ajustes del historial 0,49/0,43) y **Alba «Alba Guía Prehistoria» (`OOHm6M5O6WPl7E4nAqyE`)**, diseñada por Álvaro en la web. Textos que no son de ninguna parada (saludo de la portada): `contenido/guiones/comun.md`.
+  - **ElevenLabs, límites del plan gratuito** (el que hay a 25-sep-2026): la API **no** diseña voces (hay que hacerlo en la web) **ni** usa voces de la biblioteca; sí usa las voces propias. **No hay licencia comercial**: los audios definitivos se regeneran con plan de pago. **ElevenLabs no permite crear voces de menores**: Alba la dobla una voz de mujer joven. La clave no tiene el permiso `user_read` (no se pueden leer los créditos).
+  - `herramientas/voces.py` — ElevenLabs sin dependencias (historial, voces, buscar, anadir, muestras). La clave va en `ANTIGRAVITY/_secrets/elevenlabs_KEY.txt`, **fuera del repositorio**; nunca dentro del proyecto. Cada audio deja un `.json` con voz, modelo, ajustes y texto: la voz queda «anclada».
+- **i18n cubre el flujo legacy y `AdminStats`, nada más.** Del flujo nuevo, `AdminStats` es el único componente que usa `useTranslation`: el resto del recorrido está hardcodeado en español, aunque haya audios ENG y detector de idioma configurado.
+- La clave del panel `/admin` está en claro en `AdminStats.jsx` y las estadísticas son locales al dispositivo: no es seguridad real, no tratarlo como tal.
+- `.env.production` apunta a un base antiguo (`/04-WebApp-Prehistoria/`) y `.env` a `/`: **ninguno manda**, la base real es la de `vite.config.js`. No fiarse de esos ficheros.
+- `dist/` está en `.gitignore` pero existe en local; cualquier `npm run build` lo sobrescribe.
+- El diploma depende de `public/assets/diploma/diploma.pdf` y de coordenadas absolutas en `src/Components/FinalScreen.jsx` (nombre en y=780, fecha en y=1520): si se cambia la plantilla hay que recalcularlas.
+
+## Documentación canónica
+- `README.md` (raíz) — descripción del proyecto y, sobre todo, **los textos íntegros de las 20 audioguías**. Es la referencia de contenido; algunas secciones (capturas, estructura) están incompletas o desfasadas respecto al código.
+
+## Estilo de los textos divulgativos
+Todo texto que explique ciencia al público general se escribe con el estilo definido para el libro de divulgación de Álvaro. Usa las skills personales `scicomm-prose-architect` (voz Asimov/Sagan/Harari), `metaphor-engine` (analogías), `scientific-rigor-check` (que simplificar no falsee) y `asimov-guide-framework` (arquitectura del texto). Están instaladas a nivel de usuario y se cargan en cualquier proyecto.
