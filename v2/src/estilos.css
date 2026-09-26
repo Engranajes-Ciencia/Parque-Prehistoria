@@ -1477,3 +1477,19 @@ h3 {
 .secreta .premio {
   text-align: center;
 }
+
+.pareja-mini {
+  position: relative;
+}
+
+.pareja-sello {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #d62828;
+  font-size: 1.6rem;
+  font-weight: 900;
+  text-shadow: 0 0 3px #fff;
+  pointer-events: none;
+}

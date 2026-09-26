@@ -21,6 +21,8 @@ export interface SitioEmparejar {
   id: string;
   nombre: string;
   dibujo?: ReactNode;
+  /** Marca que se pone encima de cada pieza colocada aquí (p. ej., la cruz de «Es un mito»). */
+  sello?: string;
 }
 
 export interface FrasesEmparejar {
@@ -121,6 +123,7 @@ export default function Emparejar(p: Props) {
                     {dentro.map((x) => (
                       <span key={x.id} className="pareja-mini" title={x.nombre}>
                         {x.dibujo}
+                        {s.sello && <span className="pareja-sello">{s.sello}</span>}
                       </span>
                     ))}
                   </span>

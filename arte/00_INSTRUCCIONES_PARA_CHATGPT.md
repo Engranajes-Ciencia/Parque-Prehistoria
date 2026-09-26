@@ -332,7 +332,7 @@ Todo en el **estilo 1** y con las reglas de la sección 3 (sin texto, anatomía 
 
 Aprobado e integrado. Muy buen nivel. Único detalle: en `H3_sauropodo` el cuello va casi vertical; se acepta porque en la península hubo braquiosáuridos, que lo llevaban alto.
 
-## 12. LOTE ACTIVO: lote 7, paradas 1, 11, 12, 14, 15, 17, 20 y la parada secreta
+## 12. Lote 7, paradas 1, 11, 12, 14, 15, 17, 20 y la parada secreta — HECHO Y REVISADO (27-sep-2026)
 
 Todo en el **estilo 1**, con las reglas de la sección 3. Guarda en `arte/lote-07/`. Puedes hacerlo por partes (A, B, C…).
 
@@ -375,7 +375,22 @@ Todo en el **estilo 1**, con las reglas de la sección 3. Guarda en `arte/lote-0
 
 **Parada 17, «¡Nos mudamos!»:** seis tarjetas **con fondo**, cuadradas, descritas en `contenido/guiones/parada-17-poblados-nomadas.md` (sección «Reto»): `N1_pieles.png`, `N2_herramientas.png`, `N3_lanza.png`, `N4_collar.png`, `N5_casa_piedra.png`, `N6_campo_trigo.png`.
 
-## 13. Próximos lotes (NO generar todavía)
+### Revisión de Claude
+
+Aprobado e integrado. Un problema, culpa del encargo y no tuyo: las tarjetas `V5_nudillos` y `V6_dinosaurio` llevan la **cruz roja dibujada**, y así el niño sabe la respuesta antes de jugar. La app ya pone la cruz ella sola cuando la tarjeta se coloca en «Es un mito». Hay que rehacerlas sin cruz (lote 7 bis).
+
+## 13. LOTE ACTIVO: lote 7 bis, dos tarjetas sin cruz
+
+**Parte de `arte/lote-07/V5_nudillos.png` y de `arte/lote-07/V6_dinosaurio.png` y edítalas: quita SOLO la cruz roja.** Todo lo demás, igual: el mismo neandertal, la misma escena, los mismos colores. Donde estaba la cruz, completa el dibujo que queda debajo (el cuerpo, el dinosaurio, el paisaje) sin manchas ni borrones. Guárdalas en `arte/lote-07/`:
+
+| Archivo | Qué es |
+|---|---|
+| `V5b_nudillos_sin_cruz.png` | `V5_nudillos` sin la cruz roja |
+| `V6b_dinosaurio_sin_cruz.png` | `V6_dinosaurio` sin la cruz roja |
+
+1024×1024, con fondo, sin texto. Ninguna marca de «falso»: la tarjeta tiene que parecer tan posible como las demás.
+
+## 14. Próximos lotes (NO generar todavía)
 
 - `D1` rehecha en el estilo 1, si Álvaro lo pide.
 - Lo que haga falta para las paradas que faltan.
