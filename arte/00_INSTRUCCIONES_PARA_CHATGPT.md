@@ -379,7 +379,7 @@ Todo en el **estilo 1**, con las reglas de la sección 3. Guarda en `arte/lote-0
 
 Aprobado e integrado. Un problema, culpa del encargo y no tuyo: las tarjetas `V5_nudillos` y `V6_dinosaurio` llevan la **cruz roja dibujada**, y así el niño sabe la respuesta antes de jugar. La app ya pone la cruz ella sola cuando la tarjeta se coloca en «Es un mito». Hay que rehacerlas sin cruz (lote 7 bis).
 
-## 13. LOTE ACTIVO: lote 7 bis, dos tarjetas sin cruz
+## 13. LOTE ACTIVO: lote 7 bis, dos tarjetas sin cruz y el suelo de Laetoli
 
 **Parte de `arte/lote-07/V5_nudillos.png` y de `arte/lote-07/V6_dinosaurio.png` y edítalas: quita SOLO la cruz roja.** Todo lo demás, igual: el mismo neandertal, la misma escena, los mismos colores. Donde estaba la cruz, completa el dibujo que queda debajo (el cuerpo, el dinosaurio, el paisaje) sin manchas ni borrones. Guárdalas en `arte/lote-07/`:
 
@@ -387,8 +387,11 @@ Aprobado e integrado. Un problema, culpa del encargo y no tuyo: las tarjetas `V5
 |---|---|
 | `V5b_nudillos_sin_cruz.png` | `V5_nudillos` sin la cruz roja |
 | `V6b_dinosaurio_sin_cruz.png` | `V6_dinosaurio` sin la cruz roja |
+| `E1b_laetoli_suelo.png` | `E1_laetoli_suelo` con **dos** rastros de pisadas humanas, no tres (ver abajo) |
 
 1024×1024, con fondo, sin texto. Ninguna marca de «falso»: la tarjeta tiene que parecer tan posible como las demás.
+
+**El suelo de Laetoli (`E1b`, 1536×1024, horizontal).** Parte de `arte/lote-07/E1_laetoli_suelo.png` y edítala. Ahora tiene **tres** rastros de pisadas humanas (uno grande a la izquierda, uno pequeño en medio y otro grande a la derecha), y en Laetoli se ven **dos**: uno de pies grandes y, **muy pegado a su izquierda**, uno de pies pequeños, los dos hacia el horizonte (un tercer caminante pisó dentro de las huellas del grande, por eso no se ve aparte). Quita el rastro grande de la derecha y rellena ese trozo con el mismo suelo de ceniza, con sus hoyitos de lluvia. Deja igual todo lo demás: el rastro grande de la izquierda, el pequeño, las huellas redondas de elefante de la derecha, los hoyitos de lluvia, el volcán, el lago y las acacias. Los dedos gordos, en línea con los demás, como ahora. *(Lo detectó la revisión del 27-sep; al integrarla, Claude vuelve a medir las zonas del juego.)*
 
 ## 14. Próximos lotes (NO generar todavía)
 
