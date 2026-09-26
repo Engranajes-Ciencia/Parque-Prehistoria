@@ -157,7 +157,8 @@ def frases_del_reto(md, selector):
 
 def descubrir_pistas():
     import glob
-    pistas = {"comun-saludo": ("comun.md", "seccion", "Saludo de Alba", "alba")}
+    pistas = {"comun-saludo": ("comun.md", "seccion", "Saludo de Alba", "alba"),
+              "comun-despedida": ("comun.md", "seccion", "Despedida de Alba", "alba")}
     # La parada secreta del pozo (la X del mapa): pista, pregunta, frase si se falla y premio.
     secreta = "parada-secreta-pozo.md"
     if os.path.exists(os.path.join(GUIONES, secreta)):

@@ -12,7 +12,6 @@ export default function Recorrido({ editar = false }: { editar?: boolean }) {
       <Barra titulo={editar ? "Colocar las paradas" : "El recorrido"} volver="/" />
       {!editar && <DescargarVisita />}
       <MapaParque editar={editar} />
-      <p className="aviso-prueba">Mapa provisional: el dibujo definitivo está en preparación.</p>
       <h2 className="recorrido-cabecera">Todas las paradas</h2>
       <ol className="recorrido">
         {RECORRIDO.map((p) => {

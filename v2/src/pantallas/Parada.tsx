@@ -4,7 +4,7 @@ import Alba from "../componentes/Alba";
 import Barra from "../componentes/Barra";
 import Locucion from "../componentes/Locucion";
 import Pegatina from "../componentes/Pegatina";
-import { PARADAS } from "../contenido/paradas";
+import { PARADAS, PARADA_SECRETA, RECORRIDO } from "../contenido/paradas";
 import { completarMision, useEstado } from "../estado";
 import { callar, locutar } from "../voz";
 
@@ -23,6 +23,11 @@ export default function Parada({ id }: { id: number }) {
   }
 
   const { guion, reto } = parada;
+  // Paradas vecinas en el orden del camino (la secreta no cuenta: se descubre en el pozo).
+  const orden = RECORRIDO.filter((p) => p.id !== PARADA_SECRETA);
+  const aqui = orden.findIndex((p) => p.id === id);
+  const anterior = orden[aqui - 1];
+  const siguiente = orden[aqui + 1];
   const pista = `p${String(parada.id).padStart(2, "0")}`;
   const portada = parada.imagen ?? parada.foto;
   const cerrarMision = () => {
@@ -71,6 +76,26 @@ export default function Parada({ id }: { id: number }) {
         <summary>¿Sabías que…?</summary>
         <p>{guion.sabiasQue}</p>
       </details>
+
+      {id === 17 && (
+        <p className="parada-pista">🤫 De camino a la siguiente parada hay un pozo… y en el mapa, una X. ¿Qué esconderá?</p>
+      )}
+      <nav className="parada-nav" aria-label="Otras paradas">
+        {anterior && (
+          <button className="boton secundario" onClick={() => ir(`/parada/${anterior.id}`)} aria-label={`Parada anterior: ${anterior.titulo}`}>
+            ‹ {anterior.id}
+          </button>
+        )}
+        {siguiente ? (
+          <button className="boton grande" onClick={() => ir(`/parada/${siguiente.id}`)}>
+            Siguiente: {siguiente.id} · {siguiente.titulo} ›
+          </button>
+        ) : (
+          <button className="boton grande" onClick={() => ir("/final")}>
+            ¡Terminar el viaje! 🎉
+          </button>
+        )}
+      </nav>
 
       {mision && (
         <div className="velo" onClick={cerrarMision}>

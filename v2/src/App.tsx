@@ -7,6 +7,7 @@ import { PARADAS, PARADA_SECRETA } from "./contenido/paradas";
 import { RETOS } from "./retos";
 import Album from "./pantallas/Album";
 import ParadaSecreta from "./pantallas/ParadaSecreta";
+import Final from "./pantallas/Final";
 
 // Navegación por la almohadilla de la dirección (#/parada/7): funciona en cualquier
 // alojamiento estático y el botón «atrás» del móvil se comporta como se espera.
@@ -43,5 +44,6 @@ export default function App() {
   if (ruta === "/recorrido") return <Recorrido />;
   if (ruta === "/mapa-editar") return <Recorrido editar />;
   if (ruta === "/album") return <Album />;
+  if (ruta === "/final") return <Final />;
   return <Inicio />;
 }

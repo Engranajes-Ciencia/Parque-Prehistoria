@@ -12622,5 +12622,64 @@
   "frases_por_trozo": 4,
   "caracteres": 128,
   "fecha": "2026-09-26T19:57:46"
+ },
+ "comun-despedida": {
+  "archivo": "comun-despedida.ffd8b366.mp3",
+  "parrafos": [
+   "¡Lo habéis conseguido, exploradores! Hemos viajado desde los primeros microbios hasta los constructores de Stonehenge: más de tres mil millones de años en un solo paseo.",
+   "Por el camino hemos visto que la Tierra cambia, que la vida cambia… y que nosotros llegamos casi al final.",
+   "Gracias por viajar conmigo. Y recordad: cada piedra, cada hueso y cada huella guarda una historia. ¡Seguid mirando bien!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Lo habéis conseguido, exploradores!",
+    "inicio": 0.0,
+    "fin": 2.322
+   },
+   {
+    "texto": "Hemos viajado desde los primeros microbios hasta los constructores de Stonehenge: más de tres mil millones de años en un solo paseo.",
+    "inicio": 2.879,
+    "fin": 11.889
+   },
+   {
+    "texto": "Por el camino hemos visto que la Tierra cambia, que la vida cambia… y que nosotros llegamos casi al final.",
+    "inicio": 12.813,
+    "fin": 19.593
+   },
+   {
+    "texto": "Gracias por viajar conmigo.",
+    "inicio": 20.506,
+    "fin": 22.085
+   },
+   {
+    "texto": "Y recordad: cada piedra, cada hueso y cada huella guarda una historia.",
+    "inicio": 22.665,
+    "fin": 27.565
+   },
+   {
+    "texto": "¡Seguid mirando bien!",
+    "inicio": 28.111,
+    "fin": 29.794
+   }
+  ],
+  "duracion": 29.81,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 461,
+  "fecha": "2026-09-26T22:58:46"
  }
 }

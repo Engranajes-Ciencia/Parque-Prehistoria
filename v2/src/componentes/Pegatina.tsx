@@ -5,6 +5,9 @@ const IMAGEN: Record<number, string> = {
   100: "img/secreta/pegatina.webp", // la X del pozo
 };
 
+/** Ruta de la imagen de la pegatina de una parada (o undefined si no tiene). */
+export const imagenPegatina = (parada: number): string | undefined => IMAGEN[parada];
+
 export default function Pegatina({ parada, grande = false }: { parada: number; grande?: boolean }) {
   const imagen = IMAGEN[parada];
   return (

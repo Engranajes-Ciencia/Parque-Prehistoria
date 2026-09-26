@@ -23,6 +23,7 @@ import guion21 from "../../../contenido/guiones/parada-21-stonehenge.md?raw";
 import { leerGuion, seccion, type Guion } from "./guion";
 
 export const SALUDO_ALBA = seccion(comun, "Saludo de Alba");
+export const DESPEDIDA_ALBA = seccion(comun, "Despedida de Alba");
 
 export interface ParadaDelRecorrido {
   id: number;

@@ -1,7 +1,7 @@
 import { ir } from "../App";
 import Alba from "../componentes/Alba";
 import { actualizar, useEstado, type Modo } from "../estado";
-import { PARADAS, SALUDO_ALBA } from "../contenido/paradas";
+import { SALUDO_ALBA } from "../contenido/paradas";
 import { locutar } from "../voz";
 
 export default function Inicio() {
@@ -38,7 +38,7 @@ export default function Inicio() {
         </button>
       </section>
 
-      <p className="aviso-prueba">Versión de prueba · abiertas las paradas {Object.keys(PARADAS).join(", ")}</p>
+      <p className="aviso-prueba">Versión de prueba</p>
     </main>
   );
 }

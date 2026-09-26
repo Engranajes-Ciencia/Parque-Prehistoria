@@ -6,10 +6,12 @@ export interface Estado {
   modo: Modo | null;
   pegatinas: number[];
   misiones: number[];
+  /** Nombre para el diploma del final (opcional). */
+  nombre: string;
 }
 
 const CLAVE = "prehistoria-v2";
-const INICIAL: Estado = { modo: null, pegatinas: [], misiones: [] };
+const INICIAL: Estado = { modo: null, pegatinas: [], misiones: [], nombre: "" };
 
 // 26-sep-2026: el parque añadió paradas y se renumeraron. Los móviles de prueba que
 // guardaron el progreso con los números viejos lo recuperan con los nuevos.

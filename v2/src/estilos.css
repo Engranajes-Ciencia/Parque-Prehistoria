@@ -1493,3 +1493,69 @@ h3 {
   text-shadow: 0 0 3px #fff;
   pointer-events: none;
 }
+
+/* ---------- ir a la parada siguiente ---------- */
+
+.parada-nav {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  align-items: stretch;
+}
+
+.parada-nav .boton {
+  margin: 0;
+}
+
+.parada-nav .boton.grande {
+  flex: 1;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.parada-nav .boton.secundario {
+  flex: none;
+  width: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.parada-pista {
+  margin: 16px 0 0;
+  padding: 10px 14px;
+  border-radius: 14px;
+  background: #fff4d1;
+  color: #6a5212;
+  font-size: 0.95rem;
+}
+
+/* ---------- fin del viaje ---------- */
+
+.final-viaje h2 {
+  margin: 0 0 6px;
+}
+
+.campo {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  padding: 12px 14px;
+  border: 2px solid var(--linea);
+  border-radius: 14px;
+  font: inherit;
+  background: var(--papel);
+  color: var(--tinta);
+}
+
+.campo:focus {
+  outline: 3px solid var(--mostaza);
+  border-color: transparent;
+}
+
+.diploma-vista {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  border-radius: 12px;
+  box-shadow: var(--sombra);
+}
