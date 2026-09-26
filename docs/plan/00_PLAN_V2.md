@@ -46,8 +46,9 @@
 - Móviles viejos (iOS 15) y pantallas de 320 px; accesibilidad (contraste, hojas modales, zonas de toque de 44 px, toque cercano en el mapa).
 - Juegos más robustos (varios dedos, tesoros simultáneos en Atapuerca, Piedra del Talón) y diploma sin solapes.
 - La app pesa la mitad (779 → 450 kB): al compilar, los guiones llegan sin sus notas y fuentes.
+- Revisión de los 21 juegos (agente + verificación): sombras solapadas en los puzles, juegos que caben en pantallas bajas (con desplazamiento automático al arrastrar), cerezas en la hoja final de la 6, último acierto de la 7, 🔊 en Atapuerca.
 
-**Pendiente (27-sep):** push de Álvaro · escuchar nombres propios que no están en la tabla de pronunciación · decidir el narrador y el plan de pago de ElevenLabs (licencia comercial) antes de los audios definitivos · lote 7 bis (V5b, V6b) · los [VERIFICAR] que solo se resuelven en el parque · provisionales dibujados en SVG: el árbol (5), Pangea (8) y la casa (20) · probar la visita entera en el parque con un iPhone y un Android.
+**Pendiente (27-sep):** push de Álvaro · escuchar nombres propios que no están en la tabla de pronunciación · decidir el narrador y el plan de pago de ElevenLabs (licencia comercial) antes de los audios definitivos · lote 7 bis (V5b, V6b y E1b: el suelo de Laetoli con dos rastros, no tres) · los [VERIFICAR] que solo se resuelven en el parque · provisionales dibujados en SVG: el árbol (5), Pangea (8) y la casa (20) · probar la visita entera en el parque con un iPhone y un Android.
 
 ## 1. Qué queremos conseguir
 
