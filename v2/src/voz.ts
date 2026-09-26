@@ -4,7 +4,7 @@
 // coincide con el guion (se editó después de grabar), se usa la voz sintética del
 // navegador: nunca suena un audio que no corresponde al texto.
 //
-// 27-sep-2026, tras la revisión de código y de la visita sin cobertura:
+// 26-sep-2026, tras la revisión de código y de la visita sin cobertura:
 // - un único elemento <audio>, «desbloqueado» con el primer toque (iPhone no deja sonar
 //   audio que no nazca de un toque, pero sí reutilizar un elemento ya desbloqueado);
 // - quien pierde el turno recibe «alInterrumpir» (antes el botón se quedaba en «Pausar»);

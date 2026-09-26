@@ -33,7 +33,21 @@
 - Estructura común de juegos (`MarcoReto`, `useArrastre`), claves de audio deducidas de las etiquetas, **modo sin cobertura** (PWA + «Descargar la visita»).
 - Lote 4 de imágenes preparado para ChatGPT (animales de la domesticación, pegatinas y portadas de las seis paradas, Alba señalando a la izquierda).
 
-**Pendiente:** que Álvaro escuche las pausas y los guiones nuevos · decidir el narrador · confirmar paradas nuevas y orden · lote 4 (ChatGPT) · créditos de ElevenLabs para los audios de las seis paradas nuevas (unos 20.000 caracteres) · push de los arreglos de julio · plan de pago antes de los audios definitivos.
+**Hecho el 26-sep-2026:**
+- **Recorrido nuevo confirmado por Álvaro: 21 paradas + la X secreta del pozo** (entre la 17 y la 18). Lo hecho se renumeró (12→13, 15→16, 17→18, 18→19, 20→21) con migración del progreso guardado.
+- **Las 21 paradas y la secreta, con guion, misión, reto, juego, arte (lotes 4 a 7) y voces** (210 pistas, unos 43 MB). Mapa M3 (lote 5 bis, hecho a mano por Álvaro) en la pantalla del recorrido, con editor de marcas en `#/mapa-editar`.
+- Revisión de rigor de todos los guiones: 30 correcciones, regrabadas por párrafos (regeneración parcial: 9.066 caracteres en vez de ~35.000).
+- Navegación «siguiente/anterior» entre paradas y **fin del viaje**: despedida de Alba, recuento de pegatinas y **diploma** con el nombre (imagen para compartir o guardar).
+- **Primer push de la v2 hecho por Álvaro**: publicada en `https://engranajes-ciencia.github.io/Parque-Prehistoria/v2/`; probada en su móvil («va genial»).
+
+**Noche del 26 al 27-sep, revisión desatendida** (parte en `ANTIGRAVITY/_PARTES/`):
+- Voz y visita sin cobertura rehechas y **probadas sin red** con un banco de pruebas propio (`herramientas/prueba-sin-red/`, seis escenarios).
+- «Atrás» del móvil sin bucles; red de seguridad por pantalla; **comprobación antes de publicar** dentro de `npm run build` (si un guion se rompe, no se publica).
+- Móviles viejos (iOS 15) y pantallas de 320 px; accesibilidad (contraste, hojas modales, zonas de toque de 44 px, toque cercano en el mapa).
+- Juegos más robustos (varios dedos, tesoros simultáneos en Atapuerca, Piedra del Talón) y diploma sin solapes.
+- La app pesa la mitad (779 → 450 kB): al compilar, los guiones llegan sin sus notas y fuentes.
+
+**Pendiente (27-sep):** push de Álvaro · escuchar nombres propios que no están en la tabla de pronunciación · decidir el narrador y el plan de pago de ElevenLabs (licencia comercial) antes de los audios definitivos · lote 7 bis (V5b, V6b) · los [VERIFICAR] que solo se resuelven en el parque · provisionales dibujados en SVG: el árbol (5), Pangea (8) y la casa (20) · probar la visita entera en el parque con un iPhone y un Android.
 
 ## 1. Qué queremos conseguir
 

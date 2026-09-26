@@ -5,7 +5,7 @@
 // hay en cada una. Así «volver» sabe si la pantalla a la que vuelve es justo la anterior:
 // entonces retrocede de verdad; si no, sustituye la entrada actual. Antes cada «‹» añadía
 // una entrada nueva y, tras ganar un juego y volver a la parada, el «atrás» del móvil
-// metía otra vez en el juego (revisión del 27-sep-2026).
+// metía otra vez en el juego (revisión del 26-sep-2026).
 //
 // Lo apuntado se guarda en sessionStorage: el móvil recarga la pestaña a menudo (al volver
 // de la cámara, por ejemplo) y el historial del navegador sobrevive a la recarga.

@@ -4,7 +4,7 @@ import { dichoDelReto } from "../contenido/guion";
 import type { ContenidoParada } from "../contenido/paradas";
 
 // Parada 12: el suelo de ceniza de Laetoli (ilustración del lote 7, 1536×1024) con cuatro
-// pistas. Las zonas van en píxeles de la ilustración, medidas sobre ella el 27-sep. Las marcas
+// pistas. Las zonas van en píxeles de la ilustración, medidas sobre ella el 26-sep. Las marcas
 // de lluvia salpican todo el suelo: su zona es el suelo entero, y como gana la zona más
 // pequeña, tocar una pisada o una huella de elefante cuenta como esa pista.
 

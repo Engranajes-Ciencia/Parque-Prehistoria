@@ -3,7 +3,7 @@
 // así que cambiar el dibujo o mover una parada no toca el código: basta con ajustar aquí.
 // Para recolocarlas a ojo: abre #/mapa-editar, arrastra las marcas y copia el resultado.
 //
-// 27-sep-2026: fondo = M3, el mapa del lote 5 con las cinco correcciones de Álvaro (fósiles a
+// 26-sep-2026: fondo = M3, el mapa del lote 5 con las cinco correcciones de Álvaro (fósiles a
 // la izquierda de los Prototaxites, laguito de la 3, impacto y flor, huellas, hogar con huesos).
 
 export const FONDO_MAPA = { imagen: "img/mapa/mapa-m3.webp", ancho: 1000, alto: 1500 };

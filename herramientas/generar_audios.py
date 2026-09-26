@@ -328,7 +328,7 @@ def generar(clave):
 # genera aparte y se pega con silencios exactos, se puede regenerar SOLO lo que cambió:
 # los párrafos iguales se recortan del MP3 que ya existe (con sus tiempos) y los nuevos
 # se piden a ElevenLabs con el texto vecino como contexto, igualando su volumen al del
-# resto. Añadido el 27-sep-2026, tras la revisión de guiones.
+# resto. Añadido el 26-sep-2026, tras la revisión de guiones.
 
 def voz_de_trozos(frases_par, nombre_voz, voz, previo, siguiente):
     """Genera un párrafo (en trozos de hasta FRASES_POR_TROZO frases). Devuelve

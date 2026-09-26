@@ -5,7 +5,7 @@ import type { ContenidoParada } from "../contenido/paradas";
 
 // Parada 15: cráneo de chimpancé (izquierda) y de persona (derecha), de perfil mirando a la
 // derecha (ilustración del lote 7, 1536×1024). Se tocan las diferencias en el cráneo humano;
-// las zonas, en píxeles de la ilustración, medidas sobre ella el 27-sep.
+// las zonas, en píxeles de la ilustración, medidas sobre ella el 26-sep.
 
 export default function EncuentraLasDiferencias({ parada }: { parada: ContenidoParada }) {
   const dicho = (e: string) => dichoDelReto(parada.guion, parada.id, e);

@@ -1,4 +1,4 @@
-// Banco de pruebas de la visita SIN COBERTURA (27-sep-2026). Sirve una copia recién hecha
+// Banco de pruebas de la visita SIN COBERTURA (26-sep-2026). Sirve una copia recién hecha
 // de v2/dist bajo /Parque-Prehistoria/v2/ imitando a GitHub Pages (max-age=600, 206 con
 // Range), maneja un Chrome sin ventana por CDP y corta la red de verdad (cierra sockets).
 //

@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 // Guarda en el móvil todos los audios e imágenes de la visita (lista en recursos.json), en la
 // misma caché que usa el service worker, para que la visita funcione sin cobertura.
 //
-// Reescrito el 27-sep-2026 tras probarlo sin red (revisión de la visita sin cobertura):
+// Reescrito el 26-sep-2026 tras probarlo sin red (revisión de la visita sin cobertura):
 // - espera a que el service worker controle la página: si no, la app misma no quedaba
 //   guardada y, sin red, no abría aunque dijera «guardada»;
 // - guarda también el manifiesto de audio en la caché «listas», que es donde lo busca el
