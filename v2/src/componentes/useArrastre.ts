@@ -17,6 +17,7 @@ export function useArrastre<Destino extends string>(
   const [elegida, setElegida] = useState<string | null>(null);
   const [sobre, setSobre] = useState<Destino | null>(null);
   const origen = useRef({ x: 0, y: 0 });
+  const dedo = useRef<number | null>(null); // el dedo que arrastra: los demás no cuentan
 
   // Si dos destinos se solapan (los continentes de Pangea), gana aquel cuyo centro está más cerca.
   const destinoEn = (x: number, y: number): Destino | null => {
@@ -42,17 +43,24 @@ export function useArrastre<Destino extends string>(
   /** Props para cada pieza arrastrable. */
   const pieza = (id: string) => ({
     onPointerDown: (e: EventoPuntero<HTMLElement>) => {
-      e.currentTarget.setPointerCapture(e.pointerId);
+      if (arrastre && dedo.current !== e.pointerId) return; // otro dedo ya está arrastrando
+      dedo.current = e.pointerId;
+      try {
+        e.currentTarget.setPointerCapture(e.pointerId);
+      } catch {
+        /* el dedo ya se levantó: el arrastre sigue igual, sin captura */
+      }
       origen.current = { x: e.clientX, y: e.clientY };
       setArrastre({ id, dx: 0, dy: 0 });
     },
     onPointerMove: (e: EventoPuntero<HTMLElement>) => {
-      if (arrastre?.id !== id) return;
+      if (arrastre?.id !== id || e.pointerId !== dedo.current) return;
       setArrastre({ id, dx: e.clientX - origen.current.x, dy: e.clientY - origen.current.y });
       setSobre(destinoEn(e.clientX, e.clientY));
     },
     onPointerUp: (e: EventoPuntero<HTMLElement>) => {
-      if (arrastre?.id !== id) return;
+      if (arrastre?.id !== id || e.pointerId !== dedo.current) return;
+      dedo.current = null;
       const movido = Math.hypot(arrastre.dx, arrastre.dy) >= 10;
       setArrastre(null);
       setSobre(null);
@@ -63,7 +71,18 @@ export function useArrastre<Destino extends string>(
       const d = destinoEn(e.clientX, e.clientY);
       if (d) soltar(id, d);
     },
-    onPointerCancel: () => setArrastre(null),
+    // El sistema se queda el dedo (una llamada, un gesto del navegador…): todo como estaba.
+    onPointerCancel: (e: EventoPuntero<HTMLElement>) => {
+      if (e.pointerId !== dedo.current) return;
+      dedo.current = null;
+      setArrastre(null);
+      setSobre(null);
+    },
+    // Teclado o lector de pantalla (VoiceOver, TalkBack): llega un clic sin dedo (detail 0).
+    // Hace lo mismo que tocar la pieza: elegirla, y luego se toca el destino.
+    onClick: (e: React.MouseEvent<HTMLElement>) => {
+      if (e.detail === 0) setElegida(elegida === id ? null : id);
+    },
     style:
       arrastre?.id === id ? { transform: `translate(${arrastre.dx}px, ${arrastre.dy}px) scale(1.1)`, zIndex: 10 } : undefined,
   });

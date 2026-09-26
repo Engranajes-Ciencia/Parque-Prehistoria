@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build",
+    "build": "tsc -b && node comprobar.mjs && vite build",
+    "comprobar": "node comprobar.mjs",
     "preview": "vite preview --host",
     "tipos": "tsc --noEmit"
   },

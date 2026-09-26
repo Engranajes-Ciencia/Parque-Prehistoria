@@ -76,6 +76,10 @@ export default defineConfig({
     }),
   ],
   base: "./",
+  // Móviles viejos: por defecto Vite exige Safari 16.4 (iOS de 2023) y en las familias aún
+  // hay iPhones con iOS 15. Rebajar la sintaxis no cuesta nada; las funciones más nuevas
+  // que usa la app llevan su alternativa (arcos a mano en vez de roundRect, etc.).
+  build: { target: ["es2020", "safari15", "chrome90", "firefox90", "edge90"] },
   server: {
     port: 3100,
     strictPort: true,

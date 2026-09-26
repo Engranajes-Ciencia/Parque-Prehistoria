@@ -1,4 +1,4 @@
-import { ir } from "../App";
+import { ir } from "../navegacion";
 import Alba from "../componentes/Alba";
 import { actualizar, useEstado, type Modo } from "../estado";
 import { SALUDO_ALBA } from "../contenido/paradas";

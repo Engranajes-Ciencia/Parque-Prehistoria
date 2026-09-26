@@ -18,7 +18,7 @@ export default function Album() {
   const mano = leerMano();
   return (
     <main className="pantalla">
-      <Barra titulo="Mis pegatinas" volver="/recorrido" />
+      <Barra titulo="Mis pegatinas" volver="/recorrido" atras />
       <div className="album-cabecera">
         <Alba pose="celebra" className="album-alba" />
         <p>

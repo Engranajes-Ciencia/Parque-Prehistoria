@@ -10,6 +10,30 @@
   </head>
   <body>
     <div id="raiz"></div>
+    <noscript>Esta visita necesita JavaScript activado en el navegador.</noscript>
+    <script>
+      // Si la app no llega a arrancar (navegador muy antiguo o sin cobertura en la primera
+      // carga), que al menos se sepa por qué en vez de ver una página en blanco. En cuanto la
+      // app arranca, React sustituye este aviso. Escrito a la antigua (ES5) a propósito.
+      (function () {
+        function aviso() {
+          var raiz = document.getElementById("raiz");
+          if (!raiz || raiz.firstChild) return;
+          raiz.innerHTML =
+            '<main style="font-family:system-ui,sans-serif;padding:24px;max-width:480px;margin:auto;color:#3d2b1f">' +
+            "<h1 style=\"font-size:1.3em\">La visita no ha podido arrancar</h1>" +
+            "<p>Puede ser la cobertura: probad a recargar la página cuando tengáis señal.</p>" +
+            "<p>Si sigue sin funcionar, puede que el navegador sea demasiado antiguo: hace falta un " +
+            "iPhone con iOS 15 o posterior, o Android con Chrome actualizado.</p>" +
+            '<p><button onclick="location.reload()" style="font-size:1em;padding:10px 18px">Recargar</button></p></main>';
+        }
+        window.addEventListener("error", function (e) {
+          // Solo errores de carga o de sintaxis del programa, antes de que la app arranque.
+          if (e && e.filename && /\.js/.test(e.filename)) setTimeout(aviso, 1500);
+        });
+        setTimeout(aviso, 15000);
+      })();
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

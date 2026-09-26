@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ir } from "../App";
+import { ir } from "../navegacion";
 import Alba from "../componentes/Alba";
 import Barra from "../componentes/Barra";
 import Locucion from "../componentes/Locucion";

@@ -61,5 +61,6 @@ export function useEstado(): Estado {
       return () => oyentes.delete(oyente);
     },
     () => estado,
+    () => estado,
   );
 }

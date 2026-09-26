@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
-import { ir } from "../App";
+import { ir, volver } from "../navegacion";
 import type { Dicho } from "../contenido/guion";
 import { ganarPegatina } from "../estado";
 import { locutar } from "../voz";
@@ -45,13 +45,17 @@ export function useAlba(inicial: Dicho, parada: number) {
     locutar(f.pista, [f.texto], "alba");
   };
 
-  const decir = (d: Dicho) => {
+  /** Alba dice una frase; `luego`, si lo hay, se hace cuando acaba de decirla. */
+  const decir = (d: Dicho, luego?: () => void) => {
     const empezo = Date.now();
     setMensaje(d);
     locutar(d.pista, [d.texto], "alba", {
       // Sin voz, alTerminar llega al instante: se deja un rato para leer.
       alTerminar: () => {
-        if (pendiente.current) espera.current = setTimeout(cerrar, Math.max(700, 60 * d.texto.length - (Date.now() - empezo)));
+        const leer = Math.max(700, 60 * d.texto.length - (Date.now() - empezo));
+        clearTimeout(espera.current);
+        if (pendiente.current) espera.current = setTimeout(cerrar, leer);
+        else if (luego) espera.current = setTimeout(luego, Math.min(leer, 1500));
       },
     });
   };
@@ -74,7 +78,7 @@ interface Props {
   parada: number;
   titulo: string;
   mensaje: Dicho;
-  decir: (d: Dicho) => void;
+  decir: (d: Dicho, luego?: () => void) => void;
   /** Cuando llega, aparece la hoja final con esta frase (la pegatina ya se ganó en terminar). */
   final: Dicho | null;
   pose?: PoseAlba;
@@ -110,10 +114,10 @@ export default function MarcoReto({ parada, titulo, mensaje, decir, final, pose,
             {recuerdo}
             <Pegatina parada={parada} grande />
             <p>{final.texto}</p>
-            <button className="boton grande" onClick={() => ir(`/parada/${parada}`)}>
+            <button className="boton grande" onClick={() => volver(`/parada/${parada}`)}>
               Volver a la parada
             </button>
-            <button className="boton secundario" onClick={() => ir("/album")}>
+            <button className="boton secundario" onClick={() => ir("/album", true)}>
               Ver mis pegatinas
             </button>
           </section>

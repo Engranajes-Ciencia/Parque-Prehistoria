@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ir } from "../App";
+import { ir } from "../navegacion";
 import Alba from "../componentes/Alba";
 import Barra from "../componentes/Barra";
 import { imagenPegatina } from "../componentes/Pegatina";
@@ -159,7 +159,7 @@ export default function Final() {
 
   return (
     <main className="pantalla final-viaje">
-      <Barra titulo="¡Fin del viaje!" volver="/recorrido" />
+      <Barra titulo="¡Fin del viaje!" volver="/recorrido" atras />
       <div className="inicio-alba">
         <Alba pose="celebra" />
         <div className="bocadillo">

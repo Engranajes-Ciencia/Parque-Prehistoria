@@ -99,16 +99,22 @@ export default function AExcavar({ parada }: { parada: ContenidoParada }) {
   const { mensaje, decir, final, terminar, acabado } = useAlba(frases.inicio, parada.id);
   const [encontrados, setEncontrados] = useState<string[]>([]);
   const lienzo = useRef<HTMLCanvasElement>(null);
-  const ultimo = useRef<{ x: number; y: number } | null>(null);
+  const ultimo = useRef(new Map<number, { x: number; y: number }>()); // por dedo: dos dedos, dos trazos
   const trazos = useRef(0);
   const hallados = useRef<string[]>([]);
+  // Mientras Alba habla de un tesoro, los demás esperan turno (antes se pisaban y solo se oía
+  // el último). Si algo la interrumpe, el seguro libera el turno a los 12 s.
+  const ocupada = useRef(false);
+  const seguro = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
+  useEffect(() => () => clearTimeout(seguro.current), []);
 
   useEffect(() => {
     const c = lienzo.current!;
     const dpr = Math.min(window.devicePixelRatio || 1, 2);
     c.width = c.clientWidth * dpr;
     c.height = c.clientHeight * dpr;
-    pintarArena(c.getContext("2d")!, c.width, c.height);
+    // willReadFrequently: revisar() lee los píxeles a menudo; así el navegador no sufre.
+    pintarArena(c.getContext("2d", { willReadFrequently: true })!, c.width, c.height);
   }, []);
 
   const casilla = (h: Hallazgo) => {
@@ -117,8 +123,15 @@ export default function AExcavar({ parada }: { parada: ContenidoParada }) {
     return { x: h.col * lado, y: h.fila * lado, lado };
   };
 
+  const libre = () => {
+    ocupada.current = false;
+    clearTimeout(seguro.current);
+    revisar();
+  };
+
   const revisar = () => {
-    const c = lienzo.current!;
+    const c = lienzo.current;
+    if (!c || ocupada.current) return; // fuera del juego, o Alba aún habla del anterior
     const ctx = c.getContext("2d")!;
     for (const h of HALLAZGOS) {
       if (hallados.current.includes(h.id)) continue;
@@ -140,7 +153,10 @@ export default function AExcavar({ parada }: { parada: ContenidoParada }) {
         if (nuevos.length === HALLAZGOS.length) {
           terminar(frases.hallazgo[h.id], frases.final);
         } else {
-          decir(frases.hallazgo[h.id]);
+          // Si ya se destapó otro tesoro, se anuncia cuando Alba acabe con este.
+          ocupada.current = true;
+          seguro.current = setTimeout(libre, 12000);
+          decir(frases.hallazgo[h.id], libre);
         }
         return;
       }
@@ -158,11 +174,11 @@ export default function AExcavar({ parada }: { parada: ContenidoParada }) {
     ctx.lineCap = "round";
     ctx.lineWidth = c.width * 0.09;
     ctx.beginPath();
-    const desde = ultimo.current ?? p;
+    const desde = ultimo.current.get(e.pointerId) ?? p;
     ctx.moveTo(desde.x, desde.y);
     ctx.lineTo(p.x, p.y);
     ctx.stroke();
-    ultimo.current = p;
+    ultimo.current.set(e.pointerId, p);
     if (++trazos.current % 10 === 0) revisar();
   };
 
@@ -194,15 +210,20 @@ export default function AExcavar({ parada }: { parada: ContenidoParada }) {
           <canvas
             ref={lienzo}
             onPointerDown={(e) => {
-              e.currentTarget.setPointerCapture(e.pointerId);
-              ultimo.current = null;
+              try {
+                e.currentTarget.setPointerCapture(e.pointerId);
+              } catch {
+                /* el dedo ya se levantó */
+              }
+              ultimo.current.delete(e.pointerId);
               rascar(e);
             }}
             onPointerMove={rascar}
-            onPointerUp={() => {
-              ultimo.current = null;
+            onPointerUp={(e) => {
+              ultimo.current.delete(e.pointerId);
               revisar();
             }}
+            onPointerCancel={(e) => ultimo.current.delete(e.pointerId)}
           />
           <svg className="excavacion-cuerdas" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
             {[25, 50, 75].map((v) => (

@@ -21,8 +21,14 @@ interface Forma {
   rx: number;
 }
 
-const HUECOS: Record<Hueco, { tipo: Tipo; forma: Forma }> = {
-  talon: { tipo: "talon", forma: { x: 186, y: HORIZONTE - 24, width: 16, height: 26, rx: 5 } },
+// «alcance»: zona invisible donde vale soltar, para huecos demasiado pequeños para un dedo.
+// La del Talón llena el hueco entre los dos pilares (x 160-200) sin pisarlos.
+const HUECOS: Record<Hueco, { tipo: Tipo; forma: Forma; alcance?: Forma }> = {
+  talon: {
+    tipo: "talon",
+    forma: { x: 186, y: HORIZONTE - 24, width: 16, height: 26, rx: 5 },
+    alcance: { x: 160, y: HORIZONTE - 48, width: 40, height: 56, rx: 0 },
+  },
   azulI: { tipo: "azul", forma: { x: 66, y: 244, width: 32, height: 76, rx: 8 } },
   azulD: { tipo: "azul", forma: { x: 262, y: 244, width: 32, height: 76, rx: 8 } },
   pilarI: { tipo: "pilar", forma: { x: 112, y: 116, width: 48, height: 204, rx: 7 } },
@@ -98,20 +104,21 @@ export default function ReconstruyeStonehenge({ parada }: { parada: ContenidoPar
   const colocadas = Object.values(puestas);
 
   const hueco = (h: Hueco) => {
-    const { tipo, forma } = HUECOS[h];
+    const { tipo, forma, alcance } = HUECOS[h];
     const puesta = !!puestas[h];
     return (
-      <rect
-        key={h}
-        ref={r[h]}
-        {...forma}
-        className={puesta ? "piedra-puesta" : `sombra ${sobre === h ? "sobre" : ""} ${elegida ? "esperando" : ""}`}
-        fill={puesta ? COLOR[tipo] : "rgba(40,30,20,0.28)"}
-        stroke={puesta ? BORDE : "rgba(255,255,255,0.85)"}
-        strokeWidth="2"
-        strokeDasharray={puesta ? undefined : "6 5"}
-        onClick={() => tocarDestino(h)}
-      />
+      <g key={h} onClick={() => tocarDestino(h)}>
+        <rect
+          ref={alcance ? undefined : r[h]}
+          {...forma}
+          className={puesta ? "piedra-puesta" : `sombra ${sobre === h ? "sobre" : ""} ${elegida ? "esperando" : ""}`}
+          fill={puesta ? COLOR[tipo] : "rgba(40,30,20,0.28)"}
+          stroke={puesta ? BORDE : "rgba(255,255,255,0.85)"}
+          strokeWidth="2"
+          strokeDasharray={puesta ? undefined : "6 5"}
+        />
+        {alcance && <rect ref={r[h]} {...alcance} fill="transparent" />}
+      </g>
     );
   };
 

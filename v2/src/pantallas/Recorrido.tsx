@@ -1,4 +1,4 @@
-import { ir } from "../App";
+import { ir } from "../navegacion";
 import Barra from "../componentes/Barra";
 import DescargarVisita from "../componentes/DescargarVisita";
 import MapaParque from "../componentes/MapaParque";

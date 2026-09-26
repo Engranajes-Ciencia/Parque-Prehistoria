@@ -1,5 +1,5 @@
 import { useRef, useState, type PointerEvent as EventoPuntero } from "react";
-import { ir } from "../App";
+import { ir } from "../navegacion";
 import { FONDO_MAPA, POSICIONES } from "../contenido/mapa";
 import { PARADAS, PARADA_SECRETA, RECORRIDO, type ParadaDelRecorrido } from "../contenido/paradas";
 import { useEstado } from "../estado";

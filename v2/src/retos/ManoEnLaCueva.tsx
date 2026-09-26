@@ -12,15 +12,26 @@ const MITAD = 0.45;
 const COMPLETO = 0.8;
 export const CLAVE_MANO = "prehistoria-v2-mano";
 
+/** Rectángulo redondeado a mano: Path2D.roundRect no existe antes de iOS 16. */
+function redondo(p: Path2D, x: number, y: number, w: number, h: number, radio: number) {
+  const r = Math.min(radio, w / 2, h / 2);
+  p.moveTo(x + r, y);
+  p.arcTo(x + w, y, x + w, y + h, r);
+  p.arcTo(x + w, y + h, x, y + h, r);
+  p.arcTo(x, y + h, x, y, r);
+  p.arcTo(x, y, x + w, y, r);
+  p.closePath();
+}
+
 function formaDeMano(): Path2D {
   const derecha = new Path2D();
   const dedo = (x: number, y: number, angulo: number, largo: number, ancho: number) => {
     const d = new Path2D();
-    d.roundRect(-ancho / 2, -largo, ancho, largo + 8, ancho / 2);
+    redondo(d, -ancho / 2, -largo, ancho, largo + 8, ancho / 2);
     derecha.addPath(d, new DOMMatrix().translate(x, y).rotate(angulo));
   };
-  derecha.roundRect(97, 185, 110, 128, 36);
-  derecha.roundRect(112, 290, 82, 110, 22);
+  redondo(derecha, 97, 185, 110, 128, 36);
+  redondo(derecha, 112, 290, 82, 110, 22);
   dedo(117, 200, -10, 106, 27);
   dedo(145, 194, -2, 120, 28);
   dedo(172, 198, 6, 110, 27);
@@ -32,6 +43,10 @@ function formaDeMano(): Path2D {
   mano.addPath(derecha, new DOMMatrix([-1, 0, 0, 1, ANCHO, 0]));
   return mano;
 }
+
+// La forma se construye una sola vez, la primera vez que hace falta (no en cada dibujado).
+let formaHecha: Path2D | null = null;
+const laMano = () => (formaHecha ??= formaDeMano());
 
 function pintarRoca(ctx: CanvasRenderingContext2D) {
   const g = ctx.createRadialGradient(150, 170, 40, 150, 200, 280);
@@ -66,7 +81,6 @@ export default function ManoEnLaCueva({ parada }: { parada: ContenidoParada }) {
   const [recuerdo, setRecuerdo] = useState<string | null>(null);
   const pared = useRef<HTMLCanvasElement>(null);
   const guia = useRef<HTMLCanvasElement>(null);
-  const mano = useRef(formaDeMano());
   const escala = useRef(2);
   const puntos = useRef<{ x: number; y: number; hecho: boolean }[]>([]);
   const dichoMitad = useRef(false);
@@ -84,11 +98,11 @@ export default function ManoEnLaCueva({ parada }: { parada: ContenidoParada }) {
     g.setLineDash([7, 6]);
     g.lineWidth = 2.5;
     g.strokeStyle = "rgba(255,255,255,0.85)";
-    g.stroke(mano.current);
+    g.stroke(laMano());
 
     // Puntos de control: el halo alrededor de la mano que hay que cubrir de pigmento.
     const ctx = pared.current!.getContext("2d")!;
-    const dentro = (x: number, y: number) => ctx.isPointInPath(mano.current, x * k, y * k);
+    const dentro = (x: number, y: number) => ctx.isPointInPath(laMano(), x * k, y * k);
     const lista: typeof puntos.current = [];
     for (let y = 40; y < ALTO; y += 12) {
       for (let x = 10; x < ANCHO - 10; x += 12) {
@@ -116,7 +130,7 @@ export default function ManoEnLaCueva({ parada }: { parada: ContenidoParada }) {
       const d = RADIO * Math.sqrt(Math.random());
       const px = x + d * Math.cos(a);
       const py = y + d * Math.sin(a);
-      if (ctx.isPointInPath(mano.current, px * k, py * k)) continue;
+      if (ctx.isPointInPath(laMano(), px * k, py * k)) continue;
       ctx.beginPath();
       ctx.arc(px, py, 1 + Math.random() * 2.2, 0, Math.PI * 2);
       ctx.fill();

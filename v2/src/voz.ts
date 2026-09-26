@@ -73,6 +73,7 @@ function useManifiesto() {
       return () => oyentes.delete(o);
     },
     () => manifiesto,
+    () => manifiesto,
   );
 }
 
