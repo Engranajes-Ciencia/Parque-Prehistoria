@@ -9,6 +9,7 @@
 //   node escenarios.mjs D   cobertura colgada: el MP3 no llega (a los 5 s, voz del navegador)
 //   node escenarios.mjs E   se cae la conexión a media descarga (debe dejar reintentar)
 //   node escenarios.mjs F   audio regrabado tras descargar (debe decir «Actualizar»)
+//   node escenarios.mjs G   primera visita con el manifiesto colgado; la red se arregla sola
 // Necesita Chrome en C:/Program Files/Google/Chrome. Las carpetas site/ y perfil/ son
 // desechables (están en .gitignore).
 import http from "node:http";

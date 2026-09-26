@@ -44,9 +44,15 @@ const CACHE_RECURSOS = "recursos";
 let manifiesto: Record<string, Pista> = {};
 const oyentes = new Set<() => void>();
 
+let reintento: ReturnType<typeof setTimeout> | undefined;
 function cargarManifiesto() {
+  clearTimeout(reintento);
   const url = new URL("audio/manifiesto.json", location.href).href;
-  fetch(url)
+  // Con cobertura mala la petición puede quedarse colgada sin fallar nunca: plazo de 10 s.
+  const control = new AbortController();
+  const plazo = setTimeout(() => control.abort(), 10_000);
+  fetch(url, { signal: control.signal })
+    .finally(() => clearTimeout(plazo))
     .then((r) => (r.ok ? r : Promise.reject(new Error(String(r.status)))))
     // Sin red: el que guardó «Descargar la visita» (caches.match busca en todas las cachés).
     .catch(() =>
@@ -60,8 +66,10 @@ function cargarManifiesto() {
       oyentes.forEach((o) => o());
     })
     .catch(() => {
-      // Sin manifiesto, todo suena con la voz del navegador; se reintenta al volver la red.
+      // Sin manifiesto, todo suena con la voz del navegador. Se reintenta al volver la red
+      // o, si la red no llegó a caerse (solo iba lenta), dentro de medio minuto.
       window.addEventListener("online", cargarManifiesto, { once: true });
+      reintento = setTimeout(cargarManifiesto, 30_000);
     });
 }
 if (typeof window !== "undefined") cargarManifiesto();

@@ -133,6 +133,18 @@ try {
     const despues = await t.cachesInfo();
     out("entradas en «recursos» antes/después:", antes.recursos.n, despues.recursos.n, "| ¿sigue el viejo?", await t.ev(`caches.open('recursos').then(c => c.match(new URL('${viejo}', location.href).href)).then(r => !!r)`));
   }
+  if (cual === "G") {
+    // Primera visita con la red colgada justo al pedir el manifiesto de audio (no falla, no
+    // responde). A los 12 s la red se arregla sola, sin que el móvil note un «online».
+    srv.colgar = /manifiesto\.json$/;
+    const t = await pestana();
+    await t.cargar(BASE);
+    await espera(12000);
+    srv.colgar = null;
+    out("manifiesto pedido veces:", srv.log.filter((l) => l.includes("manifiesto.json")).length);
+    await espera(28000); // el reintento llega a los 30 s del fallo (10 s de plazo + 30)
+    out("tras arreglarse la red:", JSON.stringify(await paradaYEscuchar(t, 2500)));
+  }
 } catch (e) {
   console.error("ERROR", e);
 } finally {
