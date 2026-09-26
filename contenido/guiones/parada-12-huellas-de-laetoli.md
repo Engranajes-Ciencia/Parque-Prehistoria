@@ -2,6 +2,8 @@
 
 *Borrador 1 · 26-sep-2026 · pendiente de revisión de Álvaro*
 
+**26-sep, Álvaro:** la mano sigue en la losa, pero cree que fue un error incluirla (se puso para enseñar el pulgar oponible, y la gracia de Laetoli es el bipedismo). Como los visitantes la verán, el texto dice que **no es de Laetoli** y la usa solo como contraste: su pulgar separado es como el dedo gordo del pie de un chimpancé.
+
 **Qué hay en la parada** (según la foto 27, `PXL_20241218_093129850.jpg`, del 18-dic-2024; es la única foto de esta parada y no hay ninguna de 2026). En la numeración antigua era la **parada 11**. Dudas marcadas con **[VERIFICAR: …]**.
 
 Lo que se ve en la foto:
@@ -30,7 +32,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > ¿Cuántos eran? En el rastro famoso hay dos caminantes, uno junto al otro. Uno, de pies pequeños: medía como un niño de seis años. El otro, de pies más grandes… y muchos científicos creen que dentro de sus huellas pisaba un tercero, como hacéis vosotros en la nieve con las pisadas de un adulto.
 >
-> Fijaos en la forma de las pisadas. El dedo gordo va en línea con los demás, como el vuestro. **[VERIFICAR: que la mano siga visible en la losa]** En una esquina de la losa hay también una mano: mirad cómo se separa su pulgar. Así es el dedo gordo del pie de un chimpancé: agarra como una mano. Las pisadas de Laetoli tienen, además, arco en la planta, y dicen que apoyaban primero el talón. Caminaban erguidos, casi como nosotros.
+> Fijaos en la forma de las pisadas. El dedo gordo va en línea con los demás, como el vuestro. La mano de la esquina no es de Laetoli, pero sirve para comparar: mirad cómo se separa su pulgar. Así es el dedo gordo del pie de un chimpancé: agarra como una mano. Las pisadas de Laetoli tienen, además, arco en la planta, y probablemente apoyaban primero el talón. Caminaban erguidos, casi como nosotros.
 >
 > Y, sin embargo, su cerebro era poco mayor que el de un chimpancé. Nos gusta pensar que lo que nos hizo humanos fue la cabeza. Laetoli dice que primero fueron los pies.
 >

@@ -4,6 +4,8 @@
 
 *Numeración: parada 15 del recorrido de 21. En los textos antiguos (`src/locales/es/pages.json`, `README.md`) y en la clasificación de fotos era la 14. En estas notas, la «parada 14» es la de los neandertales y la «parada 16», la de la cueva, ya con la numeración nueva.*
 
+**26-sep, Álvaro:** el primer cráneo es de gorila; hay otro de chimpancé, y también de australopiteco, heidelbergensis, neandertal y *Homo sapiens*, entre otros que no recuerda. **El palo de madera con muescas es una imitación del hueso de Ishango**: por eso el «¿Sabías que…?» trata de él.
+
 **Qué hay en la parada** (según las fotos 28-33 y 40, de diciembre de 2024): el **interior del museo del parque**, una sala de chapa blanca con tableros de madera en las paredes. Delante de cada tablero hay una **vitrina alta de cristal** con estantes, y en el tablero, cartelas impresas en español y en inglés. Todo indica que son **réplicas**: los cráneos llevan colgada la etiqueta de un fabricante de réplicas para museos (BoneClones) **[VERIFICAR: que no haya ningún original]**. Vitrina por vitrina, de arriba abajo:
 
 - **Foto 28 — los simios y los australopitecos** (cuatro cráneos; sin cartelas en la pared):
@@ -33,7 +35,7 @@ Los textos van **tal como se leerán en voz alta**: cifras con letras y frases c
 
 ## Para todos (7 años en adelante) — voz del narrador
 
-> Estas vitrinas guardan una reunión familiar: primos que siguen vivos, como el gorila y el chimpancé, y parientes de hace muchísimo tiempo. Son copias, no huesos originales. **[VERIFICAR: que el segundo cráneo de la vitrina del gorila sea un chimpancé]**
+> Estas vitrinas guardan una reunión familiar: primos que siguen vivos, como el gorila y el chimpancé, y parientes de hace muchísimo tiempo. Son copias, no huesos originales.
 >
 > Seguro que conocéis el dibujo del mono que se va poniendo de pie, paso a paso, hasta convertirse en persona. Ese dibujo engaña. No venimos del chimpancé: es nuestro primo. Hace más de seis millones de años tuvimos un antepasado común, y desde entonces cada uno ha seguido su camino. Tampoco hubo una sola fila en que cada especie se convirtiera en la siguiente.
 >
@@ -126,7 +128,7 @@ La etiqueta es «el mentón», como pedía el encargo, pero Alba dice «barbilla
 
 ## ¿Sabías que…?
 
-> ¿Sabías que vuestro cerebro pesa algo más que un paquete de azúcar de un kilo, pero gasta muchísima energía? En un adulto, la quinta parte de toda la que usa el cuerpo en reposo. Y en un niño de cinco años, ¡más de la mitad! Tener un cerebro grande sale caro.
+> ¿Sabías que ese palo con rayitas imita un hueso de hace unos veinte mil años, encontrado en Ishango, en el Congo? Es un hueso de babuino con grupos de muescas talladas. ¿Qué contaban? Quizá días, quizá presas… Los científicos aún lo discuten, pero es una de las cuentas más antiguas que conocemos.
 
 *Alternativa* (por si se prefiere algo que se vea en la vitrina; repite la barbilla, que ya sale en el texto, en la misión y en el reto): «¿Sabías que somos la única especie humana con barbilla? Ni los neandertales la tenían. Y lo más curioso: los científicos todavía discuten para qué sirve.»
 
@@ -156,7 +158,8 @@ La etiqueta es «el mentón», como pedía el encargo, pero Alba dice «barbilla
 | «Todo lo hizo nuestra especie» | hombre-león de Hohlenstein-Stadel, ~40.000 años (Auriñaciense); venus gravetienses, ~33.000-24.000 (Willendorf, ~29.500); propulsores decorados, magdalenienses (~17.000-13.000); los más antiguos conocidos son solutrenses (Combe-Saunière, Francia). Todo del Paleolítico superior, obra de *H. sapiens*. «Hombre-león» es el nombre tradicional, pero el sexo de la figura no está claro: por eso el texto dice «una persona con cabeza de león» | Museo de Ulm; Museo de Historia Natural de Viena; bibliografía general |
 | La lámpara | copia de la lámpara de Lascaux: arenisca rojiza, en forma de cuchara, con el mango grabado; la halló André Glory en el Pozo de Lascaux hacia 1960. En la cazoleta quedaban restos de una mecha de enebro; el combustible era grasa animal. Es la mejor de las más de cien lámparas de la cueva | Ministerio de Cultura francés, web de Lascaux, página «Lighting»; Don's Maps, «Stone Lamps of the Palaeolithic» |
 | «Con luces así se entraba a pintar» | lámparas de piedra con grasa y antorchas; los detalles, en la parada 16 | ver su tabla |
-| Cerebro: peso y gasto (¿Sabías que?) | adulto: ~1,3-1,4 kg y ~20 % del gasto en reposo. Hacia los cinco años, el cerebro consume glucosa a un ritmo equivalente al ~66 % del gasto en reposo (~43 % del gasto total del día): de ahí «más de la mitad» (en reposo). A esa edad ya pesa ~1,2 kg: «algo más que un paquete de un kilo» vale para niños y adultos | Raichle y Gusnard (2002, *PNAS*); Kuzawa et al. (2014, *PNAS*) |
+| Cerebro: peso y gasto (antiguo «¿Sabías que?», sustituido el 26-sep por el hueso de Ishango) | adulto: ~1,3-1,4 kg y ~20 % del gasto en reposo. Hacia los cinco años, el cerebro consume glucosa a un ritmo equivalente al ~66 % del gasto en reposo (~43 % del gasto total del día): de ahí «más de la mitad» (en reposo). A esa edad ya pesa ~1,2 kg: «algo más que un paquete de un kilo» vale para niños y adultos | Raichle y Gusnard (2002, *PNAS*); Kuzawa et al. (2014, *PNAS*) |
+| Hueso de Ishango (¿Sabías que?) | peroné de babuino con muescas en tres columnas, hallado en 1950 por Jean de Heinzelin en Ishango, junto al lago Eduardo (República Democrática del Congo). Datación revisada: unos 20.000 años (antes se decía entre 9.000 y 6.500 antes de nuestra era). Interpretaciones: marcas de recuento (la más prudente), calendario lunar (Marshack) o incluso aritmética (discutida). Hay marcas de recuento más antiguas, como el hueso de Lebombo (~43.000 años): por eso «una de las cuentas más antiguas» | Real Instituto Belga de Ciencias Naturales; Brooks y Smith (1987); Wikipedia (*Ishango bone*) |
 | Schöningen (**no se usa**) | lanzas de madera halladas desde 1994 en Schöningen (Alemania). Se creían de ~400.000 años y luego de ~300.000; en 2025 se redataron en **unos 200.000**, por geocronología de aminoácidos en opérculos de caracol de la misma capa. El estudio las relaciona con los neandertales | Hutson et al. (2025, *Science Advances*, 11(19)); Universidad de York, nota de prensa (mayo de 2025) |
 
 **Corregido respecto al guion antiguo** (`pages.json`, clave «14», y `README.md`):
