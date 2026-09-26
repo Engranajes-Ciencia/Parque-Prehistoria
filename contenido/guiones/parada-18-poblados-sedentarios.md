@@ -4,7 +4,7 @@
 
 *Borrador 1 · 25-sep-2026 · pendiente de revisión de Álvaro*
 
-**Qué hay en la parada** (según las fotos 43-46, de dic-2024): un **pozo** de piedra gris con un **trípode de tres palos** atados con cuerda en lo alto, una cuerda que baja y, sobre el brocal, un travesaño y un cuenco de madera. Detrás, una **cabaña** de planta casi redonda: **postes de madera, paredes de ramas de brezo y techo de ramaje**, con dos palos a la entrada rematados con **cuernas de ciervo** y una **cortina** en la puerta. Alrededor, una **empalizada** de troncos verticales con un hueco de paso. Se ven también un banco bajo de madera, unos bloques de piedra junto a la cabaña y, a la derecha de la foto 43, un **cobertizo de postes con techo de cañizo**. Dudas marcadas con **[VERIFICAR: …]**:
+**Qué hay en la parada** (según las fotos 43-46, de dic-2024): un **pozo** de piedra gris con **dos palos cruzados en X** y atados con cuerda en lo alto (no es un trípode: corregido el 26-sep mirando las fotos 43-44), una cuerda que baja y, sobre el brocal, un travesaño y un cuenco de madera. Detrás, una **cabaña** de planta casi redonda: **postes de madera, paredes de ramas de brezo y techo de ramaje**, con dos palos a la entrada rematados con **cuernas de ciervo** y una **cortina** en la puerta. Alrededor, una **empalizada** de troncos verticales con un hueco de paso. Se ven también un banco bajo de madera, unos bloques de piedra junto a la cabaña y, a la derecha de la foto 43, un **cobertizo de postes con techo de cañizo**. Dudas marcadas con **[VERIFICAR: …]**:
 
 - **[VERIFICAR: la cortina de la puerta parece de tela o arpillera, no de piel; el guion no dice de qué es.]**
 - **[VERIFICAR: siguen las cuernas de ciervo sobre la puerta; la misión las usa.]**

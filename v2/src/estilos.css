@@ -1420,3 +1420,61 @@ h3 {
 .prado-abeja {
   padding: 4px;
 }
+
+/* ---------- motor «Busca en el dibujo» ---------- */
+
+.busca {
+  width: 100%;
+  max-height: 58vh;
+  display: block;
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+  background: var(--papel);
+  touch-action: manipulation;
+}
+
+.busca-hallada {
+  fill: rgba(42, 157, 143, 0.18);
+  stroke: var(--verde-azulado);
+  stroke-width: 4;
+  pointer-events: none;
+}
+
+.busca-fallo {
+  fill: none;
+  stroke: var(--teja);
+  stroke-width: 4;
+  pointer-events: none;
+  animation: aparecer 0.3s ease-out;
+}
+
+/* ---------- parada secreta ---------- */
+
+.secreta-cabecera {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.secreta-alba {
+  height: 150px;
+}
+
+.cofre {
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.cofre.abierto {
+  animation: latir 1.2s ease-in-out 2;
+}
+
+.secreta .pregunta h2 {
+  font-size: 1.15rem;
+}
+
+.secreta .premio {
+  text-align: center;
+}

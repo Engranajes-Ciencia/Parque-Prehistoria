@@ -23,7 +23,7 @@ export default function MapaParque({ editar = false }: { editar?: boolean }) {
 
   const tocar = (p: ParadaDelRecorrido) => {
     if (editar) return;
-    if (p.id in PARADAS) ir(`/parada/${p.id}`);
+    if (p.id in PARADAS || p.id === PARADA_SECRETA) ir(`/parada/${p.id}`);
     else setAviso(p);
   };
 
@@ -83,13 +83,7 @@ export default function MapaParque({ editar = false }: { editar?: boolean }) {
 
       {aviso && !editar && (
         <p className="mapa-aviso" role="status">
-          {aviso.id === PARADA_SECRETA ? (
-            <>¡Una parada secreta! Estad atentos cuando lleguéis al pozo…</>
-          ) : (
-            <>
-              <strong>{aviso.id}</strong> · {aviso.titulo}: esta parada llegará pronto a la app.
-            </>
-          )}
+          <strong>{aviso.id}</strong> · {aviso.titulo}: esta parada llegará pronto a la app.
         </p>
       )}
 

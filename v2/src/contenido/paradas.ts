@@ -1,4 +1,11 @@
 import comun from "../../../contenido/guiones/comun.md?raw";
+import guion01 from "../../../contenido/guiones/parada-01-bienvenida.md?raw";
+import guion11 from "../../../contenido/guiones/parada-11-galapagos-darwin.md?raw";
+import guion12 from "../../../contenido/guiones/parada-12-huellas-de-laetoli.md?raw";
+import guion14 from "../../../contenido/guiones/parada-14-neandertales.md?raw";
+import guion15 from "../../../contenido/guiones/parada-15-craneos-evolucion-humana.md?raw";
+import guion17 from "../../../contenido/guiones/parada-17-poblados-nomadas.md?raw";
+import guion20 from "../../../contenido/guiones/parada-20-catalhoyuk.md?raw";
 import guion02 from "../../../contenido/guiones/parada-02-origen-de-la-vida.md?raw";
 import guion03 from "../../../contenido/guiones/parada-03-la-vida-nace-en-el-agua.md?raw";
 import guion04 from "../../../contenido/guiones/parada-04-prototaxites-meganeura-tiktaalik.md?raw";
@@ -43,7 +50,7 @@ export const RECORRIDO: ParadaDelRecorrido[] = [
   { id: 11, titulo: "Galápagos y Darwin" },
   { id: 12, titulo: "Huellas de Laetoli" },
   { id: 13, titulo: "Atapuerca" },
-  { id: 14, titulo: "El hombre de Neandertal" },
+  { id: 14, titulo: "Los neandertales" },
   { id: 15, titulo: "Cráneos y evolución humana" },
   { id: 16, titulo: "Cuevas y arte rupestre" },
   { id: 17, titulo: "Los poblados nómadas" },
@@ -66,6 +73,55 @@ export interface ContenidoParada {
 }
 
 export const PARADAS: Record<number, ContenidoParada> = {
+  1: {
+    id: 1,
+    titulo: "Bienvenida",
+    foto: "img/p01/foto.webp",
+    guion: leerGuion(guion01),
+    reto: "El reloj del tiempo",
+  },
+  11: {
+    id: 11,
+    titulo: "Galápagos y Darwin",
+    foto: "img/p11/foto.webp",
+    guion: leerGuion(guion11),
+    reto: "Cada pico, su comida",
+  },
+  12: {
+    id: 12,
+    titulo: "Huellas de Laetoli",
+    foto: "img/p12/foto.webp",
+    guion: leerGuion(guion12),
+    reto: "Detectives de Laetoli",
+  },
+  14: {
+    id: 14,
+    titulo: "Los neandertales",
+    foto: "img/p14/foto.webp",
+    guion: leerGuion(guion14),
+    reto: "¿Verdad o mito?",
+  },
+  15: {
+    id: 15,
+    titulo: "Cráneos y evolución humana",
+    foto: "img/p15/foto.webp",
+    guion: leerGuion(guion15),
+    reto: "Encuentra las diferencias",
+  },
+  17: {
+    id: 17,
+    titulo: "Los poblados nómadas",
+    foto: "img/p17/foto.webp",
+    guion: leerGuion(guion17),
+    reto: "¡Nos mudamos!",
+  },
+  20: {
+    id: 20,
+    titulo: "Çatalhöyük",
+    foto: "img/p20/foto.webp",
+    guion: leerGuion(guion20),
+    reto: "Construye una casa de Çatalhöyük",
+  },
   2: {
     id: 2,
     titulo: "La laguna de Yellowstone",

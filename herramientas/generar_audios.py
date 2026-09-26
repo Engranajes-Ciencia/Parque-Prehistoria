@@ -61,6 +61,7 @@ PRONUNCIACION = {
     "Archaeopteris": "Arqueópteris",
     "Wegener": "Véguener",
     "Garrotxa": "Garrocha",
+    "Çatalhöyük": "Chatal Júyuk",
 }
 
 
@@ -157,7 +158,13 @@ def frases_del_reto(md, selector):
 def descubrir_pistas():
     import glob
     pistas = {"comun-saludo": ("comun.md", "seccion", "Saludo de Alba", "alba")}
-    for ruta in sorted(glob.glob(os.path.join(GUIONES, "parada-*.md"))):
+    # La parada secreta del pozo (la X del mapa): pista, pregunta, frase si se falla y premio.
+    secreta = "parada-secreta-pozo.md"
+    if os.path.exists(os.path.join(GUIONES, secreta)):
+        for titulo in ("Pista", "Pregunta", "Premio"):
+            pistas[f"secreta-{titulo.lower()}"] = (secreta, "seccion", titulo, "alba")
+        pistas["secreta-falla"] = (secreta, "linea", "Si falla", "alba")
+    for ruta in sorted(glob.glob(os.path.join(GUIONES, "parada-[0-9]*.md"))):
         nombre = os.path.basename(ruta)
         pref = "p" + re.match(r"parada-(\d+)", nombre).group(1)
         pistas[f"{pref}-todos"] = (nombre, "seccion", "Para todos", "narrador")
@@ -187,6 +194,11 @@ def en_frases(parrafos):
 def texto_de(clave):
     guion, tipo, selector, _ = PISTAS[clave]
     md = open(os.path.join(GUIONES, guion), encoding="utf-8").read()
+    if tipo == "linea":  # «**Si falla:** > texto», en una sola línea
+        m = re.search(rf"^\*\*{re.escape(selector)}:\*\*\s*>\s*(.+)$", md, re.M)
+        if not m:
+            raise SystemExit(f"Falta la línea «{selector}» en {guion}")
+        return [limpiar(m.group(1))]
     return seccion(md, selector) if tipo == "seccion" else frases_del_reto(md, selector)
 
 

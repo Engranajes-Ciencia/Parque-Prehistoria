@@ -2,7 +2,7 @@ import { ir } from "../App";
 import Barra from "../componentes/Barra";
 import DescargarVisita from "../componentes/DescargarVisita";
 import MapaParque from "../componentes/MapaParque";
-import { PARADAS, RECORRIDO } from "../contenido/paradas";
+import { PARADAS, PARADA_SECRETA, RECORRIDO } from "../contenido/paradas";
 import { useEstado } from "../estado";
 
 export default function Recorrido({ editar = false }: { editar?: boolean }) {
@@ -16,7 +16,7 @@ export default function Recorrido({ editar = false }: { editar?: boolean }) {
       <h2 className="recorrido-cabecera">Todas las paradas</h2>
       <ol className="recorrido">
         {RECORRIDO.map((p) => {
-          const abierta = p.id in PARADAS;
+          const abierta = p.id in PARADAS || p.id === PARADA_SECRETA;
           return (
             <li key={p.id}>
               <button

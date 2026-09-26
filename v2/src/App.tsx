@@ -3,9 +3,10 @@ import { callar } from "./voz";
 import Inicio from "./pantallas/Inicio";
 import Recorrido from "./pantallas/Recorrido";
 import Parada from "./pantallas/Parada";
-import { PARADAS } from "./contenido/paradas";
+import { PARADAS, PARADA_SECRETA } from "./contenido/paradas";
 import { RETOS } from "./retos";
 import Album from "./pantallas/Album";
+import ParadaSecreta from "./pantallas/ParadaSecreta";
 
 // Navegación por la almohadilla de la dirección (#/parada/7): funciona en cualquier
 // alojamiento estático y el botón «atrás» del móvil se comporta como se espera.
@@ -31,6 +32,7 @@ export default function App() {
   }, []);
 
   const parada = ruta.match(/^\/parada\/(\d+)$/);
+  if (parada && Number(parada[1]) === PARADA_SECRETA) return <ParadaSecreta />;
   if (parada) return <Parada id={Number(parada[1])} />;
   const reto = ruta.match(/^\/parada\/(\d+)\/reto$/);
   if (reto) {

@@ -38,7 +38,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > A la derecha del todo, los barcos de vela. No son del Sáhara: se pintaron en la Laja Alta, en Cádiz, a algo más de cien kilómetros de aquí. Durante años se pensó que eran de la época de los fenicios, hace unos tres mil años. Un equipo de la Universidad de Granada defiende que tienen unos cinco mil. La fecha se midió en una pintura vecina, no en los propios barcos; pero, si se confirma, serían de los barcos de vela pintados más antiguos de Europa.
 >
-> Este mural es como un álbum de fotos: junta escenas separadas por miles de años y miles de kilómetros. Todas cuentan cómo vivía la gente. Unos lo pintaron en las rocas. Otros, en las paredes de su casa, en uno de los primeros lugares donde miles de personas vivieron juntas. Allí se entraba en casa por el tejado. Os espera en la parada siguiente. **[VERIFICAR: si la casa de Çatalhöyük es el interior de este mismo contenedor, cambiar la última frase por «Os espera al otro lado de esta pared».]**
+> Este mural es como un álbum de fotos: junta escenas separadas por miles de años y miles de kilómetros. Todas cuentan cómo vivía la gente. Unos lo pintaron en las rocas. Otros, en las paredes de su casa, en uno de los primeros lugares donde mucha gente vivió junta. Allí se entraba en casa por el tejado. Os espera en la parada siguiente. **[VERIFICAR: si la casa de Çatalhöyük es el interior de este mismo contenedor, cambiar la última frase por «Os espera al otro lado de esta pared».]**
 
 *≈ 378 palabras · ≈ 2 min 25 s.*
 

@@ -288,7 +288,7 @@ Al acabar, compara tu mapa con la plantilla: **el camino tiene que seguir el mis
 
 Nada de texto ni números, como siempre. Al acabar, pon `M1` y `M3` una junto a otra y comprueba que **solo** cambian esas cinco cosas.
 
-## 11. LOTE ACTIVO (después del 5 bis): lote 6, paradas 3, 4, 5, 6, 8, 9 y 10
+## 11. Lote 6, paradas 3, 4, 5, 6, 8, 9 y 10 — HECHO Y REVISADO (26-sep-2026)
 
 Todo en el **estilo 1** y con las reglas de la sección 3 (sin texto, anatomía cuidada, sin huecos transparentes dentro de las figuras). Guarda en `arte/lote-06/`. Si es mucho de una vez, hazlo por partes (A, B, C…) y avisa a Álvaro de cuál has terminado.
 
@@ -328,7 +328,54 @@ Todo en el **estilo 1** y con las reglas de la sección 3 (sin texto, anatomía 
 
 **Parada 10, «¿Quién sobrevivió?»:** `S1_tiranosaurio.png` (brazos de **dos dedos**, cola recta en el aire), `S2_amonites.png`, `S3_pterosaurio.png` (reptil volador de cabeza grande **sin dientes** y cresta, alas de piel; que no parezca un ave), `S4_ave.png` (un pájaro pequeño de suelo, tipo codorniz, **sin dientes**), `S5_cocodrilo.png` y `S6_mamifero.png` (del tamaño de una musaraña, con pelo).
 
-## 12. Próximos lotes (NO generar todavía)
+### Revisión de Claude
+
+Aprobado e integrado. Muy buen nivel. Único detalle: en `H3_sauropodo` el cuello va casi vertical; se acepta porque en la península hubo braquiosáuridos, que lo llevaban alto.
+
+## 12. LOTE ACTIVO: lote 7, paradas 1, 11, 12, 14, 15, 17, 20 y la parada secreta
+
+Todo en el **estilo 1**, con las reglas de la sección 3. Guarda en `arte/lote-07/`. Puedes hacerlo por partes (A, B, C…).
+
+### A. Portadas (1024×1536, con fondo, sin Alba salvo donde se diga)
+
+| Archivo | Escena |
+|---|---|
+| `D1_parada01_portada.png` | **Alba** en la entrada del parque, mirando su **reloj del tiempo** con ilusión; detrás, un camino que se pierde entre dinosaurios, volcanes y cabañas, a lo lejos y en pequeño. **En el reloj, la huella de dinosaurio con TRES dedos gruesos**, no con cinco (en la ficha de Alba salió como una segunda mano). |
+| `D11_parada11_portada.png` | Una playa de roca volcánica negra de las Galápagos: una **tortuga gigante** junto a una **chumbera alta** de tronco grueso y flores amarillas, un pinzón posado y, en el mar, un velero de principios del siglo diecinueve. |
+| `D12_parada12_portada.png` | Una llanura de ceniza gris bajo un cielo nublado, con un volcán humeando al fondo: dos **australopitecos** caminando erguidos, de espaldas, dejando huellas en la ceniza húmeda. Cuerpo peludo, brazos algo largos, **caminan sobre dos pies**; sin ropa ni herramientas. |
+| `D14_parada14_portada.png` | De noche, junto a un **hogar de piedras** con fuego: una familia **neandertal** (hombres, mujeres y niños; cuerpo robusto, cara ancha con arcos sobre los ojos, nariz grande; **erguidos**, vestidos con pieles). Uno tiene un brazo vendado y otro le da de comer. Nada de garrotes ni de gestos brutos. |
+| `D15_parada15_portada.png` | Un **arbusto** muy ramificado, dibujado como un árbol de la vida, con pequeños retratos de especies humanas en las puntas de sus ramas (australopiteco, *Homo erectus*, neandertal, persona actual) y muchas ramas secas; **no una fila de monos que se van poniendo de pie**. |
+| `D17_parada17_portada.png` | Un grupo de **cazadores-recolectores** de la Edad de Hielo recogiendo su campamento de **tiendas de pieles**: fardos a la espalda, lanzas, niños ayudando, un perro. Estepa fría con renos a lo lejos. Nada de plumas de «indios» de película. |
+| `D20_parada20_portada.png` | Los **tejados planos** de Çatalhöyük, casas de adobe pegadas unas a otras, **sin calles**; la gente camina y trabaja sobre los tejados; de algunos agujeros asoma una **escalera**; al fondo, una montaña volcánica de dos picos. |
+
+### B. Pegatinas (1024×1024, fondo transparente, como las de los lotes 4 y 6)
+
+| Archivo | Dibujo | Color del círculo |
+|---|---|---|
+| `K1_pegatina_parada01.png` | el reloj del tiempo de Alba (cuatro símbolos; huella de TRES dedos) | verde azulado `#2a9d8f` |
+| `K11_pegatina_parada11.png` | una tortuga gigante de las Galápagos | verde lima `#a7c957` |
+| `K12_pegatina_parada12.png` | dos huellas de pie humano descalzo en la ceniza | gris ceniza `#b8b0a2` |
+| `K14_pegatina_parada14.png` | una hoguera con piedras alrededor | naranja fuego `#e76f51` |
+| `K15_pegatina_parada15.png` | un cráneo humano de perfil, simpático (que no dé miedo) | crema `#e9d8a6` |
+| `K17_pegatina_parada17.png` | una tienda de pieles | marrón `#a0754a` |
+| `K20_pegatina_parada20.png` | una escalera que sale de un agujero en un tejado plano | adobe `#d4a373` |
+| `K100_pegatina_secreta.png` | un **cofre del tesoro** abierto junto a un pozo de piedra con dos palos cruzados en X encima | dorado `#e9c46a` |
+
+### C. Piezas de los juegos (1024×1024, fondo transparente salvo que se diga)
+
+**Parada 1, «El reloj del tiempo»:** cuatro tarjetas **con fondo**, cuadradas, descritas en `contenido/guiones/parada-01-bienvenida.md`, sección «Reto»: `R1_microbios.png`, `R2_mar_trilobites.png`, `R3_dinosaurios.png`, `R4_personas_cueva.png`.
+
+**Parada 11, «Cada pico, su comida»:** los tres pinzones y sus tres comidas, tal como los describe `contenido/guiones/parada-11-galapagos-darwin.md` (sección «Reto»): `P1_pinzon_semillas.png`, `P2_pinzon_insectos.png`, `P3_pinzon_cactus.png` (**los tres del mismo tamaño y en la misma postura: solo cambia el pico**), `P4_semillas.png`, `P5_insectos.png`, `P6_flor_cactus.png`.
+
+**Parada 12, «Detectives de Laetoli»:** `E1_laetoli_suelo.png`, **1536×1024 horizontal, con fondo**: la escena descrita en `contenido/guiones/parada-12-huellas-de-laetoli.md`, sección «Reto» (el suelo de ceniza visto desde arriba con las cuatro pistas: el rastro de pisadas, las huellas de elefante, las marcas de lluvia y el volcán al fondo). Las pisadas, **con el dedo gordo en línea con los demás**.
+
+**Parada 14, «¿Verdad o mito?»:** seis tarjetas **con fondo**, cuadradas: `V1_hoguera.png` (neandertales haciendo una hoguera), `V2_tallar.png` (tallando una piedra), `V3_cuidar.png` (cuidando a un herido), `V4_cazar.png` (cazando un ciervo o un bisonte en grupo), `V5_nudillos.png` (un neandertal caricaturesco caminando encorvado con los nudillos en el suelo, **con un gesto de «¡esto es falso!»**, por ejemplo tachado con una cruz roja dibujada), `V6_dinosaurio.png` (un neandertal montado en un dinosaurio, **también tachado**). Neandertales como en la portada D14.
+
+**Parada 15, «Encuentra las diferencias»:** `C1_craneos.png`, **1536×1024 horizontal, fondo claro liso**: dos cráneos de perfil mirando a la derecha, a la izquierda el de un **chimpancé** (bóveda baja, cara que sobresale como un hocico, **colmillos grandes**, sin barbilla) y a la derecha el de una **persona actual** (frente alta, cráneo redondo, **cara plana** bajo la frente, **colmillos pequeños**, **barbilla**). Anatomía correcta, simpáticos, nada de miedo. Mismo tamaño aproximado.
+
+**Parada 17, «¡Nos mudamos!»:** seis tarjetas **con fondo**, cuadradas, descritas en `contenido/guiones/parada-17-poblados-nomadas.md` (sección «Reto»): `N1_pieles.png`, `N2_herramientas.png`, `N3_lanza.png`, `N4_collar.png`, `N5_casa_piedra.png`, `N6_campo_trigo.png`.
+
+## 13. Próximos lotes (NO generar todavía)
 
 - `D1` rehecha en el estilo 1, si Álvaro lo pide.
 - Lo que haga falta para las paradas que faltan.
