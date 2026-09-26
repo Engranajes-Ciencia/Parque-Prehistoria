@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ir } from "../navegacion";
 import Alba from "../componentes/Alba";
 import Barra from "../componentes/Barra";
@@ -12,6 +12,11 @@ export default function Parada({ id }: { id: number }) {
   const { modo, pegatinas, misiones } = useEstado();
   const [mision, setMision] = useState(false);
   const [misionSonando, setMisionSonando] = useState(false);
+  const hoja = useRef<HTMLElement>(null);
+  // Al abrir la misión, el foco va a la hoja: el lector de pantalla empieza a leer por ella.
+  useEffect(() => {
+    if (mision) hoja.current?.focus();
+  }, [mision]);
   const parada = PARADAS[id];
 
   if (!parada) {
@@ -101,7 +106,15 @@ export default function Parada({ id }: { id: number }) {
 
       {mision && (
         <div className="velo" onClick={cerrarMision}>
-          <section className="hoja" onClick={(e) => e.stopPropagation()} role="dialog" aria-label="¡Mira bien!">
+          <section
+            className="hoja"
+            onClick={(e) => e.stopPropagation()}
+            role="dialog"
+            aria-modal="true"
+            aria-label="¡Mira bien!"
+            tabIndex={-1}
+            ref={hoja}
+          >
             <Alba pose="lupa" className="hoja-alba" />
             <h2>¡Mira bien!</h2>
             {guion.mision.map((p, i) => (

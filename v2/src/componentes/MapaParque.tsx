@@ -1,4 +1,4 @@
-import { useRef, useState, type PointerEvent as EventoPuntero } from "react";
+import { useRef, useState, type MouseEvent, type PointerEvent as EventoPuntero } from "react";
 import { ir } from "../navegacion";
 import { FONDO_MAPA, POSICIONES } from "../contenido/mapa";
 import { PARADAS, PARADA_SECRETA, RECORRIDO, type ParadaDelRecorrido } from "../contenido/paradas";
@@ -27,6 +27,25 @@ export default function MapaParque({ editar = false }: { editar?: boolean }) {
     else setAviso(p);
   };
 
+  // Las marcas miden 26 px en un móvil pequeño y algunas están a 22 px unas de otras: más
+  // grandes se pisarían. Así que un toque en el mapa, fuera de las marcas, abre la marca más
+  // cercana si está a menos de 32 px. Cada marca gana toda la zona que es «suya».
+  const tocarMapa = (e: MouseEvent<HTMLDivElement>) => {
+    if (editar || (e.target as HTMLElement).closest(".mapa-marca")) return; // ya lo lleva la marca
+    let mejor: ParadaDelRecorrido | null = null;
+    let distancia = 32;
+    for (const marca of e.currentTarget.querySelectorAll<HTMLElement>(".mapa-marca")) {
+      const r = marca.getBoundingClientRect();
+      const d = Math.hypot(e.clientX - (r.left + r.width / 2), e.clientY - (r.top + r.height / 2));
+      const p = RECORRIDO.find((q) => String(q.id) === marca.dataset.id);
+      if (p && d < distancia) {
+        mejor = p;
+        distancia = d;
+      }
+    }
+    if (mejor) tocar(mejor);
+  };
+
   const arrastrar = (e: EventoPuntero<HTMLButtonElement>, id: number) => {
     if (moviendo !== id || !lienzo.current) return;
     const r = lienzo.current.getBoundingClientRect();
@@ -45,6 +64,7 @@ export default function MapaParque({ editar = false }: { editar?: boolean }) {
         className={`mapa ${editar ? "editando" : ""}`}
         ref={lienzo}
         style={{ aspectRatio: `${FONDO_MAPA.ancho} / ${FONDO_MAPA.alto}` }}
+        onClick={tocarMapa}
       >
         <img src={FONDO_MAPA.imagen} alt="Mapa del parque" draggable={false} />
         {RECORRIDO.map((p) => {
@@ -64,6 +84,7 @@ export default function MapaParque({ editar = false }: { editar?: boolean }) {
             <button
               key={p.id}
               className={`mapa-marca ${estado}`}
+              data-id={p.id}
               style={{ left: `${pos.x}%`, top: `${pos.y}%` }}
               aria-label={`${p.etiqueta ? "" : `Parada ${p.id}: `}${p.titulo}`}
               onClick={() => tocar(p)}

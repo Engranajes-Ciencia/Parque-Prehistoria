@@ -108,13 +108,13 @@ export default function MarcoReto({ parada, titulo, mensaje, decir, final, pose,
 
       {final && (
         <div className="velo">
-          <section className="hoja final" role="dialog" aria-label="¡Reto superado!">
+          <section className="hoja final" role="dialog" aria-modal="true" aria-label="¡Reto superado!">
             <Alba pose="celebra" className="hoja-alba" />
             <h2>¡Reto superado!</h2>
             {recuerdo}
             <Pegatina parada={parada} grande />
             <p>{final.texto}</p>
-            <button className="boton grande" onClick={() => volver(`/parada/${parada}`)}>
+            <button className="boton grande" autoFocus onClick={() => volver(`/parada/${parada}`)}>
               Volver a la parada
             </button>
             <button className="boton secundario" onClick={() => ir("/album", true)}>

@@ -41,15 +41,38 @@ function lineas(ctx: CanvasRenderingContext2D, texto: string, ancho: number) {
   return salida;
 }
 
+const LEMA =
+  "por viajar desde los primeros microbios hasta los constructores de Stonehenge: más de tres mil millones de años en un paseo.";
+
 async function dibujarDiploma(nombre: string, pegatinas: number[]): Promise<Blob | null> {
   const W = 1080;
-  const H = 1350;
   const c = document.createElement("canvas");
   c.width = W;
-  c.height = H;
   const ctx = c.getContext("2d");
   if (!ctx) return null;
 
+  // 1. Medir: cuánto ocupan el nombre, el lema y las filas de pegatinas. El pie (Alba y la
+  //    firma) va siempre DEBAJO de las pegatinas; antes tenía sitio fijo y, con muchas
+  //    pegatinas o un nombre largo, Alba las tapaba y ellas tapaban la fecha.
+  ctx.font = `900 72px ${FUENTE}`;
+  const lineasNombre = nombre ? lineas(ctx, nombre, W - 220) : [];
+  ctx.font = `400 36px ${FUENTE}`;
+  const lineasLema = lineas(ctx, LEMA, W - 240);
+  const conseguidas = RECORRIDO.filter((p) => pegatinas.includes(p.id));
+  const lado = 96;
+  const hueco = 12;
+  const porFila = 8;
+  const filas = Math.ceil(conseguidas.length / porFila);
+  const yNombre = 420;
+  const yLema = yNombre + lineasNombre.length * 88 + 40;
+  const yCuenta = yLema + lineasLema.length * 48 + 80;
+  const yPegatinas = yCuenta + 30;
+  const yPie = yPegatinas + filas * (lado + hueco) + 20;
+  const ALTO_ALBA = 280;
+  const H = Math.max(1350, yPie + ALTO_ALBA + 90);
+  c.height = H; // cambiar el tamaño borra el lienzo: por eso se mide antes de dibujar
+
+  // 2. Dibujar.
   ctx.fillStyle = "#fbf3e4";
   ctx.fillRect(0, 0, W, H);
   ctx.strokeStyle = "#2a9d8f";
@@ -70,48 +93,31 @@ async function dibujarDiploma(nombre: string, pegatinas: number[]): Promise<Blob
 
   ctx.font = `400 38px ${FUENTE}`;
   ctx.fillStyle = "#4a5a60";
-  ctx.fillText(nombre ? "Otorgado a" : "Otorgado a quien ha completado el viaje", W / 2, 420);
-  let y = 420;
-  if (nombre) {
-    ctx.fillStyle = "#c8553d";
-    ctx.font = `900 72px ${FUENTE}`;
-    for (const l of lineas(ctx, nombre, W - 220)) {
-      y += 88;
-      ctx.fillText(l, W / 2, y);
-    }
-  }
+  ctx.fillText(nombre ? "Otorgado a" : "Otorgado a quien ha completado el viaje", W / 2, yNombre);
+  ctx.fillStyle = "#c8553d";
+  ctx.font = `900 72px ${FUENTE}`;
+  lineasNombre.forEach((l, i) => ctx.fillText(l, W / 2, yNombre + 88 * (i + 1)));
   ctx.fillStyle = "#1f2a2e";
   ctx.font = `400 36px ${FUENTE}`;
-  y += 40;
-  for (const l of lineas(ctx, "por viajar desde los primeros microbios hasta los constructores de Stonehenge: más de tres mil millones de años en un paseo.", W - 240)) {
-    y += 48;
-    ctx.fillText(l, W / 2, y);
-  }
+  lineasLema.forEach((l, i) => ctx.fillText(l, W / 2, yLema + 48 * (i + 1)));
 
   // Pegatinas conseguidas, en rejilla.
-  const conseguidas = RECORRIDO.filter((p) => pegatinas.includes(p.id));
   ctx.font = `800 34px ${FUENTE}`;
   ctx.fillStyle = "#1d6f65";
-  y += 80;
-  ctx.fillText(`${conseguidas.length} de ${TOTAL} pegatinas`, W / 2, y);
-  const lado = 96;
-  const porFila = 8;
+  ctx.fillText(`${conseguidas.length} de ${TOTAL} pegatinas`, W / 2, yCuenta);
   const imagenes = await Promise.all(conseguidas.map((p) => cargarImagen(imagenPegatina(p.id) ?? "")));
   imagenes.forEach((im, i) => {
     const fila = Math.floor(i / porFila);
     const enFila = Math.min(porFila, conseguidas.length - fila * porFila);
-    const x0 = W / 2 - (enFila * (lado + 12) - 12) / 2;
-    const x = x0 + (i % porFila) * (lado + 12);
-    const yy = y + 30 + fila * (lado + 12);
+    const x0 = W / 2 - (enFila * (lado + hueco) - hueco) / 2;
+    const x = x0 + (i % porFila) * (lado + hueco);
+    const yy = yPegatinas + fila * (lado + hueco);
     if (im) ctx.drawImage(im, x, yy, lado, lado);
   });
 
-  // Alba y la firma.
+  // Pie: Alba a la izquierda y, a la derecha, la fecha y la firma.
   const alba = await cargarImagen("img/alba/alba_celebra.webp");
-  if (alba) {
-    const h = 300;
-    ctx.drawImage(alba, 90, H - 90 - h, (alba.width / alba.height) * h, h);
-  }
+  if (alba) ctx.drawImage(alba, 90, H - 90 - ALTO_ALBA, (alba.width / alba.height) * ALTO_ALBA, ALTO_ALBA);
   ctx.textAlign = "right";
   ctx.fillStyle = "#4a5a60";
   ctx.font = `400 30px ${FUENTE}`;
@@ -181,8 +187,10 @@ export default function Final() {
             Aún podéis conseguir {faltan.length === 1 ? "la de la parada" : "las de las paradas"} {faltan.map((p) => p.id).join(", ")}
             {pegatinas.includes(PARADA_SECRETA) ? "." : ", y hay una secreta escondida en el camino…"}
           </p>
-        ) : (
+        ) : pegatinas.includes(PARADA_SECRETA) ? (
           <p className="nota">¡Las tenéis todas! Sois exploradores de verdad.</p>
+        ) : (
+          <p className="nota">¡Todas las del camino! Pero aún queda una secreta: buscad la X del mapa.</p>
         )}
         <button className="boton secundario" onClick={() => ir("/album")}>
           Ver mis pegatinas

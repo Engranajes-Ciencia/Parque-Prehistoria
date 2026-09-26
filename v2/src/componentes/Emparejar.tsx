@@ -106,7 +106,7 @@ export default function Emparejar(p: Props) {
 
       <div className="estante">
         <h3>{p.rotuloSitios}</h3>
-        <div className="parejas" style={{ gridTemplateColumns: `repeat(${p.columnas ?? 2}, 1fr)` }}>
+        <div className="parejas" style={{ gridTemplateColumns: `repeat(${p.columnas ?? 2}, minmax(0, 1fr))` }}>
           {p.sitios.map((s) => {
             const dentro = p.piezas.filter((x) => colocadas[x.id] === s.id);
             return (
