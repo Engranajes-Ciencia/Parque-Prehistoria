@@ -76,6 +76,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
   1: {
     id: 1,
     titulo: "Bienvenida",
+    imagen: "img/p01/portada.webp",
     foto: "img/p01/foto.webp",
     guion: leerGuion(guion01),
     reto: "El reloj del tiempo",
@@ -83,6 +84,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
   11: {
     id: 11,
     titulo: "Galápagos y Darwin",
+    imagen: "img/p11/portada.webp",
     foto: "img/p11/foto.webp",
     guion: leerGuion(guion11),
     reto: "Cada pico, su comida",
@@ -90,6 +92,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
   12: {
     id: 12,
     titulo: "Huellas de Laetoli",
+    imagen: "img/p12/portada.webp",
     foto: "img/p12/foto.webp",
     guion: leerGuion(guion12),
     reto: "Detectives de Laetoli",
@@ -97,6 +100,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
   14: {
     id: 14,
     titulo: "Los neandertales",
+    imagen: "img/p14/portada.webp",
     foto: "img/p14/foto.webp",
     guion: leerGuion(guion14),
     reto: "¿Verdad o mito?",
@@ -104,6 +108,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
   15: {
     id: 15,
     titulo: "Cráneos y evolución humana",
+    imagen: "img/p15/portada.webp",
     foto: "img/p15/foto.webp",
     guion: leerGuion(guion15),
     reto: "Encuentra las diferencias",
@@ -111,6 +116,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
   17: {
     id: 17,
     titulo: "Los poblados nómadas",
+    imagen: "img/p17/portada.webp",
     foto: "img/p17/foto.webp",
     guion: leerGuion(guion17),
     reto: "¡Nos mudamos!",
@@ -118,6 +124,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
   20: {
     id: 20,
     titulo: "Çatalhöyük",
+    imagen: "img/p20/portada.webp",
     foto: "img/p20/foto.webp",
     guion: leerGuion(guion20),
     reto: "Construye una casa de Çatalhöyük",

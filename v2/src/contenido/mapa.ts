@@ -3,22 +3,21 @@
 // así que cambiar el dibujo o mover una parada no toca el código: basta con ajustar aquí.
 // Para recolocarlas a ojo: abre #/mapa-editar, arrastra las marcas y copia el resultado.
 //
-// 26-sep-2026: fondo = lote 5 de ChatGPT (M1), a falta de las correcciones pedidas en el
-// lote 5 bis (fósiles de la 4, impacto y flor, laguito de la 3, huesos de la 14). Cuando llegue
-// la versión corregida, recolocar las marcas con #/mapa-editar.
+// 27-sep-2026: fondo = M3, el mapa del lote 5 con las cinco correcciones de Álvaro (fósiles a
+// la izquierda de los Prototaxites, laguito de la 3, impacto y flor, huellas, hogar con huesos).
 
-export const FONDO_MAPA = { imagen: "img/mapa/mapa-m1.webp", ancho: 1000, alto: 1500 };
+export const FONDO_MAPA = { imagen: "img/mapa/mapa-m3.webp", ancho: 1000, alto: 1500 };
 
 export const POSICIONES: Record<number, { x: number; y: number }> = {
   1: { x: 44.0, y: 78.0 },
-  2: { x: 80.0, y: 77.0 },
-  3: { x: 84.0, y: 73.0 },
-  4: { x: 53.0, y: 64.0 },
-  5: { x: 42.0, y: 67.0 },
-  6: { x: 78.0, y: 64.0 },
+  2: { x: 81.0, y: 80.0 },
+  3: { x: 82.0, y: 72.0 },
+  4: { x: 45.0, y: 64.0 },
+  5: { x: 64.0, y: 65.0 },
+  6: { x: 79.0, y: 64.0 },
   7: { x: 51.0, y: 57.0 },
   8: { x: 88.0, y: 49.0 },
-  9: { x: 71.0, y: 54.0 },
+  9: { x: 57.0, y: 48.0 },
   10: { x: 56.0, y: 40.0 },
   11: { x: 72.0, y: 31.0 },
   12: { x: 56.0, y: 29.0 },

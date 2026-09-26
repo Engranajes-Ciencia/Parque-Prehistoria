@@ -1,6 +1,9 @@
-const IMAGEN: Record<number, string> = Object.fromEntries(
-  [2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 16, 18, 19, 21].map((n) => [n, `img/p${String(n).padStart(2, "0")}/pegatina.webp`]),
-);
+const IMAGEN: Record<number, string> = {
+  ...Object.fromEntries(
+    Array.from({ length: 21 }, (_, i) => i + 1).map((n) => [n, `img/p${String(n).padStart(2, "0")}/pegatina.webp`]),
+  ),
+  100: "img/secreta/pegatina.webp", // la X del pozo
+};
 
 export default function Pegatina({ parada, grande = false }: { parada: number; grande?: boolean }) {
   const imagen = IMAGEN[parada];
