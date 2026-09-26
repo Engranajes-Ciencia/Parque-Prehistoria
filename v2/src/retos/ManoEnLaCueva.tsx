@@ -147,7 +147,10 @@ export default function ManoEnLaCueva({ parada }: { parada: ContenidoParada }) {
     }
   };
 
+  const terminado = useRef(false); // varios movimientos antes de repintar no deben terminar dos veces
   const terminar = () => {
+    if (terminado.current) return;
+    terminado.current = true;
     guia.current!.getContext("2d")!.clearRect(0, 0, ANCHO, ALTO);
     const copia = document.createElement("canvas");
     copia.width = 240;
@@ -173,7 +176,18 @@ export default function ManoEnLaCueva({ parada }: { parada: ContenidoParada }) {
       recuerdo={recuerdo && <img className="mano-recuerdo" src={recuerdo} alt="Tu mano en la cueva" />}
     >
       <div className="cueva">
-        <canvas ref={pared} onPointerDown={(e) => { e.currentTarget.setPointerCapture(e.pointerId); soplar(e); }} onPointerMove={soplar} />
+        <canvas
+          ref={pared}
+          onPointerDown={(e) => {
+            try {
+              e.currentTarget.setPointerCapture(e.pointerId);
+            } catch {
+              /* el dedo ya se levantó */
+            }
+            soplar(e);
+          }}
+          onPointerMove={soplar}
+        />
         <canvas ref={guia} className="cueva-guia" aria-hidden="true" />
       </div>
       <p className="nota">Pasa el dedo alrededor de la mano para soplar el pigmento rojo.</p>

@@ -1149,6 +1149,19 @@ h3 {
   display: block;
 }
 
+.frutos-recuerdo {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 6px 0 2px;
+}
+
+.frutos-recuerdo img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
 .album-mano img {
   width: 100%;
   max-width: 260px;

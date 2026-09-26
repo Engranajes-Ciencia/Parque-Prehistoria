@@ -58,11 +58,10 @@ export default function QuienComeQue({ parada }: { parada: ContenidoParada }) {
     setColocadas(nuevas);
     setMasticando(dino);
     setTimeout(() => setMasticando(null), 700);
-    if (Object.keys(nuevas).length === PLANTAS) {
-      terminar(null, frases.final);
-    } else {
-      decir(frases.aciertos[aciertos.current++ % frases.aciertos.length]);
-    }
+    // También la última planta tiene su «¡acierto!» antes de la hoja final (regla de Álvaro).
+    const acierto = frases.aciertos[aciertos.current++ % frases.aciertos.length];
+    if (Object.keys(nuevas).length === PLANTAS) terminar(acierto, frases.final);
+    else decir(acierto);
   };
 
   const { arrastre, elegida, sobre, pieza, tocarDestino } = useArrastre(zonas, dar);

@@ -31,7 +31,8 @@ export default function Repartir({ parada, tituloPorDefecto, tarjetas, grupos, r
     final: dichoDelReto(parada.guion, parada.id, "Al terminar"),
     acierto: Object.fromEntries(grupos.map((g) => [g.id, dichosDelReto(parada.guion, parada.id, g.etiqueta)])),
   }));
-  const vuelta = useRef(0);
+  // Un turno por grupo: con uno solo para todos, la misma frase podía sonar dos veces seguidas.
+  const vuelta = useRef<Record<string, number>>({});
   return (
     <Emparejar
       parada={parada.id}
@@ -47,7 +48,9 @@ export default function Repartir({ parada, tituloPorDefecto, tarjetas, grupos, r
         final: frases.final,
         acierto: (p) => {
           const lista = frases.acierto[p.destino];
-          return lista[vuelta.current++ % lista.length];
+          const n = vuelta.current[p.destino] ?? 0;
+          vuelta.current[p.destino] = n + 1;
+          return lista[n % lista.length];
         },
       }}
       nota={nota}

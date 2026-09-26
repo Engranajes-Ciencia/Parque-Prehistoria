@@ -20,6 +20,9 @@ export function useAlba(inicial: Dicho, parada: number) {
   const ganado = useRef(false); // ref y no estado: dos toques en el mismo instante no ganan dos veces
   const reserva = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
   const espera = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
+  // Lo que queda por hacer cuando acabe la frase en curso. Repetirla con el botón 🔊 lo
+  // conserva (antes se perdía y, en Atapuerca, dejaba 12 s sin detectar tesoros).
+  const despues = useRef<{ d: Dicho; luego: () => void } | null>(null);
 
   useEffect(() => {
     locutar(inicial.pista, [inicial.texto], "alba");
@@ -48,6 +51,8 @@ export function useAlba(inicial: Dicho, parada: number) {
   /** Alba dice una frase; `luego`, si lo hay, se hace cuando acaba de decirla. */
   const decir = (d: Dicho, luego?: () => void) => {
     const empezo = Date.now();
+    const l = luego ?? (despues.current?.d === d ? despues.current.luego : undefined);
+    despues.current = l ? { d, luego: l } : null;
     setMensaje(d);
     locutar(d.pista, [d.texto], "alba", {
       // Sin voz, alTerminar llega al instante: se deja un rato para leer.
@@ -55,7 +60,11 @@ export function useAlba(inicial: Dicho, parada: number) {
         const leer = Math.max(700, 60 * d.texto.length - (Date.now() - empezo));
         clearTimeout(espera.current);
         if (pendiente.current) espera.current = setTimeout(cerrar, leer);
-        else if (luego) espera.current = setTimeout(luego, Math.min(leer, 1500));
+        else if (l)
+          espera.current = setTimeout(() => {
+            despues.current = null;
+            l();
+          }, Math.min(leer, 1500));
       },
     });
   };
@@ -67,7 +76,9 @@ export function useAlba(inicial: Dicho, parada: number) {
     pendiente.current = f;
     setTerminando(true);
     if (!ultimo) return cerrar();
-    reserva.current = setTimeout(cerrar, 25000); // por si el navegador nunca avisa del final
+    // Por si el navegador nunca avisa del final (le pasa a veces a la voz de Safari): lo que
+    // tardaría en decirla, con margen para el relevo a la voz del navegador (antes, 25 s fijos).
+    reserva.current = setTimeout(cerrar, Math.max(8000, 5000 + 100 * ultimo.texto.length));
     decir(ultimo);
   };
 

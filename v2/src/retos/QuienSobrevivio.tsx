@@ -23,11 +23,14 @@ export default function QuienSobrevivio({ parada }: { parada: ContenidoParada })
     vivo: dichosDelReto(parada.guion, parada.id, "Acierto sobrevivió"),
     ave: dichoDelReto(parada.guion, parada.id, "Acierto ave"),
   }));
-  const vuelta = useRef(0);
+  // Un turno por grupo: con uno solo para los dos, la misma frase podía sonar dos veces seguidas.
+  const vuelta = useRef<Record<string, number>>({});
   const acierto = (p: PiezaEmparejar) => {
     if (p.id === "ave") return frases.ave;
     const lista = p.destino === "extintos" ? frases.extinto : frases.vivo;
-    return lista[vuelta.current++ % lista.length];
+    const n = vuelta.current[p.destino] ?? 0;
+    vuelta.current[p.destino] = n + 1;
+    return lista[n % lista.length];
   };
   return (
     <Emparejar

@@ -52,7 +52,22 @@ export default function PolinizaLasFlores({ parada }: { parada: ContenidoParada 
   const { arrastre, elegida, sobre, pieza, tocarDestino } = useArrastre(refs.current, visitar);
 
   return (
-    <MarcoReto parada={parada.id} titulo={parada.reto ?? "Poliniza las flores"} mensaje={mensaje} decir={decir} final={final}>
+    <MarcoReto
+      parada={parada.id}
+      titulo={parada.reto ?? "Poliniza las flores"}
+      mensaje={mensaje}
+      decir={decir}
+      final={final}
+      // Alba dice «¡Mira! … se han convertido en frutos» con la hoja final delante del prado:
+      // los frutos se enseñan también dentro de la hoja (revisión del 27-sep).
+      recuerdo={
+        <div className="frutos-recuerdo" aria-label="Las flores ya son cerezas">
+          {FLORES.map((f) => (
+            <img key={f.id} src="img/p06/cereza.webp" alt="" draggable={false} />
+          ))}
+        </div>
+      }
+    >
       <div className={`prado ${final ? "con-frutos" : ""}`}>
         {FLORES.map((f) => (
           <button
