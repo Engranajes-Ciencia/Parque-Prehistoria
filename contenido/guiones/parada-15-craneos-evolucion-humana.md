@@ -10,7 +10,7 @@
 
 - **Foto 28 — los simios y los australopitecos** (cuatro cráneos; sin cartelas en la pared):
   1. un **gorila macho**: el más grande, con una cresta de hueso en lo alto del cráneo y colmillos larguísimos;
-  2. **probablemente un chimpancé**: más pequeño, con la cara en hocico y colmillos grandes **[VERIFICAR: su etiqueta no se lee; podría ser una gorila hembra]**;
+  2. **un chimpancé** (lo confirmó Álvaro el 26-sep; su etiqueta no se lee): más pequeño, con la cara en hocico y colmillos grandes;
   3. **«Zinj»**, el cráneo OH 5 de *Paranthropus boisei* (su etiqueta dice «*Australopithecus boisei*, 1,8 millones de años»), marrón oscuro con parches claros;
   4. en el suelo de la vitrina, una **reconstrucción de *Australopithecus afarensis*** (etiqueta: «de 3,6 a 2,9 millones de años»), marrón y con la boca abierta.
 - **Foto 29 — bajo el retrato de Darwin** (cinco cráneos; cartelas de *afarensis*, *Homo antecessor*, *Homo heidelbergensis* de Arago y «Cráneo 5 de Atapuerca»):

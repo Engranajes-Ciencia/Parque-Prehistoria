@@ -9,7 +9,7 @@ Lo que se ve en las fotos:
 - **Foto 91:** otras dos huellas, entre hierbas, con los dedos **más largos y estrechos** y crestas más afiladas entre ellos. Por la foto no me atrevo a decir si imitan a un terópodo **[VERIFICAR]**.
 - **Tamaño:** comparando con las plantas, cada huella mide a ojo **entre cuarenta y sesenta centímetros de largo [VERIFICAR: medir una]**. El texto no da la medida.
 - **Cuántas hay:** al menos cuatro huellas bien marcadas en las dos fotos **[VERIFICAR: cuántas hay en total y si forman un rastro en fila]**. El texto no las cuenta.
-- **¿Se pueden pisar?** En la foto 90 hay una cuerda con postes a un lado y el camino de malla gris al fondo; la sombra del fotógrafo está junto a las huellas **[VERIFICAR: si las huellas quedan dentro o fuera de la cuerda y si el público puede acercarse o pisarlas]**. Por eso la misión se hace desde el camino y pide «sin pisarlas».
+- **¿Se pueden pisar?** Sí: lo confirmó Álvaro el 26-sep (mejor solo los niños y de uno en uno). La misión lo pide así: meter un pie dentro de una huella.
 - **La flor gigante** (fotos 86-87): un capullo naranja y amarillo con forma de bulbo, sobre pétalos pintados en el suelo, con hojas verdes entre ellos. Según Álvaro, **antes era el volcán del parque** (se ve así, como un cono naranja, en la foto 73 de abril de 2025) y el parque la convirtió en flor porque los visitantes preguntaban qué flor era. *Ojo: `CLASIFICACION_PROPUESTA.md` llama a las fotos 86-87 «volcán repintado»; es la flor. El volcán actual, pintado en el suelo, es el de las fotos 88-89, y al fondo de la 88 se ve la charca azul con la roca negra de la parada 10.*
 
 Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y frases cortas.
