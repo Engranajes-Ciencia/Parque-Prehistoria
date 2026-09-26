@@ -1269,9 +1269,10 @@ h3 {
 
 .pieza-dibujo img,
 .pieza-dibujo svg {
-  width: 60px;
-  height: 52px;
+  width: 64px;
+  height: 58px;
   object-fit: contain;
+  border-radius: 8px;
 }
 
 .pareja-dentro {
@@ -1436,14 +1437,12 @@ h3 {
 .busca-hallada {
   fill: rgba(42, 157, 143, 0.18);
   stroke: var(--verde-azulado);
-  stroke-width: 4;
   pointer-events: none;
 }
 
 .busca-fallo {
   fill: none;
   stroke: var(--teja);
-  stroke-width: 4;
   pointer-events: none;
   animation: aparecer 0.3s ease-out;
 }

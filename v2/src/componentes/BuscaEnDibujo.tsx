@@ -15,6 +15,8 @@ export interface ZonaBuscar {
   width: number;
   height: number;
   dicho: Dicho;
+  /** false: al encontrarla no se enmarca (para zonas que ocupan casi todo el dibujo). */
+  marco?: boolean;
 }
 
 interface Props {
@@ -35,6 +37,8 @@ export default function BuscaEnDibujo(p: Props) {
   const [halladas, setHalladas] = useState<string[]>([]);
   const ya = useRef<string[]>([]); // al instante: dos toques seguidos no deben pisarse
   const [fallo, setFallo] = useState<{ x: number; y: number } | null>(null);
+  // Grosores proporcionales al dibujo: igual se ven en un SVG de 360 que en una imagen de 1536.
+  const ancho = Number(p.viewBox.split(/\s+/)[2]) || 360;
 
   const tocar = (e: MouseEvent<SVGSVGElement>) => {
     if (acabado) return;
@@ -70,11 +74,20 @@ export default function BuscaEnDibujo(p: Props) {
       <svg className="busca" viewBox={p.viewBox} role="img" aria-label={p.etiqueta} onClick={tocar}>
         {p.dibujo}
         {p.zonas
-          .filter((z) => halladas.includes(z.id))
+          .filter((z) => halladas.includes(z.id) && z.marco !== false)
           .map((z) => (
-            <rect key={z.id} className="busca-hallada" x={z.x} y={z.y} width={z.width} height={z.height} rx="10" />
+            <rect
+              key={z.id}
+              className="busca-hallada"
+              x={z.x}
+              y={z.y}
+              width={z.width}
+              height={z.height}
+              rx={ancho * 0.02}
+              strokeWidth={ancho * 0.011}
+            />
           ))}
-        {fallo && <circle className="busca-fallo" cx={fallo.x} cy={fallo.y} r="14" />}
+        {fallo && <circle className="busca-fallo" cx={fallo.x} cy={fallo.y} r={ancho * 0.04} strokeWidth={ancho * 0.011} />}
       </svg>
       <p className="nota">{p.nota}</p>
     </MarcoReto>

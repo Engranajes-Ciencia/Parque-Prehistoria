@@ -3,19 +3,21 @@ import type { ContenidoParada } from "../contenido/paradas";
 
 // Parada 14: lo que los neandertales hacían (con pruebas sólidas) y los mitos. Lo debatido
 // (su lenguaje, encender fuego desde cero, los adornos) se queda fuera del juego: ver guion.
-// Dibujos PROVISIONALES (emojis) hasta el lote 7.
+// Tarjetas del lote 7 (las de los mitos vienen tachadas).
+const img = (n: string) => <img src={`img/p14/${n}.webp`} alt="" draggable={false} />;
+
 export default function VerdadOMito({ parada }: { parada: ContenidoParada }) {
   return (
     <Repartir
       parada={parada}
       tituloPorDefecto="¿Verdad o mito?"
       tarjetas={[
-        { id: "hogueras", nombre: "Hacer hogueras", dibujo: "🔥", destino: "verdad" },
-        { id: "nudillos", nombre: "Andar encorvados, con los nudillos en el suelo", dibujo: "🦍", destino: "mito" },
-        { id: "piedras", nombre: "Tallar piedras", dibujo: "🪨", destino: "verdad" },
-        { id: "herido", nombre: "Cuidar a un herido", dibujo: "🩹", destino: "verdad" },
-        { id: "dinosaurio", nombre: "Montar en dinosaurio", dibujo: "🦖", destino: "mito" },
-        { id: "cazar", nombre: "Cazar animales grandes", dibujo: "🦬", destino: "verdad" },
+        { id: "hogueras", nombre: "Hacer hogueras", dibujo: img("hoguera"), destino: "verdad" },
+        { id: "nudillos", nombre: "Andar con los nudillos en el suelo", dibujo: img("nudillos"), destino: "mito" },
+        { id: "piedras", nombre: "Tallar piedras", dibujo: img("tallar"), destino: "verdad" },
+        { id: "herido", nombre: "Cuidar a un herido", dibujo: img("cuidar"), destino: "verdad" },
+        { id: "dinosaurio", nombre: "Montar en dinosaurio", dibujo: img("dinosaurio"), destino: "mito" },
+        { id: "cazar", nombre: "Cazar animales grandes", dibujo: img("cazar"), destino: "verdad" },
       ]}
       grupos={[
         { id: "verdad", nombre: "Lo hacían", dibujo: "✅", etiqueta: "Acierto lo hacían" },
@@ -23,7 +25,6 @@ export default function VerdadOMito({ parada }: { parada: ContenidoParada }) {
       ]}
       rotuloPiezas="¿Qué hacían los neandertales?"
       rotuloSitios="¿Verdad o mito?"
-      nota="Dibujos provisionales: llegarán las ilustraciones."
     />
   );
 }

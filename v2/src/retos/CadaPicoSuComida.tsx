@@ -3,23 +3,13 @@ import Emparejar, { type PiezaEmparejar } from "../componentes/Emparejar";
 import { dichoDelReto, type Dicho } from "../contenido/guion";
 import type { ContenidoParada } from "../contenido/paradas";
 
-// Parada 11: tres pinzones de Darwin, iguales salvo el pico, y la comida de cada uno.
-// Cabezas dibujadas PROVISIONALES (lo único que importa es el pico) hasta el lote 7.
-const cabeza = (color: string, pico: string) => (
-  <svg viewBox="0 0 70 60" aria-hidden="true">
-    <circle cx="26" cy="32" r="22" fill={color} />
-    <circle cx="32" cy="26" r="4" fill="#fff" />
-    <circle cx="33" cy="26" r="2" fill="#222" />
-    <path d={pico} fill="#3b3b3b" />
-  </svg>
-);
+// Parada 11: tres pinzones de Darwin del mismo tamaño y postura, que solo se diferencian en
+// el pico, y la comida de cada uno (ilustraciones del lote 7).
+const img = (n: string) => <img src={`img/p11/${n}.webp`} alt="" draggable={false} />;
 const PAJAROS: PiezaEmparejar[] = [
-  // Pico de cactus: largo, puntiagudo, algo curvado hacia abajo.
-  { id: "cactus", nombre: "Pico largo", dibujo: cabeza("#8a6f55", "M44 28 Q62 30 69 40 Q58 36 45 37 Z"), destino: "cactus" },
-  // Pico de semillas: cónico, altísimo y ancho en la base.
-  { id: "semillas", nombre: "Pico gordo", dibujo: cabeza("#2d2d2d", "M42 16 L64 32 L42 46 Z"), destino: "semillas" },
-  // Pico de insectos: fino y recto, como una aguja corta.
-  { id: "insectos", nombre: "Pico fino", dibujo: cabeza("#8a9a6a", "M46 30 L66 32 L46 34 Z"), destino: "insectos" },
+  { id: "cactus", nombre: "Pico largo", dibujo: img("pinzon-cactus"), destino: "cactus" },
+  { id: "semillas", nombre: "Pico gordo", dibujo: img("pinzon-semillas"), destino: "semillas" },
+  { id: "insectos", nombre: "Pico fino", dibujo: img("pinzon-insectos"), destino: "insectos" },
 ];
 
 export default function CadaPicoSuComida({ parada }: { parada: ContenidoParada }) {
@@ -41,15 +31,14 @@ export default function CadaPicoSuComida({ parada }: { parada: ContenidoParada }
       pose="lupa"
       piezas={PAJAROS}
       sitios={[
-        { id: "semillas", nombre: "Semillas duras", dibujo: "🌰" },
-        { id: "insectos", nombre: "Bichitos", dibujo: "🐛" },
-        { id: "cactus", nombre: "Flor de cactus", dibujo: "🌵" },
+        { id: "semillas", nombre: "Semillas duras", dibujo: img("semillas") },
+        { id: "insectos", nombre: "Bichitos", dibujo: img("insectos") },
+        { id: "cactus", nombre: "Flor de cactus", dibujo: img("flor-cactus") },
       ]}
       columnas={3}
       rotuloPiezas="Los pinzones de Darwin"
       rotuloSitios="¿Qué come cada uno?"
       frases={{ inicio: frases.inicio, fallo: frases.fallo, final: frases.final, acierto: (p) => frases.acierto[p.id] }}
-      nota="Dibujos provisionales: llegarán las ilustraciones."
     />
   );
 }
