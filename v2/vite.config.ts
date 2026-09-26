@@ -1,6 +1,7 @@
 import { defineConfig, type Plugin } from "vite";
 import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
+import { recortarGuiones } from "./recortar-guiones.mjs";
 import { fileURLToPath } from "node:url";
 import { readdirSync, statSync, writeFileSync } from "node:fs";
 import { join, relative } from "node:path";
@@ -30,6 +31,7 @@ function listaDeRecursos(): Plugin {
 // de prueba (p. ej. /Parque-Prehistoria/prueba/) sin tocar nada.
 export default defineConfig({
   plugins: [
+    recortarGuiones(), // la app recibe solo las líneas de los guiones que lee (la mitad del peso)
     react(),
     listaDeRecursos(),
     VitePWA({
