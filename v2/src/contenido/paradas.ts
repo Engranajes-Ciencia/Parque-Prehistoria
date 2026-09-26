@@ -77,6 +77,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
   3: {
     id: 3,
     titulo: "La vida nace en el agua",
+    imagen: "img/p03/portada.webp",
     foto: "img/p03/foto.webp",
     guion: leerGuion(guion03),
     reto: "¿Cómo se hace un fósil?",
@@ -84,6 +85,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
   4: {
     id: 4,
     titulo: "Prototaxites, Meganeura y Tiktaalik",
+    imagen: "img/p04/portada.webp",
     foto: "img/p04/foto.webp",
     guion: leerGuion(guion04),
     reto: "¿Quién vivió antes?",
@@ -91,18 +93,21 @@ export const PARADAS: Record<number, ContenidoParada> = {
   5: {
     id: 5,
     titulo: "Los primeros árboles",
+    imagen: "img/p05/portada.webp",
     guion: leerGuion(guion05),
     reto: "Construye el primer árbol",
   },
   6: {
     id: 6,
     titulo: "Las primeras flores",
+    imagen: "img/p06/portada.webp",
     guion: leerGuion(guion06),
     reto: "Poliniza las flores",
   },
   8: {
     id: 8,
     titulo: "El volcán",
+    imagen: "img/p08/portada.webp",
     foto: "img/p08/foto.webp",
     guion: leerGuion(guion08),
     reto: "Arma Pangea",
@@ -110,6 +115,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
   9: {
     id: 9,
     titulo: "Huellas de dinosaurio",
+    imagen: "img/p09/portada.webp",
     foto: "img/p09/foto.webp",
     guion: leerGuion(guion09),
     reto: "¿De quién es la huella?",
@@ -117,6 +123,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
   10: {
     id: 10,
     titulo: "Los segundos dinosaurios",
+    imagen: "img/p10/portada.webp",
     foto: "img/p10/foto.webp",
     guion: leerGuion(guion10),
     reto: "¿Quién sobrevivió?",

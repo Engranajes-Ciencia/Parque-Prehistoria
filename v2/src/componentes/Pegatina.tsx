@@ -1,5 +1,5 @@
 const IMAGEN: Record<number, string> = Object.fromEntries(
-  [2, 7, 13, 16, 18, 19, 21].map((n) => [n, `img/p${String(n).padStart(2, "0")}/pegatina.webp`]),
+  [2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 16, 18, 19, 21].map((n) => [n, `img/p${String(n).padStart(2, "0")}/pegatina.webp`]),
 );
 
 export default function Pegatina({ parada, grande = false }: { parada: number; grande?: boolean }) {

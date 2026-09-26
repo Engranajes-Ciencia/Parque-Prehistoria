@@ -670,138 +670,138 @@
   "fecha": "2026-09-26T09:14:13"
  },
  "p02-todos": {
-  "archivo": "p02-todos.52dc703b.mp3",
+  "archivo": "p02-todos.f6e537e5.mp3",
   "parrafos": [
    "Mirad la charca de colores pintada en el suelo. Copia un lugar real: la Gran Fuente Prismática, en Yellowstone, Estados Unidos. Es un manantial caliente del tamaño de un campo de fútbol. Allí, los anillos de colores no los pone la pintura: los ponen seres vivos.",
    "El agua brota por el centro casi hirviendo, tan caliente que ahí no crece ninguna alfombra de color; por eso veis azul, el color del agua limpia y profunda. Hacia los bordes, el agua se enfría, y en cada anillo vive una comunidad distinta de microbios, seres tan pequeños que no se ven. Juntos forman alfombras de colores: amarillas cerca del agua más caliente; naranjas y rojas, más lejos. Los colores funcionan casi como un termómetro.",
    "¿Por qué empezamos aquí? Porque la vida empezó con microbios, y durante muchísimo tiempo no hubo nada más. La Tierra se formó hace unos cuatro mil quinientos millones de años; las huellas de vida más antiguas que casi nadie discute tienen unos tres mil quinientos millones de años. Dónde y cómo surgió la vida, aún no lo sabemos: quizá en aguas calientes como estas, o en fuentes termales del fondo del mar.",
    "Entre aquellos microbios aparecieron las cianobacterias, que se fabricaban la comida con la luz del sol y con agua. Al romper el agua, soltaban un desecho que cambió el planeta: el oxígeno. Muchas formaban alfombras que, capa a capa, levantaban rocas: los estromatolitos. En la bahía Shark, en Australia, todavía crecen.",
    "Al principio, ese oxígeno no se quedaba en el aire: se lo tragaban el hierro del mar y los gases de los volcanes. Pero hace unos dos mil cuatrocientos millones de años empezó a acumularse. Es la Gran Oxidación. Para muchos microbios, aquel gas era un veneno. Hoy es la quinta parte del aire, y cada vez que respiráis usáis algo que empezó siendo el desecho de seres diminutos.",
-   "Una última sorpresa: el verde de las hojas lo ponen los cloroplastos, piezas minúsculas que descienden de cianobacterias que se quedaron a vivir dentro de otras células. Pero durante casi toda esta historia la tierra firme no tuvo ni una planta. En la siguiente parada conoceremos a las primeras que se atrevieron a salir del agua."
+   "Una última sorpresa: el verde de las hojas lo ponen los cloroplastos, piezas minúsculas que descienden de cianobacterias que se quedaron a vivir dentro de otras células. Pero durante casi toda esta historia no hubo ni un solo animal. En la siguiente parada, por fin, el mar se llena de ellos."
   ],
   "frases": [
    {
     "texto": "Mirad la charca de colores pintada en el suelo.",
-    "inicio": 0.04,
-    "fin": 2.734
+    "inicio": 0.0,
+    "fin": 2.554
    },
    {
     "texto": "Copia un lugar real: la Gran Fuente Prismática, en Yellowstone, Estados Unidos.",
-    "inicio": 3.465,
-    "fin": 8.817
+    "inicio": 3.297,
+    "fin": 8.615
    },
    {
     "texto": "Es un manantial caliente del tamaño de un campo de fútbol.",
-    "inicio": 9.537,
-    "fin": 12.765
+    "inicio": 9.3,
+    "fin": 12.353
    },
    {
     "texto": "Allí, los anillos de colores no los pone la pintura: los ponen seres vivos.",
-    "inicio": 13.414,
-    "fin": 18.894
+    "inicio": 13.177,
+    "fin": 18.251
    },
    {
     "texto": "El agua brota por el centro casi hirviendo, tan caliente que ahí no crece ninguna alfombra de color; por eso veis azul, el color del agua limpia y profunda.",
-    "inicio": 20.001,
-    "fin": 29.881
+    "inicio": 19.361,
+    "fin": 29.613
    },
    {
     "texto": "Hacia los bordes, el agua se enfría, y en cada anillo vive una comunidad distinta de microbios, seres tan pequeños que no se ven.",
-    "inicio": 30.52,
-    "fin": 38.89
+    "inicio": 30.286,
+    "fin": 38.749
    },
    {
     "texto": "Juntos forman alfombras de colores: amarillas cerca del agua más caliente; naranjas y rojas, más lejos.",
-    "inicio": 39.529,
-    "fin": 46.483
+    "inicio": 39.411,
+    "fin": 46.795
    },
    {
     "texto": "Los colores funcionan casi como un termómetro.",
-    "inicio": 47.145,
-    "fin": 50.001
+    "inicio": 47.445,
+    "fin": 50.243
    },
    {
     "texto": "¿Por qué empezamos aquí?",
-    "inicio": 51.117,
-    "fin": 52.522
+    "inicio": 51.365,
+    "fin": 52.944
    },
    {
     "texto": "Porque la vida empezó con microbios, y durante muchísimo tiempo no hubo nada más.",
-    "inicio": 53.369,
-    "fin": 58.431
+    "inicio": 53.942,
+    "fin": 58.842
    },
    {
     "texto": "La Tierra se formó hace unos cuatro mil quinientos millones de años; las huellas de vida más antiguas que casi nadie discute tienen unos tres mil quinientos millones de años.",
-    "inicio": 59.221,
-    "fin": 68.717
+    "inicio": 59.55,
+    "fin": 69.57
    },
    {
     "texto": "Dónde y cómo surgió la vida, aún no lo sabemos: quizá en aguas calientes como estas, o en fuentes termales del fondo del mar.",
-    "inicio": 69.402,
-    "fin": 77.82
+    "inicio": 70.266,
+    "fin": 78.393
    },
    {
     "texto": "Entre aquellos microbios aparecieron las cianobacterias, que se fabricaban la comida con la luz del sol y con agua.",
-    "inicio": 78.941,
-    "fin": 85.861
+    "inicio": 79.502,
+    "fin": 86.073
    },
    {
     "texto": "Al romper el agua, soltaban un desecho que cambió el planeta: el oxígeno.",
-    "inicio": 86.534,
-    "fin": 91.41
+    "inicio": 86.723,
+    "fin": 91.449
    },
    {
     "texto": "Muchas formaban alfombras que, capa a capa, levantaban rocas: los estromatolitos.",
-    "inicio": 92.536,
-    "fin": 98.098
+    "inicio": 92.11,
+    "fin": 97.451
    },
    {
     "texto": "En la bahía Shark, en Australia, todavía crecen.",
-    "inicio": 98.98,
-    "fin": 102.625
+    "inicio": 98.124,
+    "fin": 101.7
    },
    {
     "texto": "Al principio, ese oxígeno no se quedaba en el aire: se lo tragaban el hierro del mar y los gases de los volcanes.",
-    "inicio": 103.735,
-    "fin": 110.538
+    "inicio": 102.808,
+    "fin": 109.008
    },
    {
     "texto": "Pero hace unos dos mil cuatrocientos millones de años empezó a acumularse.",
-    "inicio": 111.247,
-    "fin": 115.403
+    "inicio": 109.658,
+    "fin": 114.232
    },
    {
     "texto": "Es la Gran Oxidación.",
-    "inicio": 116.134,
-    "fin": 117.864
+    "inicio": 115.057,
+    "fin": 116.578
    },
    {
     "texto": "Para muchos microbios, aquel gas era un veneno.",
-    "inicio": 118.7,
-    "fin": 122.032
+    "inicio": 117.309,
+    "fin": 120.595
    },
    {
     "texto": "Hoy es la quinta parte del aire, y cada vez que respiráis usáis algo que empezó siendo el desecho de seres diminutos.",
-    "inicio": 122.598,
-    "fin": 129.657
+    "inicio": 121.148,
+    "fin": 128.3
    },
    {
     "texto": "Una última sorpresa: el verde de las hojas lo ponen los cloroplastos, piezas minúsculas que descienden de cianobacterias que se quedaron a vivir dentro de otras células.",
-    "inicio": 130.778,
-    "fin": 141.064
+    "inicio": 129.407,
+    "fin": 139.322
    },
    {
-    "texto": "Pero durante casi toda esta historia la tierra firme no tuvo ni una planta.",
-    "inicio": 141.715,
-    "fin": 146.243
+    "texto": "Pero durante casi toda esta historia no hubo ni un solo animal.",
+    "inicio": 139.984,
+    "fin": 143.861
    },
    {
-    "texto": "En la siguiente parada conoceremos a las primeras que se atrevieron a salir del agua.",
-    "inicio": 146.94,
-    "fin": 151.583
+    "texto": "En la siguiente parada, por fin, el mar se llena de ellos.",
+    "inicio": 144.558,
+    "fin": 148.169
    }
   ],
-  "duracion": 151.6,
+  "duracion": 148.19,
   "voz": "El Richar atenboru",
   "voice_id": "WeuNkKS3AvTwCZZERkQa",
   "modelo": "eleven_multilingual_v2",
@@ -818,8 +818,8 @@
    "parrafo": 1.1
   },
   "frases_por_trozo": 4,
-  "caracteres": 2561,
-  "fecha": "2026-09-26T11:21:25"
+  "caracteres": 2467,
+  "fecha": "2026-09-26T16:45:46"
  },
  "p02-peques": {
   "archivo": "p02-peques.1d814602.mp3",
@@ -3924,5 +3924,4272 @@
   "frases_por_trozo": 4,
   "caracteres": 121,
   "fecha": "2026-09-26T11:23:01"
+ },
+ "p03-todos": {
+  "archivo": "p03-todos.35f4c1ec.mp3",
+  "parrafos": [
+   "Este azul es un mar poco profundo. Durante casi tres mil millones de años, la vida fue casi toda microscópica. Después llegaron los primeros animales, blandos y sencillos. Y hace unos quinientos cuarenta millones de años, el mar empezó a llenarse de animales con caparazón, patas y ojos. Fuera del agua, todavía, ni una planta ni un animal.",
+   "Lo llamamos la explosión cámbrica, aunque duró unos veinte millones de años. Pero si la historia de la Tierra cupiera en un día, ocuparía menos de diez minutos.",
+   "Buscad el fósil alargado y lleno de rayas. Es un trilobites, estrella de aquella explosión. Parece una cochinilla gigante: era pariente lejano de insectos y cangrejos. Este es enorme; casi todos cabían en una mano. Tenía ojos como los de una mosca, de muchas lentes: de los más antiguos que conocemos. Quizá los ojos ayudaron a desatar la explosión: quien ve, puede cazar, y quien es cazado necesita armadura. Los trilobites duraron más de doscientos cincuenta millones de años: unos cien millones más que los grandes dinosaurios.",
+   "Ahora, el fósil enrollado: un amonites. Era pariente de pulpos y calamares, pero con concha. Por dentro tenía cámaras: vivía en la última, la más grande, y las de atrás, llenas de gas, le servían de flotador. Hoy solo los nautilos llevan una concha así, y son primos lejanos. Los amonites llegaron hace algo más de cuatrocientos millones de años, y compartieron el mar con los trilobites más de ciento cincuenta millones. Los trilobites desaparecieron en la mayor extinción de la historia; los amonites la aguantaron por poco, y nadaron hasta el final de los grandes dinosaurios.",
+   "¿Cómo lo sabemos? Por los fósiles. Un amonites muere, cae al fondo y el barro lo tapa. Lo blando se pudre; la concha, no. Con el tiempo, el barro se hace roca, y el agua que se cuela deja minerales que convierten la concha en piedra. Casi ningún ser vivo llega a fósil: cada fósil es una carta que puede tardar millones de años en llegar.",
+   "Cuando llegaron los amonites, aquella tierra vacía ya no lo estaba tanto: la vida había empezado a salir del agua. En la siguiente parada veremos a tres de sus protagonistas: un hongo gigante, un pez de aletas robustas y una libélula enorme."
+  ],
+  "frases": [
+   {
+    "texto": "Este azul es un mar poco profundo.",
+    "inicio": 0.0,
+    "fin": 2.194
+   },
+   {
+    "texto": "Durante casi tres mil millones de años, la vida fue casi toda microscópica.",
+    "inicio": 2.833,
+    "fin": 7.233
+   },
+   {
+    "texto": "Después llegaron los primeros animales, blandos y sencillos.",
+    "inicio": 7.872,
+    "fin": 11.598
+   },
+   {
+    "texto": "Y hace unos quinientos cuarenta millones de años, el mar empezó a llenarse de animales con caparazón, patas y ojos.",
+    "inicio": 12.307,
+    "fin": 19.273
+   },
+   {
+    "texto": "Fuera del agua, todavía, ni una planta ni un animal.",
+    "inicio": 19.829,
+    "fin": 23.637
+   },
+   {
+    "texto": "Lo llamamos la explosión cámbrica, aunque duró unos veinte millones de años.",
+    "inicio": 24.744,
+    "fin": 29.458
+   },
+   {
+    "texto": "Pero si la historia de la Tierra cupiera en un día, ocuparía menos de diez minutos.",
+    "inicio": 30.177,
+    "fin": 35.193
+   },
+   {
+    "texto": "Buscad el fósil alargado y lleno de rayas.",
+    "inicio": 36.294,
+    "fin": 39.243
+   },
+   {
+    "texto": "Es un trilobites, estrella de aquella explosión.",
+    "inicio": 39.905,
+    "fin": 43.341
+   },
+   {
+    "texto": "Parece una cochinilla gigante: era pariente lejano de insectos y cangrejos.",
+    "inicio": 44.015,
+    "fin": 48.635
+   },
+   {
+    "texto": "Este es enorme; casi todos cabían en una mano.",
+    "inicio": 49.309,
+    "fin": 52.409
+   },
+   {
+    "texto": "Tenía ojos como los de una mosca, de muchas lentes: de los más antiguos que conocemos.",
+    "inicio": 52.963,
+    "fin": 58.536
+   },
+   {
+    "texto": "Quizá los ojos ayudaron a desatar la explosión: quien ve, puede cazar, y quien es cazado necesita armadura.",
+    "inicio": 59.221,
+    "fin": 66.721
+   },
+   {
+    "texto": "Los trilobites duraron más de doscientos cincuenta millones de años: unos cien millones más que los grandes dinosaurios.",
+    "inicio": 67.476,
+    "fin": 75.115
+   },
+   {
+    "texto": "Ahora, el fósil enrollado: un amonites.",
+    "inicio": 76.216,
+    "fin": 79.687
+   },
+   {
+    "texto": "Era pariente de pulpos y calamares, pero con concha.",
+    "inicio": 80.407,
+    "fin": 83.6
+   },
+   {
+    "texto": "Por dentro tenía cámaras: vivía en la última, la más grande, y las de atrás, llenas de gas, le servían de flotador.",
+    "inicio": 84.331,
+    "fin": 91.39
+   },
+   {
+    "texto": "Hoy solo los nautilos llevan una concha así, y son primos lejanos.",
+    "inicio": 92.215,
+    "fin": 96.696
+   },
+   {
+    "texto": "Los amonites llegaron hace algo más de cuatrocientos millones de años, y compartieron el mar con los trilobites más de ciento cincuenta millones.",
+    "inicio": 97.247,
+    "fin": 105.142
+   },
+   {
+    "texto": "Los trilobites desaparecieron en la mayor extinción de la historia; los amonites la aguantaron por poco, y nadaron hasta el final de los grandes dinosaurios.",
+    "inicio": 105.792,
+    "fin": 114.662
+   },
+   {
+    "texto": "¿Cómo lo sabemos?",
+    "inicio": 115.772,
+    "fin": 116.956
+   },
+   {
+    "texto": "Por los fósiles.",
+    "inicio": 117.885,
+    "fin": 118.965
+   },
+   {
+    "texto": "Un amonites muere, cae al fondo y el barro lo tapa.",
+    "inicio": 119.603,
+    "fin": 122.924
+   },
+   {
+    "texto": "Lo blando se pudre; la concha, no.",
+    "inicio": 123.586,
+    "fin": 126.732
+   },
+   {
+    "texto": "Con el tiempo, el barro se hace roca, y el agua que se cuela deja minerales que convierten la concha en piedra.",
+    "inicio": 127.294,
+    "fin": 133.819
+   },
+   {
+    "texto": "Casi ningún ser vivo llega a fósil: cada fósil es una carta que puede tardar millones de años en llegar.",
+    "inicio": 134.515,
+    "fin": 141.644
+   },
+   {
+    "texto": "Cuando llegaron los amonites, aquella tierra vacía ya no lo estaba tanto: la vida había empezado a salir del agua.",
+    "inicio": 142.763,
+    "fin": 149.439
+   },
+   {
+    "texto": "En la siguiente parada veremos a tres de sus protagonistas: un hongo gigante, un pez de aletas robustas y una libélula enorme.",
+    "inicio": 150.135,
+    "fin": 158.553
+   }
+  ],
+  "duracion": 158.57,
+  "voz": "El Richar atenboru",
+  "voice_id": "WeuNkKS3AvTwCZZERkQa",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.49,
+   "similarity_boost": 0.43,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.55,
+   "pregunta": 0.8,
+   "parrafo": 1.1
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 2580,
+  "fecha": "2026-09-26T16:46:16"
+ },
+ "p03-peques": {
+  "archivo": "p03-peques.cea9ff10.mp3",
+  "parrafos": [
+   "¡Hola, exploradores! Soy Alba, la viajera del tiempo.",
+   "¿Veis este mar azul? Buscad encima dos animales de piedra. El alargado, con rayas, es un trilobites. El enrollado es un amonites, ¡primo de los pulpos!",
+   "Yo los he visto vivos, porque he estado allí, en un mar de hace muchísimo tiempo. El trilobites caminaba por el fondo con sus patitas, y el amonites nadaba por encima.",
+   "Pero estos no se mueven: son fósiles. Un fósil es lo que queda de un ser vivo de hace muchísimo tiempo, convertido en piedra.",
+   "¿Cómo se convierte una concha en piedra? ¡Descubridlo en el reto!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Hola, exploradores!",
+    "inicio": 0.0,
+    "fin": 1.358
+   },
+   {
+    "texto": "Soy Alba, la viajera del tiempo.",
+    "inicio": 1.927,
+    "fin": 4.412
+   },
+   {
+    "texto": "¿Veis este mar azul?",
+    "inicio": 5.316,
+    "fin": 6.79
+   },
+   {
+    "texto": "Buscad encima dos animales de piedra.",
+    "inicio": 7.847,
+    "fin": 10.262
+   },
+   {
+    "texto": "El alargado, con rayas, es un trilobites.",
+    "inicio": 10.866,
+    "fin": 13.873
+   },
+   {
+    "texto": "El enrollado es un amonites, ¡primo de los pulpos!",
+    "inicio": 14.453,
+    "fin": 18.366
+   },
+   {
+    "texto": "Yo los he visto vivos, porque he estado allí, en un mar de hace muchísimo tiempo.",
+    "inicio": 19.278,
+    "fin": 24.259
+   },
+   {
+    "texto": "El trilobites caminaba por el fondo con sus patitas, y el amonites nadaba por encima.",
+    "inicio": 24.816,
+    "fin": 30.609
+   },
+   {
+    "texto": "Pero estos no se mueven: son fósiles.",
+    "inicio": 31.516,
+    "fin": 34.128
+   },
+   {
+    "texto": "Un fósil es lo que queda de un ser vivo de hace muchísimo tiempo, convertido en piedra.",
+    "inicio": 34.697,
+    "fin": 40.2
+   },
+   {
+    "texto": "¿Cómo se convierte una concha en piedra?",
+    "inicio": 41.116,
+    "fin": 43.484
+   },
+   {
+    "texto": "¡Descubridlo en el reto!",
+    "inicio": 44.541,
+    "fin": 46.271
+   }
+  ],
+  "duracion": 46.29,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 715,
+  "fecha": "2026-09-26T16:46:25"
+ },
+ "p03-mision": {
+  "archivo": "p03-mision.2a8180f9.mp3",
+  "parrafos": [
+   "¡Buscad los dos fósiles que hay sobre el agua azul! Miradlos desde fuera, sin pisar el agua. ¿Cuál es el trilobites y cuál el amonites?",
+   "Con el dedo, en el aire, seguid la espiral del amonites desde el centro hacia fuera. ¿Cuántas vueltas da?",
+   "Y ahora, haced como el trilobites para protegerse: ¡enrollaos como una bola!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Buscad los dos fósiles que hay sobre el agua azul!",
+    "inicio": 0.0,
+    "fin": 3.1
+   },
+   {
+    "texto": "Miradlos desde fuera, sin pisar el agua.",
+    "inicio": 3.68,
+    "fin": 6.142
+   },
+   {
+    "texto": "¿Cuál es el trilobites y cuál el amonites?",
+    "inicio": 6.699,
+    "fin": 9.752
+   },
+   {
+    "texto": "Con el dedo, en el aire, seguid la espiral del amonites desde el centro hacia fuera.",
+    "inicio": 10.771,
+    "fin": 15.74
+   },
+   {
+    "texto": "¿Cuántas vueltas da?",
+    "inicio": 16.355,
+    "fin": 17.783
+   },
+   {
+    "texto": "Y ahora, haced como el trilobites para protegerse: ¡enrollaos como una bola!",
+    "inicio": 18.799,
+    "fin": 23.861
+   }
+  ],
+  "duracion": 23.87,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 382,
+  "fecha": "2026-09-26T16:46:30"
+ },
+ "p03-reto-al-empezar": {
+  "archivo": "p03-reto-al-empezar.6a6f44bb.mp3",
+  "parrafos": [
+   "¿Cómo se hace un fósil? ¡Pon las tarjetas en orden! ¿Qué pasa primero?"
+  ],
+  "frases": [
+   {
+    "texto": "¿Cómo se hace un fósil?",
+    "inicio": 0.0,
+    "fin": 1.358
+   },
+   {
+    "texto": "¡Pon las tarjetas en orden!",
+    "inicio": 2.403,
+    "fin": 3.866
+   },
+   {
+    "texto": "¿Qué pasa primero?",
+    "inicio": 4.423,
+    "fin": 5.991
+   }
+  ],
+  "duracion": 6.01,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 114,
+  "fecha": "2026-09-26T16:46:31"
+ },
+ "p03-reto-tarjeta-1": {
+  "archivo": "p03-reto-tarjeta-1.8dff2189.mp3",
+  "parrafos": [
+   "¡Sí! Primero, el amonites nada en el mar."
+  ],
+  "frases": [
+   {
+    "texto": "¡Sí!",
+    "inicio": 0.0,
+    "fin": 0.418
+   },
+   {
+    "texto": "Primero, el amonites nada en el mar.",
+    "inicio": 0.964,
+    "fin": 3.111
+   }
+  ],
+  "duracion": 3.14,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 63,
+  "fecha": "2026-09-26T16:46:32"
+ },
+ "p03-reto-tarjeta-2": {
+  "archivo": "p03-reto-tarjeta-2.09b4b864.mp3",
+  "parrafos": [
+   "¡Eso es! Cuando muere, cae al fondo y el barro lo tapa."
+  ],
+  "frases": [
+   {
+    "texto": "¡Eso es!",
+    "inicio": 0.0,
+    "fin": 0.708
+   },
+   {
+    "texto": "Cuando muere, cae al fondo y el barro lo tapa.",
+    "inicio": 1.277,
+    "fin": 4.133
+   }
+  ],
+  "duracion": 4.15,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 77,
+  "fecha": "2026-09-26T16:46:33"
+ },
+ "p03-reto-tarjeta-3": {
+  "archivo": "p03-reto-tarjeta-3.21fb85e8.mp3",
+  "parrafos": [
+   "¡Muy bien! Pasa muchísimo tiempo y la concha se vuelve piedra."
+  ],
+  "frases": [
+   {
+    "texto": "¡Muy bien!",
+    "inicio": 0.0,
+    "fin": 0.72
+   },
+   {
+    "texto": "Pasa muchísimo tiempo y la concha se vuelve piedra.",
+    "inicio": 1.265,
+    "fin": 4.737
+   }
+  ],
+  "duracion": 4.76,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 84,
+  "fecha": "2026-09-26T16:46:34"
+ },
+ "p03-reto-tarjeta-4": {
+  "archivo": "p03-reto-tarjeta-4.2d5210c3.mp3",
+  "parrafos": [
+   "¡Genial! Alguien excava… ¡y aparece el fósil!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Genial!",
+    "inicio": 0.0,
+    "fin": 0.975
+   },
+   {
+    "texto": "Alguien excava…",
+    "inicio": 1.533,
+    "fin": 2.67
+   },
+   {
+    "texto": "¡y aparece el fósil!",
+    "inicio": 3.216,
+    "fin": 4.737
+   }
+  ],
+  "duracion": 4.76,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 89,
+  "fecha": "2026-09-26T16:46:35"
+ },
+ "p03-reto-fallo": {
+  "archivo": "p03-reto-fallo.88ea4f2e.mp3",
+  "parrafos": [
+   "¡Uy, ahí no va! Mira bien el dibujo y prueba otra vez."
+  ],
+  "frases": [
+   {
+    "texto": "¡Uy, ahí no va!",
+    "inicio": 0.0,
+    "fin": 1.045
+   },
+   {
+    "texto": "Mira bien el dibujo y prueba otra vez.",
+    "inicio": 1.591,
+    "fin": 3.901
+   }
+  ],
+  "duracion": 3.92,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 76,
+  "fecha": "2026-09-26T16:46:37"
+ },
+ "p03-reto-al-terminar": {
+  "archivo": "p03-reto-al-terminar.71addc11.mp3",
+  "parrafos": [
+   "¡Ya sabes cómo se hace un fósil! Hace falta muchísimo tiempo. ¡Toma tu pegatina!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Ya sabes cómo se hace un fósil!",
+    "inicio": 0.0,
+    "fin": 1.718
+   },
+   {
+    "texto": "Hace falta muchísimo tiempo.",
+    "inicio": 2.276,
+    "fin": 3.924
+   },
+   {
+    "texto": "¡Toma tu pegatina!",
+    "inicio": 4.47,
+    "fin": 5.851
+   }
+  ],
+  "duracion": 5.85,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 124,
+  "fecha": "2026-09-26T16:46:39"
+ },
+ "p04-todos": {
+  "archivo": "p04-todos.ae956f2e.mp3",
+  "parrafos": [
+   "Salir del agua fue una de las grandes aventuras de la vida. Durante casi toda su historia, la tierra firme fue un desierto de roca: ni una planta, ni un animal.",
+   "Hace más de cuatrocientos millones de años, las plantas ya se habían asomado a tierra, pero eran diminutas: casi ninguna os llegaría a la rodilla. Y entre ellas se alzaban estas columnas blancas, los Prototaxites. Los mayores medían unos ocho metros, más que una jirafa. Durante mucho tiempo, nada en tierra firme fue más alto. La más alta de aquí mide menos de tres: los de verdad eran casi el triple.",
+   "¿Y qué eran? Primero se tomaron por troncos podridos; luego, por algas. Durante años se ha pensado que eran un hongo gigante. Pero un estudio reciente propone otra cosa: un grupo de seres desaparecido del todo, sin parientes cercanos. El debate sigue abierto.",
+   "Mucho después, algunos peces de río se acercaban a la orilla. Bajad la vista: a la izquierda de las columnas, dibujado en el suelo como un fósil, está uno de ellos, el Tiktaalik. Vivió hace unos trescientos setenta y cinco millones de años. Era un pez, pero de cabeza plana y con los ojos encima, como un cocodrilo. Tenía cuello, algo raro en un pez. En las aletas de delante llevaba huesos como los de vuestro brazo: uno, luego dos, luego varios pequeños. Con ellas podía apoyarse en el fondo, donde el agua cubría poco.",
+   "No es nuestro antepasado, sino un primo de los primeros animales de cuatro patas, de los que descienden las ranas, los lagartos, los pájaros… y nosotros. Doblad el codo: ese plan de huesos ya estaba en peces como él.",
+   "Un aviso: el parque junta aquí seres de épocas distintas. La otra figura del suelo, la Meganeura, prima gigante de nuestras libélulas, llegó más de setenta millones de años después. Con las alas abiertas medía unos setenta centímetros, como una paloma, y cazaba otros insectos. ¿Por qué tan grande? Quizá porque el aire tenía más oxígeno que hoy, y porque aún no había pájaros que la cazaran. Los científicos siguen discutiéndolo.",
+   "Aquel aire tan rico se debía, en buena parte, a los bosques. Los primeros, con madera y raíces profundas, crecieron incluso antes que el Tiktaalik, hace unos trescientos ochenta y cinco millones de años. Os esperan en la siguiente parada."
+  ],
+  "frases": [
+   {
+    "texto": "Salir del agua fue una de las grandes aventuras de la vida.",
+    "inicio": 0.0,
+    "fin": 3.274
+   },
+   {
+    "texto": "Durante casi toda su historia, la tierra firme fue un desierto de roca: ni una planta, ni un animal.",
+    "inicio": 4.063,
+    "fin": 11.146
+   },
+   {
+    "texto": "Hace más de cuatrocientos millones de años, las plantas ya se habían asomado a tierra, pero eran diminutas: casi ninguna os llegaría a la rodilla.",
+    "inicio": 12.255,
+    "fin": 20.672
+   },
+   {
+    "texto": "Y entre ellas se alzaban estas columnas blancas, los Prototaxites.",
+    "inicio": 21.369,
+    "fin": 25.792
+   },
+   {
+    "texto": "Los mayores medían unos ocho metros, más que una jirafa.",
+    "inicio": 26.454,
+    "fin": 29.809
+   },
+   {
+    "texto": "Durante mucho tiempo, nada en tierra firme fue más alto.",
+    "inicio": 30.459,
+    "fin": 34.128
+   },
+   {
+    "texto": "La más alta de aquí mide menos de tres: los de verdad eran casi el triple.",
+    "inicio": 34.697,
+    "fin": 39.248
+   },
+   {
+    "texto": "¿Y qué eran?",
+    "inicio": 40.37,
+    "fin": 41.345
+   },
+   {
+    "texto": "Primero se tomaron por troncos podridos; luego, por algas.",
+    "inicio": 42.251,
+    "fin": 46.047
+   },
+   {
+    "texto": "Durante años se ha pensado que eran un hongo gigante.",
+    "inicio": 46.686,
+    "fin": 49.983
+   },
+   {
+    "texto": "Pero un estudio reciente propone otra cosa: un grupo de seres desaparecido del todo, sin parientes cercanos.",
+    "inicio": 50.645,
+    "fin": 57.46
+   },
+   {
+    "texto": "El debate sigue abierto.",
+    "inicio": 58.031,
+    "fin": 59.564
+   },
+   {
+    "texto": "Mucho después, algunos peces de río se acercaban a la orilla.",
+    "inicio": 60.673,
+    "fin": 64.098
+   },
+   {
+    "texto": "Bajad la vista: a la izquierda de las columnas, dibujado en el suelo como un fósil, está uno de ellos, el Tiktaalik.",
+    "inicio": 65.038,
+    "fin": 71.981
+   },
+   {
+    "texto": "Vivió hace unos trescientos setenta y cinco millones de años.",
+    "inicio": 72.875,
+    "fin": 76.138
+   },
+   {
+    "texto": "Era un pez, pero de cabeza plana y con los ojos encima, como un cocodrilo.",
+    "inicio": 76.823,
+    "fin": 81.757
+   },
+   {
+    "texto": "Tenía cuello, algo raro en un pez.",
+    "inicio": 82.331,
+    "fin": 84.792
+   },
+   {
+    "texto": "En las aletas de delante llevaba huesos como los de vuestro brazo: uno, luego dos, luego varios pequeños.",
+    "inicio": 85.535,
+    "fin": 92.258
+   },
+   {
+    "texto": "Con ellas podía apoyarse en el fondo, donde el agua cubría poco.",
+    "inicio": 93.024,
+    "fin": 97.517
+   },
+   {
+    "texto": "No es nuestro antepasado, sino un primo de los primeros animales de cuatro patas, de los que descienden las ranas, los lagartos, los pájaros… y nosotros.",
+    "inicio": 98.635,
+    "fin": 107.818
+   },
+   {
+    "texto": "Doblad el codo: ese plan de huesos ya estaba en peces como él.",
+    "inicio": 108.573,
+    "fin": 112.799
+   },
+   {
+    "texto": "Un aviso: el parque junta aquí seres de épocas distintas.",
+    "inicio": 113.921,
+    "fin": 117.787
+   },
+   {
+    "texto": "La otra figura del suelo, la Meganeura, prima gigante de nuestras libélulas, llegó más de setenta millones de años después.",
+    "inicio": 118.6,
+    "fin": 125.786
+   },
+   {
+    "texto": "Con las alas abiertas medía unos setenta centímetros, como una paloma, y cazaba otros insectos.",
+    "inicio": 126.494,
+    "fin": 132.113
+   },
+   {
+    "texto": "¿Por qué tan grande?",
+    "inicio": 132.798,
+    "fin": 134.586
+   },
+   {
+    "texto": "Quizá porque el aire tenía más oxígeno que hoy, y porque aún no había pájaros que la cazaran.",
+    "inicio": 135.411,
+    "fin": 140.554
+   },
+   {
+    "texto": "Los científicos siguen discutiéndolo.",
+    "inicio": 141.239,
+    "fin": 143.399
+   },
+   {
+    "texto": "Aquel aire tan rico se debía, en buena parte, a los bosques.",
+    "inicio": 144.506,
+    "fin": 148.244
+   },
+   {
+    "texto": "Los primeros, con madera y raíces profundas, crecieron incluso antes que el Tiktaalik, hace unos trescientos ochenta y cinco millones de años.",
+    "inicio": 148.906,
+    "fin": 157.114
+   },
+   {
+    "texto": "Os esperan en la siguiente parada.",
+    "inicio": 157.753,
+    "fin": 159.831
+   }
+  ],
+  "duracion": 159.84,
+  "voz": "El Richar atenboru",
+  "voice_id": "WeuNkKS3AvTwCZZERkQa",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.49,
+   "similarity_boost": 0.43,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.55,
+   "pregunta": 0.8,
+   "parrafo": 1.1
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 2640,
+  "fecha": "2026-09-26T16:47:06"
+ },
+ "p04-peques": {
+  "archivo": "p04-peques.54eb08fc.mp3",
+  "parrafos": [
+   "¡Hola, exploradores! Soy Alba, la viajera del tiempo.",
+   "Mirad al suelo, sin pisar: ¿veis ese pez? Se llama Tiktaalik. Yo lo he visto nadar en su río, y era un pez muy raro: ¡tenía en las aletas huesos como los de vuestros brazos!",
+   "Doblad el brazo. ¿Notáis el codo? ¡Pues él también tenía codos! Con sus aletas se apoyaba en el fondo del río, donde cubría poco.",
+   "Esas columnas blancas tan altas son todavía más antiguas. Y la libélula gigante… ¡llegó muchísimo después! ¿Sabréis ponerlos en orden? ¡Vamos al reto!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Hola, exploradores!",
+    "inicio": 0.0,
+    "fin": 1.683
+   },
+   {
+    "texto": "Soy Alba, la viajera del tiempo.",
+    "inicio": 2.241,
+    "fin": 4.876
+   },
+   {
+    "texto": "Mirad al suelo, sin pisar: ¿veis ese pez?",
+    "inicio": 5.786,
+    "fin": 8.7
+   },
+   {
+    "texto": "Se llama Tiktaalik.",
+    "inicio": 9.768,
+    "fin": 11.208
+   },
+   {
+    "texto": "Yo lo he visto nadar en su río, y era un pez muy raro: ¡tenía en las aletas huesos como los de vuestros brazos!",
+    "inicio": 11.881,
+    "fin": 18.928
+   },
+   {
+    "texto": "Doblad el brazo.",
+    "inicio": 19.853,
+    "fin": 21.06
+   },
+   {
+    "texto": "¿Notáis el codo?",
+    "inicio": 21.641,
+    "fin": 23.046
+   },
+   {
+    "texto": "¡Pues él también tenía codos!",
+    "inicio": 24.16,
+    "fin": 26.32
+   },
+   {
+    "texto": "Con sus aletas se apoyaba en el fondo del río, donde cubría poco.",
+    "inicio": 26.935,
+    "fin": 31.788
+   },
+   {
+    "texto": "Esas columnas blancas tan altas son todavía más antiguas.",
+    "inicio": 32.692,
+    "fin": 36.628
+   },
+   {
+    "texto": "Y la libélula gigante…",
+    "inicio": 37.243,
+    "fin": 39.043
+   },
+   {
+    "texto": "¡llegó muchísimo después!",
+    "inicio": 39.739,
+    "fin": 41.539
+   },
+   {
+    "texto": "¿Sabréis ponerlos en orden?",
+    "inicio": 42.096,
+    "fin": 43.977
+   },
+   {
+    "texto": "¡Vamos al reto!",
+    "inicio": 44.978,
+    "fin": 46.325
+   }
+  ],
+  "duracion": 46.34,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 702,
+  "fecha": "2026-09-26T16:47:16"
+ },
+ "p04-mision": {
+  "archivo": "p04-mision.dc766345.mp3",
+  "parrafos": [
+   "¡Buscad el pez del suelo, sin pisarlo! ¿Dónde tiene los ojos: a los lados, como casi todos los peces, o encima de la cabeza, como los cocodrilos?",
+   "Ahora mirad la columna blanca más alta. ¿Cuántos exploradores, uno encima de otro, harían falta para llegar arriba? ¡Para los más grandes de verdad, harían falta unos siete!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Buscad el pez del suelo, sin pisarlo!",
+    "inicio": 0.0,
+    "fin": 2.485
+   },
+   {
+    "texto": "¿Dónde tiene los ojos: a los lados, como casi todos los peces, o encima de la cabeza, como los cocodrilos?",
+    "inicio": 3.03,
+    "fin": 10.728
+   },
+   {
+    "texto": "Ahora mirad la columna blanca más alta.",
+    "inicio": 11.737,
+    "fin": 14.419
+   },
+   {
+    "texto": "¿Cuántos exploradores, uno encima de otro, harían falta para llegar arriba?",
+    "inicio": 14.999,
+    "fin": 20.595
+   },
+   {
+    "texto": "¡Para los más grandes de verdad, harían falta unos siete!",
+    "inicio": 21.687,
+    "fin": 25.437
+   }
+  ],
+  "duracion": 25.45,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 384,
+  "fecha": "2026-09-26T16:47:21"
+ },
+ "p04-reto-al-empezar": {
+  "archivo": "p04-reto-al-empezar.70e372a6.mp3",
+  "parrafos": [
+   "¿Quién vivió antes? Arrastra a cada uno a su hueco. ¡El más antiguo va el primero!"
+  ],
+  "frases": [
+   {
+    "texto": "¿Quién vivió antes?",
+    "inicio": 0.0,
+    "fin": 1.405
+   },
+   {
+    "texto": "Arrastra a cada uno a su hueco.",
+    "inicio": 2.461,
+    "fin": 4.47
+   },
+   {
+    "texto": "¡El más antiguo va el primero!",
+    "inicio": 5.074,
+    "fin": 7.059
+   }
+  ],
+  "duracion": 7.08,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 126,
+  "fecha": "2026-09-26T16:47:22"
+ },
+ "p04-reto-acierto-prototaxites": {
+  "archivo": "p04-reto-acierto-prototaxites.5c54360f.mp3",
+  "parrafos": [
+   "¡Sí! El Prototaxites llegó el primero."
+  ],
+  "frases": [
+   {
+    "texto": "¡Sí!",
+    "inicio": 0.0,
+    "fin": 0.569
+   },
+   {
+    "texto": "El Prototaxites llegó el primero.",
+    "inicio": 1.115,
+    "fin": 3.158
+   }
+  ],
+  "duracion": 3.16,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 60,
+  "fecha": "2026-09-26T16:47:23"
+ },
+ "p04-reto-acierto-tiktaalik": {
+  "archivo": "p04-reto-acierto-tiktaalik.76ab6e17.mp3",
+  "parrafos": [
+   "¡Eso es! Luego llegó el pez con codos."
+  ],
+  "frases": [
+   {
+    "texto": "¡Eso es!",
+    "inicio": 0.0,
+    "fin": 0.848
+   },
+   {
+    "texto": "Luego llegó el pez con codos.",
+    "inicio": 1.416,
+    "fin": 3.204
+   }
+  ],
+  "duracion": 3.21,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 60,
+  "fecha": "2026-09-26T16:47:24"
+ },
+ "p04-reto-acierto-meganeura": {
+  "archivo": "p04-reto-acierto-meganeura.d1aa9d0c.mp3",
+  "parrafos": [
+   "¡Bravo! La libélula gigante llegó la última."
+  ],
+  "frases": [
+   {
+    "texto": "¡Bravo!",
+    "inicio": 0.0,
+    "fin": 0.673
+   },
+   {
+    "texto": "La libélula gigante llegó la última.",
+    "inicio": 1.242,
+    "fin": 3.39
+   }
+  ],
+  "duracion": 3.4,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 66,
+  "fecha": "2026-09-26T16:47:25"
+ },
+ "p04-reto-fallo": {
+  "archivo": "p04-reto-fallo.857e7399.mp3",
+  "parrafos": [
+   "¡Ahí no! Piensa: ¿quién llegó antes?"
+  ],
+  "frases": [
+   {
+    "texto": "¡Ahí no!",
+    "inicio": 0.0,
+    "fin": 0.743
+   },
+   {
+    "texto": "Piensa: ¿quién llegó antes?",
+    "inicio": 1.3,
+    "fin": 3.437
+   }
+  ],
+  "duracion": 3.45,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 58,
+  "fecha": "2026-09-26T16:47:26"
+ },
+ "p04-reto-al-terminar": {
+  "archivo": "p04-reto-al-terminar.48d00de4.mp3",
+  "parrafos": [
+   "¡Ordenados! Aquí están juntos, pero no vivieron todos a la vez. ¡Toma tu pegatina!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Ordenados!",
+    "inicio": 0.0,
+    "fin": 0.929
+   },
+   {
+    "texto": "Aquí están juntos, pero no vivieron todos a la vez.",
+    "inicio": 1.498,
+    "fin": 4.423
+   },
+   {
+    "texto": "¡Toma tu pegatina!",
+    "inicio": 4.992,
+    "fin": 6.78
+   }
+  ],
+  "duracion": 6.79,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 126,
+  "fecha": "2026-09-26T16:47:27"
+ },
+ "p05-todos": {
+  "archivo": "p05-todos.89b11f15.mp3",
+  "parrafos": [
+   "Mirad estos árboles. Hoy los vemos por todas partes, pero durante muchísimo tiempo no hubo ni uno. Las primeras plantas que salieron del agua medían unos pocos centímetros: no os habrían llegado ni a los tobillos. Por eso el Prototaxites de la parada anterior sobresalía como una torre.",
+   "Hace unos trescientos ochenta y cinco millones de años, el paisaje ya era otro: había bosques. Algunos árboles parecían palmeras o helechos gigantes. Otros, como el Archaeopteris, tenían una madera muy parecida a la de los pinos. Pero ninguno tenía flores, ni frutos, ni semillas. Se reproducían con esporas, un polvo finísimo que se lleva el viento, como los helechos.",
+   "Con los árboles llegaron dos grandes novedades. La primera, la madera: fijaos en el tronco de estos árboles. Por dentro es como un manojo de pajitas muy duras, pegadas unas a otras. Por ellas sube el agua hasta las hojas, y sus paredes firmes sostienen el árbol contra el viento. La segunda, las raíces profundas. Como las que hoy levantan las baldosas de una acera, se colaron por las grietas y partieron la roca. Mezclada con hojas muertas, la roca rota se fue convirtiendo en suelo.",
+   "Y cambiaron el aire. Aunque parezca mentira, la madera está hecha sobre todo de aire: del dióxido de carbono que las hojas atrapan y convierten en tronco y ramas con la luz del sol. Durante millones de años, los bosques sacaron del aire muchísimo de ese gas, uno de los que abrigan el planeta. Probablemente por eso la Tierra se fue enfriando.",
+   "Decenas de millones de años después crecieron enormes bosques en pantanos. Los árboles que caían al agua quieta no llegaban a pudrirse del todo. Enterrados y aplastados durante millones de años, se convirtieron en carbón. Por eso aquel periodo se llama Carbonífero. Buena parte del carbón que movió las primeras máquinas de vapor salió de aquellos bosques. Al quemarlo, devolvemos al aire lo que ellos guardaron.",
+   "Pero a esos bosques les faltaba algo. Pasaron los pantanos del carbón, llegaron los dinosaurios… y ni una flor. Más de doscientos millones de años de bosques sin un solo pétalo. ¿Qué tiene de especial una flor? Lo descubriréis en la siguiente parada."
+  ],
+  "frases": [
+   {
+    "texto": "Mirad estos árboles.",
+    "inicio": 0.0,
+    "fin": 1.556
+   },
+   {
+    "texto": "Hoy los vemos por todas partes, pero durante muchísimo tiempo no hubo ni uno.",
+    "inicio": 2.194,
+    "fin": 6.722
+   },
+   {
+    "texto": "Las primeras plantas que salieron del agua medían unos pocos centímetros: no os habrían llegado ni a los tobillos.",
+    "inicio": 7.396,
+    "fin": 13.839
+   },
+   {
+    "texto": "Por eso el Prototaxites de la parada anterior sobresalía como una torre.",
+    "inicio": 14.478,
+    "fin": 18.483
+   },
+   {
+    "texto": "Hace unos trescientos ochenta y cinco millones de años, el paisaje ya era otro: había bosques.",
+    "inicio": 19.596,
+    "fin": 25.54
+   },
+   {
+    "texto": "Algunos árboles parecían palmeras o helechos gigantes.",
+    "inicio": 26.19,
+    "fin": 29.557
+   },
+   {
+    "texto": "Otros, como el Archaeopteris, tenían una madera muy parecida a la de los pinos.",
+    "inicio": 30.219,
+    "fin": 34.712
+   },
+   {
+    "texto": "Pero ninguno tenía flores, ni frutos, ni semillas.",
+    "inicio": 35.409,
+    "fin": 39.472
+   },
+   {
+    "texto": "Se reproducían con esporas, un polvo finísimo que se lleva el viento, como los helechos.",
+    "inicio": 40.026,
+    "fin": 45.785
+   },
+   {
+    "texto": "Con los árboles llegaron dos grandes novedades.",
+    "inicio": 46.9,
+    "fin": 49.466
+   },
+   {
+    "texto": "La primera, la madera: fijaos en el tronco de estos árboles.",
+    "inicio": 50.174,
+    "fin": 54.156
+   },
+   {
+    "texto": "Por dentro es como un manojo de pajitas muy duras, pegadas unas a otras.",
+    "inicio": 54.888,
+    "fin": 58.916
+   },
+   {
+    "texto": "Por ellas sube el agua hasta las hojas, y sus paredes firmes sostienen el árbol contra el viento.",
+    "inicio": 59.647,
+    "fin": 65.15
+   },
+   {
+    "texto": "La segunda, las raíces profundas.",
+    "inicio": 65.711,
+    "fin": 68.312
+   },
+   {
+    "texto": "Como las que hoy levantan las baldosas de una acera, se colaron por las grietas y partieron la roca.",
+    "inicio": 68.95,
+    "fin": 74.581
+   },
+   {
+    "texto": "Mezclada con hojas muertas, la roca rota se fue convirtiendo en suelo.",
+    "inicio": 75.312,
+    "fin": 79.829
+   },
+   {
+    "texto": "Y cambiaron el aire.",
+    "inicio": 80.944,
+    "fin": 82.256
+   },
+   {
+    "texto": "Aunque parezca mentira, la madera está hecha sobre todo de aire: del dióxido de carbono que las hojas atrapan y convierten en tronco y ramas con la luz del sol.",
+    "inicio": 82.941,
+    "fin": 92.02
+   },
+   {
+    "texto": "Durante millones de años, los bosques sacaron del aire muchísimo de ese gas, uno de los que abrigan el planeta.",
+    "inicio": 92.705,
+    "fin": 98.939
+   },
+   {
+    "texto": "Probablemente por eso la Tierra se fue enfriando.",
+    "inicio": 99.647,
+    "fin": 102.399
+   },
+   {
+    "texto": "Decenas de millones de años después crecieron enormes bosques en pantanos.",
+    "inicio": 103.518,
+    "fin": 107.907
+   },
+   {
+    "texto": "Los árboles que caían al agua quieta no llegaban a pudrirse del todo.",
+    "inicio": 108.731,
+    "fin": 112.667
+   },
+   {
+    "texto": "Enterrados y aplastados durante millones de años, se convirtieron en carbón.",
+    "inicio": 113.34,
+    "fin": 117.821
+   },
+   {
+    "texto": "Por eso aquel periodo se llama Carbonífero.",
+    "inicio": 118.529,
+    "fin": 121.536
+   },
+   {
+    "texto": "Buena parte del carbón que movió las primeras máquinas de vapor salió de aquellos bosques.",
+    "inicio": 122.093,
+    "fin": 126.9
+   },
+   {
+    "texto": "Al quemarlo, devolvemos al aire lo que ellos guardaron.",
+    "inicio": 127.619,
+    "fin": 131.056
+   },
+   {
+    "texto": "Pero a esos bosques les faltaba algo.",
+    "inicio": 132.181,
+    "fin": 134.538
+   },
+   {
+    "texto": "Pasaron los pantanos del carbón, llegaron los dinosaurios… y ni una flor.",
+    "inicio": 135.223,
+    "fin": 139.855
+   },
+   {
+    "texto": "Más de doscientos millones de años de bosques sin un solo pétalo.",
+    "inicio": 140.552,
+    "fin": 143.954
+   },
+   {
+    "texto": "¿Qué tiene de especial una flor?",
+    "inicio": 144.604,
+    "fin": 147.042
+   },
+   {
+    "texto": "Lo descubriréis en la siguiente parada.",
+    "inicio": 147.845,
+    "fin": 149.888
+   }
+  ],
+  "duracion": 149.91,
+  "voz": "El Richar atenboru",
+  "voice_id": "WeuNkKS3AvTwCZZERkQa",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.49,
+   "similarity_boost": 0.43,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.55,
+   "pregunta": 0.8,
+   "parrafo": 1.1
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 2602,
+  "fecha": "2026-09-26T16:47:56"
+ },
+ "p05-peques": {
+  "archivo": "p05-peques.3ca8fd58.mp3",
+  "parrafos": [
+   "¡Hola, exploradores! Soy Alba, la viajera del tiempo.",
+   "¿Sabéis que hubo un tiempo sin árboles? ¡Yo lo he visto! Las primeras plantas eran bajitas, bajitas: no me llegaban ni a los tobillos.",
+   "Luego viajé más adelante en el tiempo y… ¡sorpresa! ¡Había árboles! Algunos, más altos que una casa. ¿Sabéis cuál era su truco? Un tronco duro de madera, para no caerse con el viento, y raíces largas, bien agarradas al suelo.",
+   "Mirad estos árboles: ¿veis su tronco? ¿Me ayudáis a construir uno de aquellos primeros árboles? ¡Vamos al reto!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Hola, exploradores!",
+    "inicio": 0.0,
+    "fin": 1.335
+   },
+   {
+    "texto": "Soy Alba, la viajera del tiempo.",
+    "inicio": 1.916,
+    "fin": 4.272
+   },
+   {
+    "texto": "¿Sabéis que hubo un tiempo sin árboles?",
+    "inicio": 5.185,
+    "fin": 7.461
+   },
+   {
+    "texto": "¡Yo lo he visto!",
+    "inicio": 8.517,
+    "fin": 9.678
+   },
+   {
+    "texto": "Las primeras plantas eran bajitas, bajitas: no me llegaban ni a los tobillos.",
+    "inicio": 10.235,
+    "fin": 15.82
+   },
+   {
+    "texto": "Luego viajé más adelante en el tiempo y…",
+    "inicio": 16.744,
+    "fin": 19.542
+   },
+   {
+    "texto": "¡sorpresa!",
+    "inicio": 20.088,
+    "fin": 21.342
+   },
+   {
+    "texto": "¡Había árboles!",
+    "inicio": 21.91,
+    "fin": 23.234
+   },
+   {
+    "texto": "Algunos, más altos que una casa.",
+    "inicio": 23.78,
+    "fin": 26.589
+   },
+   {
+    "texto": "¿Sabéis cuál era su truco?",
+    "inicio": 27.093,
+    "fin": 28.962
+   },
+   {
+    "texto": "Un tronco duro de madera, para no caerse con el viento, y raíces largas, bien agarradas al suelo.",
+    "inicio": 30.007,
+    "fin": 36.938
+   },
+   {
+    "texto": "Mirad estos árboles: ¿veis su tronco?",
+    "inicio": 37.843,
+    "fin": 40.235
+   },
+   {
+    "texto": "¿Me ayudáis a construir uno de aquellos primeros árboles?",
+    "inicio": 41.291,
+    "fin": 44.484
+   },
+   {
+    "texto": "¡Vamos al reto!",
+    "inicio": 45.529,
+    "fin": 47.038
+   }
+  ],
+  "duracion": 47.04,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 720,
+  "fecha": "2026-09-26T16:48:06"
+ },
+ "p05-mision": {
+  "archivo": "p05-mision.c46e70a3.mp3",
+  "parrafos": [
+   "¡Elegid uno de estos árboles y abrazad su tronco! ¿Os llegan a tocar las manos? Si no, ¿cuántos exploradores hacen falta para rodearlo?",
+   "Ahora, mirad bien, sin arrancar nada. ¿Asoma alguna raíz del suelo? ¿La corteza es lisa o rugosa? Y arriba, ¿cómo son sus hojas: planas, como agujas o como escamitas?"
+  ],
+  "frases": [
+   {
+    "texto": "¡Elegid uno de estos árboles y abrazad su tronco!",
+    "inicio": 0.0,
+    "fin": 2.694
+   },
+   {
+    "texto": "¿Os llegan a tocar las manos?",
+    "inicio": 3.251,
+    "fin": 5.05
+   },
+   {
+    "texto": "Si no, ¿cuántos exploradores hacen falta para rodearlo?",
+    "inicio": 6.107,
+    "fin": 9.985
+   },
+   {
+    "texto": "Ahora, mirad bien, sin arrancar nada.",
+    "inicio": 11.006,
+    "fin": 13.781
+   },
+   {
+    "texto": "¿Asoma alguna raíz del suelo?",
+    "inicio": 14.454,
+    "fin": 16.556
+   },
+   {
+    "texto": "¿La corteza es lisa o rugosa?",
+    "inicio": 17.647,
+    "fin": 20.027
+   },
+   {
+    "texto": "Y arriba, ¿cómo son sus hojas: planas, como agujas o como escamitas?",
+    "inicio": 21.072,
+    "fin": 27.167
+   }
+  ],
+  "duracion": 27.18,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 411,
+  "fecha": "2026-09-26T16:48:10"
+ },
+ "p05-reto-al-empezar": {
+  "archivo": "p05-reto-al-empezar.57f2d715.mp3",
+  "parrafos": [
+   "¡Vamos a construir uno de los primeros árboles! Arrastra cada pieza hasta su sombra. Empieza por abajo."
+  ],
+  "frases": [
+   {
+    "texto": "¡Vamos a construir uno de los primeros árboles!",
+    "inicio": 0.0,
+    "fin": 2.659
+   },
+   {
+    "texto": "Arrastra cada pieza hasta su sombra.",
+    "inicio": 3.239,
+    "fin": 5.294
+   },
+   {
+    "texto": "Empieza por abajo.",
+    "inicio": 5.909,
+    "fin": 7.477
+   }
+  ],
+  "duracion": 7.5,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 147,
+  "fecha": "2026-09-26T16:48:11"
+ },
+ "p05-reto-al-poner-las-raices": {
+  "archivo": "p05-reto-al-poner-las-raices.0e3ad1e9.mp3",
+  "parrafos": [
+   "¡Raíces! Se agarran fuerte al suelo y beben agua."
+  ],
+  "frases": [
+   {
+    "texto": "¡Raíces!",
+    "inicio": 0.0,
+    "fin": 0.848
+   },
+   {
+    "texto": "Se agarran fuerte al suelo y beben agua.",
+    "inicio": 1.416,
+    "fin": 3.669
+   }
+  ],
+  "duracion": 3.68,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 71,
+  "fecha": "2026-09-26T16:48:12"
+ },
+ "p05-reto-al-poner-el-tronco": {
+  "archivo": "p05-reto-al-poner-el-tronco.6208e150.mp3",
+  "parrafos": [
+   "¡Qué tronco! Es de madera, dura y fuerte. Así el árbol crece alto sin caerse."
+  ],
+  "frases": [
+   {
+    "texto": "¡Qué tronco!",
+    "inicio": 0.0,
+    "fin": 0.882
+   },
+   {
+    "texto": "Es de madera, dura y fuerte.",
+    "inicio": 1.44,
+    "fin": 3.471
+   },
+   {
+    "texto": "Así el árbol crece alto sin caerse.",
+    "inicio": 4.075,
+    "fin": 6.455
+   }
+  ],
+  "duracion": 6.48,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 121,
+  "fecha": "2026-09-26T16:48:14"
+ },
+ "p05-reto-al-poner-las-hojas": {
+  "archivo": "p05-reto-al-poner-las-hojas.cfa66a7c.mp3",
+  "parrafos": [
+   "¡Y arriba, las hojas! Con ellas, el árbol atrapa la luz del sol."
+  ],
+  "frases": [
+   {
+    "texto": "¡Y arriba, las hojas!",
+    "inicio": 0.0,
+    "fin": 1.312
+   },
+   {
+    "texto": "Con ellas, el árbol atrapa la luz del sol.",
+    "inicio": 1.881,
+    "fin": 4.923
+   }
+  ],
+  "duracion": 4.94,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 86,
+  "fecha": "2026-09-26T16:48:15"
+ },
+ "p05-reto-antes-de-tiempo": {
+  "archivo": "p05-reto-antes-de-tiempo.7d6e91e5.mp3",
+  "parrafos": [
+   "¡Todavía no! Primero va lo de abajo, que lo sujeta todo."
+  ],
+  "frases": [
+   {
+    "texto": "¡Todavía no!",
+    "inicio": 0.0,
+    "fin": 0.813
+   },
+   {
+    "texto": "Primero va lo de abajo, que lo sujeta todo.",
+    "inicio": 1.382,
+    "fin": 3.994
+   }
+  ],
+  "duracion": 4.0,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 78,
+  "fecha": "2026-09-26T16:48:16"
+ },
+ "p05-reto-al-terminar": {
+  "archivo": "p05-reto-al-terminar.827ecbae.mp3",
+  "parrafos": [
+   "¡Ya tenemos árbol! Como los de hace muchísimo tiempo: sin una sola flor. ¡Toma tu pegatina!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Ya tenemos árbol!",
+    "inicio": 0.0,
+    "fin": 1.265
+   },
+   {
+    "texto": "Como los de hace muchísimo tiempo: sin una sola flor.",
+    "inicio": 1.846,
+    "fin": 4.957
+   },
+   {
+    "texto": "¡Toma tu pegatina!",
+    "inicio": 5.503,
+    "fin": 7.43
+   }
+  ],
+  "duracion": 7.45,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 135,
+  "fecha": "2026-09-26T16:48:17"
+ },
+ "p06-todos": {
+  "archivo": "p06-todos.819ad0b4.mp3",
+  "parrafos": [
+   "Esta parada no tiene maqueta. Tiene algo mejor: plantas de verdad, de las que dan flores. Una flor nos parece lo más normal del mundo. Pero durante más de trescientos millones de años, las plantas vivieron en tierra firme sin una sola flor. Los árboles de la parada anterior no tenían ninguna.",
+   "Y aquí el camino hace trampa con el tiempo. Las flores aparecieron hace unos ciento treinta millones de años; quizá antes, pero los científicos aún lo discuten. Los primeros dinosaurios, en cambio, llegaron hace unos doscientos treinta millones, y vivieron, hasta donde sabemos, en un mundo sin flores. Así que, cuando vayáis a la siguiente parada, no avanzaréis en el tiempo: retrocederéis cien millones de años.",
+   "¿Qué tenía de nuevo una flor? Para dar semillas, muchas plantas necesitan que su polen, un polvillo finísimo, llegue a otra planta de su misma especie. Los pinos lo sueltan al viento, y casi todo se pierde. Las flores son un anuncio: colores y olores que dicen «aquí hay comida». Y hay premio: néctar dulce y polen. Un insecto viene a comer, se le pega polen a los pelos y lo deja en la siguiente flor que visita. Es como un cartero que no sabe que lleva cartas.",
+   "La otra novedad fue el fruto, que envuelve y protege la semilla. Muchos animales se lo comen, se marchan… y sueltan la semilla lejos, con abono incluido. Así viajan unas plantas que no pueden andar.",
+   "Y se extendieron tan deprisa, para lo que es la Tierra, que al mismo Darwin le pareció un misterio. Todavía se discute por qué. Hoy son unas nueve de cada diez especies de plantas de tierra firme. La hierba, el trigo, el arroz, los manzanos: todo son plantas con flor. Casi todo lo que coméis sale de ellas. Hasta la leche: las vacas comen hierba.",
+   "Flores e insectos fueron cambiando juntos, sin que nadie lo planeara. A las primeras flores las visitaban, probablemente, escarabajos y moscas; las abejas llegaron después. Hoy hay flores con el néctar al fondo de tubos larguísimos, e insectos con lenguas igual de largas.",
+   "En la siguiente parada os esperan dos dinosaurios. Uno vivió en un mundo sin flores; el otro ya caminó entre ellas. Escuchad bien sus fechas: ¿adivinaréis cuál es cuál?"
+  ],
+  "frases": [
+   {
+    "texto": "Esta parada no tiene maqueta.",
+    "inicio": 0.0,
+    "fin": 2.206
+   },
+   {
+    "texto": "Tiene algo mejor: plantas de verdad, de las que dan flores.",
+    "inicio": 2.961,
+    "fin": 6.896
+   },
+   {
+    "texto": "Una flor nos parece lo más normal del mundo.",
+    "inicio": 7.558,
+    "fin": 9.961
+   },
+   {
+    "texto": "Pero durante más de trescientos millones de años, las plantas vivieron en tierra firme sin una sola flor.",
+    "inicio": 10.728,
+    "fin": 17.043
+   },
+   {
+    "texto": "Los árboles de la parada anterior no tenían ninguna.",
+    "inicio": 17.609,
+    "fin": 21.278
+   },
+   {
+    "texto": "Y aquí el camino hace trampa con el tiempo.",
+    "inicio": 22.393,
+    "fin": 24.808
+   },
+   {
+    "texto": "Las flores aparecieron hace unos ciento treinta millones de años; quizá antes, pero los científicos aún lo discuten.",
+    "inicio": 25.481,
+    "fin": 32.308
+   },
+   {
+    "texto": "Los primeros dinosaurios, en cambio, llegaron hace unos doscientos treinta millones, y vivieron, hasta donde sabemos, en un mundo sin flores.",
+    "inicio": 33.039,
+    "fin": 41.375
+   },
+   {
+    "texto": "Así que, cuando vayáis a la siguiente parada, no avanzaréis en el tiempo: retrocederéis cien millones de años.",
+    "inicio": 42.014,
+    "fin": 49.468
+   },
+   {
+    "texto": "¿Qué tenía de nuevo una flor?",
+    "inicio": 50.583,
+    "fin": 52.522
+   },
+   {
+    "texto": "Para dar semillas, muchas plantas necesitan que su polen, un polvillo finísimo, llegue a otra planta de su misma especie.",
+    "inicio": 53.427,
+    "fin": 60.927
+   },
+   {
+    "texto": "Los pinos lo sueltan al viento, y casi todo se pierde.",
+    "inicio": 61.647,
+    "fin": 64.945
+   },
+   {
+    "texto": "Las flores son un anuncio: colores y olores que dicen «aquí hay comida».",
+    "inicio": 65.595,
+    "fin": 70.831
+   },
+   {
+    "texto": "Y hay premio: néctar dulce y polen.",
+    "inicio": 71.405,
+    "fin": 75.004
+   },
+   {
+    "texto": "Un insecto viene a comer, se le pega polen a los pelos y lo deja en la siguiente flor que visita.",
+    "inicio": 75.654,
+    "fin": 81.181
+   },
+   {
+    "texto": "Es como un cartero que no sabe que lleva cartas.",
+    "inicio": 81.819,
+    "fin": 85.244
+   },
+   {
+    "texto": "La otra novedad fue el fruto, que envuelve y protege la semilla.",
+    "inicio": 86.351,
+    "fin": 90.507
+   },
+   {
+    "texto": "Muchos animales se lo comen, se marchan… y sueltan la semilla lejos, con abono incluido.",
+    "inicio": 91.204,
+    "fin": 96.881
+   },
+   {
+    "texto": "Así viajan unas plantas que no pueden andar.",
+    "inicio": 97.52,
+    "fin": 100.237
+   },
+   {
+    "texto": "Y se extendieron tan deprisa, para lo que es la Tierra, que al mismo Darwin le pareció un misterio.",
+    "inicio": 101.35,
+    "fin": 106.528
+   },
+   {
+    "texto": "Todavía se discute por qué.",
+    "inicio": 107.225,
+    "fin": 108.862
+   },
+   {
+    "texto": "Hoy son unas nueve de cada diez especies de plantas de tierra firme.",
+    "inicio": 109.547,
+    "fin": 113.122
+   },
+   {
+    "texto": "La hierba, el trigo, el arroz, los manzanos: todo son plantas con flor.",
+    "inicio": 113.772,
+    "fin": 119.09
+   },
+   {
+    "texto": "Casi todo lo que coméis sale de ellas.",
+    "inicio": 119.664,
+    "fin": 121.998
+   },
+   {
+    "texto": "Hasta la leche: las vacas comen hierba.",
+    "inicio": 122.671,
+    "fin": 125.748
+   },
+   {
+    "texto": "Flores e insectos fueron cambiando juntos, sin que nadie lo planeara.",
+    "inicio": 126.852,
+    "fin": 130.614
+   },
+   {
+    "texto": "A las primeras flores las visitaban, probablemente, escarabajos y moscas; las abejas llegaron después.",
+    "inicio": 131.264,
+    "fin": 137.568
+   },
+   {
+    "texto": "Hoy hay flores con el néctar al fondo de tubos larguísimos, e insectos con lenguas igual de largas.",
+    "inicio": 138.334,
+    "fin": 144.499
+   },
+   {
+    "texto": "En la siguiente parada os esperan dos dinosaurios.",
+    "inicio": 145.611,
+    "fin": 148.618
+   },
+   {
+    "texto": "Uno vivió en un mundo sin flores; el otro ya caminó entre ellas.",
+    "inicio": 149.291,
+    "fin": 153.692
+   },
+   {
+    "texto": "Escuchad bien sus fechas: ¿adivinaréis cuál es cuál?",
+    "inicio": 154.353,
+    "fin": 157.871
+   }
+  ],
+  "duracion": 157.89,
+  "voz": "El Richar atenboru",
+  "voice_id": "WeuNkKS3AvTwCZZERkQa",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.49,
+   "similarity_boost": 0.43,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.55,
+   "pregunta": 0.8,
+   "parrafo": 1.1
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 2612,
+  "fecha": "2026-09-26T16:48:47"
+ },
+ "p06-peques": {
+  "archivo": "p06-peques.4cc32ea5.mp3",
+  "parrafos": [
+   "¡Hola otra vez, exploradores! Soy Alba.",
+   "Os cuento un secreto de viajera del tiempo: hubo un mundo sin flores. ¡Plantas por todas partes, y ni una flor! Lo sé porque he estado allí y las busqué por todos lados.",
+   "Cuando por fin aparecieron, los insectos venían a visitarlas. Las flores tenían un juguito dulce, el néctar. Y a los bichitos se les pegaba un polvito, el polen, que llevaban a otra flor igual.",
+   "¿Y sabéis para qué sirve ese polvito? ¡Para que la flor pueda convertirse en fruto, como las cerezas!",
+   "¿Me ayudáis a llevar a la abeja de flor en flor? ¡Vamos al reto!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Hola otra vez, exploradores!",
+    "inicio": 0.0,
+    "fin": 1.95
+   },
+   {
+    "texto": "Soy Alba.",
+    "inicio": 2.543,
+    "fin": 3.622
+   },
+   {
+    "texto": "Os cuento un secreto de viajera del tiempo: hubo un mundo sin flores.",
+    "inicio": 4.532,
+    "fin": 8.839
+   },
+   {
+    "texto": "¡Plantas por todas partes, y ni una flor!",
+    "inicio": 9.408,
+    "fin": 12.45
+   },
+   {
+    "texto": "Lo sé porque he estado allí y las busqué por todos lados.",
+    "inicio": 13.019,
+    "fin": 16.885
+   },
+   {
+    "texto": "Cuando por fin aparecieron, los insectos venían a visitarlas.",
+    "inicio": 17.789,
+    "fin": 21.562
+   },
+   {
+    "texto": "Las flores tenían un juguito dulce, el néctar.",
+    "inicio": 22.131,
+    "fin": 25.568
+   },
+   {
+    "texto": "Y a los bichitos se les pegaba un polvito, el polen, que llevaban a otra flor igual.",
+    "inicio": 26.125,
+    "fin": 32.139
+   },
+   {
+    "texto": "¿Y sabéis para qué sirve ese polvito?",
+    "inicio": 33.057,
+    "fin": 35.507
+   },
+   {
+    "texto": "¡Para que la flor pueda convertirse en fruto, como las cerezas!",
+    "inicio": 36.586,
+    "fin": 41.323
+   },
+   {
+    "texto": "¿Me ayudáis a llevar a la abeja de flor en flor?",
+    "inicio": 42.239,
+    "fin": 44.921
+   },
+   {
+    "texto": "¡Vamos al reto!",
+    "inicio": 45.966,
+    "fin": 47.208
+   }
+  ],
+  "duracion": 47.23,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 720,
+  "fecha": "2026-09-26T16:48:56"
+ },
+ "p06-mision": {
+  "archivo": "p06-mision.27498746.mp3",
+  "parrafos": [
+   "Primero, quietos como estatuas: mirad las flores un ratito desde lejos. ¿Viene algún insecto a comer? Si es una abeja, ¡dejadla trabajar!",
+   "Después, acercaos a una flor sin arrancarla. ¿Cuántos pétalos tiene? ¿Huele?",
+   "¿No hay flores hoy? Buscad un fruto o una semilla: dentro de cada semilla duerme una planta nueva."
+  ],
+  "frases": [
+   {
+    "texto": "Primero, quietos como estatuas: mirad las flores un ratito desde lejos.",
+    "inicio": 0.0,
+    "fin": 4.888
+   },
+   {
+    "texto": "¿Viene algún insecto a comer?",
+    "inicio": 5.445,
+    "fin": 7.43
+   },
+   {
+    "texto": "Si es una abeja, ¡dejadla trabajar!",
+    "inicio": 8.522,
+    "fin": 11.656
+   },
+   {
+    "texto": "Después, acercaos a una flor sin arrancarla.",
+    "inicio": 12.578,
+    "fin": 15.643
+   },
+   {
+    "texto": "¿Cuántos pétalos tiene?",
+    "inicio": 16.2,
+    "fin": 17.756
+   },
+   {
+    "texto": "¿Huele?",
+    "inicio": 18.824,
+    "fin": 20.055
+   },
+   {
+    "texto": "¿No hay flores hoy?",
+    "inicio": 21.076,
+    "fin": 22.237
+   },
+   {
+    "texto": "Buscad un fruto o una semilla: dentro de cada semilla duerme una planta nueva.",
+    "inicio": 23.294,
+    "fin": 29.064
+   }
+  ],
+  "duracion": 29.07,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 421,
+  "fecha": "2026-09-26T16:49:01"
+ },
+ "p06-reto-al-empezar": {
+  "archivo": "p06-reto-al-empezar.11ae8080.mp3",
+  "parrafos": [
+   "¡La abeja tiene hambre! Llévala de flor en flor."
+  ],
+  "frases": [
+   {
+    "texto": "¡La abeja tiene hambre!",
+    "inicio": 0.0,
+    "fin": 1.358
+   },
+   {
+    "texto": "Llévala de flor en flor.",
+    "inicio": 1.904,
+    "fin": 3.529
+   }
+  ],
+  "duracion": 3.55,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 70,
+  "fecha": "2026-09-26T16:49:02"
+ },
+ "p06-reto-primera-flor": {
+  "archivo": "p06-reto-primera-flor.d267b727.mp3",
+  "parrafos": [
+   "¡Ñam, néctar! Y mira: se le pega polen."
+  ],
+  "frases": [
+   {
+    "texto": "¡Ñam, néctar!",
+    "inicio": 0.0,
+    "fin": 0.848
+   },
+   {
+    "texto": "Y mira: se le pega polen.",
+    "inicio": 1.405,
+    "fin": 3.297
+   }
+  ],
+  "duracion": 3.32,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 61,
+  "fecha": "2026-09-26T16:49:03"
+ },
+ "p06-reto-otra-flor-1": {
+  "archivo": "p06-reto-otra-flor-1.8d122ded.mp3",
+  "parrafos": [
+   "¡Le trae polen de otra flor!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Le trae polen de otra flor!",
+    "inicio": 0.0,
+    "fin": 1.533
+   }
+  ],
+  "duracion": 1.54,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 28,
+  "fecha": "2026-09-26T16:49:04"
+ },
+ "p06-reto-otra-flor-2": {
+  "archivo": "p06-reto-otra-flor-2.fb6d0dd8.mp3",
+  "parrafos": [
+   "¡Eso es! Polen para esta también."
+  ],
+  "frases": [
+   {
+    "texto": "¡Eso es!",
+    "inicio": 0.0,
+    "fin": 0.801
+   },
+   {
+    "texto": "Polen para esta también.",
+    "inicio": 1.347,
+    "fin": 2.74
+   }
+  ],
+  "duracion": 2.74,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 55,
+  "fecha": "2026-09-26T16:49:05"
+ },
+ "p06-reto-ultima-flor": {
+  "archivo": "p06-reto-ultima-flor.42c85a48.mp3",
+  "parrafos": [
+   "¡La última! Ya tienen polen todas."
+  ],
+  "frases": [
+   {
+    "texto": "¡La última!",
+    "inicio": 0.0,
+    "fin": 0.72
+   },
+   {
+    "texto": "Ya tienen polen todas.",
+    "inicio": 1.277,
+    "fin": 2.647
+   }
+  ],
+  "duracion": 2.67,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 56,
+  "fecha": "2026-09-26T16:49:06"
+ },
+ "p06-reto-al-terminar": {
+  "archivo": "p06-reto-al-terminar.9e864489.mp3",
+  "parrafos": [
+   "¡Mira! Con el tiempo, las flores se han convertido en frutos. ¡Y dentro van las semillas! ¡Toma tu pegatina!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Mira!",
+    "inicio": 0.0,
+    "fin": 0.615
+   },
+   {
+    "texto": "Con el tiempo, las flores se han convertido en frutos.",
+    "inicio": 1.173,
+    "fin": 4.412
+   },
+   {
+    "texto": "¡Y dentro van las semillas!",
+    "inicio": 4.957,
+    "fin": 6.699
+   },
+   {
+    "texto": "¡Toma tu pegatina!",
+    "inicio": 7.256,
+    "fin": 8.916
+   }
+  ],
+  "duracion": 8.93,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 174,
+  "fecha": "2026-09-26T16:49:09"
+ },
+ "p08-todos": {
+  "archivo": "p08-todos.43d140b4.mp3",
+  "parrafos": [
+   "Mirad este volcán como lo vería un pájaro: desde arriba. En el centro, el cráter; desde él bajan ríos de lava amarilla y naranja. Un volcán es una ventana al calor que la Tierra guarda dentro. Y ese calor hace algo que cuesta creer: mueve el suelo que pisáis.",
+   "La Tierra tiene una cáscara de roca partida en trozos enormes, las placas, como un huevo duro cascado. Esos trozos se mueven despacio sobre roca muy caliente que, sin estar derretida, cede poco a poco. En las costuras entre placas es donde más roca se funde y sube: por eso allí está la mayoría de los volcanes. No todos: en España, los de Canarias, la Garrotxa o el Campo de Calatrava no están en ningún borde.",
+   "En tiempos de los primeros dinosaurios, casi toda la tierra firme formaba un solo continente: Pangea, que en griego quiere decir «toda la tierra». Se podía ir andando de África a América sin mojarse los pies.",
+   "Hace unos doscientos millones de años, Pangea empezó a romperse. Por grietas larguísimas salió muchísima lava durante cientos de miles de años. Casi a la vez llegó otra gran extinción. La explicación más aceptada es que la causaron esas erupciones: su gas cambió el clima del planeta. Los dinosaurios sobrevivieron, y muchos de sus rivales, no. Les quedó el campo libre.",
+   "Entre los trozos de Pangea se abrió un océano nuevo: el Atlántico. Y todavía se ensancha, unos centímetros al año: más o menos lo que os crecen las uñas. Desde que Colón lo cruzó, ha crecido más de diez metros.",
+   "Que los continentes viajan lo defendió un alemán, Alfred Wegener, en mil novecientos doce. Se fijó en que América del Sur y África encajan como un puzle, con los mismos fósiles en las dos orillas. La mayoría no le creyó: no encontró una fuerza capaz de moverlos. Medio siglo después, pruebas del fondo del mar le dieron la razón en lo principal. Así avanza la ciencia: cambia de opinión, pero solo con pruebas.",
+   "Mientras Pangea se rompía, los dinosaurios seguían paseando por ella, sin notar, como nosotros, que el suelo se separaba bajo sus pies. Algunos pisaron barro blando, y sus pisadas se convirtieron en piedra. Buscadlas en el suelo, junto a la flor gigante."
+  ],
+  "frases": [
+   {
+    "texto": "Mirad este volcán como lo vería un pájaro: desde arriba.",
+    "inicio": 0.0,
+    "fin": 3.762
+   },
+   {
+    "texto": "En el centro, el cráter; desde él bajan ríos de lava amarilla y naranja.",
+    "inicio": 4.481,
+    "fin": 9.985
+   },
+   {
+    "texto": "Un volcán es una ventana al calor que la Tierra guarda dentro.",
+    "inicio": 10.646,
+    "fin": 14.536
+   },
+   {
+    "texto": "Y ese calor hace algo que cuesta creer: mueve el suelo que pisáis.",
+    "inicio": 15.267,
+    "fin": 20.387
+   },
+   {
+    "texto": "La Tierra tiene una cáscara de roca partida en trozos enormes, las placas, como un huevo duro cascado.",
+    "inicio": 21.503,
+    "fin": 27.529
+   },
+   {
+    "texto": "Esos trozos se mueven despacio sobre roca muy caliente que, sin estar derretida, cede poco a poco.",
+    "inicio": 28.202,
+    "fin": 33.821
+   },
+   {
+    "texto": "En las costuras entre placas es donde más roca se funde y sube: por eso allí está la mayoría de los volcanes.",
+    "inicio": 34.506,
+    "fin": 40.869
+   },
+   {
+    "texto": "No todos: en España, los de Canarias, la Garrotxa o el Campo de Calatrava no están en ningún borde.",
+    "inicio": 41.6,
+    "fin": 48.81
+   },
+   {
+    "texto": "En tiempos de los primeros dinosaurios, casi toda la tierra firme formaba un solo continente: Pangea, que en griego quiere decir «toda la tierra».",
+    "inicio": 49.928,
+    "fin": 58.914
+   },
+   {
+    "texto": "Se podía ir andando de África a América sin mojarse los pies.",
+    "inicio": 59.646,
+    "fin": 63.953
+   },
+   {
+    "texto": "Hace unos doscientos millones de años, Pangea empezó a romperse.",
+    "inicio": 65.057,
+    "fin": 69.643
+   },
+   {
+    "texto": "Por grietas larguísimas salió muchísima lava durante cientos de miles de años.",
+    "inicio": 70.398,
+    "fin": 75.355
+   },
+   {
+    "texto": "Casi a la vez llegó otra gran extinción.",
+    "inicio": 76.168,
+    "fin": 78.733
+   },
+   {
+    "texto": "La explicación más aceptada es que la causaron esas erupciones: su gas cambió el clima del planeta.",
+    "inicio": 79.488,
+    "fin": 86.466
+   },
+   {
+    "texto": "Los dinosaurios sobrevivieron, y muchos de sus rivales, no.",
+    "inicio": 87.028,
+    "fin": 90.534
+   },
+   {
+    "texto": "Les quedó el campo libre.",
+    "inicio": 91.196,
+    "fin": 92.787
+   },
+   {
+    "texto": "Entre los trozos de Pangea se abrió un océano nuevo: el Atlántico.",
+    "inicio": 93.902,
+    "fin": 98.674
+   },
+   {
+    "texto": "Y todavía se ensancha, unos centímetros al año: más o menos lo que os crecen las uñas.",
+    "inicio": 99.405,
+    "fin": 105.14
+   },
+   {
+    "texto": "Desde que Colón lo cruzó, ha crecido más de diez metros.",
+    "inicio": 105.791,
+    "fin": 109.552
+   },
+   {
+    "texto": "Que los continentes viajan lo defendió un alemán, Alfred Wegener, en mil novecientos doce.",
+    "inicio": 110.677,
+    "fin": 116.227
+   },
+   {
+    "texto": "Se fijó en que América del Sur y África encajan como un puzle, con los mismos fósiles en las dos orillas.",
+    "inicio": 116.888,
+    "fin": 123.042
+   },
+   {
+    "texto": "La mayoría no le creyó: no encontró una fuerza capaz de moverlos.",
+    "inicio": 123.75,
+    "fin": 127.872
+   },
+   {
+    "texto": "Medio siglo después, pruebas del fondo del mar le dieron la razón en lo principal.",
+    "inicio": 128.568,
+    "fin": 133.897
+   },
+   {
+    "texto": "Así avanza la ciencia: cambia de opinión, pero solo con pruebas.",
+    "inicio": 134.451,
+    "fin": 139.095
+   },
+   {
+    "texto": "Mientras Pangea se rompía, los dinosaurios seguían paseando por ella, sin notar, como nosotros, que el suelo se separaba bajo sus pies.",
+    "inicio": 140.202,
+    "fin": 147.969
+   },
+   {
+    "texto": "Algunos pisaron barro blando, y sus pisadas se convirtieron en piedra.",
+    "inicio": 148.747,
+    "fin": 153.194
+   },
+   {
+    "texto": "Buscadlas en el suelo, junto a la flor gigante.",
+    "inicio": 153.925,
+    "fin": 156.874
+   }
+  ],
+  "duracion": 156.89,
+  "voz": "El Richar atenboru",
+  "voice_id": "WeuNkKS3AvTwCZZERkQa",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.49,
+   "similarity_boost": 0.43,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.55,
+   "pregunta": 0.8,
+   "parrafo": 1.1
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 2517,
+  "fecha": "2026-09-26T16:49:38"
+ },
+ "p08-peques": {
+  "archivo": "p08-peques.3b768526.mp3",
+  "parrafos": [
+   "¡Hola, exploradores! ¿Veis este volcán? Lo estamos mirando desde arriba, como los pájaros. ¡Mirad qué ríos de lava!",
+   "Os cuento un secreto de viajera del tiempo. Hace muchísimo, casi toda la tierra estaba junta, en un solo trozo gigante. Se llamaba Pangea. Lo sé porque he estado allí: ¡fui andando de América a África sin mojarme los pies!",
+   "Después, muy poco a poco, la tierra se fue rompiendo, y por las grietas salió muchísima lava. Los trozos se separaron, y entre ellos entró el mar. ¡Y todavía se mueven! Muy despacito: como os crecen las uñas.",
+   "¿Me ayudáis a juntar otra vez los trozos de Pangea? ¡Vamos al reto!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Hola, exploradores!",
+    "inicio": 0.0,
+    "fin": 1.625
+   },
+   {
+    "texto": "¿Veis este volcán?",
+    "inicio": 2.183,
+    "fin": 3.425
+   },
+   {
+    "texto": "Lo estamos mirando desde arriba, como los pájaros.",
+    "inicio": 4.505,
+    "fin": 7.43
+   },
+   {
+    "texto": "¡Mirad qué ríos de lava!",
+    "inicio": 8.011,
+    "fin": 9.706
+   },
+   {
+    "texto": "Os cuento un secreto de viajera del tiempo.",
+    "inicio": 10.619,
+    "fin": 13.045
+   },
+   {
+    "texto": "Hace muchísimo, casi toda la tierra estaba junta, en un solo trozo gigante.",
+    "inicio": 13.661,
+    "fin": 18.142
+   },
+   {
+    "texto": "Se llamaba Pangea.",
+    "inicio": 18.734,
+    "fin": 20.0
+   },
+   {
+    "texto": "Lo sé porque he estado allí: ¡fui andando de América a África sin mojarme los pies!",
+    "inicio": 20.557,
+    "fin": 25.898
+   },
+   {
+    "texto": "Después, muy poco a poco, la tierra se fue rompiendo, y por las grietas salió muchísima lava.",
+    "inicio": 26.801,
+    "fin": 33.337
+   },
+   {
+    "texto": "Los trozos se separaron, y entre ellos entró el mar.",
+    "inicio": 33.883,
+    "fin": 37.447
+   },
+   {
+    "texto": "¡Y todavía se mueven!",
+    "inicio": 38.005,
+    "fin": 39.526
+   },
+   {
+    "texto": "Muy despacito: como os crecen las uñas.",
+    "inicio": 40.118,
+    "fin": 43.333
+   },
+   {
+    "texto": "¿Me ayudáis a juntar otra vez los trozos de Pangea?",
+    "inicio": 44.238,
+    "fin": 46.943
+   },
+   {
+    "texto": "¡Vamos al reto!",
+    "inicio": 48.0,
+    "fin": 49.393
+   }
+  ],
+  "duracion": 49.41,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 832,
+  "fecha": "2026-09-26T16:49:47"
+ },
+ "p08-mision": {
+  "archivo": "p08-mision.57287eea.mp3",
+  "parrafos": [
+   "¡Sin pisar el volcán, buscad un río de lava que salga del cráter! Seguidlo con el dedo, en el aire, hasta donde se acaba.",
+   "Ahora mirad las piedrecitas rojizas de alrededor, sin cogerlas. ¿Veis sus agujeritos? Son burbujas de gas, como las de un refresco, que se quedaron atrapadas cuando la lava se enfrió."
+  ],
+  "frases": [
+   {
+    "texto": "¡Sin pisar el volcán, buscad un río de lava que salga del cráter!",
+    "inicio": 0.0,
+    "fin": 4.284
+   },
+   {
+    "texto": "Seguidlo con el dedo, en el aire, hasta donde se acaba.",
+    "inicio": 4.841,
+    "fin": 8.731
+   },
+   {
+    "texto": "Ahora mirad las piedrecitas rojizas de alrededor, sin cogerlas.",
+    "inicio": 9.652,
+    "fin": 13.39
+   },
+   {
+    "texto": "¿Veis sus agujeritos?",
+    "inicio": 14.017,
+    "fin": 15.306
+   },
+   {
+    "texto": "Son burbujas de gas, como las de un refresco, que se quedaron atrapadas cuando la lava se enfrió.",
+    "inicio": 16.386,
+    "fin": 21.912
+   }
+  ],
+  "duracion": 21.93,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 370,
+  "fecha": "2026-09-26T16:49:51"
+ },
+ "p08-reto-al-empezar": {
+  "archivo": "p08-reto-al-empezar.cc053753.mp3",
+  "parrafos": [
+   "¡Vamos a armar Pangea! Arrastra cada trozo de tierra hasta su sombra."
+  ],
+  "frases": [
+   {
+    "texto": "¡Vamos a armar Pangea!",
+    "inicio": 0.0,
+    "fin": 1.66
+   },
+   {
+    "texto": "Arrastra cada trozo de tierra hasta su sombra.",
+    "inicio": 2.229,
+    "fin": 5.248
+   }
+  ],
+  "duracion": 5.25,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 91,
+  "fecha": "2026-09-26T16:49:52"
+ },
+ "p08-reto-al-poner-america-del-sur": {
+  "archivo": "p08-reto-al-poner-america-del-sur.8f18b056.mp3",
+  "parrafos": [
+   "¡América del Sur! Su costa encaja con la de África, como un puzle."
+  ],
+  "frases": [
+   {
+    "texto": "¡América del Sur!",
+    "inicio": 0.0,
+    "fin": 1.335
+   },
+   {
+    "texto": "Su costa encaja con la de África, como un puzle.",
+    "inicio": 1.927,
+    "fin": 5.201
+   }
+  ],
+  "duracion": 5.23,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 88,
+  "fecha": "2026-09-26T16:49:53"
+ },
+ "p08-reto-al-poner-africa": {
+  "archivo": "p08-reto-al-poner-africa.1a7a659a.mp3",
+  "parrafos": [
+   "¡África! Aquí y en América del Sur vivió el mismo reptil: el mesosaurio."
+  ],
+  "frases": [
+   {
+    "texto": "¡África!",
+    "inicio": 0.0,
+    "fin": 0.766
+   },
+   {
+    "texto": "Aquí y en América del Sur vivió el mismo reptil: el mesosaurio.",
+    "inicio": 1.312,
+    "fin": 6.409
+   }
+  ],
+  "duracion": 6.43,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 94,
+  "fecha": "2026-09-26T16:49:54"
+ },
+ "p08-reto-al-poner-america-del-norte": {
+  "archivo": "p08-reto-al-poner-america-del-norte.b7cf206b.mp3",
+  "parrafos": [
+   "¡América del Norte! Sus montañas siguen al otro lado del mar, en Europa."
+  ],
+  "frases": [
+   {
+    "texto": "¡América del Norte!",
+    "inicio": 0.0,
+    "fin": 1.382
+   },
+   {
+    "texto": "Sus montañas siguen al otro lado del mar, en Europa.",
+    "inicio": 1.962,
+    "fin": 5.387
+   }
+  ],
+  "duracion": 5.41,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 94,
+  "fecha": "2026-09-26T16:49:55"
+ },
+ "p08-reto-al-poner-europa-y-asia": {
+  "archivo": "p08-reto-al-poner-europa-y-asia.1e4f491e.mp3",
+  "parrafos": [
+   "¡Europa y Asia! Mira: España estaba pegada a América del Norte."
+  ],
+  "frases": [
+   {
+    "texto": "¡Europa y Asia!",
+    "inicio": 0.0,
+    "fin": 1.428
+   },
+   {
+    "texto": "Mira: España estaba pegada a América del Norte.",
+    "inicio": 1.974,
+    "fin": 5.851
+   }
+  ],
+  "duracion": 5.85,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 85,
+  "fecha": "2026-09-26T16:49:58"
+ },
+ "p08-reto-fallo": {
+  "archivo": "p08-reto-fallo.fee079f2.mp3",
+  "parrafos": [
+   "¡Uy! Ese trozo no va ahí. Fíjate en su forma."
+  ],
+  "frases": [
+   {
+    "texto": "¡Uy!",
+    "inicio": 0.0,
+    "fin": 0.476
+   },
+   {
+    "texto": "Ese trozo no va ahí.",
+    "inicio": 1.033,
+    "fin": 2.392
+   },
+   {
+    "texto": "Fíjate en su forma.",
+    "inicio": 2.949,
+    "fin": 4.319
+   }
+  ],
+  "duracion": 4.34,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 89,
+  "fecha": "2026-09-26T16:50:00"
+ },
+ "p08-reto-al-terminar": {
+  "archivo": "p08-reto-al-terminar.1ee85cd6.mp3",
+  "parrafos": [
+   "¡Ya está Pangea entera! Luego se rompió, y sus trozos todavía se mueven. ¡Toma tu pegatina!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Ya está Pangea entera!",
+    "inicio": 0.0,
+    "fin": 1.811
+   },
+   {
+    "texto": "Luego se rompió, y sus trozos todavía se mueven.",
+    "inicio": 2.38,
+    "fin": 5.677
+   },
+   {
+    "texto": "¡Toma tu pegatina!",
+    "inicio": 6.223,
+    "fin": 8.127
+   }
+  ],
+  "duracion": 8.15,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 135,
+  "fecha": "2026-09-26T16:50:01"
+ },
+ "p09-todos": {
+  "archivo": "p09-todos.b60600cc.mp3",
+  "parrafos": [
+   "Mirad al suelo, entre el volcán y la flor gigante. Parece que por aquí ha pasado un dinosaurio. Esas marcas representan sus huellas. Los científicos las llaman icnitas.",
+   "La flor tiene truco: antes era el volcán del parque. Pero tanta gente preguntaba qué flor era que la convirtieron en una. No desentona: las flores más antiguas que se conocen con seguridad son de tiempos de los dinosaurios.",
+   "Un esqueleto nos dice cómo era un dinosaurio. Una huella cuenta otra cosa: qué hacía cuando estaba vivo.",
+   "¿Cómo dura una pisada tanto tiempo? Pensad en vuestras huellas en la arena mojada: la primera ola las borra. Casi siempre empieza igual: el dinosaurio pisa barro blando, junto a un lago o al mar. El sol lo seca y lo endurece. Otra capa lo tapa sin borrar la huella, y con el tiempo todo se vuelve roca. Millones de años después, la lluvia y el viento se llevan la roca de encima, y la huella vuelve a ver el sol.",
+   "Ahora, a leerla. Primero, los dedos. Tres dedos finos, acabados en garra: un terópodo, un carnívoro de dos patas. Tres dedos anchos y redondeados: un ornitópodo, un herbívoro con pico. Una huella redonda y enorme, como de elefante: un saurópodo, de cuello largo. ¿Y las de aquí? Mirad sus dedos. ¿Carnívoro o herbívoro?",
+   "Después, los pasos. Si son muy largos para el tamaño del pie, el animal corría; si son cortos, paseaba. Así se estima su velocidad. En La Rioja hay rastros de carnívoros que pudieron correr a unos cuarenta y cinco kilómetros por hora, como el hombre más rápido del mundo. Varios rastros juntos, en la misma dirección, probablemente son de un grupo.",
+   "España es uno de los mejores sitios del mundo para buscarlas: hay miles, repartidas por La Rioja, Soria, Teruel o la costa de Asturias, la Costa de los Dinosaurios. Aquellos animales solo iban a alguna parte. Sus pasos, dados sin pensar, han llegado hasta nosotros.",
+   "Las huellas cuentan también un final. En las rocas de hace sesenta y seis millones de años, las de los grandes dinosaurios se acaban. De golpe. Por encima, ni una más. ¿Qué pasó? En la siguiente parada, junto a dos carnívoros, os espera una charca con una roca negra. Ella guarda la pista."
+  ],
+  "frases": [
+   {
+    "texto": "Mirad al suelo, entre el volcán y la flor gigante.",
+    "inicio": 0.0,
+    "fin": 3.402
+   },
+   {
+    "texto": "Parece que por aquí ha pasado un dinosaurio.",
+    "inicio": 4.075,
+    "fin": 6.536
+   },
+   {
+    "texto": "Esas marcas representan sus huellas.",
+    "inicio": 7.187,
+    "fin": 9.578
+   },
+   {
+    "texto": "Los científicos las llaman icnitas.",
+    "inicio": 10.321,
+    "fin": 13.421
+   },
+   {
+    "texto": "La flor tiene truco: antes era el volcán del parque.",
+    "inicio": 14.528,
+    "fin": 17.698
+   },
+   {
+    "texto": "Pero tanta gente preguntaba qué flor era que la convirtieron en una.",
+    "inicio": 18.371,
+    "fin": 22.074
+   },
+   {
+    "texto": "No desentona: las flores más antiguas que se conocen con seguridad son de tiempos de los dinosaurios.",
+    "inicio": 22.736,
+    "fin": 28.646
+   },
+   {
+    "texto": "Un esqueleto nos dice cómo era un dinosaurio.",
+    "inicio": 29.761,
+    "fin": 32.42
+   },
+   {
+    "texto": "Una huella cuenta otra cosa: qué hacía cuando estaba vivo.",
+    "inicio": 33.081,
+    "fin": 37.191
+   },
+   {
+    "texto": "¿Cómo dura una pisada tanto tiempo?",
+    "inicio": 38.307,
+    "fin": 40.513
+   },
+   {
+    "texto": "Pensad en vuestras huellas en la arena mojada: la primera ola las borra.",
+    "inicio": 41.36,
+    "fin": 45.54
+   },
+   {
+    "texto": "Casi siempre empieza igual: el dinosaurio pisa barro blando, junto a un lago o al mar.",
+    "inicio": 46.19,
+    "fin": 51.601
+   },
+   {
+    "texto": "El sol lo seca y lo endurece.",
+    "inicio": 52.251,
+    "fin": 54.515
+   },
+   {
+    "texto": "Otra capa lo tapa sin borrar la huella, y con el tiempo todo se vuelve roca.",
+    "inicio": 55.08,
+    "fin": 60.072
+   },
+   {
+    "texto": "Millones de años después, la lluvia y el viento se llevan la roca de encima, y la huella vuelve a ver el sol.",
+    "inicio": 60.908,
+    "fin": 67.619
+   },
+   {
+    "texto": "Ahora, a leerla.",
+    "inicio": 68.72,
+    "fin": 70.032
+   },
+   {
+    "texto": "Primero, los dedos.",
+    "inicio": 70.775,
+    "fin": 72.157
+   },
+   {
+    "texto": "Tres dedos finos, acabados en garra: un terópodo, un carnívoro de dos patas.",
+    "inicio": 72.83,
+    "fin": 77.985
+   },
+   {
+    "texto": "Tres dedos anchos y redondeados: un ornitópodo, un herbívoro con pico.",
+    "inicio": 78.635,
+    "fin": 84.045
+   },
+   {
+    "texto": "Una huella redonda y enorme, como de elefante: un saurópodo, de cuello largo.",
+    "inicio": 84.605,
+    "fin": 90.12
+   },
+   {
+    "texto": "¿Y las de aquí?",
+    "inicio": 90.851,
+    "fin": 91.85
+   },
+   {
+    "texto": "Mirad sus dedos.",
+    "inicio": 92.825,
+    "fin": 93.928
+   },
+   {
+    "texto": "¿Carnívoro o herbívoro?",
+    "inicio": 94.938,
+    "fin": 96.772
+   },
+   {
+    "texto": "Después, los pasos.",
+    "inicio": 97.879,
+    "fin": 99.76
+   },
+   {
+    "texto": "Si son muy largos para el tamaño del pie, el animal corría; si son cortos, paseaba.",
+    "inicio": 100.48,
+    "fin": 105.89
+   },
+   {
+    "texto": "Así se estima su velocidad.",
+    "inicio": 106.552,
+    "fin": 108.235
+   },
+   {
+    "texto": "En La Rioja hay rastros de carnívoros que pudieron correr a unos cuarenta y cinco kilómetros por hora, como el hombre más rápido del mundo.",
+    "inicio": 108.932,
+    "fin": 117.105
+   },
+   {
+    "texto": "Varios rastros juntos, en la misma dirección, probablemente son de un grupo.",
+    "inicio": 117.656,
+    "fin": 121.975
+   },
+   {
+    "texto": "España es uno de los mejores sitios del mundo para buscarlas: hay miles, repartidas por La Rioja, Soria, Teruel o la costa de Asturias, la Costa de los Dinosaurios.",
+    "inicio": 123.094,
+    "fin": 133.462
+   },
+   {
+    "texto": "Aquellos animales solo iban a alguna parte.",
+    "inicio": 134.123,
+    "fin": 136.863
+   },
+   {
+    "texto": "Sus pasos, dados sin pensar, han llegado hasta nosotros.",
+    "inicio": 137.572,
+    "fin": 141.763
+   },
+   {
+    "texto": "Las huellas cuentan también un final.",
+    "inicio": 142.872,
+    "fin": 145.066
+   },
+   {
+    "texto": "En las rocas de hace sesenta y seis millones de años, las de los grandes dinosaurios se acaban.",
+    "inicio": 145.751,
+    "fin": 150.941
+   },
+   {
+    "texto": "De golpe.",
+    "inicio": 151.603,
+    "fin": 152.299
+   },
+   {
+    "texto": "Por encima, ni una más.",
+    "inicio": 152.984,
+    "fin": 155.457
+   },
+   {
+    "texto": "¿Qué pasó?",
+    "inicio": 156.015,
+    "fin": 156.816
+   },
+   {
+    "texto": "En la siguiente parada, junto a dos carnívoros, os espera una charca con una roca negra.",
+    "inicio": 157.78,
+    "fin": 162.795
+   },
+   {
+    "texto": "Ella guarda la pista.",
+    "inicio": 163.469,
+    "fin": 165.117
+   }
+  ],
+  "duracion": 165.13,
+  "voz": "El Richar atenboru",
+  "voice_id": "WeuNkKS3AvTwCZZERkQa",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.49,
+   "similarity_boost": 0.43,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.55,
+   "pregunta": 0.8,
+   "parrafo": 1.1
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 2696,
+  "fecha": "2026-09-26T16:50:30"
+ },
+ "p09-peques": {
+  "archivo": "p09-peques.5aa7d433.mp3",
+  "parrafos": [
+   "¡Hola, exploradores! Soy Alba, la viajera del tiempo.",
+   "¿Veis esas marcas en el suelo, junto a la flor gigante? ¡Son huellas de dinosaurio!",
+   "Os cuento un secreto de viajera del tiempo: una vez me escondí junto a un lago y vi pasar a tres dinosaurios por el barro. ¡Y cada uno dejó una huella distinta! El carnívoro, tres dedos finos con garras. El del pico, tres dedos gorditos. Y el del cuello largo, una huella redonda y enorme, ¡como de elefante!",
+   "¿Me ayudáis a descubrir de quién es cada huella? ¡Vamos al reto!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Hola, exploradores!",
+    "inicio": 0.0,
+    "fin": 1.231
+   },
+   {
+    "texto": "Soy Alba, la viajera del tiempo.",
+    "inicio": 1.811,
+    "fin": 4.226
+   },
+   {
+    "texto": "¿Veis esas marcas en el suelo, junto a la flor gigante?",
+    "inicio": 5.133,
+    "fin": 8.384
+   },
+   {
+    "texto": "¡Son huellas de dinosaurio!",
+    "inicio": 9.522,
+    "fin": 11.727
+   },
+   {
+    "texto": "Os cuento un secreto de viajera del tiempo: una vez me escondí junto a un lago y vi pasar a tres dinosaurios por el barro.",
+    "inicio": 12.643,
+    "fin": 19.841
+   },
+   {
+    "texto": "¡Y cada uno dejó una huella distinta!",
+    "inicio": 20.398,
+    "fin": 22.744
+   },
+   {
+    "texto": "El carnívoro, tres dedos finos con garras.",
+    "inicio": 23.289,
+    "fin": 26.099
+   },
+   {
+    "texto": "El del pico, tres dedos gorditos.",
+    "inicio": 26.657,
+    "fin": 29.222
+   },
+   {
+    "texto": "Y el del cuello largo, una huella redonda y enorme, ¡como de elefante!",
+    "inicio": 29.732,
+    "fin": 34.701
+   },
+   {
+    "texto": "¿Me ayudáis a descubrir de quién es cada huella?",
+    "inicio": 35.622,
+    "fin": 38.385
+   },
+   {
+    "texto": "¡Vamos al reto!",
+    "inicio": 39.442,
+    "fin": 40.87
+   }
+  ],
+  "duracion": 40.87,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 639,
+  "fecha": "2026-09-26T16:50:38"
+ },
+ "p09-mision": {
+  "archivo": "p09-mision.6d2039de.mp3",
+  "parrafos": [
+   "¡Buscad las huellas! Los niños, de uno en uno: meted un pie dentro de una. ¿Cuántos pies vuestros caben en el del dinosaurio? ¿Sus dedos son finos, o gorditos y redondos?",
+   "Ahora, ¡a moverse! Andad despacito, con pasos de ratón… Y ahora, ¡pasos de gigante, como si corrierais! ¿Cuándo quedan más separados vuestros pies? Así saben los científicos si un dinosaurio paseaba o corría."
+  ],
+  "frases": [
+   {
+    "texto": "¡Buscad las huellas!",
+    "inicio": 0.0,
+    "fin": 1.602
+   },
+   {
+    "texto": "Los niños, de uno en uno: meted un pie dentro de una.",
+    "inicio": 2.171,
+    "fin": 5.817
+   },
+   {
+    "texto": "¿Cuántos pies vuestros caben en el del dinosaurio?",
+    "inicio": 6.455,
+    "fin": 9.509
+   },
+   {
+    "texto": "¿Sus dedos son finos, o gorditos y redondos?",
+    "inicio": 10.553,
+    "fin": 13.886
+   },
+   {
+    "texto": "Ahora, ¡a moverse!",
+    "inicio": 14.898,
+    "fin": 16.489
+   },
+   {
+    "texto": "Andad despacito, con pasos de ratón…",
+    "inicio": 17.057,
+    "fin": 19.89
+   },
+   {
+    "texto": "Y ahora, ¡pasos de gigante, como si corrierais!",
+    "inicio": 20.436,
+    "fin": 23.965
+   },
+   {
+    "texto": "¿Cuándo quedan más separados vuestros pies?",
+    "inicio": 24.523,
+    "fin": 27.437
+   },
+   {
+    "texto": "Así saben los científicos si un dinosaurio paseaba o corría.",
+    "inicio": 28.438,
+    "fin": 32.71
+   }
+  ],
+  "duracion": 32.72,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 509,
+  "fecha": "2026-09-26T16:50:44"
+ },
+ "p09-reto-al-empezar": {
+  "archivo": "p09-reto-al-empezar.9143afdb.mp3",
+  "parrafos": [
+   "¡Alguien ha pisado el barro! Arrastra cada huella hasta el dinosaurio que la dejó."
+  ],
+  "frases": [
+   {
+    "texto": "¡Alguien ha pisado el barro!",
+    "inicio": 0.0,
+    "fin": 1.718
+   },
+   {
+    "texto": "Arrastra cada huella hasta el dinosaurio que la dejó.",
+    "inicio": 2.276,
+    "fin": 5.294
+   }
+  ],
+  "duracion": 5.3,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 104,
+  "fecha": "2026-09-26T16:50:45"
+ },
+ "p09-reto-acierto-teropodo": {
+  "archivo": "p09-reto-acierto-teropodo.082bfa32.mp3",
+  "parrafos": [
+   "¡Sí! Dedos finos con garras: ¡el carnívoro!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Sí!",
+    "inicio": 0.0,
+    "fin": 0.511
+   },
+   {
+    "texto": "Dedos finos con garras: ¡el carnívoro!",
+    "inicio": 1.068,
+    "fin": 3.762
+   }
+  ],
+  "duracion": 3.76,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 65,
+  "fecha": "2026-09-26T16:50:46"
+ },
+ "p09-reto-acierto-ornitopodo": {
+  "archivo": "p09-reto-acierto-ornitopodo.90c6c292.mp3",
+  "parrafos": [
+   "¡Eso es! Dedos gorditos: ¡el del pico!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Eso es!",
+    "inicio": 0.0,
+    "fin": 0.848
+   },
+   {
+    "texto": "Dedos gorditos: ¡el del pico!",
+    "inicio": 1.405,
+    "fin": 3.529
+   }
+  ],
+  "duracion": 3.55,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 60,
+  "fecha": "2026-09-26T16:50:47"
+ },
+ "p09-reto-acierto-sauropodo": {
+  "archivo": "p09-reto-acierto-sauropodo.29f73820.mp3",
+  "parrafos": [
+   "¡Bien! Redonda y enorme: ¡el del cuello largo!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Bien!",
+    "inicio": 0.0,
+    "fin": 0.58
+   },
+   {
+    "texto": "Redonda y enorme: ¡el del cuello largo!",
+    "inicio": 1.126,
+    "fin": 4.04
+   }
+  ],
+  "duracion": 4.05,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 68,
+  "fecha": "2026-09-26T16:50:48"
+ },
+ "p09-reto-fallo-1": {
+  "archivo": "p09-reto-fallo-1.b8e01bfe.mp3",
+  "parrafos": [
+   "¡Uy, esa no es suya! Mira bien los dedos."
+  ],
+  "frases": [
+   {
+    "texto": "¡Uy, esa no es suya!",
+    "inicio": 0.0,
+    "fin": 1.289
+   },
+   {
+    "texto": "Mira bien los dedos.",
+    "inicio": 1.834,
+    "fin": 2.972
+   }
+  ],
+  "duracion": 2.98,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 63,
+  "fecha": "2026-09-26T16:50:49"
+ },
+ "p09-reto-fallo-2": {
+  "archivo": "p09-reto-fallo-2.29260241.mp3",
+  "parrafos": [
+   "Casi… Compara la huella con sus pies."
+  ],
+  "frases": [
+   {
+    "texto": "Casi…",
+    "inicio": 0.0,
+    "fin": 0.662
+   },
+   {
+    "texto": "Compara la huella con sus pies.",
+    "inicio": 1.289,
+    "fin": 3.065
+   }
+  ],
+  "duracion": 3.08,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 59,
+  "fecha": "2026-09-26T16:50:50"
+ },
+ "p09-reto-al-terminar": {
+  "archivo": "p09-reto-al-terminar.ba0fdee0.mp3",
+  "parrafos": [
+   "¡Cada huella con su dueño! Ya sabes leer huellas, como los científicos. ¡Toma tu pegatina!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Cada huella con su dueño!",
+    "inicio": 0.0,
+    "fin": 1.649
+   },
+   {
+    "texto": "Ya sabes leer huellas, como los científicos.",
+    "inicio": 2.252,
+    "fin": 5.05
+   },
+   {
+    "texto": "¡Toma tu pegatina!",
+    "inicio": 5.596,
+    "fin": 7.198
+   }
+  ],
+  "duracion": 7.21,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 134,
+  "fecha": "2026-09-26T16:50:51"
+ },
+ "p10-todos": {
+  "archivo": "p10-todos.cb3c8591.mp3",
+  "parrafos": [
+   "Fijaos en los dientes del dinosaurio gris: es un alosaurio, el gran cazador del Jurásico, hace unos ciento cincuenta millones de años. Un adulto medía ocho o nueve metros, como dos coches en fila. Sus dientes eran curvos, con el borde dentado como un cuchillo de sierra. No machacaban: cortaban. Y hay huesos suyos en Portugal, en esta misma península.",
+   "Ahora buscad al de rayas. Es un dromeosaurio, de la familia del famoso velocirráptor. Mirad sus pies: cada uno lleva una garra enorme, curva como una hoz, levantada sin tocar el suelo. Por eso las huellas de su familia solo marcan dos dedos. Probablemente la usaba para sujetar a sus presas.",
+   "A la maqueta le faltan las plumas. En el cine se los imaginaba con escamas, pero después aparecieron en China parientes suyos fosilizados con plumas. Y en un brazo de velocirráptor se ven los bultitos donde se anclaban, como en el ala de un ave.",
+   "Tampoco estos dos se conocieron. El velocirráptor vivió hace unos setenta y cinco millones de años: a mitad de camino entre el alosaurio y nosotros.",
+   "Buscad la charca azul con una roca: es el final de la historia. Hace sesenta y seis millones de años, una roca del espacio de unos diez kilómetros, más alta que el Everest, cayó en un mar poco profundo, donde hoy está México. El polvo y el humo dejaron la Tierra a oscuras y fría durante meses, quizá años. Sin luz, no crecían las plantas; sin plantas, pasaron hambre los herbívoros, y tras ellos, los cazadores. A la vez había enormes erupciones en la India. Los científicos discuten cuánto contribuyeron, pero la causa principal fue la roca.",
+   "Desaparecieron cerca de tres de cada cuatro especies: los amonites que visteis al principio del recorrido, los reptiles voladores, los grandes reptiles del mar… y todos los dinosaurios, menos una rama: las aves. Sí: la paloma de vuestra plaza es un dinosaurio, prima del velocirráptor. Se salvaron también algunos cocodrilos, tortugas, lagartos, serpientes y pequeños mamíferos.",
+   "En aquel mundo medio vacío, los descendientes de los supervivientes fueron cambiando, generación tras generación. De aquellos pequeños mamíferos venimos nosotros. ¿Cómo puede una especie convertirse en otra? Empezó a sospecharlo un joven que viajó a unas islas de tortugas gigantes. Allí vamos."
+  ],
+  "frases": [
+   {
+    "texto": "Fijaos en los dientes del dinosaurio gris: es un alosaurio, el gran cazador del Jurásico, hace unos ciento cincuenta millones de años.",
+    "inicio": 0.0,
+    "fin": 8.266
+   },
+   {
+    "texto": "Un adulto medía ocho o nueve metros, como dos coches en fila.",
+    "inicio": 9.033,
+    "fin": 12.608
+   },
+   {
+    "texto": "Sus dientes eran curvos, con el borde dentado como un cuchillo de sierra.",
+    "inicio": 13.282,
+    "fin": 17.288
+   },
+   {
+    "texto": "No machacaban: cortaban.",
+    "inicio": 17.938,
+    "fin": 19.83
+   },
+   {
+    "texto": "Y hay huesos suyos en Portugal, en esta misma península.",
+    "inicio": 20.404,
+    "fin": 23.887
+   },
+   {
+    "texto": "Ahora buscad al de rayas.",
+    "inicio": 25.006,
+    "fin": 26.62
+   },
+   {
+    "texto": "Es un dromeosaurio, de la familia del famoso velocirráptor.",
+    "inicio": 27.293,
+    "fin": 30.672
+   },
+   {
+    "texto": "Mirad sus pies: cada uno lleva una garra enorme, curva como una hoz, levantada sin tocar el suelo.",
+    "inicio": 31.391,
+    "fin": 37.951
+   },
+   {
+    "texto": "Por eso las huellas de su familia solo marcan dos dedos.",
+    "inicio": 38.647,
+    "fin": 42.188
+   },
+   {
+    "texto": "Probablemente la usaba para sujetar a sus presas.",
+    "inicio": 42.745,
+    "fin": 45.717
+   },
+   {
+    "texto": "A la maqueta le faltan las plumas.",
+    "inicio": 46.824,
+    "fin": 48.949
+   },
+   {
+    "texto": "En el cine se los imaginaba con escamas, pero después aparecieron en China parientes suyos fosilizados con plumas.",
+    "inicio": 49.703,
+    "fin": 56.855
+   },
+   {
+    "texto": "Y en un brazo de velocirráptor se ven los bultitos donde se anclaban, como en el ala de un ave.",
+    "inicio": 57.528,
+    "fin": 63.31
+   },
+   {
+    "texto": "Tampoco estos dos se conocieron.",
+    "inicio": 64.435,
+    "fin": 66.258
+   },
+   {
+    "texto": "El velocirráptor vivió hace unos setenta y cinco millones de años: a mitad de camino entre el alosaurio y nosotros.",
+    "inicio": 66.943,
+    "fin": 74.28
+   },
+   {
+    "texto": "Buscad la charca azul con una roca: es el final de la historia.",
+    "inicio": 75.384,
+    "fin": 79.447
+   },
+   {
+    "texto": "Hace sesenta y seis millones de años, una roca del espacio de unos diez kilómetros, más alta que el Everest, cayó en un mar poco profundo, donde hoy está México.",
+    "inicio": 80.098,
+    "fin": 89.606
+   },
+   {
+    "texto": "El polvo y el humo dejaron la Tierra a oscuras y fría durante meses, quizá años.",
+    "inicio": 90.373,
+    "fin": 95.551
+   },
+   {
+    "texto": "Sin luz, no crecían las plantas; sin plantas, pasaron hambre los herbívoros, y tras ellos, los cazadores.",
+    "inicio": 96.317,
+    "fin": 103.573
+   },
+   {
+    "texto": "A la vez había enormes erupciones en la India.",
+    "inicio": 104.147,
+    "fin": 107.247
+   },
+   {
+    "texto": "Los científicos discuten cuánto contribuyeron, pero la causa principal fue la roca.",
+    "inicio": 107.92,
+    "fin": 113.76
+   },
+   {
+    "texto": "Desaparecieron cerca de tres de cada cuatro especies: los amonites que visteis al principio del recorrido, los reptiles voladores, los grandes reptiles del mar… y todos los dinosaurios, menos una rama: las aves.",
+    "inicio": 114.861,
+    "fin": 127.737
+   },
+   {
+    "texto": "Sí: la paloma de vuestra plaza es un dinosaurio, prima del velocirráptor.",
+    "inicio": 128.422,
+    "fin": 133.054
+   },
+   {
+    "texto": "Se salvaron también algunos cocodrilos, tortugas, lagartos, serpientes y pequeños mamíferos.",
+    "inicio": 133.739,
+    "fin": 140.821
+   },
+   {
+    "texto": "En aquel mundo medio vacío, los descendientes de los supervivientes fueron cambiando, generación tras generación.",
+    "inicio": 141.928,
+    "fin": 148.813
+   },
+   {
+    "texto": "De aquellos pequeños mamíferos venimos nosotros.",
+    "inicio": 149.498,
+    "fin": 152.714
+   },
+   {
+    "texto": "¿Cómo puede una especie convertirse en otra?",
+    "inicio": 153.364,
+    "fin": 155.976
+   },
+   {
+    "texto": "Empezó a sospecharlo un joven que viajó a unas islas de tortugas gigantes.",
+    "inicio": 156.847,
+    "fin": 161.851
+   },
+   {
+    "texto": "Allí vamos.",
+    "inicio": 162.411,
+    "fin": 163.293
+   }
+  ],
+  "duracion": 163.3,
+  "voz": "El Richar atenboru",
+  "voice_id": "WeuNkKS3AvTwCZZERkQa",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.49,
+   "similarity_boost": 0.43,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.55,
+   "pregunta": 0.8,
+   "parrafo": 1.1
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 2643,
+  "fecha": "2026-09-26T16:51:20"
+ },
+ "p10-peques": {
+  "archivo": "p10-peques.a23cb550.mp3",
+  "parrafos": [
+   "¡Hola, exploradores! ¿Veis al dinosaurio de rayas? Os cuento un secreto de viajera del tiempo: los de su familia tenían plumas, ¡como los pájaros! Lo sé porque he estado allí.",
+   "Hace muchísimo tiempo, cayó del cielo una roca gigante, y casi todos los dinosaurios desaparecieron. ¿Casi todos? ¡Sí! Porque algunos se salvaron: los pájaros. Cada gorrión y cada paloma que veis es un dinosaurio pequeñito.",
+   "¿Y quién más se salvó? ¡Descubridlo en el reto!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Hola, exploradores!",
+    "inicio": 0.0,
+    "fin": 1.881
+   },
+   {
+    "texto": "¿Veis al dinosaurio de rayas?",
+    "inicio": 2.426,
+    "fin": 4.563
+   },
+   {
+    "texto": "Os cuento un secreto de viajera del tiempo: los de su familia tenían plumas, ¡como los pájaros!",
+    "inicio": 5.631,
+    "fin": 12.202
+   },
+   {
+    "texto": "Lo sé porque he estado allí.",
+    "inicio": 12.806,
+    "fin": 14.861
+   },
+   {
+    "texto": "Hace muchísimo tiempo, cayó del cielo una roca gigante, y casi todos los dinosaurios desaparecieron.",
+    "inicio": 15.765,
+    "fin": 22.267
+   },
+   {
+    "texto": "¿Casi todos?",
+    "inicio": 22.847,
+    "fin": 24.008
+   },
+   {
+    "texto": "¡Sí!",
+    "inicio": 25.053,
+    "fin": 25.808
+   },
+   {
+    "texto": "Porque algunos se salvaron: los pájaros.",
+    "inicio": 26.388,
+    "fin": 29.418
+   },
+   {
+    "texto": "Cada gorrión y cada paloma que veis es un dinosaurio pequeñito.",
+    "inicio": 29.928,
+    "fin": 33.875
+   },
+   {
+    "texto": "¿Y quién más se salvó?",
+    "inicio": 34.8,
+    "fin": 36.274
+   },
+   {
+    "texto": "¡Descubridlo en el reto!",
+    "inicio": 37.319,
+    "fin": 39.072
+   }
+  ],
+  "duracion": 39.08,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 598,
+  "fecha": "2026-09-26T16:51:28"
+ },
+ "p10-mision": {
+  "archivo": "p10-mision.b49bd2be.mp3",
+  "parrafos": [
+   "¡Mirad bien las patas de atrás del dinosaurio de rayas! Buscad una uña enorme y curva, como un gancho. ¿Toca el suelo, o la lleva levantada?",
+   "Ahora buscad cerca una charca azul con una roca grande en medio. ¿Qué será esa roca? Una pista: ¡vino del cielo!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Mirad bien las patas de atrás del dinosaurio de rayas!",
+    "inicio": 0.0,
+    "fin": 3.704
+   },
+   {
+    "texto": "Buscad una uña enorme y curva, como un gancho.",
+    "inicio": 4.4,
+    "fin": 7.895
+   },
+   {
+    "texto": "¿Toca el suelo, o la lleva levantada?",
+    "inicio": 8.44,
+    "fin": 11.471
+   },
+   {
+    "texto": "Ahora buscad cerca una charca azul con una roca grande en medio.",
+    "inicio": 12.495,
+    "fin": 16.617
+   },
+   {
+    "texto": "¿Qué será esa roca?",
+    "inicio": 17.174,
+    "fin": 18.66
+   },
+   {
+    "texto": "Una pista: ¡vino del cielo!",
+    "inicio": 19.728,
+    "fin": 22.48
+   }
+  ],
+  "duracion": 22.5,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 340,
+  "fecha": "2026-09-26T16:51:31"
+ },
+ "p10-reto-al-empezar": {
+  "archivo": "p10-reto-al-empezar.58b28151.mp3",
+  "parrafos": [
+   "¡Cayó la roca del cielo! ¿Quién se salvó? Arrastra cada animal a su grupo."
+  ],
+  "frases": [
+   {
+    "texto": "¡Cayó la roca del cielo!",
+    "inicio": 0.0,
+    "fin": 1.533
+   },
+   {
+    "texto": "¿Quién se salvó?",
+    "inicio": 2.183,
+    "fin": 3.286
+   },
+   {
+    "texto": "Arrastra cada animal a su grupo.",
+    "inicio": 4.342,
+    "fin": 6.78
+   }
+  ],
+  "duracion": 6.79,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 118,
+  "fecha": "2026-09-26T16:51:32"
+ },
+ "p10-reto-acierto-se-extinguio-1": {
+  "archivo": "p10-reto-acierto-se-extinguio-1.f73e1f37.mp3",
+  "parrafos": [
+   "Sí. Ese ya no existe."
+  ],
+  "frases": [
+   {
+    "texto": "Sí.",
+    "inicio": 0.0,
+    "fin": 0.453
+   },
+   {
+    "texto": "Ese ya no existe.",
+    "inicio": 1.022,
+    "fin": 2.276
+   }
+  ],
+  "duracion": 2.3,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 43,
+  "fecha": "2026-09-26T16:51:34"
+ },
+ "p10-reto-acierto-se-extinguio-2": {
+  "archivo": "p10-reto-acierto-se-extinguio-2.73276d7d.mp3",
+  "parrafos": [
+   "¡Eso es! Se extinguió."
+  ],
+  "frases": [
+   {
+    "texto": "¡Eso es!",
+    "inicio": 0.0,
+    "fin": 0.801
+   },
+   {
+    "texto": "Se extinguió.",
+    "inicio": 1.358,
+    "fin": 2.276
+   }
+  ],
+  "duracion": 2.3,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 44,
+  "fecha": "2026-09-26T16:51:35"
+ },
+ "p10-reto-acierto-se-extinguio-3": {
+  "archivo": "p10-reto-acierto-se-extinguio-3.ab1a8eb6.mp3",
+  "parrafos": [
+   "Muy bien. Ya no queda ninguno."
+  ],
+  "frases": [
+   {
+    "texto": "Muy bien.",
+    "inicio": 0.0,
+    "fin": 0.604
+   },
+   {
+    "texto": "Ya no queda ninguno.",
+    "inicio": 1.149,
+    "fin": 2.508
+   }
+  ],
+  "duracion": 2.51,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 52,
+  "fecha": "2026-09-26T16:51:36"
+ },
+ "p10-reto-acierto-sobrevivio-1": {
+  "archivo": "p10-reto-acierto-sobrevivio-1.0ec2b8b2.mp3",
+  "parrafos": [
+   "¡Sí! Ese se salvó."
+  ],
+  "frases": [
+   {
+    "texto": "¡Sí!",
+    "inicio": 0.0,
+    "fin": 0.534
+   },
+   {
+    "texto": "Ese se salvó.",
+    "inicio": 1.161,
+    "fin": 2.276
+   }
+  ],
+  "duracion": 2.3,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 40,
+  "fecha": "2026-09-26T16:51:37"
+ },
+ "p10-reto-acierto-sobrevivio-2": {
+  "archivo": "p10-reto-acierto-sobrevivio-2.21071696.mp3",
+  "parrafos": [
+   "¡Muy bien! Todavía los hay."
+  ],
+  "frases": [
+   {
+    "texto": "¡Muy bien!",
+    "inicio": 0.0,
+    "fin": 0.673
+   },
+   {
+    "texto": "Todavía los hay.",
+    "inicio": 1.219,
+    "fin": 2.276
+   }
+  ],
+  "duracion": 2.3,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 49,
+  "fecha": "2026-09-26T16:51:38"
+ },
+ "p10-reto-acierto-sobrevivio-3": {
+  "archivo": "p10-reto-acierto-sobrevivio-3.4034d0c9.mp3",
+  "parrafos": [
+   "¡Bien hecho! Ese aguantó."
+  ],
+  "frases": [
+   {
+    "texto": "¡Bien hecho!",
+    "inicio": 0.0,
+    "fin": 0.813
+   },
+   {
+    "texto": "Ese aguantó.",
+    "inicio": 1.37,
+    "fin": 2.322
+   }
+  ],
+  "duracion": 2.33,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 47,
+  "fecha": "2026-09-26T16:51:39"
+ },
+ "p10-reto-acierto-ave": {
+  "archivo": "p10-reto-acierto-ave.39a9bf0e.mp3",
+  "parrafos": [
+   "¡Sorpresa! Los pájaros son dinosaurios. ¡Y se salvaron!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Sorpresa!",
+    "inicio": 0.0,
+    "fin": 0.906
+   },
+   {
+    "texto": "Los pájaros son dinosaurios.",
+    "inicio": 1.533,
+    "fin": 3.1
+   },
+   {
+    "texto": "¡Y se salvaron!",
+    "inicio": 3.657,
+    "fin": 4.876
+   }
+  ],
+  "duracion": 4.89,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 99,
+  "fecha": "2026-09-26T16:51:40"
+ },
+ "p10-reto-fallo": {
+  "archivo": "p10-reto-fallo.2b275acb.mp3",
+  "parrafos": [
+   "¡Uy! Prueba en el otro grupo."
+  ],
+  "frases": [
+   {
+    "texto": "¡Uy!",
+    "inicio": 0.0,
+    "fin": 0.534
+   },
+   {
+    "texto": "Prueba en el otro grupo.",
+    "inicio": 1.103,
+    "fin": 2.508
+   }
+  ],
+  "duracion": 2.51,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 51,
+  "fecha": "2026-09-26T16:51:41"
+ },
+ "p10-reto-al-terminar": {
+  "archivo": "p10-reto-al-terminar.e9688559.mp3",
+  "parrafos": [
+   "¡Todos en su grupo! Y de aquellos animalitos peludos venimos nosotros. ¡Toma tu pegatina!"
+  ],
+  "frases": [
+   {
+    "texto": "¡Todos en su grupo!",
+    "inicio": 0.0,
+    "fin": 1.393
+   },
+   {
+    "texto": "Y de aquellos animalitos peludos venimos nosotros.",
+    "inicio": 1.962,
+    "fin": 5.132
+   },
+   {
+    "texto": "¡Toma tu pegatina!",
+    "inicio": 5.677,
+    "fin": 7.245
+   }
+  ],
+  "duracion": 7.26,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 4,
+  "caracteres": 133,
+  "fecha": "2026-09-26T16:51:43"
  }
 }

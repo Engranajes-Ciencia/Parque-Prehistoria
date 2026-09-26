@@ -4,14 +4,14 @@ import { dichoDelReto, dichosDelReto } from "../contenido/guion";
 import type { ContenidoParada } from "../contenido/paradas";
 
 // Repartir seis animales entre «Se extinguieron» y «Sobrevivieron» tras el asteroide.
-// Dibujos PROVISIONALES (emojis) hasta el lote 6.
+const img = (n: string) => <img src={`img/p10/${n}.webp`} alt="" draggable={false} />;
 const ANIMALES: PiezaEmparejar[] = [
-  { id: "tiranosaurio", nombre: "Tiranosaurio", dibujo: "🦖", destino: "extintos" },
-  { id: "ave", nombre: "Ave", dibujo: "🐦", destino: "vivos" },
-  { id: "amonites", nombre: "Amonites", dibujo: "🐚", destino: "extintos" },
-  { id: "cocodrilo", nombre: "Cocodrilo", dibujo: "🐊", destino: "vivos" },
-  { id: "pterosaurio", nombre: "Reptil volador", dibujo: "🪽", destino: "extintos" },
-  { id: "mamifero", nombre: "Mamífero pequeño", dibujo: "🐭", destino: "vivos" },
+  { id: "tiranosaurio", nombre: "Tiranosaurio", dibujo: img("tiranosaurio"), destino: "extintos" },
+  { id: "ave", nombre: "Ave", dibujo: img("ave"), destino: "vivos" },
+  { id: "amonites", nombre: "Amonites", dibujo: img("amonites"), destino: "extintos" },
+  { id: "cocodrilo", nombre: "Cocodrilo", dibujo: img("cocodrilo"), destino: "vivos" },
+  { id: "pterosaurio", nombre: "Reptil volador", dibujo: img("pterosaurio"), destino: "extintos" },
+  { id: "mamifero", nombre: "Mamífero pequeño", dibujo: img("mamifero"), destino: "vivos" },
 ];
 
 export default function QuienSobrevivio({ parada }: { parada: ContenidoParada }) {
@@ -41,7 +41,6 @@ export default function QuienSobrevivio({ parada }: { parada: ContenidoParada })
       rotuloPiezas="Los animales"
       rotuloSitios="Después del asteroide…"
       frases={{ inicio: frases.inicio, fallo: frases.fallo, final: frases.final, acierto }}
-      nota="Dibujos provisionales: llegarán las ilustraciones."
     />
   );
 }

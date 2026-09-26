@@ -56,13 +56,13 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Contad los dedos de las huellas, sin pisarlas! ¿Son finos, o gorditos y redondos?
+> ¡Buscad las huellas! Los niños, de uno en uno: meted un pie dentro de una. ¿Cuántos pies vuestros caben en el del dinosaurio? ¿Sus dedos son finos, o gorditos y redondos?
 >
 > Ahora, ¡a moverse! Andad despacito, con pasos de ratón… Y ahora, ¡pasos de gigante, como si corrierais! ¿Cuándo quedan más separados vuestros pies? Así saben los científicos si un dinosaurio paseaba o corría.
 
 Se responde tocando «¡Hecho!». No hay respuesta que comprobar. En las fotos, las dos huellas más claras tienen **tres dedos gorditos y redondos** (de herbívoro); si las de la foto 91 resultan ser de dedos finos, mejor aún: los niños verán los dos tipos. Los pasos se dan **en el camino**, sin salir de él **[VERIFICAR: que haya sitio para dar cuatro o cinco zancadas sin estorbar]**. Prepara el reto (dedos finos, gorditos o huella redonda) y lo de la velocidad que cuenta el texto general.
 
-**Alternativa, si se puede llegar hasta las huellas sin cruzar ninguna cuerda [VERIFICAR]:** «Poned un pie al lado de una huella, sin pisarla. ¿Cuántos pies vuestros caben en el del dinosaurio?» Es más divertida, pero solo vale si el público puede acercarse.
+**Confirmado por Álvaro (26-sep):** las huellas se pueden pisar, mejor solo los niños y de uno en uno; por eso la misión lo dice así.
 
 ---
 

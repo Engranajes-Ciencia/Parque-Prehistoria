@@ -4,7 +4,7 @@ import { dichoDelReto, dichosDelReto, type Dicho } from "../contenido/guion";
 import type { ContenidoParada } from "../contenido/paradas";
 
 // Cada huella con el dinosaurio que la dejó. Las huellas del carnívoro y del herbívoro con pico
-// miden lo mismo: hay que fijarse en los dedos, no en el tamaño. Dinosaurios PROVISIONALES.
+// miden lo mismo: hay que fijarse en los dedos, no en el tamaño.
 const huella = (d: string) => (
   <svg viewBox="0 0 60 60" aria-hidden="true">
     <path d={d} fill="#7a5a3a" fillRule="evenodd" />
@@ -23,6 +23,7 @@ const SAUROPODO = huella(
   "M30 58 C10 58 3 44 5 30 C7 17 18 10 30 10 C42 10 53 17 55 30 C57 44 50 58 30 58 Z M16 15 L11 6 L21 12 Z M28 10 L30 2 L33 10 Z M40 12 L48 5 L45 15 Z",
 );
 
+const dino = (n: string) => <img src={`img/p09/${n}.webp`} alt="" draggable={false} />;
 const HUELLAS: PiezaEmparejar[] = [
   { id: "ornitopodo", nombre: "Tres dedos gorditos", dibujo: ORNITOPODO, destino: "ornitopodo" },
   { id: "sauropodo", nombre: "Redonda y enorme", dibujo: SAUROPODO, destino: "sauropodo" },
@@ -48,15 +49,14 @@ export default function DeQuienEsLaHuella({ parada }: { parada: ContenidoParada 
       pose="lupa"
       piezas={HUELLAS}
       sitios={[
-        { id: "teropodo", nombre: "Carnívoro de dos patas", dibujo: "🦖" },
-        { id: "ornitopodo", nombre: "Iguanodonte, con pico", dibujo: "🦎" },
-        { id: "sauropodo", nombre: "Cuello largo", dibujo: "🦕" },
+        { id: "teropodo", nombre: "Carnívoro de dos patas", dibujo: dino("teropodo") },
+        { id: "ornitopodo", nombre: "Iguanodonte, con pico", dibujo: dino("iguanodonte") },
+        { id: "sauropodo", nombre: "Cuello largo", dibujo: dino("sauropodo") },
       ]}
       columnas={3}
       rotuloPiezas="Las huellas"
       rotuloSitios="¿Quién la dejó?"
       frases={{ inicio: frases.inicio, fallo: frases.fallo, final: frases.final, acierto: (p) => frases.acierto[p.id] }}
-      nota="Dibujos de los dinosaurios provisionales: llegarán las ilustraciones."
     />
   );
 }

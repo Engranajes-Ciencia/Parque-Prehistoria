@@ -2,7 +2,7 @@
 
 *Borrador 1 · 26-sep-2026 · pendiente de revisión de Álvaro*
 
-**Qué hay en la parada** (según las fotos 6-7, de diciembre de 2024; 71, de abril de 2025; y 103-106, de mayo de 2026): **dos columnas blancas, altas y muy rugosas**, como troncos hechos de grumos, los **Prototaxites**. Una es claramente más alta que la otra; las dos se apoyan en piedras. En la foto de abril de 2025 están dentro de un parterre con plantas y rocas, a unos metros del camino. **[VERIFICAR: altura de la columna alta; por las fotos calculo entre tres y cuatro metros, pero es una estimación a ojo.]** **[VERIFICAR: si se puede llegar hasta ellas o solo se ven desde el camino; en las fotos no hay cuerda.]**
+**Qué hay en la parada** (según las fotos 6-7, de diciembre de 2024; 71, de abril de 2025; y 103-106, de mayo de 2026): **dos columnas blancas, altas y muy rugosas**, como troncos hechos de grumos, los **Prototaxites**. Una es claramente más alta que la otra; las dos se apoyan en piedras. En la foto de abril de 2025 están dentro de un parterre con plantas y rocas, a unos metros del camino. **Alturas (Álvaro, 26-sep):** una algo menos de un metro y medio y la otra algo menos de tres metros. **[VERIFICAR: si se puede llegar hasta ellas o solo se ven desde el camino; en las fotos no hay cuerda.]**
 
 Justo al lado (a su izquierda, según Álvaro), **dos fósiles planos a ras de suelo**, entre la hierba, casi tocándose:
 - **El pez (Tiktaalik)**, sobre una losa verde azulada: cabeza plana y triangular con **los dos ojos encima**, espina con costillas, dos pares de aletas con piezas alargadas, como huesos, y cola.
@@ -18,7 +18,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 > Salir del agua fue una de las grandes aventuras de la vida. Durante casi toda su historia, la tierra firme fue un desierto de roca: ni una planta, ni un animal.
 >
-> Hace más de cuatrocientos millones de años, las plantas ya se habían asomado a tierra, pero eran diminutas: casi ninguna os llegaría a la rodilla. Y entre ellas se alzaban estas columnas blancas, los Prototaxites. Los mayores medían unos ocho metros, más que una jirafa. Durante mucho tiempo, nada en tierra firme fue más alto. **[VERIFICAR: si la columna alta ronda los cuatro metros, se puede añadir «el doble que la más alta de aquí».]**
+> Hace más de cuatrocientos millones de años, las plantas ya se habían asomado a tierra, pero eran diminutas: casi ninguna os llegaría a la rodilla. Y entre ellas se alzaban estas columnas blancas, los Prototaxites. Los mayores medían unos ocho metros, más que una jirafa. Durante mucho tiempo, nada en tierra firme fue más alto. La más alta de aquí mide menos de tres: los de verdad eran casi el triple.
 >
 > ¿Y qué eran? Primero se tomaron por troncos podridos; luego, por algas. Durante años se ha pensado que eran un hongo gigante. Pero un estudio reciente propone otra cosa: un grupo de seres desaparecido del todo, sin parientes cercanos. El debate sigue abierto.
 >
@@ -56,7 +56,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > Ahora mirad la columna blanca más alta. ¿Cuántos exploradores, uno encima de otro, harían falta para llegar arriba? ¡Para los más grandes de verdad, harían falta unos siete!
 
-Se responde tocando «¡Hecho!». Lo que se busca: los **ojos encima de la cabeza**, que en el pez del parque se ven muy bien (dos ojos juntos sobre una cabeza plana y triangular, fotos 103 y 106), igual que en el Tiktaalik real; se interpreta, como en los cocodrilos, como rasgo de un animal que vivía en agua poco profunda y miraba hacia arriba. La torre de exploradores no tiene respuesta fija: depende de la altura de la columna **[VERIFICAR]**; si mide unos cuatro metros, salen tres o cuatro niños de cinco años. El «unos siete» del final es para los Prototaxites de ocho metros: ocho metros entre un metro y diez de un niño de cinco años. Se hace mirando, sin acercarse a tocar la columna ni subirse a sus piedras.
+Se responde tocando «¡Hecho!». Lo que se busca: los **ojos encima de la cabeza**, que en el pez del parque se ven muy bien (dos ojos juntos sobre una cabeza plana y triangular, fotos 103 y 106), igual que en el Tiktaalik real; se interpreta, como en los cocodrilos, como rasgo de un animal que vivía en agua poco profunda y miraba hacia arriba. La torre de exploradores no tiene respuesta fija: depende de la altura de la columna **[VERIFICAR]**; mide algo menos de tres metros (Álvaro, 26-sep): salen unos tres niños de cinco años. El «unos siete» del final es para los Prototaxites de ocho metros: ocho metros entre un metro y diez de un niño de cinco años. Se hace mirando, sin acercarse a tocar la columna ni subirse a sus piedras.
 
 ---
 

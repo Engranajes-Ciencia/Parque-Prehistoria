@@ -1389,3 +1389,34 @@ h3 {
 .prado-abeja.elegida {
   outline: 3px solid var(--mostaza);
 }
+
+.prado-flor .flor {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.prado-flor img,
+.prado-abeja img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+/* Puntitos de polen en el centro de la flor visitada */
+.prado-flor .polen {
+  position: absolute;
+  left: 38%;
+  top: 38%;
+  width: 24%;
+  height: 24%;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffe066 0 30%, transparent 32%) 0 0 / 8px 8px;
+  box-shadow: 0 0 0 3px rgba(255, 224, 102, 0.6);
+}
+
+.prado-abeja {
+  padding: 4px;
+}

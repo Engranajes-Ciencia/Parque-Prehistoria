@@ -4,12 +4,12 @@ import { dichoDelReto, type Dicho } from "../contenido/guion";
 import type { ContenidoParada } from "../contenido/paradas";
 
 // Ordenar las cuatro tarjetas de la historia de un fósil. Cada tarjeta tiene su hueco (1-4).
-// Dibujos PROVISIONALES (emojis) hasta que lleguen las ilustraciones del lote 6.
+const img = (n: number) => <img src={`img/p03/fosil-${n}.webp`} alt="" draggable={false} />;
 const TARJETAS: PiezaEmparejar[] = [
-  { id: "t3", nombre: "Se vuelve piedra", dibujo: "🪨", destino: "3" },
-  { id: "t1", nombre: "Nada en el mar", dibujo: "🐚", destino: "1" },
-  { id: "t4", nombre: "¡Aparece!", dibujo: "⛏️", destino: "4" },
-  { id: "t2", nombre: "Lo tapa el barro", dibujo: "🟫", destino: "2" },
+  { id: "t3", nombre: "Se vuelve piedra", dibujo: img(3), destino: "3" },
+  { id: "t1", nombre: "Nada en el mar", dibujo: img(1), destino: "1" },
+  { id: "t4", nombre: "¡Aparece!", dibujo: img(4), destino: "4" },
+  { id: "t2", nombre: "Lo tapa el barro", dibujo: img(2), destino: "2" },
 ];
 
 export default function ComoSeHaceUnFosil({ parada }: { parada: ContenidoParada }) {
@@ -31,7 +31,6 @@ export default function ComoSeHaceUnFosil({ parada }: { parada: ContenidoParada 
       rotuloPiezas="Las tarjetas, desordenadas"
       rotuloSitios="¿Qué pasa primero?"
       frases={{ inicio: frases.inicio, fallo: frases.fallo, final: frases.final, acierto: (p) => frases.tarjeta[p.destino] }}
-      nota="Dibujos provisionales: llegarán las ilustraciones."
     />
   );
 }

@@ -28,7 +28,10 @@ export default function Locucion({ todos, peques, pistas, modoInicial }: Props) 
     const contenedor = caja.current;
     const actual = contenedor?.querySelector<HTMLElement>(".frase.actual");
     if (contenedor && actual) {
-      contenedor.scrollTo({ top: actual.offsetTop - contenedor.clientHeight / 3, behavior: "smooth" });
+      // Posición de la frase DENTRO de la caja. (Con offsetTop se medía desde la página, no
+      // desde la caja, y el texto saltaba al final en cada frase: lo vio Álvaro el 26-sep.)
+      const dentro = actual.getBoundingClientRect().top - contenedor.getBoundingClientRect().top + contenedor.scrollTop;
+      contenedor.scrollTo({ top: Math.max(0, dentro - contenedor.clientHeight / 3), behavior: "smooth" });
     }
   }, [frase]);
 

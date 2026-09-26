@@ -7,34 +7,21 @@ import type { ContenidoParada } from "../contenido/paradas";
 // La abeja se lleva de flor en flor (arrastrando, o tocándola y luego la flor). Cada visita
 // deja polen de la flor anterior; cuando las cuatro están polinizadas, se vuelven frutos.
 // Las cuatro son de la MISMA especie (flor de cerezo → cereza): el polen de otra especie no sirve.
-// Dibujos PROVISIONALES (SVG), hasta que lleguen las ilustraciones.
+// Ilustraciones del lote 6: flor de cerezo, abeja con polen y cereza.
 
 const FLORES = [
-  { id: "f1", x: 22, y: 30, color: "#f6c9dc" },
-  { id: "f2", x: 72, y: 22, color: "#f6c9dc" },
-  { id: "f3", x: 30, y: 72, color: "#f6c9dc" },
-  { id: "f4", x: 78, y: 68, color: "#f6c9dc" },
+  { id: "f1", x: 22, y: 30 },
+  { id: "f2", x: 72, y: 22 },
+  { id: "f3", x: 30, y: 72 },
+  { id: "f4", x: 78, y: 68 },
 ];
 
-function Flor({ color, polinizada, fruto }: { color: string; polinizada: boolean; fruto: boolean }) {
-  if (fruto) {
-    return (
-      <svg viewBox="0 0 80 80" aria-hidden="true">
-        <path d="M40 18 Q46 8 54 10" stroke="#5b7f2e" strokeWidth="4" fill="none" />
-        <circle cx="40" cy="46" r="24" fill="#d9433b" />
-        <ellipse cx="32" cy="38" rx="6" ry="4" fill="#ffffff" opacity="0.5" />
-      </svg>
-    );
-  }
+function Flor({ polinizada, fruto }: { polinizada: boolean; fruto: boolean }) {
   return (
-    <svg viewBox="0 0 80 80" aria-hidden="true">
-      {[0, 72, 144, 216, 288].map((a) => ( // el cerezo tiene cinco pétalos
-        <ellipse key={a} cx="40" cy="20" rx="11" ry="17" fill={color} transform={`rotate(${a} 40 40)`} />
-      ))}
-      <circle cx="40" cy="40" r="11" fill={polinizada ? "#f7d23e" : "#e9b44c"} />
-      {polinizada &&
-        [0, 1, 2, 3, 4].map((i) => <circle key={i} cx={34 + (i % 3) * 6} cy={36 + Math.floor(i / 3) * 7} r="2" fill="#fff6b0" />)}
-    </svg>
+    <span className={`flor ${polinizada ? "polinizada" : ""}`}>
+      <img src={fruto ? "img/p06/cereza.webp" : "img/p06/flor.webp"} alt="" draggable={false} />
+      {polinizada && !fruto && <span className="polen" aria-hidden="true" />}
+    </span>
   );
 }
 
@@ -76,7 +63,7 @@ export default function PolinizaLasFlores({ parada }: { parada: ContenidoParada 
             onClick={() => tocarDestino(f.id)}
             aria-label={visitadas.includes(f.id) ? "Flor polinizada" : "Flor"}
           >
-            <Flor color={f.color} polinizada={visitadas.includes(f.id)} fruto={!!final} />
+            <Flor polinizada={visitadas.includes(f.id)} fruto={!!final} />
           </button>
         ))}
         {!acabado && (
@@ -85,11 +72,11 @@ export default function PolinizaLasFlores({ parada }: { parada: ContenidoParada 
             aria-label="La abeja"
             {...pieza("abeja")}
           >
-            🐝
+            <img src="img/p06/abeja.webp" alt="" draggable={false} />
           </button>
         )}
       </div>
-      <p className="nota">Lleva la abeja de flor en flor. Dibujos provisionales.</p>
+      <p className="nota">Lleva la abeja de flor en flor.</p>
     </MarcoReto>
   );
 }
