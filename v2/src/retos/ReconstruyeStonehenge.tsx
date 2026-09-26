@@ -100,7 +100,8 @@ export default function ReconstruyeStonehenge({ parada }: { parada: ContenidoPar
     else decir(frases.puesta[pieza.tipo]);
   };
 
-  const { arrastre, elegida, sobre, pieza, tocarDestino } = useArrastre(destinos, colocar);
+  const encaja = (id: string, h: Hueco) => !puestas[h] && HUECOS[h].tipo === PIEZAS.find((p) => p.id === id)?.tipo;
+  const { arrastre, elegida, sobre, pieza, tocarDestino } = useArrastre(destinos, colocar, encaja);
   const colocadas = Object.values(puestas);
 
   const hueco = (h: Hueco) => {

@@ -818,6 +818,34 @@ h3 {
   overflow-wrap: anywhere;
 }
 
+/* Pantallas bajas (móviles pequeños, o con la barra del navegador a la vista): Alba y su
+   bocadillo más compactos, para que destinos y piezas quepan sin desplazar la página.
+   Medido el 27-sep a 360×600: el bloque de Alba acababa en 230 px y en varios juegos las
+   piezas o los destinos quedaban por debajo de la pantalla. */
+@media (max-height: 720px) {
+  .reto-alba {
+    grid-template-columns: 56px 1fr;
+    margin: 8px 0;
+  }
+  .reto-alba-figura .alba {
+    height: 58px;
+  }
+  .reto-alba .bocadillo {
+    height: 100px;
+    padding: 8px 12px;
+  }
+  .reto-alba .bocadillo p {
+    font-size: 0.85rem;
+  }
+  .puzle,
+  .solsticio {
+    max-height: 36vh;
+  }
+  .estante {
+    margin-top: 10px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

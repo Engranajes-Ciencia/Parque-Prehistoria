@@ -71,7 +71,9 @@ export default function Puzle(p: Props) {
     else decir(p.frases.puesta(pieza));
   };
 
-  const { arrastre, elegida, sobre, pieza, tocarDestino } = useArrastre(refs.current, colocar);
+  // La pieza «encaja» en su propia sombra si aún está libre (ver useArrastre).
+  const encaja = (id: string, hueco: string) => !puestas[hueco] && p.piezas.find((x) => x.id === id)?.hueco === hueco;
+  const { arrastre, elegida, sobre, pieza, tocarDestino } = useArrastre(refs.current, colocar, encaja);
   const usadas = Object.values(puestas);
 
   return (
@@ -82,7 +84,8 @@ export default function Puzle(p: Props) {
         role="img"
         aria-label={p.etiqueta}
         onClick={(e) => {
-          // Tocar una sombra con una pieza elegida. Si las zonas se solapan, gana la de centro más cercano.
+          // Tocar una sombra con una pieza elegida. Si las zonas se solapan, gana aquella en la
+          // que encaja la pieza elegida y, si no, la de centro más cercano.
           const m = e.currentTarget.getScreenCTM();
           if (!m) return;
           const q = new DOMPoint(e.clientX, e.clientY).matrixTransform(m.inverse());
@@ -90,7 +93,8 @@ export default function Puzle(p: Props) {
             ({ zona: z }) => q.x >= z.x && q.x <= z.x + z.width && q.y >= z.y && q.y <= z.y + z.height,
           );
           const centro = (z: HuecoPuzle["zona"]) => Math.hypot(q.x - z.x - z.width / 2, q.y - z.y - z.height / 2);
-          const h = dentro.sort((a, b) => centro(a.zona) - centro(b.zona))[0];
+          const buena = (h: HuecoPuzle) => Number(!!elegida && encaja(elegida, h.id));
+          const h = dentro.sort((a, b) => buena(b) - buena(a) || centro(a.zona) - centro(b.zona))[0];
           if (h) tocarDestino(h.id);
         }}
       >
