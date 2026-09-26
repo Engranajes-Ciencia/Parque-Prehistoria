@@ -34,7 +34,7 @@ export default function App() {
 
   const parada = ruta.match(/^\/parada\/(\d+)$/);
   if (parada && Number(parada[1]) === PARADA_SECRETA) return <ParadaSecreta />;
-  if (parada) return <Parada id={Number(parada[1])} />;
+  if (parada) return <Parada key={parada[1]} id={Number(parada[1])} />;
   const reto = ruta.match(/^\/parada\/(\d+)\/reto$/);
   if (reto) {
     const id = Number(reto[1]);

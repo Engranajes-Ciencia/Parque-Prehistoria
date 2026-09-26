@@ -11,6 +11,7 @@ import { callar, locutar } from "../voz";
 export default function Parada({ id }: { id: number }) {
   const { modo, pegatinas, misiones } = useEstado();
   const [mision, setMision] = useState(false);
+  const [misionSonando, setMisionSonando] = useState(false);
   const parada = PARADAS[id];
 
   if (!parada) {
@@ -31,7 +32,8 @@ export default function Parada({ id }: { id: number }) {
   const pista = `p${String(parada.id).padStart(2, "0")}`;
   const portada = parada.imagen ?? parada.foto;
   const cerrarMision = () => {
-    callar();
+    if (misionSonando) callar(); // la explicación que estuviera sonando sigue
+    setMisionSonando(false);
     setMision(false);
   };
 
@@ -105,7 +107,13 @@ export default function Parada({ id }: { id: number }) {
             {guion.mision.map((p, i) => (
               <p key={i}>{p}</p>
             ))}
-            <button className="boton secundario" onClick={() => locutar(`${pista}-mision`, guion.mision, "alba")}>
+            <button className="boton secundario" onClick={() => {
+                setMisionSonando(true);
+                locutar(`${pista}-mision`, guion.mision, "alba", {
+                  alTerminar: () => setMisionSonando(false),
+                  alInterrumpir: () => setMisionSonando(false),
+                });
+              }}>
               🔊 Escuchar a Alba
             </button>
             <button

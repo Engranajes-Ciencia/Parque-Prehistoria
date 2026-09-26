@@ -113,9 +113,14 @@ export function dichosDelReto(guion: Guion, parada: number, etiqueta: string): D
 
 /** Parte párrafos en frases para locutarlas y resaltarlas de una en una. */
 export function enFrases(parrafos: string[]): string[] {
+  // Corta tras . ! ? … seguidos de espacio y de una mayúscula, ¡, ¿ o «. Sin «lookbehind»
+  // (?<=…): Safari anterior a la 16.4 no lo entiende y la app entera se quedaba en blanco.
+  // Mismo resultado que en_frases() de generar_audios.py.
+  const corte = /([.!?…])\s+(?=[¡¿«A-ZÁÉÍÓÚÑ])/g;
   return parrafos.flatMap((p) =>
     p
-      .split(/(?<=[.!?…])\s+(?=[¡¿«A-ZÁÉÍÓÚÑ])/)
+      .replace(corte, "$1\u0000")
+      .split("\u0000")
       .map((f) => f.trim())
       .filter(Boolean),
   );

@@ -62,7 +62,7 @@ export default function ManoEnLaCueva({ parada }: { parada: ContenidoParada }) {
     mitad: dichoDelReto(parada.guion, parada.id, "A la mitad"),
     final: dichoDelReto(parada.guion, parada.id, "Al terminar"),
   }));
-  const { mensaje, decir, final, terminar: rematar, acabado } = useAlba(frases.inicio);
+  const { mensaje, decir, final, terminar: rematar, acabado } = useAlba(frases.inicio, parada.id);
   const [recuerdo, setRecuerdo] = useState<string | null>(null);
   const pared = useRef<HTMLCanvasElement>(null);
   const guia = useRef<HTMLCanvasElement>(null);

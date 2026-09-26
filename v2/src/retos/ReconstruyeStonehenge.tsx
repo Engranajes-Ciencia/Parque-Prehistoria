@@ -64,7 +64,7 @@ export default function ReconstruyeStonehenge({ parada }: { parada: ContenidoPar
       talon: dicho("Al poner la Piedra del Talón"),
     } as Record<Tipo, Dicho>,
   }));
-  const { mensaje, decir, final, terminar, acabado } = useAlba(frases.inicio);
+  const { mensaje, decir, final, terminar, acabado } = useAlba(frases.inicio, parada.id);
   const [puestas, setPuestas] = useState<Partial<Record<Hueco, string>>>({});
   const [sacudida, setSacudida] = useState<string | null>(null);
   const r = {

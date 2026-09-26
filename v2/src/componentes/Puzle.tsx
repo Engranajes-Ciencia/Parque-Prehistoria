@@ -46,7 +46,7 @@ interface Props {
 }
 
 export default function Puzle(p: Props) {
-  const { mensaje, decir, final, terminar, acabado } = useAlba(p.frases.inicio);
+  const { mensaje, decir, final, terminar, acabado } = useAlba(p.frases.inicio, p.parada);
   const [puestas, setPuestas] = useState<Record<string, string>>({}); // hueco -> pieza
   const [sacudida, setSacudida] = useState<string | null>(null);
   const refs = useRef<Record<string, RefObject<HTMLElement | null>>>(

@@ -34,7 +34,7 @@ export default function PolinizaLasFlores({ parada }: { parada: ContenidoParada 
     ultima: dicho("Última flor"),
     final: dicho("Al terminar"),
   }));
-  const { mensaje, decir, final, terminar, acabado } = useAlba(frases.inicio);
+  const { mensaje, decir, final, terminar, acabado } = useAlba(frases.inicio, parada.id);
   const [visitadas, setVisitadas] = useState<string[]>([]);
   const refs = useRef<Record<string, RefObject<HTMLElement | null>>>(
     Object.fromEntries(FLORES.map((f) => [f.id, createRef<HTMLElement>()])),

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import type { Modo } from "../estado";
+import { actualizar, type Modo } from "../estado";
 import { callar, locutar, pausar, reanudar, usePista } from "../voz";
 
 interface Props {
@@ -44,6 +44,7 @@ export default function Locucion({ todos, peques, pistas, modoInicial }: Props) 
   const cambiarModo = (m: Modo) => {
     parar();
     setModo(m);
+    actualizar({ modo: m }); // se recuerda en las paradas siguientes
   };
 
   const escuchar = () => {
@@ -52,6 +53,11 @@ export default function Locucion({ todos, peques, pistas, modoInicial }: Props) 
     locutar(clave, parrafos, modo === "peques" ? "alba" : "narrador", {
       alEmpezarFrase: setFrase,
       alTerminar: () => {
+        setEstado("parado");
+        setFrase(-1);
+      },
+      // Otro audio (la misión, otra parada…) le ha quitado el turno.
+      alInterrumpir: () => {
         setEstado("parado");
         setFrase(-1);
       },

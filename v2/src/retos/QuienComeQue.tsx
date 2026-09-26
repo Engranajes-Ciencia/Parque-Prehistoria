@@ -34,7 +34,7 @@ export default function QuienComeQue({ parada }: { parada: ContenidoParada }) {
     filete: dicho("Filete a cualquiera"),
     final: dicho("Al terminar"),
   }));
-  const { mensaje, decir, final, terminar, acabado } = useAlba(frases.inicio);
+  const { mensaje, decir, final, terminar, acabado } = useAlba(frases.inicio, parada.id);
   const [colocadas, setColocadas] = useState<Record<string, Dino>>({});
   const [sacudida, setSacudida] = useState<string | null>(null);
   const [masticando, setMasticando] = useState<Dino | null>(null);

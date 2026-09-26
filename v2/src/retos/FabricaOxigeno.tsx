@@ -32,7 +32,7 @@ export default function FabricaOxigeno({ parada }: { parada: ContenidoParada }) 
     mitad: dichoDelReto(parada.guion, parada.id, "A la mitad"),
     final: dichoDelReto(parada.guion, parada.id, "Al terminar"),
   }));
-  const { mensaje, decir, final, terminar, acabado } = useAlba(frases.inicio);
+  const { mensaje, decir, final, terminar, acabado } = useAlba(frases.inicio, parada.id);
   const [toques, setToques] = useState(0);
   const cuenta = useRef(0);
   const dichas = useRef(0);

@@ -32,7 +32,7 @@ export default function DeDondeViene({ parada }: { parada: ContenidoParada }) {
       cerdo: dicho("Acierto cerdo"),
     } as Record<Domestico, Dicho>,
   }));
-  const { mensaje, decir, final, terminar, acabado } = useAlba(frases.inicio);
+  const { mensaje, decir, final, terminar, acabado } = useAlba(frases.inicio, parada.id);
   const [unidos, setUnidos] = useState<Record<string, Domestico>>({});
   const [sacudida, setSacudida] = useState<string | null>(null);
   const destinos = {

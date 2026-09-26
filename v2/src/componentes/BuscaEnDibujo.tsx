@@ -33,7 +33,7 @@ interface Props {
 }
 
 export default function BuscaEnDibujo(p: Props) {
-  const { mensaje, decir, final, terminar, acabado } = useAlba(p.inicio);
+  const { mensaje, decir, final, terminar, acabado } = useAlba(p.inicio, p.parada);
   const [halladas, setHalladas] = useState<string[]>([]);
   const ya = useRef<string[]>([]); // al instante: dos toques seguidos no deben pisarse
   const [fallo, setFallo] = useState<{ x: number; y: number } | null>(null);

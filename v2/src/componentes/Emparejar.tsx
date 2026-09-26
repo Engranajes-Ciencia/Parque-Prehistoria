@@ -51,7 +51,7 @@ interface Props {
 }
 
 export default function Emparejar(p: Props) {
-  const { mensaje, decir, final, terminar, acabado } = useAlba(p.frases.inicio);
+  const { mensaje, decir, final, terminar, acabado } = useAlba(p.frases.inicio, p.parada);
   const [colocadas, setColocadas] = useState<Record<string, string>>({}); // pieza -> sitio
   const [sacudida, setSacudida] = useState<string | null>(null);
   const fallos = useRef(0);

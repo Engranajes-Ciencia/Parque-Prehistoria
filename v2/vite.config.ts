@@ -17,7 +17,9 @@ function listaDeRecursos(): Plugin {
   const escribir = () => {
     const archivos = ["audio", "img"]
       .flatMap((d) => recorrer(join(PUBLICO, d)))
-      .filter((f) => /\.(mp3|webp|json)$/.test(f))
+      // Solo audios e imágenes: el manifiesto de audio va aparte (caché «listas») y las
+      // imágenes de Alba ya van en la precaché de la app.
+      .filter((f) => /\.(mp3|webp)$/.test(f) && !/[\\/]alba[\\/]/.test(f))
       .map((f) => ({ url: relative(PUBLICO, f).split("\\").join("/"), bytes: statSync(f).size }));
     writeFileSync(join(PUBLICO, "recursos.json"), JSON.stringify(archivos));
   };
@@ -32,10 +34,10 @@ export default defineConfig({
     listaDeRecursos(),
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: ["iconos/*.png"],
       manifest: {
         name: "Parque de Ciencias Prehistóricas",
         short_name: "Prehistoria",
+        id: "prehistoria-v2",
         lang: "es",
         start_url: ".",
         scope: ".",
@@ -48,9 +50,10 @@ export default defineConfig({
         ],
       },
       workbox: {
-        // La app en sí se guarda al abrirla por primera vez; audios e imágenes, al usarlos
-        // o todos de golpe con «Descargar la visita» (misma caché: «recursos»).
-        globPatterns: ["**/*.{js,css,html,webmanifest}", "img/alba/*.webp", "iconos/*.png"],
+        // La app en sí se guarda al abrirla por primera vez; audios e imágenes, con «Descargar la
+        // visita» o, los audios, en segundo plano tras sonar con red (voz.ts), porque el <audio>
+        // los pide por trozos (206) y esos trozos no se pueden guardar. Todo en la caché «recursos».
+        globPatterns: ["**/*.{js,css,html,webmanifest}", "img/alba/*.webp", "iconos/*.png", "silencio.mp3"],
         clientsClaim: true,
         skipWaiting: true,
         runtimeCaching: [

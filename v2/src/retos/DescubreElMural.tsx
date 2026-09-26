@@ -27,7 +27,7 @@ export default function DescubreElMural({ parada }: { parada: ContenidoParada })
     final: dichoDelReto(parada.guion, parada.id, "Al terminar"),
     hallazgo: Object.fromEntries(HALLAZGOS.map((h) => [h.id, dichoDelReto(parada.guion, parada.id, h.etiqueta)])),
   }));
-  const { mensaje, decir, final, terminar, acabado } = useAlba(frases.inicio);
+  const { mensaje, decir, final, terminar, acabado } = useAlba(frases.inicio, parada.id);
   const [encontrados, setEncontrados] = useState<string[]>([]);
   const hallados = useRef<string[]>([]); // al instante: dos toques seguidos no deben pisarse
   const [fallo, setFallo] = useState<{ x: number; y: number } | null>(null);
