@@ -16,9 +16,9 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > El agua brota por el centro casi hirviendo, tan caliente que ahí no crece ninguna alfombra de color; por eso veis azul, el color del agua limpia y profunda. Hacia los bordes, el agua se enfría, y en cada anillo vive una comunidad distinta de microbios, seres tan pequeños que no se ven. Juntos forman alfombras de colores: amarillas cerca del agua más caliente; naranjas y rojas, más lejos. Los colores funcionan casi como un termómetro.
 >
-> ¿Por qué empezamos aquí? Porque la vida empezó con microbios, y durante muchísimo tiempo no hubo nada más. La Tierra se formó hace unos cuatro mil quinientos millones de años; las huellas de vida más antiguas que casi nadie discute tienen unos tres mil quinientos millones de años. Dónde y cómo surgió la vida, aún no lo sabemos: quizá en aguas calientes como estas, o en fuentes termales del fondo del mar.
+> ¿Por qué empezamos aquí? Porque la vida empezó con microbios, y durante muchísimo tiempo no hubo nada más. La Tierra se formó hace unos cuatro mil quinientos millones de años. Y las huellas de vida más antiguas, las que casi nadie discute, tienen unos tres mil quinientos millones. Dónde y cómo surgió la vida, aún no lo sabemos: quizá en aguas calientes como estas, o en fuentes termales del fondo del mar.
 >
-> Entre aquellos microbios aparecieron las cianobacterias, que se fabricaban la comida con la luz del sol y con agua. Al romper el agua, soltaban un desecho que cambió el planeta: el oxígeno. Muchas formaban alfombras que, capa a capa, levantaban rocas: los estromatolitos. En la bahía Shark, en Australia, todavía crecen.
+> Entre aquellos microbios aparecieron las cianobacterias, que se fabricaban la comida con la luz del sol, con agua y con dióxido de carbono del aire. Al romper el agua, soltaban un desecho que cambió el planeta: el oxígeno. Muchas formaban alfombras que, capa a capa, levantaban rocas: los estromatolitos. En la bahía Shark, en Australia, todavía crecen.
 >
 > Al principio, ese oxígeno no se quedaba en el aire: se lo tragaban el hierro del mar y los gases de los volcanes. Pero hace unos dos mil cuatrocientos millones de años empezó a acumularse. Es la Gran Oxidación. Para muchos microbios, aquel gas era un veneno. Hoy es la quinta parte del aire, y cada vez que respiráis usáis algo que empezó siendo el desecho de seres diminutos.
 >
@@ -30,7 +30,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ## Para peques (4-6 años) — voz de Alba
 
-> ¡Hola, exploradores! Soy Alba, la viajera del tiempo.
+> ¡Hola, exploradores!
 >
 > ¿Veis los colores de esta charca? En la charca de verdad, los colores del borde los ponen seres vivos: microbios. Son tan pequeños que no se ven, pero hay tantos, tantos, que juntos parecen pintura.
 >

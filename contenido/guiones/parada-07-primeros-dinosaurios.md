@@ -14,7 +14,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras (
 
 > Para entender a los dinosaurios hay que empezar por una catástrofe. Hace doscientos cincuenta y dos millones de años, unas erupciones volcánicas gigantescas cambiaron el clima de todo el planeta. Fue la mayor extinción de la historia: desaparecieron más de ocho de cada diez especies del mar, y muchísimas de tierra firme.
 >
-> En aquel mundo medio vacío, hace unos doscientos treinta millones de años, aparecen los primeros dinosaurios que conocemos. No se parecían a los que imagináis: muchos no eran más grandes que un perro, y corrían sobre dos patas. Nadie habría apostado por ellos. Y, sin embargo, acabaron reinando en la Tierra: desde los primeros hasta los últimos grandes dinosaurios pasaron más de ciento sesenta millones de años. Para hacernos una idea: nuestra especie lleva aquí unos trescientos mil. Ellos duraron más de quinientas veces eso.
+> La vida tardó millones de años en rehacerse. Hace unos doscientos treinta millones de años aparecen los primeros dinosaurios que conocemos. No se parecían a los que imagináis: muchos no eran más grandes que un perro, y corrían sobre dos patas. Nadie habría apostado por ellos. Y, sin embargo, acabaron reinando en la Tierra: desde los primeros hasta los últimos grandes dinosaurios pasaron más de ciento sesenta millones de años. Para hacernos una idea: nuestra especie lleva aquí unos trescientos mil. Ellos duraron más de quinientas veces eso.
 >
 > Los dos que tenéis aquí llegaron mucho después. Mirad primero al triceratops. Fijaos en su cabeza: un pico como el de un loro, dos cuernos largos sobre los ojos, uno corto sobre la nariz y, detrás, una gran gola de hueso. Era herbívoro. Arrancaba plantas bajas con el pico y las troceaba con cientos de dientes que cortaban como tijeras y se le iban renovando toda la vida. Los cuernos le servían para defenderse, y probablemente también para pelear con otros triceratops, como hacen hoy los ciervos.
 >
@@ -30,7 +30,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras (
 
 ## Para peques (4-6 años) — voz de Alba
 
-> ¡Hola, exploradores! Soy Alba, la viajera del tiempo.
+> ¡Hola, exploradores!
 >
 > ¿Veis ese dinosaurio con cuernos? Es un triceratops. Vamos a contarlos juntos: uno… dos… ¡y tres! Tenía un pico, como los loros, y solo comía plantas.
 >
@@ -95,7 +95,7 @@ Nada de hierba ni de flores: en el mundo del brontosaurio aún no existían (que
 
 ## ¿Sabías que…?
 
-> ¿Sabías que el triceratops tenía cientos de dientes y que, cuando se le gastaba uno, le salía otro debajo? Los fue cambiando toda su vida.
+> ¿Sabías que durante más de cien años los científicos dijeron que el brontosaurio no era un animal distinto? Creían que era el mismo que el apatosaurio. En dos mil quince, un estudio de sus huesos le devolvió el nombre, aunque algunos todavía lo discuten.
 
 ---
 
@@ -109,6 +109,7 @@ Nada de hierba ni de flores: en el mundo del brontosaurio aún no existían (que
 | *Homo sapiens* | ~300.000 años (Jebel Irhoud) | Hublin et al. (2017, *Nature*) |
 | Triceratops | 68-66 Ma, Norteamérica; pico córneo; baterías dentales con cientos de dientes de reemplazo que **cortaban como tijeras** (los ceratópsidos no molían; los que molían eran los hadrosaurios) | — |
 | Cuernos para pelear entre ellos | lesiones curadas en la gola compatibles con combates con los cuernos trabados | Farke et al. (2009, *PLoS ONE*) |
+| Brontosaurio en el «¿Sabías que?» (27-sep: sustituye al de los dientes del triceratops, que repetía el texto) | Riggs (1903) lo consideró el mismo género que *Apatosaurus*, que tenía prioridad; Tschopp, Mateus y Benson (2015, *PeerJ*) lo separaron de nuevo con un análisis de 81 esqueletos. Hay autores que no lo aceptan | Riggs (1903); Tschopp et al. (2015) |
 | Brontosaurio | ~156-146 Ma (Formación Morrison); ~22 m de largo; ~15 t, con estimaciones que varían (tres elefantes africanos de ~5 t) | Tschopp et al. (2015, *PeerJ*) resucitó el género *Brontosaurus* |
 | Separación entre ambos | más de 80 Ma (~150 frente a ~68), más que los ~66-68 Ma que nos separan del triceratops | — |
 | Pasos para medir 22 m | niño de 4-6 años: paso de ~0,4-0,5 m → ~45-55 pasos; adulto: ~0,7 m → ~30 pasos | — |

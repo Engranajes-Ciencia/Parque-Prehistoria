@@ -20,7 +20,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ## Para todos (7 años en adelante) — voz del narrador
 
-> Esta parada no tiene maqueta. Tiene algo mejor: plantas de verdad, de las que dan flores. **[VERIFICAR: qué plantas son y si florecen todo el año.]** Una flor nos parece lo más normal del mundo. Pero durante más de trescientos millones de años, las plantas vivieron en tierra firme sin una sola flor. Los árboles de la parada anterior no tenían ninguna.
+> Esta parada no tiene maqueta. Tiene algo mejor: plantas de verdad, de las que dan flores. **[VERIFICAR: qué plantas son y si florecen todo el año.]** Una flor nos parece lo más normal del mundo. Pero durante más de trescientos millones de años, las plantas vivieron en tierra firme sin una sola flor. Los primeros árboles, los de la parada anterior, no tenían ninguna.
 >
 > Y aquí el camino hace trampa con el tiempo. Las flores aparecieron hace unos ciento treinta millones de años; quizá antes, pero los científicos aún lo discuten. Los primeros dinosaurios, en cambio, llegaron hace unos doscientos treinta millones, y vivieron, hasta donde sabemos, en un mundo sin flores. Así que, cuando vayáis a la siguiente parada, no avanzaréis en el tiempo: retrocederéis cien millones de años.
 >
@@ -42,7 +42,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ## Para peques (4-6 años) — voz de Alba
 
-> ¡Hola otra vez, exploradores! Soy Alba.
+> ¡Hola otra vez, exploradores!
 >
 > Os cuento un secreto de viajera del tiempo: hubo un mundo sin flores. ¡Plantas por todas partes, y ni una flor! Lo sé porque he estado allí y las busqué por todos lados.
 >
@@ -62,7 +62,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 > Primero, quietos como estatuas: mirad las flores un ratito desde lejos. ¿Viene algún insecto a comer? Si es una abeja, ¡dejadla trabajar!
 >
-> Después, acercaos a una flor sin arrancarla. ¿Cuántos pétalos tiene? ¿Huele?
+> Después, acercaos a una flor sin insectos, sin arrancarla. ¿Cuántos pétalos tiene? ¿Huele?
 >
 > ¿No hay flores hoy? Buscad un fruto o una semilla: dentro de cada semilla duerme una planta nueva.
 

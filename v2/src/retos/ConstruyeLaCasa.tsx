@@ -12,7 +12,7 @@ const PAREDES = "M60 120 H80 V250 H60 Z M240 120 H260 V250 H240 Z";
 const FONDO_CASA = "M80 124 H240 V250 H80 Z";
 const TEJADO = "M50 100 H188 V122 H50 Z M228 100 H270 V122 H228 Z";
 const ESCALERA = "M194 248 L202 66 L226 66 L222 248 Z";
-const HORNO = "M92 250 Q92 208 120 208 Q148 208 148 250 Z";
+const HORNO = "M136 250 Q136 208 162 208 Q188 208 188 250 Z";
 
 const sombra = (d: string) => <path d={d} className="sombra-pieza" />;
 
@@ -32,13 +32,13 @@ const HUECOS: HuecoPuzle[] = [
   },
   {
     id: "horno",
-    zona: { x: 92, y: 206, width: 56, height: 46 },
+    zona: { x: 136, y: 206, width: 52, height: 46 },
     dibujo: (lleno) =>
       lleno ? (
         <g>
           <path d={HORNO} fill="#b7794a" stroke="#6b4226" strokeWidth="2" />
-          <path d="M110 250 Q110 232 120 232 Q130 232 130 250 Z" fill="#3a2a1c" />
-          <path d="M116 244 q4 -8 8 0" stroke="#f2a33a" strokeWidth="3" fill="none" />
+          <path d="M152 250 Q152 232 162 232 Q172 232 172 250 Z" fill="#3a2a1c" />
+          <path d="M158 244 q4 -8 8 0" stroke="#f2a33a" strokeWidth="3" fill="none" />
         </g>
       ) : (
         sombra(HORNO)
@@ -75,7 +75,7 @@ const mini = (d: string, color: string, caja: string) => (
 
 const PIEZAS: PiezaPuzle[] = [
   { id: "tejado", nombre: "Tejado", hueco: "tejado", mini: mini(TEJADO, "#a88758", "45 60 230 110") },
-  { id: "horno", nombre: "Horno", hueco: "horno", mini: mini(HORNO, "#b7794a", "86 200 68 56") },
+  { id: "horno", nombre: "Horno", hueco: "horno", mini: mini(HORNO, "#b7794a", "130 200 64 56") },
   { id: "escalera", nombre: "Escalera", hueco: "escalera", mini: mini(ESCALERA, "#a0703f", "150 60 120 196") },
   { id: "paredes", nombre: "Paredes", hueco: "paredes", mini: mini(PAREDES, "#c9a26b", "50 110 220 146") },
 ];

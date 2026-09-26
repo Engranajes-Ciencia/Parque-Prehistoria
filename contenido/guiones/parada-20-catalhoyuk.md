@@ -36,7 +36,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > Lo mismo pasa con la mujer sentada del fondo. **[VERIFICAR: que la figurilla del pedestal imita a la «mujer sentada»]** Se dijo que figurillas como ella representaban a una gran diosa madre. Hoy muchos lo dudan: la mayoría de las figurillas halladas son animales.
 >
-> Además, las casas se parecen mucho, y no se han hallado palacios ni templos. El arqueólogo Ian Hodder cree que había pocas diferencias entre unas familias y otras; otros lo matizan. Allí se construían casas, no monumentos. Miles de años después, en Inglaterra, otra gente se juntó para algo que ninguna familia podría levantar sola: un círculo de piedras enormes. ¿Qué hace que tanta gente tire junta de la misma cuerda? Esa pregunta os espera en la última parada.
+> Además, las casas se parecen mucho, y no se han hallado palacios ni templos. El arqueólogo que dirigió las excavaciones cree que había pocas diferencias entre unas familias y otras; otros lo matizan. Allí se construían casas, no monumentos. Miles de años después, en Inglaterra, otra gente se juntó para algo que ninguna familia podría levantar sola: un círculo de piedras enormes. ¿Qué hace que tanta gente tire junta de la misma cuerda? Esa pregunta os espera en la última parada.
 
 *≈ 380 palabras · ≈ 2 min 30 s.*
 
@@ -52,7 +52,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ## Para peques (4-6 años) — voz de Alba
 
-> ¡Hola, exploradores! Soy Alba, la viajera del tiempo.
+> ¡Hola, exploradores!
 >
 > ¿Por dónde entráis vosotros en casa? ¿Por la puerta? Pues en Çatalhöyük, no: ¡allí las casas no tenían puerta de entrada!
 >

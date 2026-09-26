@@ -33,9 +33,9 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ## Para peques (4-6 años) — voz de Alba
 
-> ¡Hola otra vez, exploradores! Soy Alba.
+> ¡Hola otra vez, exploradores!
 >
-> ¿Os acordáis de las tiendas de la parada anterior? Aquella gente se mudaba una y otra vez. ¡Pero estas familias se quedaron! ¿Sabéis por qué? Porque aprendieron a sembrar semillas y a cuidar animales. ¡La comida crecía al lado de casa!
+> ¿Os acordáis de las tiendas de los nómadas? Aquella gente se mudaba una y otra vez. ¡Pero estas familias se quedaron! ¿Sabéis por qué? Porque aprendieron a sembrar semillas y a cuidar animales. ¡La comida crecía al lado de casa!
 >
 > Por eso hicieron casas fuertes, y un pozo para sacar agua sin ir hasta el río. Lo sé porque he estado allí: olía a humo… ¡y a cabra!
 >
@@ -49,7 +49,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Buscad en el poblado tres cosas que un campamento nómada nunca tendría! Una pista: no se pueden llevar a cuestas.
+> ¡Buscad en el poblado tres cosas que no se podrían llevar en una mudanza! Una pista: son muy pesadas o están metidas en el suelo.
 >
 > Y ahora, mirad encima de la puerta de la cabaña. ¿De qué animal son esas cuernas? ¿De uno de granja… o de uno salvaje?
 

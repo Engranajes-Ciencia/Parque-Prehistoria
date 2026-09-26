@@ -44,7 +44,7 @@ Dudas marcadas con **[VERIFICAR: …]**. Los textos van **tal como se leerán en
 
 ## Para peques (4-6 años) — voz de Alba
 
-> ¡Hola, exploradores! Soy Alba, la viajera del tiempo.
+> ¡Hola, exploradores!
 >
 > Una vez entré en una cueva de verdad, hace muchísimo tiempo. Estaba oscurísima: solo había una lucecita de fuego. Allí vi a una chica apoyar la mano en la pared, llenarse la boca de pintura roja… ¡y soplar muy fuerte!
 >

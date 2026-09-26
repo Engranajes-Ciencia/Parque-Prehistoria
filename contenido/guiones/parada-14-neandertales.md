@@ -38,7 +38,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > Hace unos cincuenta mil años, otros humanos llegados de África se extendieron por sus tierras: nosotros. Se encontraron, y tuvieron hijos juntos. Por eso, casi todas las personas con antepasados fuera de África llevamos entre nuestros genes un poquito de neandertal: más o menos, dos partes de cada cien.
 >
-> Hace unos cuarenta mil años, ya no quedaba ninguno. ¿Por qué? Aún se discute. Eran pocos, el clima cambiaba sin parar, llegaron competidores, y en parte se mezclaron con ellos. Probablemente, un poco de todo. Ahora entrad en el museo y buscad su cráneo entre los de otras especies humanas. **[VERIFICAR: que haya un cráneo neandertal en las vitrinas; si no, «buscad los cráneos de otras especies humanas»]** Es una familia entera, y hoy solo quedamos nosotros.
+> Hace unos cuarenta mil años, ya no quedaba ninguno. ¿Por qué? Aún se discute. Eran pocos, el clima cambiaba sin parar, llegaron competidores, y en parte se mezclaron con ellos. Probablemente, un poco de todo. Ahora entrad en el museo y buscad su cráneo entre los de otras especies humanas. **[VERIFICAR: que haya un cráneo neandertal en las vitrinas; si no, «buscad los cráneos de otras especies humanas»]** ¿En qué se parece a vuestra cabeza, y en qué no?
 
 *≈ 379 palabras · ≈ 2 min 25 s.*
 
@@ -54,7 +54,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ## Para peques (4-6 años) — voz de Alba
 
-> ¡Hola, exploradores! Soy Alba, la viajera del tiempo.
+> ¡Hola, exploradores!
 >
 > ¿Veis este hogar? Una noche me senté junto a un fuego igual, con una familia neandertal. ¡Qué calentito se estaba!
 >

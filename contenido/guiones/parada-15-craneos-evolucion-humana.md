@@ -39,7 +39,7 @@ Los textos van **tal como se leerán en voz alta**: cifras con letras y frases c
 >
 > Seguro que conocéis el dibujo del mono que se va poniendo de pie, paso a paso, hasta convertirse en persona. Ese dibujo engaña. No venimos del chimpancé: es nuestro primo. Hace más de seis millones de años tuvimos un antepasado común, y desde entonces cada uno ha seguido su camino. Tampoco hubo una sola fila en que cada especie se convirtiera en la siguiente.
 >
-> La evolución humana se parece más a un arbusto: muchas ramas que crecen a la vez, que a veces se cruzan y casi todas se secan. Hace unos sesenta mil años, en la Tierra convivían por lo menos cuatro clases de humanos: nosotros, los neandertales, los denisovanos y, en una isla de Asia, unos humanos de poco más de un metro. Hoy solo queda una rama: la nuestra. Estar solos, como ahora, es la excepción.
+> La evolución humana se parece más a un arbusto: muchas ramas que crecen a la vez, que a veces se cruzan y casi todas se secan. Hace unos sesenta mil años, en la Tierra convivían por lo menos cuatro clases de humanos. Nosotros, los neandertales, los denisovanos… y, en una isla de Asia, unos humanos de poco más de un metro. Hoy solo queda una rama: la nuestra. Estar solos, como ahora, es la excepción.
 >
 > Comparad. En el gorila y el chimpancé, la cara sale hacia delante como un hocico, con colmillos enormes y una visera de hueso sobre los ojos. Buscad luego el cráneo blanco de abajo del todo, en la vitrina de los neandertales: es de una persona de hoy. **[VERIFICAR: que siga ahí]** Frente recta. Cabeza alta y redonda, con un cerebro más de tres veces mayor que el de un chimpancé. Cara plana. Colmillos pequeños. Y algo que no tiene ningún otro cráneo de aquí: barbilla.
 >
@@ -59,7 +59,7 @@ Los textos van **tal como se leerán en voz alta**: cifras con letras y frases c
 
 ## Para peques (4-6 años) — voz de Alba
 
-> ¡Hola, exploradores! Soy Alba, la viajera del tiempo.
+> ¡Hola, exploradores!
 >
 > ¿Veis cuántos cráneos? El cráneo es el hueso de la cabeza, el que protege el cerebro. Aquí hay cráneos de gorila, de chimpancé y de familiares nuestros de hace muchísimo tiempo.
 >
@@ -128,7 +128,7 @@ La etiqueta es «el mentón», como pedía el encargo, pero Alba dice «barbilla
 
 ## ¿Sabías que…?
 
-> ¿Sabías que ese palo con rayitas imita un hueso de hace unos veinte mil años, encontrado en Ishango, en el Congo? Es un hueso de babuino con grupos de muescas talladas. ¿Qué contaban? Quizá días, quizá presas… Los científicos aún lo discuten, pero es una de las cuentas más antiguas que conocemos.
+> ¿Sabías que ese palo con rayitas imita un hueso de hace unos veinte mil años, encontrado en Ishango, en el centro de África? Es un hueso de babuino con grupos de muescas talladas. ¿Qué contaban? Quizá días, quizá presas… Los científicos aún lo discuten, pero es una de las cuentas más antiguas que conocemos.
 
 *Alternativa* (por si se prefiere algo que se vea en la vitrina; repite la barbilla, que ya sale en el texto, en la misión y en el reto): «¿Sabías que somos la única especie humana con barbilla? Ni los neandertales la tenían. Y lo más curioso: los científicos todavía discuten para qué sirve.»
 
@@ -190,10 +190,10 @@ La etiqueta es «el mentón», como pedía el encargo, pero Alba dice «barbilla
 
 **Decisiones para Álvaro:**
 
-1. **El objeto de madera** (foto 40): qué es. Si fuera una lanza o quisiera representarla, hay una frase opcional abajo.
+1. **El objeto de madera** (foto 40): **RESUELTO (26-sep): es una imitación del hueso de Ishango**; va en el «¿Sabías que?». Si fuera una lanza o quisiera representarla, hay una frase opcional abajo.
 2. **El segundo cráneo de la vitrina del gorila:** si no es un chimpancé, hay que tocar dos frases de «Para todos»: la primera («como el gorila y el chimpancé» → «como el gorila») y la de «Comparad» («en el gorila y el chimpancé» → «en los simios»). El reto no cambia: su chimpancé es un dibujo.
 3. **Toques en el chimpancé** durante el reto: ¿valen? (ver el reto).
-4. **¿Sabías que?:** el del cerebro o el de la barbilla.
+4. **¿Sabías que?:** RESUELTO (26-sep): el hueso de Ishango.
 
 ---
 

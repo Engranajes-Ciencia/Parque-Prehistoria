@@ -28,7 +28,7 @@ export default function EncuentraLasDiferencias({ parada }: { parada: ContenidoP
         { id: "frente", nombre: "La frente", x: 1050, y: 70, width: 390, height: 320, dicho: f.frente },
         { id: "cara", nombre: "La cara", x: 1320, y: 360, width: 170, height: 230, dicho: f.cara },
         { id: "colmillos", nombre: "Los colmillos", x: 1340, y: 590, width: 150, height: 105, dicho: f.colmillos },
-        { id: "menton", nombre: "El mentón", x: 1360, y: 700, width: 130, height: 120, dicho: f.menton },
+        { id: "menton", nombre: "La barbilla", x: 1360, y: 700, width: 130, height: 120, dicho: f.menton },
       ]}
       inicio={f.inicio}
       final={f.final}

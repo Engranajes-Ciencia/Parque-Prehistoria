@@ -18,7 +18,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 > Salir del agua fue una de las grandes aventuras de la vida. Durante casi toda su historia, la tierra firme fue un desierto de roca: ni una planta, ni un animal.
 >
-> Hace más de cuatrocientos millones de años, las plantas ya se habían asomado a tierra, pero eran diminutas: casi ninguna os llegaría a la rodilla. Y entre ellas se alzaban estas columnas blancas, los Prototaxites. Los mayores medían unos ocho metros, más que una jirafa. Durante mucho tiempo, nada en tierra firme fue más alto. La más alta de aquí mide menos de tres: los de verdad eran casi el triple.
+> Hace más de cuatrocientos millones de años, las plantas ya se habían asomado a tierra, pero eran diminutas: casi ninguna os llegaría a la rodilla. Y entre ellas se alzaban estas columnas blancas, los Prototaxites. Los mayores medían unos ocho metros, más que una jirafa. La más alta de aquí mide menos de tres: los mayores de verdad, casi el triple.
 >
 > ¿Y qué eran? Primero se tomaron por troncos podridos; luego, por algas. Durante años se ha pensado que eran un hongo gigante. Pero un estudio reciente propone otra cosa: un grupo de seres desaparecido del todo, sin parientes cercanos. El debate sigue abierto.
 >
@@ -36,7 +36,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ## Para peques (4-6 años) — voz de Alba
 
-> ¡Hola, exploradores! Soy Alba, la viajera del tiempo.
+> ¡Hola, exploradores!
 >
 > Mirad al suelo, sin pisar: ¿veis ese pez? Se llama Tiktaalik. Yo lo he visto nadar en su río, y era un pez muy raro: ¡tenía en las aletas huesos como los de vuestros brazos!
 >

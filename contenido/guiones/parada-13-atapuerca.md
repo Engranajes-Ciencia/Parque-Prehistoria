@@ -35,7 +35,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ## Para peques (4-6 años) — voz de Alba
 
-> ¡Hola, exploradores! Soy Alba, la viajera del tiempo.
+> ¡Hola, exploradores!
 >
 > Hace muchísimo tiempo estuve en Atapuerca, unas cuevas de Burgos. Allí vivía gente que tallaba piedras para cortar la carne. Dejaron dientes, huesos y herramientas, y la tierra lo fue tapando todo.
 >
@@ -133,5 +133,5 @@ La frase de la mandíbula dice «apuntada», en femenino, para que concuerde; la
 
 **Decisiones que conviene que revise Álvaro:**
 
-1. **El canibalismo de la Gran Dolina** va en «Para todos» en una sola frase, sin detalles. Es de los hallazgos más conocidos de Atapuerca y enlaza con el hueso con marcas de corte del reto; pero si le parece fuerte para un público familiar, se quita la frase entera («Muchos de sus huesos…») y el párrafo sigue funcionando.
+1. **El canibalismo de la Gran Dolina: RETIRADO del texto el 25-sep por decisión de Álvaro** (queda solo en la tabla de fuentes). *Nota antigua:* iba en «Para todos» en una sola frase, sin detalles. Es de los hallazgos más conocidos de Atapuerca y enlaza con el hueso con marcas de corte del reto; pero si le parece fuerte para un público familiar, se quita la frase entera («Muchos de sus huesos…») y el párrafo sigue funcionando.
 2. **Dinosaurios de juguete en el arenero:** si siguen ahí, «Para todos» ya aclara qué estudia cada cual y que en Atapuerca no aparecerá un tiranosaurio. Si se quitan, el texto sigue siendo cierto.

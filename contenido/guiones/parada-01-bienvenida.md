@@ -16,13 +16,13 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ## Para todos (7 años en adelante) — voz del narrador
 
-> Este camino es un viaje en el tiempo. Recorre, casi siempre en orden, la historia de la Tierra: unos cuatro mil quinientos millones de años, desde un planeta recién formado y sin vida hasta los pueblos que levantaron Stonehenge.
+> Este camino es un viaje en el tiempo. Recorre, casi siempre en orden, la historia de la Tierra. Son unos cuatro mil quinientos millones de años: desde un planeta recién formado y sin vida hasta los pueblos que levantaron Stonehenge.
 >
 > Una cifra así no cabe en la cabeza. Probemos con el propio camino. Si repartiera el tiempo a partes iguales, entre una parada y la siguiente pasarían más de doscientos millones de años. Los dinosaurios, que aquí veréis en la parada siete, no llegarían hasta la veinte, la penúltima. Y nuestra especie aparecería en el último palmo.
 >
 > Por eso el parque hace zoom, como cuando ampliáis una foto para ver de cerca lo que más os interesa. De la parada doce en adelante, casi la mitad del recorrido, os hablaremos de la familia humana. Y todo lo que cuentan esas paradas cabe en menos de una milésima parte de la historia de la Tierra. Somos los recién llegados. Y, sin embargo, somos los únicos capaces de contarla.
 >
-> En cada parada tenéis dos explicaciones: esta, y la de Alba, para los más pequeños. Después, una misión, «¡Mira bien!», y en muchas, un reto que se premia con una pegatina. El mapa os guía de una a otra. Y atentos: en algún rincón se esconde una parada secreta, sin número.
+> En cada parada tenéis dos explicaciones: esta, y la de Alba, para los más pequeños. Después, una misión, «¡Mira bien!», y un reto que se premia con una pegatina. El mapa os guía de una a otra. Y atentos: en algún rincón se esconde una parada secreta, sin número.
 >
 > Todo buen explorador cuida lo que explora. Las maquetas se miran, pero no se tocan ni se escalan. Lo pintado en el suelo no se pisa, salvo cuando Alba os lo proponga. Las cuerdas no se cruzan. Y la basura, a la papelera. **[VERIFICAR: normas reales del parque]**
 >

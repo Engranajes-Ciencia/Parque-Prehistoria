@@ -26,7 +26,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > ¿Cómo lo sabemos? Por los fósiles. Un amonites muere, cae al fondo y el barro lo tapa. Lo blando se pudre; la concha, no. Con el tiempo, el barro se hace roca, y el agua que se cuela deja minerales que convierten la concha en piedra. Casi ningún ser vivo llega a fósil: cada fósil es una carta que puede tardar millones de años en llegar.
 >
-> Cuando llegaron los amonites, aquella tierra vacía ya no lo estaba tanto: la vida había empezado a salir del agua. En la siguiente parada veremos a tres de sus protagonistas: un hongo gigante, un pez de aletas robustas y una libélula enorme.
+> Cuando llegaron los amonites, aquella tierra vacía ya no lo estaba tanto: la vida había empezado a salir del agua. En la siguiente parada veremos a tres de sus protagonistas: un gigante misterioso, un pez de aletas robustas y una libélula enorme.
 
 *≈ 375 palabras · ≈ 2 min 30 s.*
 
@@ -36,7 +36,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ## Para peques (4-6 años) — voz de Alba
 
-> ¡Hola, exploradores! Soy Alba, la viajera del tiempo.
+> ¡Hola, exploradores!
 >
 > ¿Veis este mar azul? Buscad encima dos animales de piedra. El alargado, con rayas, es un trilobites. El enrollado es un amonites, ¡primo de los pulpos!
 >
@@ -86,7 +86,7 @@ Se responde tocando «¡Hecho!». No hay número que comprobar: en las fotos, la
 - Tarjeta 3: «¡Muy bien! Pasa muchísimo tiempo y la concha se vuelve piedra.»
 - Tarjeta 4: «¡Genial! Alguien excava… ¡y aparece el fósil!»
 - Fallo: «¡Uy, ahí no va! Mira bien el dibujo y prueba otra vez.»
-- Al terminar: «¡Ya sabes cómo se hace un fósil! Hace falta muchísimo tiempo. ¡Toma tu pegatina!»
+- Al terminar: «¡Ya sabes cómo se hace un fósil! Por eso son tan raros y valiosos. ¡Toma tu pegatina!»
 
 **Lo que el juego simplifica** (no se dice en voz alta):
 

@@ -48,7 +48,7 @@ Los textos van **tal como se leerán en voz alta**: cifras con letras y frases c
 
 ## Para peques (4-6 años) — voz de Alba
 
-> ¡Hola, exploradores! Soy Alba, la viajera del tiempo.
+> ¡Hola, exploradores!
 >
 > Una vez dormí en una tienda como estas, hace muchísimo tiempo. Y por la mañana, ¡sorpresa!: todos estaban recogiendo. Doblaron las pieles, cogieron las lanzas y las herramientas… ¡y nos pusimos en camino!
 >

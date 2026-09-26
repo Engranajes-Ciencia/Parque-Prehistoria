@@ -25,7 +25,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > Con los árboles llegaron dos grandes novedades. La primera, la madera: fijaos en el tronco de estos árboles. Por dentro es como un manojo de pajitas muy duras, pegadas unas a otras. Por ellas sube el agua hasta las hojas, y sus paredes firmes sostienen el árbol contra el viento. La segunda, las raíces profundas. Como las que hoy levantan las baldosas de una acera, se colaron por las grietas y partieron la roca. Mezclada con hojas muertas, la roca rota se fue convirtiendo en suelo.
 >
-> Y cambiaron el aire. Aunque parezca mentira, la madera está hecha sobre todo de aire: del dióxido de carbono que las hojas atrapan y convierten en tronco y ramas con la luz del sol. Durante millones de años, los bosques sacaron del aire muchísimo de ese gas, uno de los que abrigan el planeta. Probablemente por eso la Tierra se fue enfriando.
+> Y cambiaron el aire. Aunque parezca mentira, la madera está hecha sobre todo de aire. Las hojas atrapan un gas, el dióxido de carbono, y con la luz del sol lo convierten en tronco y ramas. Durante millones de años, los bosques sacaron del aire muchísimo de ese gas, uno de los que abrigan el planeta. Probablemente por eso la Tierra se fue enfriando.
 >
 > Decenas de millones de años después crecieron enormes bosques en pantanos. Los árboles que caían al agua quieta no llegaban a pudrirse del todo. Enterrados y aplastados durante millones de años, se convirtieron en carbón. Por eso aquel periodo se llama Carbonífero. Buena parte del carbón que movió las primeras máquinas de vapor salió de aquellos bosques. Al quemarlo, devolvemos al aire lo que ellos guardaron.
 >
@@ -37,7 +37,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ## Para peques (4-6 años) — voz de Alba
 
-> ¡Hola, exploradores! Soy Alba, la viajera del tiempo.
+> ¡Hola, exploradores!
 >
 > ¿Sabéis que hubo un tiempo sin árboles? ¡Yo lo he visto! Las primeras plantas eran bajitas, bajitas: no me llegaban ni a los tobillos.
 >
@@ -53,7 +53,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Elegid uno de estos árboles y abrazad su tronco! ¿Os llegan a tocar las manos? Si no, ¿cuántos exploradores hacen falta para rodearlo?
+> ¡Elegid uno de estos árboles, desde el camino! Abrid los brazos: ¿cuántos exploradores harían falta para rodear su tronco?
 >
 > Ahora, mirad bien, sin arrancar nada. ¿Asoma alguna raíz del suelo? ¿La corteza es lisa o rugosa? Y arriba, ¿cómo son sus hojas: planas, como agujas o como escamitas?
 

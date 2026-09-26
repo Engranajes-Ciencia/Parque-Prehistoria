@@ -50,7 +50,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ## Para peques (4-6 años) — voz de Alba
 
-> ¡Hola, exploradores! ¿Veis esta tortuga tan grande? Las tortugas como ella viven en unas islas lejanísimas: las Galápagos. Yo he estado allí, en un viaje en el tiempo, con un señor muy curioso que se llamaba Darwin. ¡Y vimos unos pajaritos muy especiales!
+> ¡Hola, exploradores! ¿Veis esta tortuga tan grande? Las tortugas como ella viven en unas islas lejanísimas: las Galápagos. Yo he estado allí, en un viaje en el tiempo, con un chico muy curioso que se llamaba Darwin. ¡Y vimos unos pajaritos muy especiales!
 >
 > Son todos primos, pero cada uno tiene un pico distinto. Uno lo tiene gordo y fuerte, para partir semillas duras: ¡crac! Otro, finito, para atrapar bichitos. Y otro, largo, para comer en las flores de los cactus.
 >

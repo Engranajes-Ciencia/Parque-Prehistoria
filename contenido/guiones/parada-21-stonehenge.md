@@ -29,7 +29,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > Las piedras se movieron con cuerdas. Pero a las personas las movía otra cuerda, invisible: una idea compartida. No sabemos cuál. Sí sabemos que venía gente de lejos: en los banquetes de allí cerca se comían cerdos traídos de media Gran Bretaña. Hay quien piensa que ese es el gran invento de nuestra especie: creer juntos en algo, y que eso una a miles de personas que ni se conocen.
 >
-> Y aquí termina nuestro viaje. Empezamos con las primeras bacterias. Vimos llegar las plantas y los dinosaurios, vimos moverse los continentes y a nuestra familia humana ponerse en pie, pintar cuevas y sembrar los primeros campos. Más de tres mil millones de años, hasta unas piedras levantadas por gente como nosotros, bajo el mismo sol que alumbró a aquellas bacterias. La historia sigue: el próximo capítulo lo escribís vosotros. Gracias por viajar con nosotros. ¡Hasta pronto!
+> Y aquí termina nuestro viaje. Empezamos con los primeros microbios. Vimos llegar las plantas y los dinosaurios, vimos moverse los continentes y a nuestra familia humana ponerse en pie, pintar cuevas y sembrar los primeros campos. Más de tres mil millones de años, hasta unas piedras levantadas por gente como nosotros, bajo el mismo sol que alumbró a aquellos microbios. La historia sigue: el próximo capítulo lo escribís vosotros. Gracias por viajar con nosotros. ¡Hasta pronto!
 
 *≈ 375 palabras · ≈ 2 min 30 s.*
 
@@ -43,7 +43,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > Os cuento un secreto de viajera del tiempo: yo estuve allí la mañana del día más largo del año. ¿Y sabéis qué pasó? ¡El sol salió justo por el hueco entre dos piedras! Las colocaron así a propósito.
 >
-> Ahora me toca despedirme: ¡me voy a otro viaje en el tiempo! Gracias por acompañarme. Pero antes, un último reto: ¿sabréis colar el rayo de sol entre las piedras? Y después, ¡recoged vuestro diploma al final de la app!
+> Ahora me toca despedirme: ¡me voy a otro viaje en el tiempo! Gracias por acompañarme. Pero antes, un último reto: ¿sabréis levantar las piedras caídas para que entre el sol? Y después, ¡recoged vuestro diploma al final de la app!
 
 *≈ 100 palabras · ≈ 45 s.*
 
@@ -73,9 +73,9 @@ Se responde tocando «¡Hecho!». No hay número que comprobar: vale cualquier c
 - Al empezar: «¡Oh, no! Las piedras de Stonehenge se han caído. Ayúdame a levantarlas: arrastra cada piedra hasta su sombra.»
 - Al poner un pilar: «¡Arriba! Pesa más que cinco elefantes, y la trajeron desde unos veinticinco kilómetros, sin motores.»
 - Dintel antes de tiempo: «¡Espera! Esa va tumbada encima. Primero levanta las dos que la sostienen.»
-- Al poner el dintel: «¡Encaja como un mueble! La de arriba tiene agujeros donde entran unos salientes de las de abajo.»
+- Al poner el dintel: «¡Encajada! Como un mueble de carpintero: sin clavos y sin pegamento.»
 - Al poner una piedra azul: «Las piedras azules son más pequeñas, pero vinieron de muy lejos: de unas montañas de Gales.»
-- Al poner la Piedra del Talón: «Esta se quedó sola, fuera del círculo. Mirad hacia ella: por ahí sale el sol el día más largo del año.»
+- Al poner la Piedra del Talón: «Esta se quedó sola, fuera del círculo, junto al camino de entrada. ¡Fíjate dónde está: pronto verás por qué!»
 - Fallo: «Esa no cabe ahí. Fíjate en la forma de la sombra.»
 - Al terminar: «¡Stonehenge está en pie! Y mira: el sol del solsticio sale justo por el hueco. ¡Toma tu pegatina!»
 

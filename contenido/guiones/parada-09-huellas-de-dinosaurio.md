@@ -40,7 +40,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ## Para peques (4-6 años) — voz de Alba
 
-> ¡Hola, exploradores! Soy Alba, la viajera del tiempo.
+> ¡Hola, exploradores!
 >
 > ¿Veis esas marcas en el suelo, junto a la flor gigante? ¡Son huellas de dinosaurio!
 >
@@ -56,7 +56,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Buscad las huellas! Los niños, de uno en uno: meted un pie dentro de una. ¿Cuántos pies vuestros caben en el del dinosaurio? ¿Sus dedos son finos, o gorditos y redondos?
+> ¡Buscad las huellas! Los niños, de uno en uno: meted un pie dentro de una. ¿Cuántos pies vuestros caben en el del dinosaurio?
 >
 > Ahora, ¡a moverse! Andad despacito, con pasos de ratón… Y ahora, ¡pasos de gigante, como si corrierais! ¿Cuándo quedan más separados vuestros pies? Así saben los científicos si un dinosaurio paseaba o corría.
 

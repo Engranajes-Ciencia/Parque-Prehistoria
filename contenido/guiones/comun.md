@@ -6,7 +6,7 @@
 
 > ¡Hola, exploradores! Soy Alba, la viajera del tiempo.
 >
-> Hoy os acompaño por el parque: ¡vamos a viajar millones de años atrás!
+> Hoy os acompaño por el parque: ¡vamos a viajar miles de millones de años atrás!
 
 ## Despedida de Alba (fin del viaje) — voz de Alba
 

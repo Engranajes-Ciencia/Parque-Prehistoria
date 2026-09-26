@@ -30,9 +30,9 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > A la maqueta le faltan las plumas. En el cine se los imaginaba con escamas, pero después aparecieron en China parientes suyos fosilizados con plumas. Y en un brazo de velocirráptor se ven los bultitos donde se anclaban, como en el ala de un ave.
 >
-> Tampoco estos dos se conocieron. El velocirráptor vivió hace unos setenta y cinco millones de años: a mitad de camino entre el alosaurio y nosotros.
+> Tampoco el alosaurio conoció al velocirráptor: este vivió hace unos setenta y cinco millones de años, a mitad de camino entre el alosaurio y nosotros.
 >
-> Buscad la charca azul con una roca: es el final de la historia. Hace sesenta y seis millones de años, una roca del espacio de unos diez kilómetros, más alta que el Everest, cayó en un mar poco profundo, donde hoy está México. El polvo y el humo dejaron la Tierra a oscuras y fría durante meses, quizá años. Sin luz, no crecían las plantas; sin plantas, pasaron hambre los herbívoros, y tras ellos, los cazadores. A la vez había enormes erupciones en la India. Los científicos discuten cuánto contribuyeron, pero la causa principal fue la roca.
+> Buscad la charca azul con una roca: es el final de la historia. Hace sesenta y seis millones de años cayó una roca del espacio. Medía unos diez kilómetros: puesta en el suelo, sería más alta que el Everest. Cayó en un mar poco profundo, donde hoy está México. El polvo y el humo dejaron la Tierra a oscuras y fría durante meses, quizá años. Sin luz, no crecían las plantas; sin plantas, pasaron hambre los herbívoros, y tras ellos, los cazadores. A la vez había enormes erupciones en la India. Los científicos discuten cuánto contribuyeron, pero la causa principal fue la roca.
 >
 > Desaparecieron cerca de tres de cada cuatro especies: los amonites que visteis al principio del recorrido, los reptiles voladores, los grandes reptiles del mar… y todos los dinosaurios, menos una rama: las aves. Sí: la paloma de vuestra plaza es un dinosaurio, prima del velocirráptor. Se salvaron también algunos cocodrilos, tortugas, lagartos, serpientes y pequeños mamíferos.
 >
@@ -40,7 +40,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 *≈ 375 palabras · ≈ 2 min 30 s.*
 
-**Arquitectura:** el alosaurio (Jurásico) y el dromeosaurio (Cretácico) llevan al final del Cretácico; el final abre el mundo de los mamíferos y siembra la parada 11. «En aquel mundo medio vacío» repite a propósito la fórmula de la parada 7, que empezaba con la extinción que abrió paso a los dinosaurios: una catástrofe les dio el mundo y otra se lo quitó. El guiño a la parada 7 («tampoco estos dos se conocieron») es de una frase, sin repetir la explicación. Las huellas de dos dedos enlazan con la parada 9.
+**Arquitectura:** el alosaurio (Jurásico) y el dromeosaurio (Cretácico) llevan al final del Cretácico; el final abre el mundo de los mamíferos y siembra la parada 11. «En aquel mundo medio vacío» se refiere al mundo justo después del asteroide. *(27-sep: la parada 7 ya no usa esa fórmula, porque hace doscientos treinta millones de años los ecosistemas llevaban tiempo recuperados: Chen y Benton, 2012.)* El guiño a la parada 7 («tampoco estos dos se conocieron») es de una frase, sin repetir la explicación. Las huellas de dos dedos enlazan con la parada 9.
 
 ---
 

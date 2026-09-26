@@ -30,13 +30,13 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras, 
 
 ## Premio
 
-> ¡Cofre abierto! Dentro, un secreto de verdad.
+> Dentro hay un secreto de verdad.
 >
 > Hace más de siete mil años, los primeros agricultores de Europa central forraban sus pozos con tablas de roble. Las encajaban en las esquinas como las piezas de un puzle, sin un solo clavo. ¡Y con herramientas de piedra!
 >
 > Los arqueólogos han encontrado varios de esos pozos. Como estaban bajo el agua, sin aire, la madera casi no se pudrió. Y leyendo sus anillos, uno por cada año de vida del árbol, los científicos han averiguado hasta el año exacto en que se cortaron algunos de aquellos robles.
 >
-> Son de las construcciones de madera más antiguas del mundo. ¡Seguid a la parada dieciocho! Allí descubriréis quién vivía junto a un pozo como este.
+> Son de las construcciones de madera más antiguas del mundo. ¡Seguid a la siguiente parada! Allí descubriréis quién vivía junto a un pozo como este.
 
 ---
 

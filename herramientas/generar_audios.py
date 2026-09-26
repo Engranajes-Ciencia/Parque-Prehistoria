@@ -62,6 +62,7 @@ PRONUNCIACION = {
     "Wegener": "Véguener",
     "Garrotxa": "Garrocha",
     "Çatalhöyük": "Chatal Júyuk",
+    "Hodder": "Óder",  # dicho a la inglesa suena a palabrota
 }
 
 
@@ -321,6 +322,118 @@ def generar(clave):
     }
 
 
+# ------------------------------------------------ regeneración parcial
+#
+# Corregir una frase no debería obligar a pagar la pista entera. Como cada párrafo se
+# genera aparte y se pega con silencios exactos, se puede regenerar SOLO lo que cambió:
+# los párrafos iguales se recortan del MP3 que ya existe (con sus tiempos) y los nuevos
+# se piden a ElevenLabs con el texto vecino como contexto, igualando su volumen al del
+# resto. Añadido el 27-sep-2026, tras la revisión de guiones.
+
+def voz_de_trozos(frases_par, nombre_voz, voz, previo, siguiente):
+    """Genera un párrafo (en trozos de hasta FRASES_POR_TROZO frases). Devuelve
+    (muestras, [(frase, inicio, fin)] relativos, caracteres)."""
+    import numpy as np
+    piezas, situadas_total, t, caracteres = [], [], 0.0, 0
+    grupos = [frases_par[i:i + FRASES_POR_TROZO] for i in range(0, len(frases_par), FRASES_POR_TROZO)]
+    for g, frases in enumerate(grupos):
+        texto = ""
+        for i, f in enumerate(frases):
+            texto += pronunciar(f) + (etiqueta(pausa_tras(f, nombre_voz, "frase")) if i < len(frases) - 1 else "")
+        cuerpo = {"text": texto.strip(), "model_id": MODELO, "voice_settings": voz["ajustes"]}
+        antes = " ".join([previo] + [pronunciar(" ".join(x)) for x in grupos[:g]]).strip()
+        despues = " ".join([pronunciar(" ".join(x)) for x in grupos[g + 1:]] + [siguiente]).strip()
+        if antes:
+            cuerpo["previous_text"] = antes[-600:]
+        if despues:
+            cuerpo["next_text"] = despues[:600]
+        r = voces.peticion("POST", f"/v1/text-to-speech/{voz['voice_id']}/with-timestamps",
+                           {"output_format": "mp3_44100_128"}, cuerpo=cuerpo, timeout=300)
+        caracteres += len(cuerpo["text"])
+        muestras = mp3_a_muestras(base64.b64decode(r["audio_base64"]))
+        dichas = localizar([pronunciar(f) for f in frases], r["alignment"])
+        a = max(0.0, dichas[0][1] - 0.04)
+        b = min(len(muestras) / FS, dichas[-1][2] + 0.12)
+        piezas.append(muestras[int(a * FS):int(b * FS)])
+        for f, (_, i0, i1) in zip(frases, dichas):
+            situadas_total.append((f, round(t + i0 - a, 3), round(t + i1 - a, 3)))
+        t += b - a
+        if g < len(grupos) - 1:
+            silencio = pausa_tras(frases[-1], nombre_voz, "frase")
+            piezas.append(np.zeros(int(silencio * FS), np.int16))
+            t += silencio
+    return np.concatenate(piezas), situadas_total, caracteres
+
+
+def _rms_voz(m):
+    import numpy as np
+    v = m[np.abs(m) > 300].astype(np.float64)
+    return float(np.sqrt(np.mean(v ** 2))) if len(v) else 0.0
+
+
+def generar_parcial(clave, previa):
+    """Regenera solo los párrafos que cambiaron respecto a `previa` (entrada del manifiesto)."""
+    import difflib
+    import numpy as np
+    nuevos = texto_de(clave)
+    viejos = previa["parrafos"]
+    nombre_voz = PISTAS[clave][3]
+    voz = VOCES[nombre_voz]
+    audio = mp3_a_muestras(open(os.path.join(SALIDA, previa["archivo"]), "rb").read())
+    referencia = _rms_voz(audio)
+
+    # Tramos del audio viejo: un tramo por párrafo, con los tiempos de sus frases.
+    tramos, k = [], 0
+    for par in viejos:
+        n = len(en_frases([par]))
+        fr = previa["frases"][k:k + n]
+        k += n
+        a = max(0.0, fr[0]["inicio"] - 0.04)
+        b = min(len(audio) / FS, fr[-1]["fin"] + 0.12)
+        tramos.append((audio[int(a * FS):int(b * FS)], [(f["texto"], f["inicio"] - a, f["fin"] - a) for f in fr]))
+    if k != len(previa["frases"]):
+        raise ValueError("el manifiesto no cuadra con sus párrafos")
+
+    planos = [pronunciar(p) for p in nuevos]
+    resultado, caracteres, regenerados = [None] * len(nuevos), 0, 0
+    for op, i1, i2, j1, j2 in difflib.SequenceMatcher(a=viejos, b=nuevos, autojunk=False).get_opcodes():
+        if op == "equal":
+            for d in range(i2 - i1):
+                resultado[j1 + d] = tramos[i1 + d]
+        elif op in ("replace", "insert"):
+            for j in range(j1, j2):
+                m, sit, c = voz_de_trozos(en_frases([nuevos[j]]), nombre_voz, voz,
+                                          " ".join(planos[:j])[-600:], " ".join(planos[j + 1:])[:600])
+                r = _rms_voz(m)
+                if r and referencia:
+                    m = np.clip(m.astype(np.float64) * (referencia / r), -32768, 32767).astype(np.int16)
+                resultado[j] = (m, sit)
+                caracteres += c
+                regenerados += 1
+
+    piezas, frases_finales, t = [], [], 0.0
+    for j, (m, sit) in enumerate(resultado):
+        piezas.append(m)
+        frases_finales += [{"texto": f, "inicio": round(t + i0, 3), "fin": round(t + i1, 3)} for f, i0, i1 in sit]
+        t += len(m) / FS
+        if j < len(resultado) - 1:
+            silencio = pausa_tras(sit[-1][0], nombre_voz, "parrafo")
+            piezas.append(np.zeros(int(silencio * FS), np.int16))
+            t += silencio
+    provisional = os.path.join(SALIDA, f"{clave}.nuevo.mp3")
+    subprocess.run([ffmpeg(), "-y", "-loglevel", "error", "-f", "s16le", "-ar", str(FS), "-ac", "1",
+                    "-i", "pipe:0", "-ar", str(FS), "-ac", "1", "-b:a", "64k", provisional],
+                   input=np.concatenate(piezas).tobytes(), check=True)
+    salida = dict(previa)
+    salida.update({
+        "archivo": con_huella(provisional, clave), "parrafos": nuevos, "frases": frases_finales,
+        "duracion": round(t, 2), "caracteres": caracteres,
+        "fecha": datetime.datetime.now().isoformat(timespec="seconds"),
+        "parcial": f"{regenerados} de {len(nuevos)} párrafos regenerados",
+    })
+    return salida
+
+
 def con_huella(ruta, clave):
     """Renombra el MP3 a «clave.<huella>.mp3». El móvil guarda los audios para usarlos sin
     cobertura y no vuelve a pedir un fichero que ya tiene: si al regenerar una pista se
@@ -347,6 +460,8 @@ def main():
     p.add_argument("--forzar", help="regenera esta pista aunque no haya cambiado ('todo' = todas)")
     p.add_argument("--lista", action="store_true", help="muestra las pistas y su estado, sin generar")
     p.add_argument("--parada", help="genera solo las pistas de esta parada (p. ej. 12)")
+    p.add_argument("--entera", action="store_true",
+                   help="regenera las pistas cambiadas enteras, no solo los párrafos que cambiaron")
     args = p.parse_args()
 
     manifiesto = cargar_manifiesto()
@@ -370,8 +485,14 @@ def main():
         if al_dia and not forzada:
             print(f"{clave:22} al día, no se regenera")
             continue
+        misma_voz = (previa and previa["voice_id"] == VOCES[PISTAS[clave][3]]["voice_id"]
+                     and previa.get("pausas") == PAUSAS[PISTAS[clave][3]]
+                     and os.path.exists(os.path.join(SALIDA, previa["archivo"])))
         try:
-            manifiesto[clave] = generar(clave)
+            if misma_voz and not forzada and not args.entera:
+                manifiesto[clave] = generar_parcial(clave, previa)
+            else:
+                manifiesto[clave] = generar(clave)
         except voces.ErrorApi as e:
             raise SystemExit(str(e))
         if previa and previa["archivo"] != manifiesto[clave]["archivo"]:
@@ -382,7 +503,8 @@ def main():
         with open(MANIFIESTO, "w", encoding="utf-8") as f:
             json.dump(manifiesto, f, ensure_ascii=False, indent=1)
         m = manifiesto[clave]
-        print(f"{clave:22} generada: {m['duracion']:.1f} s, {len(m['frases'])} frases, voz {m['voz']}")
+        print(f"{clave:22} generada: {m['duracion']:.1f} s, {len(m['frases'])} frases, voz {m['voz']}"
+              + (f", {m['parcial']}" if m.get("parcial") else "") + f", {m['caracteres']} caracteres")
     if not args.lista:
         print(f"\nCaracteres enviados en esta tanda: {gastado}. Manifiesto: {MANIFIESTO}")
 

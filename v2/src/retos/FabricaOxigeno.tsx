@@ -34,6 +34,8 @@ export default function FabricaOxigeno({ parada }: { parada: ContenidoParada }) 
   }));
   const { mensaje, decir, final, terminar, acabado } = useAlba(frases.inicio);
   const [toques, setToques] = useState(0);
+  const cuenta = useRef(0);
+  const dichas = useRef(0);
   const [burbujas, setBurbujas] = useState<Burbuja[]>([]);
   const siguiente = useRef(0);
   const ultimoToque = useRef<number[]>(COLONIAS.map(() => 0));
@@ -53,14 +55,16 @@ export default function FabricaOxigeno({ parada }: { parada: ContenidoParada }) 
     setBurbujas((b) => [...b, ...nuevas]);
     setTimeout(() => setBurbujas((b) => b.filter((x) => !nuevas.includes(x))), 2200);
 
-    const n = toques + 1;
+    // Cuenta en una ref: dos toques en el mismo instante no deben contarse como uno.
+    const n = ++cuenta.current;
     setToques(n);
     if (n === TOQUES) {
       terminar(null, frases.final);
     } else if (n === TOQUES / 2) {
       decir(frases.mitad);
     } else if (n % 2 === 1 && frases.toques.length) {
-      decir(frases.toques[Math.floor(n / 2) % frases.toques.length]);
+      // Las frases «Al tocar» se turnan todas (antes la tercera no sonaba nunca).
+      decir(frases.toques[dichas.current++ % frases.toques.length]);
     }
   };
 
