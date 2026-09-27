@@ -45,3 +45,6 @@ Mapa e imágenes de parque/**/*.jpg
 # Banco de pruebas sin red: copias desechables
 herramientas/prueba-sin-red/site/
 herramientas/prueba-sin-red/perfil/
+
+# Muestras para comparar la calidad del audio de oído (no van a la app)
+_muestras_calidad/

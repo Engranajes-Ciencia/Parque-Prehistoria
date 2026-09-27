@@ -6,7 +6,7 @@
 #   - pide a ElevenLabs el audio CON marcas de tiempo, y de ellas saca el momento en
 #     que empieza y acaba cada frase (para resaltar los subtítulos a la par de la voz);
 #   - normaliza el volumen (-16 LUFS, el estándar para escuchar en el móvil) y lo deja
-#     en MP3 mono de 64 kbps;
+#     en MP3 mono de tasa variable (VBR, calidad 7 de LAME: unos 48 kbps de media);
 #   - apunta en v2/public/audio/manifiesto.json la voz, el modelo, los ajustes y el
 #     texto de cada pista: la voz queda ANCLADA y cualquier audio se puede rehacer igual.
 #
@@ -219,6 +219,13 @@ PAUSAS = {  # segundos
 }
 FRASES_POR_TROZO = 4
 FS = 44100
+# MP3 de tasa variable, calidad 7 de LAME (unos 48 kbps de media en voz). Medido el 27-sep
+# frente a 48 kbps fijos del mismo tamaño: menos ruido en todas las bandas y agudos hasta
+# 16 kHz, como los 64 kbps de antes (los fijos cortaban en 10,5 kHz y la voz de Alba perdía
+# brillo). La calidad 9 ya corta en 8 kHz: no bajar de 7-8. herramientas/convertir_audios.py
+# pasa a esta calidad los audios ya hechos.
+MP3 = ["-q:a", "7"]
+CODIFICACION = "mp3 vbr q7"
 
 
 def ffmpeg():
@@ -311,7 +318,7 @@ def generar(clave):
     provisional = os.path.join(SALIDA, f"{clave}.nuevo.mp3")
     subprocess.run([ffmpeg(), "-y", "-loglevel", "error", "-f", "s16le", "-ar", str(FS), "-ac", "1",
                     "-i", "pipe:0", "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", str(FS), "-ac", "1",
-                    "-b:a", "64k", provisional], input=pcm, check=True)
+                    *MP3, provisional], input=pcm, check=True)
     archivo = con_huella(provisional, clave)
     return {
         "archivo": archivo, "parrafos": parrafos, "frases": frases_finales,
@@ -319,6 +326,7 @@ def generar(clave):
         "voz": voz["nombre"], "voice_id": voz["voice_id"], "modelo": MODELO, "ajustes": voz["ajustes"],
         "pausas": PAUSAS[nombre_voz], "frases_por_trozo": FRASES_POR_TROZO,
         "caracteres": caracteres, "fecha": datetime.datetime.now().isoformat(timespec="seconds"),
+        "mp3": CODIFICACION,
     }
 
 
@@ -422,7 +430,7 @@ def generar_parcial(clave, previa):
             t += silencio
     provisional = os.path.join(SALIDA, f"{clave}.nuevo.mp3")
     subprocess.run([ffmpeg(), "-y", "-loglevel", "error", "-f", "s16le", "-ar", str(FS), "-ac", "1",
-                    "-i", "pipe:0", "-ar", str(FS), "-ac", "1", "-b:a", "64k", provisional],
+                    "-i", "pipe:0", "-ar", str(FS), "-ac", "1", *MP3, provisional],
                    input=np.concatenate(piezas).tobytes(), check=True)
     salida = dict(previa)
     salida.update({
@@ -430,6 +438,7 @@ def generar_parcial(clave, previa):
         "duracion": round(t, 2), "caracteres": caracteres,
         "fecha": datetime.datetime.now().isoformat(timespec="seconds"),
         "parcial": f"{regenerados} de {len(nuevos)} párrafos regenerados",
+        "mp3": CODIFICACION,
     })
     return salida
 

@@ -1,6 +1,6 @@
 {
  "p07-peques": {
-  "archivo": "p07-peques.b591d4e5.mp3",
+  "archivo": "p07-peques.b0b21104.mp3",
   "parrafos": [
    "¡Hola, exploradores!",
    "¿Veis ese dinosaurio con cuernos? Es un triceratops. Vamos a contarlos juntos: uno… dos… ¡y tres! Tenía un pico, como los loros, y solo comía plantas.",
@@ -99,10 +99,11 @@
   "frases_por_trozo": 4,
   "caracteres": 20,
   "fecha": "2026-09-26T23:11:59",
-  "parcial": "1 de 5 párrafos regenerados"
+  "parcial": "1 de 5 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "comun-saludo": {
-  "archivo": "comun-saludo.cb50d5ec.mp3",
+  "archivo": "comun-saludo.7de0cc02.mp3",
   "parrafos": [
    "¡Hola, exploradores! Soy Alba, la viajera del tiempo.",
    "Hoy os acompaño por el parque: ¡vamos a viajar miles de millones de años atrás!"
@@ -143,10 +144,11 @@
   "frases_por_trozo": 4,
   "caracteres": 79,
   "fecha": "2026-09-26T23:10:52",
-  "parcial": "1 de 2 párrafos regenerados"
+  "parcial": "1 de 2 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p07-todos": {
-  "archivo": "p07-todos.24a09d45.mp3",
+  "archivo": "p07-todos.9c26c69c.mp3",
   "parrafos": [
    "Para entender a los dinosaurios hay que empezar por una catástrofe. Hace doscientos cincuenta y dos millones de años, unas erupciones volcánicas gigantescas cambiaron el clima de todo el planeta. Fue la mayor extinción de la historia: desaparecieron más de ocho de cada diez especies del mar, y muchísimas de tierra firme.",
    "La vida tardó millones de años en rehacerse. Hace unos doscientos treinta millones de años aparecen los primeros dinosaurios que conocemos. No se parecían a los que imagináis: muchos no eran más grandes que un perro, y corrían sobre dos patas. Nadie habría apostado por ellos. Y, sin embargo, acabaron reinando en la Tierra: desde los primeros hasta los últimos grandes dinosaurios pasaron más de ciento sesenta millones de años. Para hacernos una idea: nuestra especie lleva aquí unos trescientos mil. Ellos duraron más de quinientas veces eso.",
@@ -311,10 +313,11 @@
   "frases_por_trozo": 4,
   "caracteres": 654,
   "fecha": "2026-09-26T23:11:57",
-  "parcial": "1 de 6 párrafos regenerados"
+  "parcial": "1 de 6 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p07-mision": {
-  "archivo": "p07-mision.18a080df.mp3",
+  "archivo": "p07-mision.bb586bff.mp3",
   "parrafos": [
    "¡Mirad bien a los dos dinosaurios! ¿Quién tiene la cabeza cerca del suelo? ¿Y quién la tiene allá arriba?",
    "¡Ahora, imitadlos! Poneos a cuatro patas, como el triceratops, comiendo helechos del suelo… Y ahora estirad el cuello y los brazos todo lo que podáis, como el brontosaurio. ¡Qué buena foto!"
@@ -374,10 +377,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 404,
-  "fecha": "2026-09-25T16:42:43"
+  "fecha": "2026-09-25T16:42:43",
+  "mp3": "mp3 vbr q7"
  },
  "p07-reto-acierto-1": {
-  "archivo": "p07-reto-acierto-1.3e134c7c.mp3",
+  "archivo": "p07-reto-acierto-1.c25d360f.mp3",
   "parrafos": [
    "¡Ñam! ¡Muy bien!"
   ],
@@ -411,10 +415,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 38,
-  "fecha": "2026-09-25T16:42:45"
+  "fecha": "2026-09-25T16:42:45",
+  "mp3": "mp3 vbr q7"
  },
  "p07-reto-acierto-2": {
-  "archivo": "p07-reto-acierto-2.99fd0069.mp3",
+  "archivo": "p07-reto-acierto-2.063b64ea.mp3",
   "parrafos": [
    "¡Eso es! Le encanta."
   ],
@@ -448,10 +453,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 42,
-  "fecha": "2026-09-25T16:42:46"
+  "fecha": "2026-09-25T16:42:46",
+  "mp3": "mp3 vbr q7"
  },
  "p07-reto-acierto-3": {
-  "archivo": "p07-reto-acierto-3.90301672.mp3",
+  "archivo": "p07-reto-acierto-3.b1255135.mp3",
   "parrafos": [
    "¡Perfecto!"
   ],
@@ -480,26 +486,27 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 10,
-  "fecha": "2026-09-25T16:42:47"
+  "fecha": "2026-09-25T16:42:47",
+  "mp3": "mp3 vbr q7"
  },
  "p07-reto-al-empezar": {
-  "archivo": "p07-reto-al-empezar.3b178737.mp3",
+  "archivo": "p07-reto-al-empezar.f6065ac4.mp3",
   "parrafos": [
-   "¡Tienen hambre! Arrastra cada planta hasta el dinosaurio que puede alcanzarla."
+   "¡Tienen hambre! Arrastra las plantas hasta los dinosaurios y repártelas para que coman los dos."
   ],
   "frases": [
    {
     "texto": "¡Tienen hambre!",
     "inicio": 0.0,
-    "fin": 0.906
+    "fin": 1.033
    },
    {
-    "texto": "Arrastra cada planta hasta el dinosaurio que puede alcanzarla.",
-    "inicio": 1.486,
-    "fin": 4.969
+    "texto": "Arrastra las plantas hasta los dinosaurios y repártelas para que coman los dos.",
+    "inicio": 1.672,
+    "fin": 6.92
    }
   ],
-  "duracion": 4.99,
+  "duracion": 6.92,
   "voz": "Alba Guía Prehistoria",
   "voice_id": "OOHm6M5O6WPl7E4nAqyE",
   "modelo": "eleven_multilingual_v2",
@@ -516,11 +523,13 @@
    "parrafo": 0.9
   },
   "frases_por_trozo": 4,
-  "caracteres": 100,
-  "fecha": "2026-09-25T16:42:44"
+  "caracteres": 117,
+  "fecha": "2026-09-27T08:55:26",
+  "mp3": "mp3 vbr q7",
+  "parcial": "1 de 1 párrafos regenerados"
  },
  "p07-reto-planta-alta-al-triceratops": {
-  "archivo": "p07-reto-planta-alta-al-triceratops.fc17cf55.mp3",
+  "archivo": "p07-reto-planta-alta-al-triceratops.a6b37a37.mp3",
   "parrafos": [
    "Mmm… no llega tan arriba. Prueba con el otro."
   ],
@@ -554,10 +563,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 67,
-  "fecha": "2026-09-26T09:14:09"
+  "fecha": "2026-09-26T09:14:09",
+  "mp3": "mp3 vbr q7"
  },
  "p07-reto-planta-del-suelo-al-brontosaurio": {
-  "archivo": "p07-reto-planta-del-suelo-al-brontosaurio.94c0667a.mp3",
+  "archivo": "p07-reto-planta-del-suelo-al-brontosaurio.dbff1d6e.mp3",
   "parrafos": [
    "¡A él también le gusta! Pero el triceratops no llega arriba: guárdale a él lo del suelo."
   ],
@@ -591,10 +601,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 110,
-  "fecha": "2026-09-26T09:14:11"
+  "fecha": "2026-09-26T09:14:11",
+  "mp3": "mp3 vbr q7"
  },
  "p07-reto-filete-a-cualquiera": {
-  "archivo": "p07-reto-filete-a-cualquiera.79ebebb0.mp3",
+  "archivo": "p07-reto-filete-a-cualquiera.8a01048c.mp3",
   "parrafos": [
    "¡Uy, no! Estos dos solo comían plantas."
   ],
@@ -628,10 +639,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 61,
-  "fecha": "2026-09-25T16:42:52"
+  "fecha": "2026-09-25T16:42:52",
+  "mp3": "mp3 vbr q7"
  },
  "p07-reto-al-terminar": {
-  "archivo": "p07-reto-al-terminar.1f9122f0.mp3",
+  "archivo": "p07-reto-al-terminar.4d6fa34d.mp3",
   "parrafos": [
    "¡Los dos están llenos! El del cuello largo llega a lo más alto, y el triceratops come a ras de suelo. ¡Toma tu pegatina!"
   ],
@@ -670,10 +682,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 164,
-  "fecha": "2026-09-26T09:14:13"
+  "fecha": "2026-09-26T09:14:13",
+  "mp3": "mp3 vbr q7"
  },
  "p02-todos": {
-  "archivo": "p02-todos.14d979ad.mp3",
+  "archivo": "p02-todos.59823354.mp3",
   "parrafos": [
    "Mirad la charca de colores pintada en el suelo. Copia un lugar real: la Gran Fuente Prismática, en Yellowstone, Estados Unidos. Es un manantial caliente del tamaño de un campo de fútbol. Allí, los anillos de colores no los pone la pintura: los ponen seres vivos.",
    "El agua brota por el centro casi hirviendo, tan caliente que ahí no crece ninguna alfombra de color; por eso veis azul, el color del agua limpia y profunda. Hacia los bordes, el agua se enfría, y en cada anillo vive una comunidad distinta de microbios, seres tan pequeños que no se ven. Juntos forman alfombras de colores: amarillas cerca del agua más caliente; naranjas y rojas, más lejos. Los colores funcionan casi como un termómetro.",
@@ -828,10 +841,11 @@
   "frases_por_trozo": 4,
   "caracteres": 891,
   "fecha": "2026-09-26T23:11:14",
-  "parcial": "2 de 6 párrafos regenerados"
+  "parcial": "2 de 6 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p02-peques": {
-  "archivo": "p02-peques.8e073e32.mp3",
+  "archivo": "p02-peques.40c5082a.mp3",
   "parrafos": [
    "¡Hola, exploradores!",
    "¿Veis los colores de esta charca? En la charca de verdad, los colores del borde los ponen seres vivos: microbios. Son tan pequeños que no se ven, pero hay tantos, tantos, que juntos parecen pintura.",
@@ -920,10 +934,11 @@
   "frases_por_trozo": 4,
   "caracteres": 20,
   "fecha": "2026-09-26T23:11:15",
-  "parcial": "1 de 5 párrafos regenerados"
+  "parcial": "1 de 5 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p02-mision": {
-  "archivo": "p02-mision.c09e3655.mp3",
+  "archivo": "p02-mision.019ded6a.mp3",
   "parrafos": [
    "¡Dad una vuelta alrededor de la charca, sin pisar la pintura! Contad sus colores, del centro hacia fuera. ¿Cuántos encontráis?",
    "Los azules son el agua. El amarillo, el naranja y el rojo, en la charca de verdad, son alfombras de microbios distintos. Y ahora, señalad con el dedo: ¿dónde estaría el agua más caliente?"
@@ -978,10 +993,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 401,
-  "fecha": "2026-09-26T11:21:41"
+  "fecha": "2026-09-26T11:21:41",
+  "mp3": "mp3 vbr q7"
  },
  "p02-reto-al-empezar": {
-  "archivo": "p02-reto-al-empezar.3a3ee2a3.mp3",
+  "archivo": "p02-reto-al-empezar.384068b6.mp3",
   "parrafos": [
    "¡Toca las colonias verdes y soltarán burbujas de oxígeno! Llena el medidor."
   ],
@@ -1015,10 +1031,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 97,
-  "fecha": "2026-09-26T11:21:42"
+  "fecha": "2026-09-26T11:21:42",
+  "mp3": "mp3 vbr q7"
  },
  "p02-reto-al-tocar-1": {
-  "archivo": "p02-reto-al-tocar-1.81888f76.mp3",
+  "archivo": "p02-reto-al-tocar-1.894b0a9b.mp3",
   "parrafos": [
    "¡Burbujas!"
   ],
@@ -1047,10 +1064,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 10,
-  "fecha": "2026-09-26T11:21:43"
+  "fecha": "2026-09-26T11:21:43",
+  "mp3": "mp3 vbr q7"
  },
  "p02-reto-al-tocar-2": {
-  "archivo": "p02-reto-al-tocar-2.e5d9aa63.mp3",
+  "archivo": "p02-reto-al-tocar-2.dd415d1c.mp3",
   "parrafos": [
    "¡Más oxígeno!"
   ],
@@ -1079,10 +1097,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 13,
-  "fecha": "2026-09-26T11:21:44"
+  "fecha": "2026-09-26T11:21:44",
+  "mp3": "mp3 vbr q7"
  },
  "p02-reto-al-tocar-3": {
-  "archivo": "p02-reto-al-tocar-3.0292a1f2.mp3",
+  "archivo": "p02-reto-al-tocar-3.170604ac.mp3",
   "parrafos": [
    "¡Eso es!"
   ],
@@ -1111,10 +1130,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 8,
-  "fecha": "2026-09-26T11:21:44"
+  "fecha": "2026-09-26T11:21:44",
+  "mp3": "mp3 vbr q7"
  },
  "p02-reto-a-la-mitad": {
-  "archivo": "p02-reto-a-la-mitad.d43aae64.mp3",
+  "archivo": "p02-reto-a-la-mitad.38d580af.mp3",
   "parrafos": [
    "¡Ya llevas medio medidor, sigue así!"
   ],
@@ -1143,10 +1163,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 36,
-  "fecha": "2026-09-26T11:21:45"
+  "fecha": "2026-09-26T11:21:45",
+  "mp3": "mp3 vbr q7"
  },
  "p02-reto-al-terminar": {
-  "archivo": "p02-reto-al-terminar.4cbbba99.mp3",
+  "archivo": "p02-reto-al-terminar.e51ae4c7.mp3",
   "parrafos": [
    "¡Medidor lleno! Tú lo has hecho en un momento, pero a los microbios de verdad les costó muchísimos millones de años. ¡Toma tu pegatina!"
   ],
@@ -1185,10 +1206,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 179,
-  "fecha": "2026-09-26T11:21:47"
+  "fecha": "2026-09-26T11:21:47",
+  "mp3": "mp3 vbr q7"
  },
  "p21-todos": {
-  "archivo": "p21-todos.dd73b27c.mp3",
+  "archivo": "p21-todos.7df95c69.mp3",
   "parrafos": [
    "Llegamos a la última parada. Tenéis delante la réplica de un monumento inglés que no se levantó de una vez. Hace unos cinco mil años se cavó allí un foso en círculo. Unos quinientos años después llegaron las piedras gigantes. Quienes lo empezaron nunca vieron las grandes piedras, y quienes las levantaron no vieron el final: la obra duró más de mil años y pasó de padres a hijos.",
    "Pensad en el esfuerzo. Las piedras grandes pesan unas veinticinco toneladas, como cinco elefantes; las mayores, treinta o más. Las trajeron desde unos veinticinco kilómetros. Las pequeñas, las piedras azules, vinieron de Gales, a más de doscientos kilómetros. Y en dos mil veinticuatro se descubrió que la gran losa del centro, la llamada Piedra del Altar, viene del norte de Escocia: a más de setecientos kilómetros. Todo, sin grúas ni motores: con cuerdas, madera, martillos de piedra y muchísimos brazos.",
@@ -1362,10 +1384,11 @@
   "frases_por_trozo": 4,
   "caracteres": 588,
   "fecha": "2026-09-26T23:13:01",
-  "parcial": "1 de 5 párrafos regenerados"
+  "parcial": "1 de 5 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p21-peques": {
-  "archivo": "p21-peques.ce9c57c3.mp3",
+  "archivo": "p21-peques.0311d87a.mp3",
   "parrafos": [
    "¡Hola, exploradores! Esta es nuestra última parada.",
    "Estas piedras enormes se llaman Stonehenge. La gente las levantó hace muchísimo tiempo, tirando de cuerdas todos juntos.",
@@ -1453,10 +1476,11 @@
   "frases_por_trozo": 4,
   "caracteres": 295,
   "fecha": "2026-09-26T23:13:04",
-  "parcial": "1 de 4 párrafos regenerados"
+  "parcial": "1 de 4 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p21-mision": {
-  "archivo": "p21-mision.b5309ae4.mp3",
+  "archivo": "p21-mision.228f8e81.mp3",
   "parrafos": [
    "¡Buscad las piedras que llevan otra tumbada encima, como una puerta de gigantes! ¿Cuántas encontráis? Contadlas sin tocarlas y sin subiros.",
    "Ahora, ¡haced la vuestra! Dos exploradores de pie, uno frente al otro, juntan las manos por arriba: esa es la piedra de encima. ¿Cabe alguien por debajo?"
@@ -1511,10 +1535,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 380,
-  "fecha": "2026-09-26T11:26:14"
+  "fecha": "2026-09-26T11:26:14",
+  "mp3": "mp3 vbr q7"
  },
  "p21-reto-al-empezar": {
-  "archivo": "p21-reto-al-empezar.f051613a.mp3",
+  "archivo": "p21-reto-al-empezar.bf75f390.mp3",
   "parrafos": [
    "¡Oh, no! Las piedras de Stonehenge se han caído. Ayúdame a levantarlas: arrastra cada piedra hasta su sombra."
   ],
@@ -1553,10 +1578,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 153,
-  "fecha": "2026-09-26T11:26:16"
+  "fecha": "2026-09-26T11:26:16",
+  "mp3": "mp3 vbr q7"
  },
  "p21-reto-al-poner-un-pilar": {
-  "archivo": "p21-reto-al-poner-un-pilar.0cd168d2.mp3",
+  "archivo": "p21-reto-al-poner-un-pilar.e93c47a6.mp3",
   "parrafos": [
    "¡Arriba! Pesa más que cinco elefantes, y la trajeron desde unos veinticinco kilómetros, sin motores."
   ],
@@ -1590,10 +1616,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 122,
-  "fecha": "2026-09-26T11:26:17"
+  "fecha": "2026-09-26T11:26:17",
+  "mp3": "mp3 vbr q7"
  },
  "p21-reto-dintel-antes-de-tiempo": {
-  "archivo": "p21-reto-dintel-antes-de-tiempo.e19794dc.mp3",
+  "archivo": "p21-reto-dintel-antes-de-tiempo.d7654fbf.mp3",
   "parrafos": [
    "¡Espera! Esa va tumbada encima. Primero levanta las dos que la sostienen."
   ],
@@ -1632,10 +1659,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 117,
-  "fecha": "2026-09-26T11:26:18"
+  "fecha": "2026-09-26T11:26:18",
+  "mp3": "mp3 vbr q7"
  },
  "p21-reto-al-poner-el-dintel": {
-  "archivo": "p21-reto-al-poner-el-dintel.4358ed80.mp3",
+  "archivo": "p21-reto-al-poner-el-dintel.10aca63d.mp3",
   "parrafos": [
    "¡Encajada! Como un mueble de carpintero: sin clavos y sin pegamento."
   ],
@@ -1670,10 +1698,11 @@
   "frases_por_trozo": 4,
   "caracteres": 90,
   "fecha": "2026-09-26T23:13:05",
-  "parcial": "1 de 1 párrafos regenerados"
+  "parcial": "1 de 1 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p21-reto-al-poner-una-piedra-azul": {
-  "archivo": "p21-reto-al-poner-una-piedra-azul.c174baa7.mp3",
+  "archivo": "p21-reto-al-poner-una-piedra-azul.4afbaa04.mp3",
   "parrafos": [
    "Las piedras azules son más pequeñas, pero vinieron de muy lejos: de unas montañas de Gales."
   ],
@@ -1702,10 +1731,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 91,
-  "fecha": "2026-09-26T11:26:21"
+  "fecha": "2026-09-26T11:26:21",
+  "mp3": "mp3 vbr q7"
  },
  "p21-reto-al-poner-la-piedra-del-talon": {
-  "archivo": "p21-reto-al-poner-la-piedra-del-talon.094b823a.mp3",
+  "archivo": "p21-reto-al-poner-la-piedra-del-talon.fe0e7dfe.mp3",
   "parrafos": [
    "Esta se quedó sola, fuera del círculo, junto al camino de entrada. ¡Fíjate dónde está: pronto verás por qué!"
   ],
@@ -1740,10 +1770,11 @@
   "frases_por_trozo": 4,
   "caracteres": 130,
   "fecha": "2026-09-26T23:13:07",
-  "parcial": "1 de 1 párrafos regenerados"
+  "parcial": "1 de 1 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p21-reto-fallo": {
-  "archivo": "p21-reto-fallo.527b3f8d.mp3",
+  "archivo": "p21-reto-fallo.8a9cbdee.mp3",
   "parrafos": [
    "Esa no cabe ahí. Fíjate en la forma de la sombra."
   ],
@@ -1777,10 +1808,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 71,
-  "fecha": "2026-09-26T11:26:23"
+  "fecha": "2026-09-26T11:26:23",
+  "mp3": "mp3 vbr q7"
  },
  "p21-reto-al-terminar": {
-  "archivo": "p21-reto-al-terminar.f36c3328.mp3",
+  "archivo": "p21-reto-al-terminar.b92a1146.mp3",
   "parrafos": [
    "¡Stonehenge está en pie! Y mira: el sol del solsticio sale justo por el hueco. ¡Toma tu pegatina!"
   ],
@@ -1819,10 +1851,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 141,
-  "fecha": "2026-09-26T11:26:25"
+  "fecha": "2026-09-26T11:26:25",
+  "mp3": "mp3 vbr q7"
  },
  "p19-todos": {
-  "archivo": "p19-todos.0aca9f6e.mp3",
+  "archivo": "p19-todos.e85b0bd2.mp3",
   "parrafos": [
    "Hoy, el Sáhara es el mayor desierto cálido del mundo: arena y roca hasta el horizonte. Sin embargo, este mural está lleno de jirafas, vacas y pastores. ¿Qué hacen ahí?",
    "Hace unos diez mil años, aquello no era un desierto. Las lluvias llegaban mucho más al norte, y se cubrió de hierba, árboles y lagos, como la sabana africana de los documentales. Lo sabemos por los lagos secos, por huesos de hipopótamo hallados en plena arena… y por pinturas como estas.",
@@ -1983,10 +2016,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 2352,
-  "fecha": "2026-09-26T19:56:54"
+  "fecha": "2026-09-26T19:56:54",
+  "mp3": "mp3 vbr q7"
  },
  "p19-peques": {
-  "archivo": "p19-peques.c548d49d.mp3",
+  "archivo": "p19-peques.f6f32402.mp3",
   "parrafos": [
    "¡Hola, exploradores!",
    "¿Sabéis qué es el Sáhara? Hoy es un desierto enorme, con arena y más arena.",
@@ -2080,10 +2114,11 @@
   "frases_por_trozo": 4,
   "caracteres": 20,
   "fecha": "2026-09-26T23:12:48",
-  "parcial": "1 de 5 párrafos regenerados"
+  "parcial": "1 de 5 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p19-mision": {
-  "archivo": "p19-mision.1d31bedf.mp3",
+  "archivo": "p19-mision.d3cdaf26.mp3",
   "parrafos": [
    "¡Buscad en la pared las jirafas blancas! ¿Cuántas cabezas de jirafa contáis?",
    "Ahora buscad al gigante blanco con cuernos, el que tiene los brazos en alto. ¡Levantad los brazos vosotros también, como él! Y todo desde aquí, sin pasar la cuerda."
@@ -2133,10 +2168,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 306,
-  "fecha": "2026-09-26T11:25:21"
+  "fecha": "2026-09-26T11:25:21",
+  "mp3": "mp3 vbr q7"
  },
  "p19-reto-al-empezar": {
-  "archivo": "p19-reto-al-empezar.ae73cc00.mp3",
+  "archivo": "p19-reto-al-empezar.22b072c5.mp3",
   "parrafos": [
    "¡Busca cuatro cosas en el mural: un carro, gente bailando, vacas y barcos! Desliza el dedo para recorrerlo."
   ],
@@ -2170,10 +2206,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 129,
-  "fecha": "2026-09-26T11:25:23"
+  "fecha": "2026-09-26T11:25:23",
+  "mp3": "mp3 vbr q7"
  },
  "p19-reto-al-encontrar-el-carro": {
-  "archivo": "p19-reto-al-encontrar-el-carro.20555db5.mp3",
+  "archivo": "p19-reto-al-encontrar-el-carro.8bef6881.mp3",
   "parrafos": [
    "¡Un carro con rueda, tirado por un caballo! La rueda fue un invento que cambió el mundo."
   ],
@@ -2207,10 +2244,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 110,
-  "fecha": "2026-09-26T11:25:24"
+  "fecha": "2026-09-26T11:25:24",
+  "mp3": "mp3 vbr q7"
  },
  "p19-reto-al-encontrar-a-los-que-bailan": {
-  "archivo": "p19-reto-al-encontrar-a-los-que-bailan.72e366dd.mp3",
+  "archivo": "p19-reto-al-encontrar-a-los-que-bailan.9a737e83.mp3",
   "parrafos": [
    "¡Bailan cogidos de la mano, como en un corro!"
   ],
@@ -2239,10 +2277,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 45,
-  "fecha": "2026-09-26T11:25:25"
+  "fecha": "2026-09-26T11:25:25",
+  "mp3": "mp3 vbr q7"
  },
  "p19-reto-al-encontrar-el-ganado": {
-  "archivo": "p19-reto-al-encontrar-el-ganado.9913cbc9.mp3",
+  "archivo": "p19-reto-al-encontrar-el-ganado.c7a657dc.mp3",
   "parrafos": [
    "¡Vacas y pastores! Entonces, el Sáhara tenía hierba para todos."
   ],
@@ -2276,10 +2315,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 85,
-  "fecha": "2026-09-26T11:25:26"
+  "fecha": "2026-09-26T11:25:26",
+  "mp3": "mp3 vbr q7"
  },
  "p19-reto-al-encontrar-los-barcos": {
-  "archivo": "p19-reto-al-encontrar-los-barcos.b9c3c6cb.mp3",
+  "archivo": "p19-reto-al-encontrar-los-barcos.17ccbc9d.mp3",
   "parrafos": [
    "¡Barcos de vela! Estos no son del Sáhara: se pintaron cerca de aquí, en Cádiz."
   ],
@@ -2313,10 +2353,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 100,
-  "fecha": "2026-09-26T11:25:27"
+  "fecha": "2026-09-26T11:25:27",
+  "mp3": "mp3 vbr q7"
  },
  "p19-reto-al-terminar": {
-  "archivo": "p19-reto-al-terminar.6d8e0334.mp3",
+  "archivo": "p19-reto-al-terminar.642d5c0c.mp3",
   "parrafos": [
    "¡Lo encontraste todo! Hace miles de años, la gente pintaba su vida en las rocas. ¡Toma tu pegatina!"
   ],
@@ -2355,10 +2396,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 143,
-  "fecha": "2026-09-26T11:25:28"
+  "fecha": "2026-09-26T11:25:28",
+  "mp3": "mp3 vbr q7"
  },
  "p18-todos": {
-  "archivo": "p18-todos.24f85479.mp3",
+  "archivo": "p18-todos.30d52863.mp3",
   "parrafos": [
    "Empezad por el pozo. Parece poca cosa, pero es lo que más dice de este poblado. Una tienda se desmonta y se lleva a cuestas. Un pozo, no. Quien cava un pozo cuenta con volver a beber de él mañana, y el año que viene. Eso es ser sedentario: vivir siempre en el mismo sitio.",
    "¿Qué permitió quedarse? Hace unos once mil años, en Oriente Próximo, en una franja de tierras con forma de media luna a la que llamamos el Creciente Fértil, algunos grupos empezaron a sembrar trigo, cebada y lentejas. Con los siglos, criaban también cabras, ovejas, vacas y cerdos. El perro se había adelantado: lo domesticaron cazadores, miles de años antes de la agricultura. En algunos lugares muy ricos hubo quien se quedó incluso antes de sembrar. Pero fue la agricultura la que permitió quedarse en muchísimos más sitios. Y no nació una sola vez: surgió por separado en varios rincones del mundo, como China o América. A la península ibérica llegó hace unos siete mil quinientos años, con gentes que bordearon el Mediterráneo, probablemente en barca.",
@@ -2536,10 +2578,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 2600,
-  "fecha": "2026-09-26T11:24:17"
+  "fecha": "2026-09-26T11:24:17",
+  "mp3": "mp3 vbr q7"
  },
  "p18-peques": {
-  "archivo": "p18-peques.43ede11a.mp3",
+  "archivo": "p18-peques.046c4778.mp3",
   "parrafos": [
    "¡Hola otra vez, exploradores!",
    "¿Os acordáis de las tiendas de los nómadas? Aquella gente se mudaba una y otra vez. ¡Pero estas familias se quedaron! ¿Sabéis por qué? Porque aprendieron a sembrar semillas y a cuidar animales. ¡La comida crecía al lado de casa!",
@@ -2632,10 +2675,11 @@
   "frases_por_trozo": 4,
   "caracteres": 344,
   "fecha": "2026-09-26T23:12:45",
-  "parcial": "2 de 4 párrafos regenerados"
+  "parcial": "2 de 4 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p18-mision": {
-  "archivo": "p18-mision.79e211ff.mp3",
+  "archivo": "p18-mision.24051fbd.mp3",
   "parrafos": [
    "¡Buscad en el poblado tres cosas que no se podrían llevar en una mudanza! Una pista: son muy pesadas o están metidas en el suelo.",
    "Y ahora, mirad encima de la puerta de la cabaña. ¿De qué animal son esas cuernas? ¿De uno de granja… o de uno salvaje?"
@@ -2686,10 +2730,11 @@
   "frases_por_trozo": 4,
   "caracteres": 151,
   "fecha": "2026-09-26T23:12:46",
-  "parcial": "1 de 2 párrafos regenerados"
+  "parcial": "1 de 2 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p18-reto-al-empezar": {
-  "archivo": "p18-reto-al-empezar.355ff7bb.mp3",
+  "archivo": "p18-reto-al-empezar.0d53b822.mp3",
   "parrafos": [
    "Estos animales salvajes tienen parientes que viven con nosotros. ¡Une cada uno con el suyo!"
   ],
@@ -2723,10 +2768,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 113,
-  "fecha": "2026-09-26T11:24:33"
+  "fecha": "2026-09-26T11:24:33",
+  "mp3": "mp3 vbr q7"
  },
  "p18-reto-acierto-perro": {
-  "archivo": "p18-reto-acierto-perro.1f32ffc7.mp3",
+  "archivo": "p18-reto-acierto-perro.8aae12ef.mp3",
   "parrafos": [
    "¡Muy bien! El perro viene de unos lobos muy antiguos. Fue el primer animal domesticado."
   ],
@@ -2765,10 +2811,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 131,
-  "fecha": "2026-09-26T11:24:34"
+  "fecha": "2026-09-26T11:24:34",
+  "mp3": "mp3 vbr q7"
  },
  "p18-reto-acierto-vaca": {
-  "archivo": "p18-reto-acierto-vaca.e41757a3.mp3",
+  "archivo": "p18-reto-acierto-vaca.53a5b876.mp3",
   "parrafos": [
    "¡Eso es! La vaca viene del uro, un toro salvaje enorme que ya no existe."
   ],
@@ -2802,10 +2849,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 94,
-  "fecha": "2026-09-26T11:24:36"
+  "fecha": "2026-09-26T11:24:36",
+  "mp3": "mp3 vbr q7"
  },
  "p18-reto-acierto-oveja": {
-  "archivo": "p18-reto-acierto-oveja.80168c65.mp3",
+  "archivo": "p18-reto-acierto-oveja.c4a558a4.mp3",
   "parrafos": [
    "¡Sí! La oveja viene del muflón de Asia, que tiene poca lana. Las personas fueron criando a las más lanudas."
   ],
@@ -2844,10 +2892,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 151,
-  "fecha": "2026-09-26T11:24:37"
+  "fecha": "2026-09-26T11:24:37",
+  "mp3": "mp3 vbr q7"
  },
  "p18-reto-acierto-cerdo": {
-  "archivo": "p18-reto-acierto-cerdo.d88a15b8.mp3",
+  "archivo": "p18-reto-acierto-cerdo.5b908468.mp3",
   "parrafos": [
    "¡Correcto! El cerdo viene del jabalí. Son tan parientes que todavía pueden tener crías juntos."
   ],
@@ -2886,10 +2935,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 138,
-  "fecha": "2026-09-26T11:24:38"
+  "fecha": "2026-09-26T11:24:38",
+  "mp3": "mp3 vbr q7"
  },
  "p18-reto-fallo": {
-  "archivo": "p18-reto-fallo.ef198d81.mp3",
+  "archivo": "p18-reto-fallo.e481ac50.mp3",
   "parrafos": [
    "¡Uy, casi! Busca al que más se le parece y prueba otra vez."
   ],
@@ -2923,10 +2973,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 81,
-  "fecha": "2026-09-26T11:24:39"
+  "fecha": "2026-09-26T11:24:39",
+  "mp3": "mp3 vbr q7"
  },
  "p18-reto-al-terminar": {
-  "archivo": "p18-reto-al-terminar.0198aa2a.mp3",
+  "archivo": "p18-reto-al-terminar.8bacfccc.mp3",
   "parrafos": [
    "¡Todos con su pariente! Criando a los más mansos durante miles de años, los salvajes se volvieron domésticos. ¡Toma tu pegatina!"
   ],
@@ -2965,10 +3016,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 172,
-  "fecha": "2026-09-26T11:24:41"
+  "fecha": "2026-09-26T11:24:41",
+  "mp3": "mp3 vbr q7"
  },
  "p16-todos": {
-  "archivo": "p16-todos.87426042.mp3",
+  "archivo": "p16-todos.bc951a2e.mp3",
   "parrafos": [
    "Imaginad que entráis en una cueva de verdad, hace treinta mil años. La única luz es una llamita que tiembla. Y de pronto, en la roca, aparece un caballo. Alguien lo pintó. Ese caballo es una de las pruebas más claras de algo muy humano: imaginar, y dejarlo dibujado en la piedra.",
    "Buscad los toros de cuernos largos. Están copiados de la cueva de Lascaux, en Francia, pintada hace unos veinte mil años. Son uros, toros salvajes enormes que se extinguieron hace solo cuatrocientos años. A su lado corren caballos y ciervos.",
@@ -3168,10 +3220,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 2653,
-  "fecha": "2026-09-26T11:23:33"
+  "fecha": "2026-09-26T11:23:33",
+  "mp3": "mp3 vbr q7"
  },
  "p16-peques": {
-  "archivo": "p16-peques.4f7b5e95.mp3",
+  "archivo": "p16-peques.f9e7e456.mp3",
   "parrafos": [
    "¡Hola, exploradores!",
    "Una vez entré en una cueva de verdad, hace muchísimo tiempo. Estaba oscurísima: solo había una lucecita de fuego. Allí vi a una chica apoyar la mano en la pared, llenarse la boca de pintura roja… ¡y soplar muy fuerte!",
@@ -3249,10 +3302,11 @@
   "frases_por_trozo": 4,
   "caracteres": 20,
   "fecha": "2026-09-26T23:12:35",
-  "parcial": "1 de 4 párrafos regenerados"
+  "parcial": "1 de 4 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p16-mision": {
-  "archivo": "p16-mision.91e08e40.mp3",
+  "archivo": "p16-mision.82f6f7f3.mp3",
   "parrafos": [
    "¡Entrad en la cueva despacito y sin tocar las paredes, que las pinturas se estropean!",
    "Ahora, buscad y contad: ¿cuántos caballos veis? ¿Y leones? ¿Y rinocerontes? Y lo más difícil: ¿dónde se esconde el ser que es mitad persona y mitad animal?"
@@ -3302,10 +3356,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 306,
-  "fecha": "2026-09-26T11:23:44"
+  "fecha": "2026-09-26T11:23:44",
+  "mp3": "mp3 vbr q7"
  },
  "p16-reto-al-empezar": {
-  "archivo": "p16-reto-al-empezar.41f4fd5b.mp3",
+  "archivo": "p16-reto-al-empezar.fc30b150.mp3",
   "parrafos": [
    "¡Vamos a soplar pintura, como en la cueva! Pasa el dedo alrededor de la mano."
   ],
@@ -3339,10 +3394,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 99,
-  "fecha": "2026-09-26T11:23:45"
+  "fecha": "2026-09-26T11:23:45",
+  "mp3": "mp3 vbr q7"
  },
  "p16-reto-a-la-mitad": {
-  "archivo": "p16-reto-a-la-mitad.c1b3a1d7.mp3",
+  "archivo": "p16-reto-a-la-mitad.41f8bcb4.mp3",
   "parrafos": [
    "¡Muy bien, sigue soplando! Ya se ve la forma de la mano."
   ],
@@ -3376,10 +3432,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 78,
-  "fecha": "2026-09-26T11:23:46"
+  "fecha": "2026-09-26T11:23:46",
+  "mp3": "mp3 vbr q7"
  },
  "p16-reto-al-terminar": {
-  "archivo": "p16-reto-al-terminar.f35e74e4.mp3",
+  "archivo": "p16-reto-al-terminar.fc79cc7f.mp3",
   "parrafos": [
    "¡Tu mano en la cueva, como hace miles de años! Igual que ellos, ya has dejado tu huella: ¡toma tu pegatina!"
   ],
@@ -3413,10 +3470,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 129,
-  "fecha": "2026-09-26T11:23:50"
+  "fecha": "2026-09-26T11:23:50",
+  "mp3": "mp3 vbr q7"
  },
  "p13-todos": {
-  "archivo": "p13-todos.4793bb1b.mp3",
+  "archivo": "p13-todos.ecf408a7.mp3",
   "parrafos": [
    "Mirad estos dos areneros: representan un yacimiento, un lugar donde la tierra ha guardado restos del pasado. Huesos, dientes, herramientas de piedra, sobras de comida… Todo fue quedando tapado, capa sobre capa, y por eso lo más antiguo suele estar más abajo.",
    "El más famoso de España está en la Sierra de Atapuerca, cerca de Burgos. Algunas de sus cuevas, llenas de tierra, quedaron a la vista por casualidad hace más de cien años, cuando se abrió una zanja enorme en la roca para que pasara un tren.",
@@ -3550,10 +3608,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 2307,
-  "fecha": "2026-09-26T11:22:39"
+  "fecha": "2026-09-26T11:22:39",
+  "mp3": "mp3 vbr q7"
  },
  "p13-peques": {
-  "archivo": "p13-peques.7606f27f.mp3",
+  "archivo": "p13-peques.e00dd795.mp3",
   "parrafos": [
    "¡Hola, exploradores!",
    "Hace muchísimo tiempo estuve en Atapuerca, unas cuevas de Burgos. Allí vivía gente que tallaba piedras para cortar la carne. Dejaron dientes, huesos y herramientas, y la tierra lo fue tapando todo.",
@@ -3637,10 +3696,11 @@
   "frases_por_trozo": 4,
   "caracteres": 20,
   "fecha": "2026-09-26T23:12:20",
-  "parcial": "1 de 5 párrafos regenerados"
+  "parcial": "1 de 5 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p13-mision": {
-  "archivo": "p13-mision.ad58f3ae.mp3",
+  "archivo": "p13-mision.0f03a83d.mp3",
   "parrafos": [
    "¡Mirad las cuerdas del arenero! Forman cuadrados. ¿Cuántos contáis?",
    "Ahora elegid un cuadrado y buscad en él solo con los ojos: ¿asoma algo? Si podéis excavar, hacedlo dentro de vuestro cuadrado, con el pincel y sin mover las cuerdas. ¡Y al terminar, dejadlo todo como estaba para los siguientes exploradores!"
@@ -3695,10 +3755,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 395,
-  "fecha": "2026-09-26T11:22:53"
+  "fecha": "2026-09-26T11:22:53",
+  "mp3": "mp3 vbr q7"
  },
  "p13-reto-al-empezar": {
-  "archivo": "p13-reto-al-empezar.72d3ad5c.mp3",
+  "archivo": "p13-reto-al-empezar.8f4bd7e5.mp3",
   "parrafos": [
    "¡Vamos a excavar como en Atapuerca! Rasca la arena con el dedo, y yo apunto todo lo que encuentres."
   ],
@@ -3732,10 +3793,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 121,
-  "fecha": "2026-09-26T11:22:54"
+  "fecha": "2026-09-26T11:22:54",
+  "mp3": "mp3 vbr q7"
  },
  "p13-reto-al-encontrar-el-diente": {
-  "archivo": "p13-reto-al-encontrar-el-diente.9dbe27e2.mp3",
+  "archivo": "p13-reto-al-encontrar-el-diente.5102f08d.mp3",
   "parrafos": [
    "¡Un diente humano: nos cuenta qué comía su dueño! ¡Apuntado: casilla C dos!"
   ],
@@ -3769,10 +3831,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 97,
-  "fecha": "2026-09-26T11:22:55"
+  "fecha": "2026-09-26T11:22:55",
+  "mp3": "mp3 vbr q7"
  },
  "p13-reto-al-encontrar-la-mandibula": {
-  "archivo": "p13-reto-al-encontrar-la-mandibula.5a1d31d5.mp3",
+  "archivo": "p13-reto-al-encontrar-la-mandibula.316a6639.mp3",
   "parrafos": [
    "¡Una mandíbula: su forma nos ayuda a saber qué clase de humano era! ¡Apuntada: casilla A cuatro!"
   ],
@@ -3806,10 +3869,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 118,
-  "fecha": "2026-09-26T11:22:57"
+  "fecha": "2026-09-26T11:22:57",
+  "mp3": "mp3 vbr q7"
  },
  "p13-reto-al-encontrar-el-bifaz": {
-  "archivo": "p13-reto-al-encontrar-el-bifaz.a28dcacc.mp3",
+  "archivo": "p13-reto-al-encontrar-el-bifaz.0838281a.mp3",
   "parrafos": [
    "¡Un bifaz: alguien afiló esta piedra a golpes, por las dos caras! ¡Apuntado: casilla D uno!"
   ],
@@ -3843,10 +3907,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 113,
-  "fecha": "2026-09-26T11:22:58"
+  "fecha": "2026-09-26T11:22:58",
+  "mp3": "mp3 vbr q7"
  },
  "p13-reto-al-encontrar-el-hueso": {
-  "archivo": "p13-reto-al-encontrar-el-hueso.88db7b45.mp3",
+  "archivo": "p13-reto-al-encontrar-el-hueso.f475bf2a.mp3",
   "parrafos": [
    "¡Un hueso de animal con marcas de corte: alguien le quitó la carne con una piedra afilada! ¡Apuntado: casilla B tres!"
   ],
@@ -3880,10 +3945,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 139,
-  "fecha": "2026-09-26T11:22:59"
+  "fecha": "2026-09-26T11:22:59",
+  "mp3": "mp3 vbr q7"
  },
  "p13-reto-al-terminar": {
-  "archivo": "p13-reto-al-terminar.884a1757.mp3",
+  "archivo": "p13-reto-al-terminar.c4370a6b.mp3",
   "parrafos": [
    "¡Todo apuntado, casilla por casilla: ahora podemos reconstruir lo que pasó aquí! ¡Toma tu pegatina!"
   ],
@@ -3917,10 +3983,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 121,
-  "fecha": "2026-09-26T11:23:01"
+  "fecha": "2026-09-26T11:23:01",
+  "mp3": "mp3 vbr q7"
  },
  "p03-todos": {
-  "archivo": "p03-todos.940b58f5.mp3",
+  "archivo": "p03-todos.012ecd5f.mp3",
   "parrafos": [
    "Este azul es un mar poco profundo. Durante casi tres mil millones de años, la vida fue casi toda microscópica. Después llegaron los primeros animales, blandos y sencillos. Y hace unos quinientos cuarenta millones de años, el mar empezó a llenarse de animales con caparazón, patas y ojos. Fuera del agua, todavía, ni una planta ni un animal.",
    "Lo llamamos la explosión cámbrica, aunque duró unos veinte millones de años. Pero si la historia de la Tierra cupiera en un día, ocuparía menos de diez minutos.",
@@ -4090,10 +4157,11 @@
   "frases_por_trozo": 4,
   "caracteres": 268,
   "fecha": "2026-09-26T23:11:18",
-  "parcial": "1 de 6 párrafos regenerados"
+  "parcial": "1 de 6 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p03-peques": {
-  "archivo": "p03-peques.ab91dca5.mp3",
+  "archivo": "p03-peques.28b9a5ac.mp3",
   "parrafos": [
    "¡Hola, exploradores!",
    "¿Veis este mar azul? Buscad encima dos animales de piedra. El alargado, con rayas, es un trilobites. El enrollado es un amonites, ¡primo de los pulpos!",
@@ -4177,10 +4245,11 @@
   "frases_por_trozo": 4,
   "caracteres": 20,
   "fecha": "2026-09-26T23:11:19",
-  "parcial": "1 de 5 párrafos regenerados"
+  "parcial": "1 de 5 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p03-mision": {
-  "archivo": "p03-mision.2a8180f9.mp3",
+  "archivo": "p03-mision.48abea14.mp3",
   "parrafos": [
    "¡Buscad los dos fósiles que hay sobre el agua azul! Miradlos desde fuera, sin pisar el agua. ¿Cuál es el trilobites y cuál el amonites?",
    "Con el dedo, en el aire, seguid la espiral del amonites desde el centro hacia fuera. ¿Cuántas vueltas da?",
@@ -4236,10 +4305,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 382,
-  "fecha": "2026-09-26T16:46:30"
+  "fecha": "2026-09-26T16:46:30",
+  "mp3": "mp3 vbr q7"
  },
  "p03-reto-al-empezar": {
-  "archivo": "p03-reto-al-empezar.6a6f44bb.mp3",
+  "archivo": "p03-reto-al-empezar.cab52f11.mp3",
   "parrafos": [
    "¿Cómo se hace un fósil? ¡Pon las tarjetas en orden! ¿Qué pasa primero?"
   ],
@@ -4278,10 +4348,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 114,
-  "fecha": "2026-09-26T16:46:31"
+  "fecha": "2026-09-26T16:46:31",
+  "mp3": "mp3 vbr q7"
  },
  "p03-reto-tarjeta-1": {
-  "archivo": "p03-reto-tarjeta-1.8dff2189.mp3",
+  "archivo": "p03-reto-tarjeta-1.dd2c27ce.mp3",
   "parrafos": [
    "¡Sí! Primero, el amonites nada en el mar."
   ],
@@ -4315,10 +4386,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 63,
-  "fecha": "2026-09-26T16:46:32"
+  "fecha": "2026-09-26T16:46:32",
+  "mp3": "mp3 vbr q7"
  },
  "p03-reto-tarjeta-2": {
-  "archivo": "p03-reto-tarjeta-2.09b4b864.mp3",
+  "archivo": "p03-reto-tarjeta-2.985dff31.mp3",
   "parrafos": [
    "¡Eso es! Cuando muere, cae al fondo y el barro lo tapa."
   ],
@@ -4352,10 +4424,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 77,
-  "fecha": "2026-09-26T16:46:33"
+  "fecha": "2026-09-26T16:46:33",
+  "mp3": "mp3 vbr q7"
  },
  "p03-reto-tarjeta-3": {
-  "archivo": "p03-reto-tarjeta-3.21fb85e8.mp3",
+  "archivo": "p03-reto-tarjeta-3.89fbce5f.mp3",
   "parrafos": [
    "¡Muy bien! Pasa muchísimo tiempo y la concha se vuelve piedra."
   ],
@@ -4389,10 +4462,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 84,
-  "fecha": "2026-09-26T16:46:34"
+  "fecha": "2026-09-26T16:46:34",
+  "mp3": "mp3 vbr q7"
  },
  "p03-reto-tarjeta-4": {
-  "archivo": "p03-reto-tarjeta-4.2d5210c3.mp3",
+  "archivo": "p03-reto-tarjeta-4.58863d09.mp3",
   "parrafos": [
    "¡Genial! Alguien excava… ¡y aparece el fósil!"
   ],
@@ -4431,10 +4505,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 89,
-  "fecha": "2026-09-26T16:46:35"
+  "fecha": "2026-09-26T16:46:35",
+  "mp3": "mp3 vbr q7"
  },
  "p03-reto-fallo": {
-  "archivo": "p03-reto-fallo.88ea4f2e.mp3",
+  "archivo": "p03-reto-fallo.e1c876d1.mp3",
   "parrafos": [
    "¡Uy, ahí no va! Mira bien el dibujo y prueba otra vez."
   ],
@@ -4468,10 +4543,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 76,
-  "fecha": "2026-09-26T16:46:37"
+  "fecha": "2026-09-26T16:46:37",
+  "mp3": "mp3 vbr q7"
  },
  "p03-reto-al-terminar": {
-  "archivo": "p03-reto-al-terminar.52ab03b4.mp3",
+  "archivo": "p03-reto-al-terminar.6114af23.mp3",
   "parrafos": [
    "¡Ya sabes cómo se hace un fósil! Por eso son tan raros y valiosos. ¡Toma tu pegatina!"
   ],
@@ -4511,10 +4587,11 @@
   "frases_por_trozo": 4,
   "caracteres": 129,
   "fecha": "2026-09-26T23:11:21",
-  "parcial": "1 de 1 párrafos regenerados"
+  "parcial": "1 de 1 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p04-todos": {
-  "archivo": "p04-todos.be69b0a8.mp3",
+  "archivo": "p04-todos.222f633e.mp3",
   "parrafos": [
    "Salir del agua fue una de las grandes aventuras de la vida. Durante casi toda su historia, la tierra firme fue un desierto de roca: ni una planta, ni un animal.",
    "Hace más de cuatrocientos millones de años, las plantas ya se habían asomado a tierra, pero eran diminutas: casi ninguna os llegaría a la rodilla. Y entre ellas se alzaban estas columnas blancas, los Prototaxites. Los mayores medían unos ocho metros, más que una jirafa. La más alta de aquí mide menos de tres: los mayores de verdad, casi el triple.",
@@ -4690,10 +4767,11 @@
   "frases_por_trozo": 4,
   "caracteres": 415,
   "fecha": "2026-09-26T23:11:28",
-  "parcial": "1 de 7 párrafos regenerados"
+  "parcial": "1 de 7 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p04-peques": {
-  "archivo": "p04-peques.3d19b82f.mp3",
+  "archivo": "p04-peques.465833d0.mp3",
   "parrafos": [
    "¡Hola, exploradores!",
    "Mirad al suelo, sin pisar: ¿veis ese pez? Se llama Tiktaalik. Yo lo he visto nadar en su río, y era un pez muy raro: ¡tenía en las aletas huesos como los de vuestros brazos!",
@@ -4786,10 +4864,11 @@
   "frases_por_trozo": 4,
   "caracteres": 20,
   "fecha": "2026-09-26T23:11:30",
-  "parcial": "1 de 4 párrafos regenerados"
+  "parcial": "1 de 4 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p04-mision": {
-  "archivo": "p04-mision.dc766345.mp3",
+  "archivo": "p04-mision.8ef1f04e.mp3",
   "parrafos": [
    "¡Buscad el pez del suelo, sin pisarlo! ¿Dónde tiene los ojos: a los lados, como casi todos los peces, o encima de la cabeza, como los cocodrilos?",
    "Ahora mirad la columna blanca más alta. ¿Cuántos exploradores, uno encima de otro, harían falta para llegar arriba? ¡Para los más grandes de verdad, harían falta unos siete!"
@@ -4839,10 +4918,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 384,
-  "fecha": "2026-09-26T16:47:21"
+  "fecha": "2026-09-26T16:47:21",
+  "mp3": "mp3 vbr q7"
  },
  "p04-reto-al-empezar": {
-  "archivo": "p04-reto-al-empezar.70e372a6.mp3",
+  "archivo": "p04-reto-al-empezar.1a642850.mp3",
   "parrafos": [
    "¿Quién vivió antes? Arrastra a cada uno a su hueco. ¡El más antiguo va el primero!"
   ],
@@ -4881,10 +4961,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 126,
-  "fecha": "2026-09-26T16:47:22"
+  "fecha": "2026-09-26T16:47:22",
+  "mp3": "mp3 vbr q7"
  },
  "p04-reto-acierto-prototaxites": {
-  "archivo": "p04-reto-acierto-prototaxites.5c54360f.mp3",
+  "archivo": "p04-reto-acierto-prototaxites.5f0fa33b.mp3",
   "parrafos": [
    "¡Sí! El Prototaxites llegó el primero."
   ],
@@ -4918,10 +4999,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 60,
-  "fecha": "2026-09-26T16:47:23"
+  "fecha": "2026-09-26T16:47:23",
+  "mp3": "mp3 vbr q7"
  },
  "p04-reto-acierto-tiktaalik": {
-  "archivo": "p04-reto-acierto-tiktaalik.76ab6e17.mp3",
+  "archivo": "p04-reto-acierto-tiktaalik.005169e7.mp3",
   "parrafos": [
    "¡Eso es! Luego llegó el pez con codos."
   ],
@@ -4955,10 +5037,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 60,
-  "fecha": "2026-09-26T16:47:24"
+  "fecha": "2026-09-26T16:47:24",
+  "mp3": "mp3 vbr q7"
  },
  "p04-reto-acierto-meganeura": {
-  "archivo": "p04-reto-acierto-meganeura.d1aa9d0c.mp3",
+  "archivo": "p04-reto-acierto-meganeura.9961afe0.mp3",
   "parrafos": [
    "¡Bravo! La libélula gigante llegó la última."
   ],
@@ -4992,10 +5075,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 66,
-  "fecha": "2026-09-26T16:47:25"
+  "fecha": "2026-09-26T16:47:25",
+  "mp3": "mp3 vbr q7"
  },
  "p04-reto-fallo": {
-  "archivo": "p04-reto-fallo.857e7399.mp3",
+  "archivo": "p04-reto-fallo.1fe1ad29.mp3",
   "parrafos": [
    "¡Ahí no! Piensa: ¿quién llegó antes?"
   ],
@@ -5029,10 +5113,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 58,
-  "fecha": "2026-09-26T16:47:26"
+  "fecha": "2026-09-26T16:47:26",
+  "mp3": "mp3 vbr q7"
  },
  "p04-reto-al-terminar": {
-  "archivo": "p04-reto-al-terminar.48d00de4.mp3",
+  "archivo": "p04-reto-al-terminar.7a063eef.mp3",
   "parrafos": [
    "¡Ordenados! Aquí están juntos, pero no vivieron todos a la vez. ¡Toma tu pegatina!"
   ],
@@ -5071,10 +5156,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 126,
-  "fecha": "2026-09-26T16:47:27"
+  "fecha": "2026-09-26T16:47:27",
+  "mp3": "mp3 vbr q7"
  },
  "p05-todos": {
-  "archivo": "p05-todos.0963bf31.mp3",
+  "archivo": "p05-todos.144507c9.mp3",
   "parrafos": [
    "Mirad estos árboles. Hoy los vemos por todas partes, pero durante muchísimo tiempo no hubo ni uno. Las primeras plantas que salieron del agua medían unos pocos centímetros: no os habrían llegado ni a los tobillos. Por eso el Prototaxites de la parada anterior sobresalía como una torre.",
    "Hace unos trescientos ochenta y cinco millones de años, el paisaje ya era otro: había bosques. Algunos árboles parecían palmeras o helechos gigantes. Otros, como el Archaeopteris, tenían una madera muy parecida a la de los pinos. Pero ninguno tenía flores, ni frutos, ni semillas. Se reproducían con esporas, un polvo finísimo que se lleva el viento, como los helechos.",
@@ -5264,10 +5350,11 @@
   "frases_por_trozo": 4,
   "caracteres": 415,
   "fecha": "2026-09-26T23:11:35",
-  "parcial": "1 de 6 párrafos regenerados"
+  "parcial": "1 de 6 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p05-peques": {
-  "archivo": "p05-peques.850752cc.mp3",
+  "archivo": "p05-peques.cfd005ea.mp3",
   "parrafos": [
    "¡Hola, exploradores!",
    "¿Sabéis que hubo un tiempo sin árboles? ¡Yo lo he visto! Las primeras plantas eran bajitas, bajitas: no me llegaban ni a los tobillos.",
@@ -5360,10 +5447,11 @@
   "frases_por_trozo": 4,
   "caracteres": 20,
   "fecha": "2026-09-26T23:11:41",
-  "parcial": "1 de 4 párrafos regenerados"
+  "parcial": "1 de 4 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p05-mision": {
-  "archivo": "p05-mision.9a8d5b28.mp3",
+  "archivo": "p05-mision.7f099b6a.mp3",
   "parrafos": [
    "¡Elegid uno de estos árboles, desde el camino! Abrid los brazos: ¿cuántos exploradores harían falta para rodear su tronco?",
    "Ahora, mirad bien, sin arrancar nada. ¿Asoma alguna raíz del suelo? ¿La corteza es lisa o rugosa? Y arriba, ¿cómo son sus hojas: planas, como agujas o como escamitas?"
@@ -5419,10 +5507,11 @@
   "frases_por_trozo": 4,
   "caracteres": 144,
   "fecha": "2026-09-26T23:11:42",
-  "parcial": "1 de 2 párrafos regenerados"
+  "parcial": "1 de 2 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p05-reto-al-empezar": {
-  "archivo": "p05-reto-al-empezar.57f2d715.mp3",
+  "archivo": "p05-reto-al-empezar.c0e076a7.mp3",
   "parrafos": [
    "¡Vamos a construir uno de los primeros árboles! Arrastra cada pieza hasta su sombra. Empieza por abajo."
   ],
@@ -5461,10 +5550,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 147,
-  "fecha": "2026-09-26T16:48:11"
+  "fecha": "2026-09-26T16:48:11",
+  "mp3": "mp3 vbr q7"
  },
  "p05-reto-al-poner-las-raices": {
-  "archivo": "p05-reto-al-poner-las-raices.0e3ad1e9.mp3",
+  "archivo": "p05-reto-al-poner-las-raices.b9c30a3d.mp3",
   "parrafos": [
    "¡Raíces! Se agarran fuerte al suelo y beben agua."
   ],
@@ -5498,10 +5588,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 71,
-  "fecha": "2026-09-26T16:48:12"
+  "fecha": "2026-09-26T16:48:12",
+  "mp3": "mp3 vbr q7"
  },
  "p05-reto-al-poner-el-tronco": {
-  "archivo": "p05-reto-al-poner-el-tronco.6208e150.mp3",
+  "archivo": "p05-reto-al-poner-el-tronco.b7d58418.mp3",
   "parrafos": [
    "¡Qué tronco! Es de madera, dura y fuerte. Así el árbol crece alto sin caerse."
   ],
@@ -5540,10 +5631,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 121,
-  "fecha": "2026-09-26T16:48:14"
+  "fecha": "2026-09-26T16:48:14",
+  "mp3": "mp3 vbr q7"
  },
  "p05-reto-al-poner-las-hojas": {
-  "archivo": "p05-reto-al-poner-las-hojas.cfa66a7c.mp3",
+  "archivo": "p05-reto-al-poner-las-hojas.5903a103.mp3",
   "parrafos": [
    "¡Y arriba, las hojas! Con ellas, el árbol atrapa la luz del sol."
   ],
@@ -5577,10 +5669,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 86,
-  "fecha": "2026-09-26T16:48:15"
+  "fecha": "2026-09-26T16:48:15",
+  "mp3": "mp3 vbr q7"
  },
  "p05-reto-antes-de-tiempo": {
-  "archivo": "p05-reto-antes-de-tiempo.7d6e91e5.mp3",
+  "archivo": "p05-reto-antes-de-tiempo.ae8a519e.mp3",
   "parrafos": [
    "¡Todavía no! Primero va lo de abajo, que lo sujeta todo."
   ],
@@ -5614,10 +5707,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 78,
-  "fecha": "2026-09-26T16:48:16"
+  "fecha": "2026-09-26T16:48:16",
+  "mp3": "mp3 vbr q7"
  },
  "p05-reto-al-terminar": {
-  "archivo": "p05-reto-al-terminar.827ecbae.mp3",
+  "archivo": "p05-reto-al-terminar.8e8dcf1a.mp3",
   "parrafos": [
    "¡Ya tenemos árbol! Como los de hace muchísimo tiempo: sin una sola flor. ¡Toma tu pegatina!"
   ],
@@ -5656,10 +5750,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 135,
-  "fecha": "2026-09-26T16:48:17"
+  "fecha": "2026-09-26T16:48:17",
+  "mp3": "mp3 vbr q7"
  },
  "p06-todos": {
-  "archivo": "p06-todos.be810cd7.mp3",
+  "archivo": "p06-todos.e5e7fb33.mp3",
   "parrafos": [
    "Esta parada no tiene maqueta. Tiene algo mejor: plantas de verdad, de las que dan flores. Una flor nos parece lo más normal del mundo. Pero durante más de trescientos millones de años, las plantas vivieron en tierra firme sin una sola flor. Los primeros árboles, los de la parada anterior, no tenían ninguna.",
    "Y aquí el camino hace trampa con el tiempo. Las flores aparecieron hace unos ciento treinta millones de años; quizá antes, pero los científicos aún lo discuten. Los primeros dinosaurios, en cambio, llegaron hace unos doscientos treinta millones, y vivieron, hasta donde sabemos, en un mundo sin flores. Así que, cuando vayáis a la siguiente parada, no avanzaréis en el tiempo: retrocederéis cien millones de años.",
@@ -5845,10 +5940,11 @@
   "frases_por_trozo": 4,
   "caracteres": 373,
   "fecha": "2026-09-26T23:11:47",
-  "parcial": "1 de 7 párrafos regenerados"
+  "parcial": "1 de 7 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p06-peques": {
-  "archivo": "p06-peques.67dc1363.mp3",
+  "archivo": "p06-peques.eec2b146.mp3",
   "parrafos": [
    "¡Hola otra vez, exploradores!",
    "Os cuento un secreto de viajera del tiempo: hubo un mundo sin flores. ¡Plantas por todas partes, y ni una flor! Lo sé porque he estado allí y las busqué por todos lados.",
@@ -5932,10 +6028,11 @@
   "frases_por_trozo": 4,
   "caracteres": 29,
   "fecha": "2026-09-26T23:11:48",
-  "parcial": "1 de 5 párrafos regenerados"
+  "parcial": "1 de 5 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p06-mision": {
-  "archivo": "p06-mision.c88a53da.mp3",
+  "archivo": "p06-mision.fa25dd93.mp3",
   "parrafos": [
    "Primero, quietos como estatuas: mirad las flores un ratito desde lejos. ¿Viene algún insecto a comer? Si es una abeja, ¡dejadla trabajar!",
    "Después, acercaos a una flor sin insectos, sin arrancarla. ¿Cuántos pétalos tiene? ¿Huele?",
@@ -6002,10 +6099,11 @@
   "frases_por_trozo": 4,
   "caracteres": 134,
   "fecha": "2026-09-26T23:11:50",
-  "parcial": "1 de 3 párrafos regenerados"
+  "parcial": "1 de 3 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p06-reto-al-empezar": {
-  "archivo": "p06-reto-al-empezar.11ae8080.mp3",
+  "archivo": "p06-reto-al-empezar.fc549fba.mp3",
   "parrafos": [
    "¡La abeja tiene hambre! Llévala de flor en flor."
   ],
@@ -6039,10 +6137,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 70,
-  "fecha": "2026-09-26T16:49:02"
+  "fecha": "2026-09-26T16:49:02",
+  "mp3": "mp3 vbr q7"
  },
  "p06-reto-primera-flor": {
-  "archivo": "p06-reto-primera-flor.d267b727.mp3",
+  "archivo": "p06-reto-primera-flor.97d366d9.mp3",
   "parrafos": [
    "¡Ñam, néctar! Y mira: se le pega polen."
   ],
@@ -6076,10 +6175,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 61,
-  "fecha": "2026-09-26T16:49:03"
+  "fecha": "2026-09-26T16:49:03",
+  "mp3": "mp3 vbr q7"
  },
  "p06-reto-otra-flor-1": {
-  "archivo": "p06-reto-otra-flor-1.8d122ded.mp3",
+  "archivo": "p06-reto-otra-flor-1.c8dc793d.mp3",
   "parrafos": [
    "¡Le trae polen de otra flor!"
   ],
@@ -6108,10 +6208,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 28,
-  "fecha": "2026-09-26T16:49:04"
+  "fecha": "2026-09-26T16:49:04",
+  "mp3": "mp3 vbr q7"
  },
  "p06-reto-otra-flor-2": {
-  "archivo": "p06-reto-otra-flor-2.fb6d0dd8.mp3",
+  "archivo": "p06-reto-otra-flor-2.b62b2f1a.mp3",
   "parrafos": [
    "¡Eso es! Polen para esta también."
   ],
@@ -6145,10 +6246,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 55,
-  "fecha": "2026-09-26T16:49:05"
+  "fecha": "2026-09-26T16:49:05",
+  "mp3": "mp3 vbr q7"
  },
  "p06-reto-ultima-flor": {
-  "archivo": "p06-reto-ultima-flor.42c85a48.mp3",
+  "archivo": "p06-reto-ultima-flor.96098c5c.mp3",
   "parrafos": [
    "¡La última! Ya tienen polen todas."
   ],
@@ -6182,10 +6284,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 56,
-  "fecha": "2026-09-26T16:49:06"
+  "fecha": "2026-09-26T16:49:06",
+  "mp3": "mp3 vbr q7"
  },
  "p06-reto-al-terminar": {
-  "archivo": "p06-reto-al-terminar.9e864489.mp3",
+  "archivo": "p06-reto-al-terminar.ea30fe67.mp3",
   "parrafos": [
    "¡Mira! Con el tiempo, las flores se han convertido en frutos. ¡Y dentro van las semillas! ¡Toma tu pegatina!"
   ],
@@ -6229,10 +6332,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 174,
-  "fecha": "2026-09-26T16:49:09"
+  "fecha": "2026-09-26T16:49:09",
+  "mp3": "mp3 vbr q7"
  },
  "p08-todos": {
-  "archivo": "p08-todos.43d140b4.mp3",
+  "archivo": "p08-todos.a981ed94.mp3",
   "parrafos": [
    "Mirad este volcán como lo vería un pájaro: desde arriba. En el centro, el cráter; desde él bajan ríos de lava amarilla y naranja. Un volcán es una ventana al calor que la Tierra guarda dentro. Y ese calor hace algo que cuesta creer: mueve el suelo que pisáis.",
    "La Tierra tiene una cáscara de roca partida en trozos enormes, las placas, como un huevo duro cascado. Esos trozos se mueven despacio sobre roca muy caliente que, sin estar derretida, cede poco a poco. En las costuras entre placas es donde más roca se funde y sube: por eso allí está la mayoría de los volcanes. No todos: en España, los de Canarias, la Garrotxa o el Campo de Calatrava no están en ningún borde.",
@@ -6397,10 +6501,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 2517,
-  "fecha": "2026-09-26T16:49:38"
+  "fecha": "2026-09-26T16:49:38",
+  "mp3": "mp3 vbr q7"
  },
  "p08-peques": {
-  "archivo": "p08-peques.3b768526.mp3",
+  "archivo": "p08-peques.ecc40afe.mp3",
   "parrafos": [
    "¡Hola, exploradores! ¿Veis este volcán? Lo estamos mirando desde arriba, como los pájaros. ¡Mirad qué ríos de lava!",
    "Os cuento un secreto de viajera del tiempo. Hace muchísimo, casi toda la tierra estaba junta, en un solo trozo gigante. Se llamaba Pangea. Lo sé porque he estado allí: ¡fui andando de América a África sin mojarme los pies!",
@@ -6497,10 +6602,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 832,
-  "fecha": "2026-09-26T16:49:47"
+  "fecha": "2026-09-26T16:49:47",
+  "mp3": "mp3 vbr q7"
  },
  "p08-mision": {
-  "archivo": "p08-mision.57287eea.mp3",
+  "archivo": "p08-mision.250ee58c.mp3",
   "parrafos": [
    "¡Sin pisar el volcán, buscad un río de lava que salga del cráter! Seguidlo con el dedo, en el aire, hasta donde se acaba.",
    "Ahora mirad las piedrecitas rojizas de alrededor, sin cogerlas. ¿Veis sus agujeritos? Son burbujas de gas, como las de un refresco, que se quedaron atrapadas cuando la lava se enfrió."
@@ -6550,10 +6656,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 370,
-  "fecha": "2026-09-26T16:49:51"
+  "fecha": "2026-09-26T16:49:51",
+  "mp3": "mp3 vbr q7"
  },
  "p08-reto-al-empezar": {
-  "archivo": "p08-reto-al-empezar.cc053753.mp3",
+  "archivo": "p08-reto-al-empezar.a210aadd.mp3",
   "parrafos": [
    "¡Vamos a armar Pangea! Arrastra cada trozo de tierra hasta su sombra."
   ],
@@ -6587,10 +6694,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 91,
-  "fecha": "2026-09-26T16:49:52"
+  "fecha": "2026-09-26T16:49:52",
+  "mp3": "mp3 vbr q7"
  },
  "p08-reto-al-poner-america-del-sur": {
-  "archivo": "p08-reto-al-poner-america-del-sur.8f18b056.mp3",
+  "archivo": "p08-reto-al-poner-america-del-sur.30cdce15.mp3",
   "parrafos": [
    "¡América del Sur! Su costa encaja con la de África, como un puzle."
   ],
@@ -6624,10 +6732,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 88,
-  "fecha": "2026-09-26T16:49:53"
+  "fecha": "2026-09-26T16:49:53",
+  "mp3": "mp3 vbr q7"
  },
  "p08-reto-al-poner-africa": {
-  "archivo": "p08-reto-al-poner-africa.1a7a659a.mp3",
+  "archivo": "p08-reto-al-poner-africa.de17e588.mp3",
   "parrafos": [
    "¡África! Aquí y en América del Sur vivió el mismo reptil: el mesosaurio."
   ],
@@ -6661,10 +6770,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 94,
-  "fecha": "2026-09-26T16:49:54"
+  "fecha": "2026-09-26T16:49:54",
+  "mp3": "mp3 vbr q7"
  },
  "p08-reto-al-poner-america-del-norte": {
-  "archivo": "p08-reto-al-poner-america-del-norte.b7cf206b.mp3",
+  "archivo": "p08-reto-al-poner-america-del-norte.b950e2f0.mp3",
   "parrafos": [
    "¡América del Norte! Sus montañas siguen al otro lado del mar, en Europa."
   ],
@@ -6698,10 +6808,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 94,
-  "fecha": "2026-09-26T16:49:55"
+  "fecha": "2026-09-26T16:49:55",
+  "mp3": "mp3 vbr q7"
  },
  "p08-reto-al-poner-europa-y-asia": {
-  "archivo": "p08-reto-al-poner-europa-y-asia.1e4f491e.mp3",
+  "archivo": "p08-reto-al-poner-europa-y-asia.7f8176b6.mp3",
   "parrafos": [
    "¡Europa y Asia! Mira: España estaba pegada a América del Norte."
   ],
@@ -6735,10 +6846,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 85,
-  "fecha": "2026-09-26T16:49:58"
+  "fecha": "2026-09-26T16:49:58",
+  "mp3": "mp3 vbr q7"
  },
  "p08-reto-fallo": {
-  "archivo": "p08-reto-fallo.fee079f2.mp3",
+  "archivo": "p08-reto-fallo.e48bfa87.mp3",
   "parrafos": [
    "¡Uy! Ese trozo no va ahí. Fíjate en su forma."
   ],
@@ -6777,10 +6889,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 89,
-  "fecha": "2026-09-26T16:50:00"
+  "fecha": "2026-09-26T16:50:00",
+  "mp3": "mp3 vbr q7"
  },
  "p08-reto-al-terminar": {
-  "archivo": "p08-reto-al-terminar.1ee85cd6.mp3",
+  "archivo": "p08-reto-al-terminar.cd8ebe1c.mp3",
   "parrafos": [
    "¡Ya está Pangea entera! Luego se rompió, y sus trozos todavía se mueven. ¡Toma tu pegatina!"
   ],
@@ -6819,10 +6932,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 135,
-  "fecha": "2026-09-26T16:50:01"
+  "fecha": "2026-09-26T16:50:01",
+  "mp3": "mp3 vbr q7"
  },
  "p09-todos": {
-  "archivo": "p09-todos.b60600cc.mp3",
+  "archivo": "p09-todos.8d4f8c96.mp3",
   "parrafos": [
    "Mirad al suelo, entre el volcán y la flor gigante. Parece que por aquí ha pasado un dinosaurio. Esas marcas representan sus huellas. Los científicos las llaman icnitas.",
    "La flor tiene truco: antes era el volcán del parque. Pero tanta gente preguntaba qué flor era que la convirtieron en una. No desentona: las flores más antiguas que se conocen con seguridad son de tiempos de los dinosaurios.",
@@ -7043,10 +7157,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 2696,
-  "fecha": "2026-09-26T16:50:30"
+  "fecha": "2026-09-26T16:50:30",
+  "mp3": "mp3 vbr q7"
  },
  "p09-peques": {
-  "archivo": "p09-peques.2a1c0071.mp3",
+  "archivo": "p09-peques.7e186c60.mp3",
   "parrafos": [
    "¡Hola, exploradores!",
    "¿Veis esas marcas en el suelo, junto a la flor gigante? ¡Son huellas de dinosaurio!",
@@ -7124,10 +7239,11 @@
   "frases_por_trozo": 4,
   "caracteres": 20,
   "fecha": "2026-09-26T23:12:00",
-  "parcial": "1 de 4 párrafos regenerados"
+  "parcial": "1 de 4 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p09-mision": {
-  "archivo": "p09-mision.37d5c762.mp3",
+  "archivo": "p09-mision.b2209f29.mp3",
   "parrafos": [
    "¡Buscad las huellas! Los niños, de uno en uno: meted un pie dentro de una. ¿Cuántos pies vuestros caben en el del dinosaurio?",
    "Ahora, ¡a moverse! Andad despacito, con pasos de ratón… Y ahora, ¡pasos de gigante, como si corrierais! ¿Cuándo quedan más separados vuestros pies? Así saben los científicos si un dinosaurio paseaba o corría."
@@ -7193,10 +7309,11 @@
   "frases_por_trozo": 4,
   "caracteres": 169,
   "fecha": "2026-09-26T23:12:03",
-  "parcial": "1 de 2 párrafos regenerados"
+  "parcial": "1 de 2 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p09-reto-al-empezar": {
-  "archivo": "p09-reto-al-empezar.9143afdb.mp3",
+  "archivo": "p09-reto-al-empezar.fbf1e7cf.mp3",
   "parrafos": [
    "¡Alguien ha pisado el barro! Arrastra cada huella hasta el dinosaurio que la dejó."
   ],
@@ -7230,10 +7347,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 104,
-  "fecha": "2026-09-26T16:50:45"
+  "fecha": "2026-09-26T16:50:45",
+  "mp3": "mp3 vbr q7"
  },
  "p09-reto-acierto-teropodo": {
-  "archivo": "p09-reto-acierto-teropodo.082bfa32.mp3",
+  "archivo": "p09-reto-acierto-teropodo.91289059.mp3",
   "parrafos": [
    "¡Sí! Dedos finos con garras: ¡el carnívoro!"
   ],
@@ -7267,10 +7385,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 65,
-  "fecha": "2026-09-26T16:50:46"
+  "fecha": "2026-09-26T16:50:46",
+  "mp3": "mp3 vbr q7"
  },
  "p09-reto-acierto-ornitopodo": {
-  "archivo": "p09-reto-acierto-ornitopodo.90c6c292.mp3",
+  "archivo": "p09-reto-acierto-ornitopodo.9430ac69.mp3",
   "parrafos": [
    "¡Eso es! Dedos gorditos: ¡el del pico!"
   ],
@@ -7304,10 +7423,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 60,
-  "fecha": "2026-09-26T16:50:47"
+  "fecha": "2026-09-26T16:50:47",
+  "mp3": "mp3 vbr q7"
  },
  "p09-reto-acierto-sauropodo": {
-  "archivo": "p09-reto-acierto-sauropodo.29f73820.mp3",
+  "archivo": "p09-reto-acierto-sauropodo.0007c8a1.mp3",
   "parrafos": [
    "¡Bien! Redonda y enorme: ¡el del cuello largo!"
   ],
@@ -7341,10 +7461,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 68,
-  "fecha": "2026-09-26T16:50:48"
+  "fecha": "2026-09-26T16:50:48",
+  "mp3": "mp3 vbr q7"
  },
  "p09-reto-fallo-1": {
-  "archivo": "p09-reto-fallo-1.b8e01bfe.mp3",
+  "archivo": "p09-reto-fallo-1.a76b1d5f.mp3",
   "parrafos": [
    "¡Uy, esa no es suya! Mira bien los dedos."
   ],
@@ -7378,10 +7499,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 63,
-  "fecha": "2026-09-26T16:50:49"
+  "fecha": "2026-09-26T16:50:49",
+  "mp3": "mp3 vbr q7"
  },
  "p09-reto-fallo-2": {
-  "archivo": "p09-reto-fallo-2.29260241.mp3",
+  "archivo": "p09-reto-fallo-2.7c9bf7cc.mp3",
   "parrafos": [
    "Casi… Compara la huella con sus pies."
   ],
@@ -7415,10 +7537,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 59,
-  "fecha": "2026-09-26T16:50:50"
+  "fecha": "2026-09-26T16:50:50",
+  "mp3": "mp3 vbr q7"
  },
  "p09-reto-al-terminar": {
-  "archivo": "p09-reto-al-terminar.ba0fdee0.mp3",
+  "archivo": "p09-reto-al-terminar.512b1b1c.mp3",
   "parrafos": [
    "¡Cada huella con su dueño! Ya sabes leer huellas, como los científicos. ¡Toma tu pegatina!"
   ],
@@ -7457,10 +7580,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 134,
-  "fecha": "2026-09-26T16:50:51"
+  "fecha": "2026-09-26T16:50:51",
+  "mp3": "mp3 vbr q7"
  },
  "p10-todos": {
-  "archivo": "p10-todos.9186a769.mp3",
+  "archivo": "p10-todos.1d05eed1.mp3",
   "parrafos": [
    "Fijaos en los dientes del dinosaurio gris: es un alosaurio, el gran cazador del Jurásico, hace unos ciento cincuenta millones de años. Un adulto medía ocho o nueve metros, como dos coches en fila. Sus dientes eran curvos, con el borde dentado como un cuchillo de sierra. No machacaban: cortaban. Y hay huesos suyos en Portugal, en esta misma península.",
    "Ahora buscad al de rayas. Es un dromeosaurio, de la familia del famoso velocirráptor. Mirad sus pies: cada uno lleva una garra enorme, curva como una hoz, levantada sin tocar el suelo. Por eso las huellas de su familia solo marcan dos dedos. Probablemente la usaba para sujetar a sus presas.",
@@ -7641,10 +7765,11 @@
   "frases_por_trozo": 4,
   "caracteres": 858,
   "fecha": "2026-09-26T23:12:14",
-  "parcial": "2 de 7 párrafos regenerados"
+  "parcial": "2 de 7 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p10-peques": {
-  "archivo": "p10-peques.a23cb550.mp3",
+  "archivo": "p10-peques.312836bb.mp3",
   "parrafos": [
    "¡Hola, exploradores! ¿Veis al dinosaurio de rayas? Os cuento un secreto de viajera del tiempo: los de su familia tenían plumas, ¡como los pájaros! Lo sé porque he estado allí.",
    "Hace muchísimo tiempo, cayó del cielo una roca gigante, y casi todos los dinosaurios desaparecieron. ¿Casi todos? ¡Sí! Porque algunos se salvaron: los pájaros. Cada gorrión y cada paloma que veis es un dinosaurio pequeñito.",
@@ -7725,10 +7850,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 598,
-  "fecha": "2026-09-26T16:51:28"
+  "fecha": "2026-09-26T16:51:28",
+  "mp3": "mp3 vbr q7"
  },
  "p10-mision": {
-  "archivo": "p10-mision.b49bd2be.mp3",
+  "archivo": "p10-mision.8ebf2769.mp3",
   "parrafos": [
    "¡Mirad bien las patas de atrás del dinosaurio de rayas! Buscad una uña enorme y curva, como un gancho. ¿Toca el suelo, o la lleva levantada?",
    "Ahora buscad cerca una charca azul con una roca grande en medio. ¿Qué será esa roca? Una pista: ¡vino del cielo!"
@@ -7783,10 +7909,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 340,
-  "fecha": "2026-09-26T16:51:31"
+  "fecha": "2026-09-26T16:51:31",
+  "mp3": "mp3 vbr q7"
  },
  "p10-reto-al-empezar": {
-  "archivo": "p10-reto-al-empezar.58b28151.mp3",
+  "archivo": "p10-reto-al-empezar.d831dcf7.mp3",
   "parrafos": [
    "¡Cayó la roca del cielo! ¿Quién se salvó? Arrastra cada animal a su grupo."
   ],
@@ -7825,10 +7952,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 118,
-  "fecha": "2026-09-26T16:51:32"
+  "fecha": "2026-09-26T16:51:32",
+  "mp3": "mp3 vbr q7"
  },
  "p10-reto-acierto-se-extinguio-1": {
-  "archivo": "p10-reto-acierto-se-extinguio-1.f73e1f37.mp3",
+  "archivo": "p10-reto-acierto-se-extinguio-1.32b20cfa.mp3",
   "parrafos": [
    "Sí. Ese ya no existe."
   ],
@@ -7862,10 +7990,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 43,
-  "fecha": "2026-09-26T16:51:34"
+  "fecha": "2026-09-26T16:51:34",
+  "mp3": "mp3 vbr q7"
  },
  "p10-reto-acierto-se-extinguio-2": {
-  "archivo": "p10-reto-acierto-se-extinguio-2.73276d7d.mp3",
+  "archivo": "p10-reto-acierto-se-extinguio-2.544b8618.mp3",
   "parrafos": [
    "¡Eso es! Se extinguió."
   ],
@@ -7899,10 +8028,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 44,
-  "fecha": "2026-09-26T16:51:35"
+  "fecha": "2026-09-26T16:51:35",
+  "mp3": "mp3 vbr q7"
  },
  "p10-reto-acierto-se-extinguio-3": {
-  "archivo": "p10-reto-acierto-se-extinguio-3.ab1a8eb6.mp3",
+  "archivo": "p10-reto-acierto-se-extinguio-3.a38e208d.mp3",
   "parrafos": [
    "Muy bien. Ya no queda ninguno."
   ],
@@ -7936,10 +8066,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 52,
-  "fecha": "2026-09-26T16:51:36"
+  "fecha": "2026-09-26T16:51:36",
+  "mp3": "mp3 vbr q7"
  },
  "p10-reto-acierto-sobrevivio-1": {
-  "archivo": "p10-reto-acierto-sobrevivio-1.0ec2b8b2.mp3",
+  "archivo": "p10-reto-acierto-sobrevivio-1.e3fb9e2b.mp3",
   "parrafos": [
    "¡Sí! Ese se salvó."
   ],
@@ -7973,10 +8104,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 40,
-  "fecha": "2026-09-26T16:51:37"
+  "fecha": "2026-09-26T16:51:37",
+  "mp3": "mp3 vbr q7"
  },
  "p10-reto-acierto-sobrevivio-2": {
-  "archivo": "p10-reto-acierto-sobrevivio-2.21071696.mp3",
+  "archivo": "p10-reto-acierto-sobrevivio-2.ebfd32bf.mp3",
   "parrafos": [
    "¡Muy bien! Todavía los hay."
   ],
@@ -8010,10 +8142,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 49,
-  "fecha": "2026-09-26T16:51:38"
+  "fecha": "2026-09-26T16:51:38",
+  "mp3": "mp3 vbr q7"
  },
  "p10-reto-acierto-sobrevivio-3": {
-  "archivo": "p10-reto-acierto-sobrevivio-3.4034d0c9.mp3",
+  "archivo": "p10-reto-acierto-sobrevivio-3.5e0916b6.mp3",
   "parrafos": [
    "¡Bien hecho! Ese aguantó."
   ],
@@ -8047,10 +8180,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 47,
-  "fecha": "2026-09-26T16:51:39"
+  "fecha": "2026-09-26T16:51:39",
+  "mp3": "mp3 vbr q7"
  },
  "p10-reto-acierto-ave": {
-  "archivo": "p10-reto-acierto-ave.39a9bf0e.mp3",
+  "archivo": "p10-reto-acierto-ave.c4b0ef2b.mp3",
   "parrafos": [
    "¡Sorpresa! Los pájaros son dinosaurios. ¡Y se salvaron!"
   ],
@@ -8089,10 +8223,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 99,
-  "fecha": "2026-09-26T16:51:40"
+  "fecha": "2026-09-26T16:51:40",
+  "mp3": "mp3 vbr q7"
  },
  "p10-reto-fallo": {
-  "archivo": "p10-reto-fallo.2b275acb.mp3",
+  "archivo": "p10-reto-fallo.2bb0888e.mp3",
   "parrafos": [
    "¡Uy! Prueba en el otro grupo."
   ],
@@ -8126,10 +8261,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 51,
-  "fecha": "2026-09-26T16:51:41"
+  "fecha": "2026-09-26T16:51:41",
+  "mp3": "mp3 vbr q7"
  },
  "p10-reto-al-terminar": {
-  "archivo": "p10-reto-al-terminar.e9688559.mp3",
+  "archivo": "p10-reto-al-terminar.2bccaa6a.mp3",
   "parrafos": [
    "¡Todos en su grupo! Y de aquellos animalitos peludos venimos nosotros. ¡Toma tu pegatina!"
   ],
@@ -8168,10 +8304,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 133,
-  "fecha": "2026-09-26T16:51:43"
+  "fecha": "2026-09-26T16:51:43",
+  "mp3": "mp3 vbr q7"
  },
  "secreta-pista": {
-  "archivo": "secreta-pista.74a20a3c.mp3",
+  "archivo": "secreta-pista.78de1bd3.mp3",
   "parrafos": [
    "¡Quietos, exploradores! ¡Habéis encontrado la equis del mapa! Aquí escondí un tesoro, en uno de mis viajes en el tiempo. Pero el cofre está cerrado. Solo se abre si miráis muy bien este pozo y acertáis una pregunta. ¿Preparados?"
   ],
@@ -8225,10 +8362,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 315,
-  "fecha": "2026-09-26T19:51:14"
+  "fecha": "2026-09-26T19:51:14",
+  "mp3": "mp3 vbr q7"
  },
  "secreta-pregunta": {
-  "archivo": "secreta-pregunta.4e353562.mp3",
+  "archivo": "secreta-pregunta.ae8208a8.mp3",
   "parrafos": [
    "¿Cuántos palos largos se cruzan en lo alto del pozo?"
   ],
@@ -8257,10 +8395,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 52,
-  "fecha": "2026-09-26T19:51:15"
+  "fecha": "2026-09-26T19:51:15",
+  "mp3": "mp3 vbr q7"
  },
  "secreta-premio": {
-  "archivo": "secreta-premio.c59343bc.mp3",
+  "archivo": "secreta-premio.0bd3ded1.mp3",
   "parrafos": [
    "Dentro hay un secreto de verdad.",
    "Hace más de siete mil años, los primeros agricultores de Europa central forraban sus pozos con tablas de roble. Las encajaban en las esquinas como las piezas de un puzle, sin un solo clavo. ¡Y con herramientas de piedra!",
@@ -8338,10 +8477,11 @@
   "frases_por_trozo": 4,
   "caracteres": 223,
   "fecha": "2026-09-26T23:10:55",
-  "parcial": "2 de 4 párrafos regenerados"
+  "parcial": "2 de 4 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "secreta-falla": {
-  "archivo": "secreta-falla.2c20925f.mp3",
+  "archivo": "secreta-falla.844c3a92.mp3",
   "parrafos": [
    "¡Uy, casi! Mirad arriba del todo: los palos dibujan la equis del mapa."
   ],
@@ -8375,10 +8515,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 92,
-  "fecha": "2026-09-26T19:51:27"
+  "fecha": "2026-09-26T19:51:27",
+  "mp3": "mp3 vbr q7"
  },
  "p01-todos": {
-  "archivo": "p01-todos.d992c185.mp3",
+  "archivo": "p01-todos.09a493e3.mp3",
   "parrafos": [
    "Este camino es un viaje en el tiempo. Recorre, casi siempre en orden, la historia de la Tierra. Son unos cuatro mil quinientos millones de años: desde un planeta recién formado y sin vida hasta los pueblos que levantaron Stonehenge.",
    "Una cifra así no cabe en la cabeza. Probemos con el propio camino. Si repartiera el tiempo a partes iguales, entre una parada y la siguiente pasarían más de doscientos millones de años. Los dinosaurios, que aquí veréis en la parada siete, no llegarían hasta la veinte, la penúltima. Y nuestra especie aparecería en el último palmo.",
@@ -8533,10 +8674,11 @@
   "frases_por_trozo": 4,
   "caracteres": 604,
   "fecha": "2026-09-26T23:11:05",
-  "parcial": "2 de 6 párrafos regenerados"
+  "parcial": "2 de 6 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p01-peques": {
-  "archivo": "p01-peques.92a6112e.mp3",
+  "archivo": "p01-peques.59ef8a08.mp3",
   "parrafos": [
    "¡Empieza el viaje, exploradores! Yo he estado en todas las épocas que vais a ver hoy. ¿Sabéis cómo viajo? Con mi reloj del tiempo.",
    "No tiene números: tiene cuatro dibujos, uno para cada parte del viaje. La hoja de helecho: los primeros seres vivos, en el agua, y las primeras plantas. La huella: ¡los dinosaurios! La mano: nuestra familia, la de los humanos. Y el sol: los primeros pueblos, con sus casas y sus campos.",
@@ -8623,10 +8765,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 696,
-  "fecha": "2026-09-26T19:52:01"
+  "fecha": "2026-09-26T19:52:01",
+  "mp3": "mp3 vbr q7"
  },
  "p01-mision": {
-  "archivo": "p01-mision.252b5372.mp3",
+  "archivo": "p01-mision.1591ca52.mp3",
   "parrafos": [
    "¡Buscad el cartel de la entrada! ¿Veis el dibujo enrollado, verde azulado? Parece un caracol, pero no lo es: es un amonites, un primo de los pulpos que vivía en el mar. ¡Lo volveréis a ver en la parada tres!",
    "Ahora buscad en el mapa la parada dos, y señalad con el dedo hacia dónde queda."
@@ -8676,10 +8819,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 352,
-  "fecha": "2026-09-26T19:52:05"
+  "fecha": "2026-09-26T19:52:05",
+  "mp3": "mp3 vbr q7"
  },
  "p01-reto-al-empezar": {
-  "archivo": "p01-reto-al-empezar.7cf03d30.mp3",
+  "archivo": "p01-reto-al-empezar.62ce1a43.mp3",
   "parrafos": [
    "¡Ayúdame a ordenar el viaje! ¿Qué pasó primero? Pon cada tarjeta en su número."
   ],
@@ -8718,10 +8862,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 122,
-  "fecha": "2026-09-26T19:52:06"
+  "fecha": "2026-09-26T19:52:06",
+  "mp3": "mp3 vbr q7"
  },
  "p01-reto-tarjeta-1": {
-  "archivo": "p01-reto-tarjeta-1.09d4f913.mp3",
+  "archivo": "p01-reto-tarjeta-1.9ca7da82.mp3",
   "parrafos": [
    "¡Sí! Primero, solo había microbios en el agua."
   ],
@@ -8755,10 +8900,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 68,
-  "fecha": "2026-09-26T19:52:07"
+  "fecha": "2026-09-26T19:52:07",
+  "mp3": "mp3 vbr q7"
  },
  "p01-reto-tarjeta-2": {
-  "archivo": "p01-reto-tarjeta-2.2fd4a09d.mp3",
+  "archivo": "p01-reto-tarjeta-2.45823812.mp3",
   "parrafos": [
    "¡Eso es! Luego, el mar se llenó de animales."
   ],
@@ -8792,10 +8938,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 66,
-  "fecha": "2026-09-26T19:52:09"
+  "fecha": "2026-09-26T19:52:09",
+  "mp3": "mp3 vbr q7"
  },
  "p01-reto-tarjeta-3": {
-  "archivo": "p01-reto-tarjeta-3.f0739d94.mp3",
+  "archivo": "p01-reto-tarjeta-3.cf21e5a1.mp3",
   "parrafos": [
    "¡Muy bien! Mucho después, los dinosaurios."
   ],
@@ -8829,10 +8976,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 64,
-  "fecha": "2026-09-26T19:52:11"
+  "fecha": "2026-09-26T19:52:11",
+  "mp3": "mp3 vbr q7"
  },
  "p01-reto-tarjeta-4": {
-  "archivo": "p01-reto-tarjeta-4.bfc5df62.mp3",
+  "archivo": "p01-reto-tarjeta-4.f1d5b348.mp3",
   "parrafos": [
    "¡Genial! Y, al final de todo, las personas."
   ],
@@ -8866,10 +9014,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 65,
-  "fecha": "2026-09-26T19:52:12"
+  "fecha": "2026-09-26T19:52:12",
+  "mp3": "mp3 vbr q7"
  },
  "p01-reto-fallo": {
-  "archivo": "p01-reto-fallo.4ee88348.mp3",
+  "archivo": "p01-reto-fallo.74dc6b8a.mp3",
   "parrafos": [
    "¡Uy! Eso pasó en otro momento. ¡Prueba otra vez!"
   ],
@@ -8908,10 +9057,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 92,
-  "fecha": "2026-09-26T19:52:13"
+  "fecha": "2026-09-26T19:52:13",
+  "mp3": "mp3 vbr q7"
  },
  "p01-reto-al-terminar": {
-  "archivo": "p01-reto-al-terminar.fd397b2e.mp3",
+  "archivo": "p01-reto-al-terminar.e451f8ff.mp3",
   "parrafos": [
    "¡Todo en orden! Ya sabes por dónde va el viaje. ¡Toma tu pegatina, y a la charca de colores!"
   ],
@@ -8950,10 +9100,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 136,
-  "fecha": "2026-09-26T19:52:14"
+  "fecha": "2026-09-26T19:52:14",
+  "mp3": "mp3 vbr q7"
  },
  "p11-todos": {
-  "archivo": "p11-todos.2cec52de.mp3",
+  "archivo": "p11-todos.4468f067.mp3",
   "parrafos": [
    "Mirad esta tortuga gigante. Tortugas como esta viven en las islas Galápagos, en pleno Pacífico, a casi mil kilómetros del continente.",
    "En mil ochocientos treinta y cinco llegó allí un barco, el Beagle, con un joven de veintiséis años: Charles Darwin. Le contaron que, con solo ver una tortuga, se sabía de qué isla venía. Empezó a entenderlo después, en Inglaterra, cuando un experto en aves, John Gould, le explicó que aquellos pájaros de picos tan distintos eran parientes cercanos.",
@@ -9128,10 +9279,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 2643,
-  "fecha": "2026-09-26T19:52:44"
+  "fecha": "2026-09-26T19:52:44",
+  "mp3": "mp3 vbr q7"
  },
  "p11-peques": {
-  "archivo": "p11-peques.db39acd7.mp3",
+  "archivo": "p11-peques.792d916a.mp3",
   "parrafos": [
    "¡Hola, exploradores! ¿Veis esta tortuga tan grande? Las tortugas como ella viven en unas islas lejanísimas: las Galápagos. Yo he estado allí, en un viaje en el tiempo, con un chico muy curioso que se llamaba Darwin. ¡Y vimos unos pajaritos muy especiales!",
    "Son todos primos, pero cada uno tiene un pico distinto. Uno lo tiene gordo y fuerte, para partir semillas duras: ¡crac! Otro, finito, para atrapar bichitos. Y otro, largo, para comer en las flores de los cactus.",
@@ -9218,10 +9370,11 @@
   "frases_por_trozo": 4,
   "caracteres": 320,
   "fecha": "2026-09-26T23:12:18",
-  "parcial": "1 de 3 párrafos regenerados"
+  "parcial": "1 de 3 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p11-mision": {
-  "archivo": "p11-mision.c1902365.mp3",
+  "archivo": "p11-mision.bf4bb1c1.mp3",
   "parrafos": [
    "¡Mirad bien el caparazón de la tortuga! ¿Es redondo, como media pelota? ¿O tiene la parte de delante muy levantada, como la silla de montar de un caballo?",
    "Ahora, ¡sed tortugas! Esconded la cabeza entre los hombros… y estirad el cuello hacia arriba, muy despacito, para morder una chumbera bien alta. ¡Ñam!"
@@ -9276,10 +9429,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 392,
-  "fecha": "2026-09-26T19:52:57"
+  "fecha": "2026-09-26T19:52:57",
+  "mp3": "mp3 vbr q7"
  },
  "p11-reto-al-empezar": {
-  "archivo": "p11-reto-al-empezar.05a17023.mp3",
+  "archivo": "p11-reto-al-empezar.3078cd6e.mp3",
   "parrafos": [
    "¡Tienen hambre! Lleva cada pajarito a su comida. ¡Mírale bien el pico!"
   ],
@@ -9318,10 +9472,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 114,
-  "fecha": "2026-09-26T19:53:00"
+  "fecha": "2026-09-26T19:53:00",
+  "mp3": "mp3 vbr q7"
  },
  "p11-reto-acierto-semillas": {
-  "archivo": "p11-reto-acierto-semillas.58fe4419.mp3",
+  "archivo": "p11-reto-acierto-semillas.2250d3bc.mp3",
   "parrafos": [
    "¡Crac! Pico fuerte, semilla dura."
   ],
@@ -9355,10 +9510,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 55,
-  "fecha": "2026-09-26T19:53:01"
+  "fecha": "2026-09-26T19:53:01",
+  "mp3": "mp3 vbr q7"
  },
  "p11-reto-acierto-insectos": {
-  "archivo": "p11-reto-acierto-insectos.a50dda06.mp3",
+  "archivo": "p11-reto-acierto-insectos.417d01ca.mp3",
   "parrafos": [
    "¡Eso es! Pico fino, para atrapar bichitos."
   ],
@@ -9392,10 +9548,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 64,
-  "fecha": "2026-09-26T19:53:02"
+  "fecha": "2026-09-26T19:53:02",
+  "mp3": "mp3 vbr q7"
  },
  "p11-reto-acierto-cactus": {
-  "archivo": "p11-reto-acierto-cactus.82ec02f6.mp3",
+  "archivo": "p11-reto-acierto-cactus.29fa2387.mp3",
   "parrafos": [
    "¡Muy bien! Pico largo, para la flor del cactus."
   ],
@@ -9429,10 +9586,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 69,
-  "fecha": "2026-09-26T19:53:03"
+  "fecha": "2026-09-26T19:53:03",
+  "mp3": "mp3 vbr q7"
  },
  "p11-reto-fallo": {
-  "archivo": "p11-reto-fallo.b0038538.mp3",
+  "archivo": "p11-reto-fallo.20ed5309.mp3",
   "parrafos": [
    "¡Uy! Esa comida es para otro pico. ¡Prueba otra vez!"
   ],
@@ -9471,10 +9629,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 96,
-  "fecha": "2026-09-26T19:53:04"
+  "fecha": "2026-09-26T19:53:04",
+  "mp3": "mp3 vbr q7"
  },
  "p11-reto-al-terminar": {
-  "archivo": "p11-reto-al-terminar.4be6df8f.mp3",
+  "archivo": "p11-reto-al-terminar.81b149c7.mp3",
   "parrafos": [
    "¡Todos comiendo! Son primos, pero cada uno tiene su pico. ¡Toma tu pegatina!"
   ],
@@ -9513,10 +9672,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 120,
-  "fecha": "2026-09-26T19:53:06"
+  "fecha": "2026-09-26T19:53:06",
+  "mp3": "mp3 vbr q7"
  },
  "p12-todos": {
-  "archivo": "p12-todos.60fdd532.mp3",
+  "archivo": "p12-todos.d279c39b.mp3",
   "parrafos": [
    "Mirad al suelo. En esa losa gris hay pisadas de pies descalzos. Imitan unas huellas famosísimas: las de Laetoli, en Tanzania, en el este de África. Las de verdad tienen unos tres millones seiscientos sesenta mil años.",
    "El hallazgo empezó con una broma. En mil novecientos setenta y seis, unos científicos del equipo de Mary Leakey jugaban a tirarse boñigas secas de elefante. Uno se echó al suelo para esquivar una… y vio, delante de su nariz, huellas de animales en la roca. Dos años después aparecieron unas setenta pisadas de pies casi como los nuestros.",
@@ -9712,10 +9872,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 2667,
-  "fecha": "2026-09-26T19:53:32"
+  "fecha": "2026-09-26T19:53:32",
+  "mp3": "mp3 vbr q7"
  },
  "p12-peques": {
-  "archivo": "p12-peques.4d72da27.mp3",
+  "archivo": "p12-peques.502f1cee.mp3",
   "parrafos": [
    "¡Hola, exploradores!",
    "¿Veis las pisadas de esa losa? Yo vi cómo se hacían unas parecidas, en África, hace muchísimo tiempo.",
@@ -9793,10 +9954,11 @@
   "frases_por_trozo": 4,
   "caracteres": 20,
   "fecha": "2026-09-26T23:12:19",
-  "parcial": "1 de 4 párrafos regenerados"
+  "parcial": "1 de 4 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p12-mision": {
-  "archivo": "p12-mision.0602d338.mp3",
+  "archivo": "p12-mision.c85ac1b4.mp3",
   "parrafos": [
    "¡Acercaos a la losa, pero sin pisarla! Poned un pie a su lado, junto a una huella. ¿Qué es más grande, la huella o vuestro pie?",
    "Ahora, andad muy despacito, como a cámara lenta. ¿Qué toca primero el suelo: el talón o los dedos? ¡El talón! Igual que los caminantes de Laetoli."
@@ -9856,10 +10018,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 383,
-  "fecha": "2026-09-26T19:53:49"
+  "fecha": "2026-09-26T19:53:49",
+  "mp3": "mp3 vbr q7"
  },
  "p12-reto-al-empezar": {
-  "archivo": "p12-reto-al-empezar.81f6cd0c.mp3",
+  "archivo": "p12-reto-al-empezar.320e2715.mp3",
   "parrafos": [
    "¡Somos detectives! En esta ceniza hay cuatro pistas: pisadas, un animal, lluvia y un volcán. ¡Tócalas!"
   ],
@@ -9898,10 +10061,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 146,
-  "fecha": "2026-09-26T19:53:51"
+  "fecha": "2026-09-26T19:53:51",
+  "mp3": "mp3 vbr q7"
  },
  "p12-reto-al-encontrar-las-huellas": {
-  "archivo": "p12-reto-al-encontrar-las-huellas.8d24b3af.mp3",
+  "archivo": "p12-reto-al-encontrar-las-huellas.47ecef11.mp3",
   "parrafos": [
    "¡Pisadas de pies, como los tuyos! Alguien caminó por aquí sobre dos piernas."
   ],
@@ -9935,10 +10099,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 98,
-  "fecha": "2026-09-26T19:53:52"
+  "fecha": "2026-09-26T19:53:52",
+  "mp3": "mp3 vbr q7"
  },
  "p12-reto-al-encontrar-el-animal": {
-  "archivo": "p12-reto-al-encontrar-el-animal.8033a5ad.mp3",
+  "archivo": "p12-reto-al-encontrar-el-animal.5bd11564.mp3",
   "parrafos": [
    "¡Huellas grandes y redondas! Por aquí pasó un elefante."
   ],
@@ -9972,10 +10137,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 77,
-  "fecha": "2026-09-26T19:53:53"
+  "fecha": "2026-09-26T19:53:53",
+  "mp3": "mp3 vbr q7"
  },
  "p12-reto-al-encontrar-la-lluvia": {
-  "archivo": "p12-reto-al-encontrar-la-lluvia.df102f49.mp3",
+  "archivo": "p12-reto-al-encontrar-la-lluvia.89ec08eb.mp3",
   "parrafos": [
    "¡Agujeritos! Los hicieron gotas de lluvia de hace muchísimo tiempo."
   ],
@@ -10009,10 +10175,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 89,
-  "fecha": "2026-09-26T19:53:54"
+  "fecha": "2026-09-26T19:53:54",
+  "mp3": "mp3 vbr q7"
  },
  "p12-reto-al-encontrar-el-volcan": {
-  "archivo": "p12-reto-al-encontrar-el-volcan.5476999f.mp3",
+  "archivo": "p12-reto-al-encontrar-el-volcan.4bc6993a.mp3",
   "parrafos": [
    "¡El volcán! Su ceniza guardó todas estas huellas."
   ],
@@ -10046,10 +10213,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 71,
-  "fecha": "2026-09-26T19:53:55"
+  "fecha": "2026-09-26T19:53:55",
+  "mp3": "mp3 vbr q7"
  },
  "p12-reto-al-terminar": {
-  "archivo": "p12-reto-al-terminar.c44bec00.mp3",
+  "archivo": "p12-reto-al-terminar.1261f7bf.mp3",
   "parrafos": [
    "¡Caso resuelto, detective! Has leído la ceniza como los científicos de verdad. ¡Toma tu pegatina!"
   ],
@@ -10088,10 +10256,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 141,
-  "fecha": "2026-09-26T19:53:56"
+  "fecha": "2026-09-26T19:53:56",
+  "mp3": "mp3 vbr q7"
  },
  "p14-todos": {
-  "archivo": "p14-todos.b5816d41.mp3",
+  "archivo": "p14-todos.46f3809e.mp3",
   "parrafos": [
    "Imaginad este hogar encendido, una noche fría de hace sesenta mil años. Alrededor, mujeres, hombres y niños neandertales: otra forma de ser humano. Vivieron en Europa y en parte de Asia desde hace unos cuatrocientos mil años, según dónde pongamos la frontera. La gente de la Sima de los Huesos de Atapuerca ya era de su rama.",
    "Olvidad el bruto encorvado de los dibujos antiguos. Caminaban tan erguidos como vosotros, y su cerebro era tan grande como el nuestro, o algo más. Eran más bien bajos, anchos y fuertes, con brazos y piernas cortos. Un cuerpo así pierde menos calor, por lo mismo que vosotros os hacéis una bola cuando tenéis frío.",
@@ -10272,10 +10441,11 @@
   "frases_por_trozo": 4,
   "caracteres": 447,
   "fecha": "2026-09-26T23:12:25",
-  "parcial": "1 de 7 párrafos regenerados"
+  "parcial": "1 de 7 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p14-peques": {
-  "archivo": "p14-peques.eea310e8.mp3",
+  "archivo": "p14-peques.3067b2e5.mp3",
   "parrafos": [
    "¡Hola, exploradores!",
    "¿Veis este hogar? Una noche me senté junto a un fuego igual, con una familia neandertal. ¡Qué calentito se estaba!",
@@ -10369,10 +10539,11 @@
   "frases_por_trozo": 4,
   "caracteres": 20,
   "fecha": "2026-09-26T23:12:26",
-  "parcial": "1 de 5 párrafos regenerados"
+  "parcial": "1 de 5 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p14-mision": {
-  "archivo": "p14-mision.ec82fbeb.mp3",
+  "archivo": "p14-mision.ba97225a.mp3",
   "parrafos": [
    "¡Mirad bien el hogar! ¿Cuántas piedras rodean la leña? Contadlas desde donde estáis, sin tocarlas.",
    "Ahora buscad entre los huesos uno plano, como un abanico. Es un omóplato. Llevaos una mano por encima del hombro, a la espalda: ¡ahí tenéis el vuestro!"
@@ -10427,10 +10598,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 337,
-  "fecha": "2026-09-26T19:54:39"
+  "fecha": "2026-09-26T19:54:39",
+  "mp3": "mp3 vbr q7"
  },
  "p14-reto-al-empezar": {
-  "archivo": "p14-reto-al-empezar.4842dda0.mp3",
+  "archivo": "p14-reto-al-empezar.5ec8ecbc.mp3",
   "parrafos": [
    "¿Lo hacían de verdad, o es un mito? ¡Pon cada tarjeta en su grupo!"
   ],
@@ -10464,10 +10636,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 88,
-  "fecha": "2026-09-26T19:54:40"
+  "fecha": "2026-09-26T19:54:40",
+  "mp3": "mp3 vbr q7"
  },
  "p14-reto-acierto-lo-hacian-1": {
-  "archivo": "p14-reto-acierto-lo-hacian-1.563069c9.mp3",
+  "archivo": "p14-reto-acierto-lo-hacian-1.e7b46080.mp3",
   "parrafos": [
    "¡Sí! Eso lo hacían."
   ],
@@ -10501,10 +10674,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 41,
-  "fecha": "2026-09-26T19:54:41"
+  "fecha": "2026-09-26T19:54:41",
+  "mp3": "mp3 vbr q7"
  },
  "p14-reto-acierto-lo-hacian-2": {
-  "archivo": "p14-reto-acierto-lo-hacian-2.00d4a5ab.mp3",
+  "archivo": "p14-reto-acierto-lo-hacian-2.7032a408.mp3",
   "parrafos": [
    "¡Muy bien! Es verdad."
   ],
@@ -10538,10 +10712,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 43,
-  "fecha": "2026-09-26T19:54:42"
+  "fecha": "2026-09-26T19:54:42",
+  "mp3": "mp3 vbr q7"
  },
  "p14-reto-acierto-lo-hacian-3": {
-  "archivo": "p14-reto-acierto-lo-hacian-3.327b9fe0.mp3",
+  "archivo": "p14-reto-acierto-lo-hacian-3.fd37516b.mp3",
   "parrafos": [
    "¡Eso es! Sabían hacerlo."
   ],
@@ -10575,10 +10750,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 46,
-  "fecha": "2026-09-26T19:54:43"
+  "fecha": "2026-09-26T19:54:43",
+  "mp3": "mp3 vbr q7"
  },
  "p14-reto-acierto-mito-1": {
-  "archivo": "p14-reto-acierto-mito-1.19a37d15.mp3",
+  "archivo": "p14-reto-acierto-mito-1.b290f319.mp3",
   "parrafos": [
    "¡Eso es! Es un mito."
   ],
@@ -10612,10 +10788,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 42,
-  "fecha": "2026-09-26T19:54:44"
+  "fecha": "2026-09-26T19:54:44",
+  "mp3": "mp3 vbr q7"
  },
  "p14-reto-acierto-mito-2": {
-  "archivo": "p14-reto-acierto-mito-2.de30737f.mp3",
+  "archivo": "p14-reto-acierto-mito-2.71eaf3b5.mp3",
   "parrafos": [
    "¡Muy bien! Eso nunca pasó."
   ],
@@ -10649,10 +10826,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 48,
-  "fecha": "2026-09-26T19:54:44"
+  "fecha": "2026-09-26T19:54:44",
+  "mp3": "mp3 vbr q7"
  },
  "p14-reto-acierto-mito-3": {
-  "archivo": "p14-reto-acierto-mito-3.1445c451.mp3",
+  "archivo": "p14-reto-acierto-mito-3.27d96472.mp3",
   "parrafos": [
    "¡Qué va! Eso es inventado."
   ],
@@ -10686,10 +10864,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 48,
-  "fecha": "2026-09-26T19:54:45"
+  "fecha": "2026-09-26T19:54:45",
+  "mp3": "mp3 vbr q7"
  },
  "p14-reto-fallo": {
-  "archivo": "p14-reto-fallo.a745cf3d.mp3",
+  "archivo": "p14-reto-fallo.6c9576ac.mp3",
   "parrafos": [
    "¡Uy! Prueba en el otro grupo."
   ],
@@ -10723,10 +10902,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 51,
-  "fecha": "2026-09-26T19:54:46"
+  "fecha": "2026-09-26T19:54:46",
+  "mp3": "mp3 vbr q7"
  },
  "p14-reto-al-terminar": {
-  "archivo": "p14-reto-al-terminar.075f2799.mp3",
+  "archivo": "p14-reto-al-terminar.8160ff95.mp3",
   "parrafos": [
    "¡Todas en su sitio! Los neandertales sabían hacer muchas cosas, y se cuidaban. ¡Toma tu pegatina!"
   ],
@@ -10765,10 +10945,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 141,
-  "fecha": "2026-09-26T19:54:48"
+  "fecha": "2026-09-26T19:54:48",
+  "mp3": "mp3 vbr q7"
  },
  "p15-todos": {
-  "archivo": "p15-todos.18f1c59a.mp3",
+  "archivo": "p15-todos.99955530.mp3",
   "parrafos": [
    "Estas vitrinas guardan una reunión familiar: primos que siguen vivos, como el gorila y el chimpancé, y parientes de hace muchísimo tiempo. Son copias, no huesos originales.",
    "Seguro que conocéis el dibujo del mono que se va poniendo de pie, paso a paso, hasta convertirse en persona. Ese dibujo engaña. No venimos del chimpancé: es nuestro primo. Hace más de seis millones de años tuvimos un antepasado común, y desde entonces cada uno ha seguido su camino. Tampoco hubo una sola fila en que cada especie se convirtiera en la siguiente.",
@@ -10949,10 +11130,11 @@
   "frases_por_trozo": 4,
   "caracteres": 467,
   "fecha": "2026-09-26T23:12:32",
-  "parcial": "1 de 7 párrafos regenerados"
+  "parcial": "1 de 7 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p15-peques": {
-  "archivo": "p15-peques.edee9eb7.mp3",
+  "archivo": "p15-peques.ac75f0e9.mp3",
   "parrafos": [
    "¡Hola, exploradores!",
    "¿Veis cuántos cráneos? El cráneo es el hueso de la cabeza, el que protege el cerebro. Aquí hay cráneos de gorila, de chimpancé y de familiares nuestros de hace muchísimo tiempo.",
@@ -11035,10 +11217,11 @@
   "frases_por_trozo": 4,
   "caracteres": 20,
   "fecha": "2026-09-26T23:12:33",
-  "parcial": "1 de 4 párrafos regenerados"
+  "parcial": "1 de 4 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p15-mision": {
-  "archivo": "p15-mision.dce924a2.mp3",
+  "archivo": "p15-mision.ee203784.mp3",
   "parrafos": [
    "¡A buscar barbillas! Mirad todos los cráneos de las vitrinas, sin tocar el cristal. ¿Cuál tiene barbilla? ¡Solo hay uno!",
    "Cuando lo encontréis, tocaos vuestra barbilla. Y ahora, la frente: ¿a que sube recta, como la de ese cráneo?"
@@ -11093,10 +11276,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 316,
-  "fecha": "2026-09-26T19:55:29"
+  "fecha": "2026-09-26T19:55:29",
+  "mp3": "mp3 vbr q7"
  },
  "p15-reto-al-empezar": {
-  "archivo": "p15-reto-al-empezar.3c57df35.mp3",
+  "archivo": "p15-reto-al-empezar.e0c780aa.mp3",
   "parrafos": [
    "¡El cráneo de un chimpancé y el de una persona! Busca cuatro diferencias en el de la persona."
   ],
@@ -11130,10 +11314,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 115,
-  "fecha": "2026-09-26T19:55:32"
+  "fecha": "2026-09-26T19:55:32",
+  "mp3": "mp3 vbr q7"
  },
  "p15-reto-al-encontrar-la-frente": {
-  "archivo": "p15-reto-al-encontrar-la-frente.eb08332b.mp3",
+  "archivo": "p15-reto-al-encontrar-la-frente.3d070b29.mp3",
   "parrafos": [
    "¡La frente! La nuestra es alta y la cabeza, redonda. ¡Dentro cabe un cerebro muy grande!"
   ],
@@ -11172,10 +11357,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 132,
-  "fecha": "2026-09-26T19:55:33"
+  "fecha": "2026-09-26T19:55:33",
+  "mp3": "mp3 vbr q7"
  },
  "p15-reto-al-encontrar-la-cara": {
-  "archivo": "p15-reto-al-encontrar-la-cara.635f9dc2.mp3",
+  "archivo": "p15-reto-al-encontrar-la-cara.df52c255.mp3",
   "parrafos": [
    "¡La cara! La nuestra es plana. La del chimpancé sale hacia delante, como un hocico."
   ],
@@ -11214,10 +11400,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 127,
-  "fecha": "2026-09-26T19:55:35"
+  "fecha": "2026-09-26T19:55:35",
+  "mp3": "mp3 vbr q7"
  },
  "p15-reto-al-encontrar-el-menton": {
-  "archivo": "p15-reto-al-encontrar-el-menton.46e227da.mp3",
+  "archivo": "p15-reto-al-encontrar-el-menton.d0930a39.mp3",
   "parrafos": [
    "¡La barbilla! Ningún otro animal tiene barbilla. ¡Toca la tuya!"
   ],
@@ -11256,10 +11443,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 107,
-  "fecha": "2026-09-26T19:55:36"
+  "fecha": "2026-09-26T19:55:36",
+  "mp3": "mp3 vbr q7"
  },
  "p15-reto-al-encontrar-los-colmillos": {
-  "archivo": "p15-reto-al-encontrar-los-colmillos.b9ed3aaa.mp3",
+  "archivo": "p15-reto-al-encontrar-los-colmillos.46b5bf73.mp3",
   "parrafos": [
    "¡Los colmillos! Los nuestros son pequeñitos. ¡Los del chimpancé, enormes!"
   ],
@@ -11298,10 +11486,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 117,
-  "fecha": "2026-09-26T19:55:37"
+  "fecha": "2026-09-26T19:55:37",
+  "mp3": "mp3 vbr q7"
  },
  "p15-reto-al-terminar": {
-  "archivo": "p15-reto-al-terminar.754228e4.mp3",
+  "archivo": "p15-reto-al-terminar.d105b025.mp3",
   "parrafos": [
    "¡Cuatro diferencias! Pero el chimpancé no es nuestro abuelo: es nuestro primo. ¡Toma tu pegatina!"
   ],
@@ -11340,10 +11529,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 141,
-  "fecha": "2026-09-26T19:55:39"
+  "fecha": "2026-09-26T19:55:39",
+  "mp3": "mp3 vbr q7"
  },
  "p17-todos": {
-  "archivo": "p17-todos.8ed98c77.mp3",
+  "archivo": "p17-todos.d6e33e13.mp3",
   "parrafos": [
    "Mirad estas tiendas: son un campamento de nómadas, gente que no vivía siempre en el mismo sitio. Así vivió nuestra especie casi toda su historia. Imaginad que esa historia cupiera en un solo día. Pasaríamos más de veintitrés horas viviendo de cazar y recolectar, casi siempre de campamento en campamento. Los primeros campos de cultivo, y las ciudades, llegan en la última hora.",
    "Vivían en grupos pequeños, de veinte a cincuenta personas: como una o dos clases de colegio. Se movían con las estaciones. Sabían cuándo maduraban los frutos y por dónde pasaban los ciervos. Cuando se acababa la comida de alrededor, recogían y se iban.",
@@ -11513,10 +11703,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 2592,
-  "fecha": "2026-09-26T19:56:07"
+  "fecha": "2026-09-26T19:56:07",
+  "mp3": "mp3 vbr q7"
  },
  "p17-peques": {
-  "archivo": "p17-peques.0c053ee4.mp3",
+  "archivo": "p17-peques.92421bf8.mp3",
   "parrafos": [
    "¡Hola, exploradores!",
    "Una vez dormí en una tienda como estas, hace muchísimo tiempo. Y por la mañana, ¡sorpresa!: todos estaban recogiendo. Doblaron las pieles, cogieron las lanzas y las herramientas… ¡y nos pusimos en camino!",
@@ -11599,10 +11790,11 @@
   "frases_por_trozo": 4,
   "caracteres": 20,
   "fecha": "2026-09-26T23:12:36",
-  "parcial": "1 de 4 párrafos regenerados"
+  "parcial": "1 de 4 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p17-mision": {
-  "archivo": "p17-mision.dd416fb0.mp3",
+  "archivo": "p17-mision.1c6e5ed5.mp3",
   "parrafos": [
    "¡Mirad bien las tres tiendas, sin tocarlas! ¿Cuál está hecha de ramas? ¿Cuántos palos asoman por arriba de las otras?",
    "Ahora, fijaos en el suelo: ¿qué tienen alrededor? ¿Para qué servirán esas piedras? Y una pregunta para pensar: ¿cuántos de vosotros cabríais dentro?"
@@ -11657,10 +11849,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 353,
-  "fecha": "2026-09-26T19:56:19"
+  "fecha": "2026-09-26T19:56:19",
+  "mp3": "mp3 vbr q7"
  },
  "p17-reto-al-empezar": {
-  "archivo": "p17-reto-al-empezar.91207466.mp3",
+  "archivo": "p17-reto-al-empezar.c096eedb.mp3",
   "parrafos": [
    "¡Nos mudamos! ¿Qué nos llevamos y qué se queda aquí? Arrastra cada cosa a su sitio."
   ],
@@ -11699,10 +11892,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 127,
-  "fecha": "2026-09-26T19:56:20"
+  "fecha": "2026-09-26T19:56:20",
+  "mp3": "mp3 vbr q7"
  },
  "p17-reto-acierto-nos-lo-llevamos-1": {
-  "archivo": "p17-reto-acierto-nos-lo-llevamos-1.7cf0953a.mp3",
+  "archivo": "p17-reto-acierto-nos-lo-llevamos-1.012a6d8c.mp3",
   "parrafos": [
    "¡Sí! Eso viene con nosotros."
   ],
@@ -11736,10 +11930,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 50,
-  "fecha": "2026-09-26T19:56:21"
+  "fecha": "2026-09-26T19:56:21",
+  "mp3": "mp3 vbr q7"
  },
  "p17-reto-acierto-nos-lo-llevamos-2": {
-  "archivo": "p17-reto-acierto-nos-lo-llevamos-2.c96439ad.mp3",
+  "archivo": "p17-reto-acierto-nos-lo-llevamos-2.43e5c924.mp3",
   "parrafos": [
    "¡Muy bien! ¡A la espalda!"
   ],
@@ -11773,10 +11968,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 47,
-  "fecha": "2026-09-26T19:56:22"
+  "fecha": "2026-09-26T19:56:22",
+  "mp3": "mp3 vbr q7"
  },
  "p17-reto-acierto-nos-lo-llevamos-3": {
-  "archivo": "p17-reto-acierto-nos-lo-llevamos-3.0e6f5cfa.mp3",
+  "archivo": "p17-reto-acierto-nos-lo-llevamos-3.adf56a76.mp3",
   "parrafos": [
    "¡Eso es! Nos lo llevamos."
   ],
@@ -11810,10 +12006,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 47,
-  "fecha": "2026-09-26T19:56:22"
+  "fecha": "2026-09-26T19:56:22",
+  "mp3": "mp3 vbr q7"
  },
  "p17-reto-acierto-se-queda-1": {
-  "archivo": "p17-reto-acierto-se-queda-1.3a3352b0.mp3",
+  "archivo": "p17-reto-acierto-se-queda-1.53b1f74a.mp3",
   "parrafos": [
    "¡Claro! Eso no se puede llevar."
   ],
@@ -11847,10 +12044,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 53,
-  "fecha": "2026-09-26T19:56:23"
+  "fecha": "2026-09-26T19:56:23",
+  "mp3": "mp3 vbr q7"
  },
  "p17-reto-acierto-se-queda-2": {
-  "archivo": "p17-reto-acierto-se-queda-2.be0f736a.mp3",
+  "archivo": "p17-reto-acierto-se-queda-2.3caabaa8.mp3",
   "parrafos": [
    "¡Muy bien! Eso se queda aquí."
   ],
@@ -11884,10 +12082,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 51,
-  "fecha": "2026-09-26T19:56:24"
+  "fecha": "2026-09-26T19:56:24",
+  "mp3": "mp3 vbr q7"
  },
  "p17-reto-fallo": {
-  "archivo": "p17-reto-fallo.a5b87861.mp3",
+  "archivo": "p17-reto-fallo.154b63b4.mp3",
   "parrafos": [
    "¡Uy! ¿Eso se puede llevar a cuestas? Prueba otra vez."
   ],
@@ -11926,10 +12125,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 97,
-  "fecha": "2026-09-26T19:56:26"
+  "fecha": "2026-09-26T19:56:26",
+  "mp3": "mp3 vbr q7"
  },
  "p17-reto-al-terminar": {
-  "archivo": "p17-reto-al-terminar.19e96241.mp3",
+  "archivo": "p17-reto-al-terminar.b1035759.mp3",
   "parrafos": [
    "¡Todo listo para el viaje! Pero un día, algunas familias decidieron quedarse… ¡Toma tu pegatina!"
   ],
@@ -11968,10 +12168,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 140,
-  "fecha": "2026-09-26T19:56:27"
+  "fecha": "2026-09-26T19:56:27",
+  "mp3": "mp3 vbr q7"
  },
  "p20-todos": {
-  "archivo": "p20-todos.fb097bc9.mp3",
+  "archivo": "p20-todos.9c53e45f.mp3",
   "parrafos": [
    "Para entrar aquí habéis cruzado una puerta. En la casa de verdad no la había. Esta casa copia las de Çatalhöyük, en Turquía, uno de los pueblos más grandes de su tiempo. La gente vivió allí más de mil años, desde hace unos nueve mil. ¿Cuántos vivían a la vez? Unos arqueólogos calculan que varios miles; otros, que menos de mil.",
    "Mirad el techo: vigas y cañas. Allí lo cubrían con barro, y quedaba plano. Las casas estaban pegadas unas a otras, como las celdillas de un panal. Durante siglos no hubo calles: se caminaba por los tejados, que hacían de calle y de plaza. Y para entrar, se bajaba por un agujero del tejado, con una escalera como la del fondo.",
@@ -12156,10 +12357,11 @@
   "frases_por_trozo": 4,
   "caracteres": 569,
   "fecha": "2026-09-26T23:12:54",
-  "parcial": "1 de 6 párrafos regenerados"
+  "parcial": "1 de 6 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p20-peques": {
-  "archivo": "p20-peques.104523b0.mp3",
+  "archivo": "p20-peques.a7b95146.mp3",
   "parrafos": [
    "¡Hola, exploradores!",
    "¿Por dónde entráis vosotros en casa? ¿Por la puerta? Pues en Çatalhöyük, no: ¡allí las casas no tenían puerta de entrada!",
@@ -12263,10 +12465,11 @@
   "frases_por_trozo": 4,
   "caracteres": 20,
   "fecha": "2026-09-26T23:12:55",
-  "parcial": "1 de 5 párrafos regenerados"
+  "parcial": "1 de 5 párrafos regenerados",
+  "mp3": "mp3 vbr q7"
  },
  "p20-mision": {
-  "archivo": "p20-mision.9d635ede.mp3",
+  "archivo": "p20-mision.3121f7c6.mp3",
   "parrafos": [
    "¡Mirad bien, sin tocar nada! Buscad la escalera por la que se bajaba del tejado. Buscad también el toro gigante pintado en la pared.",
    "Y ahora, un reto de detectives: ¿cuántas cabezas con cuernos hay en esta casa? ¡Contadlas desde donde estáis!"
@@ -12316,10 +12519,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 307,
-  "fecha": "2026-09-26T19:57:35"
+  "fecha": "2026-09-26T19:57:35",
+  "mp3": "mp3 vbr q7"
  },
  "p20-reto-al-empezar": {
-  "archivo": "p20-reto-al-empezar.146cbd94.mp3",
+  "archivo": "p20-reto-al-empezar.c99475fb.mp3",
   "parrafos": [
    "¡Vamos a construir una casa de Çatalhöyük! Arrastra cada pieza hasta su sombra. Empieza por las paredes."
   ],
@@ -12358,10 +12562,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 150,
-  "fecha": "2026-09-26T19:57:36"
+  "fecha": "2026-09-26T19:57:36",
+  "mp3": "mp3 vbr q7"
  },
  "p20-reto-al-poner-las-paredes": {
-  "archivo": "p20-reto-al-poner-las-paredes.afe1fb53.mp3",
+  "archivo": "p20-reto-al-poner-las-paredes.399c4fad.mp3",
   "parrafos": [
    "¡Paredes de barro! Mira bien: no tienen puerta."
   ],
@@ -12395,10 +12600,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 69,
-  "fecha": "2026-09-26T19:57:37"
+  "fecha": "2026-09-26T19:57:37",
+  "mp3": "mp3 vbr q7"
  },
  "p20-reto-al-poner-el-tejado": {
-  "archivo": "p20-reto-al-poner-el-tejado.da8899ea.mp3",
+  "archivo": "p20-reto-al-poner-el-tejado.a57d2aeb.mp3",
   "parrafos": [
    "¡Un tejado plano! Por arriba se caminaba, como por una calle."
   ],
@@ -12432,10 +12638,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 83,
-  "fecha": "2026-09-26T19:57:41"
+  "fecha": "2026-09-26T19:57:41",
+  "mp3": "mp3 vbr q7"
  },
  "p20-reto-al-poner-la-escalera": {
-  "archivo": "p20-reto-al-poner-la-escalera.6cc457bc.mp3",
+  "archivo": "p20-reto-al-poner-la-escalera.cb6795f2.mp3",
   "parrafos": [
    "¡La escalera! Mira cómo asoma por el agujero."
   ],
@@ -12469,10 +12676,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 67,
-  "fecha": "2026-09-26T19:57:42"
+  "fecha": "2026-09-26T19:57:42",
+  "mp3": "mp3 vbr q7"
  },
  "p20-reto-al-poner-el-horno": {
-  "archivo": "p20-reto-al-poner-el-horno.8e528257.mp3",
+  "archivo": "p20-reto-al-poner-el-horno.fcb376c6.mp3",
   "parrafos": [
    "¡Un horno! Para cocinar y dar calorcito."
   ],
@@ -12506,10 +12714,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 62,
-  "fecha": "2026-09-26T19:57:43"
+  "fecha": "2026-09-26T19:57:43",
+  "mp3": "mp3 vbr q7"
  },
  "p20-reto-antes-de-tiempo": {
-  "archivo": "p20-reto-antes-de-tiempo.dca314ca.mp3",
+  "archivo": "p20-reto-antes-de-tiempo.df5e8fd1.mp3",
   "parrafos": [
    "¡Espera! Primero, las paredes. Y la escalera, después del tejado."
   ],
@@ -12548,10 +12757,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 109,
-  "fecha": "2026-09-26T19:57:44"
+  "fecha": "2026-09-26T19:57:44",
+  "mp3": "mp3 vbr q7"
  },
  "p20-reto-al-terminar": {
-  "archivo": "p20-reto-al-terminar.2aa0b131.mp3",
+  "archivo": "p20-reto-al-terminar.6aab0128.mp3",
   "parrafos": [
    "¡Casa terminada! Ya lo sabes: a esta casa se entra por el tejado. ¡Toma tu pegatina!"
   ],
@@ -12590,10 +12800,11 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 128,
-  "fecha": "2026-09-26T19:57:46"
+  "fecha": "2026-09-26T19:57:46",
+  "mp3": "mp3 vbr q7"
  },
  "comun-despedida": {
-  "archivo": "comun-despedida.ffd8b366.mp3",
+  "archivo": "comun-despedida.f4edd7e4.mp3",
   "parrafos": [
    "¡Lo habéis conseguido, exploradores! Hemos viajado desde los primeros microbios hasta los constructores de Stonehenge: más de tres mil millones de años en un solo paseo.",
    "Por el camino hemos visto que la Tierra cambia, que la vida cambia… y que nosotros llegamos casi al final.",
@@ -12649,6 +12860,7 @@
   },
   "frases_por_trozo": 4,
   "caracteres": 461,
-  "fecha": "2026-09-26T22:58:46"
+  "fecha": "2026-09-26T22:58:46",
+  "mp3": "mp3 vbr q7"
  }
 }

@@ -80,12 +80,14 @@ Se responde tocando «¡Hecho!». No hay respuesta que comprobar: lo que importa
 Nada de hierba ni de flores: en el mundo del brontosaurio aún no existían (que sepamos; hay candidatos a flor jurásica, todos discutidos). Todas las plantas de las fichas existían en su época.
 
 **Voz de Alba:**
-- Al empezar: «¡Tienen hambre! Arrastra cada planta hasta el dinosaurio que puede alcanzarla.»
+- Al empezar: «¡Tienen hambre! Arrastra las plantas hasta los dinosaurios y repártelas para que coman los dos.»
 - Acierto (se alternan): «¡Ñam! ¡Muy bien!» / «¡Eso es! Le encanta.» / «¡Perfecto!»
 - Planta alta al triceratops: «Mmm… no llega tan arriba. Prueba con el otro.»
 - Planta del suelo al brontosaurio: «¡A él también le gusta! Pero el triceratops no llega arriba: guárdale a él lo del suelo.»
 - Filete a cualquiera: «¡Uy, no! Estos dos solo comían plantas.»
 - Al terminar: «¡Los dos están llenos! El del cuello largo llega a lo más alto, y el triceratops come a ras de suelo. ¡Toma tu pegatina!»
+
+**Frase de inicio cambiada el 27-sep** (con el visto bueno de Álvaro): antes decía «hasta el dinosaurio que puede alcanzarla», y el brontosaurio también alcanza las del suelo; el juego es de *repartir*.
 
 **Matiz que el juego simplifica** (no se dice en voz alta): el brontosaurio también comía plantas bajas, y cuánto levantaba el cuello es un debate abierto entre paleontólogos. Lo que el juego afirma («llega más alto que el triceratops») es cierto en cualquier caso.
 
