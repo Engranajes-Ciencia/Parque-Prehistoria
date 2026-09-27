@@ -379,7 +379,9 @@ Todo en el **estilo 1**, con las reglas de la sección 3. Guarda en `arte/lote-0
 
 Aprobado e integrado. Un problema, culpa del encargo y no tuyo: las tarjetas `V5_nudillos` y `V6_dinosaurio` llevan la **cruz roja dibujada**, y así el niño sabe la respuesta antes de jugar. La app ya pone la cruz ella sola cuando la tarjeta se coloca en «Es un mito». Hay que rehacerlas sin cruz (lote 7 bis).
 
-## 13. LOTE ACTIVO: lote 7 bis, dos tarjetas sin cruz y el suelo de Laetoli
+## 13. Lote 7 bis, dos tarjetas sin cruz y el suelo de Laetoli — HECHO E INTEGRADO (27-sep-2026)
+
+*Revisión de Claude: las tres, aprobadas. En `E1b` el rastro pequeño quedó a la derecha del grande (en Laetoli iba a la izquierda), pero el texto solo dice «uno junto al otro»: no hace falta rehacerla. No hay lote activo.*
 
 **Parte de `arte/lote-07/V5_nudillos.png` y de `arte/lote-07/V6_dinosaurio.png` y edítalas: quita SOLO la cruz roja.** Todo lo demás, igual: el mismo neandertal, la misma escena, los mismos colores. Donde estaba la cruz, completa el dibujo que queda debajo (el cuerpo, el dinosaurio, el paisaje) sin manchas ni borrones. Guárdalas en `arte/lote-07/`:
 
