@@ -37,7 +37,7 @@ Llevad la app en el móvil, **en modo avión después de pulsar «Descargar la v
 **6 · Primeras flores**
 - [x] ⚠ Qué plantas son, si florecen todo el año y si dan frutos o semillas en invierno (plan B de la misión). → **Las flores se secaron y las quitaron.** Queda un naranjo; la parada y la misión se apoyan ahora en él.
 - [x] ⚠ **Nuevo:** que el naranjo esté en el punto de la parada; si tiene espinas. → Está; es todavía muy pequeño (`Nuevas imágenes/Naranjo.jpg`). Álvaro cree que no tiene espinas; la misión pide no tocarlo.
-- [ ] Si se volverán a poner flores.
+- [ ] Si se volverán a poner flores (en principio sí, pero no es seguro).
 
 **8 · El volcán**
 - [x] Si hay cuerda alrededor. → Postes y cuerda a lo largo del camino.
@@ -99,7 +99,7 @@ Llevad la app en el móvil, **en modo avión después de pulsar «Descargar la v
 
 **19 · Pinturas del Sáhara y Laja Alta**
 - [x] ⚠ Siguen siendo tres jirafas (respuesta de la misión). → Sí.
-- [ ] Si la casa de Çatalhöyük es el interior de este mismo contenedor (entonces la última frase sería «Os espera al otro lado de esta pared»).
+- [x] Si la casa de Çatalhöyük es el interior de este mismo contenedor. → Sí (Álvaro). La última frase dice ya «Os espera al otro lado de esta pared».
 
 **20 · Çatalhöyük**
 - [x] Qué animal es la cabeza gris de la pared izquierda. → Un toro; hay otras dos en la pared del fondo.

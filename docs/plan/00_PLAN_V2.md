@@ -64,7 +64,8 @@
   - suricatas en la 12;
   - la 6, apoyada en el naranjo;
   - misiones y frases corregidas en 1, 4, 5, 6, 9, 12, 13, 15, 16, 18 y 21.
-  - **Quince pistas sin regrabar**, que suenan con la voz del navegador hasta que haya créditos (lista en `docs/PARQUE_16-OCT-2026.md`).
+  - **Dieciséis pistas sin regrabar** (con la de la 19, cambiada esa noche), que suenan con la voz del navegador hasta que haya créditos (lista en `docs/PARQUE_16-OCT-2026.md`).
+- **Juegos y misiones:** resumen para la revisión en `docs/plan/02_JUEGOS_Y_MISIONES.md` (las decisiones se apuntan allí).
 - **Siguiente:**
   - Álvaro va a revisar a fondo los juegos y las misiones, y decidirá el juego y la misión de la parada 1;
   - la parte de público general sigue verde;
