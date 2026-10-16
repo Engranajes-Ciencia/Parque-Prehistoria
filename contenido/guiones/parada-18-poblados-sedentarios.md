@@ -2,7 +2,7 @@
 
 *Renumerada el 26-sep-2026: antes era la parada 17. Las referencias a otras paradas en las notas usan todavía la numeración antigua.*
 
-**16-oct-2026 (fotos de Álvaro y lo que contó):** hay **dos cabañas**. La redonda tiene las **cuernas de ciervo de verdad** sobre la puerta y una piel sintética de leopardo por cortina (el texto no dice de qué es: el leopardo no vivía en la Europa del Neolítico); la cuadrada, una cortina de arpillera. Dentro de la redonda hay un cráneo de vaca de cuernos negros en el poste: por eso la misión dice ahora «la cabaña redonda», para que nadie conteste mirando el que no es. Hay además un **hogar con asador**, una empalizada y un **armazón de palos que es un establo para el ganado** (Álvaro), que el texto podría usar cuando se regrabe.
+**16-oct-2026 (fotos de Álvaro y lo que contó):** hay **dos cabañas**. La redonda tiene las **cuernas de ciervo de verdad** sobre la puerta y una piel sintética de leopardo por cortina (el texto no dice de qué es: el leopardo no vivía en la Europa del Neolítico); la cuadrada, una cortina de arpillera. Dentro de la redonda hay un cráneo de vaca de cuernos negros en el poste: por eso la misión dice ahora «la cabaña redonda», para que nadie conteste mirando el que no es. Hay además una empalizada y un **armazón de palos que es un establo para el ganado** (Álvaro), que el texto podría usar cuando se regrabe. El corro de cantos con un asador encima que sale en las fotos no cuenta como hogar (Álvaro).
 
 *Borrador 1 · 25-sep-2026 · pendiente de revisión de Álvaro*
 

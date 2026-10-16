@@ -2,7 +2,7 @@
 
 *Borrador 1 · 26-sep-2026 · pendiente de revisión de Álvaro*
 
-**16-oct-2026, Álvaro:** las plantas con flor se secaron y las quitaron. Ahora solo hay **un naranjo** que, en octubre, tenía una o dos flores; no se sabe cuándo tendrá más. **Cambio (pendiente de su visto bueno):** la parada se apoya en el naranjo. Su flor, el azahar, se convierte en la naranja, que es justo lo que cuenta el texto sobre el fruto. La misión vale con flores, con naranjas o sin nada. Las dudas de abajo sobre «las plantas» quedan obsoletas. **[VERIFICAR: que el naranjo esté en el punto de la parada 6, si tiene espinas (el naranjo amargo de las calles de Sevilla las tiene) y si se volverán a poner flores.]**
+**16-oct-2026, Álvaro:** las plantas con flor se secaron y las quitaron. Ahora solo hay **un naranjo**, todavía **muy pequeño** (Álvaro lo señala en `Mapa e imágenes de parque/Nuevas imágenes/Naranjo.jpg`, al otro lado del camino de la araucaria grande), que en octubre tenía una o dos flores; no se sabe cuándo tendrá más. **Cambio (pendiente de su visto bueno):** la parada se apoya en el naranjo. Su flor, el azahar, se convierte en la naranja, que es justo lo que cuenta el texto sobre el fruto. La misión vale con flores, con naranjas o sin nada. Las dudas de abajo sobre «las plantas» quedan obsoletas. Está en el punto de la parada 6 (Álvaro). Cree que no tiene espinas; la misión pide no tocarlo de todos modos, por lo pequeño que es. **[VERIFICAR: si se volverán a poner flores.]**
 
 **Qué hay en la parada** (según Álvaro; no hay fotos de esta parada): **no hay maqueta**, sino **plantas con flor de verdad**. El mapa las dibuja como un pequeño macizo de flores sencillas, pero es una ilustración, no un retrato. Dudas marcadas con **[VERIFICAR: …]**.
 
@@ -22,7 +22,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ## Para todos (7 años en adelante) — voz del narrador
 
-> Esta parada no tiene maqueta. Tiene algo mejor: un naranjo de verdad. En primavera se cubre de flores blancas, el azahar, y de cada flor puede salir una naranja. Una flor nos parece lo más normal del mundo. Pero durante más de trescientos millones de años, las plantas vivieron en tierra firme sin una sola flor. Los primeros árboles, los de la parada anterior, no tenían ninguna.
+> Esta parada no tiene maqueta. Tiene algo mejor: un naranjo de verdad, todavía muy pequeño. En primavera da flores blancas, el azahar, y de cada flor puede salir una naranja. Una flor nos parece lo más normal del mundo. Pero durante más de trescientos millones de años, las plantas vivieron en tierra firme sin una sola flor. Los primeros árboles, los de la parada anterior, no tenían ninguna.
 >
 > Y aquí el camino hace trampa con el tiempo. Las flores aparecieron hace unos ciento treinta millones de años; quizá antes, pero los científicos aún lo discuten. Los primeros dinosaurios, en cambio, llegaron hace unos doscientos treinta millones, y vivieron, hasta donde sabemos, en un mundo sin flores. Así que, cuando vayáis a la siguiente parada, no avanzaréis en el tiempo: retrocederéis cien millones de años.
 >
@@ -62,13 +62,13 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 **Texto en pantalla y en voz de Alba:**
 
-> Buscad el naranjo y miradlo de cerca, sin tocar sus ramas: ¡algunos tienen espinas! ¿Tiene alguna flor blanca? Si la tiene, acercad la nariz: ¿huele?
+> Buscad el naranjo: es un arbolito todavía muy pequeño, de hojas verdes y brillantes. Miradlo de cerca, pero sin tocarlo: ¡es un bebé de árbol! ¿Tiene alguna flor blanca? Si la tiene, acercad la nariz: ¿huele?
 >
 > ¿Veis alguna naranja, aunque sea verde y pequeñita? Antes de ser naranja, fue una flor.
 >
-> ¿No hay flores ni naranjas hoy? Mirad sus hojas: brillantes, duras y siempre verdes. El naranjo espera a la primavera para llenarse de flores.
+> ¿No hay flores ni naranjas hoy? Es normal: todavía es muy joven, y florece sobre todo en primavera. ¡Quizá, si volvéis entonces, os reciba con flores!
 
-Se responde tocando «¡Hecho!». No hay respuesta que comprobar. El naranjo florece sobre todo en primavera (en Sevilla, en marzo y abril), aunque abre alguna flor suelta en otras épocas, como las de octubre; las naranjas maduran en otoño e invierno. Un árbol joven puede no dar fruta todavía: por eso la misión tiene tres salidas. Prepara el reto: la abeja que va de flor en flor, y la flor que se convierte en fruto. **Misión de 16-oct-2026**, en lugar de la de las plantas con flor, que ya no están.
+Se responde tocando «¡Hecho!». No hay respuesta que comprobar. El naranjo florece sobre todo en primavera (en Sevilla, en marzo y abril), aunque abre alguna flor suelta en otras épocas, como las de octubre; las naranjas maduran en otoño e invierno. Un árbol tan joven puede no dar flores ni fruta todavía: por eso la misión tiene tres salidas, y la última no deja a nadie con las manos vacías. Prepara el reto: la abeja que va de flor en flor, y la flor que se convierte en fruto. **Misión de 16-oct-2026**, en lugar de la de las plantas con flor, que ya no están.
 
 ---
 

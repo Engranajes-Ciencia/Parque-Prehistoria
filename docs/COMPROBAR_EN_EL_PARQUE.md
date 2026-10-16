@@ -36,7 +36,8 @@ Llevad la app en el móvil, **en modo avión después de pulsar «Descargar la v
 
 **6 · Primeras flores**
 - [x] ⚠ Qué plantas son, si florecen todo el año y si dan frutos o semillas en invierno (plan B de la misión). → **Las flores se secaron y las quitaron.** Queda un naranjo; la parada y la misión se apoyan ahora en él.
-- [ ] ⚠ **Nuevo:** que el naranjo esté en el punto de la parada; si tiene espinas; si se volverán a poner flores.
+- [x] ⚠ **Nuevo:** que el naranjo esté en el punto de la parada; si tiene espinas. → Está; es todavía muy pequeño (`Nuevas imágenes/Naranjo.jpg`). Álvaro cree que no tiene espinas; la misión pide no tocarlo.
+- [ ] Si se volverán a poner flores.
 
 **8 · El volcán**
 - [x] Si hay cuerda alrededor. → Postes y cuerda a lo largo del camino.
@@ -46,7 +47,6 @@ Llevad la app en el móvil, **en modo avión después de pulsar «Descargar la v
 **9 · Huellas de dinosaurio**
 - [ ] Medir una huella (a ojo, 40-60 cm) y contar cuántas hay; si forman un rastro en fila. (Son unas seis o siete losas; dos van en fila.)
 - [x] Si las de la foto 91 (dedos largos y finos) imitan a un terópodo. → Sí (foto 31 del 16-oct).
-- [ ] **Nuevo:** qué representa la losa de surcos largos y paralelos (foto 29 del 16-oct): ¿la cola o un dinosaurio nadando?
 
 **10 · Segundos dinosaurios**
 - [x] ⚠ Si se ve la garra en hoz del dromeosaurio desde el camino (la misión la busca). → Se ve de cerca y desde el camino peor.
@@ -86,7 +86,8 @@ Llevad la app en el móvil, **en modo avión después de pulsar «Descargar la v
 
 **17 · Poblado nómada**
 - [x] ⚠ Siguen las tres tiendas (la de ramas y la piel de la del centro salen en el texto). → Siguen: dos de lona con «piel» y una de ramas (Álvaro). La «piel» es una tela estampada que la imita.
-- [ ] Si se puede entrar en ellas; si el hogar que se ve junto a una tienda (foto 105 del 16-oct) es de este campamento.
+- [x] Si hay un hogar. → No (Álvaro).
+- [ ] Si se puede entrar en las tiendas.
 
 **Parada secreta (el pozo de la X)**
 - [x] ⚠ Que sigan siendo **dos** palos cruzados, y que se cuenten bien desde el camino. → Siguen siendo dos. Desde el costado se tapan uno al otro.
@@ -95,7 +96,6 @@ Llevad la app en el móvil, **en modo avión después de pulsar «Descargar la v
 **18 · Poblado sedentario**
 - [x] ⚠ Siguen las cuernas de ciervo sobre la puerta (la misión las usa); de qué es la cortina. → Siguen, y son de verdad. La cortina es una piel sintética de leopardo (que el texto no diga de qué es: el leopardo no vivía en la Europa del Neolítico).
 - [x] Corral, secadero, «casa de todos», merendero, fuego: ¿cuáles existen? → Un hogar con asador, dos cabañas (una redonda y otra cuadrada), una empalizada y un **establo para el ganado** (el armazón de palos).
-- [ ] **Nuevo:** qué son las dos losas grandes, el tronco y el marco de madera vacío junto al camino (foto 111 del 16-oct).
 
 **19 · Pinturas del Sáhara y Laja Alta**
 - [x] ⚠ Siguen siendo tres jirafas (respuesta de la misión). → Sí.

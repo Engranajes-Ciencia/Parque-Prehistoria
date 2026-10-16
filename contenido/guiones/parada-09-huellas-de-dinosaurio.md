@@ -2,7 +2,7 @@
 
 *Borrador 1 · 26-sep-2026 · pendiente de revisión de Álvaro*
 
-**16-oct-2026 (fotos de Álvaro):** hay huellas de los dos tipos: de **tres dedos cortos y anchos** (ornitópodo) y de **dedos largos y finos** (terópodo). Por eso la pregunta del primer párrafo ya no es «¿carnívoro o herbívoro?», sino cuáles son de cada uno. **[VERIFICAR: qué representa la losa de surcos largos y paralelos (foto 29 del 16-oct, `PXL_20261016_075252676.jpg`); el «¿Sabías que…?» dice que la marca de la cola casi nunca aparece.]**
+**16-oct-2026 (fotos de Álvaro):** hay huellas de los dos tipos: de **tres dedos cortos y anchos** (ornitópodo) y de **dedos largos y finos** (terópodo). Por eso la pregunta del primer párrafo ya no es «¿carnívoro o herbívoro?», sino cuáles son de cada uno.
 
 **Qué hay en la parada** (según las fotos 90-91 de mayo de 2026, `PXL_20260513_100146013.jpg` y `PXL_20260513_100156325.jpg`, y las de la flor, 86-87): **icnitas**, huellas de dinosaurio modeladas en losas de mortero blanco crema, a ras de un suelo de arcilla agrietada, entre el volcán pintado y la **flor gigante**. En la numeración antigua no eran una parada propia: las citaba de pasada el guion de la parada 8 (el volcán). Dudas marcadas con **[VERIFICAR: …]**.
 
