@@ -2,6 +2,8 @@
 
 *Borrador 1 · 26-sep-2026 · pendiente de revisión de Álvaro*
 
+**16-oct-2026 (fotos de Álvaro):** son **araucarias jóvenes recién plantadas**, atadas a tutores (una de pisos regulares, tipo pino de Norfolk, y otra de ramas largas con penachos en la punta), y un **pino** joven. Son coníferas: no tienen flores y su tronco es de madera. **Resuelve** las dudas de abajo sobre qué árboles son, si tienen flores, si tienen madera y si hay una araucaria (el pino deja en pie la de la procesionaria). **Cambia la misión:** con troncos del grosor de un dedo, rodearlos con los brazos no tiene sentido y podría dañarlos. **Propuesta para cuando se regrabe el primer párrafo** (no hecha): «Si veis un árbol con las ramas en pisos, es una araucaria: un linaje antiquísimo, que ya vivía con los dinosaurios, aunque no fue de los primeros árboles».
+
 **Qué hay en la parada** (no hay fotos de esta parada; lo sé por Álvaro): **no hay maqueta**. Hay **árboles de verdad, sin flores**, en ese tramo del camino. En el mapa (`Mapa e imágenes de parque/Mapa/Versión final con números.png`) la parada 5 no tiene dibujo: es un punto del camino entre los Prototaxites de la 4 y la 6. Dudas marcadas con **[VERIFICAR: …]**.
 
 **Lo que no sé de los árboles, y el guion evita dar por hecho:**
@@ -53,7 +55,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Elegid uno de estos árboles, desde el camino! Abrid los brazos: ¿cuántos exploradores harían falta para rodear su tronco?
+> ¡Elegid uno de estos árboles, desde el camino! Todavía es muy joven: ¿su tronco es más gordo o más fino que vuestro brazo?
 >
 > Ahora, mirad bien, sin arrancar nada. ¿Asoma alguna raíz del suelo? ¿La corteza es lisa o rugosa? Y arriba, ¿cómo son sus hojas: planas, como agujas o como escamitas?
 

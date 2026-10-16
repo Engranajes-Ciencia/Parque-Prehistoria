@@ -2,13 +2,12 @@
 
 *Borrador 1 · 26-sep-2026 · pendiente de revisión de Álvaro*
 
-**Qué hay en la parada** (según las fotos 64-66, de diciembre de 2024; no hay fotos más recientes de la entrada): en la valla de malla metálica verde, junto a una puerta del mismo color, una **lona blanca** atornillada con el nombre **«Parque de Ciencias Prehistóricas»** en letras negras y, a la izquierda, el logo: un **amonites verde azulado**, una espiral con costillas, de unas tres vueltas y media. Dudas marcadas con **[VERIFICAR: …]**.
+**Qué hay en la parada** (16-oct-2026, por las fotos y lo que contó Álvaro): la **entrada del parque**. Junto a ella, una **zona techada** (tejado blanco, césped artificial, mesas plegables y bancos) donde desayunan los colegios. En su pared cuelga ahora la **lona blanca** con el nombre **«Parque de Ciencias Prehistóricas»** y el logo del amonites; antes estaba en la valla. El parque no tiene zona de comidas ni vende nada, y las familias no suelen comer allí: el texto no habla de comer.
 
-**Dudas para Álvaro:**
-- **[VERIFICAR: que la lona sigue ahí en 2026 y con el mismo logo.]** La misión depende de ella (y la parada 3 también la menciona).
-- **[VERIFICAR: dónde está la taquilla respecto al cartel.]** En las fotos no sale; el encargo dice que la parada está junto a ella.
-- **[VERIFICAR: las normas reales del parque]** (si hay un cartel de normas, si hay papeleras a lo largo del recorrido, si se puede comer dentro, si se admiten perros…). El guion dice las cuatro del encargo; si hay otra importante, se cambia una frase.
-- **[VERIFICAR: que el mapa de la v2 marque la parada 1 junto a la taquilla]**, para la segunda parte de la misión.
+**Decisión de Álvaro (16-oct-2026):** la parada 1 **no usa la lona**. Explica en qué consiste la visita y cómo se usa la app, y anuncia que habrá misiones y juegos. **El juego («El reloj del tiempo») y la misión son provisionales:** Álvaro decidirá cuáles van aquí.
+
+**Dudas que siguen abiertas:**
+- **[VERIFICAR: que el mapa de la v2 marque la parada 1 en la entrada]**, para la misión.
 
 Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y frases cortas, porque suenan por el altavoz de un móvil al aire libre.
 
@@ -16,19 +15,23 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ## Para todos (7 años en adelante) — voz del narrador
 
-> Este camino es un viaje en el tiempo. Recorre, casi siempre en orden, la historia de la Tierra. Son unos cuatro mil quinientos millones de años: desde un planeta recién formado y sin vida hasta los pueblos que levantaron Stonehenge.
+> Bienvenidos al Parque de Ciencias Prehistóricas. Este camino es un viaje en el tiempo. Recorre, casi siempre en orden, unos cuatro mil quinientos millones de años de historia de la Tierra: desde un planeta recién formado y sin vida hasta los pueblos que levantaron Stonehenge.
 >
-> Una cifra así no cabe en la cabeza. Probemos con el propio camino. Si repartiera el tiempo a partes iguales, entre una parada y la siguiente pasarían más de doscientos millones de años. Los dinosaurios, que aquí veréis en la parada siete, no llegarían hasta la veinte, la penúltima. Y nuestra especie aparecería en el último palmo.
+> Si el camino repartiera el tiempo a partes iguales, los dinosaurios, que aquí os esperan en la parada siete, no llegarían hasta la penúltima. Y nuestra especie aparecería en el último palmo. Por eso el parque hace zoom, como cuando ampliáis una foto: de la parada doce en adelante, casi la mitad del recorrido, os hablaremos de la familia humana. Somos los recién llegados. Y, sin embargo, somos los únicos capaces de contar esta historia.
 >
-> Por eso el parque hace zoom, como cuando ampliáis una foto para ver de cerca lo que más os interesa. De la parada doce en adelante, casi la mitad del recorrido, os hablaremos de la familia humana. Y todo lo que cuentan esas paradas cabe en menos de una milésima parte de la historia de la Tierra. Somos los recién llegados. Y, sin embargo, somos los únicos capaces de contarla.
+> En cada parada, la aplicación os ofrece cuatro cosas. Primero, una explicación para escuchar: esta, para todos, o la de Alba, nuestra viajera del tiempo, para los más pequeños. Podéis cambiar de una a otra cuando queráis. Después, «¡Mira bien!»: una misión para descubrir algo en el parque con vuestros propios ojos. Luego, un reto: un juego en el móvil que se premia con una pegatina para vuestro álbum. Y, para los curiosos, un «¿Sabías que…?».
 >
-> En cada parada tenéis dos explicaciones: esta, y la de Alba, para los más pequeños. Después, una misión, «¡Mira bien!», y un reto que se premia con una pegatina. El mapa os guía de una a otra. Y atentos: en algún rincón se esconde una parada secreta, sin número.
+> El mapa del recorrido os lleva de una parada a la siguiente. Atentos: en algún rincón se esconde una parada secreta, sin número. Y al final del viaje os espera un diploma con vuestro nombre.
 >
-> Todo buen explorador cuida lo que explora. Las maquetas se miran, pero no se tocan ni se escalan. Lo pintado en el suelo no se pisa, salvo cuando Alba os lo proponga. Las cuerdas no se cruzan. Y la basura, a la papelera. **[VERIFICAR: normas reales del parque]**
+> Un consejo: en el parque la cobertura es floja. Si aún no lo habéis hecho, pulsad «Descargar la visita»: está en la pantalla del recorrido, encima del mapa. Así todo sonará aunque no haya señal.
+>
+> Todo buen explorador cuida lo que explora. Las maquetas se miran, pero no se tocan ni se escalan. Lo pintado en el suelo no se pisa, salvo cuando Alba os lo proponga. Las cuerdas no se cruzan. Y la basura, a la papelera.
 >
 > Ahora, seguid el camino hasta una charca de colores. Copia una charca real, en Yellowstone, que guarda un secreto: allí, los anillos de colores los forman seres vivos diminutos. Con seres así empieza la historia de la vida.
 
-*≈ 300 palabras · ≈ 2 min.*
+*≈ 350 palabras · ≈ 2 min 30 s.*
+
+**Cómo se usa la app (16-oct-2026):** el texto usa los nombres de la pantalla. «Para todos» y «Para peques» son las dos pestañas de la explicación; «¡Mira bien!» y «¡Reto!», los dos botones grandes de cada parada; «¿Sabías que…?», la tarjeta desplegable de debajo; el álbum, el botón de la barra de arriba; «Descargar la visita», el botón de la pantalla «El recorrido», encima del mapa; el diploma sale al pulsar «¡Terminar el viaje!» en la última parada. **Si cambia algún nombre en la app, hay que cambiarlo aquí.** Las 21 paradas tienen reto; la secreta tiene una pregunta en su lugar. El consejo de la cobertura va aquí porque la visita sin cobertura solo funciona si se ha pulsado «Descargar la visita»: muchas familias no lo harán en casa, y la entrada es el último sitio donde sirve decirlo.
 
 **Por qué «casi siempre en orden»:** el camino hace alguna trampa con el tiempo, y las paradas lo cuentan. Las flores de la parada 6 son posteriores a los primeros dinosaurios de la 7 (la 6 lo dice: «retrocederéis cien millones de años»); las tortugas de Galápagos de la 11 son de hoy; y en el mural de la 19 hay un carro de hace unos tres mil años, más moderno que el Çatalhöyük de la 20 y que el Stonehenge de la 21.
 
@@ -44,11 +47,13 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > No tiene números: tiene cuatro dibujos, uno para cada parte del viaje. La hoja de helecho: los primeros seres vivos, en el agua, y las primeras plantas. La huella: ¡los dinosaurios! La mano: nuestra familia, la de los humanos. Y el sol: los primeros pueblos, con sus casas y sus campos.
 >
+> En cada parada os espera un juego. Si lo superáis, ¡ganaréis una pegatina para vuestro álbum!
+>
 > Una regla de exploradores: las maquetas se miran con los ojos, no con las manos.
 >
 > ¿Me ayudáis a ordenar el viaje? ¡Vamos al reto!
 
-*≈ 100 palabras · ≈ 45 s.*
+*≈ 115 palabras · ≈ 50 s.*
 
 **Una idea principal:** el viaje tiene cuatro partes, y el reloj de Alba las resume. La norma va aparte, en una sola frase, porque los de cuatro a seis años son los que más tienden a tocar y a trepar, y esta es la explicación que escuchan ellos.
 
@@ -69,15 +74,9 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Buscad el cartel de la entrada! ¿Veis el dibujo enrollado, verde azulado? Parece un caracol, pero no lo es: es un amonites, un primo de los pulpos que vivía en el mar. ¡Lo volveréis a ver en la parada tres!
->
-> Ahora buscad en el mapa la parada dos, y señalad con el dedo hacia dónde queda.
+> ¡Buscad en el mapa la parada dos! Está en la pantalla del recorrido. Ahora, señalad con el dedo hacia dónde queda… ¡y en marcha!
 
-Se responde tocando «¡Hecho!». No hay nada que comprobar: lo que importa es que miren el cartel de verdad (que casi nadie mira) y que se orienten antes de echar a andar. Todo se hace desde fuera, sin tocar la lona. **Respuesta de la segunda parte:** hacia la charca de colores **[VERIFICAR: que desde la entrada se vea el camino hacia la parada 2; en el mapa antiguo va hacia la derecha, pasada la taquilla]**.
-
-**«Parece un caracol, pero no lo es»:** a propósito. El guion antiguo de la parada 3 decía que los amonites eran «parecidos a caracolas», y es lo primero que piensa cualquiera al ver el logo. Eran cefalópodos, parientes de pulpos y calamares, como explica la parada 3 con la misma fórmula: «primo de los pulpos».
-
-**No he repetido la misión de la parada 3,** que pide seguir la espiral del amonites con el dedo. Aquí basta con encontrarlo y quedarse con su forma.
+**Misión provisional (16-oct-2026).** La de antes buscaba el amonites de la lona de la entrada; Álvaro decidió que la parada no use la lona, y él pensará la definitiva. Mientras, queda la segunda parte de la antigua, que no depende de nada del parque: orientarse con el mapa antes de echar a andar. Se responde tocando «¡Hecho!». **Respuesta:** hacia la charca de colores **[VERIFICAR: que desde la entrada se vea el camino hacia la parada 2]**.
 
 ---
 

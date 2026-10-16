@@ -11,7 +11,8 @@ Llevad la app en el móvil, **en modo avión después de pulsar «Descargar la v
 **1 · Bienvenida**
 - [x] ⚠ La lona del cartel sigue en la valla, con el mismo logo (la misión y la parada 3 la usan). → **Cambia:** la lona, con el mismo logo, cuelga ahora en la pared de la zona techada de los desayunos, en la entrada. En las fotos no sale ninguna lona en la valla.
 - [ ] Dónde está la taquilla respecto al cartel.
-- [ ] ⚠ Normas reales: ¿cartel de normas?, ¿papeleras?, ¿se puede comer dentro?, ¿perros? (Hay papeleras por todo el parque y mesas en la zona techada.)
+- [x] ⚠ Normas reales: ¿cartel de normas?, ¿papeleras?, ¿se puede comer dentro?, ¿perros? → Hay papeleras por todo el parque. No hay zona de comidas y las familias no comen allí: el texto no habla de comer.
+- **Decisión de Álvaro (16-oct):** la parada 1 ya no usa la lona; explica la visita y cómo se usa la app. **Pendiente suyo:** el juego y la misión definitivos de esta parada.
 
 **2 · Yellowstone**
 - [ ] ⚠ Se puede rodear la charca por fuera sin pisar la pintura (la misión lo pide). (En un lado hay una cuerda baja con postes.)
@@ -26,16 +27,16 @@ Llevad la app en el móvil, **en modo avión después de pulsar «Descargar la v
 - [ ] ⚠ Meganeura y Tiktaalik están «a la izquierda de las columnas» mirando desde el camino.
 - [ ] Si la libélula del suelo es de tamaño real (unos 70 cm de ala a ala): se podría añadir «así de grande era».
 - [ ] Si se puede llegar hasta las columnas o solo se ven desde el camino. (Hay una cuerda delante de los fósiles.)
-- [ ] **Nuevo:** qué animal es el fósil pequeño de la piedra suelta, junto al Tiktaalik.
+- [x] **Nuevo:** qué animal es el fósil pequeño de la piedra suelta, junto al Tiktaalik. → No es un Tiktaalik: tiene patas con dedos. La app no lo nombra.
 
 **5 · Primeros árboles**
 - [x] ⚠ Qué árboles son, si tienen tronco de madera y si se llega a ellos por el camino. → **Araucarias jóvenes recién plantadas** y un pino. **Cambia:** son demasiado finas para abrazarlas, y la misión lo propone.
 - [x] Si hay una araucaria. → Sí, dos: una de pisos regulares (tipo pino de Norfolk) y otra de ramas largas con penachos.
 - [ ] Si son pinos o cedros con procesionaria, o sueltan resina.
 
-**6 · Primeras flores** (no hay fotos)
-- [ ] ⚠ Qué plantas son, si florecen todo el año y si dan frutos o semillas en invierno (plan B de la misión).
-- [ ] ⚠ Que ninguna sea tóxica ni pinche (la adelfa es muy común); si se llega sin pisar el parterre; si hay colmenas cerca.
+**6 · Primeras flores**
+- [x] ⚠ Qué plantas son, si florecen todo el año y si dan frutos o semillas en invierno (plan B de la misión). → **Las flores se secaron y las quitaron.** Queda un naranjo; la parada y la misión se apoyan ahora en él.
+- [ ] ⚠ **Nuevo:** que el naranjo esté en el punto de la parada; si tiene espinas; si se volverán a poner flores.
 
 **8 · El volcán**
 - [x] Si hay cuerda alrededor. → Postes y cuerda a lo largo del camino.
@@ -44,7 +45,8 @@ Llevad la app en el móvil, **en modo avión después de pulsar «Descargar la v
 
 **9 · Huellas de dinosaurio**
 - [ ] Medir una huella (a ojo, 40-60 cm) y contar cuántas hay; si forman un rastro en fila. (Son unas seis o siete losas; dos van en fila.)
-- [x] Si las de la foto 91 (dedos largos y finos) imitan a un terópodo. → Sí (foto 31 del 16-oct). Además, una losa tiene surcos largos y paralelos: no se sabe qué representa.
+- [x] Si las de la foto 91 (dedos largos y finos) imitan a un terópodo. → Sí (foto 31 del 16-oct).
+- [ ] **Nuevo:** qué representa la losa de surcos largos y paralelos (foto 29 del 16-oct): ¿la cola o un dinosaurio nadando?
 
 **10 · Segundos dinosaurios**
 - [x] ⚠ Si se ve la garra en hoz del dromeosaurio desde el camino (la misión la busca). → Se ve de cerca y desde el camino peor.
@@ -55,16 +57,16 @@ Llevad la app en el móvil, **en modo avión después de pulsar «Descargar la v
 - [x] Si los cactus del jardín son chumberas (*Opuntia*). → Sí, más algunos cactus de columna.
 
 **Nuevo · Suricatas** (entre la 11 y la 12)
-- [ ] Si van en la parada 12 o aparte; si tendrán cartel.
+- [x] Si van en la parada 12 o aparte. → En la 12 (Álvaro).
 
 **12 · Huellas de Laetoli**
 - [ ] ⚠ Si el parque deja pisar la losa; mientras, la misión se hace desde el borde: que se llegue sin cruzar cuerdas. (No hay cuerda.)
 - [ ] Medir la losa.
 - [x] Las marcas borrosas de arriba a la izquierda, ¿son pisadas alisadas? → Hoy se ven dos rastros paralelos y claros, de unas cuatro huellas cada uno.
-- [ ] ⚠ **Nuevo:** si sigue la mano. En las fotos no se ve, y el guion la explica.
+- [x] ⚠ **Nuevo:** si sigue la mano. → Sigue (Álvaro), aunque en las fotos no se aprecia.
 
 **13 · Atapuerca**
-- [x] ⚠ ¿Uno o dos areneros?, ¿cuántos cuadrados? → **Tres areneros**, de 3 × 3 = 9 cuadros cada uno.
+- [x] ⚠ ¿Uno o dos areneros?, ¿cuántos cuadrados? → **Tres areneros**, de 4 × 4 = 16 cuadros cada uno, como el del juego.
 - [ ] ⚠ ¿Cualquier visitante puede excavar y hay pinceles? (si no, se quita una frase de la explicación). (No se ven pinceles.)
 - [ ] Qué hay enterrado normalmente (en mayo había dinosaurios de juguete).
 
@@ -83,8 +85,8 @@ Llevad la app en el móvil, **en modo avión después de pulsar «Descargar la v
 - [x] ⚠ Si hay manos pintadas en la cueva. → **Sí:** siete en negativo y dos en positivo, en la pared de los signos. El párrafo puede empezar por «Buscad las manos».
 
 **17 · Poblado nómada**
-- [x] ⚠ Siguen las tres tiendas (la de ramas y la piel de la del centro salen en el texto). → **Cambia:** son cuatro refugios (dos tipis, el cono de ramas y un refugio en A de ramas y cañas). La «piel» del tipi es una tela estampada que la imita.
-- [x] Si se puede entrar en ellas; si hay un hogar. → Hay un hogar delante de un tipi; uno de los tipis está abierto.
+- [x] ⚠ Siguen las tres tiendas (la de ramas y la piel de la del centro salen en el texto). → Siguen: dos de lona con «piel» y una de ramas (Álvaro). La «piel» es una tela estampada que la imita.
+- [ ] Si se puede entrar en ellas; si el hogar que se ve junto a una tienda (foto 105 del 16-oct) es de este campamento.
 
 **Parada secreta (el pozo de la X)**
 - [x] ⚠ Que sigan siendo **dos** palos cruzados, y que se cuenten bien desde el camino. → Siguen siendo dos. Desde el costado se tapan uno al otro.
@@ -92,7 +94,8 @@ Llevad la app en el móvil, **en modo avión después de pulsar «Descargar la v
 
 **18 · Poblado sedentario**
 - [x] ⚠ Siguen las cuernas de ciervo sobre la puerta (la misión las usa); de qué es la cortina. → Siguen, y son de verdad. La cortina es una piel sintética de leopardo (que el texto no diga de qué es: el leopardo no vivía en la Europa del Neolítico).
-- [ ] Corral, secadero, «casa de todos», merendero, fuego: ¿cuáles existen? (Hay un hogar con asador, dos cabañas (una redonda y otra cuadrada), una empalizada y un armazón de palos, que puede ser un secadero o un corral.)
+- [x] Corral, secadero, «casa de todos», merendero, fuego: ¿cuáles existen? → Un hogar con asador, dos cabañas (una redonda y otra cuadrada), una empalizada y un **establo para el ganado** (el armazón de palos).
+- [ ] **Nuevo:** qué son las dos losas grandes, el tronco y el marco de madera vacío junto al camino (foto 111 del 16-oct).
 
 **19 · Pinturas del Sáhara y Laja Alta**
 - [x] ⚠ Siguen siendo tres jirafas (respuesta de la misión). → Sí.
@@ -104,8 +107,9 @@ Llevad la app en el móvil, **en modo avión después de pulsar «Descargar la v
 - [x] La calabaza de adorno de cuello largo. → No sale en las fotos; junto a la entrada hay una vasija con tapa de piel.
 
 **21 · Stonehenge**
-- [ ] ⚠ Si se puede entrar en el círculo; si está completa o en ruinas; si está orientada hacia la salida del sol del solsticio de verano. (**En obras:** dos trilitos acabados y el resto, armazones que ya dibujan el círculo; hoy se camina entre ellos.)
-- [ ] Escala; si tiene la Piedra del Altar.
+- [x] ⚠ Si se puede entrar en el círculo; si está completa o en ruinas; si está orientada hacia la salida del sol del solsticio de verano. → **En obras hasta principios de 2027:** hasta entonces se ve desde lejos, sin entrar. Terminada, se podrá entrar, estará completa y orientada, y será de color de piedra grisácea.
+- [x] Si tiene la Piedra del Altar. → La tendrá, y también la del Talón.
+- [ ] Escala.
 
 ## La app, en el sitio
 

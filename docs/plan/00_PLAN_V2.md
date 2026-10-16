@@ -51,19 +51,24 @@
 **Hecho el 27-sep (mañana):** lote 7 bis integrado (mitos sin cruz; Laetoli con dos rastros); frase de inicio del juego de la 7 corregida; audio a tasa variable (VBR q7): la descarga baja de 49,5 a 39,7 MB sin regenerar nada.
 
 **16-oct-2026: visita de Álvaro al parque (157 fotos).** Análisis en `docs/PARQUE_16-OCT-2026.md`; `docs/COMPROBAR_EN_EL_PARQUE.md` marcado con lo que queda resuelto.
-- **Cosas que han cambiado y desfasan textos ya grabados:**
-  - el poblado nómada tiene cuatro refugios y un hogar;
-  - en Atapuerca hay tres areneros de 3 × 3;
+- **Cosas que han cambiado** (corregidas con Álvaro por la tarde):
+  - en Atapuerca hay tres areneros de 4 × 4;
   - las araucarias de la 5 son demasiado finas para abrazarlas;
-  - en Laetoli no se ve la mano;
+  - las flores de la 6 se quitaron, y queda un naranjo;
   - la lona con el nombre del parque está en la zona techada de la entrada;
-  - Stonehenge está en obras.
+  - Stonehenge está en obras hasta principios de 2027; hasta entonces no se entra.
 - **Elementos nuevos:** suricatas entre la 11 y la 12, zona de desayunos y bóvedas de talleres.
-- **Museo:** está inventariado entero, con sus cartelas. Sus errores y especulaciones van en una fe de erratas.
+- **Museo:** está inventariado entero, con sus cartelas. Sus errores y especulaciones van en una fe de erratas: **la app no los repite** (Álvaro).
+- **Hecho esa tarde:**
+  - parada 1 reescrita: ya no usa la lona; explica la visita y la app;
+  - suricatas en la 12;
+  - la 6, apoyada en el naranjo;
+  - misiones y frases corregidas en 1, 4, 5, 6, 9, 12, 13, 15, 16, 18 y 21.
+  - **Quince pistas sin regrabar**, que suenan con la voz del navegador hasta que haya créditos (lista en `docs/PARQUE_16-OCT-2026.md`).
 - **Siguiente:**
-  - Álvaro va a revisar a fondo los juegos y las misiones;
+  - Álvaro va a revisar a fondo los juegos y las misiones, y decidirá el juego y la misión de la parada 1;
   - la parte de público general sigue verde;
-  - las regrabaciones esperan a que recargue créditos de ElevenLabs.
+  - regrabar todo de una vez después de esa revisión, cuando recargue créditos de ElevenLabs.
 
 **Pendiente (27-sep):** ~~push de Álvaro~~ (hecho) · escuchar nombres propios que no están en la tabla de pronunciación · decidir el narrador y el plan de pago de ElevenLabs (licencia comercial) antes de los audios definitivos · los [VERIFICAR] que solo se resuelven en el parque · provisionales dibujados en SVG: el árbol (5), Pangea (8) y la casa (20) · probar la visita entera en el parque con un iPhone y un Android.
 

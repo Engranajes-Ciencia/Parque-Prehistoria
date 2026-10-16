@@ -6,8 +6,8 @@
 
 **Qué hay en la parada** (según las fotos 78-82, del 13-may-2026): un **arenero de arena anaranjada con marco de tablas de madera**. Unas **cuerdas claras**, atadas a armellas del marco, lo dividen en una **cuadrícula de cuadrados grandes** (a ojo, de más de medio metro de lado). Hay niños excavando con **pinceles de pelo y brochas**. Lo que asoma de la arena son **esqueletos de dinosaurio de juguete** (uno rosa y otro verde claro, de plástico) y un **hueso blanco**, también de juguete. Dudas marcadas con **[VERIFICAR: …]**:
 
-- **[VERIFICAR: el encargo habla de DOS areneros; en las fotos solo se distingue uno con seguridad. ¿Son iguales?]**
-- **[VERIFICAR: cuántos cuadrados tiene cada arenero; en las fotos no se ve entero.]**
+- **Resuelto (16-oct-2026):** hay **tres areneros iguales**.
+- **Resuelto (16-oct-2026, Álvaro):** cada uno tiene una cuadrícula de **cuatro por cuatro**, dieciséis cuadrados, como el arenero del juego.
 - **[VERIFICAR: si cualquier visitante puede excavar y si hay pinceles a su disposición, o si en las fotos era una actividad con monitor.]**
 - **[VERIFICAR: qué hay enterrado de ordinario. En mayo de 2026, dinosaurios de juguete: un yacimiento de dinosaurios, no uno como los de Atapuerca. El guion lo aprovecha sin depender de ello.]**
 
@@ -17,7 +17,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ## Para todos (7 años en adelante) — voz del narrador
 
-> Mirad estos dos areneros: representan un yacimiento, un lugar donde la tierra ha guardado restos del pasado. Huesos, dientes, herramientas de piedra, sobras de comida… Todo fue quedando tapado, capa sobre capa, y por eso lo más antiguo suele estar más abajo.
+> Mirad estos tres areneros: representan un yacimiento, un lugar donde la tierra ha guardado restos del pasado. Huesos, dientes, herramientas de piedra, sobras de comida… Todo fue quedando tapado, capa sobre capa, y por eso lo más antiguo suele estar más abajo.
 >
 > El más famoso de España está en la Sierra de Atapuerca, cerca de Burgos. Algunas de sus cuevas, llenas de tierra, quedaron a la vista por casualidad hace más de cien años, cuando se abrió una zanja enorme en la roca para que pasara un tren.
 >
@@ -57,7 +57,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > Ahora elegid un cuadrado y buscad en él solo con los ojos: ¿asoma algo? **[VERIFICAR: que el visitante libre pueda excavar y tenga pinceles; si no, quitar la frase siguiente]** Si podéis excavar, hacedlo dentro de vuestro cuadrado, con el pincel y sin mover las cuerdas. ¡Y al terminar, dejadlo todo como estaba para los siguientes exploradores!
 
-Se responde tocando «¡Hecho!». No hay número que comprobar (no sé cuántos cuadrados tiene cada arenero): lo que importa es que miren la cuadrícula como la miraría un arqueólogo, un cuadrado cada vez, y que busquen antes de tocar. Prepara el reto, donde cada hallazgo se apunta con su casilla. La misión funciona igual si no se puede excavar: basta con contar y mirar. Nadie cruza ninguna cuerda: las del arenero son la propia cuadrícula, y se pide expresamente no moverlas.
+Se responde tocando «¡Hecho!». No hay número que comprobar (son dieciséis por arenero, cuatro por cuatro, como en el juego): lo que importa es que miren la cuadrícula como la miraría un arqueólogo, un cuadrado cada vez, y que busquen antes de tocar. Prepara el reto, donde cada hallazgo se apunta con su casilla. La misión funciona igual si no se puede excavar: basta con contar y mirar. Nadie cruza ninguna cuerda: las del arenero son la propia cuadrícula, y se pide expresamente no moverlas.
 
 ---
 

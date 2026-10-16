@@ -30,7 +30,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 *≈ 375 palabras · ≈ 2 min 30 s.*
 
-*Recortado para no pasar de 380: el amonites es también el logo del cartel de la entrada del parque (foto 64). Si sobra hueco, «Ahora, el fósil enrollado: un amonites, el mismo del cartel de la entrada» es un buen ancla para las familias **[VERIFICAR: que el cartel sigue siendo ese]**.*
+*Recortado para no pasar de 380: el amonites es también el logo del cartel de la entrada del parque (foto 64). Si sobra hueco, «Ahora, el fósil enrollado: un amonites, el mismo del cartel de la entrada» es un buen ancla para las familias (16-oct-2026: el cartel sigue siendo ese, ahora en la zona techada de la entrada; la parada 1 ya no lo usa).*
 
 ---
 
@@ -132,7 +132,7 @@ Se responde tocando «¡Hecho!». No hay número que comprobar: en las fotos, la
 | Convivencia con los trilobites | de ~409 a 252 Ma: unos 157 Ma, «más de ciento cincuenta». En el Devónico los trilobites aún eran variados; después fueron menguando | cálculo |
 | La aguantaron por poco | al final del Pérmico solo sobrevivieron unas pocas líneas de amonites, de las que vienen todos los posteriores; y al final del Triásico, otra vez, solo un puñado de géneros | Wikipedia, *Ammonoidea* |
 | Desaparecieron con los grandes dinosaurios | extinción de finales del Cretácico, 66 Ma. Algunos pudieron durar muy poco más, en el Paleoceno inicial; «hasta el final de los grandes dinosaurios» vale. «Grandes» porque las aves también son dinosaurios, como en la parada 7 | Machalski y Heinberg (2005, *Bulletin of the Geological Society of Denmark*); Landman et al. (2014, *Geology*) |
-| El amonites del cartel | el logo del cartel de la entrada es un amonites verde azulado (foto 64, dic-2024) **[VERIFICAR: que el cartel sigue siendo ese]** | foto 64 |
+| El amonites del cartel | el logo del cartel de la entrada es un amonites verde azulado (foto 64, dic-2024; 16-oct-2026: sigue siendo ese, pero la lona cuelga ahora en la zona techada de la entrada y la parada 1 ya no la usa) | foto 64 |
 | Cómo se forma un fósil | el texto lo cuenta como un caso («un amonites muere…»), no como lo que les pasaba a todos: casi ninguno llegaba a fósil. Enterramiento rápido en sedimento fino; lo blando se descompone; lo duro puede conservarse por relleno o sustitución mineral, o como molde. En los amonites, la concha de aragonito a menudo se disuelve o se transforma en calcita o pirita | manuales de paleontología |
 | Casi ningún ser vivo llega a fósil | solo una fracción ínfima se fosiliza; las estimaciones varían mucho, por eso el texto no da cifra | — |
 | Cuando aparecieron los amonites, la vida ya había salido del agua | plantas terrestres desde ~470 Ma; el milpiés *Pneumodesmus*, que respiraba aire, tiene ~425 Ma o ~414 según la datación; el chert de Rhynie, Escocia, de ~407-411 Ma, conserva un ecosistema terrestre con plantas, hongos y artrópodos: de la época de los primeros amonites. «Ya no lo estaba tanto», y no «estaba llena»: aún no había vertebrados en tierra | Rubinstein et al. (2010); Wilson y Anderson (2004, *Journal of Paleontology*); Parry et al. (2011, *Journal of the Geological Society*) y Mark et al. (2011) para la edad de Rhynie |

@@ -2,6 +2,8 @@
 
 *Borrador 1 · 26-sep-2026 · pendiente de revisión de Álvaro*
 
+**16-oct-2026 (fotos de Álvaro):** hay huellas de los dos tipos: de **tres dedos cortos y anchos** (ornitópodo) y de **dedos largos y finos** (terópodo). Por eso la pregunta del primer párrafo ya no es «¿carnívoro o herbívoro?», sino cuáles son de cada uno. **[VERIFICAR: qué representa la losa de surcos largos y paralelos (foto 29 del 16-oct, `PXL_20261016_075252676.jpg`); el «¿Sabías que…?» dice que la marca de la cola casi nunca aparece.]**
+
 **Qué hay en la parada** (según las fotos 90-91 de mayo de 2026, `PXL_20260513_100146013.jpg` y `PXL_20260513_100156325.jpg`, y las de la flor, 86-87): **icnitas**, huellas de dinosaurio modeladas en losas de mortero blanco crema, a ras de un suelo de arcilla agrietada, entre el volcán pintado y la **flor gigante**. En la numeración antigua no eran una parada propia: las citaba de pasada el guion de la parada 8 (el volcán). Dudas marcadas con **[VERIFICAR: …]**.
 
 Lo que se ve en las fotos:
@@ -26,7 +28,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > ¿Cómo dura una pisada tanto tiempo? Pensad en vuestras huellas en la arena mojada: la primera ola las borra. Casi siempre empieza igual: el dinosaurio pisa barro blando, junto a un lago o al mar. El sol lo seca y lo endurece. Otra capa lo tapa sin borrar la huella, y con el tiempo todo se vuelve roca. Millones de años después, la lluvia y el viento se llevan la roca de encima, y la huella vuelve a ver el sol.
 >
-> Ahora, a leerla. Primero, los dedos. Tres dedos finos, acabados en garra: un terópodo, un carnívoro de dos patas. Tres dedos anchos y redondeados: un ornitópodo, un herbívoro con pico. Una huella redonda y enorme, como de elefante: un saurópodo, de cuello largo. ¿Y las de aquí? Mirad sus dedos. ¿Carnívoro o herbívoro?
+> Ahora, a leerla. Primero, los dedos. Tres dedos finos, acabados en garra: un terópodo, un carnívoro de dos patas. Tres dedos anchos y redondeados: un ornitópodo, un herbívoro con pico. Una huella redonda y enorme, como de elefante: un saurópodo, de cuello largo. ¿Y las de aquí? Mirad sus dedos: ¿cuáles son de carnívoro y cuáles de herbívoro?
 >
 > Después, los pasos. Si son muy largos para el tamaño del pie, el animal corría; si son cortos, paseaba. Así se estima su velocidad. En La Rioja hay rastros de carnívoros que pudieron correr a unos cuarenta y cinco kilómetros por hora, como el hombre más rápido del mundo. Varios rastros juntos, en la misma dirección, probablemente son de un grupo.
 >

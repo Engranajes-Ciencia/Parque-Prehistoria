@@ -2,6 +2,8 @@
 
 *Renumerada el 26-sep-2026: antes era la parada 15. Las referencias a otras paradas en las notas usan todavía la numeración antigua.*
 
+**16-oct-2026 (fotos de Álvaro):** **hay manos**: en la pared de los signos, siete en negativo, con su halo oscuro, y dos pequeñas en positivo, rojas. El párrafo de las manos empieza ahora por «Buscad las manos pintadas» y la misión las cuenta. Las pinturas son copias hechas por Xomi, un artista local (lo dice un cartel de la cueva). Los carteles de la cueva tienen afirmaciones que la app no repite: ver la fe de erratas de `docs/PARQUE_16-OCT-2026.md`.
+
 *Borrador 1 · 25-sep-2026 · pendiente de revisión de Álvaro*
 
 **Qué hay en la parada** (según las fotos 34-39, de diciembre de 2024): una **reproducción de cueva**, con las paredes de espuma rugosa pintadas con copias de arte paleolítico:
@@ -30,7 +32,7 @@ Dudas marcadas con **[VERIFICAR: …]**. Los textos van **tal como se leerán en
 >
 > Los colores salían de la tierra. El rojo y el amarillo, del ocre, una tierra rica en hierro. El negro, del carbón de la hoguera o de un mineral oscuro. Lo molían, lo mezclaban con agua y pintaban a la luz de antorchas o de lámparas de piedra que quemaban grasa de animal.
 >
-> A veces ni siquiera usaban pincel. Apoyaban la mano en la roca, se llenaban la boca de pintura y la soplaban alrededor. Al retirar la mano, quedaba su silueta rodeada de color: una mano en negativo. **[VERIFICAR: que haya manos en la cueva; si las hay, se puede empezar el párrafo con «Buscad las manos pintadas»]** Algunas manos son antiquísimas. Una, de la cueva de Maltravieso, en Cáceres, tendría más de sesenta y seis mil años, de cuando en la península solo vivían neandertales. Si es así, la pintó uno de ellos. Los científicos aún lo discuten.
+> Buscad las manos pintadas. Para hacerlas, ni siquiera usaban pincel. Apoyaban la mano en la roca, se llenaban la boca de pintura y la soplaban alrededor. Al retirar la mano, quedaba su silueta rodeada de color: una mano en negativo. Algunas manos son antiquísimas. Una, de la cueva de Maltravieso, en Cáceres, tendría más de sesenta y seis mil años, de cuando en la península solo vivían neandertales. Si es así, la pintó uno de ellos. Los científicos aún lo discuten.
 >
 > Y ahora, lo más extraño: buscad un ser con cuerpo de bisonte y piernas de persona. Está copiado de la cueva de los Tres Hermanos, también en Francia. Un animal así nunca ha existido. ¿Es un cazador disfrazado, un brujo, un espíritu? No lo sabemos. Sabemos que estas pinturas significaban algo. Lo que no sabemos es qué.
 >
@@ -62,7 +64,7 @@ Dudas marcadas con **[VERIFICAR: …]**. Los textos van **tal como se leerán en
 
 > ¡Entrad en la cueva despacito y sin tocar las paredes, que las pinturas se estropean!
 >
-> Ahora, buscad y contad: ¿cuántos caballos veis? ¿Y leones? ¿Y rinocerontes? Y lo más difícil: ¿dónde se esconde el ser que es mitad persona y mitad animal?
+> Ahora, buscad y contad: ¿cuántos caballos veis? ¿Y leones? ¿Y rinocerontes? ¿Y manos? Y lo más difícil: ¿dónde se esconde el ser que es mitad persona y mitad animal?
 
 Se responde tocando «¡Hecho!», como en la parada 7. **No se comprueba ningún número**: los leones de Chauvet son sobre todo cabezas montadas unas sobre otras, los rinocerontes se solapan y cada uno contará distinto; lo que importa es que miren despacio y hablen de lo que ven. Con las fotos no he podido dar una cuenta fiable (son parciales). Si más adelante se quiere pedir un número, habría que contarlos en el parque **[VERIFICAR]**.
 

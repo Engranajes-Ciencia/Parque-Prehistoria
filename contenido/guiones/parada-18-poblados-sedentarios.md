@@ -2,6 +2,8 @@
 
 *Renumerada el 26-sep-2026: antes era la parada 17. Las referencias a otras paradas en las notas usan todavía la numeración antigua.*
 
+**16-oct-2026 (fotos de Álvaro y lo que contó):** hay **dos cabañas**. La redonda tiene las **cuernas de ciervo de verdad** sobre la puerta y una piel sintética de leopardo por cortina (el texto no dice de qué es: el leopardo no vivía en la Europa del Neolítico); la cuadrada, una cortina de arpillera. Dentro de la redonda hay un cráneo de vaca de cuernos negros en el poste: por eso la misión dice ahora «la cabaña redonda», para que nadie conteste mirando el que no es. Hay además un **hogar con asador**, una empalizada y un **armazón de palos que es un establo para el ganado** (Álvaro), que el texto podría usar cuando se regrabe.
+
 *Borrador 1 · 25-sep-2026 · pendiente de revisión de Álvaro*
 
 **Qué hay en la parada** (según las fotos 43-46, de dic-2024): un **pozo** de piedra gris con **dos palos cruzados en X** y atados con cuerda en lo alto (no es un trípode: corregido el 26-sep mirando las fotos 43-44), una cuerda que baja y, sobre el brocal, un travesaño y un cuenco de madera. Detrás, una **cabaña** de planta casi redonda: **postes de madera, paredes de ramas de brezo y techo de ramaje**, con dos palos a la entrada rematados con **cuernas de ciervo** y una **cortina** en la puerta. Alrededor, una **empalizada** de troncos verticales con un hueco de paso. Se ven también un banco bajo de madera, unos bloques de piedra junto a la cabaña y, a la derecha de la foto 43, un **cobertizo de postes con techo de cañizo**. Dudas marcadas con **[VERIFICAR: …]**:
@@ -51,7 +53,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 > ¡Buscad en el poblado tres cosas que no se podrían llevar en una mudanza! Una pista: son muy pesadas o están metidas en el suelo.
 >
-> Y ahora, mirad encima de la puerta de la cabaña. ¿De qué animal son esas cuernas? ¿De uno de granja… o de uno salvaje?
+> Y ahora, mirad encima de la puerta de la cabaña redonda. ¿De qué animal son esas cuernas? ¿De uno de granja… o de uno salvaje?
 
 Se responde tocando «¡Hecho!». No hay respuesta que comprobar, pero lo que se busca es: **el pozo, la cabaña firme y la empalizada** (vale también el banco o cualquier cosa pesada y fija). Las **cuernas son de ciervo**, un animal salvaje: los primeros agricultores no dejaron de cazar. Todo se hace mirando desde fuera; no hace falta entrar en la cabaña ni tocar nada.
 

@@ -2,6 +2,8 @@
 
 *Renumerada el 26-sep-2026: antes era la parada 20. Las referencias a otras paradas en las notas usan todavía la numeración antigua.*
 
+**16-oct-2026, Álvaro:** la réplica **está en obras** y se terminará hacia **principios de 2027**. Hoy hay dos trilitos acabados (en espuma amarilla, aún sin pintar) y el resto son armazones. **Mientras tanto se ve desde lejos, pero no se entra.** Cuando esté lista **se podrá entrar**, estará **orientada** a la salida del sol del solsticio de verano, tendrá **Piedra del Altar y Piedra del Talón** y será de **color de piedra grisácea**. La misión dice ya «desde fuera»; cuando se pueda entrar, se puede quitar. Cuando esté orientada, se puede añadir «mirad hacia allí: por ahí sale el sol el día más largo». Resuelve las dudas de abajo, menos la de la escala.
+
 *Borrador 1 · 25-sep-2026 · última parada del recorrido · pendiente de revisión de Álvaro*
 
 **Qué hay en la parada** (no hay fotos de esta parada; solo el dibujo del mapa `Mapa e imágenes de parque/Mapa/Versión final con números.png`, que es una ilustración y no un retrato de la réplica): una **réplica de Stonehenge**, un círculo de piedras en pie con piedras tumbadas encima (los dinteles). Dudas marcadas con **[VERIFICAR: …]**.
@@ -53,7 +55,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Buscad las piedras que llevan otra tumbada encima, como una puerta de gigantes! ¿Cuántas encontráis? Contadlas sin tocarlas y sin subiros. **[VERIFICAR: si no se puede entrar en el círculo, añadir «desde fuera».]**
+> ¡Buscad las piedras que llevan otra tumbada encima, como una puerta de gigantes! ¿Cuántas encontráis? Contadlas desde fuera, sin tocarlas y sin subiros.
 >
 > Ahora, ¡haced la vuestra! Dos exploradores de pie, uno frente al otro, juntan las manos por arriba: esa es la piedra de encima. ¿Cabe alguien por debajo?
 

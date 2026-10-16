@@ -2,6 +2,8 @@
 
 *Borrador 1 · 26-sep-2026 · pendiente de revisión de Álvaro*
 
+**16-oct-2026 (fotos de Álvaro):** siguen las dos columnas (unos tres metros la alta y metro y medio la baja) y las dos losas del suelo, con una cuerda delante. **Nuevo:** junto al Tiktaalik, una piedra gris pequeña con el esqueleto de un animal de **cuatro patas con dedos** y cola. No es un fósil de Tiktaalik, aunque se pueda tomar por uno: Tiktaalik tenía aletas, no patas con dedos, y sus pocos fósiles, del Ártico canadiense, no se venden. Parece una figura decorativa. Por eso la misión dice ahora «el pez de la losa verde» y no «el pez del suelo», que podía confundirse con ella.
+
 **Qué hay en la parada** (según las fotos 6-7, de diciembre de 2024; 71, de abril de 2025; y 103-106, de mayo de 2026): **dos columnas blancas, altas y muy rugosas**, como troncos hechos de grumos, los **Prototaxites**. Una es claramente más alta que la otra; las dos se apoyan en piedras. En la foto de abril de 2025 están dentro de un parterre con plantas y rocas, a unos metros del camino. **Alturas (Álvaro, 26-sep):** una algo menos de un metro y medio y la otra algo menos de tres metros. **[VERIFICAR: si se puede llegar hasta ellas o solo se ven desde el camino; en las fotos no hay cuerda.]**
 
 Justo al lado (a su izquierda, según Álvaro), **dos fósiles planos a ras de suelo**, entre la hierba, casi tocándose:
@@ -52,7 +54,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Buscad el pez del suelo, sin pisarlo! ¿Dónde tiene los ojos: a los lados, como casi todos los peces, o encima de la cabeza, como los cocodrilos?
+> ¡Buscad el pez de la losa verde, sin pisarlo! ¿Dónde tiene los ojos: a los lados, como casi todos los peces, o encima de la cabeza, como los cocodrilos?
 >
 > Ahora mirad la columna blanca más alta. ¿Cuántos exploradores, uno encima de otro, harían falta para llegar arriba? ¡Para los más grandes de verdad, harían falta unos siete!
 

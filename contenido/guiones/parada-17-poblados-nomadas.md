@@ -2,6 +2,8 @@
 
 *Numeración nueva (26-sep-2026). En los textos antiguos (`pages.json`, `README.md`) y en la clasificación de fotos es la parada 16.*
 
+**16-oct-2026, Álvaro:** siguen **tres refugios**: dos tiendas de lona con «piel» y uno de ramas. La «piel» es una **tela estampada** que la imita, no una piel de verdad (el texto no dice de qué es). En las fotos se ve un hogar de cantos con leña junto a una de las tiendas (foto 105 del 16-oct) **[VERIFICAR: que sea de este campamento; si lo es, se puede usar la frase opcional del final cuando se regrabe]**. El refugio en A de ramas y cañas que sale en otras fotos queda junto al poblado sedentario.
+
 *Borrador 1 · 26-sep-2026 · pendiente de revisión de Álvaro*
 
 **Qué hay en la parada** (según las fotos 41-42, de diciembre de 2024): un campamento de **tres tiendas cónicas**, sobre la hierba, con un banco de troncos delante y árboles jóvenes alrededor. No son iguales:

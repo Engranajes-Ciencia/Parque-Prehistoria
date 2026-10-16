@@ -2,6 +2,10 @@
 
 *Borrador 1 · 26-sep-2026 · pendiente de revisión de Álvaro*
 
+**16-oct-2026 (fotos de Álvaro y lo que contó):** la losa sigue al pie del contenedor de Atapuerca, sin cuerda, con dos hileras de pisadas. **La mano sigue** (Álvaro), aunque en las fotos no se aprecia. En la pared del contenedor hay una lona con dos australopitecos. **Nuevo: dos suricatas**, una adulta de pie con una cría pegada, en escultura de piedra, junto al camino, entre la tortuga de la 11 y esta losa. El director las puso para enseñar que ponerse de pie no es exclusivo de los homínidos. **Álvaro decidió (16-oct) contarlas en esta parada.**
+
+**Rigor de las suricatas:** se yerguen para vigilar, pero corren a cuatro patas: ponerse de pie un rato es una postura, no es caminar de pie. Y son un animal de hoy: no dicen nada de cuándo apareció el bipedismo (otros mamíferos, como los canguros, se mueven sobre dos patas desde mucho antes que los homininos, pero saltando). Por eso el texto dice «caminar siempre sobre dos piernas es rarísimo entre los mamíferos», y no «único»: el pangolín terrestre de Temminck, por ejemplo, anda a menudo sobre las patas de atrás. Para hacer sitio salen la frase «Cómo se volvió roca la ceniza, ya lo visteis en las huellas de dinosaurio» y, del último párrafo, «El camino siguió» y «De ellos quedan huesos, dientes y herramientas, guardados en cuevas» (lo cuenta la parada 13).
+
 **26-sep, Álvaro:** la mano sigue en la losa, pero cree que fue un error incluirla (se puso para enseñar el pulgar oponible, y la gracia de Laetoli es el bipedismo). Como los visitantes la verán, el texto dice que **no es de Laetoli** y la usa solo como contraste: su pulgar separado es como el dedo gordo del pie de un chimpancé.
 
 **Qué hay en la parada** (según la foto 27, `PXL_20241218_093129850.jpg`, del 18-dic-2024; es la única foto de esta parada y no hay ninguna de 2026). En la numeración antigua era la **parada 11**. Dudas marcadas con **[VERIFICAR: …]**.
@@ -26,7 +30,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > El hallazgo empezó con una broma. En mil novecientos setenta y seis, unos científicos del equipo de Mary Leakey jugaban a tirarse boñigas secas de elefante. Uno se echó al suelo para esquivar una… y vio, delante de su nariz, huellas de animales en la roca. Dos años después aparecieron unas setenta pisadas de pies casi como los nuestros.
 >
-> Las huellas empezaron con un volcán, que cubrió la llanura de una ceniza muy fina. Cayó una lluvia suave, y la ceniza mojada se volvió como el cemento fresco de una acera. Por encima pasaron liebres, pájaros, antílopes, elefantes… Hasta las gotas de lluvia dejaron su marca. Cómo se volvió roca la ceniza, ya lo visteis en las huellas de dinosaurio.
+> Las huellas empezaron con un volcán, que cubrió la llanura de una ceniza muy fina. Cayó una lluvia suave, y la ceniza mojada se volvió como el cemento fresco de una acera. Por encima pasaron liebres, pájaros, antílopes, elefantes… Hasta las gotas de lluvia dejaron su marca.
 >
 > ¿Quién caminaba por allí? Probablemente, australopitecos de la especie de la famosa Lucy. Pero no son las huellas de Lucy: ella vivió en Etiopía, casi medio millón de años después.
 >
@@ -34,11 +38,13 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > Fijaos en la forma de las pisadas. El dedo gordo va en línea con los demás, como el vuestro. La mano de la esquina no es de Laetoli, pero sirve para comparar: mirad cómo se separa su pulgar. Así es el dedo gordo del pie de un chimpancé: agarra como una mano. Las pisadas de Laetoli tienen, además, arco en la planta, y probablemente apoyaban primero el talón. Caminaban erguidos, casi como nosotros.
 >
+> Ponerse de pie un rato no es tan raro: mirad las suricatas del camino, que se yerguen para vigilar. Pero corren a cuatro patas. Caminar siempre sobre dos piernas es rarísimo entre los mamíferos. Los de Laetoli ya lo hacían.
+>
 > Y, sin embargo, su cerebro era poco mayor que el de un chimpancé. Nos gusta pensar que lo que nos hizo humanos fue la cabeza. Laetoli dice que primero fueron los pies.
 >
-> El camino siguió. Más de dos millones de años después, unos humanos llegaron hasta lo que hoy es Burgos. De ellos quedan huesos, dientes y herramientas, guardados en cuevas. Os esperan en la siguiente parada: Atapuerca.
+> Más de dos millones de años después, unos humanos llegaron hasta lo que hoy es Burgos. Os esperan en la siguiente parada: Atapuerca.
 
-*≈ 380 palabras · ≈ 2 min 30 s.*
+*≈ 395 palabras · ≈ 2 min 30 s.*
 
 **Para el audio:** conviene escuchar cómo pronuncia la voz «Mary Leakey» y «Laetoli» (se dice *La-e-tó-li*). Si la voz duda, se puede escribir «Meri Líki» solo en el texto que se manda a ElevenLabs.
 

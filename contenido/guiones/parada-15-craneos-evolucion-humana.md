@@ -2,6 +2,8 @@
 
 *Borrador 1 · 26-sep-2026 · pendiente de revisión de Álvaro*
 
+**16-oct-2026 (fotos de Álvaro):** el museo, inventariado entero en `docs/PARQUE_16-OCT-2026.md`. Debajo del cráneo de *Homo sapiens* hay ahora una **piedra roja** (gossan de la mina de Cobre Las Cruces, según el director): por eso el texto ya no dice «el cráneo blanco de abajo del todo». **La app no repite los errores de las cartelas** (decisión de Álvaro, 16-oct): están en la fe de erratas de ese documento.
+
 *Numeración: parada 15 del recorrido de 21. En los textos antiguos (`src/locales/es/pages.json`, `README.md`) y en la clasificación de fotos era la 14. En estas notas, la «parada 14» es la de los neandertales y la «parada 16», la de la cueva, ya con la numeración nueva.*
 
 **26-sep, Álvaro:** el primer cráneo es de gorila; hay otro de chimpancé, y también de australopiteco, heidelbergensis, neandertal y *Homo sapiens*, entre otros que no recuerda. **El palo de madera con muescas es una imitación del hueso de Ishango**: por eso el «¿Sabías que…?» trata de él.
@@ -41,7 +43,7 @@ Los textos van **tal como se leerán en voz alta**: cifras con letras y frases c
 >
 > La evolución humana se parece más a un arbusto: muchas ramas que crecen a la vez, que a veces se cruzan y casi todas se secan. Hace unos sesenta mil años, en la Tierra convivían por lo menos cuatro clases de humanos. Nosotros, los neandertales, los denisovanos… y, en una isla de Asia, unos humanos de poco más de un metro. Hoy solo queda una rama: la nuestra. Estar solos, como ahora, es la excepción.
 >
-> Comparad. En el gorila y el chimpancé, la cara sale hacia delante como un hocico, con colmillos enormes y una visera de hueso sobre los ojos. Buscad luego el cráneo blanco de abajo del todo, en la vitrina de los neandertales: es de una persona de hoy. **[VERIFICAR: que siga ahí]** Frente recta. Cabeza alta y redonda, con un cerebro más de tres veces mayor que el de un chimpancé. Cara plana. Colmillos pequeños. Y algo que no tiene ningún otro cráneo de aquí: barbilla.
+> Comparad. En el gorila y el chimpancé, la cara sale hacia delante como un hocico, con colmillos enormes y una visera de hueso sobre los ojos. Buscad luego, en la vitrina de los neandertales, el cráneo blanco que hay justo encima de la piedra roja: es de una persona de hoy. Frente recta. Cabeza alta y redonda, con un cerebro más de tres veces mayor que el de un chimpancé. Cara plana. Colmillos pequeños. Y algo que no tiene ningún otro cráneo de aquí: barbilla.
 >
 > Ni siquiera el cerebro creció en fila: los neandertales lo tenían tan grande como el nuestro, y aquellos humanos de un metro, como el de un chimpancé.
 >
