@@ -49,3 +49,7 @@ herramientas/prueba-sin-red/perfil/
 # Muestras para comparar la calidad del audio de oído (no van a la app)
 _muestras_calidad/
 _muestras_voz_2026-10/
+
+# Notas internas de la visita del 16-oct (fe de erratas, lo que dijo el director): el repo es
+# PÚBLICO y no se publican. Solo en este PC (copia en _copias/).
+docs/PARQUE_16-OCT-2026.md
