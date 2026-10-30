@@ -4,19 +4,20 @@ import { dichoDelReto, type Dicho } from "../contenido/guion";
 import type { ContenidoParada } from "../contenido/paradas";
 
 // Parada 5, reto para mayores: las cinco diferencias. Arriba, el bosque de la portada (su mitad
-// de abajo); debajo, la misma imagen con cinco cosas que entonces no existían, pegadas el 30-oct
-// con dibujos de otras paradas (flor, abeja y cereza de la 6; pájaro y mamífero de la 10). Las zonas, en unidades de las imágenes (800×640 cada una), valen en las dos: como en
+// de abajo); debajo, la misma imagen con cinco cosas que entonces no existían: los intrusos del
+// lote 8 (I1 a I5, pintados como la portada), pegados encima el 30-oct. Nunca se redibuja la
+// portada entera: cambiaría detalles por todas partes y el juego tendría diferencias que no cuenta. Las zonas, en unidades de las imágenes (800×640 cada una), valen en las dos: como en
 // cualquier juego de diferencias, se puede tocar arriba o abajo.
 
 const ALTO = 640;
 const COPIA = ALTO + 20; // la copia empieza 20 unidades más abajo
 
 const COSAS: { id: string; nombre: string; x: number; y: number; width: number; height: number }[] = [
-  { id: "flor", nombre: "La flor", x: 216, y: 439, width: 84, height: 82 },
-  { id: "cereza", nombre: "La cereza", x: 377, y: 30, width: 67, height: 82 },
-  { id: "pajaro", nombre: "El pájaro", x: 640, y: 392, width: 108, height: 106 },
-  { id: "abeja", nombre: "La abeja", x: 443, y: 326, width: 81, height: 79 },
-  { id: "raton", nombre: "El ratoncito", x: 291, y: 566, width: 126, height: 64 },
+  { id: "flor", nombre: "La flor", x: 214, y: 421, width: 90, height: 101 },
+  { id: "cereza", nombre: "Las cerezas", x: 370, y: 27, width: 76, height: 75 },
+  { id: "pajaro", nombre: "El pájaro", x: 646, y: 405, width: 94, height: 91 },
+  { id: "abeja", nombre: "La abeja", x: 443, y: 329, width: 80, height: 76 },
+  { id: "raton", nombre: "El ratoncito", x: 293, y: 548, width: 120, height: 80 },
 ];
 
 export default function DiferenciasDelBosque({ parada }: { parada: ContenidoParada }) {
@@ -41,7 +42,7 @@ export default function DiferenciasDelBosque({ parada }: { parada: ContenidoPara
       dibujo={
         <>
           <image href="img/p05/bosque.webp" width="800" height={ALTO} />
-          <image href="img/p05/bosque-copia.webp" y={COPIA} width="800" height={ALTO} />
+          <image href="img/p05/bosque-copia-b.webp" y={COPIA} width="800" height={ALTO} />
         </>
       }
       zonas={zonas}

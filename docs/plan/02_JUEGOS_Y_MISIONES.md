@@ -39,7 +39,7 @@
 
 **1 · Bienvenida**
 - **Misión (provisional):** buscar la parada 2 en el mapa y señalar hacia dónde queda.
-- **Juego (provisional), «El reloj del tiempo»:** ordenar cuatro tarjetas (microbios, trilobites, dinosaurios, personas pintando una cueva). Enseña el orden grande de la historia de la vida.
+- **Juego, «El reloj del tiempo»** (definitivo desde el 30-oct): ordenar cuatro tarjetas (microbios, trilobites, dinosaurios, personas pintando una cueva). Enseña el orden grande de la historia de la vida.
 - **A revisar:** los dos los decide Álvaro. El juego repite el motor de la 3.
 
 **2 · La laguna de Yellowstone**

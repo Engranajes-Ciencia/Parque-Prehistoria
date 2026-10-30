@@ -22,7 +22,7 @@
     - **el enlace**: la app vieja sigue en `…/Parque-Prehistoria/` y la nueva está en `…/Parque-Prehistoria/v2/`.
 - **Pendientes de regrabar:** las 16 pistas que cambiaron el 16-oct (ya va una).
   - La parada 7 y el saludo de Alba se grabaron el 25-sep con el plan gratuito, que no da licencia comercial. Se regraban enteros con el de pago.
-- **Voces nuevas (30-oct, decisión de Álvaro tras un casting de 12 muestras):** narradora **Eva Dorado** y **Alba** (su voz de siempre), las dos con **Eleven v4**, que suena más natural que el modelo anterior. Por eso se regraban **todas** las pistas, no solo las pendientes: unos 20.000 créditos (0,22 por carácter, medido). Muestras en `herramientas/_muestras_voz_2026-10/` (fuera de git).
+- **Voces nuevas (30-oct, decisión de Álvaro tras un casting de 12 muestras):** narradora **Eva Dorado** y **Alba** (su voz de siempre), las dos con **Eleven v4**, que suena más natural que el modelo anterior. Por eso se regraban **todas** las pistas, no solo las pendientes: unos 20.000 créditos (0,22 por carácter, medido). Muestras y página para escucharlo todo en `_muestras_voz_2026-10/` (fuera de git).
 - **ElevenLabs:** desde el 26-sep tiene un plan de pago (en un día se gastaron más de 51.000 créditos, imposible con el gratuito). El contador del periodo volvió a cero el 26-oct, y el 30-oct grabar funcionó. **Si al grabar se acaban los créditos, se le avisa por correo.**
 - **No se publica nada:** el repositorio del parque es público, y Álvaro tiene pendiente decidir qué hacer con las notas internas del 16-oct (`_GITHUB/PLAN_GITHUB.md` §10). Todo queda guardado en local, sin push, hasta que decida.
 
@@ -71,7 +71,7 @@
 **Dibujos:**
 - Los juegos nuevos usan las ilustraciones aprobadas: rompecabezas y diferencias salen de las portadas; intrusos, flechas y memory, de las piezas de cada parada.
 - Los objetos «de risa» son emojis del propio móvil: no hacen falta dibujos nuevos ni licencias.
-- Lo que va con emoji o con montaje provisional tiene su encargo para ChatGPT: **lote 8** en `arte/00_INSTRUCCIONES_PARA_CHATGPT.md` (los cinco intrusos del bosque de la 5 y las tarjetas de la 10 y la 17).
+- **Lote 8** de ChatGPT (los cinco intrusos del bosque de la 5 y las tarjetas de la 10 y la 17): hecho, revisado e integrado el 30-oct.
 
 ## Misiones: los criterios
 

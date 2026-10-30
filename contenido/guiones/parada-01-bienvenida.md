@@ -4,7 +4,7 @@
 
 **Qué hay en la parada** (16-oct-2026, por las fotos y lo que contó Álvaro): la **entrada del parque**. Junto a ella, una **zona techada** (tejado blanco, césped artificial, mesas plegables y bancos) donde desayunan los colegios. En su pared cuelga ahora la **lona blanca** con el nombre **«Parque de Ciencias Prehistóricas»** y el logo del amonites; antes estaba en la valla. El parque no tiene zona de comidas ni vende nada, y las familias no suelen comer allí: el texto no habla de comer.
 
-**Decisión de Álvaro (16-oct-2026):** la parada 1 **no usa la lona**. Explica en qué consiste la visita y cómo se usa la app, y anuncia que habrá misiones y juegos. **El juego («El reloj del tiempo») y la misión son provisionales:** Álvaro decidirá cuáles van aquí.
+**Decisión de Álvaro (16-oct-2026):** la parada 1 **no usa la lona**. Explica en qué consiste la visita y cómo se usa la app, y anuncia que habrá misiones y juegos. **El juego («El reloj del tiempo») y la misión se quedan como están:** lo decidió Álvaro el 30-oct-2026, tras la revisión de juegos y misiones.
 
 **Dudas que siguen abiertas:**
 - **[VERIFICAR: que el mapa de la v2 marque la parada 1 en la entrada]**, para la misión.
@@ -76,7 +76,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 > ¡Buscad en el mapa la parada dos! Está en la pantalla del recorrido. Ahora, señalad con el dedo hacia dónde queda… ¡y en marcha!
 
-**Misión provisional (16-oct-2026).** La de antes buscaba el amonites de la lona de la entrada; Álvaro decidió que la parada no use la lona, y él pensará la definitiva. Mientras, queda la segunda parte de la antigua, que no depende de nada del parque: orientarse con el mapa antes de echar a andar. Se responde tocando «¡Hecho!». **Respuesta:** hacia la charca de colores **[VERIFICAR: que desde la entrada se vea el camino hacia la parada 2]**.
+**Misión de 16-oct-2026, definitiva desde el 30-oct (Álvaro).** La de antes buscaba el amonites de la lona de la entrada; Álvaro decidió que la parada no use la lona. Queda la segunda parte de la antigua, que no depende de nada del parque: orientarse con el mapa antes de echar a andar. Se responde tocando «¡Hecho!». **Respuesta:** hacia la charca de colores **[VERIFICAR: que desde la entrada se vea el camino hacia la parada 2]**.
 
 ---
 
@@ -112,7 +112,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ## Reto para mayores: «La cinta del tiempo»
 
-*30-oct-2026. Juego para 7 años o más (`retos/CintaDelTiempo.tsx`). Provisional, como el resto de la parada 1, hasta que Álvaro decida.*
+*30-oct-2026. Juego para 7 años o más (`retos/CintaDelTiempo.tsx`). Álvaro dio por buenos el juego y la misión de esta parada el 30-oct.*
 
 **Qué se ve:** una cinta vertical a escala: arriba, la Tierra recién formada; abajo, hoy. Al lado, tres momentos para colocar. Se elige uno y se toca la cinta donde se cree que va; vale si cae cerca (un 8 % de la cinta arriba o abajo). Si no, Alba dice si es más antiguo o más reciente.
 

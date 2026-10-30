@@ -5,15 +5,16 @@ import type { ContenidoParada } from "../contenido/paradas";
 
 // Parada 10, reto para mayores: la extinción de hace 66 millones de años como un dominó de
 // causas y efectos, en seis tarjetas que se ordenan del 1.º al 6.º (en dos filas de tres:
-// seis huecos en una fila no caben en un móvil). Frases «Tarjeta N» del guion.
-const emoji = (e: string) => <span className="tarjeta-emoji" aria-hidden="true">{e}</span>;
+// seis huecos en una fila no caben en un móvil). Frases «Tarjeta N» del guion. Dibujos del
+// lote 8 (X1 a X6).
+const img = (n: number) => <img src={`img/p10/domino-${n}.webp`} alt="" draggable={false} />;
 const TARJETAS = [
-  { paso: 1, nombre: "Un asteroide choca contra la Tierra", dibujo: emoji("☄️") },
-  { paso: 2, nombre: "El polvo y el humo tapan el sol", dibujo: emoji("🌫️") },
-  { paso: 3, nombre: "Oscuridad y frío durante meses", dibujo: emoji("🥶") },
-  { paso: 4, nombre: "Las plantas dejan de crecer", dibujo: emoji("🥀") },
-  { paso: 5, nombre: "Los grandes herbívoros se quedan sin comida", dibujo: emoji("🦕") },
-  { paso: 6, nombre: "Los grandes carnívoros se quedan sin presas", dibujo: emoji("🦖") },
+  { paso: 1, nombre: "Un asteroide choca contra la Tierra", dibujo: img(1) },
+  { paso: 2, nombre: "El polvo y el humo tapan el sol", dibujo: img(2) },
+  { paso: 3, nombre: "Oscuridad y frío durante meses", dibujo: img(3) },
+  { paso: 4, nombre: "Las plantas dejan de crecer", dibujo: img(4) },
+  { paso: 5, nombre: "Los grandes herbívoros se quedan sin comida", dibujo: img(5) },
+  { paso: 6, nombre: "Los grandes carnívoros se quedan sin presas", dibujo: img(6) },
 ];
 // Desordenadas a mano (siempre igual: así las frases de ayuda valen para todos).
 const ORDEN_EN_PANTALLA = [4, 1, 6, 3, 5, 2];

@@ -94,7 +94,7 @@ Abajo, en la bandeja, las tres piezas en color: las raíces, el tronco y la copa
 
 *30-oct-2026. Juego para 7 años o más (motor `componentes/BuscaEnDibujo.tsx`, juego `retos/DiferenciasDelBosque.tsx`).*
 
-**Qué se ve:** dos dibujos, uno encima del otro: arriba, la mitad de abajo de la portada (el primer bosque, con el río, helechos, plantas de tallos en horquilla, musgo y un tronco caído); abajo, la misma imagen con cinco cosas que entonces no existían: una flor, una cereza colgando de un árbol, un pájaro sobre el tronco, una abeja volando y un ratoncito en el camino. Están hechas con dibujos de otras paradas (`img/p05/bosque.webp` y `bosque-copia.webp`).
+**Qué se ve:** dos dibujos, uno encima del otro: arriba, la mitad de abajo de la portada (el primer bosque, con el río, helechos, plantas de tallos en horquilla, musgo y un tronco caído); abajo, la misma imagen con cinco cosas que entonces no existían: una flor, dos cerezas colgando de un árbol, un petirrojo sobre el tronco, una abeja volando y un ratoncito en el camino. Son los dibujos del lote 8 (I1 a I5), pintados como la portada y pegados encima (`img/p05/bosque.webp` y `bosque-copia-b.webp`).
 
 **Cómo se gana:** tocando las cinco diferencias, arriba o abajo, como en cualquier juego de diferencias.
 
@@ -103,7 +103,7 @@ Abajo, en la bandeja, las tres piezas en color: las raíces, el tronco y la copa
 **Voz de Alba:**
 - Al empezar: «Un dibujante ha copiado este bosque de hace trescientos ochenta y cinco millones de años, pero se le han colado cinco cosas que entonces no existían. ¡Encuentra las cinco diferencias!»
 - La flor: «¡Una flor! Las primeras flores llegaron unos doscientos cincuenta millones de años más tarde. En aquel bosque, ni una.»
-- La cereza: «¡Una cereza! Los frutos vienen de las flores, así que tampoco había. Estos árboles no tenían ni semillas: tenían esporas.»
+- Las cerezas: «¡Cerezas! Los frutos vienen de las flores, así que tampoco había. Estos árboles no tenían ni semillas: tenían esporas.»
 - El pájaro: «¡Un pájaro! Las aves descienden de los dinosaurios, y los dinosaurios aún tardarían unos ciento cincuenta millones de años en aparecer.»
 - La abeja: «¡Una abeja! Los insectos con alas más antiguos que conocemos son decenas de millones de años posteriores. Y las abejas llegaron muchísimo después, con las flores.»
 - El ratoncito: «¡Un ratoncito! Los mamíferos tardaron más de ciento cincuenta millones de años en aparecer. Aquí no había ni un animal de pelo.»

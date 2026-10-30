@@ -16921,46 +16921,6 @@
   "fecha": "2026-10-30T18:52:12",
   "mp3": "mp3 vbr q7"
  },
- "p05-mayores-la-cereza": {
-  "archivo": "p05-mayores-la-cereza.05af7fe8.mp3",
-  "parrafos": [
-   "¡Una cereza! Los frutos vienen de las flores, así que tampoco había. Estos árboles no tenían ni semillas: tenían esporas."
-  ],
-  "frases": [
-   {
-    "texto": "¡Una cereza!",
-    "inicio": 0.0,
-    "fin": 0.96
-   },
-   {
-    "texto": "Los frutos vienen de las flores, así que tampoco había.",
-    "inicio": 1.52,
-    "fin": 5.68
-   },
-   {
-    "texto": "Estos árboles no tenían ni semillas: tenían esporas.",
-    "inicio": 5.8,
-    "fin": 9.84
-   }
-  ],
-  "duracion": 9.77,
-  "voz": "Alba Guía Prehistoria",
-  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
-  "modelo": "eleven_v4",
-  "ajustes": {
-   "stability": 0.5,
-   "similarity_boost": 0.75
-  },
-  "pausas": {
-   "frase": 0.5,
-   "pregunta": 1.0,
-   "parrafo": 0.9
-  },
-  "frases_por_trozo": 99,
-  "caracteres": 121,
-  "fecha": "2026-10-30T18:52:15",
-  "mp3": "mp3 vbr q7"
- },
  "p05-mayores-el-pajaro": {
   "archivo": "p05-mayores-el-pajaro.c88fde18.mp3",
   "parrafos": [
@@ -18914,6 +18874,46 @@
   "frases_por_trozo": 99,
   "caracteres": 139,
   "fecha": "2026-10-30T18:55:06",
+  "mp3": "mp3 vbr q7"
+ },
+ "p05-mayores-las-cerezas": {
+  "archivo": "p05-mayores-las-cerezas.a1732402.mp3",
+  "parrafos": [
+   "¡Cerezas! Los frutos vienen de las flores, así que tampoco había. Estos árboles no tenían ni semillas: tenían esporas."
+  ],
+  "frases": [
+   {
+    "texto": "¡Cerezas!",
+    "inicio": 0.0,
+    "fin": 0.88
+   },
+   {
+    "texto": "Los frutos vienen de las flores, así que tampoco había.",
+    "inicio": 1.36,
+    "fin": 4.96
+   },
+   {
+    "texto": "Estos árboles no tenían ni semillas: tenían esporas.",
+    "inicio": 5.44,
+    "fin": 9.52
+   }
+  ],
+  "duracion": 9.46,
+  "voz": "Alba Guía Prehistoria",
+  "voice_id": "OOHm6M5O6WPl7E4nAqyE",
+  "modelo": "eleven_v4",
+  "ajustes": {
+   "stability": 0.5,
+   "similarity_boost": 0.75
+  },
+  "pausas": {
+   "frase": 0.5,
+   "pregunta": 1.0,
+   "parrafo": 0.9
+  },
+  "frases_por_trozo": 99,
+  "caracteres": 118,
+  "fecha": "2026-10-30T19:29:20",
   "mp3": "mp3 vbr q7"
  }
 }

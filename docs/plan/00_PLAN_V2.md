@@ -73,7 +73,7 @@
 
 **30-oct-2026: retos por edad, misiones nuevas y voces definitivas** (encargo de Álvaro; plan, tabla y criterios en `docs/plan/03_RETOS_POR_EDAD_Y_MISIONES.md`):
 - **Dos retos por parada:** el de peques (4-6) y uno para mayores (7+), los 21. La parada enseña el del modo elegido y enlaza el otro; la pegatina vale con cualquiera. Motores nuevos: cinta del tiempo, rompecabezas, test, intrusos, flechas, memory, laberinto y linterna, más juegos a medida (oxidación, polen por especies, zancadas, excavación con cuaderno, solsticio, Pangea con fósiles). Ninguna mecánica sale más de tres veces por recorrido.
-- **Misiones revisadas:** todas de observación y desde el camino (sin cruzar cuerdas; única excepción, pisar las huellas de la 9). Catorce (con el pozo secreto) llevan respuesta comprobable con botones. La 1 sigue provisional: la decide Álvaro.
+- **Misiones revisadas:** todas de observación y desde el camino (sin cruzar cuerdas; única excepción, pisar las huellas de la 9). Catorce (con el pozo secreto) llevan respuesta comprobable con botones. La 1 se queda como estaba (el reloj del tiempo y orientarse con el mapa): lo decidió Álvaro el 30-oct.
 - **Voces:** narradora Eva Dorado y Alba, las dos con Eleven v4 (elegidas por Álvaro tras un casting). Se regrabó todo: 403 pistas, 114 minutos, unos 90.000 caracteres (≈20.000 créditos).
 - **Dibujos:** lote 8 para ChatGPT (piezas de los retos de mayores que hoy van con emoji o montaje provisional).
 - **Sin push:** todo está commiteado en local; falta la decisión de Álvaro sobre las notas internas del repositorio público (`_GITHUB/PLAN_GITHUB.md` §10).
