@@ -83,7 +83,23 @@ Una sola idea: **a aquellas casas se entraba por el tejado.** El uro, el mapa y 
 
 ---
 
-## Reto: «Construye una casa de Çatalhöyük»
+## Reto: «El rompecabezas de Çatalhöyük»
+
+*30-oct-2026. Juego de peques (4-6 años): la ilustración de la portada en seis piezas grandes, con el dibujo entero al lado (motor `componentes/Rompecabezas.tsx`, juego `retos/RompecabezasCatalhoyuk.tsx`). El de antes, «Construye una casa de Çatalhöyük», pasa a los mayores.*
+
+**Cómo se gana:** cambiando las piezas de sitio, tocando dos o arrastrando una encima de otra. Las que caen en su sitio se quedan fijas.
+
+**Voz de Alba:**
+- Al empezar: «¡Mira qué poblado! Las casas están pegadas unas a otras. ¿Me ayudas a montar el dibujo? Toca dos piezas para cambiarlas de sitio.»
+- A la mitad: «¡Ya va saliendo! ¿Ves las escaleras? Asoman por los agujeros de los tejados.»
+- Última pieza: «¡Ya está! En Çatalhöyük se entraba en casa por el tejado, bajando por una escalera.»
+- Al terminar: «¡Rompecabezas terminado! ¡Toma tu pegatina!»
+
+---
+
+## Reto para mayores: «Construye una casa de Çatalhöyük»
+
+*30-oct-2026: era el reto de todos; pasa a ser el de mayores (7 años o más), con frases más ricas. Los peques tienen ahora un rompecabezas de la portada.*
 
 **Qué se ve:** una casa de Çatalhöyük **en corte**, como si la hubieran partido por la mitad con un cuchillo gigante: se ve por dentro, como una casa de muñecas. Es una sola habitación rectangular, más ancha que alta.
 
@@ -104,13 +120,13 @@ Abajo, en la bandeja, las cuatro piezas en color.
 **Cómo se gana:** colocando cada pieza en su sombra. Las **paredes van primero**; el **tejado**, después de las paredes; la **escalera**, después del tejado (necesita el agujero para asomar); el **horno**, en cualquier momento después de las paredes. Si el niño arrastra una pieza antes de tiempo, vuelve a la bandeja y Alba dice «Antes de tiempo», que vale para todos los casos (tejado u horno sin paredes, escalera sin tejado). Si suelta la pieza que toca fuera de su sombra, vuelve a la bandeja sin frase. Al colocar la última pieza, Alba dice primero la frase de esa pieza y después la de «Al terminar».
 
 **Voz de Alba:**
-- Al empezar: «¡Vamos a construir una casa de Çatalhöyük! Arrastra cada pieza hasta su sombra. Empieza por las paredes.»
-- Al poner las paredes: «¡Paredes de barro! Mira bien: no tienen puerta.»
-- Al poner el tejado: «¡Un tejado plano! Por arriba se caminaba, como por una calle.»
-- Al poner la escalera: «¡La escalera! Mira cómo asoma por el agujero.»
-- Al poner el horno: «¡Un horno! Para cocinar y dar calorcito.»
-- Antes de tiempo: «¡Espera! Primero, las paredes. Y la escalera, después del tejado.»
-- Al terminar: «¡Casa terminada! Ya lo sabes: a esta casa se entra por el tejado. ¡Toma tu pegatina!»
+- Al empezar: «¡Vamos a construir una casa de Çatalhöyük, como hace nueve mil años! Lleva cada pieza a su sombra, en el orden en que se construiría.»
+- Al poner las paredes: «Paredes de adobe, ladrillos de barro secados al sol. Fíjate: ni puerta ni ventana.»
+- Al poner el tejado: «Un tejado plano, de vigas, cañas y barro. Las casas estaban pegadas, y por los tejados se iba de una a otra, como por calles.»
+- Al poner la escalera: «La escalera asoma por el agujero del tejado: era la entrada de la casa… y la salida del humo.»
+- Al poner el horno: «El horno, al pie de la escalera. Así el humo encontraba la salida.»
+- Antes de tiempo: «¡Espera! Piensa como un albañil: ¿qué tiene que estar puesto antes?»
+- Al terminar: «¡Casa terminada! Una casa sin puerta, en un poblado sin calles: así se vivía en Çatalhöyük.»
 
 **Matiz para quien lo programe** (no se dice en voz alta): el orden del juego es de obra, no un dato arqueológico. Que el tejado vaya después de las paredes es cierto (descansaba sobre ellas y sobre postes de madera). Que la escalera vaya después del tejado es una regla del juego: necesita el agujero para asomar, pero una escalera de mano se podía poner y quitar en cualquier momento. El horno se construía arrimado a una pared, de ahí «después de las paredes». **Las zonas del horno y de la escalera se tocan** (el horno está al pie de la escalera, como en las casas reales): conviene que la zona del horno sea la esquina de abajo y la de la escalera, la franja inclinada que sube hasta el agujero. «No tienen puerta» vale para la casa típica: en los últimos siglos del poblado aparecieron calles y alguna entrada a ras de suelo (ver «Datos y fuentes»).
 

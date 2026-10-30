@@ -135,7 +135,8 @@ export const PARADAS: Record<number, ContenidoParada> = {
     titulo: "Çatalhöyük",
     imagen: "img/p20/portada.webp",
     guion: leerGuion(guion20),
-    reto: "Construye una casa de Çatalhöyük",
+    reto: "El rompecabezas de Çatalhöyük",
+    retoMayores: "Construye una casa de Çatalhöyük",
   },
   2: {
     id: 2,
@@ -150,6 +151,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
     imagen: "img/p03/portada.webp",
     guion: leerGuion(guion03),
     reto: "¿Cómo se hace un fósil?",
+    retoMayores: "La losa rota",
   },
   4: {
     id: 4,

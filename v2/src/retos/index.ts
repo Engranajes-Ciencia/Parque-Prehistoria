@@ -22,6 +22,8 @@ import DescubreElMural from "./DescubreElMural";
 import FabricaOxigeno from "./FabricaOxigeno";
 import ManoEnLaCueva from "./ManoEnLaCueva";
 import QuienComeQue from "./QuienComeQue";
+import RompecabezasCatalhoyuk from "./RompecabezasCatalhoyuk";
+import RompecabezasMarAntiguo from "./RompecabezasMarAntiguo";
 
 /** El juego de peques (4-6 años) de cada parada. Se abre en #/parada/N/reto. */
 export const RETOS: Record<number, ComponentType<{ parada: ContenidoParada }>> = {
@@ -31,7 +33,7 @@ export const RETOS: Record<number, ComponentType<{ parada: ContenidoParada }>> =
   14: VerdadOMito,
   15: EncuentraLasDiferencias,
   17: NosMudamos,
-  20: ConstruyeLaCasa,
+  20: RompecabezasCatalhoyuk,
   2: FabricaOxigeno,
   3: ComoSeHaceUnFosil,
   4: QuienVivioAntes,
@@ -52,4 +54,7 @@ export const RETOS: Record<number, ComponentType<{ parada: ContenidoParada }>> =
  * El juego para mayores (7 años o más). Se abre en #/parada/N/reto-mayores y recibe la parada
  * de paraMayores() (paradas.ts), con las frases de «## Reto para mayores».
  */
-export const RETOS_MAYORES: Record<number, ComponentType<{ parada: ContenidoParada }>> = {};
+export const RETOS_MAYORES: Record<number, ComponentType<{ parada: ContenidoParada }>> = {
+  3: RompecabezasMarAntiguo,
+  20: ConstruyeLaCasa,
+};

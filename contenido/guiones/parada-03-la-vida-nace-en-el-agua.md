@@ -96,6 +96,29 @@ Se responde tocando «¡Hecho!». No se comprueba el número de vueltas: el amon
 
 ---
 
+## Reto para mayores: «La losa rota»
+
+*30-oct-2026. Juego para 7 años o más (motor `componentes/Rompecabezas.tsx`, juego `retos/RompecabezasMarAntiguo.tsx`).*
+
+**Qué se ve:** la ilustración de la portada (el fondo de un mar del Paleozoico, con trilobites, amonites, lirios de mar, esponjas y corales) partida en doce piezas, tres por cuatro, desordenadas. El dibujo entero solo se ve si se pide con el botón «Ver el dibujo», como quien tiene la foto de la losa antes de que se rompiera.
+
+**Cómo se gana:** cambiando las piezas de sitio, tocando dos o arrastrando una encima de otra. Las que caen en su sitio se quedan fijas. A la mitad, Alba anima; con la última, explica qué hay en la losa.
+
+**Qué se aprende:** que un fósil casi nunca aparece entero, y que el paleontólogo recompone los trozos con paciencia. Y, de paso, quién vivía en aquel mar.
+
+**Voz de Alba:**
+- Al empezar: «Un paleontólogo ha encontrado una losa del fondo del mar, rota en doce trozos. ¿La recompones? Toca dos piezas para cambiarlas de sitio.»
+- A la mitad: «¡Bien! Ya asoman los trilobites. Un fósil casi nunca aparece entero: hay que juntar los trozos con paciencia.»
+- Última pieza: «¡Ahí está el mar de hace unos cuatrocientos millones de años! Trilobites, amonites y lirios de mar, que no eran plantas, sino animales.»
+- Al terminar: «¡Losa recompuesta! Trabajas como un paleontólogo de verdad. ¡Toma tu pegatina!»
+
+**Rigor** (no se dice en voz alta):
+- **«Hace unos cuatrocientos millones de años»:** la escena junta trilobites y amonites, que compartieron el mar desde el Devónico (los amonites aparecen hacia 410 millones de años) hasta el final del Pérmico (252).
+- **Los lirios de mar** (crinoideos) son equinodermos, parientes de las estrellas de mar. Los de la ilustración tienen tallo y brazos plumosos.
+- **Los animales enrollados con tentáculos** de la ilustración pueden ser amonites o nautiloideos: el texto dice «amonites», como el narrador.
+
+---
+
 ## ¿Sabías que…?
 
 > ¿Sabías que en Alemania se encontró un amonites con una concha de un metro ochenta? ¡Tan alta como una persona adulta! Y eso que le falta un trozo.

@@ -1659,3 +1659,80 @@ h3 {
 .boton.sacudida {
   animation: sacudir 0.4s;
 }
+
+/* ---------- rompecabezas ---------- */
+
+.rompe {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.rompe-tablero {
+  display: grid;
+  gap: 2px;
+  padding: 2px;
+  background: var(--linea);
+  border-radius: 10px;
+  touch-action: none; /* arrastrar una pieza no debe mover la página */
+  flex: 0 1 auto;
+}
+
+.rompe-tablero.completo {
+  gap: 0;
+  padding: 0;
+  transition: gap 0.4s, padding 0.4s;
+}
+
+.rompe-pieza {
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+}
+
+.rompe-pieza.elegida {
+  box-shadow: inset 0 0 0 4px var(--mostaza);
+  filter: brightness(1.12);
+}
+
+.rompe-pieza.fija {
+  border-radius: 0;
+  cursor: default;
+}
+
+.rompe-pieza.recien {
+  animation: encajar 0.6s;
+}
+
+.rompe-pieza:focus-visible {
+  box-shadow: inset 0 0 0 4px var(--verde-azulado);
+}
+
+.rompe-lado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex: 0 0 auto;
+  max-width: 28%;
+}
+
+.rompe-modelo {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: var(--sombra);
+  object-fit: cover;
+}
+
+.rompe-ver {
+  font-size: 0.85rem;
+  padding: 8px 10px;
+}
