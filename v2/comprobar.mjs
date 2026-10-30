@@ -75,21 +75,32 @@ try {
   // 2. Paradas y juegos: cada parada del recorrido existe, lo que anuncia reto lo tiene, y
   //    cada parada y cada juego se dibujan sin fallar.
   await paso("Las paradas no cargan", async () => {
-    const { PARADAS, RECORRIDO, PARADA_SECRETA, SALUDO_ALBA, DESPEDIDA_ALBA } = await carga("/src/contenido/paradas.ts");
-    const { RETOS } = await carga("/src/retos/index.ts");
+    const { PARADAS, RECORRIDO, PARADA_SECRETA, SALUDO_ALBA, DESPEDIDA_ALBA, MISION_CUMPLIDA, MISION_OTRA_VEZ, paraMayores } =
+      await carga("/src/contenido/paradas.ts");
+    const { RETOS, RETOS_MAYORES } = await carga("/src/retos/index.ts");
     const dibujar = (que, elemento) => paso(que, () => renderToString(elemento));
 
     for (const p of RECORRIDO) {
       if (p.id === PARADA_SECRETA) continue;
       const parada = PARADAS[p.id];
       if (!parada) errores.push(`La parada ${p.id} está en el recorrido pero no en PARADAS`);
-      else if (parada.reto && !RETOS[p.id]) errores.push(`La parada ${p.id} anuncia el reto «${parada.reto}» pero no hay juego`);
+      else {
+        if (parada.reto && !RETOS[p.id]) errores.push(`La parada ${p.id} anuncia el reto «${parada.reto}» pero no hay juego`);
+        if (parada.retoMayores && !RETOS_MAYORES[p.id])
+          errores.push(`La parada ${p.id} anuncia el reto para mayores «${parada.retoMayores}» pero no hay juego`);
+        if (RETOS_MAYORES[p.id] && !parada.retoMayores) errores.push(`La parada ${p.id} tiene juego para mayores pero no su nombre (retoMayores)`);
+        if (RETOS_MAYORES[p.id] && !Object.keys(parada.guion.mayores).length)
+          errores.push(`La parada ${p.id} tiene juego para mayores pero su guion no tiene «## Reto para mayores» con su «Voz de Alba»`);
+      }
     }
     const Parada = (await carga("/src/pantallas/Parada.tsx")).default;
     for (const id of Object.keys(PARADAS)) await dibujar(`Parada ${id}`, h(Parada, { id: Number(id) }));
     for (const [id, Juego] of Object.entries(RETOS)) {
       if (!PARADAS[id]) errores.push(`Hay juego para la parada ${id}, pero no hay parada`);
       else await dibujar(`Reto de la parada ${id}`, h(Juego, { parada: PARADAS[id] }));
+    }
+    for (const [id, Juego] of Object.entries(RETOS_MAYORES)) {
+      if (PARADAS[id]) await dibujar(`Reto para mayores de la parada ${id}`, h(Juego, { parada: paraMayores(PARADAS[id]) }));
     }
 
     // 3. Audio: cada texto con la pista que pedirá la app (explicaciones, misión y todas
@@ -99,11 +110,14 @@ try {
       pistasUsadas.set(`${n}-todos`, p.guion.todos);
       pistasUsadas.set(`${n}-peques`, p.guion.peques);
       pistasUsadas.set(`${n}-mision`, p.guion.mision);
-      for (const etiqueta of Object.keys(p.guion.reto))
-        for (const d of guion.dichosDelReto(p.guion, Number(id), etiqueta)) pistasUsadas.set(d.pista, [d.texto]);
+      for (const g of [p.guion, paraMayores(p).guion])
+        for (const etiqueta of Object.keys(g.reto))
+          for (const d of guion.dichosDelReto(g, Number(id), etiqueta)) pistasUsadas.set(d.pista, [d.texto]);
     }
     pistasUsadas.set("comun-saludo", SALUDO_ALBA);
     pistasUsadas.set("comun-despedida", DESPEDIDA_ALBA);
+    pistasUsadas.set("comun-mision-cumplida", MISION_CUMPLIDA);
+    pistasUsadas.set("comun-mision-otra-vez", MISION_OTRA_VEZ);
     paradas = Object.keys(PARADAS).length;
   });
 

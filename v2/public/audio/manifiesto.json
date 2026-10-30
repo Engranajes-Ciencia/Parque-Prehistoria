@@ -8678,10 +8678,11 @@
   "mp3": "mp3 vbr q7"
  },
  "p01-peques": {
-  "archivo": "p01-peques.59ef8a08.mp3",
+  "archivo": "p01-peques.ea4dbc77.mp3",
   "parrafos": [
    "¡Empieza el viaje, exploradores! Yo he estado en todas las épocas que vais a ver hoy. ¿Sabéis cómo viajo? Con mi reloj del tiempo.",
    "No tiene números: tiene cuatro dibujos, uno para cada parte del viaje. La hoja de helecho: los primeros seres vivos, en el agua, y las primeras plantas. La huella: ¡los dinosaurios! La mano: nuestra familia, la de los humanos. Y el sol: los primeros pueblos, con sus casas y sus campos.",
+   "En cada parada os espera un juego. Si lo superáis, ¡ganaréis una pegatina para vuestro álbum!",
    "Una regla de exploradores: las maquetas se miran con los ojos, no con las manos.",
    "¿Me ayudáis a ordenar el viaje? ¡Vamos al reto!"
   ],
@@ -8708,46 +8709,56 @@
    },
    {
     "texto": "No tiene números: tiene cuatro dibujos, uno para cada parte del viaje.",
-    "inicio": 11.585,
-    "fin": 16.264
+    "inicio": 11.741,
+    "fin": 16.42
    },
    {
     "texto": "La hoja de helecho: los primeros seres vivos, en el agua, y las primeras plantas.",
-    "inicio": 16.821,
-    "fin": 22.173
+    "inicio": 16.977,
+    "fin": 22.329
    },
    {
     "texto": "La huella: ¡los dinosaurios!",
-    "inicio": 22.719,
-    "fin": 25.064
+    "inicio": 22.875,
+    "fin": 25.22
    },
    {
     "texto": "La mano: nuestra familia, la de los humanos.",
-    "inicio": 25.609,
-    "fin": 29.046
+    "inicio": 25.765,
+    "fin": 29.202
    },
    {
     "texto": "Y el sol: los primeros pueblos, con sus casas y sus campos.",
-    "inicio": 29.562,
-    "fin": 34.252
+    "inicio": 29.718,
+    "fin": 34.408
+   },
+   {
+    "texto": "En cada parada os espera un juego.",
+    "inicio": 35.428,
+    "fin": 37.611
+   },
+   {
+    "texto": "Si lo superáis, ¡ganaréis una pegatina para vuestro álbum!",
+    "inicio": 38.249,
+    "fin": 42.487
    },
    {
     "texto": "Una regla de exploradores: las maquetas se miran con los ojos, no con las manos.",
-    "inicio": 35.165,
-    "fin": 40.506
+    "inicio": 43.448,
+    "fin": 48.789
    },
    {
     "texto": "¿Me ayudáis a ordenar el viaje?",
-    "inicio": 41.421,
-    "fin": 43.348
+    "inicio": 49.849,
+    "fin": 51.776
    },
    {
     "texto": "¡Vamos al reto!",
-    "inicio": 44.405,
-    "fin": 45.879
+    "inicio": 52.833,
+    "fin": 54.307
    }
   ],
-  "duracion": 45.89,
+  "duracion": 54.33,
   "voz": "Alba Guía Prehistoria",
   "voice_id": "OOHm6M5O6WPl7E4nAqyE",
   "modelo": "eleven_multilingual_v2",
@@ -8764,9 +8775,10 @@
    "parrafo": 0.9
   },
   "frases_por_trozo": 4,
-  "caracteres": 696,
-  "fecha": "2026-09-26T19:52:01",
-  "mp3": "mp3 vbr q7"
+  "caracteres": 115,
+  "fecha": "2026-10-30T17:35:33",
+  "mp3": "mp3 vbr q7",
+  "parcial": "1 de 5 párrafos regenerados"
  },
  "p01-mision": {
   "archivo": "p01-mision.1591ca52.mp3",

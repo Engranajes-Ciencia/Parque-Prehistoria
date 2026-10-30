@@ -17,3 +17,13 @@
 > Gracias por viajar conmigo. Y recordad: cada piedra, cada hueso y cada huella guarda una historia. ¡Seguid mirando bien!
 
 *27-sep-2026. Rigor: la vida más antigua con pruebas razonables pasa de los tres mil quinientos millones de años (parada 2), y Stonehenge tiene unos cinco mil (parada 21): «más de tres mil millones» vale con margen.*
+
+## Misión cumplida (al acertar una misión que se comprueba) — voz de Alba
+
+> ¡Misión cumplida! Tenéis ojos de explorador.
+
+## Misión: mirad otra vez (al fallar una misión que se comprueba) — voz de Alba
+
+> ¡Uy! Mirad otra vez, con calma.
+
+*30-oct-2026. Solo las misiones con respuesta segura se comprueban: las que tienen la lista «- Correcta: «…»» en su guion. Las demás se cierran con «¡Hecho!».*

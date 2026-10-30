@@ -24,6 +24,9 @@ import { leerGuion, seccion, type Guion } from "./guion";
 
 export const SALUDO_ALBA = seccion(comun, "Saludo de Alba");
 export const DESPEDIDA_ALBA = seccion(comun, "Despedida de Alba");
+/** Lo que dice Alba al comprobar una misión: si aciertan y si no. */
+export const MISION_CUMPLIDA = seccion(comun, "Misión cumplida");
+export const MISION_OTRA_VEZ = seccion(comun, "Misión: mirad otra vez");
 
 export interface ParadaDelRecorrido {
   id: number;
@@ -69,8 +72,19 @@ export interface ContenidoParada {
   imagen?: string;
   foto?: string;
   guion: Guion;
-  /** Nombre del reto; el componente que lo juega está en src/retos/index.ts. */
+  /** Nombre del reto de peques (4-6 años); el componente que lo juega está en src/retos/index.ts. */
   reto?: string;
+  /** Nombre del reto para mayores (7 años o más); su componente, en RETOS_MAYORES. */
+  retoMayores?: string;
+}
+
+/**
+ * La misma parada vista desde el reto de mayores: los motores de juego leen `parada.reto` y
+ * `parada.guion.reto`, así que aquí apuntan al nombre y a las frases del reto de mayores
+ * (sus pistas de audio son pNN-mayores-…).
+ */
+export function paraMayores(p: ContenidoParada): ContenidoParada {
+  return { ...p, reto: p.retoMayores, guion: { ...p.guion, reto: p.guion.mayores, retoClave: "mayores" } };
 }
 
 export const PARADAS: Record<number, ContenidoParada> = {

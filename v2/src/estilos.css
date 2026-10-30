@@ -1618,3 +1618,44 @@ h3 {
   border-radius: 12px;
   box-shadow: var(--sombra);
 }
+
+/* ---------- dos retos por parada (30-oct-2026) ---------- */
+
+.reto-edad {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--tinta-suave);
+}
+
+.otro-reto {
+  display: block;
+  width: 100%;
+  margin: 2px 0 10px;
+  text-align: center;
+}
+
+/* ---------- misiones que se comprueban ---------- */
+
+.mision-respuestas {
+  display: grid;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.mision-respuestas .nota {
+  text-align: center;
+}
+
+.mision-cumplida {
+  text-align: center !important;
+  font-weight: 800;
+  font-size: 1.15rem;
+  color: var(--verde-azulado-oscuro);
+  margin: 12px 0 4px;
+}
+
+.boton.sacudida {
+  animation: sacudir 0.4s;
+}

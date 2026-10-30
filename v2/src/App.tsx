@@ -4,8 +4,8 @@ import { alCambiar, useRuta } from "./navegacion";
 import Inicio from "./pantallas/Inicio";
 import Recorrido from "./pantallas/Recorrido";
 import Parada from "./pantallas/Parada";
-import { PARADAS, PARADA_SECRETA } from "./contenido/paradas";
-import { RETOS } from "./retos";
+import { PARADAS, PARADA_SECRETA, paraMayores } from "./contenido/paradas";
+import { RETOS, RETOS_MAYORES } from "./retos";
 import Album from "./pantallas/Album";
 import ParadaSecreta from "./pantallas/ParadaSecreta";
 import Final from "./pantallas/Final";
@@ -42,6 +42,12 @@ function Pantalla({ ruta }: { ruta: string }) {
     const id = Number(reto[1]);
     const Juego = RETOS[id];
     if (Juego && PARADAS[id]) return <Juego parada={PARADAS[id]} />;
+  }
+  const mayores = ruta.match(/^\/parada\/(\d+)\/reto-mayores$/);
+  if (mayores) {
+    const id = Number(mayores[1]);
+    const Juego = RETOS_MAYORES[id];
+    if (Juego && PARADAS[id]) return <Juego parada={paraMayores(PARADAS[id])} />;
   }
   if (ruta === "/recorrido") return <Recorrido />;
   if (ruta === "/mapa-editar") return <Recorrido editar />;

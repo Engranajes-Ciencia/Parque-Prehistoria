@@ -75,8 +75,10 @@ def pronunciar(texto):
 # Las pistas se descubren solas a partir de los guiones:
 #   comun-saludo                    comun.md, sección «Saludo de Alba»
 #   pNN-todos / pNN-peques / pNN-mision   secciones de contenido/guiones/parada-NN-*.md
-#   pNN-reto-<etiqueta>[-n]          frases de la lista «Voz de Alba» del reto; -1, -2… si
-#                                    la etiqueta tiene varias alternativas
+#   pNN-reto-<etiqueta>[-n]          frases de la lista «Voz de Alba» del reto de peques
+#                                    («## Reto: «…»»); -1, -2… si la etiqueta tiene varias
+#   pNN-mayores-<etiqueta>[-n]       lo mismo, del reto para mayores («## Reto para mayores»)
+#   comun-mision-cumplida / -otra-vez  lo que dice Alba al comprobar una misión
 # La app deduce las mismas claves (src/contenido/guion.ts, dichoDelReto).
 
 
@@ -128,16 +130,22 @@ def slug(texto):
     return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
 
 
-def voz_del_reto(md):
-    """{etiqueta normalizada: [frases]} de la lista que sigue a «**Voz de Alba:**» en el reto,
-    hasta la primera línea en blanco (igual que la app)."""
-    if "## Reto" not in md:
+SECCION_RETO = {"reto": "## Reto:", "mayores": "## Reto para mayores"}  # igual que guion.ts
+
+
+def voz_del_reto(md, cual="reto"):
+    """{etiqueta normalizada: [frases]} de la lista que sigue a «**Voz de Alba:**» en la sección
+    del reto (el de peques o el de mayores), hasta la primera línea en blanco (igual que la app)."""
+    lineas = md.splitlines()
+    inicio = next((i for i, l in enumerate(lineas) if l.startswith(SECCION_RETO[cual])), None)
+    if inicio is None:
         return {}
-    reto = md[md.index("## Reto"):]
-    if "**Voz de Alba:**" not in reto:
+    fin = next((i for i in range(inicio + 1, len(lineas)) if lineas[i].startswith("## ")), len(lineas))
+    cabecera = next((i for i in range(inicio + 1, fin) if "**Voz de Alba:**" in lineas[i]), None)
+    if cabecera is None:
         return {}
     salida = {}
-    for linea in reto[reto.index("**Voz de Alba:**"):].splitlines()[1:]:
+    for linea in lineas[cabecera + 1:fin]:
         if not linea.strip():
             break
         m = re.match(r"^- (.+?): (.+)$", linea)
@@ -148,9 +156,9 @@ def voz_del_reto(md):
     return salida
 
 
-def frases_del_reto(md, selector):
+def frases_del_reto(md, selector, cual="reto"):
     etiqueta, _, n = selector.partition("#")
-    frases = voz_del_reto(md).get(etiqueta)
+    frases = voz_del_reto(md, cual).get(etiqueta)
     if not frases:
         raise SystemExit(f"El reto no tiene la frase «{etiqueta}»")
     return [frases[int(n) if n else 0]]
@@ -159,7 +167,9 @@ def frases_del_reto(md, selector):
 def descubrir_pistas():
     import glob
     pistas = {"comun-saludo": ("comun.md", "seccion", "Saludo de Alba", "alba"),
-              "comun-despedida": ("comun.md", "seccion", "Despedida de Alba", "alba")}
+              "comun-despedida": ("comun.md", "seccion", "Despedida de Alba", "alba"),
+              "comun-mision-cumplida": ("comun.md", "seccion", "Misión cumplida", "alba"),
+              "comun-mision-otra-vez": ("comun.md", "seccion", "Misión: mirad otra vez", "alba")}
     # La parada secreta del pozo (la X del mapa): pista, pregunta, frase si se falla y premio.
     secreta = "parada-secreta-pozo.md"
     if os.path.exists(os.path.join(GUIONES, secreta)):
@@ -172,13 +182,15 @@ def descubrir_pistas():
         pistas[f"{pref}-todos"] = (nombre, "seccion", "Para todos", "narrador")
         pistas[f"{pref}-peques"] = (nombre, "seccion", "Para peques", "alba")
         pistas[f"{pref}-mision"] = (nombre, "seccion", "Mira bien", "alba")
-        for etiqueta, frases in voz_del_reto(open(ruta, encoding="utf-8").read()).items():
-            base = f"{pref}-reto-{slug(etiqueta)}"
-            if len(frases) == 1:
-                pistas[base] = (nombre, "reto", etiqueta, "alba")
-            else:
-                for i in range(len(frases)):
-                    pistas[f"{base}-{i + 1}"] = (nombre, "reto", f"{etiqueta}#{i}", "alba")
+        md = open(ruta, encoding="utf-8").read()
+        for cual in ("reto", "mayores"):
+            for etiqueta, frases in voz_del_reto(md, cual).items():
+                base = f"{pref}-{cual}-{slug(etiqueta)}"
+                if len(frases) == 1:
+                    pistas[base] = (nombre, cual, etiqueta, "alba")
+                else:
+                    for i in range(len(frases)):
+                        pistas[f"{base}-{i + 1}"] = (nombre, cual, f"{etiqueta}#{i}", "alba")
     return pistas
 
 
@@ -201,7 +213,7 @@ def texto_de(clave):
         if not m:
             raise SystemExit(f"Falta la línea «{selector}» en {guion}")
         return [limpiar(m.group(1))]
-    return seccion(md, selector) if tipo == "seccion" else frases_del_reto(md, selector)
+    return seccion(md, selector) if tipo == "seccion" else frases_del_reto(md, selector, tipo)
 
 
 # ------------------------------------------------ generación
