@@ -60,7 +60,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > Lo sé porque he estado allí. Bajé muy despacito… ¡y aterricé al lado del horno, calentito!
 >
-> ¿Veis la escalera del fondo? Así se entraba. ¿Me ayudáis a construir una casa como aquellas? ¡Vamos al reto!
+> ¿Veis la escalera del fondo? Así se entraba. ¿Me ayudáis a montar el dibujo de su poblado? ¡Vamos al reto!
 
 *≈ 90 palabras · ≈ 45 s.*
 

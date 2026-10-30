@@ -2004,3 +2004,100 @@ h3 {
   text-align: center;
   color: var(--tinta);
 }
+
+/* ---------- test de detective ---------- */
+
+.test-portada {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 0;
+}
+
+.test-cuantas {
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.test-progreso {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.test-progreso i {
+  width: 22px;
+  height: 8px;
+  border-radius: 4px;
+  background: var(--linea);
+}
+
+.test-progreso i.actual {
+  background: var(--mostaza);
+}
+
+.test-progreso i.hecha {
+  background: var(--verde-azulado);
+}
+
+.test-dibujo {
+  display: flex;
+  justify-content: center;
+  max-height: 150px;
+}
+
+.test-dibujo img {
+  max-height: 150px;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.test-pregunta {
+  font-size: 1.1rem;
+  line-height: 1.3;
+  margin: 0;
+  text-align: center;
+}
+
+.test-respuestas {
+  display: grid;
+  gap: 8px;
+}
+
+.test-respuesta {
+  min-height: 52px;
+  text-align: left;
+  justify-content: flex-start;
+  background: var(--papel);
+  color: var(--tinta);
+  border: 3px solid var(--linea);
+  box-shadow: none;
+}
+
+.test-respuesta.tachada {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.test-respuesta.correcta {
+  border-color: var(--verde-azulado);
+  background: #eef8f6;
+  font-weight: 800;
+}
+
+.test-respuesta.correcta::before {
+  content: "✔ ";
+}
+
+.test-marcador {
+  text-align: center;
+  font-weight: 800;
+}

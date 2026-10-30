@@ -44,7 +44,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > Doblad el brazo. ¿Notáis el codo? ¡Pues él también tenía codos! Con sus aletas se apoyaba en el fondo del río, donde cubría poco.
 >
-> Esas columnas blancas tan altas son todavía más antiguas. Y la libélula gigante… ¡llegó muchísimo después! ¿Sabréis ponerlos en orden? ¡Vamos al reto!
+> Esas columnas blancas tan altas son todavía más antiguas. Y la libélula gigante… ¡llegó muchísimo después! ¿Me ayudáis a sacar al Tiktaalik del agua? ¡Vamos al reto!
 
 *≈ 90 palabras · ≈ 40 s.*
 
@@ -86,6 +86,40 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 **Propuesta opcional**, dentro de la misma mecánica: al acertar el Prototaxites, su pieza deja detrás una franja que se alarga hasta el hueco del Tiktaalik, sin llegar al de la Meganeura. Enseña de un vistazo que esos dos coincidieron y que la libélula llegó cuando ya no quedaba ninguno.
 
 Sobre los fondos: el bosque del tercer hueco es el del final del Carbonífero, como el de Commentry, en Francia, donde apareció la Meganeura (helechos arborescentes, colas de caballo gigantes). Nada de hierba ni de flores en ninguno de los tres: no existían.
+
+---
+
+## Reto para mayores: «Detectives del Devónico»
+
+*30-oct-2026. Juego para 7 años o más (motor `componentes/Test.tsx`, juego `retos/TestDeDetective.tsx`): cinco preguntas de tres respuestas, con dibujo. Alba lee la pregunta; al acertar, lo explica. Si se falla, la respuesta se tacha y se vuelve a intentar. Las respuestas están en el código, como los nombres de las tarjetas de otros juegos.*
+
+| N.º | Pregunta | Respuestas (la buena, en negrita) |
+|---|---|---|
+| 1 | ¿Qué era el Prototaxites? | Un árbol · **Un ser vivo misterioso, quizá un hongo gigante** · Una roca con forma de tronco |
+| 2 | ¿Qué tenía el Tiktaalik que no tiene ningún pez de hoy? | **Cuello** · Plumas · Caparazón |
+| 3 | ¿Cómo de grande era la Meganeura, de ala a ala? | Como una mosca · **Como una paloma** · Como un avión |
+| 4 | ¿Quién vivió primero? | **El Prototaxites** · La Meganeura · Los dos a la vez |
+| 5 | ¿Por qué es tan famoso el Tiktaalik? | El pez más grande · **Un pez a medio camino de los animales de cuatro patas** · Podía volar |
+
+**Voz de Alba:**
+- Al empezar: «Vamos a jugar a detectives del Devónico. Cinco preguntas sobre estos tres seres. Si fallas, no pasa nada: se tacha y lo vuelves a intentar.»
+- Pregunta 1: «Esta columna medía hasta ocho metros. ¿Qué era?»
+- Explicación 1: «Un misterio. Durante años se pensó que era un hongo gigante, y un estudio reciente propone que era un grupo de seres desaparecido del todo. Lo seguro es que no era un árbol.»
+- Pregunta 2: «El Tiktaalik tenía algo que no tiene ningún pez de hoy. ¿Qué era?»
+- Explicación 2: «¡Un cuello! Podía girar la cabeza sin mover el cuerpo, muy útil para cazar en aguas poco profundas.»
+- Pregunta 3: «La Meganeura era una libélula gigante. ¿Cómo de grande, de ala a ala?»
+- Explicación 3: «Como una paloma: unos setenta centímetros. Quizá crecían tanto porque el aire tenía más oxígeno que hoy.»
+- Pregunta 4: «Y ahora, el orden: ¿quién vivió primero?»
+- Explicación 4: «El Prototaxites, hace más de cuatrocientos millones de años. La Meganeura llegó muchísimo después: el parque los junta, pero nunca se vieron.»
+- Pregunta 5: «Última: ¿por qué es tan famoso el Tiktaalik?»
+- Explicación 5: «Porque es un pez a medio camino de los animales de cuatro patas: en las aletas tenía hombro, codo y muñeca. Sus descubridores lo buscaron en rocas de la edad justa, y lo encontraron.»
+- Fallo: «Casi. Piénsalo otra vez.» / «Esa no es. Mira bien el dibujo.» / «Uy, prueba con otra.»
+- Al terminar: «¡Caso resuelto! Tres seres de épocas distintas, y cada uno, una pista de cómo la vida salió del agua.»
+
+**Rigor** (no se dice en voz alta): todo sale del «Para todos» de esta parada y de su tabla de datos.
+- **Pregunta 1:** hongo (Hueber, 2001) o linaje desaparecido (Loron et al., 2026). Por eso la buena dice «quizá».
+- **Pregunta 3:** unos 65-70 cm de envergadura. «Quizá» por el oxígeno, porque se discute.
+- **Pregunta 4:** el Prototaxites vivió de unos 420 a 370 millones de años y la Meganeura, hacia 300. No coincidieron.
 
 ---
 

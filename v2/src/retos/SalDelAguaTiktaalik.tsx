@@ -123,33 +123,29 @@ function piedra(v: number) {
   );
 }
 
-/** Matas de la orilla: tallos sin hojas que se parten en dos, con las cápsulas de esporas en la punta. */
+/**
+ * Matas de la orilla: tallos sin hojas que se parten en dos y acaban enroscados, como las
+ * plantas de entonces. Sin espigas ni cápsulas en la punta: con ellas parecían juncos o
+ * eneas, que son plantas con flor y llegaron muchísimo después.
+ */
 function plantas(v: number) {
   return (
-    <g>
-      <ellipse cx="30" cy="50" rx="25" ry="8" fill="#5b4126" opacity="0.5" />
+    <g stroke="#3e7d36" strokeWidth="3" strokeLinecap="round" fill="none">
+      <ellipse cx="30" cy="51" rx="24" ry="7" fill="#5b4126" stroke="none" opacity="0.5" />
       {[
-        [14, -8],
-        [24, -3],
-        [34, 3],
-        [45, 8],
+        [15, -5],
+        [30, 1],
+        [45, 6],
       ].map(([x, inclina], i) => {
-        const alto = 36 + ((v + i) % 3) * 4;
-        const xr = x + inclina * 0.5; // donde el tallo se ahorquilla
-        const yr = 52 - alto * 0.55;
+        const alto = 38 + ((v + i) % 3) * 4;
+        const xr = x + inclina; // donde el tallo se ahorquilla
+        const yr = 52 - alto * 0.5;
         const punta = 52 - alto;
         return (
-          <g key={i}>
-            <path
-              d={`M${x} 52 Q${x + inclina * 0.2} ${yr + 8} ${xr} ${yr} Q${xr - 6} ${yr - 6} ${xr - 7} ${punta} M${xr} ${yr} Q${xr + 6} ${yr - 6} ${xr + 7} ${punta + 2}`}
-              stroke="#3e7d36"
-              strokeWidth="3.2"
-              strokeLinecap="round"
-              fill="none"
-            />
-            <ellipse cx={xr - 7} cy={punta - 2} rx="2.4" ry="3.4" fill="#9a7134" />
-            <ellipse cx={xr + 7} cy={punta} rx="2.4" ry="3.4" fill="#9a7134" />
-          </g>
+          <path
+            key={i}
+            d={`M${x} 52 Q${x} ${yr + 6} ${xr} ${yr} Q${xr - 7} ${yr - 6} ${xr - 9} ${punta + 3} q-1 -5 4 -5 M${xr} ${yr} Q${xr + 6} ${yr - 8} ${xr + 6} ${punta} q0 -5 -5 -4`}
+          />
         );
       })}
     </g>

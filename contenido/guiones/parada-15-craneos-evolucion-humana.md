@@ -130,6 +130,42 @@ La etiqueta es «el mentón», como pedía el encargo, pero Alba dice «barbilla
 
 ---
 
+## Reto para mayores: «Detectives del museo»
+
+*30-oct-2026. Juego para 7 años o más (motor `componentes/Test.tsx`, juego `retos/TestDeDetective.tsx`): cinco preguntas sobre los cráneos de las vitrinas. Ninguna depende de una cartela del parque (ver la fe de erratas en `docs/PARQUE_16-OCT-2026.md`).*
+
+| N.º | Pregunta | Respuestas (la buena, en negrita) |
+|---|---|---|
+| 1 | ¿Para qué servía la cresta de hueso del gorila? | **Para sujetar los músculos de masticar** · Para pelear a cabezazos · Para que no le diera el sol |
+| 2 | ¿Quién tenía el cerebro más grande? | El chimpancé · El australopiteco · **El neandertal** |
+| 3 | ¿Cómo andaba Lucy? | A cuatro patas · **De pie, sobre dos piernas** · A saltos |
+| 4 | ¿Por qué es tan especial Miguelón? | El cráneo humano más antiguo · **Uno de los cráneos fósiles más completos del mundo** · Es de un gigante |
+| 5 | ¿Cuántas especies humanas viven hoy? | **Una: la nuestra** · Tres · Diez |
+
+**Voz de Alba:**
+- Al empezar: «Vamos a jugar a detectives del museo. Cinco preguntas sobre los cráneos de las vitrinas. Si fallas, se tacha y lo vuelves a intentar.»
+- Pregunta 1: «El gorila tiene una cresta de hueso encima de la cabeza, como una aleta. ¿Para qué le servía?»
+- Explicación 1: «Ahí se agarraban unos músculos enormes que movían la mandíbula. Mastica hojas y tallos duros todo el día.»
+- Pregunta 2: «¿Quién de estos tres tenía el cerebro más grande?»
+- Explicación 2: «¡El neandertal! Su cerebro era tan grande como el nuestro, o un poco más. El del chimpancé es unas tres veces más pequeño.»
+- Pregunta 3: «Lucy, la australopiteca más famosa, ¿cómo andaba?»
+- Explicación 3: «De pie, sobre dos piernas, aunque todavía trepaba bien a los árboles. Y su cerebro era poco mayor que el de un chimpancé.»
+- Pregunta 4: «Miguelón es un cráneo de Atapuerca que está en una de las vitrinas. ¿Por qué es tan especial?»
+- Explicación 4: «Porque está casi entero, y tiene unos cuatrocientos treinta mil años. Aquel hombre tuvo una infección muy grave en la boca.»
+- Pregunta 5: «Y la última: ¿cuántas especies humanas viven hoy en la Tierra?»
+- Explicación 5: «Solo una, la nuestra. Pero hace cincuenta mil años había varias a la vez: nosotros, los neandertales, los denisovanos y alguna más.»
+- Fallo: «Casi. Piénsalo otra vez.» / «Esa no es. Prueba con otra.» / «Uy. Mira bien las vitrinas.»
+- Al terminar: «¡Caso resuelto! Muchos parientes y una sola especie superviviente: la nuestra.»
+
+**Rigor** (no se dice en voz alta):
+- **Cresta sagital:** anclaje del músculo temporal, en los machos de gorila.
+- **Capacidad craneal media:** chimpancé, unos 400 cm³; australopiteco, 400-500; neandertal, unos 1.400-1.500; nosotros, unos 1.350.
+- **Lucy** (*A. afarensis*, 3,2 millones de años): bípeda, con brazos largos y dedos curvos, señal de que trepaba.
+- **Miguelón** (Cráneo 5 de la Sima de los Huesos, unos 430.000 años): el cráneo fósil más completo del registro de su época. Tenía un absceso dental que le llegó a la cara.
+- **Hace 50.000 años** convivían *H. sapiens*, neandertales, denisovanos, *H. floresiensis* y, quizá, *H. luzonensis*. «Y alguna más» cubre las dos últimas.
+
+---
+
 ## ¿Sabías que…?
 
 > ¿Sabías que ese palo con rayitas imita un hueso de hace unos veinte mil años, encontrado en Ishango, en el centro de África? Es un hueso de babuino con grupos de muescas talladas. ¿Qué contaban? Quizá días, quizá presas… Los científicos aún lo discuten, pero es una de las cuentas más antiguas que conocemos.

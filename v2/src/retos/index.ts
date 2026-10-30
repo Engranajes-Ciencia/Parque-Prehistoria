@@ -21,6 +21,9 @@ import DescubreElMural from "./DescubreElMural";
 import FabricaOxigeno from "./FabricaOxigeno";
 import ManoEnLaCueva from "./ManoEnLaCueva";
 import QuienComeQue from "./QuienComeQue";
+import TestDeDetective from "./TestDeDetective";
+import CalendarioDePiedra from "./CalendarioDePiedra";
+import PaseabaOCorria from "./PaseabaOCorria";
 import DelLoboAlPerro from "./DelLoboAlPerro";
 import ParejasDeLaGranja from "./ParejasDeLaGranja";
 import ElTallerDeDarwin from "./ElTallerDeDarwin";
@@ -65,4 +68,8 @@ export const RETOS_MAYORES: Record<number, ComponentType<{ parada: ContenidoPara
   14: VerdadOMito,
   11: ElTallerDeDarwin,
   18: DelLoboAlPerro,
+  9: PaseabaOCorria,
+  21: CalendarioDePiedra,
+  4: TestDeDetective,
+  15: TestDeDetective,
 };

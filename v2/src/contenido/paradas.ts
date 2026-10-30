@@ -124,6 +124,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
     imagen: "img/p15/portada.webp",
     guion: leerGuion(guion15),
     reto: "Encuentra las diferencias",
+    retoMayores: "Detectives del museo",
   },
   17: {
     id: 17,
@@ -161,6 +162,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
     imagen: "img/p04/portada.webp",
     guion: leerGuion(guion04),
     reto: "¿Quién vivió antes?",
+    retoMayores: "Detectives del Devónico",
   },
   5: {
     id: 5,
@@ -189,6 +191,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
     imagen: "img/p09/portada.webp",
     guion: leerGuion(guion09),
     reto: "¿De quién es la huella?",
+    retoMayores: "¿Paseaba o corría?",
   },
   10: {
     id: 10,
@@ -240,5 +243,6 @@ export const PARADAS: Record<number, ContenidoParada> = {
     imagen: "img/p21/portada.webp",
     guion: leerGuion(guion21),
     reto: "Reconstruye Stonehenge",
+    retoMayores: "El calendario de piedra",
   },
 };

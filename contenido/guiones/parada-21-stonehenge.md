@@ -85,6 +85,31 @@ Se responde tocando «¡Hecho!». No se comprueba el número: la réplica está 
 
 ---
 
+## Reto para mayores: «El calendario de piedra»
+
+*30-oct-2026. Juego para 7 años o más (`retos/CalendarioDePiedra.tsx`).*
+
+**Qué se ve:** desde el centro de Stonehenge, mirando al nordeste antes del amanecer: el horizonte, las piedras del círculo, el hueco del trilito en el eje y, fuera, la Piedra del Talón. Una barra con los 365 días del año (y botones para afinar día a día) mueve el punto del horizonte por donde sale el sol.
+
+**Cómo se gana:** buscando el día en que el sol sale justo por el eje (hacia el 21 de junio). Después, dándose la vuelta: mirando al suroeste al atardecer, por el Gran Trilito, buscando el día en que el sol se pone justo ahí (hacia el 21 de diciembre).
+
+**Qué se aprende:** que el sol no sale cada día por el mismo sitio; que en los solsticios «se para» y da la vuelta; y que el eje de Stonehenge une la salida del sol del día más largo con la puesta del día más corto.
+
+**Voz de Alba:**
+- Al empezar: «Estoy en el centro de Stonehenge, mirando al nordeste antes del amanecer. Mueve la barra para cambiar de día: ¿qué día sale el sol justo por el hueco?»
+- Moviendo el sol: «¿Lo ves? El sol no sale cada día por el mismo sitio. Cuanto más se acerca el verano, más a la izquierda asoma.»
+- Solsticio de verano: «¡Ahí está! Hacia el veintiuno de junio, el día más largo, el sol sale por el eje, junto a la Piedra del Talón. Ahí se detiene y da la vuelta: por eso se llama solsticio, que significa sol quieto.»
+- A mirar el atardecer: «Ahora, date la vuelta: mira al suroeste, por el hueco del Gran Trilito. ¿Qué día se pone el sol justo ahí?»
+- Solsticio de invierno: «¡Lo tienes! Hacia el veintiuno de diciembre, el día más corto, el sol se pone por el otro extremo del mismo eje. Muchos arqueólogos creen que este era el gran momento: muy cerca se han hallado restos de banquetes de pleno invierno.»
+- Al terminar: «Un solo eje para el día más largo y el más corto. Quizá era un calendario, quizá un templo, o las dos cosas: los arqueólogos aún lo discuten.»
+
+**Rigor** (no se dice en voz alta):
+- **El cálculo** del juego (acimut de la salida del sol a 51,18° N, sin refracción ni altura del horizonte) da unos 50,6° en el solsticio de verano y la puesta de invierno en el extremo opuesto del mismo eje, a 230,6°. Con la tolerancia del juego valen del 12 al 30 de junio y del 12 al 30 de diciembre: cerca de los solsticios el sol apenas se mueve en el horizonte, y por eso se llaman así.
+- **Hoy el sol de junio sale un poco a la izquierda de la Piedra del Talón**; hace 4.500 años, algo más a la izquierda todavía, por el cambio lento de la inclinación del eje de la Tierra.
+- **Banquetes de invierno:** en Durrington Walls, a unos 3 km, los dientes de los cerdos sacrificados indican matanzas a mitad de invierno (Craig et al., 2015). Para qué servía el monumento sigue en discusión: Alba dice «quizá».
+
+---
+
 ## ¿Sabías que…?
 
 > ¿Sabías que las piedras de Stonehenge encajan como los muebles de un carpintero? Las de arriba tienen agujeros donde entran unos salientes de las de abajo. Y en el círculo de fuera, además, se enganchan unas con otras, como las tablas de un suelo de madera.

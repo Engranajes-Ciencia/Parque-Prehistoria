@@ -62,7 +62,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 >
 > Mucha gente cree que los neandertales eran unos brutos. ¡Pues es un mito! Un mito es algo que mucha gente cree, pero no es verdad.
 >
-> ¿Sabéis distinguir la verdad de los mitos? ¡Vamos al reto!
+> Y ahora, algo raro: en su cueva se han colado cosas de hoy. ¿Las encontráis? ¡Vamos al reto!
 
 *≈ 95 palabras · ≈ 45 s.*
 

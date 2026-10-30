@@ -105,6 +105,31 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ---
 
+## Reto para mayores: «¿Paseaba o corría?»
+
+*30-oct-2026. Juego para 7 años o más (`retos/PaseabaOCorria.tsx`).*
+
+**Qué se ve:** tres rastros cortos de huellas del mismo dinosaurio carnívoro de tres dedos, vistos desde arriba, cada uno con una zancada distinta. La huella de salida lleva un círculo y la siguiente del mismo pie, una bandera; la del otro pie queda en medio, más clara. Una vara del largo de la pata del dinosaurio (del suelo a la cadera) empieza puesta en la huella de salida.
+
+**Cómo se gana:** con el botón «+ 1 pata» se ponen varas una detrás de otra hasta pasar la bandera; después se elige entre «Paseaba» (menos de 2 patas), «Iba al trote» (entre 2 y 3) y «Corría» (más de 3). Los tres rastros, en el orden 1,5 (paseaba), 3,6 (corría) y 2,5 (al trote). Un fallo deja las varas puestas para volver a contar.
+
+**Qué se aprende:** que las huellas también guardan la velocidad: cuanto más deprisa se va, más separadas quedan. Enlaza con la misión anterior de pasos de ratón y de gigante, que ahora es esta.
+
+**Voz de Alba:**
+- Al empezar: «Un truco de paleontólogo: por lo separadas que están las huellas se sabe si un dinosaurio paseaba o corría. La vara de medir es su pata, del suelo a la cadera. Cuenta cuántas patas hay del círculo a la bandera.»
+- Paseaba: «¡Eso es! Menos de dos patas por zancada: iba tranquilo, paseando por la orilla.»
+- Al trote: «¡Muy bien! Entre dos y tres patas: iba al trote, con prisa pero sin correr del todo.»
+- Corría: «¡Corría! Más de tres patas por zancada. En La Rioja hay rastros de carnívoros que pudieron correr a unos cuarenta y cinco kilómetros por hora.»
+- Fallo: «Mmm, cuenta otra vez: ¿cuántas patas caben hasta la bandera?» / «Casi. Mira en qué pata cae la bandera y lee la regla de cada botón.»
+- Al terminar: «¡Ya sabes leer la velocidad en las huellas! Y en el camino, prueba pasos de ratón y pasos de gigante: cuanto más deprisa, más lejos queda cada huella.»
+
+**Rigor** (no se dice en voz alta):
+- **La zancada** se mide de una huella a la siguiente del **mismo pie** (no a la del otro pie). La altura de la cadera se calcula a partir del largo de la huella: unas cuatro veces en los terópodos (Alexander, 1976). **Los umbrales** de zancada relativa (zancada / altura de la cadera) son de Thulborn (1990): menos de 2, al paso; de 2 a 2,9, al trote; más de 2,9, a la carrera.
+- **La Rioja:** rastros de terópodos de Igea (Cretácico inferior) con velocidades estimadas de hasta unos 45 km/h (Navarro-Lorbés et al., 2021, *Scientific Reports*). Se dice «pudieron correr»: es una estimación.
+- **Las huellas del parque** parecen sobre todo de herbívoro (ornitópodo), y no está confirmado que formen un rastro: por eso Alba no manda medirlas y el juego no dice que sean del carnívoro.
+
+---
+
 ## ¿Sabías que…?
 
 > ¿Sabías que en las huellas de dinosaurio casi nunca aparece la marca de la cola? Es una de las pruebas de que la llevaban levantada, en el aire, y no arrastrando por el suelo, como se dibujaba antes.
