@@ -395,7 +395,9 @@ Aprobado e integrado. Un problema, culpa del encargo y no tuyo: las tarjetas `V5
 
 **El suelo de Laetoli (`E1b`, 1536×1024, horizontal).** Parte de `arte/lote-07/E1_laetoli_suelo.png` y edítala. Ahora tiene **tres** rastros de pisadas humanas (uno grande a la izquierda, uno pequeño en medio y otro grande a la derecha), y en Laetoli se ven **dos**: uno de pies grandes y, **muy pegado a su izquierda**, uno de pies pequeños, los dos hacia el horizonte (un tercer caminante pisó dentro de las huellas del grande, por eso no se ve aparte). Quita el rastro grande de la derecha y rellena ese trozo con el mismo suelo de ceniza, con sus hoyitos de lluvia. Deja igual todo lo demás: el rastro grande de la izquierda, el pequeño, las huellas redondas de elefante de la derecha, los hoyitos de lluvia, el volcán, el lago y las acacias. Los dedos gordos, en línea con los demás, como ahora. *(Lo detectó la revisión del 27-sep; al integrarla, Claude vuelve a medir las zonas del juego.)*
 
-## 14. LOTE ACTIVO: lote 8, piezas de los retos de mayores (30-oct-2026)
+## 14. Lote 8, piezas de los retos de mayores — HECHO E INTEGRADO (30-oct-2026)
+
+*Revisión de Claude: las 14, aprobadas. Los intrusos, pintados como la portada y mirando hacia donde se pidió; el triceratops con sus tres cuernos y la gola maciza; el tiranosaurio horizontal, con la cola en el aire y dos dedos. Integradas: `img/p05/bosque-copia-b.webp` (las cerezas son dos, así que Alba dice ahora «¡Cerezas!»), `img/p10/domino-1` a `6` y `img/p17/hogar`, `huesos` y `vasija`. Recortes en `arte/aprobado/lote-08/`. No hay lote activo.*
 
 Desde el 30-oct cada parada tiene dos retos: el de los peques y uno para los de 7 años o más. Varios de los nuevos funcionan ya con emojis o con un montaje provisional; estas piezas los sustituyen. Todo en el **estilo 1**, con las reglas de la sección 3. Guarda en `arte/lote-08/`. Puedes hacerlo por partes (A, B, C).
 
