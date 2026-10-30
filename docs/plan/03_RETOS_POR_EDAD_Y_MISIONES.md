@@ -91,12 +91,12 @@
 - [x] Infraestructura: guion (sección de mayores y respuestas de misión), generador de audios, `paradas.ts`, rutas, botones de la parada y `comprobar.mjs`.
 - [x] Misiones reescritas (21 + el pozo, que ya es una pregunta).
 - [x] Motores nuevos: cinta, rompecabezas, test, diferencias, intrusos, flechas, memory, laberinto y linterna.
-- [ ] Juegos a medida: oxidación, abeja con especies, zancadas, excavación con registro, solsticio.
-- [ ] Juegos «+»: Pangea con pistas, casa completa, mudanza en tres grupos, mural con 8, Laetoli con 6, verdad o mito con 8, efecto dominó.
+- [x] Juegos a medida: oxidación, abeja con especies, zancadas, excavación con registro, solsticio.
+- [x] Juegos «+»: Pangea con pistas, mudanza en tres grupos, mural con 8, Laetoli con 6, verdad o mito con 8, efecto dominó. La casa de la 20 pasó a mayores tal cual: no se ha hecho más difícil.
 - [x] Cambios de peques: 4, 9, 14, 18 y 20.
-- [ ] Frases de todos los juegos en los guiones, con revisión de rigor.
-- [ ] Probar cada juego en el navegador, en tamaño de móvil (360×600 y 375×812).
-- [ ] Audios: todo lo pendiente, más la 7 y el saludo enteros.
-- [ ] Prueba sin red (`herramientas/prueba-sin-red/`).
+- [x] Frases de todos los juegos en los guiones, con revisión de rigor.
+- [x] Probar cada juego en el navegador, en tamaño de móvil (360×600 y 375×812). Los 42 se abren sin desbordar de lado; los de mayores de la 2, 8 y 13 los jugaron enteros los agentes que los hicieron, y yo solo una parte. Nada probado aún en un móvil de verdad.
+- [x] Audios: todo lo pendiente, más la 7 y el saludo enteros.
+- [x] Prueba sin red (`herramientas/prueba-sin-red/`).
 - [x] Encargo de dibujos definitivos para ChatGPT (lote 8), si hace falta.
-- [ ] Parte en `_PARTES/`, memoria y estado del plan.
+- [x] Parte en `_PARTES/`, memoria y estado del plan.
