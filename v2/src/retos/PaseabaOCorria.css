@@ -1,0 +1,137 @@
+/* ¿Paseaba o corría? (parada 9, reto para mayores).
+   Ojo: este fichero entra en la hoja ANTES que estilos.css (main.tsx importa App antes que
+   los estilos), así que lo que retoque una clase común (.boton) lleva selector doble. */
+
+.zancada-vista {
+  display: block;
+  width: 100%;
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+}
+
+.zancada-explica {
+  fill: var(--tinta);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.zancada-cuantas {
+  fill: var(--tinta);
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.zancada-rastro-num {
+  fill: var(--tinta-suave);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.zancada-rotulo-pata {
+  fill: #fff;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.zancada-numero {
+  fill: #fff;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.zancada-rastro {
+  animation: zancada-entrar 0.5s ease-out;
+}
+
+@keyframes zancada-entrar {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+}
+
+/* Cada pata se tiende desde su extremo izquierdo. */
+.zancada-pata {
+  transform-box: fill-box;
+  transform-origin: left center;
+  animation: zancada-tender 0.3s ease-out;
+}
+
+@keyframes zancada-tender {
+  from {
+    transform: scaleX(0.1);
+  }
+}
+
+/* La pata en la que cae la bandera parpadea un poco. */
+.zancada-pata.zancada-pata-clave {
+  animation: zancada-latir 0.9s ease-in-out 3;
+}
+
+@keyframes zancada-latir {
+  50% {
+    opacity: 0.45;
+  }
+}
+
+.zancada-cuenta {
+  margin: 8px 0 0;
+  min-height: 1.4em;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.boton.zancada-poner {
+  margin-top: 8px;
+  touch-action: manipulation;
+}
+
+.boton.zancada-poner:disabled {
+  background: var(--verde-azulado-oscuro);
+  box-shadow: none;
+  opacity: 0.75;
+}
+
+.zancada-opciones {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.boton.zancada-opcion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px;
+  margin-top: 0;
+  padding: 6px 4px;
+  border-radius: 16px;
+  line-height: 1.15;
+  touch-action: manipulation;
+}
+
+.boton.zancada-opcion strong {
+  font-size: 0.85rem;
+}
+
+.boton.zancada-opcion small {
+  margin-top: 2px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+.boton.zancada-opcion:disabled {
+  opacity: 0.45;
+}
+
+.boton.zancada-opcion.acertada,
+.boton.zancada-opcion.acertada:disabled {
+  opacity: 1;
+  background: var(--verde-azulado-oscuro);
+  outline: 3px solid var(--mostaza);
+  outline-offset: 2px;
+}

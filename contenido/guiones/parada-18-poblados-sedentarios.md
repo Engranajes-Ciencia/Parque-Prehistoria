@@ -62,21 +62,20 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ---
 
-## Reto: «¿De dónde viene?»
+## Reto: «Parejas de la granja»
 
-**Qué se ve:** cuatro animales salvajes (lobo, uro, muflón y jabalí) y cuatro domésticos (perro, vaca, oveja y cerdo).
+*30-oct-2026. Juego de peques (4-6 años): parejas boca abajo, cada animal salvaje con su pariente doméstico (motor `componentes/Memory.tsx`, juego `retos/ParejasDeLaGranja.tsx`). Antes se unían arrastrando («¿De dónde viene?»); los mayores tienen ahora una cadena de tres columnas.*
 
-**Qué se aprende:** los animales de casa y de granja descienden de animales salvajes, y el cambio lo hicieron las personas criando, generación tras generación, a los más mansos.
+**Qué se ve:** ocho cartas boca abajo: lobo y perro, uro y vaca, muflón y oveja, jabalí y cerdo (ilustraciones del lote 4).
 
-**Cómo se gana:** uniendo cada animal salvaje con el doméstico que desciende de él.
+**Cómo se gana:** dando la vuelta a dos cartas cada vez. Si son pareja (un salvaje y su doméstico), se quedan boca arriba y Alba explica de dónde viene el doméstico; si no, se vuelven a tapar solas. Con las cuatro parejas, termina.
 
 **Voz de Alba:**
-- Al empezar: «Estos animales salvajes tienen parientes que viven con nosotros. ¡Une cada uno con el suyo!»
+- Al empezar: «¡Vamos a jugar a las parejas! Da la vuelta a dos cartas: busca cada animal salvaje con su pariente de la granja.»
 - Acierto perro: «¡Muy bien! El perro viene de unos lobos muy antiguos. Fue el primer animal domesticado.»
 - Acierto vaca: «¡Eso es! La vaca viene del uro, un toro salvaje enorme que ya no existe.»
 - Acierto oveja: «¡Sí! La oveja viene del muflón de Asia, que tiene poca lana. Las personas fueron criando a las más lanudas.»
 - Acierto cerdo: «¡Correcto! El cerdo viene del jabalí. Son tan parientes que todavía pueden tener crías juntos.»
-- Fallo: «¡Uy, casi! Busca al que más se le parece y prueba otra vez.»
 - Al terminar: «¡Todos con su pariente! Criando a los más mansos durante miles de años, los salvajes se volvieron domésticos. ¡Toma tu pegatina!»
 
 **Matices que el juego simplifica** (no se dicen en voz alta):
@@ -90,6 +89,36 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 **«Criando a los más mansos»** resume bien la domesticación del ganado. En el perro, el primer paso pudo darlo el propio lobo, acercándose a los campamentos; el resultado final, en todo caso, sí se debe a la cría humana.
 
 **«Fue el primer animal domesticado»**: la ciencia lo acepta sin discusión. La frase no dice cuándo, porque la fecha exacta sí se discute. *(Descartado en la revisión: «el primer animal que vivió con las personas», porque el ratón casero ya vivía en las aldeas natufienses hace unos quince mil años, sin estar domesticado.)*
+
+---
+
+## Reto para mayores: «Del lobo al perro»
+
+*30-oct-2026. Juego para 7 años o más (motor `componentes/Flechas.tsx`, juego `retos/DelLoboAlPerro.tsx`).*
+
+**Qué se ve:** tres columnas: los cuatro animales salvajes, sus cuatro parientes domésticos y, con emoji, lo que cada doméstico daba a los primeros agricultores: ayuda para cazar y vigilar, leche y fuerza, leche y lana, y carne.
+
+**Cómo se gana:** uniendo con flechas cada salvaje con su doméstico y cada doméstico con lo que nos da. Ocho flechas.
+
+**Voz de Alba:**
+- Al empezar: «Une cada animal salvaje con su pariente doméstico, y cada doméstico con lo que daba a los primeros agricultores.»
+- Acierto perro: «El perro viene de unos lobos muy antiguos. Fue el primer animal domesticado, antes incluso que las plantas.»
+- Acierto vaca: «La vaca viene del uro, un toro salvaje enorme que ya no existe.»
+- Acierto oveja: «La oveja viene del muflón de Asia, que tiene poca lana.»
+- Acierto cerdo: «El cerdo viene del jabalí: todavía pueden tener crías juntos.»
+- Nos da perro: «El perro ayudaba a cazar y vigilaba el poblado.»
+- Nos da vaca: «La vaca daba leche y carne. Y, más tarde, fuerza para tirar del arado.»
+- Nos da oveja: «La oveja daba leche y carne. La lana llegó después, criando a las más lanudas.»
+- Nos da cerdo: «El cerdo daba carne, y se comía casi cualquier sobra.»
+- Fallo: «¡Uy! Piensa en quién se parece a quién.»
+- Fallo otra vez: «Casi… Prueba con otro.»
+- Al terminar: «¡Cadena completa! Criando animales, los primeros agricultores tenían a mano mucho más que carne.»
+
+**Rigor** (no se dice en voz alta):
+- **Perro, «antes incluso que las plantas»:** los perros más antiguos sin discusión tienen unos 15.000 años (Bonn-Oberkassel, Alemania), varios miles de años antes de las primeras plantas cultivadas (hacia 11.500-10.000 años, en el Creciente Fértil).
+- **Leche:** hay restos de lácteos en cerámica de Anatolia de hace unos 8.500 años. **Arado:** las primeras señales de bueyes tirando de arados son posteriores, de hace unos 6.000 años; por eso «más tarde».
+- **Lana:** las primeras ovejas domésticas tenían poco pelo útil; las ovejas lanudas se extendieron hace unos 5.000-6.000 años. Por eso «la lana llegó después».
+- **Cerdo y jabalí:** son la misma especie, *Sus scrofa*; los cruces son frecuentes.
 
 ---
 

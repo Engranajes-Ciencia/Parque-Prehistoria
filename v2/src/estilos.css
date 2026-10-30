@@ -1793,3 +1793,214 @@ h3 {
   line-height: 1;
   min-height: 64px;
 }
+
+/* ---------- une con flechas ---------- */
+
+.flechas-rotulos {
+  display: grid;
+  gap: 0 56px;
+  margin: 0 0 6px;
+  font-weight: 800;
+  font-size: 0.85rem;
+  text-align: center;
+  color: var(--tinta-suave);
+}
+
+.flechas {
+  position: relative;
+  display: grid;
+  gap: 0 56px;
+  touch-action: none; /* arrastrar la flecha no debe mover la página */
+  user-select: none;
+}
+
+.flechas-rotulos.cols-2,
+.flechas.cols-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.flechas-rotulos.cols-3,
+.flechas.cols-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 26px;
+}
+
+.flechas-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 8px;
+  position: relative;
+  z-index: 1;
+}
+
+.flecha-cosa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  min-height: 72px;
+  padding: 6px 4px;
+  border: 3px solid transparent;
+  border-radius: 14px;
+  background: var(--papel);
+  box-shadow: var(--sombra);
+  color: var(--tinta);
+  cursor: pointer;
+}
+
+.flecha-cosa.elegida {
+  border-color: var(--mostaza);
+  transform: scale(1.04);
+}
+
+.flecha-cosa.unida {
+  border-color: var(--verde-azulado);
+  background: #eef8f6;
+}
+
+.flecha-dibujo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  width: 100%;
+  font-size: 2.2rem;
+  line-height: 1;
+}
+
+.flecha-dibujo img,
+.flecha-dibujo svg {
+  max-height: 56px;
+  max-width: 100%;
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+}
+
+.flecha-nombre {
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+}
+
+.flechas-lineas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.flechas-lineas line {
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+
+#flecha-punta path {
+  fill: var(--verde-azulado-oscuro);
+}
+
+.flecha-bien {
+  stroke: var(--verde-azulado-oscuro);
+}
+
+.flecha-mal {
+  stroke: var(--teja);
+  stroke-dasharray: 8 6;
+}
+
+.flecha-dedo {
+  stroke: var(--mostaza);
+  stroke-dasharray: 6 6;
+}
+
+/* ---------- parejas (memory) ---------- */
+
+.memory {
+  display: grid;
+  gap: 8px;
+}
+
+.memory-carta {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  border: none;
+  padding: 0;
+  background: transparent;
+  perspective: 600px;
+  cursor: pointer;
+  min-height: 0;
+}
+
+.memory-dorso,
+.memory-cara {
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transition: transform 0.35s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--sombra);
+}
+
+.memory-dorso {
+  background: radial-gradient(circle at 50% 45%, var(--mostaza) 0 18%, transparent 19%), var(--verde-azulado);
+}
+
+.memory-dorso::after {
+  content: "?";
+  color: var(--papel);
+  font-weight: 900;
+  font-size: 1.6rem;
+  margin-top: 46%;
+}
+
+.memory-cara {
+  background: var(--papel);
+  transform: rotateY(180deg);
+  padding: 4px;
+}
+
+.memory-carta.vista .memory-dorso {
+  transform: rotateY(180deg);
+}
+
+.memory-carta.vista .memory-cara {
+  transform: rotateY(360deg);
+}
+
+.memory-carta.hallada .memory-cara {
+  outline: 3px solid var(--verde-azulado);
+}
+
+.memory-dibujo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+  min-height: 0;
+  font-size: 2.2rem;
+}
+
+.memory-dibujo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.memory-nombre {
+  font-size: 0.72rem;
+  font-weight: 800;
+  line-height: 1.1;
+  text-align: center;
+  color: var(--tinta);
+}

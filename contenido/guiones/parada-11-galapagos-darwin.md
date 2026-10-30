@@ -115,6 +115,34 @@ Una sola idea: cada pico sirve para una comida. La tortuga es solo el ancla (lo 
 
 ---
 
+## Reto para mayores: «El taller de Darwin»
+
+*30-oct-2026. Juego para 7 años o más (motor `componentes/Flechas.tsx`, juego `retos/ElTallerDeDarwin.tsx`).*
+
+**Qué se ve:** tres columnas. Los tres pinzones del reto de peques (pico gordo, pico fino y pico largo); sus tres comidas (semillas duras, bichitos y la flor del cactus); y tres herramientas de hoy, con emoji: un cascanueces, unos palillos y una pajita.
+
+**Cómo se gana:** uniendo con flechas cada pinzón con su comida y cada comida con la herramienta que hace el mismo trabajo que el pico. Seis flechas.
+
+**Qué se aprende:** que el pico es una herramienta, y que la forma va con el trabajo. Es la observación de la que partió la idea de Darwin: parientes que se separaron y fueron cambiando.
+
+**Voz de Alba:**
+- Al empezar: «Estos pinzones son parientes, pero cada uno tiene un pico distinto. Une cada pájaro con su comida, y cada comida con la herramienta que se parece a su pico.»
+- Acierto semillas: «Pico gordo y fuerte: parte semillas duras.»
+- Acierto insectos: «Pico fino: atrapa bichitos entre las hojas.»
+- Acierto cactus: «Pico largo: llega al fondo de la flor del cactus.»
+- Herramienta semillas: «¡Como un cascanueces! Mucha fuerza en poco espacio.»
+- Herramienta insectos: «¡Como unos palillos! Finos y precisos.»
+- Herramienta cactus: «¡Como una pajita! Para llegar al néctar del fondo.»
+- Fallo: «Mmm… Fíjate en la forma: ¿qué haría ese trabajo?»
+- Fallo otra vez: «¡Uy! Prueba con otra.»
+- Al terminar: «¡Taller completo! Picos distintos para comidas distintas: Darwin acabó pensando que venían de un antepasado común que fue cambiando.»
+
+**Rigor** (no se dice en voz alta):
+- **Los picos y su comida:** los pinzones terrestres de pico grueso (*Geospiza magnirostris*, *G. fortis*) parten semillas duras; el pinzón del cactus (*G. scandens*) mete el pico en las flores de las chumberas, a por néctar, polen y semillas; los pinzones de pico fino, como el pinzón cantor (*Certhidea*), comen insectos. Simplificado: casi todos comen de todo un poco, y por eso los fallos no dicen que un pico «no pueda» comer otra cosa.
+- **«Darwin acabó pensando…»:** en las Galápagos, en 1835, no los reconoció como pinzones parientes: se lo dijo el ornitólogo John Gould en Londres, en 1837. La idea del antepasado común llegó después, y los pinzones apenas salen en *El origen de las especies*. Por eso «acabó pensando» y no «vio enseguida».
+
+---
+
 ## ¿Sabías que…?
 
 > ¿Sabías que los famosos pinzones de Darwin no son pinzones? Se les parecen tanto que así los bautizaron. Pero, al estudiar sus genes, los científicos descubrieron que son primos de otros pajarillos de América, las tangaras. El nombre, eso sí, se ha quedado.

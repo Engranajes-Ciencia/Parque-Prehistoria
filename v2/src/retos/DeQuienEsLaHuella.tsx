@@ -1,10 +1,11 @@
 import { useState } from "react";
-import Emparejar, { type PiezaEmparejar } from "../componentes/Emparejar";
+import Flechas from "../componentes/Flechas";
 import { dichoDelReto, dichosDelReto, type Dicho } from "../contenido/guion";
 import type { ContenidoParada } from "../contenido/paradas";
 
-// Cada huella con el dinosaurio que la dejó. Las huellas del carnívoro y del herbívoro con pico
-// miden lo mismo: hay que fijarse en los dedos, no en el tamaño.
+// Cada huella con el dinosaurio que la dejó, uniéndolas con una flecha (30-oct-2026: antes se
+// arrastraban; el arrastre ya sale en muchos juegos). Las huellas del carnívoro y del herbívoro
+// con pico miden lo mismo: hay que fijarse en los dedos, no en el tamaño.
 const huella = (d: string) => (
   <svg viewBox="0 0 60 60" aria-hidden="true">
     <path d={d} fill="#7a5a3a" fillRule="evenodd" />
@@ -24,11 +25,6 @@ const SAUROPODO = huella(
 );
 
 const dino = (n: string) => <img src={`img/p09/${n}.webp`} alt="" draggable={false} />;
-const HUELLAS: PiezaEmparejar[] = [
-  { id: "ornitopodo", nombre: "Tres dedos gorditos", dibujo: ORNITOPODO, destino: "ornitopodo" },
-  { id: "sauropodo", nombre: "Redonda y enorme", dibujo: SAUROPODO, destino: "sauropodo" },
-  { id: "teropodo", nombre: "Tres dedos finos", dibujo: TEROPODO, destino: "teropodo" },
-];
 
 export default function DeQuienEsLaHuella({ parada }: { parada: ContenidoParada }) {
   const dicho = (e: string) => dichoDelReto(parada.guion, parada.id, e);
@@ -43,20 +39,30 @@ export default function DeQuienEsLaHuella({ parada }: { parada: ContenidoParada 
     } as Record<string, Dicho>,
   }));
   return (
-    <Emparejar
+    <Flechas
       parada={parada.id}
       titulo={parada.reto ?? "¿De quién es la huella?"}
       pose="lupa"
-      piezas={HUELLAS}
-      sitios={[
-        { id: "teropodo", nombre: "Carnívoro de dos patas", dibujo: dino("teropodo") },
-        { id: "ornitopodo", nombre: "Iguanodonte, con pico", dibujo: dino("iguanodonte") },
-        { id: "sauropodo", nombre: "Cuello largo", dibujo: dino("sauropodo") },
+      columnas={[
+        [
+          { id: "h-teropodo", nombre: "Tres dedos finos", dibujo: TEROPODO },
+          { id: "h-ornitopodo", nombre: "Tres dedos gorditos", dibujo: ORNITOPODO },
+          { id: "h-sauropodo", nombre: "Redonda y enorme", dibujo: SAUROPODO },
+        ],
+        [
+          { id: "teropodo", nombre: "Carnívoro de dos patas", dibujo: dino("teropodo") },
+          { id: "ornitopodo", nombre: "Iguanodonte, con pico", dibujo: dino("iguanodonte") },
+          { id: "sauropodo", nombre: "Cuello largo", dibujo: dino("sauropodo") },
+        ],
       ]}
-      columnas={3}
-      rotuloPiezas="Las huellas"
-      rotuloSitios="¿Quién la dejó?"
-      frases={{ inicio: frases.inicio, fallo: frases.fallo, final: frases.final, acierto: (p) => frases.acierto[p.id] }}
+      rotulos={["Las huellas", "¿Quién la dejó?"]}
+      pares={[
+        ["h-teropodo", "teropodo"],
+        ["h-ornitopodo", "ornitopodo"],
+        ["h-sauropodo", "sauropodo"],
+      ]}
+      frases={{ inicio: frases.inicio, fallo: frases.fallo, final: frases.final, acierto: (_, d) => frases.acierto[d] }}
+      nota="Toca una huella y luego al dinosaurio que la dejó, o arrastra el dedo de una a otro."
     />
   );
 }

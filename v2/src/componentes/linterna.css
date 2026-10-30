@@ -1,0 +1,152 @@
+/* ---------- linterna (componentes/Linterna.tsx) ----------
+   Clases con el prefijo lin- para no chocar con estilos.css. */
+
+/* Lo que hay que encontrar: como .mural-lista, pero en una sola fila de cinco (el nombre
+   debajo de la marca), para que la cueva quepa entera en un móvil de 360×600. */
+.lin-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(56px, 1fr));
+  gap: 4px;
+  margin: 0 0 8px;
+  padding: 0;
+  list-style: none;
+}
+
+.lin-lista li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--papel);
+  border-radius: 12px;
+  padding: 3px 2px 4px;
+  font-weight: 700;
+  font-size: 0.68rem;
+  line-height: 1.15;
+  box-shadow: var(--sombra);
+  overflow-wrap: anywhere;
+}
+
+.lin-lista li b {
+  font-size: 0.9rem;
+  line-height: 1.1;
+}
+
+.lin-lista li.hecho {
+  background: var(--verde-azulado);
+  color: #fff;
+}
+
+.lin-marco {
+  /* Lo que ocupan, por encima y por debajo de la cueva, la barra, Alba, la lista y la nota.
+     El ancho se calcula con esto (en Linterna.tsx) para que la cueva quepa entera. */
+  --lin-reserva: 320px;
+  margin: 0 auto;
+  border-radius: var(--radio);
+  overflow: hidden;
+  box-shadow: var(--sombra);
+  background: #0c0805;
+}
+
+/* Pantallas bajas: Alba va compacta (ver estilos.css). A 360×600, cueva de unos 278×331. */
+@media (max-height: 720px) {
+  .lin-marco {
+    --lin-reserva: 268px;
+  }
+}
+
+.linterna {
+  display: block;
+  width: 100%;
+  height: auto;
+  touch-action: none; /* mover la luz no mueve la página */
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  cursor: crosshair;
+}
+
+/* El dedo siempre llega al <svg>: la zona se calcula con la posición, no con lo que hay debajo. */
+.linterna * {
+  pointer-events: none;
+}
+
+.lin-oscuridad {
+  fill: #0c0805;
+  opacity: 0.95;
+  transition: opacity 1.6s ease-in;
+}
+
+/* Al encontrarlo todo, se enciende la cueva entera. */
+.linterna.encendida .lin-oscuridad {
+  opacity: 0;
+}
+
+/* La llama tiembla: el círculo de luz crece y mengua un poco, a destiempo. */
+.lin-llama {
+  animation: lin-temblor 1.9s ease-in-out infinite;
+}
+
+@keyframes lin-temblor {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  21% {
+    transform: scale(0.96);
+  }
+  37% {
+    transform: scale(1.03);
+  }
+  58% {
+    transform: scale(0.98);
+  }
+  79% {
+    transform: scale(1.02);
+  }
+}
+
+.lin-calidez {
+  animation: lin-calor 1.3s ease-in-out infinite;
+}
+
+@keyframes lin-calor {
+  0%,
+  100% {
+    opacity: 0.9;
+  }
+  30% {
+    opacity: 0.65;
+  }
+  55% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.75;
+  }
+}
+
+/* Marco que brilla un momento sobre lo que se acaba de encontrar. */
+.lin-destello {
+  fill: none;
+  stroke: #ffe3a8;
+  animation: lin-apagar 1.2s ease-out forwards;
+}
+
+@keyframes lin-apagar {
+  to {
+    opacity: 0;
+  }
+}
+
+/* Antes del primer toque: un aro que late en el centro, «toca aquí». */
+.lin-invita {
+  fill: rgba(255, 196, 110, 0.22);
+  stroke: rgba(255, 214, 150, 0.9);
+  animation: lin-latir 1.4s ease-in-out infinite;
+}
+
+@keyframes lin-latir {
+  50% {
+    opacity: 0.35;
+  }
+}

@@ -101,6 +101,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
     imagen: "img/p11/portada.webp",
     guion: leerGuion(guion11),
     reto: "Cada pico, su comida",
+    retoMayores: "El taller de Darwin",
   },
   12: {
     id: 12,
@@ -223,7 +224,8 @@ export const PARADAS: Record<number, ContenidoParada> = {
     titulo: "Primeros poblados sedentarios",
     imagen: "img/p18/portada.webp",
     guion: leerGuion(guion18),
-    reto: "¿De dónde viene?",
+    reto: "Parejas de la granja",
+    retoMayores: "Del lobo al perro",
   },
   19: {
     id: 19,

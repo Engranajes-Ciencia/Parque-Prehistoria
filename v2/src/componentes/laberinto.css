@@ -1,0 +1,105 @@
+/* ---------- laberinto (componentes/Laberinto.tsx) ----------
+   Clases con el prefijo lab- para no chocar con estilos.css. */
+
+.lab-marco {
+  /* Lo que ocupan, por encima y por debajo del tablero, la barra, Alba con su bocadillo y la
+     nota. El ancho del tablero se calcula con esto (en Laberinto.tsx) para que quepa entero. */
+  --lab-reserva: 280px;
+  margin: 0 auto;
+}
+
+/* Pantallas bajas: Alba va compacta (ver estilos.css). A 360×600, tablero de unos 312×375. */
+@media (max-height: 720px) {
+  .lab-marco {
+    --lab-reserva: 225px;
+  }
+}
+
+.laberinto {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+  touch-action: none; /* arrastrar no mueve la página */
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  cursor: pointer;
+}
+
+/* Todo el dibujo deja pasar el dedo al <svg>: la casilla se calcula con la posición, no con
+   lo que hay debajo (y así la imagen de la figura no se puede arrastrar fuera). */
+.laberinto * {
+  pointer-events: none;
+}
+
+.lab-figura,
+.lab-giro {
+  transition: transform 0.18s ease-out;
+}
+
+.lab-choque-1 {
+  animation: lab-temblor-1 0.35s;
+}
+
+.lab-choque-2 {
+  animation: lab-temblor-2 0.35s;
+}
+
+/* Dos animaciones iguales con distinto nombre: al alternarlas, cada choque vuelve a temblar. */
+@keyframes lab-temblor-1 {
+  20%,
+  60% {
+    transform: translateX(-5px);
+  }
+  40%,
+  80% {
+    transform: translateX(5px);
+  }
+}
+
+@keyframes lab-temblor-2 {
+  20%,
+  60% {
+    transform: translateX(-5px);
+  }
+  40%,
+  80% {
+    transform: translateX(5px);
+  }
+}
+
+.lab-llego {
+  animation: lab-salto 0.5s ease-out 0.2s 2;
+}
+
+@keyframes lab-salto {
+  50% {
+    transform: scale(1.18);
+  }
+}
+
+/* La meta: un aro que late. */
+.lab-meta {
+  fill: rgba(255, 238, 176, 0.3);
+  stroke: #fff6cf;
+  stroke-width: 3;
+  stroke-dasharray: 8 6;
+  animation: lab-latir 1.6s ease-in-out infinite;
+}
+
+/* Casillas a las que se puede ir desde donde está la figura: la pista para los peques. */
+.lab-vecina {
+  fill: rgba(255, 255, 255, 0.18);
+  stroke: rgba(255, 255, 255, 0.85);
+  stroke-width: 2;
+  stroke-dasharray: 4 4;
+  animation: lab-latir 1.2s ease-in-out infinite;
+}
+
+@keyframes lab-latir {
+  50% {
+    opacity: 0.45;
+  }
+}

@@ -1,0 +1,170 @@
+/* El calendario de piedra (parada 21, reto para mayores).
+   Ojo: este fichero entra en la hoja ANTES que estilos.css (main.tsx importa App antes que
+   los estilos), así que lo que retoque una clase común (.boton, .nota) lleva selector doble. */
+
+.calendario-vista {
+  display: block;
+  width: 100%;
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+}
+
+.calendario-escena {
+  animation: calendario-entrar 0.6s ease-out;
+}
+
+@keyframes calendario-entrar {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+}
+
+.calendario-rotulo {
+  fill: #fff;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.calendario-halo {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.calendario-brilla .calendario-halo {
+  animation: calendario-latir 1.4s ease-in-out infinite;
+}
+
+@keyframes calendario-latir {
+  50% {
+    transform: scale(1.45);
+  }
+}
+
+.calendario-rayo {
+  animation: calendario-aparecer 0.8s ease-out;
+}
+
+@keyframes calendario-aparecer {
+  from {
+    opacity: 0;
+  }
+}
+
+/* ◀ 21 de abril ▶ */
+.calendario-fecha {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.calendario-paso {
+  flex: none;
+  width: 48px;
+  height: 44px;
+  border: none;
+  border-radius: 999px;
+  background: var(--papel);
+  box-shadow: var(--sombra);
+  color: var(--verde-azulado-oscuro);
+  font-size: 1.05rem;
+  font-weight: 800;
+  touch-action: manipulation;
+}
+
+.calendario-paso:active {
+  transform: translateY(2px);
+}
+
+.calendario-paso:disabled {
+  opacity: 0.45;
+}
+
+.calendario-dia {
+  flex: 1;
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+/* La barra del año: el pulgar es un sol de 44 px, lo mínimo para un dedo. */
+.calendario-barra {
+  -webkit-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  height: 44px;
+  margin: 2px 0 0;
+  padding: 0;
+  background: transparent;
+}
+
+.calendario-barra:focus {
+  outline: none;
+}
+
+.calendario-barra:focus-visible {
+  outline: 3px solid var(--mostaza);
+  outline-offset: 2px;
+  border-radius: 999px;
+}
+
+.calendario-barra::-webkit-slider-runnable-track {
+  height: 14px;
+  border-radius: 999px;
+  background: #dfe8e6;
+  box-shadow: inset 0 1px 2px rgba(31, 42, 46, 0.2);
+}
+
+.calendario-barra::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  width: 44px;
+  height: 44px;
+  margin-top: -15px; /* (14 − 44) / 2: centrado sobre la pista */
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: radial-gradient(circle at 40% 40%, #fff3c4, #ffd54f 55%, #e0a526);
+  box-shadow: 0 2px 6px rgba(31, 42, 46, 0.35);
+}
+
+.calendario-barra::-moz-range-track {
+  height: 14px;
+  border-radius: 999px;
+  background: #dfe8e6;
+}
+
+.calendario-barra::-moz-range-thumb {
+  box-sizing: border-box;
+  width: 44px;
+  height: 44px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: radial-gradient(circle at 40% 40%, #fff3c4, #ffd54f 55%, #e0a526);
+  box-shadow: 0 2px 6px rgba(31, 42, 46, 0.35);
+}
+
+.calendario-barra:disabled {
+  opacity: 0.6;
+}
+
+/* Los meses, con el mismo margen que recorre el centro del pulgar (22 px a cada lado). */
+.calendario-meses {
+  display: flex;
+  padding: 0 22px;
+}
+
+.calendario-meses span {
+  flex: 1;
+  min-width: 0;
+  text-align: center;
+  font-size: 0.62rem;
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--tinta-suave);
+}
+
+.boton.calendario-girar {
+  margin-top: 10px;
+}

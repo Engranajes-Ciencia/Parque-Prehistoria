@@ -72,6 +72,8 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ## Reto: «¿De quién es la huella?»
 
+*30-oct-2026: ahora se une con flechas (motor `componentes/Flechas.tsx`) en vez de arrastrar, porque el arrastre ya sale en muchos juegos. Solo cambia la frase de empezar.*
+
 **Qué se ve:** arriba, tres dinosaurios en fila, de pie en la orilla fangosa de un lago, **con los pies bien visibles**: a la izquierda, el terópodo; en el centro, el ornitópodo; a la derecha, el saurópodo. Abajo, tres huellas sueltas para arrastrar, desordenadas. Paisaje del Cretácico inferior de la península ibérica, hace unos ciento veinte o ciento veinticinco millones de años, cuando los tres tipos convivían en lo que hoy es La Rioja o Teruel: helechos, colas de caballo, cícadas y coníferas. **Nada de césped ni praderas** (aún no existían) **ni flores vistosas** (las primeras eran pequeñas y discretas: mejor no dibujarlas).
 
 **Qué se aprende:** la huella es el molde del pie, y cada tipo de dinosaurio deja la suya: dedos finos con garra, dedos anchos y redondeados, o una huella redonda y enorme.
@@ -90,7 +92,7 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 | **Huella de saurópodo** | **Redonda u ovalada y enorme**: al menos el doble de ancha que las otras dos. Sin dedos largos; solo **tres marcas cortas de uña** en el borde de delante, apuntando un poco hacia fuera. Solo la huella del pie, sin la de la mano (que tiene forma de herradura y confundiría). |
 
 **Voz de Alba:**
-- Al empezar: «¡Alguien ha pisado el barro! Arrastra cada huella hasta el dinosaurio que la dejó.»
+- Al empezar: «¡Alguien ha pisado el barro! Une cada huella con el dinosaurio que la dejó: toca la huella y luego a su dueño.»
 - Acierto terópodo: «¡Sí! Dedos finos con garras: ¡el carnívoro!»
 - Acierto ornitópodo: «¡Eso es! Dedos gorditos: ¡el del pico!»
 - Acierto saurópodo: «¡Bien! Redonda y enorme: ¡el del cuello largo!»

@@ -17,11 +17,13 @@ import PolinizaLasFlores from "./PolinizaLasFlores";
 import QuienSobrevivio from "./QuienSobrevivio";
 import QuienVivioAntes from "./QuienVivioAntes";
 import ReconstruyeStonehenge from "./ReconstruyeStonehenge";
-import DeDondeViene from "./DeDondeViene";
 import DescubreElMural from "./DescubreElMural";
 import FabricaOxigeno from "./FabricaOxigeno";
 import ManoEnLaCueva from "./ManoEnLaCueva";
 import QuienComeQue from "./QuienComeQue";
+import DelLoboAlPerro from "./DelLoboAlPerro";
+import ParejasDeLaGranja from "./ParejasDeLaGranja";
+import ElTallerDeDarwin from "./ElTallerDeDarwin";
 import CosasQueNoEncajan from "./CosasQueNoEncajan";
 import QuienNoPudoEstar from "./QuienNoPudoEstar";
 import RompecabezasCatalhoyuk from "./RompecabezasCatalhoyuk";
@@ -47,7 +49,7 @@ export const RETOS: Record<number, ComponentType<{ parada: ContenidoParada }>> =
   10: QuienSobrevivio,
   13: AExcavar,
   16: ManoEnLaCueva,
-  18: DeDondeViene,
+  18: ParejasDeLaGranja,
   19: DescubreElMural,
   21: ReconstruyeStonehenge,
 };
@@ -61,4 +63,6 @@ export const RETOS_MAYORES: Record<number, ComponentType<{ parada: ContenidoPara
   20: ConstruyeLaCasa,
   7: QuienNoPudoEstar,
   14: VerdadOMito,
+  11: ElTallerDeDarwin,
+  18: DelLoboAlPerro,
 };
