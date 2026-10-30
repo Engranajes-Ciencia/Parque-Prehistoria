@@ -98,6 +98,36 @@ La frase de la mandíbula dice «apuntada», en femenino, para que concuerde; la
 
 ---
 
+## Reto para mayores: «Excavación científica»
+
+*30-oct-2026. Juego para 7 años o más (`retos/ExcavacionCientifica.tsx`, con su `.css`), hecho por un agente y revisado por Claude.*
+
+**Qué se ve:** el mismo arenero de cuatro por cuatro que el reto de peques (columnas A a D, filas 1 a 4), con seis hallazgos en casillas fijas: un bifaz (B1), un hueso de animal con marcas de corte (A2), un diente humano (D2), carbones y huesos quemados de una hoguera (C3), una raedera (B4) y un cráneo de oso de las cavernas (D4). Al lado, un cuaderno de campo con seis renglones; debajo, botones de letra y de número.
+
+**Cómo se gana:** rascando la arena y, cada vez que asoma un hallazgo, apuntando su casilla (su letra y su número) antes de seguir. Si la casilla es buena, el hallazgo pasa al cuaderno con su número de registro y Alba cuenta qué nos dice; si no, Alba da la pista y se vuelve a intentar. Mientras un hallazgo espera su apunte no sale el siguiente. Con el sexto apuntado, se gana.
+
+**Qué se aprende:** que un científico apunta dónde estaba cada cosa antes de sacarla, porque excavar destruye el yacimiento; y que cada clase de hallazgo cuenta algo distinto.
+
+**Voz de Alba:**
+- Al empezar: «Ahora excavas tú, como en un yacimiento de verdad. Hay seis hallazgos escondidos: rasca la arena con el dedo, despacio, como con un pincel.»
+- Apúntalo: «¡Algo asoma! Antes de sacarlo, un científico apunta dónde estaba: la casilla y la profundidad. Si no, se pierde mucho de lo que nos cuenta. Tú apunta la casilla: su letra de arriba y su número del lado.»
+- Casilla equivocada: «Esa no es su casilla. Mira qué letra tiene encima y qué número tiene al lado.»
+- Bifaz: «¡Un bifaz! Alguien lo talló a golpes por las dos caras hasta darle punta y filo. Nos cuenta cómo fabricaban sus herramientas.»
+- Hueso con marcas: «¡Un hueso con rayitas finas! Son marcas de corte: alguien le quitó la carne con una piedra afilada. Nos cuentan qué animales comían.»
+- Diente: «¡Un diente humano! Su forma ayuda a saber qué clase de humano era, y las rayitas de su desgaste, qué masticaba.»
+- Carbones: «¡Carbones y huesos quemados en una mancha oscura! Seguramente aquí hubo una hoguera: nos cuenta que usaban el fuego.»
+- Raedera: «¡Una raedera! Es una lasca, un trozo que saltó al tallar una piedra, con un borde retocado para raspar pieles o madera.»
+- Oso: «¡Un cráneo de oso de las cavernas! Estos osos dormían el invierno en las cuevas, y muchos murieron allí. Los humanos no eran los únicos que usaban las cuevas.»
+- Al terminar: «¡Cuaderno completo! La arena que quitamos ya no vuelve a su sitio, pero con estas notas cualquiera sabrá dónde estaba cada cosa.»
+
+**Rigor** (no se dice en voz alta). En Atapuerca, de cada pieza se apuntan el cuadro de un metro y las coordenadas X, Y y Z (la profundidad); el juego solo pide la casilla, y Alba lo dice al pedir el primer apunte.
+
+El yacimiento del juego es genérico: Alba no atribuye ningún hallazgo a una cueva ni a una especie. En un yacimiento real no saldría todo junto: en Atapuerca, los bifaces son de niveles de hace medio millón de años o menos, y las hogueras, de niveles todavía más modernos. El oso de la Sima de los Huesos es, en rigor, el oso de Deninger, antepasado del oso de las cavernas; por eso la frase no nombra ningún sitio.
+
+«Seguramente aquí hubo una hoguera»: carbones y huesos quemados juntos indican un hogar, pero un incendio natural también quema; los arqueólogos lo deciden por la forma de la mancha y el sedimento quemado debajo. «Las rayitas de su desgaste»: el microdesgaste del esmalte, que se estudia al microscopio. Las raederas sirvieron para muchas cosas (pieles, madera, carne): la frase pone dos ejemplos.
+
+---
+
 ## ¿Sabías que…?
 
 > ¿Sabías que en la Sima de los Huesos, entre miles de huesos humanos, apareció una sola herramienta de piedra? Es un bifaz rojizo, y lo llamaron Excalibur, como la espada del rey Arturo. Algunos científicos creen que fue una ofrenda a los muertos; otros no lo tienen tan claro.

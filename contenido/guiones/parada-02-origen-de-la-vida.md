@@ -82,6 +82,50 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ---
 
+## Reto para mayores: «La gran oxidación»
+
+*30-oct-2026. Juego para 7 años o más (`retos/GranOxidacion.tsx`, con su `.css`), hecho por un agente y revisado por Claude.*
+
+**Qué se ve:** el mar de «Fábrica de oxígeno», ahora con cielo encima y el fondo visto en corte. En el agua flotan puntitos claros: hierro disuelto. Hay día y noche (seis segundos de sol y cuatro de noche, con luna y estrellas).
+
+**Cómo se gana:** tocando las colonias verdes cuando hay luz. En los doce primeros toques, cada burbuja sube un poco, se junta con el hierro y se vuelve una mota de óxido que se hunde; en el fondo se apila una banda roja y gris por toque, y el medidor del aire no se mueve. Gastado el hierro del agua, las burbujas salen al aire, aparecen moléculas de oxígeno en el cielo y el medidor se llena en diez toques más. Con el medidor lleno, cuando Alba acaba lo que estuviera contando, aparece en lo alto la capa de ozono y los rayos ultravioleta (rayas violetas) dejan de llegar al mar. De noche, tocar solo da un «zzz». No hay fallos.
+
+**Qué se aprende:** que el oxígeno de las cianobacterias no se quedó en el aire al principio: se lo tragó el hierro del mar, y de ahí salieron rocas con bandas rojas; que solo cuando sobró oxígeno empezó a acumularse en el aire (la Gran Oxidación), y aun así muy por debajo de lo de hoy; y que con él se formó el ozono, que frena los rayos ultravioleta más dañinos.
+
+**Voz de Alba:**
+- Al empezar: «Estoy en un mar de hace unos dos mil quinientos millones de años. Toca las cianobacterias, las colonias verdes de lo alto de las rocas, para que fabriquen oxígeno. Pero ojo: solo pueden hacerlo cuando les da la luz.»
+- Al tocar (se alternan): «¡Más oxígeno!» / «¡Sigue así!» / «¡Eso es!»
+- De noche: «Ahora es de noche. Sin luz, las cianobacterias no pueden fabricar oxígeno. Espera a que salga el sol.»
+- Bandas de hierro: «¡Mira! El oxígeno no llega al aire: en el agua hay mucho hierro disuelto, y el oxígeno se junta con él y forma óxido, como el de un clavo oxidado. El óxido se hunde y deja bandas rojas en el fondo. De rocas así sale hoy gran parte del hierro que usamos.»
+- Se acaba el hierro: «¡En esta agua ya no queda hierro! Ahora el oxígeno sobra, y lo que sobra sale al aire. Sigue tocando y llena el medidor.»
+- El aire se llena: «¡Ahora sí! El oxígeno se va acumulando en el aire: es la Gran Oxidación, hace unos dos mil cuatrocientos millones de años. Aun así, había mucho menos que hoy: tanto como ahora no lo hubo hasta mucho más tarde.»
+- Capa de ozono: «¡Mira arriba! Con el oxígeno del aire se formó también el ozono, un gas que hace una capa muy alta, por encima de las nubes. Frena los rayos ultravioleta más dañinos del sol, los violetas del dibujo. Todavía hoy nos protege.»
+- Al terminar: «Óxido en el fondo del mar, oxígeno en el aire y ozono en lo alto: unos microbios diminutos cambiaron el planeta entero.»
+
+**Cuándo suena cada frase:** «De noche», la primera vez que se toca una colonia de noche (si Alba está hablando, en la noche siguiente). «Bandas de hierro», cuando cae la primera banda. «Se acaba el hierro», cuando cae la duodécima. «El aire se llena», con medio medidor. «Capa de ozono», al llenarlo (es el último paso, dentro de `terminar`). Las tres primeras explicaciones van en cola: un niño rápido no corta a Alba a media frase. «Al tocar», en los toques 5 y 9 y en el 3 y el 8 de la segunda parte, solo si Alba no tiene nada pendiente.
+
+**Lo que el juego simplifica** (no se dice en voz alta):
+- **El hierro no se acabó de golpe ni en todo el mar.** La Gran Oxidación empezó cuando se fabricaba más oxígeno del que podían tragarse el hierro disuelto y los gases de los volcanes; el mar profundo siguió teniendo hierro mucho tiempo y se siguieron formando bandas, sobre todo entre hace unos dos mil quinientos y mil ochocientos millones de años (y, brevemente, hacia los setecientos). Por eso Alba dice «en esta agua», no «en el mar».
+- **No todas las bandas salen del oxígeno de las cianobacterias:** algunas, sobre todo las más antiguas, pudieron formarlas microbios que oxidan el hierro con la luz sin soltar oxígeno. Alba no dice que todas: dice que aquí el oxígeno forma óxido.
+- **Las bandas reales** alternan capas ricas en hierro (rojas o negras) y en sílice (grises); en el juego, una pareja por toque. Cada capa real tardó años o mucho más.
+- **Cuánto oxígeno hubo tras la Gran Oxidación** es muy incierto, y siempre muy por debajo de hoy; no se acercó al nivel actual hasta hace unos cientos de millones de años. El medidor lleno es el final del juego, no el aire de hoy: por eso «El aire se llena» lo aclara.
+- **Ozono:** se forma en lo alto de la atmósfera cuando la luz ultravioleta rompe moléculas de oxígeno. Absorbe toda la radiación UV-C y la mayor parte de la UV-B, pero deja pasar casi toda la UV-A: por eso «los más dañinos» y no «la mayor parte». Cuánto protegía con el poco oxígeno de entonces se discute: Alba no da fecha.
+- **Los rayos ultravioleta no se ven;** el violeta es un código del dibujo, y Alba lo dice así («los violetas del dibujo»).
+- **El cielo no cambia de color**, por lo que ya se explica en «Descartado del plan inicial»; el agua tampoco (el mar verdoso de Matsuo y otros, 2025, es una hipótesis).
+- **Día de seis segundos y noche de cuatro:** ritmo del juego, no proporción real (entonces el día duraba algo menos de veinticuatro horas).
+
+**Datos y fuentes del reto** (referencias aportadas por el agente; Claude las reconoce, pero no las ha vuelto a comprobar en línea):
+
+| Afirmación | Dato | Base |
+|---|---|---|
+| Bandas de hierro por el oxígeno que reacciona con hierro disuelto | formaciones de hierro bandeado, sobre todo hace ~2.500-1.850 Ma; el Fe²⁺ disuelto se oxida y precipita como óxidos de hierro | Bekker et al. (2010, *Economic Geology*); Lyons, Reinhard y Planavsky (2014, *Nature*) |
+| «De rocas así sale gran parte del hierro que usamos» | los grandes yacimientos de mineral de hierro (Hamersley, Carajás, Lago Superior…) están en formaciones de hierro bandeado | Bekker et al. (2010); USGS |
+| Gran Oxidación «hace unos dos mil cuatrocientos millones» | ya en la tabla de esta parada | Gumsley et al. (2017); Poulton et al. (2021) |
+| Ozono y ultravioleta | el ozono absorbe toda la UV-C y la mayor parte de la UV-B; deja pasar casi toda la UV-A | OMM / NASA, fichas del ozono |
+| Capa de ozono con poco oxígeno | los modelos dan una capa apreciable con una pequeña fracción del oxígeno actual; cuánto protegía se discute | Kasting y Donahue (1980); Cooke et al. (2022, *Royal Society Open Science*) |
+
+---
+
 ## ¿Sabías que…?
 
 > ¿Sabías que en Australia hay microbios que construyen rocas? Esas rocas se llaman estromatolitos. Crecen menos de un milímetro al año, así que uno tan alto como un niño puede tener miles de años.

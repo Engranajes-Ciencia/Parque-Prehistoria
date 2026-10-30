@@ -20,6 +20,10 @@ import DescubreElMural from "./DescubreElMural";
 import FabricaOxigeno from "./FabricaOxigeno";
 import ManoEnLaCueva from "./ManoEnLaCueva";
 import QuienComeQue from "./QuienComeQue";
+import PangeaConPistas from "./PangeaConPistas";
+import ExcavacionCientifica from "./ExcavacionCientifica";
+import FloresDeSuEspecie from "./FloresDeSuEspecie";
+import GranOxidacion from "./GranOxidacion";
 import DiferenciasDelBosque from "./DiferenciasDelBosque";
 import DetallesDelMural from "./DetallesDelMural";
 import LaetoliSeisPistas from "./LaetoliSeisPistas";
@@ -86,4 +90,8 @@ export const RETOS_MAYORES: Record<number, ComponentType<{ parada: ContenidoPara
   12: LaetoliSeisPistas,
   19: DetallesDelMural,
   5: DiferenciasDelBosque,
+  2: GranOxidacion,
+  6: FloresDeSuEspecie,
+  13: ExcavacionCientifica,
+  8: PangeaConPistas,
 };

@@ -274,7 +274,7 @@ Al acabar, compara tu mapa con la plantilla: **el camino tiene que seguir el mis
 
 `M1` está muy bien: alegre, legible y con casi todo en su sitio. La app ya lo usa. Pero Álvaro conoce el parque y hay que corregir cinco cosas (lote 5 bis). `M2` sirve como plan B tal cual.
 
-## 10. LOTE ACTIVO: lote 5 bis, correcciones del mapa
+## 10. Lote 5 bis, correcciones del mapa — HECHO (`M3`, retocado a mano por Álvaro)
 
 **Parte de `arte/lote-05/M1_mapa_parque.png` y edítalo: cambia SOLO lo que dice esta lista.** Todo lo demás (el camino, la isla, el mar, el resto de dibujos y sus posiciones) tiene que quedar **igual**, porque la app coloca los números encima de cada dibujo. Guárdalo como `arte/lote-05/M3_mapa_parque_corregido.png`, 1024×1536.
 
@@ -395,7 +395,53 @@ Aprobado e integrado. Un problema, culpa del encargo y no tuyo: las tarjetas `V5
 
 **El suelo de Laetoli (`E1b`, 1536×1024, horizontal).** Parte de `arte/lote-07/E1_laetoli_suelo.png` y edítala. Ahora tiene **tres** rastros de pisadas humanas (uno grande a la izquierda, uno pequeño en medio y otro grande a la derecha), y en Laetoli se ven **dos**: uno de pies grandes y, **muy pegado a su izquierda**, uno de pies pequeños, los dos hacia el horizonte (un tercer caminante pisó dentro de las huellas del grande, por eso no se ve aparte). Quita el rastro grande de la derecha y rellena ese trozo con el mismo suelo de ceniza, con sus hoyitos de lluvia. Deja igual todo lo demás: el rastro grande de la izquierda, el pequeño, las huellas redondas de elefante de la derecha, los hoyitos de lluvia, el volcán, el lago y las acacias. Los dedos gordos, en línea con los demás, como ahora. *(Lo detectó la revisión del 27-sep; al integrarla, Claude vuelve a medir las zonas del juego.)*
 
-## 14. Próximos lotes (NO generar todavía)
+## 14. LOTE ACTIVO: lote 8, piezas de los retos de mayores (30-oct-2026)
+
+Desde el 30-oct cada parada tiene dos retos: el de los peques y uno para los de 7 años o más. Varios de los nuevos funcionan ya con emojis o con un montaje provisional; estas piezas los sustituyen. Todo en el **estilo 1**, con las reglas de la sección 3. Guarda en `arte/lote-08/`. Puedes hacerlo por partes (A, B, C).
+
+### A. Cinco «intrusos» para las diferencias del primer bosque (parada 5)
+
+**1024×1024, fondo transparente, cuerpo entero, sin sombra en el suelo.** Van pegados encima de la portada `arte/lote-06/D5_parada05_portada.png` (el bosque de hace 385 millones de años), así que **píntalos con el mismo acabado que esa ilustración**: pincelada suave, luz de mañana, colores naturales y **sin contorno negro grueso**. El juego consiste en encontrarlos comparando dos dibujos: tienen que destacar por lo que son, no por estar dibujados de otra manera.
+
+| Archivo | Dibujo |
+|---|---|
+| `I1_flor.png` | una flor silvestre abierta de cinco pétalos, rosa pálido, vista un poco de lado, con un trozo de tallo y dos hojas |
+| `I2_cerezas.png` | dos cerezas rojas colgando de sus rabitos, con una hoja |
+| `I3_pajaro.png` | un petirrojo posado, de perfil, mirando a la izquierda |
+| `I4_abeja.png` | una abeja de la miel volando, de perfil, con las alas abiertas |
+| `I5_raton.png` | un ratón de campo, de perfil, mirando a la izquierda, con la cola entera |
+
+### B. Tarjetas de «Efecto dominó» (parada 10)
+
+Seis tarjetas **con fondo**, cuadradas, 1024×1024, como las de «¡Nos mudamos!» (`N1` a `N6`, lote 7). Cuentan, en orden, lo que pasó tras el asteroide de hace 66 millones de años. Sin texto. Sin sangre.
+
+| Archivo | Escena |
+|---|---|
+| `X1_asteroide.png` | la Tierra vista desde el espacio y una roca enorme, con estela de fuego, a punto de chocar junto a la costa de un mar poco profundo |
+| `X2_polvo.png` | un paisaje del Cretácico (helechos, cícadas, coníferas) bajo un cielo tapado por una nube oscura de polvo y humo; el sol, un disco pálido que apenas se ve |
+| `X3_frio.png` | el mismo paisaje en penumbra y helado: escarcha en las hojas, charcos con hielo |
+| `X4_plantas.png` | helechos y arbustos marchitos, marrones y doblados, en penumbra |
+| `X5_herbivoro.png` | un triceratops flaco y cansado buscando comida entre plantas secas |
+| `X6_carnivoro.png` | un tiranosaurio flaco, solo, en un paisaje vacío y oscuro, sin presas a la vista |
+
+**Anatomía:** el triceratops con sus tres cuernos y la gola maciza, sin agujeros. El tiranosaurio con el cuerpo horizontal, la cola en el aire y los brazos cortos de dos dedos. Nada de dinosaurios de pie como un canguro.
+
+### C. Tres tarjetas más para «La gran mudanza» (parada 17)
+
+Con fondo, cuadradas, 1024×1024, iguales que `N1` a `N6`:
+
+| Archivo | Escena |
+|---|---|
+| `N7_hogar.png` | un hogar apagado en el suelo de un campamento: un círculo de piedras ennegrecidas con ceniza y trozos de carbón |
+| `N8_huesos.png` | los restos de una comida junto a un hogar apagado: huesos partidos de reno o de caballo |
+| `N9_vasija.png` | una vasija de barro cocido sencilla, de boca ancha, con líneas grabadas, como las de los primeros agricultores |
+
+### Para Claude, al integrarlas
+
+- **A:** recortar, pasar a `.webp` y volver a montar `img/p05/bosque-copia.webp` en los mismos sitios y con el mismo tamaño (posiciones en `retos/DiferenciasDelBosque.tsx`; el montaje de prueba está hecho con los dibujos de las paradas 6 y 10). **Nunca** pedir a ChatGPT que edite la portada entera: al redibujarla cambiaría detalles por todas partes, y el juego tendría diferencias que no cuenta.
+- **B y C:** sustituyen los emojis de `retos/EfectoDomino.tsx` y `retos/LaGranMudanza.tsx`.
+
+## 15. Próximos lotes (NO generar todavía)
 
 - `D1` rehecha en el estilo 1, si Álvaro lo pide.
 - Lo que haga falta para las paradas que faltan.

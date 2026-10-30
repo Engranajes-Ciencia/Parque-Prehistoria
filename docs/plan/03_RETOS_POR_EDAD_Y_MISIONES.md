@@ -22,6 +22,7 @@
     - **el enlace**: la app vieja sigue en `…/Parque-Prehistoria/` y la nueva está en `…/Parque-Prehistoria/v2/`.
 - **Pendientes de regrabar:** las 16 pistas que cambiaron el 16-oct (ya va una).
   - La parada 7 y el saludo de Alba se grabaron el 25-sep con el plan gratuito, que no da licencia comercial. Se regraban enteros con el de pago.
+- **Voces nuevas (30-oct, decisión de Álvaro tras un casting de 12 muestras):** narradora **Eva Dorado** y **Alba** (su voz de siempre), las dos con **Eleven v4**, que suena más natural que el modelo anterior. Por eso se regraban **todas** las pistas, no solo las pendientes: unos 20.000 créditos (0,22 por carácter, medido). Muestras en `herramientas/_muestras_voz_2026-10/` (fuera de git).
 - **ElevenLabs:** desde el 26-sep tiene un plan de pago (en un día se gastaron más de 51.000 créditos, imposible con el gratuito). El contador del periodo volvió a cero el 26-oct, y el 30-oct grabar funcionó. **Si al grabar se acaban los créditos, se le avisa por correo.**
 - **No se publica nada:** el repositorio del parque es público, y Álvaro tiene pendiente decidir qué hacer con las notas internas del 16-oct (`_GITHUB/PLAN_GITHUB.md` §10). Todo queda guardado en local, sin push, hasta que decida.
 
@@ -43,32 +44,34 @@
 
 | Parada | Peques (4-6) | Mayores (7+) |
 |---|---|---|
-| 1 | El reloj del tiempo (ordenar 4) | **N** La cinta del tiempo: 6 momentos sobre una cinta de 4.500 millones de años, a escala |
+| 1 | El reloj del tiempo (ordenar 4) | **N** La cinta del tiempo: 6 momentos sobre una cinta de 4.540 millones de años, a escala, con zoom |
 | 2 | Fábrica de oxígeno (tocar) | **N** La gran oxidación: el oxígeno oxida primero el hierro del mar (bandas rojas) y solo después llena el aire; las colonias solo fabrican con luz |
-| 3 | ¿Cómo se hace un fósil? (ordenar 4) | **N** Rompecabezas de 12 piezas del mar antiguo |
-| 4 | **N** Laberinto: ¡sal del agua, Tiktaalik! | **N** Test de detective (5 preguntas con imagen) |
-| 5 | Construye el primer árbol (sombras) | **N** Las 5 diferencias del primer bosque |
+| 3 | ¿Cómo se hace un fósil? (ordenar 4) | **N** La losa rota: rompecabezas de 12 piezas del mar antiguo |
+| 4 | **N** Laberinto: ¡sal del agua, Tiktaalik! | **N** Detectives del Devónico (test de 5 preguntas con imagen) |
+| 5 | Construye el primer árbol (sombras) | **N** Las cinco diferencias: el primer bosque y una copia con cinco cosas que aún no existían |
 | 6 | Poliniza las flores (abeja) | **+** Poliniza con flores de varias especies: el polen solo sirve en una flor de su misma especie |
 | 7 | ¿Quién come qué? (repartir) | **N** ¿Quién no pudo estar aquí? (intrusos con trampa en el Jurásico) |
 | 8 | Arma Pangea (4 piezas) | **+** Pangea con pistas: 7 piezas y bandas de fósiles que tienen que casar |
 | 9 | **N** Unir con flechas: cada huella con su dinosaurio | **N** ¿Paseaba o corría? Medir zancadas con la pata |
 | 10 | ¿Quién sobrevivió? (dos grupos) | **N** Efecto dominó: ordenar la cadena de la extinción (6 tarjetas) |
 | 11 | Cada pico, su comida (emparejar) | **N** El taller de Darwin: 5 pinzones unidos con flechas |
-| 12 | Detectives de Laetoli (buscar) | **+** Detectives de Laetoli con 6 pistas |
+| 12 | Detectives de Laetoli (buscar) | **+** Seis pistas en la ceniza (los dos caminantes por separado y las rocas) |
 | 13 | ¡A excavar! (rascar) | **+** Excavación científica: rascar y apuntar la casilla de cada hallazgo |
-| 14 | **N** ¿Qué no encaja? (intrusos de risa en el campamento neandertal) | ¿Verdad o mito? (+: 8 tarjetas) |
-| 15 | Encuentra las diferencias (cráneos) | **N** Test del museo (preguntas sobre los cráneos de las vitrinas) |
-| 16 | Tu mano en la cueva | **N** Con la lámpara de tuétano: explorar la cueva a oscuras con un círculo de luz |
+| 14 | **N** ¿Qué no encaja? (intrusos de risa en el campamento neandertal) | **+** ¿Verdad o mito? con 8 tarjetas |
+| 15 | Encuentra las diferencias (cráneos) | **N** Detectives del museo (test sobre los cráneos de las vitrinas) |
+| 16 | Tu mano en la cueva | **N** A la luz de la lámpara: explorar la cueva a oscuras con un círculo de luz |
 | 17 | ¡Nos mudamos! (dos grupos) | **+** La mudanza con tres grupos: nos lo llevamos, se queda, aún no se había inventado |
-| 18 | **N** Memory: cada animal salvaje con su doméstico | **N** En cadena: salvaje → doméstico → lo que nos da (flechas, 3 columnas) |
-| 19 | Descubre el mural | **+** Descubre el mural con 8 cosas |
-| 20 | **N** Rompecabezas de 6 piezas de Çatalhöyük | **+** Construye la casa completa |
+| 18 | **N** Memory: cada animal salvaje con su doméstico | **N** Del lobo al perro: salvaje → doméstico → lo que nos da (flechas, 3 columnas) |
+| 19 | Descubre el mural | **+** Detalles del mural: 8 detalles más pequeños (sin las jirafas ni el gigante, que son la misión) |
+| 20 | **N** Rompecabezas de 6 piezas de Çatalhöyük | Construye una casa de Çatalhöyük (el reto que antes era de todos) |
 | 21 | Reconstruye Stonehenge | **N** El calendario de piedra: buscar el día en que el sol sale por el eje |
+
+**Repetición, contada al final:** en cada recorrido, ninguna mecánica pasa de tres. Peques: ordenar (1, 3), sombras (5, 8, 21), repartir (7, 10, 17), buscar en un dibujo (12, 15, 19). Mayores: test (4, 15), flechas (11, 18), repartir (14, 17), buscar en un dibujo (5, 12, 19). Un roce: en peques, la 14 (intrusos) y la 15 (diferencias) se juegan las dos tocando en un dibujo, aunque lo que se busca es distinto.
 
 **Dibujos:**
 - Los juegos nuevos usan las ilustraciones aprobadas: rompecabezas y diferencias salen de las portadas; intrusos, flechas y memory, de las piezas de cada parada.
 - Los objetos «de risa» son emojis del propio móvil: no hacen falta dibujos nuevos ni licencias.
-- Lo que se dibuje en SVG queda como provisional, con su encargo para ChatGPT (lote 8).
+- Lo que va con emoji o con montaje provisional tiene su encargo para ChatGPT: **lote 8** en `arte/00_INSTRUCCIONES_PARA_CHATGPT.md` (los cinco intrusos del bosque de la 5 y las tarjetas de la 10 y la 17).
 
 ## Misiones: los criterios
 
@@ -85,15 +88,15 @@
 
 ## Lista de tareas
 
-- [ ] Infraestructura: guion (sección de mayores y respuestas de misión), generador de audios, `paradas.ts`, rutas, botones de la parada y `comprobar.mjs`.
-- [ ] Misiones reescritas (21 + el pozo, que ya es una pregunta).
-- [ ] Motores nuevos: cinta, rompecabezas, test, diferencias, intrusos, flechas, memory, laberinto y linterna.
+- [x] Infraestructura: guion (sección de mayores y respuestas de misión), generador de audios, `paradas.ts`, rutas, botones de la parada y `comprobar.mjs`.
+- [x] Misiones reescritas (21 + el pozo, que ya es una pregunta).
+- [x] Motores nuevos: cinta, rompecabezas, test, diferencias, intrusos, flechas, memory, laberinto y linterna.
 - [ ] Juegos a medida: oxidación, abeja con especies, zancadas, excavación con registro, solsticio.
 - [ ] Juegos «+»: Pangea con pistas, casa completa, mudanza en tres grupos, mural con 8, Laetoli con 6, verdad o mito con 8, efecto dominó.
-- [ ] Cambios de peques: 4, 9, 14, 18 y 20.
+- [x] Cambios de peques: 4, 9, 14, 18 y 20.
 - [ ] Frases de todos los juegos en los guiones, con revisión de rigor.
 - [ ] Probar cada juego en el navegador, en tamaño de móvil (360×600 y 375×812).
 - [ ] Audios: todo lo pendiente, más la 7 y el saludo enteros.
 - [ ] Prueba sin red (`herramientas/prueba-sin-red/`).
-- [ ] Encargo de dibujos definitivos para ChatGPT (lote 8), si hace falta.
+- [x] Encargo de dibujos definitivos para ChatGPT (lote 8), si hace falta.
 - [ ] Parte en `_PARTES/`, memoria y estado del plan.

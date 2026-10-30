@@ -1,0 +1,98 @@
+/* Pangea con pistas (parada 8, reto para mayores).
+   Ojo: este fichero entra en la hoja ANTES que estilos.css (main.tsx importa App antes que
+   los estilos), así que lo que retoca una clase común (.pieza, .pieza-dibujo, .estante)
+   lleva un selector más fuerte. El mapa usa las clases del motor Puzle (.puzle,
+   .puzle-hueco, .sombra-pieza), y el estante, las de las piezas (.estante, .pieza…). */
+
+/* Leyenda de los cuatro fósiles: una fila de cuatro. Se marca cuando su franja queda
+   unida entre dos piezas. */
+.pangea-pistas-leyenda {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px;
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+}
+
+.pangea-pistas-leyenda li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+  padding: 2px 2px 1px;
+  border-radius: 10px;
+  border: 2px dashed;
+  background: var(--papel);
+  opacity: 0.75;
+  transition: opacity 0.2s, background 0.2s;
+}
+
+.pangea-pistas-leyenda li.unido {
+  border-style: solid;
+  background: #fffbea;
+  opacity: 1;
+  animation: pangea-pistas-unir 0.5s ease-out;
+}
+
+@keyframes pangea-pistas-unir {
+  40% {
+    transform: scale(1.12);
+  }
+}
+
+.pangea-pistas-leyenda svg {
+  width: 30px;
+  height: 17px;
+}
+
+.pangea-pistas-leyenda span {
+  max-width: 100%;
+  font-size: 0.62rem;
+  font-weight: 800;
+  line-height: 1.1;
+  overflow-wrap: anywhere;
+  text-align: center;
+}
+
+/* Estante de siete piezas en dos filas de cuatro, más bajas que en el motor Puzle para que
+   mapa, leyenda y piezas quepan juntos. */
+.estante.pangea-pistas-estante {
+  margin-top: 6px;
+}
+
+.pangea-pistas-estante .piezas {
+  gap: 6px;
+}
+
+.pangea-pistas-estante .pieza {
+  padding: 3px 2px;
+  min-height: 56px;
+}
+
+.pangea-pistas-estante .pieza.hueco {
+  min-height: 56px;
+}
+
+.pangea-pistas-estante .pieza-dibujo {
+  min-height: 28px;
+}
+
+.pangea-pistas-estante .pieza-dibujo svg {
+  width: 54px;
+  height: 28px;
+  border-radius: 0;
+}
+
+.pangea-pistas-estante .pieza-nombre {
+  font-size: 0.64rem;
+}
+
+@media (max-height: 720px) {
+  .pangea-pistas-leyenda {
+    margin-top: 6px;
+  }
+  .pangea-pistas-leyenda svg {
+    height: 15px;
+  }
+}

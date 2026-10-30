@@ -1,0 +1,214 @@
+/* La gran oxidación (parada 2, reto para mayores).
+   Ojo: este fichero entra en la hoja ANTES que estilos.css (main.tsx importa App antes que
+   los estilos), así que lo que retoque una clase común (.nota) lleva selector doble.
+   Con «reducir movimiento» (estilos.css quita animaciones y transiciones) el juego sigue
+   entendiéndose: lo que solo debe verse mientras se mueve (el óxido que cae) es invisible
+   por defecto, y lo demás se queda quieto en su sitio. */
+
+.oxidacion-vista {
+  display: block;
+  width: 100%;
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.oxidacion-colonia {
+  cursor: pointer;
+}
+
+/* Día y noche */
+.oxidacion-noche {
+  pointer-events: none;
+  transition: opacity 1.2s;
+}
+
+.oxidacion-sol,
+.oxidacion-luna {
+  pointer-events: none;
+  transition: opacity 1.2s;
+}
+
+/* Burbujas de oxígeno. Con hierro en el agua suben poco (44 px, SUBE_POCO en el .tsx) y se
+   vuelven óxido; sin él, suben hasta salir del agua (el cielo, dibujado encima, las tapa). */
+.oxidacion-burbuja {
+  fill: rgba(235, 250, 255, 0.85);
+  stroke: rgba(255, 255, 255, 0.95);
+  stroke-width: 1;
+  pointer-events: none;
+}
+
+.oxidacion-burbuja-corta {
+  animation: oxidacion-subir-poco 0.9s ease-out both;
+}
+
+@keyframes oxidacion-subir-poco {
+  85% {
+    opacity: 0.9;
+  }
+  to {
+    transform: translateY(-44px);
+    opacity: 0;
+  }
+}
+
+.oxidacion-burbuja-larga {
+  animation: oxidacion-subir 1.6s ease-in both;
+}
+
+@keyframes oxidacion-subir {
+  to {
+    transform: translateY(-175px);
+  }
+}
+
+/* La mota de óxido aparece donde acaba la burbuja y se hunde; el suelo, dibujado encima, la
+   tapa al llegar. Invisible si no hay animación. */
+.oxidacion-mota {
+  fill: #b4532a;
+  stroke: #7a3418;
+  stroke-width: 1;
+  opacity: 0;
+  pointer-events: none;
+  animation: oxidacion-hundirse 2s ease-in both;
+}
+
+@keyframes oxidacion-hundirse {
+  0% {
+    opacity: 0;
+    transform: none;
+  }
+  12% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(170px);
+  }
+}
+
+/* Hierro disuelto: se apaga cuando la burbuja llega a él. */
+.oxidacion-hierro {
+  fill: #dbe7a6;
+  opacity: 0.85;
+  pointer-events: none;
+  transition: opacity 0.6s 0.7s;
+}
+
+.oxidacion-hierro.oxidacion-gastado {
+  opacity: 0;
+}
+
+/* Bandas del fondo: bajan suavemente cuando entra una nueva por arriba. */
+.oxidacion-banda {
+  transition: transform 0.6s ease-out;
+}
+
+.oxidacion-banda-nueva {
+  animation: oxidacion-aparecer 0.8s ease-out;
+}
+
+.oxidacion-aparece {
+  animation: oxidacion-aparecer 1s ease-out;
+}
+
+@keyframes oxidacion-aparecer {
+  from {
+    opacity: 0;
+  }
+}
+
+/* Moléculas de oxígeno en el aire: aparecen y flotan un poco. */
+.oxidacion-molecula {
+  fill: #fff;
+  stroke: #4f8fc0;
+  stroke-width: 1.2;
+  animation:
+    oxidacion-aparecer 0.8s ease-out both,
+    oxidacion-flotar 2.6s ease-in-out infinite alternate;
+}
+
+@keyframes oxidacion-flotar {
+  to {
+    transform: translateY(-3px);
+  }
+}
+
+/* Rayos ultravioleta */
+.oxidacion-uv {
+  fill: none;
+  stroke: #8f5cf0;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.oxidacion-uv-rotulo {
+  fill: #6b3fd1;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.oxidacion-rotulo {
+  fill: #fff;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+/* Tocar de noche */
+.oxidacion-zzz {
+  fill: #fff;
+  font-size: 13px;
+  font-weight: 800;
+  pointer-events: none;
+  animation: oxidacion-zzz 1.3s ease-out forwards;
+}
+
+@keyframes oxidacion-zzz {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  25% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-16px);
+  }
+}
+
+/* Medidor del aire */
+.oxidacion-medidor {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.oxidacion-medidor-etiqueta {
+  font-weight: 800;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.oxidacion-medidor-barra {
+  flex: 1;
+  height: 20px;
+  border-radius: 999px;
+  background: #dfe8e6;
+  overflow: hidden;
+}
+
+.oxidacion-medidor-barra > span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #6cc7e8, #2a9d8f);
+  transition: width 0.4s;
+}
+
+.nota.oxidacion-nota {
+  margin-top: 6px;
+}

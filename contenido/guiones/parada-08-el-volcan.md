@@ -103,6 +103,42 @@ Para que el dibujo acompañe a las frases: un **mesosaurio diminuto en el sur de
 
 ---
 
+## Reto para mayores: «Pangea con pistas»
+
+*30-oct-2026. Juego para 7 años o más (`retos/PangeaConPistas.tsx`, con su `.css`), hecho por un agente y revisado por Claude. Si al poner la última pieza queda algún fósil por explicar, Alba lo explica antes de la frase final; la pegatina se gana al completar Pangea.*
+
+**Qué se ve:** Pangea hace unos doscientos cincuenta millones de años, con siete huecos en sombra y Madagascar ya puesta, en gris. Las siete piezas (América del Sur, África, América del Norte, Eurasia, India, Antártida y Australia) llevan pintadas franjas de colores: dónde han aparecido cuatro fósiles. Debajo del mapa, la leyenda: mesosaurio (azul), glosópteris (verde), listrosaurio (morado) y cinognato (naranja). En América del Norte y en Eurasia, además, una cordillera que sigue de una a otra, y un puntito en España.
+
+**Cómo se gana:** colocando cada pieza en su sombra, en cualquier orden. Cada pieza dice su frase; cuando la franja de un fósil queda unida entre dos piezas vecinas por primera vez, Alba explica ese fósil a continuación. Con la última pieza, si queda algún fósil por explicar, se explica antes de la frase final.
+
+**Qué se aprende:** las pruebas de Wegener: los mismos fósiles a los dos lados de océanos que esos seres no podían cruzar.
+
+**Voz de Alba:**
+- Al empezar: «Vamos a armar Pangea como era hace unos doscientos cincuenta millones de años, con las pistas de Wegener: los fósiles. Cada franja de color es un fósil. Coloca cada trozo en su sombra y mira cómo siguen las franjas.»
+- América del Sur: «¡América del Sur! El saliente de Brasil encaja en el hueco de la costa de África.»
+- África: «¡África, en el centro de Pangea! Fíjate: las cuatro franjas pasan por ella.»
+- América del Norte: «¡América del Norte! Aquí no pasa ninguna franja, pero hay otra pista: sus montañas siguen al otro lado, en Escocia y en Noruega.»
+- Eurasia: «¡Eurasia: Europa y Asia, un solo continente! El puntito oscuro es España, pegada a América del Norte.»
+- India: «¡La India! Estaba muy al sur, junto a la Antártida. Mucho después viajó al norte, chocó con Asia y levantó el Himalaya.»
+- Antártida: «¡La Antártida! Hoy es hielo, pero en sus rocas hay troncos y hojas fósiles: no siempre hizo tanto frío.»
+- Australia: «¡Australia, pegada a la Antártida! Fueron de los últimos trozos en separarse.»
+- Mesosaurio: «La franja azul es el mesosaurio, un reptil pequeño que nadaba en aguas poco profundas. No podía cruzar un océano, y sin embargo está a los dos lados.»
+- Glosópteris: «La franja verde es el glosópteris, un árbol de hojas como lenguas, de las tierras frías del sur. Está en cinco trozos que hoy están separados por mares enormes.»
+- Listrosaurio: «La franja morada es el listrosaurio, un comedor de plantas con dos colmillos, pariente de los mamíferos. Vivía en tierra firme: a la India y a la Antártida llegó andando.»
+- Cinognato: «La franja naranja es el cinognato, un cazador de dientes afilados, también pariente de los mamíferos. Sus huesos están en América del Sur y en África.»
+- Fallo: «Ese trozo no va ahí. Fíjate en su forma y en sus franjas.»
+- Al terminar: «¡Pangea entera, con todas las franjas unidas! Así razonó Wegener: si los mismos fósiles están a los dos lados del mar, lo más sencillo es que la tierra estuviera junta.»
+
+**Rigor** (no se dice en voz alta). Las franjas siguen el mapa clásico del Servicio Geológico de Estados Unidos (*This Dynamic Earth*). Simplifican: el cinognato ha aparecido también en la Antártida; el listrosaurio, también en China, Mongolia y Rusia (Pangea estaba unida y pudo ir andando); el glosópteris, también en Madagascar. Por eso ninguna frase dice «solo».
+
+Edades: mesosaurio, hace unos doscientos ochenta millones de años; glosópteris, todo el Pérmico (de doscientos noventa y nueve a doscientos cincuenta y dos); listrosaurio, de doscientos cincuenta y cinco a doscientos cuarenta y ocho; cinognato, de doscientos cuarenta y siete a doscientos treinta y siete. Pangea estaba formada desde hace unos trescientos treinta y cinco millones de años y se rompió desde hace unos doscientos: los cuatro vivieron en ella.
+
+El mesosaurio vivía en las orillas de un mar interior poco profundo (el de Irati-Whitehill); se ha dicho mucho que era de agua dulce, pero los estudios recientes apuntan a lagunas saladas: por eso la frase dice «aguas poco profundas». El glosópteris se llama a menudo «helecho con semillas», pero eran árboles y arbustos con semillas, de latitudes medias y altas de Gondwana (de ahí «tierras frías del sur»). El listrosaurio era un dicinodonte; el cinognato, un cinodonte: los dos, sinápsidos de la rama de los mamíferos.
+
+India: se separó de Gondwana en el Cretácico y chocó con Asia hace unos cincuenta millones de años. Australia y la Antártida terminaron de separarse hace unos treinta y cuatro millones. La cordillera es la de los Apalaches y los Caledónides; el puntito, la península ibérica junto a Terranova (ver la tabla de fuentes de esta parada).
+
+---
+
 ## ¿Sabías que…?
 
 > ¿Sabías que una de las grietas que se abrieron al romperse Pangea cruza media península? Es una raya de roca oscura de más de quinientos kilómetros, desde la costa de Portugal hasta Ávila, pasando junto a Plasencia. Se rellenó de roca fundida hace unos doscientos millones de años.

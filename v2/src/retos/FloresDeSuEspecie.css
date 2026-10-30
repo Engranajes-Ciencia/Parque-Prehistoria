@@ -1,0 +1,258 @@
+/* Flores de su especie (parada 6, reto para mayores).
+   Ojo: este fichero entra en la hoja ANTES que estilos.css (main.tsx importa App antes que
+   los estilos), así que lo que retoque una clase común (.nota) lleva selector doble.
+   Con «reducir movimiento» no hay animaciones: los pétalos que caen son invisibles por
+   defecto y el fruto se ve directamente. */
+
+/* 10:9 y no cuadrado: así el prado y la nota caben en unos 350 px a 360 de ancho. */
+.especies-prado {
+  position: relative;
+  aspect-ratio: 10 / 9;
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+  background: linear-gradient(#bfe6f5, #dff3c8 40%, #9fcf6b);
+  overflow: hidden;
+  touch-action: manipulation;
+}
+
+/* Cada flor, con su tallo: son plantas distintas. El margen en % va sobre el ancho del prado,
+   también el de arriba: centra la flor en su punto aunque el prado no sea cuadrado. */
+.especies-flor {
+  position: absolute;
+  width: 24%;
+  aspect-ratio: 1;
+  margin: -12% 0 0 -12%;
+  padding: 0;
+  border: 3px dashed transparent;
+  border-radius: 50%;
+  background: none;
+  transition: transform 0.15s;
+}
+
+.especies-flor::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  width: 6px;
+  height: 45%;
+  margin-left: -3px;
+  border-radius: 3px;
+  background: #6f9a3e;
+}
+
+.especies-flor[data-especie="cerezo"]::before,
+.especies-flor[data-especie="naranjo"]::before {
+  background: #7a5a3a; /* ramita */
+}
+
+.especies-flor.especies-esperando {
+  border-color: var(--mostaza);
+}
+
+.especies-flor.especies-sobre {
+  transform: scale(1.12);
+}
+
+/* Polinizada: un halo dorado y puntitos de polen en el centro. */
+.especies-flor.especies-polinizada {
+  box-shadow:
+    0 0 0 3px rgba(255, 255, 255, 0.75),
+    0 0 14px 5px rgba(255, 214, 80, 0.85);
+}
+
+/* Posicionado, para que el dibujo quede por encima del tallo. */
+.especies-dibujo,
+.especies-fruto {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.especies-flor img,
+.especies-flor svg,
+.especies-abeja img,
+.especies-carga img,
+.especies-carga svg,
+.especies-recuerdo img,
+.especies-recuerdo svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.especies-polen {
+  position: absolute;
+  left: 34%;
+  top: 34%;
+  width: 32%;
+  height: 32%;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffe066 0 30%, transparent 32%) 0 0 / 7px 7px;
+  box-shadow: 0 0 0 3px rgba(255, 224, 102, 0.65);
+  animation: especies-asomar 0.5s ease-out;
+}
+
+@keyframes especies-asomar {
+  from {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+}
+
+/* Polen de otra especie: la flor dice que no. Dos animaciones iguales, para que se repita. */
+.especies-no-0 {
+  animation: especies-no-a 0.45s;
+}
+
+.especies-no-1 {
+  animation: especies-no-b 0.45s;
+}
+
+@keyframes especies-no-a {
+  20% {
+    transform: translateX(-7%);
+  }
+  40% {
+    transform: translateX(6%);
+  }
+  60% {
+    transform: translateX(-4%);
+  }
+  80% {
+    transform: translateX(2%);
+  }
+}
+
+@keyframes especies-no-b {
+  20% {
+    transform: translateX(-7%);
+  }
+  40% {
+    transform: translateX(6%);
+  }
+  60% {
+    transform: translateX(-4%);
+  }
+  80% {
+    transform: translateX(2%);
+  }
+}
+
+/* Al final: caen los pétalos y crece el fruto. */
+.especies-fruto {
+  animation: especies-crecer 0.7s 0.5s ease-out both;
+}
+
+@keyframes especies-crecer {
+  from {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+}
+
+.especies-petalos {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  animation: especies-caer 1.1s ease-in both;
+}
+
+@keyframes especies-caer {
+  from {
+    opacity: 1;
+    transform: none;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(45%) rotate(20deg) scale(0.9);
+  }
+}
+
+/* La abeja: 56 px, y el circulito con la flor de la que lleva el polen. */
+.especies-abeja {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  margin: -28px 0 0 -28px;
+  padding: 4px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: var(--sombra);
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+  z-index: 2;
+}
+
+.especies-abeja.especies-elegida {
+  outline: 3px solid var(--mostaza);
+}
+
+/* Al posarse, un saltito (en la imagen: el botón lleva la posición del arrastre). */
+.especies-posa-0 > img {
+  animation: especies-posa-a 0.4s ease-out;
+}
+
+.especies-posa-1 > img {
+  animation: especies-posa-b 0.4s ease-out;
+}
+
+@keyframes especies-posa-a {
+  from {
+    transform: translateY(-10px) scale(0.9);
+  }
+}
+
+@keyframes especies-posa-b {
+  from {
+    transform: translateY(-10px) scale(0.9);
+  }
+}
+
+.especies-carga {
+  position: absolute;
+  left: -8px;
+  bottom: -8px;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  border: 3px solid #f19ab5;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(31, 42, 46, 0.3);
+  pointer-events: none;
+}
+
+.especies-carga[data-especie="naranjo"] {
+  border-color: #e39a2a;
+}
+
+.especies-carga[data-especie="amapola"] {
+  border-color: #e3392c;
+}
+
+/* Los seis frutos en la hoja final. */
+.especies-recuerdo {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin: 6px 0 2px;
+}
+
+.especies-recuerdo > span {
+  width: 40px;
+  height: 40px;
+}
+
+.nota.especies-nota {
+  margin-top: 8px;
+}

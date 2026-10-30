@@ -1,0 +1,234 @@
+/* Excavación científica (parada 13, reto para mayores).
+   Ojo: este fichero entra en la hoja ANTES que estilos.css (main.tsx importa App antes que
+   los estilos), así que lo que retoque una clase común (.excavacion-apunte, .nota) lleva
+   un selector más fuerte. El arenero usa las clases de «¡A excavar!» (.excavacion…). */
+
+/* El arenero a la izquierda y el cuaderno a la derecha: a 360 px de ancho, todo el juego
+   (arenero, cuaderno y botones) cabe en unos 340 px de alto. */
+.excav-c {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 104px;
+  gap: 8px;
+  align-items: start;
+}
+
+.excav-c .excavacion {
+  grid-template-columns: 18px 1fr;
+  grid-template-rows: 18px auto;
+  font-size: 0.85rem;
+}
+
+.excav-c .excavacion-apunte {
+  margin: 2px;
+  padding: 0 5px;
+  font-size: 0.62rem;
+}
+
+/* La casilla del hallazgo que espera su apunte. */
+.excav-c-marca {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  border: 3px solid #ffd54f;
+  border-radius: 6px;
+  box-shadow: 0 0 0 2px rgba(31, 42, 46, 0.35);
+  pointer-events: none;
+  animation: excav-c-latir 1.2s ease-in-out infinite;
+}
+
+@keyframes excav-c-latir {
+  50% {
+    border-color: #fff3c4;
+  }
+}
+
+/* Cuaderno de campo: hoja rayada con margen rojo. */
+.excav-c-cuaderno {
+  background: #fffdf4;
+  border-radius: 10px;
+  box-shadow: var(--sombra);
+  padding: 4px 4px 4px 0;
+  background-image: linear-gradient(to right, transparent 21px, #f2a7a0 21px, #f2a7a0 22px, transparent 22px);
+}
+
+.excav-c-cuaderno h3 {
+  font-size: 0.72rem;
+  text-align: center;
+  color: var(--tinta-suave);
+  padding-left: 20px;
+  margin-bottom: 2px;
+}
+
+.excav-c-cuaderno ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.excav-c-cuaderno li {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  height: 31px;
+  border-bottom: 1px solid #d9e6ee;
+}
+
+.excav-c-num {
+  flex: none;
+  width: 22px;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: #b0473c;
+}
+
+.excav-c-mini {
+  flex: none;
+  width: 24px;
+  height: 26px;
+}
+
+.excav-c-dato {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  line-height: 1.05;
+}
+
+.excav-c-dato b {
+  font-size: 0.8rem;
+  color: var(--verde-azulado-oscuro);
+}
+
+.excav-c-dato small {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--tinta-suave);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.excav-c-cuaderno li.lleno {
+  animation: excav-c-anotar 0.4s ease-out;
+}
+
+@keyframes excav-c-anotar {
+  from {
+    background: #fff1b8;
+  }
+}
+
+.excav-c-vacio {
+  color: #c9bfa8;
+  font-weight: 800;
+}
+
+/* Apuntar: qué hallazgo espera y los botones de letra y número. */
+.excav-c-registro {
+  display: grid;
+  grid-template-columns: 70px minmax(0, 1fr);
+  gap: 8px;
+  align-items: center;
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: var(--radio);
+  background: var(--papel);
+  box-shadow: var(--sombra);
+  border: 3px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.excav-c-registro.activo {
+  border-color: var(--mostaza);
+}
+
+.excav-c-registro.sacudida {
+  animation: sacudir 0.45s;
+}
+
+.excav-c-pide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.excav-c-pide p {
+  margin: 2px 0 0;
+  font-size: 0.68rem;
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--tinta-suave);
+}
+
+.excav-c-pide-dibujo {
+  width: 44px;
+  height: 46px;
+  background: #e3bd76;
+  border-radius: 8px;
+  padding: 2px;
+}
+
+.excav-c-pala {
+  font-size: 1.8rem;
+  line-height: 46px;
+  height: 46px;
+  opacity: 0.6;
+}
+
+.excav-c-botones {
+  display: grid;
+  gap: 6px;
+}
+
+.excav-c-fila {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.excav-c-opcion {
+  min-height: 44px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 900;
+  font-size: 1.05rem;
+  box-shadow: 0 3px 0 rgba(31, 42, 46, 0.18);
+  touch-action: manipulation;
+}
+
+.excav-c-opcion.letra {
+  background: #fdf0cf;
+  color: #7a5a12;
+}
+
+.excav-c-opcion.numero {
+  background: #e3f2ef;
+  color: var(--verde-azulado-oscuro);
+}
+
+.excav-c-opcion[aria-pressed="true"] {
+  background: var(--mostaza);
+  color: var(--tinta);
+  outline: 3px solid var(--tinta);
+  outline-offset: -3px;
+}
+
+.excav-c-opcion:active {
+  transform: translateY(2px);
+  box-shadow: none;
+}
+
+.excav-c-opcion:disabled {
+  opacity: 0.4;
+  cursor: default;
+  transform: none;
+}
+
+@media (max-height: 720px) {
+  .excav-c-registro {
+    margin-top: 8px;
+    padding: 6px 8px;
+  }
+}

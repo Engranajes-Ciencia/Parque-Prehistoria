@@ -93,6 +93,38 @@ Se responde tocando «¡Hecho!». No hay respuesta que comprobar. El naranjo flo
 
 ---
 
+## Reto para mayores: «Flores de su especie»
+
+*30-oct-2026. Juego para 7 años o más (`retos/FloresDeSuEspecie.tsx`, con su `.css`), hecho por un agente y revisado por Claude.*
+
+**Qué se ve:** seis flores, cada una con su tallo, de tres especies, dos de cada: cerezo (rosa, la ilustración del lote 6), naranjo (el azahar, blanco) y amapola (roja). Una abeja que se lleva de flor en flor (arrastrándola, o tocándola y luego la flor) y se queda posada en la última que visitó; en un circulito enseña de qué flor es el polen que lleva. Al principio no lleva ninguno.
+
+**Cómo se gana:** consiguiendo que las seis flores reciban polen de otra flor de su misma especie. La abeja lleva siempre el polen de la última flor que visitó. Si llega con polen de otra especie, o de esa misma flor, no pasa nada, pero come y se lleva el polen de la nueva. Una flor polinizada se queda con un halo dorado y puntitos de polen. Al final se caen los pétalos y cada flor enseña su fruto: cereza, naranja y la cápsula de la amapola. Lo más corto son nueve visitas. No hay fallos que penalicen.
+
+**Qué se aprende:** que el polen solo sirve en una flor de su misma especie; que muchas plantas necesitan el de otra planta, no el suyo; y que, polinizada la flor, su ovario se convierte en el fruto y sus óvulos en las semillas. También, que no todos los frutos son dulces: la cápsula de la amapola es un fruto seco.
+
+**Voz de Alba:**
+- Al empezar: «Aquí hay flores de tres especies: cerezo, naranjo y amapola. En este juego, la abeja lleva el polen de la última flor que visita. Llévala de flor en flor y consigue que cada flor reciba polen de otra flor de su misma especie.»
+- Polen de su especie (se alternan): «¡Polen de su especie, y de otra flor! Esta ya puede formar semillas.» / «¡Eso es! Polen de otra flor igual.» / «¡Bien! Este polen sí le sirve.»
+- Otra especie: «Ese polen es de otra especie, y aquí no sirve. Pero la abeja come y se lleva el polen de esta flor.»
+- Con su propio polen: «Ese polen es de esta misma flor. Algunas plantas se apañan con el suyo, pero muchas necesitan el de otra planta de su especie. ¡Llévala a otra flor!»
+- Última flor: «¡La última! Todas tienen ya polen de su especie. Con el tiempo se caen los pétalos: el ovario de cada flor crece y se convierte en el fruto, y dentro, los óvulos se convierten en semillas.»
+- Al terminar: «¡Seis flores, seis frutos! Cerezas, naranjas y cápsulas de amapola, que también son frutos aunque no sean dulces.»
+
+**Cuándo suena cada frase:** la primera visita, y cualquier visita a una flor ya polinizada, no dicen nada (la abeja solo come y cambia de polen). «Otra especie» y «Con su propio polen», cada vez que pasa en una flor sin polinizar. «Polen de su especie», al polinizar las cinco primeras, por turnos. «Última flor», al polinizar la sexta (último paso, dentro de `terminar`), con los frutos ya a la vista.
+
+**Lo que el juego simplifica** (no se dice en voz alta):
+- **Autoincompatibilidad.** El cerezo dulce (casi todas sus variedades) y la amapola (*Papaver rhoeas*, uno de los modelos clásicos para estudiarla) no se fecundan con su propio polen, ni con el de otra flor de la misma planta: necesitan el de otra planta. Por eso cada flor lleva su tallo: son plantas distintas.
+- **El naranjo es la excepción.** El naranjo dulce se fecunda con su propio polen, y muchas variedades dan naranjas sin polinizar (la navel ni siquiera tiene polen útil). El juego no cuenta el polen propio en ninguna especie, tampoco en el naranjo: es una simplificación. Por eso «Con su propio polen» habla de «muchas plantas» y no dice que esta flor lo necesite, y «Al empezar» lo plantea como la meta del juego, no como una ley de la naturaleza.
+- **Otra especie:** el polen de una especie no fecunda las flores de otra. Entre especies muy cercanas hay excepciones (los híbridos); entre estas tres, no.
+- **La amapola no tiene néctar:** la abeja come su polen. Por eso Alba dice «come» y no «bebe néctar».
+- **De la flor al fruto** pasan semanas o meses (la cereza, dos o tres; la naranja, muchos más): de ahí «con el tiempo».
+- **La cápsula de la amapola** es el ovario maduro: un fruto seco que suelta las semillas por unos poros bajo el disco de arriba, como un salero.
+- **«En este juego, la abeja lleva el polen de la última flor»:** una abeja de verdad lleva mezclas de polen de muchas flores, aunque suele visitar seguidas flores de la misma especie (la llamada constancia floral). Alba lo presenta como regla del juego.
+- **Los colores del circulito** son los de la flor, no los del polen (el del cerezo y el del azahar son amarillentos; el de la amapola, oscuro).
+
+---
+
 ## ¿Sabías que…?
 
 > ¿Sabías que en Madagascar hay una orquídea que esconde su néctar al fondo de un tubo más largo que un lápiz? Darwin la estudió y predijo que tenía que existir una polilla con una lengua igual de larga. Unos cuarenta años después, la encontraron. Y en su nombre lleva una palabra latina que significa «la predicha».

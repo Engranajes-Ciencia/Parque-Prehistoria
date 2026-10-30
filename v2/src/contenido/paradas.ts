@@ -150,6 +150,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
     imagen: "img/p02/portada.webp",
     guion: leerGuion(guion02),
     reto: "Fábrica de oxígeno",
+    retoMayores: "La gran oxidación",
   },
   3: {
     id: 3,
@@ -181,6 +182,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
     imagen: "img/p06/portada.webp",
     guion: leerGuion(guion06),
     reto: "Poliniza las flores",
+    retoMayores: "Flores de su especie",
   },
   8: {
     id: 8,
@@ -188,6 +190,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
     imagen: "img/p08/portada.webp",
     guion: leerGuion(guion08),
     reto: "Arma Pangea",
+    retoMayores: "Pangea con pistas",
   },
   9: {
     id: 9,
@@ -219,6 +222,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
     imagen: "img/p13/portada.webp",
     guion: leerGuion(guion13),
     reto: "¡A excavar!",
+    retoMayores: "Excavación científica",
   },
   16: {
     id: 16,
