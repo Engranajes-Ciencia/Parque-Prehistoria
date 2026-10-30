@@ -66,7 +66,7 @@
 | 20 | **N** Rompecabezas de 6 piezas de Çatalhöyük | Construye una casa de Çatalhöyük (el reto que antes era de todos) |
 | 21 | Reconstruye Stonehenge | **N** El calendario de piedra: buscar el día en que el sol sale por el eje |
 
-**Repetición, contada al final:** en cada recorrido, ninguna mecánica pasa de tres. Peques: ordenar (1, 3), sombras (5, 8, 21), repartir (7, 10, 17), buscar en un dibujo (12, 15, 19). Mayores: test (4, 15), flechas (11, 18), repartir (14, 17), buscar en un dibujo (5, 12, 19). Un roce: en peques, la 14 (intrusos) y la 15 (diferencias) se juegan las dos tocando en un dibujo, aunque lo que se busca es distinto.
+**Repetición, contada al final:** en cada recorrido, ninguna mecánica pasa de tres. Peques: ordenar (1, 3), sombras (5, 8, 21), repartir (7, 10, 17), buscar en un dibujo (12, 15, 19). Mayores: test (4, 15), flechas (11, 18), repartir (14, 17), buscar en un dibujo (5, 12, 19). Un roce: si se cuentan juntos «buscar en un dibujo» e «intrusos», que se juegan los dos tocando en una imagen aunque lo que se busca es distinto, salen cuatro en cada recorrido (peques: 12, 14, 15 y 19, con la 14 y la 15 seguidas; mayores: 5, 7, 12 y 19).
 
 **Dibujos:**
 - Los juegos nuevos usan las ilustraciones aprobadas: rompecabezas y diferencias salen de las portadas; intrusos, flechas y memory, de las piezas de cada parada.

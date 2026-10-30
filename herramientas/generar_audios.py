@@ -500,6 +500,21 @@ def cargar_manifiesto():
         return {}
 
 
+def limpiar_sobrantes(manifiesto):
+    """Quita del manifiesto las pistas que ya no salen en los guiones (juegos retirados o
+    movidos de peques a mayores) y borra los MP3 que no usa ninguna pista."""
+    for clave in [c for c in manifiesto if c not in PISTAS]:
+        print(f"{clave:22} ya no sale en los guiones: se quita")
+        del manifiesto[clave]
+    with open(MANIFIESTO, "w", encoding="utf-8") as f:
+        json.dump(manifiesto, f, ensure_ascii=False, indent=1)
+    usados = {m["archivo"] for m in manifiesto.values()}
+    for nombre in sorted(os.listdir(SALIDA)):
+        if nombre.endswith(".mp3") and nombre not in usados:
+            print(f"{nombre} no lo usa ninguna pista: se borra")
+            os.remove(os.path.join(SALIDA, nombre))
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     p = argparse.ArgumentParser(description="Genera los audios de la app desde los guiones")
@@ -509,9 +524,14 @@ def main():
     p.add_argument("--parada", help="genera solo las pistas de esta parada (p. ej. 12)")
     p.add_argument("--entera", action="store_true",
                    help="regenera las pistas cambiadas enteras, no solo los párrafos que cambiaron")
+    p.add_argument("--limpiar", action="store_true",
+                   help="quita las pistas que ya no salen en los guiones y borra los MP3 sin dueño "
+                        "(no lanzarlo mientras otra tanda está grabando)")
     args = p.parse_args()
 
     manifiesto = cargar_manifiesto()
+    if args.limpiar:
+        return limpiar_sobrantes(manifiesto)
     claves = [args.solo] if args.solo else list(PISTAS)
     if args.parada:
         claves = [c for c in claves if c.startswith(f"p{int(args.parada):02d}-")]
