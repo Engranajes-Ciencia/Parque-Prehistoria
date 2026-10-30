@@ -89,6 +89,32 @@ Se responde tocando «¡Hecho!». No se comprueba el número de manos: en las fo
 
 ---
 
+## Reto para mayores: «A la luz de la lámpara»
+
+*30-oct-2026. Juego para 7 años o más (motor `componentes/Linterna.tsx`, juego `retos/LamparaDeTuetano.tsx`).*
+
+**Qué se ve:** la ilustración de la portada (un pintor en una cueva, con caballos, bisontes y manos en negativo en la pared, y una lamparita de piedra), a oscuras. Un círculo de luz cálida, que tiembla, sigue al dedo.
+
+**Cómo se gana:** buscando cinco cosas: un caballo, un bisonte, las manos, la lámpara y el pintor. Se encuentran dejando la luz quieta encima un momento, o tocándolas cuando están iluminadas. Con la última, se enciende la cueva entera.
+
+**Voz de Alba:**
+- Al empezar: «Yo he estado en cuevas así: dentro, oscuridad total. Solo se veía con antorchas o lamparitas de piedra. Mueve la luz con el dedo y busca cinco cosas.»
+- Caballo: «¡Un caballo! Es el animal que más se repite en la cueva de Lascaux, en Francia, pintada hace unos veinte mil años.»
+- Bisonte: «¡Un bisonte, con su joroba! En la cueva de Altamira, en Cantabria, hay un techo lleno de bisontes pintados.»
+- Manos: «¡Manos! Apoyaban la mano en la roca y soplaban pintura alrededor. Al quitarla, quedaba su forma: una mano en negativo.»
+- Lámpara: «¡La lámpara! Quemaba grasa de animal, con una mecha de planta. En el museo del parque hay una copia de la de Lascaux.»
+- Pintor: «¡El pintor! Está soplando pintura roja. Podía hacerlo con la boca o por un tubito de hueso o de caña.»
+- Al terminar: «¡Las cinco! Así pintaban en Chauvet y en Lascaux, hace entre treinta y seis mil y veinte mil años: casi a oscuras, con una llamita que temblaba.»
+
+**Rigor** (no se dice en voz alta):
+- **Caballos en Lascaux:** son el animal más representado (más de 350 figuras de caballo).
+- **Altamira:** el techo de los polícromos, con unos veinte bisontes. Las pinturas tienen entre 36.000 y 13.000 años, según la zona.
+- **Lámparas:** de piedra, quemaban grasa animal; la lámpara de arenisca de Lascaux conservaba restos de una mecha de enebro. Por eso el juego no se llama «de tuétano»: el tuétano es una grasa posible, probada en experimentos, pero no comprobada en cada lámpara.
+- **Tubos de hueso** para soplar pigmento: un método posible y probado experimentalmente. Se dice «podía».
+- **Fechas:** Chauvet, unos 36.000 años; Lascaux, unos 17.000-21.000.
+
+---
+
 ## ¿Sabías que…?
 
 > ¿Sabías que la cueva de Lascaux está cerrada al público desde mil novecientos sesenta y tres? El aliento, el calor y las luces de miles de visitantes estaban estropeando las pinturas. Hoy, quien va hasta allí visita una copia, igual que vosotros aquí.

@@ -65,27 +65,22 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ---
 
-## Reto: «¿Quién vivió antes?»
+## Reto: «¡Sal del agua, Tiktaalik!»
 
-**Qué se ve:** una línea del tiempo en forma de camino, de izquierda (lo más antiguo) a derecha (lo más moderno), con una flecha y tres huecos rotulados: «hace más de 400 millones de años», «hace unos 375 millones de años» y «hace unos 300 millones de años». Como los más pequeños no leen, cada hueco lleva de fondo un paisaje que sirve de pista: tierra casi pelada con plantitas de pocos centímetros; la orilla de un río; un bosque húmedo con helechos y colas de caballo gigantes. Abajo, las tres piezas: el Prototaxites, el Tiktaalik y la Meganeura.
+*30-oct-2026. Juego de peques (4-6 años): un laberinto en un río visto desde arriba (motor `componentes/Laberinto.tsx`, juego `retos/SalDelAguaTiktaalik.tsx`). El de antes, «¿Quién vivió antes?» (ordenar a los tres en una línea del tiempo), pasa a ser una pregunta del test de los mayores.*
 
-**Qué se aprende:** en qué orden aparecieron, y que el parque junta en un sitio seres de épocas muy distintas: entre la Meganeura y los otros dos pasaron decenas de millones de años.
+**Qué se ve:** un río poco profundo, con piedras, un tronco caído y, arriba, la orilla de barro con plantas bajas sin flores. El Tiktaalik (la figura de la losa del parque, en un círculo) empieza en el agua.
 
-**Cómo se gana:** arrastrando cada pieza a su hueco (o tocando pieza y luego hueco). El orden es el de **aparición**.
+**Cómo se gana:** arrastrándolo de casilla en casilla hasta la orilla, o tocando la casilla de al lado. Cuadrícula de 5 × 6, con doce pasos y tres entrantes sin salida de una sola casilla. Contra una piedra, la figura tiembla, sin voz.
 
 **Voz de Alba:**
-- Al empezar: «¿Quién vivió antes? Arrastra a cada uno a su hueco. ¡El más antiguo va el primero!»
-- Acierto prototaxites: «¡Sí! El Prototaxites llegó el primero.»
-- Acierto tiktaalik: «¡Eso es! Luego llegó el pez con codos.»
-- Acierto meganeura: «¡Bravo! La libélula gigante llegó la última.»
-- Fallo: «¡Ahí no! Piensa: ¿quién llegó antes?»
-- Al terminar: «¡Ordenados! Aquí están juntos, pero no vivieron todos a la vez. ¡Toma tu pegatina!»
+- Al empezar: «¡Yo vi al Tiktaalik en su río! Quiere llegar a la orilla. Ayúdale: arrástralo por el agua, sin chocar con las piedras.»
+- A la mitad: «¡Así se empuja! En las aletas tiene huesos, como los de tus brazos. Con ellas se apoya en el fondo.»
+- Cerca de la orilla: «¡Ya casi! Tiene los ojos encima de la cabeza, como los cocodrilos: así mira hacia arriba.»
+- Al llegar: «¡Ya asoma por la orilla! Peces como él fueron de los primeros animales con huesos en asomarse fuera del agua.»
+- Al terminar: «¡Lo has llevado hasta la orilla! Dobla el brazo: tu codo se parece a los huesos de sus aletas. ¡Toma tu pegatina!»
 
-**Matiz para quien lo programe** (no se dice en voz alta): los Prototaxites vivieron desde hace unos cuatrocientos veinte millones de años hasta hace unos trescientos setenta, así que **los últimos coincidieron en el tiempo con el Tiktaalik**. Por eso el juego ordena por aparición, el primer hueco dice «hace más de 400» (cierto) y no «solo entonces», y la frase de «Fallo» nunca dice «en ese tiempo no vivía», que sería falso si alguien pone el Prototaxites en el hueco del Tiktaalik. Por lo mismo, «Al terminar» dice «no vivieron **todos** a la vez», que es cierto: la Meganeura no coincidió con ninguno de los dos.
-
-**Propuesta opcional**, dentro de la misma mecánica: al acertar el Prototaxites, su pieza deja detrás una franja que se alarga hasta el hueco del Tiktaalik, sin llegar al de la Meganeura. Enseña de un vistazo que esos dos coincidieron y que la libélula llegó cuando ya no quedaba ninguno.
-
-Sobre los fondos: el bosque del tercer hueco es el del final del Carbonífero, como el de Commentry, en Francia, donde apareció la Meganeura (helechos arborescentes, colas de caballo gigantes). Nada de hierba ni de flores en ninguno de los tres: no existían.
+**Rigor** (no se dice en voz alta): «peces como él», y no «él fue el primero», porque ya había animales de cuatro patas antes que el Tiktaalik (las huellas de Zachełmie, en Polonia, tienen unos 395 millones de años); el narrador dice que es «un primo de los primeros animales de cuatro patas». «Con huesos» deja fuera a los artrópodos, que salieron del agua mucho antes. Las plantas de la orilla son de tallos ahorquillados y sin hojas, como las del Devónico: nada de flores ni hierba.
 
 ---
 

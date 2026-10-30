@@ -110,6 +110,35 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 ---
 
+## Reto para mayores: «La cinta del tiempo»
+
+*30-oct-2026. Juego para 7 años o más (`retos/CintaDelTiempo.tsx`). Provisional, como el resto de la parada 1, hasta que Álvaro decida.*
+
+**Qué se ve:** una cinta vertical a escala: arriba, la Tierra recién formada; abajo, hoy. Al lado, tres momentos para colocar. Se elige uno y se toca la cinta donde se cree que va; vale si cae cerca (un 8 % de la cinta arriba o abajo). Si no, Alba dice si es más antiguo o más reciente.
+
+**Cómo se gana:** primero se colocan los tres momentos más antiguos (primeros seres vivos, el oxígeno, los animales del mar). Después la cinta hace zoom a los últimos 540 millones de años y van los tres más recientes (primeros dinosaurios, el fin de los grandes dinosaurios, nuestra especie). Aun con el zoom, nuestra especie queda pegada al final.
+
+**Qué se aprende:** la escala del tiempo profundo, que es el «zoom» del que habla el narrador.
+
+**Voz de Alba:**
+- Al empezar: «Esta cinta es la historia de la Tierra: arriba, cuando se formó; abajo, hoy. Elige un momento y toca la cinta donde crees que va.»
+- Primeros seres vivos: «¡Muy pronto! Los primeros seres vivos, microbios, ya estaban hace más de tres mil quinientos millones de años.»
+- El aire se llena de oxígeno: «Eso es: hace unos dos mil cuatrocientos millones de años, los microbios llenaron el aire de oxígeno, poco a poco.»
+- El mar se llena de animales: «¡Mira dónde queda! Los animales tardaron muchísimo: el mar se llenó de ellos hace solo unos quinientos cuarenta millones de años.»
+- Zoom: «Todo lo que queda está en ese trocito de abajo. Vamos a hacer zoom, como el parque: la cinta entera son ahora los últimos quinientos cuarenta millones de años.»
+- Primeros dinosaurios: «Los primeros dinosaurios, hace unos doscientos treinta millones de años.»
+- Fin de los grandes dinosaurios: «El asteroide, hace sesenta y seis millones de años: fin de los grandes dinosaurios.»
+- Nuestra especie: «¡Abajo del todo! Nuestra especie tiene unos trescientos mil años: ni con zoom se ve.»
+- Más antiguo: «Más arriba: eso es más antiguo.»
+- Más reciente: «Más abajo: eso pasó más tarde.»
+- Al terminar: «¡Cinta completa! Somos los recién llegados de esta historia… y los únicos capaces de contarla.»
+
+**Rigor** (no se dice en voz alta):
+- **Las fechas**, las de las paradas 1 a 3, 7, 10 y 15: vida, de 3.500 millones de años o más; la Gran Oxidación, hacia 2.400; la explosión cámbrica, hacia 538-540; los primeros dinosaurios, hacia 230-233; el asteroide, 66; *Homo sapiens*, unos 300.000 años.
+- **«Llenaron el aire de oxígeno, poco a poco»:** la Gran Oxidación subió el oxígeno a una fracción del actual; los niveles de hoy llegaron mucho después. Se dice «poco a poco» y no «como hoy».
+
+---
+
 ## ¿Sabías que…?
 
 > ¿Sabías que un reloj que hace tic cada segundo tardaría más de ciento cuarenta años en dar cuatro mil quinientos millones de tics? Pues la Tierra tiene más o menos tantos años como tics.

@@ -15,12 +15,14 @@ import ConstruyeElArbol from "./ConstruyeElArbol";
 import DeQuienEsLaHuella from "./DeQuienEsLaHuella";
 import PolinizaLasFlores from "./PolinizaLasFlores";
 import QuienSobrevivio from "./QuienSobrevivio";
-import QuienVivioAntes from "./QuienVivioAntes";
 import ReconstruyeStonehenge from "./ReconstruyeStonehenge";
 import DescubreElMural from "./DescubreElMural";
 import FabricaOxigeno from "./FabricaOxigeno";
 import ManoEnLaCueva from "./ManoEnLaCueva";
 import QuienComeQue from "./QuienComeQue";
+import LamparaDeTuetano from "./LamparaDeTuetano";
+import SalDelAguaTiktaalik from "./SalDelAguaTiktaalik";
+import CintaDelTiempo from "./CintaDelTiempo";
 import TestDeDetective from "./TestDeDetective";
 import CalendarioDePiedra from "./CalendarioDePiedra";
 import PaseabaOCorria from "./PaseabaOCorria";
@@ -43,7 +45,7 @@ export const RETOS: Record<number, ComponentType<{ parada: ContenidoParada }>> =
   20: RompecabezasCatalhoyuk,
   2: FabricaOxigeno,
   3: ComoSeHaceUnFosil,
-  4: QuienVivioAntes,
+  4: SalDelAguaTiktaalik,
   5: ConstruyeElArbol,
   6: PolinizaLasFlores,
   7: QuienComeQue,
@@ -72,4 +74,6 @@ export const RETOS_MAYORES: Record<number, ComponentType<{ parada: ContenidoPara
   21: CalendarioDePiedra,
   4: TestDeDetective,
   15: TestDeDetective,
+  1: CintaDelTiempo,
+  16: LamparaDeTuetano,
 };

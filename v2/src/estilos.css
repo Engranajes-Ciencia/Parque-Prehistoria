@@ -2101,3 +2101,92 @@ h3 {
   text-align: center;
   font-weight: 800;
 }
+
+/* ---------- la cinta del tiempo (parada 1, mayores) ---------- */
+
+.cinta-juego {
+  display: flex;
+  gap: 10px;
+  align-items: stretch;
+}
+
+.cinta-momentos {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cinta-momento {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  min-height: 56px;
+  padding: 8px 10px;
+  border: 3px solid transparent;
+  border-radius: 14px;
+  background: var(--papel);
+  box-shadow: var(--sombra);
+  color: var(--tinta);
+  font-weight: 700;
+  text-align: left;
+}
+
+.cinta-momento.elegido {
+  border-color: var(--mostaza);
+}
+
+.cinta-momento.puesto {
+  border-color: var(--verde-azulado);
+  background: #eef8f6;
+  opacity: 0.85;
+}
+
+.cinta-momento small {
+  font-weight: 600;
+  color: var(--tinta-suave);
+}
+
+.cinta-emoji {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.cinta {
+  flex: 0 0 auto;
+  height: min(56vh, 380px);
+  width: auto;
+  aspect-ratio: 150 / 420;
+  cursor: pointer;
+}
+
+.cinta.esperando rect {
+  stroke: var(--mostaza);
+  stroke-width: 3;
+}
+
+.cinta-extremo {
+  font-size: 11px;
+  font-weight: 800;
+  fill: var(--tinta);
+}
+
+.cinta-marca line {
+  stroke: var(--tinta-suave);
+  stroke-width: 2;
+}
+
+.cinta-marca text {
+  font-size: 10px;
+  fill: var(--tinta-suave);
+}
+
+.cinta-puesto line {
+  stroke: var(--tinta);
+  stroke-width: 2;
+}
+
+.cinta-puesto-emoji {
+  font-size: 18px;
+}

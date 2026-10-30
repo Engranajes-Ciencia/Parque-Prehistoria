@@ -94,6 +94,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
     imagen: "img/p01/portada.webp",
     guion: leerGuion(guion01),
     reto: "El reloj del tiempo",
+    retoMayores: "La cinta del tiempo",
   },
   11: {
     id: 11,
@@ -161,7 +162,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
     titulo: "Prototaxites, Meganeura y Tiktaalik",
     imagen: "img/p04/portada.webp",
     guion: leerGuion(guion04),
-    reto: "¿Quién vivió antes?",
+    reto: "¡Sal del agua, Tiktaalik!",
     retoMayores: "Detectives del Devónico",
   },
   5: {
@@ -221,6 +222,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
     imagen: "img/p16/portada.webp",
     guion: leerGuion(guion16),
     reto: "Tu mano en la cueva",
+    retoMayores: "A la luz de la lámpara",
   },
   18: {
     id: 18,
