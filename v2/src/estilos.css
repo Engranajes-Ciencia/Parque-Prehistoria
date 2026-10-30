@@ -1736,3 +1736,60 @@ h3 {
   font-size: 0.85rem;
   padding: 8px 10px;
 }
+
+/* ---------- ¿qué no encaja? (intrusos) ---------- */
+
+.intrusos-cuenta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 800;
+  margin: 0 0 8px;
+}
+
+.intrusos-cuenta span {
+  display: inline-flex;
+  gap: 4px;
+}
+
+.intrusos-cuenta i {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid var(--teja);
+  background: transparent;
+}
+
+.intrusos-cuenta i.hecho {
+  background: var(--teja);
+}
+
+.intruso-emoji {
+  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.35));
+  user-select: none;
+}
+
+.intruso-atrapado {
+  opacity: 0.85;
+}
+
+.intruso-marca {
+  fill: rgba(200, 85, 61, 0.12);
+}
+
+.intruso-trampa {
+  fill: none;
+  stroke: var(--verde-azulado);
+  stroke-dasharray: 10 8;
+}
+
+/* Tarjetas con un emoji en vez de dibujo (30-oct-2026) */
+.tarjeta-emoji {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.6rem;
+  line-height: 1;
+  min-height: 64px;
+}

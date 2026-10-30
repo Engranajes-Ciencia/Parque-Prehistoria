@@ -96,6 +96,35 @@ Nada de hierba ni de flores: en el mundo del brontosaurio aún no existían (que
 
 ---
 
+## Reto para mayores: «¿Quién no pudo estar aquí?»
+
+*30-oct-2026. Juego para 7 años o más (motor `componentes/Intrusos.tsx`, juego `retos/QuienNoPudoEstar.tsx`).*
+
+**Qué se ve:** el paisaje del Jurásico del reto de peques (lago, araucarias, cícadas, colas de caballo y helechos), con el brontosaurio al fondo. Se han colado cinco intrusos y hay dos trampas. Todo son ilustraciones aprobadas de otras paradas: el triceratops (7), el tiranosaurio (10), la vaca (18), la flor (6) y, como emoji del móvil, una persona.
+
+**Cómo se gana:** tocando a los cinco intrusos. Las trampas, un mamífero pequeño y un pariente de los cocodrilos, sí pudieron estar: al tocarlas, Alba lo explica y no cuenta como fallo.
+
+**Qué se aprende:** que en la época de los dinosaurios hubo muchas épocas distintas, y que cada ser vivo tiene la suya. Es el mismo «zoom» del que habla el narrador en la parada 1.
+
+**Voz de Alba:**
+- Al empezar: «Esto es el Jurásico, con su brontosaurio. Pero se han colado cinco intrusos que no pudieron estar aquí. ¡Encuéntralos! Ojo: hay trampas.»
+- Triceratops: «¡El triceratops! Vivió al final de la época de los dinosaurios: entre él y el brontosaurio pasaron más de ochenta millones de años.»
+- Tiranosaurio: «¡El tiranosaurio! Llegó casi al final, como el triceratops. Hay más tiempo entre el brontosaurio y él que entre él y nosotros.»
+- Vaca: «¡Una vaca! Ya había mamíferos, pero pequeñitos. Las vacas llegaron muchísimo después de los dinosaurios.»
+- Flor: «¡Una flor! Las flores más antiguas que se conocen son unos veinte millones de años más jóvenes que el brontosaurio.»
+- Persona: «¡Una persona! Ningún ser humano vio un dinosaurio gigante: llegamos más de sesenta millones de años tarde.»
+- Mamífero pequeño: «Ese sí pudo estar. En el Jurásico ya había mamíferos, pequeños como musarañas.»
+- Cocodrilo: «Ese sí: los parientes de los cocodrilos ya nadaban en los ríos del Jurásico.»
+- Al terminar: «¡Cinco intrusos atrapados! Saber cuándo vivió cada uno es la mitad del trabajo de un paleontólogo.»
+
+**Rigor** (no se dice en voz alta):
+- **Brontosaurio:** unos 152-151 millones de años, Formación Morrison (Estados Unidos). **Triceratops y tiranosaurio:** 68-66. Entre ellos, unos 83 millones de años, más que los 66 que nos separan del tiranosaurio.
+- **Flores:** los fósiles de angiospermas más antiguos que no se discuten (polen) rondan los 135-130 millones de años. Los relojes moleculares apuntan a un origen anterior, pero sin fósiles: por eso Alba dice «las más antiguas que se conocen».
+- **Mamíferos del Jurásico:** pequeños, como *Docodon*, de la misma Formación Morrison. **Cocodrilomorfos:** también en Morrison (por ejemplo, *Goniopholis*). El dibujo del cocodrilo es actual; Alba dice «parientes de los cocodrilos».
+- **Fuera del juego, a propósito:** el pterosaurio del lote de la parada 10 parece un *Pteranodon*, que es del Cretácico, y el ave de la 10 es una codorniz moderna. Ninguno vale como trampa ni como intruso sin una explicación larga.
+
+---
+
 ## ¿Sabías que…?
 
 > ¿Sabías que durante más de cien años los científicos dijeron que el brontosaurio no era un animal distinto? Creían que era el mismo que el apatosaurio. En dos mil quince, un estudio de sus huesos le devolvió el nombre, aunque algunos todavía lo discuten.

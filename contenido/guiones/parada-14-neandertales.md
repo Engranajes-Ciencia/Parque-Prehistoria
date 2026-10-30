@@ -82,9 +82,29 @@ Se responde tocando «¡Hecho!». No hay respuesta que comprobar. Los huesos son
 
 ---
 
-## Reto: «¿Verdad o mito?»
+## Reto: «¿Qué no encaja?»
 
-**Qué se ve:** seis tarjetas abajo y dos grupos arriba. A la izquierda, «Lo hacían»: un campamento neandertal con una hoguera. A la derecha, «Es un mito»: una nube de sueño, como las de los tebeos cuando alguien se imagina algo.
+*30-oct-2026. Juego de peques (4-6 años): la ilustración de la portada, la familia neandertal junto al fuego, con cuatro cosas de hoy que se han colado (motor `componentes/Intrusos.tsx`, juego `retos/CosasQueNoEncajan.tsx`). Son emojis del propio móvil: no hace falta dibujo nuevo, y se ve enseguida que «no son de allí». El de antes, «¿Verdad o mito?», pasa a los mayores.*
+
+**Cómo se gana:** tocando las cuatro cosas: unas gafas de sol en la cara del padre, un móvil en manos del niño, una pizza junto al fuego y un balón en una piedra. Tocar en otro sitio solo enseña una marca, sin voz.
+
+**Voz de Alba:**
+- Al empezar: «¡Uy! En esta cueva se han colado cuatro cosas que los neandertales no tenían. ¿Las encuentras?»
+- Gafas de sol: «¡Unas gafas de sol! Eso se inventó muchísimo después.»
+- Móvil: «¡Un móvil! Los neandertales no tenían teléfonos: se contaban las cosas alrededor del fuego.»
+- Pizza: «¡Una pizza! Ellos comían lo que cazaban y lo que recogían: carne, frutos, semillas…»
+- Balón: «¡Un balón! Los niños seguramente jugaban, pero no con balones como este.»
+- Al terminar: «¡Las encontraste todas! Ahora la cueva está como hace cincuenta mil años. ¡Toma tu pegatina!»
+
+**Rigor** (no se dice en voz alta): la dieta neandertal incluía plantas, además de carne (restos de plantas cocinadas en el sarro de sus dientes, El Sidrón y Shanidar). «Hace cincuenta mil años» es una fecha razonable para la escena: los neandertales vivieron hasta hace unos cuarenta mil.
+
+---
+
+## Reto para mayores: «¿Verdad o mito?»
+
+*30-oct-2026: era el reto de todos; pasa a ser el de mayores (7 años o más), con dos tarjetas más (una de cada grupo) y frases más ricas. Los peques tienen ahora «¿Qué no encaja?».*
+
+**Qué se ve:** ocho tarjetas abajo y dos grupos arriba. A la izquierda, «Lo hacían»: un campamento neandertal con una hoguera. A la derecha, «Es un mito»: una nube de sueño, como las de los tebeos cuando alguien se imagina algo.
 
 **Qué se aprende:** los neandertales hacían hogueras, tallaban la piedra, cazaban animales grandes y cuidaban a los heridos. Y algunas cosas que se cuentan de ellos son inventadas.
 
@@ -98,15 +118,17 @@ Se responde tocando «¡Hecho!». No hay respuesta que comprobar. Los huesos son
 | Cazar animales grandes | Lo hacían | tres neandertales con lanzas de madera rodean a un ciervo | huesos de ciervo, caballo o bisonte con marcas de corte; lanzas de madera como las de Schöningen o Lehringen |
 | Caminar encorvados, con los nudillos en el suelo | Es un mito | un neandertal doblado como un gorila, apoyando los nudillos | salió de una reconstrucción equivocada de hace más de un siglo; caminaban tan erguidos como nosotros |
 | Montar en dinosaurio | Es un mito | un neandertal montado en un triceratops | los grandes dinosaurios desaparecieron más de sesenta millones de años antes (enlaza con la parada 7) |
+| Tuvieron hijos con nuestra especie (30-oct) | Lo hacían | emoji 🧬 | su ADN: los humanos de hoy con antepasados fuera de África llevan entre un 1 % y un 2 % de genes neandertales (Green et al. 2010; Pääbo, Nobel 2022). Enlaza con la infografía del museo |
+| Tenían el cerebro más pequeño que el nuestro (30-oct) | Es un mito | emoji 🧠 | su capacidad craneal media, unos 1.400-1.500 cm³, era como la nuestra o algo mayor (nosotros, unos 1.350). Desmonta la idea del neandertal «tonto» |
 
-Cuatro tarjetas de «Lo hacían» y dos de «Es un mito», a propósito: para «Lo hacían» solo valen cosas con pruebas sólidas, y para «Es un mito» solo cosas falsas sin discusión. Las candidatas que no cumplían se han quedado fuera (ver más abajo).
+Cinco tarjetas de «Lo hacían» y tres de «Es un mito», a propósito: para «Lo hacían» solo valen cosas con pruebas sólidas, y para «Es un mito» solo cosas falsas sin discusión. Las candidatas que no cumplían se han quedado fuera (ver más abajo).
 
 **Voz de Alba:**
-- Al empezar: «¿Lo hacían de verdad, o es un mito? ¡Pon cada tarjeta en su grupo!»
-- Acierto lo hacían: «¡Sí! Eso lo hacían.» / «¡Muy bien! Es verdad.» / «¡Eso es! Sabían hacerlo.»
-- Acierto mito: «¡Eso es! Es un mito.» / «¡Muy bien! Eso nunca pasó.» / «¡Qué va! Eso es inventado.»
-- Fallo: «¡Uy! Prueba en el otro grupo.»
-- Al terminar: «¡Todas en su sitio! Los neandertales sabían hacer muchas cosas, y se cuidaban. ¡Toma tu pegatina!»
+- Al empezar: «¿Lo hacían de verdad, o es un mito? Pon cada tarjeta en su grupo. Ojo: alguna te va a sorprender.»
+- Acierto lo hacían: «¡Sí! Hay pruebas de que lo hacían.» / «¡Muy bien! Es verdad.» / «¡Eso es! Lo cuentan sus huesos y sus herramientas.»
+- Acierto mito: «¡Eso es! Es un mito.» / «¡Muy bien! Eso es inventado.» / «¡Exacto! Eso nunca fue así.»
+- Fallo: «¡Uy! Piénsalo otra vez: ¿hay pruebas de eso?»
+- Al terminar: «¡Todas en su sitio! Y la sorpresa: su cerebro era tan grande como el nuestro, y muchos de nosotros llevamos un poquito de neandertal dentro.»
 
 Las frases de acierto son genéricas para que valgan para cualquier tarjeta de su grupo. «Al terminar» no repite ninguna: resume las dos ideas del juego y vale sea cual sea la última tarjeta.
 

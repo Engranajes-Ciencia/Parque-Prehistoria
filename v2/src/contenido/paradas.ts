@@ -114,7 +114,8 @@ export const PARADAS: Record<number, ContenidoParada> = {
     titulo: "Los neandertales",
     imagen: "img/p14/portada.webp",
     guion: leerGuion(guion14),
-    reto: "¿Verdad o mito?",
+    reto: "¿Qué no encaja?",
+    retoMayores: "¿Verdad o mito?",
   },
   15: {
     id: 15,
@@ -201,6 +202,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
     imagen: "img/p07/portada.webp",
     guion: leerGuion(guion07),
     reto: "¿Quién come qué?",
+    retoMayores: "¿Quién no pudo estar aquí?",
   },
   13: {
     id: 13,

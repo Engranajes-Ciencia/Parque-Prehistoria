@@ -7,6 +7,8 @@ import type { ContenidoParada } from "../contenido/paradas";
 // app la pone encima cuando se colocan en «Es un mito». Las «-b» son las del lote 7 bis,
 // rehechas sin la cruz (27-sep).
 const img = (n: string) => <img src={`img/p14/${n}.webp`} alt="" draggable={false} />;
+// 30-oct-2026: es el reto de mayores y lleva dos tarjetas más, con emoji en vez de dibujo.
+const emoji = (e: string) => <span className="tarjeta-emoji" aria-hidden="true">{e}</span>;
 
 export default function VerdadOMito({ parada }: { parada: ContenidoParada }) {
   return (
@@ -20,6 +22,8 @@ export default function VerdadOMito({ parada }: { parada: ContenidoParada }) {
         { id: "herido", nombre: "Cuidar a un herido", dibujo: img("cuidar"), destino: "verdad" },
         { id: "dinosaurio", nombre: "Montar en dinosaurio", dibujo: img("dinosaurio-b"), destino: "mito" },
         { id: "cazar", nombre: "Cazar animales grandes", dibujo: img("cazar"), destino: "verdad" },
+        { id: "hijos", nombre: "Tener hijos con nuestra especie", dibujo: emoji("🧬"), destino: "verdad" },
+        { id: "cerebro", nombre: "Tener el cerebro más pequeño que el nuestro", dibujo: emoji("🧠"), destino: "mito" },
       ]}
       grupos={[
         { id: "verdad", nombre: "Lo hacían", dibujo: "✅", etiqueta: "Acierto lo hacían" },

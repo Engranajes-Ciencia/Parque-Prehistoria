@@ -22,6 +22,8 @@ import DescubreElMural from "./DescubreElMural";
 import FabricaOxigeno from "./FabricaOxigeno";
 import ManoEnLaCueva from "./ManoEnLaCueva";
 import QuienComeQue from "./QuienComeQue";
+import CosasQueNoEncajan from "./CosasQueNoEncajan";
+import QuienNoPudoEstar from "./QuienNoPudoEstar";
 import RompecabezasCatalhoyuk from "./RompecabezasCatalhoyuk";
 import RompecabezasMarAntiguo from "./RompecabezasMarAntiguo";
 
@@ -30,7 +32,7 @@ export const RETOS: Record<number, ComponentType<{ parada: ContenidoParada }>> =
   1: ElRelojDelTiempo,
   11: CadaPicoSuComida,
   12: DetectivesDeLaetoli,
-  14: VerdadOMito,
+  14: CosasQueNoEncajan,
   15: EncuentraLasDiferencias,
   17: NosMudamos,
   20: RompecabezasCatalhoyuk,
@@ -57,4 +59,6 @@ export const RETOS: Record<number, ComponentType<{ parada: ContenidoParada }>> =
 export const RETOS_MAYORES: Record<number, ComponentType<{ parada: ContenidoParada }>> = {
   3: RompecabezasMarAntiguo,
   20: ConstruyeLaCasa,
+  7: QuienNoPudoEstar,
+  14: VerdadOMito,
 };
