@@ -111,6 +111,34 @@ Las frases de acierto son genéricas para que valgan para cualquier tarjeta de s
 
 ---
 
+## Reto para mayores: «Efecto dominó»
+
+*30-oct-2026. Juego para 7 años o más (motor `componentes/Emparejar.tsx`, juego `retos/EfectoDomino.tsx`).*
+
+**Qué se ve:** seis tarjetas con emoji y un texto corto, desordenadas, y seis huecos numerados en dos filas de tres.
+
+**Cómo se gana:** poniendo cada tarjeta en su puesto de la cadena de causas y efectos: el asteroide, el polvo y el humo que tapan el sol, la oscuridad y el frío, las plantas que dejan de crecer, los grandes herbívoros sin comida y los grandes carnívoros sin presas.
+
+**Qué se aprende:** que una extinción es una cadena: cada eslabón tira del siguiente. Y por qué salieron adelante sobre todo los animales pequeños.
+
+**Voz de Alba:**
+- Al empezar: «Una catástrofe es como un dominó: una pieza tira a la siguiente. Ordena lo que pasó hace sesenta y seis millones de años, del primero al último.»
+- Tarjeta 1: «Todo empezó con una roca del espacio de unos diez kilómetros.»
+- Tarjeta 2: «El choque lanzó al cielo polvo, hollín y gases que taparon el sol.»
+- Tarjeta 3: «Sin sol, llegaron la oscuridad y el frío, durante meses, quizá años.»
+- Tarjeta 4: «Sin luz, las plantas no podían fabricar su alimento.»
+- Tarjeta 5: «Sin plantas, los grandes herbívoros se quedaron sin comida.»
+- Tarjeta 6: «Y sin herbívoros, los grandes carnívoros se quedaron sin presas.»
+- Fallo: «Mmm… ¿Eso pudo pasar antes? Piensa qué causa qué.»
+- Al terminar: «¡Dominó completo! Sobrevivieron sobre todo los animales pequeños, que comían poco y de casi todo: semillas, insectos, restos.»
+
+**Rigor** (no se dice en voz alta):
+- Es la cadena que cuenta el «Para todos» de esta parada (ver su tabla de datos). «Polvo, hollín y gases» recoge las tres causas del oscurecimiento que se discuten: los aerosoles de azufre pesaron tanto o más que el polvo.
+- Los volcanes del Decán no van en la cadena: su papel se discute, y el narrador lo cuenta aparte.
+- **Supervivientes pequeños:** las redes de comida basadas en restos y semillas aguantaron mejor que las que dependían de plantas vivas; ningún animal terrestre de más de unos 25 kg sobrevivió, con pocas excepciones (algunos cocodrilos y tortugas).
+
+---
+
 ## ¿Sabías que…?
 
 > ¿Sabías que el alosaurio sí convivió con el estegosaurio, el de las placas en el lomo? Se encontró un hueso de la cola de un alosaurio con un agujero que encaja con una púa de estegosaurio. Y el hueso empezó a curarse: aquel alosaurio sobrevivió al pinchazo.

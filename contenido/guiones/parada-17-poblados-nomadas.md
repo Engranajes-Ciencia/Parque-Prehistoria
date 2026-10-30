@@ -120,6 +120,32 @@ Las frases de acierto son genéricas y valen para cualquier tarjeta de su grupo.
 
 ---
 
+## Reto para mayores: «La gran mudanza»
+
+*30-oct-2026. Juego para 7 años o más (motor `componentes/Repartir.tsx`, juego `retos/LaGranMudanza.tsx`): la mudanza de los peques con un tercer grupo.*
+
+**Qué se ve:** nueve tarjetas y tres grupos: «Nos lo llevamos», «Se queda aquí» y «Aún no existía». Seis tarjetas son los dibujos del reto de peques; tres van con emoji: las piedras del hogar, los huesos de la comida y una vasija de barro.
+
+| Tarjeta | Grupo |
+|---|---|
+| Pieles de la tienda, herramientas de piedra, lanza, collar de conchas | Nos lo llevamos |
+| Piedras del hogar, huesos de la comida | Se queda aquí |
+| Casa de piedra, campo de trigo, vasija de barro | Aún no existía |
+
+**Voz de Alba:**
+- Al empezar: «Mañana nos mudamos, como hacían los nómadas. Reparte cada cosa: ¿nos la llevamos, se queda aquí, o es que aún no se había inventado?»
+- Acierto nos lo llevamos: «¡A la espalda! Pocas cosas y ligeras.» / «Eso sí: no pesa y nos hace falta.» / «¡Al fardo!»
+- Acierto se queda: «Eso se queda: pesa demasiado o ya no nos sirve.» / «Se queda aquí… y lo encontrarán los arqueólogos.»
+- Acierto aún no existía: «¡Exacto! Eso llegó miles de años después, con los primeros agricultores.» / «Aún no: eso es de cuando la gente se quedó a vivir en un sitio.»
+- Fallo: «Mmm… ¿Pesa mucho? ¿Existía ya? Piénsalo otra vez.»
+- Al terminar: «¡Lista la mudanza! Lo que los nómadas dejaban atrás, sus hogares y los restos de su comida, es justo lo que hoy encuentran los arqueólogos.»
+
+**Rigor** (no se dice en voz alta):
+- **La vasija de barro:** en Europa, la cerámica llega con los agricultores del Neolítico. En el este de Asia hubo cazadores-recolectores con vasijas hace unos 20.000 años (Xianrendong, en China), y en Europa ya se cocían figuras de barro en el Gravetiense (Dolní Věstonice, en el museo del parque). Pero vasijas, no: por eso la tarjeta dice «vasija» y no «barro cocido».
+- **Las piedras del hogar** no se llevaban; el fuego, a veces sí, en brasas. La tarjeta habla de las piedras.
+
+---
+
 ## ¿Sabías que…?
 
 > ¿Sabías que en Ucrania, hace más de quince mil años, había cabañas hechas con huesos de mamut? En aquella estepa fría había muy pocos árboles. Para una sola de esas cabañas usaron huesos de al menos treinta y siete mamuts.

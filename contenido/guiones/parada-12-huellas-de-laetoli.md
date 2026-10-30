@@ -116,6 +116,38 @@ Las zonas exactas se miden sobre la imagen cuando esté hecha, como se hizo con 
 
 ---
 
+## Reto para mayores: «Seis pistas en la ceniza»
+
+*30-oct-2026. Juego para 7 años o más (motor `componentes/BuscaEnDibujo.tsx`, juego `retos/LaetoliSeisPistas.tsx`): la misma ilustración que el de peques, con seis pistas en vez de cuatro.*
+
+**Qué se ve:** el suelo de ceniza de Laetoli visto casi desde arriba, con los dos rastros de pisadas, las huellas de elefante, los hoyitos de lluvia, rocas negras y el volcán al fondo.
+
+**Cómo se gana:** tocando las seis pistas: el caminante grande, el caminante pequeño (por separado), el elefante, la lluvia, el volcán y las rocas. La lista de arriba dice cuáles faltan.
+
+**Qué se aprende:** a leer una escena entera como un detective: quién pasó, qué tiempo hacía y de dónde vino la ceniza. Y que en el rastro grande pudo pisar un tercero.
+
+**Voz de Alba:**
+- Al empezar: «Esta ceniza guarda un momento de hace tres millones seiscientos mil años. Busca seis pistas, como un detective: ¿quién pasó por aquí, qué tiempo hacía y de dónde salió la ceniza?»
+- El caminante grande: «Pisadas grandes y hondas. Muchos científicos creen que aquí pisaban dos: uno delante y otro detrás, metiendo los pies en las huellas del primero.»
+- El caminante pequeño: «Pisadas pequeñas: alguien del tamaño de un niño de seis o siete años caminaba al lado.»
+- Un elefante: «¡Un elefante! Bueno, un pariente antiguo. Por aquí pasaron muchos más animales: liebres, antílopes, pájaros…»
+- La lluvia: «Esos hoyitos son gotas de lluvia: cayó un chaparrón suave y la ceniza mojada se puso como cemento fresco.»
+- El volcán: «La ceniza salió de un volcán cercano, seguramente el Sadiman. Hoy ya no echa ceniza.»
+- Las rocas: «Rocas negras de lava enfriada: otra pista de que había volcanes cerca.»
+- Al terminar: «¡Seis pistas! Caminantes sobre dos piernas, seguramente de la especie de Lucy, un elefante, la lluvia y un volcán: todo guardado en una capa de ceniza.»
+
+**Rigor** (no se dice en voz alta):
+- **Fecha:** unos 3,66 millones de años (la toba de las huellas, datada por argón).
+- **Tres caminantes:** en el rastro grande (G2) se ven huellas superpuestas que se atribuyen a un tercero (G3). Es la lectura más extendida, no unánime: por eso «muchos científicos creen».
+- **El pequeño (G1):** las estimaciones de estatura rondan 1,1-1,3 m, la de un niño de hoy de seis o siete años. No se sabe si era un niño o un adulto pequeño: Alba dice «del tamaño de», no «un niño».
+- **Animales:** en las tobas de Laetoli hay miles de huellas de liebres, aves (pintadas), antílopes, jirafas, rinocerontes, *Hipparion* y proboscídeos. «Un pariente antiguo» del elefante, porque no era ninguna especie actual.
+- **Lluvia:** las marcas de gotas están en la misma toba. La ceniza de carbonatita, al mojarse y secarse, endurece como el cemento: por eso se conservaron.
+- **El volcán:** el Sadiman, a unos 20 km, es la fuente propuesta por su composición (carbonatita y melilitita); se dice «seguramente». Hoy está inactivo: «ya no echa ceniza» vale tanto si está dormido como extinguido.
+- **La especie:** las huellas se atribuyen a *Australopithecus afarensis*, la especie de Lucy, por los fósiles de Laetoli de la misma edad. Se dice «seguramente».
+- **Las rocas negras** son las de la ilustración; en la llanura de Laetoli hay rocas volcánicas, pero la frase habla de lo que se ve en el dibujo.
+
+---
+
 ## ¿Sabías que…?
 
 > ¿Sabías que, en dos mil quince, aparecieron muy cerca más huellas de la misma época? Uno de aquellos caminantes medía más de metro y medio: más de lo que se creía para su especie.

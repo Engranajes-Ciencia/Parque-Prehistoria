@@ -20,6 +20,11 @@ import DescubreElMural from "./DescubreElMural";
 import FabricaOxigeno from "./FabricaOxigeno";
 import ManoEnLaCueva from "./ManoEnLaCueva";
 import QuienComeQue from "./QuienComeQue";
+import DiferenciasDelBosque from "./DiferenciasDelBosque";
+import DetallesDelMural from "./DetallesDelMural";
+import LaetoliSeisPistas from "./LaetoliSeisPistas";
+import LaGranMudanza from "./LaGranMudanza";
+import EfectoDomino from "./EfectoDomino";
 import LamparaDeTuetano from "./LamparaDeTuetano";
 import SalDelAguaTiktaalik from "./SalDelAguaTiktaalik";
 import CintaDelTiempo from "./CintaDelTiempo";
@@ -76,4 +81,9 @@ export const RETOS_MAYORES: Record<number, ComponentType<{ parada: ContenidoPara
   15: TestDeDetective,
   1: CintaDelTiempo,
   16: LamparaDeTuetano,
+  10: EfectoDomino,
+  17: LaGranMudanza,
+  12: LaetoliSeisPistas,
+  19: DetallesDelMural,
+  5: DiferenciasDelBosque,
 };

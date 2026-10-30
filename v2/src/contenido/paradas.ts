@@ -110,6 +110,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
     imagen: "img/p12/portada.webp",
     guion: leerGuion(guion12),
     reto: "Detectives de Laetoli",
+    retoMayores: "Seis pistas en la ceniza",
   },
   14: {
     id: 14,
@@ -133,6 +134,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
     imagen: "img/p17/portada.webp",
     guion: leerGuion(guion17),
     reto: "¡Nos mudamos!",
+    retoMayores: "La gran mudanza",
   },
   20: {
     id: 20,
@@ -171,6 +173,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
     imagen: "img/p05/portada.webp",
     guion: leerGuion(guion05),
     reto: "Construye el primer árbol",
+    retoMayores: "Las cinco diferencias",
   },
   6: {
     id: 6,
@@ -200,6 +203,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
     imagen: "img/p10/portada.webp",
     guion: leerGuion(guion10),
     reto: "¿Quién sobrevivió?",
+    retoMayores: "Efecto dominó",
   },
   7: {
     id: 7,
@@ -238,6 +242,7 @@ export const PARADAS: Record<number, ContenidoParada> = {
     imagen: "img/p19/portada.webp",
     guion: leerGuion(guion19),
     reto: "Descubre el mural",
+    retoMayores: "Detalles del mural",
   },
   21: {
     id: 21,

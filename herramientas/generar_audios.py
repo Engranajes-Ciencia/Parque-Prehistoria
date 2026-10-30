@@ -44,15 +44,18 @@ MANIFIESTO = os.path.join(SALIDA, "manifiesto.json")
 # entero y las pausas entre frases son las suyas; entre párrafos se siguen pegando silencios.
 # Ajustes de «El Richar atenboru» tal y como están en el historial de la cuenta (sep-2025).
 VOCES = {
-    "narrador": {"voice_id": "WeuNkKS3AvTwCZZERkQa", "nombre": "El Richar atenboru",
-                 "modelo": "eleven_multilingual_v2",
-                 "ajustes": {"stability": 0.49, "similarity_boost": 0.43, "style": 0.0,
-                             "use_speaker_boost": True, "speed": 1.0}},
+    # 30-oct-2026, elegidas por Álvaro en el casting (herramientas/casting_voces.py, muestras N7
+    # y A2): la narradora Eva Dorado (voz de la biblioteca de ElevenLabs, castellana) y Alba,
+    # la de siempre, las dos con Eleven v4, que «suena más natural sin duda».
+    "narrador": {"voice_id": "RgXx32WYOGrd7gFNifSf", "nombre": "Eva Dorado",
+                 "modelo": "eleven_v4",
+                 "ajustes": {"stability": 0.5, "similarity_boost": 0.75}},
     "alba": {"voice_id": "OOHm6M5O6WPl7E4nAqyE", "nombre": "Alba Guía Prehistoria",
-             "modelo": "eleven_multilingual_v2",
-             "ajustes": {"stability": 0.5, "similarity_boost": 0.75, "style": 0.0,
-                         "use_speaker_boost": True, "speed": 1.0}},
+             "modelo": "eleven_v4",
+             "ajustes": {"stability": 0.5, "similarity_boost": 0.75}},
 }
+# Antes (25-sep a 30-oct): el narrador era «El Richar atenboru» (WeuNkKS3AvTwCZZERkQa, ajustes
+# 0.49/0.43 del historial de la cuenta) y las dos voces iban con eleven_multilingual_v2.
 MODELOS_SIN_SSML = {"eleven_v3", "eleven_v4"}
 
 

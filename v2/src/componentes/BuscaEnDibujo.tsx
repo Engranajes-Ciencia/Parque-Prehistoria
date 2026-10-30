@@ -7,17 +7,24 @@ import MarcoReto, { useAlba } from "./MarcoReto";
 // entre dos cráneos… El dibujo es un SVG (o una imagen dentro de él) y cada cosa que hay que
 // encontrar es una zona rectangular en sus mismas unidades.
 
-export interface ZonaBuscar {
-  id: string;
-  nombre: string;
+interface Rect {
   x: number;
   y: number;
   width: number;
   height: number;
+}
+
+export interface ZonaBuscar extends Rect {
+  id: string;
+  nombre: string;
   dicho: Dicho;
   /** false: al encontrarla no se enmarca (para zonas que ocupan casi todo el dibujo). */
   marco?: boolean;
+  /** Más sitios donde está la misma pista (rocas repartidas por el dibujo). */
+  otras?: Rect[];
 }
+
+const sitios = (z: ZonaBuscar): Rect[] => [z, ...(z.otras ?? [])];
 
 interface Props {
   parada: number;
@@ -30,6 +37,8 @@ interface Props {
   inicio: Dicho;
   final: Dicho;
   nota: string;
+  /** La lista no dice qué buscar hasta encontrarlo (juego de diferencias). */
+  nombresOcultos?: boolean;
 }
 
 export default function BuscaEnDibujo(p: Props) {
@@ -47,8 +56,9 @@ export default function BuscaEnDibujo(p: Props) {
     const q = new DOMPoint(e.clientX, e.clientY).matrixTransform(m.inverse());
     // Si dos zonas se solapan, gana la más pequeña: es la pista más concreta.
     const z = p.zonas
-      .filter((z) => q.x >= z.x && q.x <= z.x + z.width && q.y >= z.y && q.y <= z.y + z.height)
-      .sort((a, b) => a.width * a.height - b.width * b.height)[0];
+      .flatMap((z) => sitios(z).map((r) => ({ z, r })))
+      .filter(({ r }) => q.x >= r.x && q.x <= r.x + r.width && q.y >= r.y && q.y <= r.y + r.height)
+      .sort((a, b) => a.r.width * a.r.height - b.r.width * b.r.height)[0]?.z;
     if (!z) {
       setFallo({ x: q.x, y: q.y });
       setTimeout(() => setFallo(null), 600);
@@ -67,7 +77,7 @@ export default function BuscaEnDibujo(p: Props) {
       <div className="mural-lista">
         {p.zonas.map((z) => (
           <span key={z.id} className={halladas.includes(z.id) ? "hecho" : ""}>
-            {halladas.includes(z.id) ? "✔" : "?"} {z.nombre}
+            {halladas.includes(z.id) ? `✔ ${z.nombre}` : p.nombresOcultos ? "?" : `? ${z.nombre}`}
           </span>
         ))}
       </div>
@@ -75,14 +85,15 @@ export default function BuscaEnDibujo(p: Props) {
         {p.dibujo}
         {p.zonas
           .filter((z) => halladas.includes(z.id) && z.marco !== false)
-          .map((z) => (
+          .flatMap((z) => sitios(z).map((r, i) => ({ r, clave: `${z.id}-${i}` })))
+          .map(({ r, clave }) => (
             <rect
-              key={z.id}
+              key={clave}
               className="busca-hallada"
-              x={z.x}
-              y={z.y}
-              width={z.width}
-              height={z.height}
+              x={r.x}
+              y={r.y}
+              width={r.width}
+              height={r.height}
               rx={ancho * 0.02}
               strokeWidth={ancho * 0.011}
             />

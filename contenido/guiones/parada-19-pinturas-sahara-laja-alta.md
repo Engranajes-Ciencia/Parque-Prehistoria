@@ -104,6 +104,42 @@ Una sola idea: **el Sáhara fue verde, y lo sabemos porque lo pintaron.** El car
 
 ---
 
+## Reto para mayores: «Detalles del mural»
+
+*30-oct-2026. Juego para 7 años o más (`retos/DetallesDelMural.tsx`, con el motor del de peques, `retos/DescubreElMural.tsx`): la misma foto del mural, con ocho detalles más pequeños.*
+
+**Qué se ve:** la foto del mural, más ancha que la pantalla, y arriba la lista de los ocho detalles.
+
+**Cómo se gana:** tocando el caballo, el conductor, la rueda, los que bailan, los pastores (hay dos), la vaca con manchas, el rebaño y los barcos. Donde dos se solapan, gana el más pequeño: el conductor sobre el caballo, la vaca con manchas dentro del rebaño. **Ni las jirafas ni el gigante blanco** están en el juego: son la misión, que se hace mirando la pared.
+
+**Qué se aprende:** lo mismo que cuenta el narrador, pero detalle a detalle: que cada cosa del mural tiene su edad y su sitio, y que en la pared están juntas cosas separadas por miles de años y miles de kilómetros.
+
+**Voz de Alba:**
+- Al empezar: «Ocho detalles escondidos en el mural, más difíciles que los de los peques. Desliza el dedo para recorrerlo y tócalos. ¡Ojo, que algunos son pequeños!»
+- El caballo al galope: «Mira sus patas: estiradas delante y detrás. Ningún caballo galopa así; es una forma antigua de pintar la velocidad.»
+- El conductor: «El conductor va de pie, y algo largo le ondea detrás: ¿pelo, un pañuelo? Estos carros se pintaron hace unos tres mil años: es de lo más moderno del mural.»
+- La rueda: «Una rueda de radios, mucho más ligera que una maciza. Se inventó hace unos cuatro mil años, seguramente en las estepas entre Europa y Asia, muy lejos del Sáhara.»
+- Los que bailan: «Cinco personas cogidas de la mano. ¿Una fiesta, una ceremonia? Las pinturas no traen instrucciones: los arqueólogos lo averiguan con pistas.»
+- Los pastores: «¡Pastores! Hace unos siete mil años llegaron al Sáhara los primeros ganaderos, con sus vacas.»
+- La vaca con manchas: «Las vacas salvajes, los uros, no tenían manchas así. Las manchas son una pista de que a esta vaca la criaba la gente.»
+- El rebaño: «Vacas rojas, grises y negras, de cuernos largos. Para pintar un rebaño así, tenía que haber hierba de sobra.»
+- Los barcos: «Barcos de la Laja Alta, en Cádiz: allí hay ocho pintados en la roca. Su edad se discute: tres mil años, o cinco mil.»
+- Al terminar: «¡Los ocho! Carro, bailarines, pastores y barcos: en la pared están juntos, pero entre unos y otros hay miles de años y miles de kilómetros.»
+
+**Rigor** (no se dice en voz alta):
+- **Galope volante:** en la fase en el aire del galope, el caballo lleva las cuatro patas recogidas bajo el cuerpo (Muybridge, 1878); las patas estiradas son una convención del arte antiguo.
+- **Conductor:** el guion de la parada habla de «larga melena o un tocado al viento». Alba lo pregunta en vez de afirmarlo.
+- **Carros:** periodo del Caballo del Tassili y el Acacus, desde hace unos 3.200 años (ver la tabla de datos). «De lo más moderno» del mural, junto con los barcos si se aceptara la fecha corta de estos.
+- **Rueda de radios:** los carros de rueda de radios más antiguos que se conocen son de la cultura de Sintashta (sur de los Urales), hacia el 2000 a. C. Hay quien defiende un origen en Oriente Próximo poco después o a la vez: por eso «seguramente».
+- **Bailarines:** escena sin identificar (ver «Qué hay en la parada»). Alba no dice qué es.
+- **Primeros ganaderos:** ganado doméstico en el Sáhara central hacia hace 7.000 años (ver la tabla de datos).
+- **Los uros** eran de color uniforme: los toros, negros con una raya clara en el lomo; las vacas y los terneros, pardo rojizos. Las capas manchadas son típicas del ganado doméstico, y las pinturas pastorales del Sáhara las muestran a menudo. Es una pista, no una prueba: se dice así.
+- **«Hierba de sobra»:** el ganado vacuno necesita pastos y agua a diario; un rebaño grande no cabe en un desierto. Es la misma idea del narrador.
+- **Laja Alta:** ocho barcos (siete descritos en 1978 y uno en 2013). Las dos fechas son las del «Para todos»: unos tres mil años (época fenicia o final de la Edad del Bronce) o unos cinco mil (Universidad de Granada), aún en discusión.
+- **«Miles de kilómetros»:** del Tassili a la Laja Alta hay unos dos mil kilómetros en línea recta (1.950 km desde Djanet; 2.010 desde Sefar).
+
+---
+
 ## ¿Sabías que…?
 
 > ¿Sabías que el Sáhara no se ha vuelto verde una sola vez, sino muchas? Más o menos cada veinte mil años, un lento bamboleo de la Tierra, como el de una peonza al girar, le devuelve las lluvias durante unos miles de años.

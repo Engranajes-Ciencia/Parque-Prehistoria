@@ -4,14 +4,19 @@ import { dichoDelReto } from "../contenido/guion";
 import type { ContenidoParada } from "../contenido/paradas";
 
 // Foto real del mural del parque (foto 48). Zonas en porcentaje de la imagen, medidas sobre ella.
-interface Hallazgo {
-  id: string;
-  nombre: string;
-  etiqueta: string;
+interface Rect {
   x0: number;
   x1: number;
   y0: number;
   y1: number;
+}
+
+export interface Hallazgo extends Rect {
+  id: string;
+  nombre: string;
+  etiqueta: string;
+  /** Más sitios donde está lo mismo (dos pastores en dos rincones del mural). */
+  otras?: Rect[];
 }
 
 const HALLAZGOS: Hallazgo[] = [
@@ -21,11 +26,15 @@ const HALLAZGOS: Hallazgo[] = [
   { id: "barcos", nombre: "Los barcos", etiqueta: "Al encontrar los barcos", x0: 85, x1: 100, y0: 28, y1: 82 },
 ];
 
-export default function DescubreElMural({ parada }: { parada: ContenidoParada }) {
+const sitios = (h: Hallazgo): Rect[] => [h, ...(h.otras ?? [])];
+const area = (r: Rect) => (r.x1 - r.x0) * (r.y1 - r.y0);
+
+/** El juego del mural con la lista de cosas que se le dé: la de peques y la de mayores. */
+export function Mural({ parada, hallazgos, titulo }: { parada: ContenidoParada; hallazgos: Hallazgo[]; titulo: string }) {
   const [frases] = useState(() => ({
     inicio: dichoDelReto(parada.guion, parada.id, "Al empezar"),
     final: dichoDelReto(parada.guion, parada.id, "Al terminar"),
-    hallazgo: Object.fromEntries(HALLAZGOS.map((h) => [h.id, dichoDelReto(parada.guion, parada.id, h.etiqueta)])),
+    hallazgo: Object.fromEntries(hallazgos.map((h) => [h.id, dichoDelReto(parada.guion, parada.id, h.etiqueta)])),
   }));
   const { mensaje, decir, final, terminar, acabado } = useAlba(frases.inicio, parada.id);
   const [encontrados, setEncontrados] = useState<string[]>([]);
@@ -37,7 +46,11 @@ export default function DescubreElMural({ parada }: { parada: ContenidoParada })
     const r = e.currentTarget.getBoundingClientRect();
     const x = ((e.clientX - r.left) / r.width) * 100;
     const y = ((e.clientY - r.top) / r.height) * 100;
-    const h = HALLAZGOS.find((z) => x >= z.x0 && x <= z.x1 && y >= z.y0 && y <= z.y1);
+    // Si dos zonas se solapan, gana la más pequeña: es el detalle más concreto.
+    const h = hallazgos
+      .flatMap((h) => sitios(h).map((z) => ({ h, z })))
+      .filter(({ z }) => x >= z.x0 && x <= z.x1 && y >= z.y0 && y <= z.y1)
+      .sort((a, b) => area(a.z) - area(b.z))[0]?.h;
     if (!h) {
       setFallo({ x, y });
       setTimeout(() => setFallo(null), 600);
@@ -47,7 +60,7 @@ export default function DescubreElMural({ parada }: { parada: ContenidoParada })
     const nuevos = [...hallados.current, h.id];
     hallados.current = nuevos;
     setEncontrados(nuevos);
-    if (nuevos.length === HALLAZGOS.length) {
+    if (nuevos.length === hallazgos.length) {
       terminar(frases.hallazgo[h.id], frases.final);
     } else {
       decir(frases.hallazgo[h.id]);
@@ -55,9 +68,9 @@ export default function DescubreElMural({ parada }: { parada: ContenidoParada })
   };
 
   return (
-    <MarcoReto parada={parada.id} titulo={parada.reto ?? "Descubre el mural"} mensaje={mensaje} decir={decir} final={final} pose="senala">
+    <MarcoReto parada={parada.id} titulo={titulo} mensaje={mensaje} decir={decir} final={final} pose="senala">
       <div className="mural-lista">
-        {HALLAZGOS.map((h) => (
+        {hallazgos.map((h) => (
           <span key={h.id} className={encontrados.includes(h.id) ? "hecho" : ""}>
             {encontrados.includes(h.id) ? "✔" : "?"} {h.nombre}
           </span>
@@ -66,17 +79,24 @@ export default function DescubreElMural({ parada }: { parada: ContenidoParada })
       <div className="mural-marco">
         <div className="mural">
           <img src="img/p19/mural.webp" alt="El mural del parque" draggable={false} onClick={tocar} />
-          {HALLAZGOS.filter((h) => encontrados.includes(h.id)).map((h) => (
-            <span
-              key={h.id}
-              className="mural-hallado"
-              style={{ left: `${h.x0}%`, top: `${h.y0}%`, width: `${h.x1 - h.x0}%`, height: `${h.y1 - h.y0}%` }}
-            />
-          ))}
+          {hallazgos
+            .filter((h) => encontrados.includes(h.id))
+            .flatMap((h) => sitios(h).map((z, i) => ({ z, clave: `${h.id}-${i}` })))
+            .map(({ z, clave }) => (
+              <span
+                key={clave}
+                className="mural-hallado"
+                style={{ left: `${z.x0}%`, top: `${z.y0}%`, width: `${z.x1 - z.x0}%`, height: `${z.y1 - z.y0}%` }}
+              />
+            ))}
           {fallo && <span className="mural-fallo" style={{ left: `${fallo.x}%`, top: `${fallo.y}%` }} />}
         </div>
       </div>
       <p className="nota">← Desliza el dedo para recorrer el mural →</p>
     </MarcoReto>
   );
+}
+
+export default function DescubreElMural({ parada }: { parada: ContenidoParada }) {
+  return <Mural parada={parada} hallazgos={HALLAZGOS} titulo={parada.reto ?? "Descubre el mural"} />;
 }

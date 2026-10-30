@@ -90,6 +90,36 @@ Abajo, en la bandeja, las tres piezas en color: las raíces, el tronco y la copa
 
 ---
 
+## Reto para mayores: «Las cinco diferencias»
+
+*30-oct-2026. Juego para 7 años o más (motor `componentes/BuscaEnDibujo.tsx`, juego `retos/DiferenciasDelBosque.tsx`).*
+
+**Qué se ve:** dos dibujos, uno encima del otro: arriba, la mitad de abajo de la portada (el primer bosque, con el río, helechos, plantas de tallos en horquilla, musgo y un tronco caído); abajo, la misma imagen con cinco cosas que entonces no existían: una flor, una cereza colgando de un árbol, un pájaro sobre el tronco, una abeja volando y un ratoncito en el camino. Están hechas con dibujos de otras paradas (`img/p05/bosque.webp` y `bosque-copia.webp`).
+
+**Cómo se gana:** tocando las cinco diferencias, arriba o abajo, como en cualquier juego de diferencias.
+
+**Qué se aprende:** lo que el narrador dice de pasada («ninguno tenía flores, ni frutos, ni semillas»), con cifras: cuánto tardó en llegar cada cosa.
+
+**Voz de Alba:**
+- Al empezar: «Un dibujante ha copiado este bosque de hace trescientos ochenta y cinco millones de años, pero se le han colado cinco cosas que entonces no existían. ¡Encuentra las cinco diferencias!»
+- La flor: «¡Una flor! Las primeras flores llegaron unos doscientos cincuenta millones de años más tarde. En aquel bosque, ni una.»
+- La cereza: «¡Una cereza! Los frutos vienen de las flores, así que tampoco había. Estos árboles no tenían ni semillas: tenían esporas.»
+- El pájaro: «¡Un pájaro! Las aves descienden de los dinosaurios, y los dinosaurios aún tardarían unos ciento cincuenta millones de años en aparecer.»
+- La abeja: «¡Una abeja! Los insectos con alas más antiguos que conocemos son decenas de millones de años posteriores. Y las abejas llegaron muchísimo después, con las flores.»
+- El ratoncito: «¡Un ratoncito! Los mamíferos tardaron más de ciento cincuenta millones de años en aparecer. Aquí no había ni un animal de pelo.»
+- Al terminar: «¡Las cinco! Ni flores, ni frutos, ni pájaros, ni abejas, ni ratones. Aquel primer bosque era todo verde, y sin un canto ni un zumbido.»
+
+**Rigor** (no se dice en voz alta):
+- **El bosque:** unos 385 millones de años, la fecha del «Para todos» (bosques de Cairo y Gilboa, en Nueva York).
+- **Flores:** las flores fósiles más antiguas tienen unos 130 millones de años (Cretácico inferior): unos 255 millones después. Algunos relojes moleculares las hacen más antiguas, pero sin fósiles; «unos doscientos cincuenta» deja margen.
+- **Semillas:** el *Archaeopteris* se reproducía por esporas. Las primeras semillas son del final del Devónico, hacia 365 millones de años: posteriores a este bosque.
+- **Aves:** los primeros dinosaurios, hacia 230-233 millones de años (paradas 7 y 9); 385 − 230 = 155. Las aves, más tarde todavía (hacia 150 millones de años).
+- **Insectos con alas:** los fósiles más antiguos, de unos 325 millones de años. Las abejas, hacia 100 millones, a la vez que se extendían las flores. Se dice «más antiguos que conocemos» porque el origen del vuelo puede ser algo anterior.
+- **Mamíferos:** los primeros mamaliformes, hacia 210-225 millones de años: más de 150 millones después. El dibujo es de un mamífero pequeño, no de un ratón de verdad (los roedores son mucho más recientes); Alba lo llama «ratoncito» porque es lo que ve un niño, y la frase habla de mamíferos.
+- **«Sin un canto ni un zumbido»:** sin aves, sin insectos voladores y sin ranas, no se conoce ningún animal terrestre del Devónico medio que cantara o zumbara.
+
+---
+
 ## ¿Sabías que…?
 
 > ¿Sabías que durante décadas los científicos creyeron que el Archaeopteris eran dos plantas distintas? Por un lado conocían sus hojas, parecidas a las de un helecho. Por otro, una madera fósil muy parecida a la de los pinos. Hasta que apareció un fósil con las dos cosas juntas: ¡eran el mismo árbol!
