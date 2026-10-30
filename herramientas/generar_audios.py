@@ -38,16 +38,42 @@ GUIONES = os.path.join(PROYECTO, "contenido", "guiones")
 SALIDA = os.path.join(PROYECTO, "v2", "public", "audio")
 MANIFIESTO = os.path.join(SALIDA, "manifiesto.json")
 
-MODELO = "eleven_multilingual_v2"
+# Cada voz lleva su modelo. 30-oct-2026: ElevenLabs tiene un modelo nuevo, Eleven v4
+# (eleven_v4), más natural y expresivo; Álvaro elige de oído en herramientas/casting_voces.py.
+# Con v4 no hay etiquetas <break> (SSML) ni ajustes de «style» y «speed»: el párrafo se pide
+# entero y las pausas entre frases son las suyas; entre párrafos se siguen pegando silencios.
 # Ajustes de «El Richar atenboru» tal y como están en el historial de la cuenta (sep-2025).
 VOCES = {
     "narrador": {"voice_id": "WeuNkKS3AvTwCZZERkQa", "nombre": "El Richar atenboru",
+                 "modelo": "eleven_multilingual_v2",
                  "ajustes": {"stability": 0.49, "similarity_boost": 0.43, "style": 0.0,
                              "use_speaker_boost": True, "speed": 1.0}},
     "alba": {"voice_id": "OOHm6M5O6WPl7E4nAqyE", "nombre": "Alba Guía Prehistoria",
+             "modelo": "eleven_multilingual_v2",
              "ajustes": {"stability": 0.5, "similarity_boost": 0.75, "style": 0.0,
                          "use_speaker_boost": True, "speed": 1.0}},
 }
+MODELOS_SIN_SSML = {"eleven_v3", "eleven_v4"}
+
+
+def sin_ssml(voz):
+    return voz["modelo"] in MODELOS_SIN_SSML
+
+
+def frases_por_trozo(voz):
+    # Sin etiquetas <break>, el párrafo entero en una petición entona mejor (y v4 admite
+    # 10.000 caracteres); con ellas, como mucho FRASES_POR_TROZO, que más las vuelve inestable.
+    return 99 if sin_ssml(voz) else FRASES_POR_TROZO
+
+
+def unir_frases(frases, nombre_voz, voz):
+    """El texto de un trozo: frases unidas con <break> exactos o, sin SSML, con un espacio."""
+    if sin_ssml(voz):
+        return " ".join(pronunciar(f) for f in frases)
+    texto = ""
+    for i, f in enumerate(frases):
+        texto += pronunciar(f) + (etiqueta(pausa_tras(f, nombre_voz, "frase")) if i < len(frases) - 1 else "")
+    return texto
 
 # PRONUNCIACIÓN. Lo que se le manda a ElevenLabs puede llevar una grafía «de locutor» para
 # que la voz acierte (26-sep: Alba decía «triceratóps», aguda). Solo afecta al audio: los
@@ -263,14 +289,14 @@ def etiqueta(segundos):
     return f' <break time="{segundos:.1f}s" /> '
 
 
-def trozos_de(parrafos):
-    """[(frases del trozo, ¿cierra párrafo?)] con como mucho FRASES_POR_TROZO frases."""
+def trozos_de(parrafos, por_trozo=FRASES_POR_TROZO):
+    """[(frases del trozo, ¿cierra párrafo?)] con como mucho `por_trozo` frases."""
     salida = []
     for par in parrafos:
         frases = en_frases([par])
-        for i in range(0, len(frases), FRASES_POR_TROZO):
-            grupo = frases[i:i + FRASES_POR_TROZO]
-            salida.append((grupo, i + FRASES_POR_TROZO >= len(frases)))
+        for i in range(0, len(frases), por_trozo):
+            grupo = frases[i:i + por_trozo]
+            salida.append((grupo, i + por_trozo >= len(frases)))
     return salida
 
 
@@ -297,14 +323,12 @@ def generar(clave):
     parrafos = texto_de(clave)
     nombre_voz = PISTAS[clave][3]
     voz = VOCES[nombre_voz]
-    trozos = trozos_de(parrafos)
+    trozos = trozos_de(parrafos, frases_por_trozo(voz))
     planos = [pronunciar(" ".join(fr)) for fr, _ in trozos]
     piezas, frases_finales, t, caracteres = [], [], 0.0, 0
     for n, (frases, cierra) in enumerate(trozos):
-        texto = ""
-        for i, f in enumerate(frases):
-            texto += pronunciar(f) + (etiqueta(pausa_tras(f, nombre_voz, "frase")) if i < len(frases) - 1 else "")
-        cuerpo = {"text": texto.strip(), "model_id": MODELO, "voice_settings": voz["ajustes"]}
+        texto = unir_frases(frases, nombre_voz, voz)
+        cuerpo = {"text": texto.strip(), "model_id": voz["modelo"], "voice_settings": voz["ajustes"]}
         if n > 0:
             cuerpo["previous_text"] = " ".join(planos[:n])[-600:]
         if n < len(planos) - 1:
@@ -335,8 +359,8 @@ def generar(clave):
     return {
         "archivo": archivo, "parrafos": parrafos, "frases": frases_finales,
         "duracion": round(t, 2),
-        "voz": voz["nombre"], "voice_id": voz["voice_id"], "modelo": MODELO, "ajustes": voz["ajustes"],
-        "pausas": PAUSAS[nombre_voz], "frases_por_trozo": FRASES_POR_TROZO,
+        "voz": voz["nombre"], "voice_id": voz["voice_id"], "modelo": voz["modelo"], "ajustes": voz["ajustes"],
+        "pausas": PAUSAS[nombre_voz], "frases_por_trozo": frases_por_trozo(voz),
         "caracteres": caracteres, "fecha": datetime.datetime.now().isoformat(timespec="seconds"),
         "mp3": CODIFICACION,
     }
@@ -355,12 +379,11 @@ def voz_de_trozos(frases_par, nombre_voz, voz, previo, siguiente):
     (muestras, [(frase, inicio, fin)] relativos, caracteres)."""
     import numpy as np
     piezas, situadas_total, t, caracteres = [], [], 0.0, 0
-    grupos = [frases_par[i:i + FRASES_POR_TROZO] for i in range(0, len(frases_par), FRASES_POR_TROZO)]
+    por = frases_por_trozo(voz)
+    grupos = [frases_par[i:i + por] for i in range(0, len(frases_par), por)]
     for g, frases in enumerate(grupos):
-        texto = ""
-        for i, f in enumerate(frases):
-            texto += pronunciar(f) + (etiqueta(pausa_tras(f, nombre_voz, "frase")) if i < len(frases) - 1 else "")
-        cuerpo = {"text": texto.strip(), "model_id": MODELO, "voice_settings": voz["ajustes"]}
+        texto = unir_frases(frases, nombre_voz, voz)
+        cuerpo = {"text": texto.strip(), "model_id": voz["modelo"], "voice_settings": voz["ajustes"]}
         antes = " ".join([previo] + [pronunciar(" ".join(x)) for x in grupos[:g]]).strip()
         despues = " ".join([pronunciar(" ".join(x)) for x in grupos[g + 1:]] + [siguiente]).strip()
         if antes:
@@ -497,6 +520,7 @@ def main():
         previa = manifiesto.get(clave)
         al_dia = (previa and previa["parrafos"] == parrafos
                   and previa["voice_id"] == VOCES[PISTAS[clave][3]]["voice_id"]
+                  and previa.get("modelo", "eleven_multilingual_v2") == VOCES[PISTAS[clave][3]]["modelo"]
                   and previa.get("pausas") == PAUSAS[PISTAS[clave][3]]
                   and os.path.exists(os.path.join(SALIDA, previa["archivo"])))
         forzada = args.forzar in (clave, "todo")
@@ -507,6 +531,7 @@ def main():
             print(f"{clave:22} al día, no se regenera")
             continue
         misma_voz = (previa and previa["voice_id"] == VOCES[PISTAS[clave][3]]["voice_id"]
+                     and previa.get("modelo", "eleven_multilingual_v2") == VOCES[PISTAS[clave][3]]["modelo"]
                      and previa.get("pausas") == PAUSAS[PISTAS[clave][3]]
                      and os.path.exists(os.path.join(SALIDA, previa["archivo"])))
         try:
