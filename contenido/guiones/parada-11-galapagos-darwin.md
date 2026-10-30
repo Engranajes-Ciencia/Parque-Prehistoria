@@ -66,13 +66,14 @@ Una sola idea: cada pico sirve para una comida. La tortuga es solo el ancla (lo 
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Mirad bien el caparazón de la tortuga! ¿Es redondo, como media pelota? ¿O tiene la parte de delante muy levantada, como la silla de montar de un caballo?
+> ¡Sed tortugas! Esconded la cabeza entre los hombros… y estirad el cuello hacia arriba, muy despacito, para morder una chumbera bien alta. ¡Ñam!
 >
-> Ahora, ¡sed tortugas! Esconded la cabeza entre los hombros… y estirad el cuello hacia arriba, muy despacito, para morder una chumbera bien alta. ¡Ñam!
+> Ahora mirad bien el caparazón de la tortuga del parque. ¿Cómo es?
 
-Se responde tocando «¡Hecho!». Lo que se busca: el caparazón de la maqueta es **redondo, de cúpula** (fotos 62 y 63, y de lado en la 18), el de las tortugas de las islas húmedas, que comen a ras de suelo. Tiene el borde delantero algo alzado sobre el cuello, pero no la silla de montar marcada de las tortugas de islas secas. La segunda parte les hace sentir con su propio cuerpo para qué sirve la silla de montar. Todo se hace mirando y moviéndose, desde fuera de la cuerda. **[VERIFICAR: la forma del caparazón vista desde el camino; si se ve distinta, la misión vale igual, porque no hay respuesta que comprobar.]**
+- Correcta: «Redondo, como media pelota»
+- Incorrecta: «Levantado por delante, como una silla de montar»
 
-*≈ 52 palabras.*
+**Misión de 30-oct-2026.** **Se comprueba:** el caparazón de la maqueta es redondo, de cúpula (fotos del 16-oct), el de las tortugas de las islas húmedas, que comen a ras de suelo. Las de las islas secas lo tienen levantado por delante, para estirar el cuello hacia las chumberas: es lo que acaban de imitar.
 
 ---
 

@@ -54,11 +54,14 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Buscad el pez de la losa verde, sin pisarlo! ¿Dónde tiene los ojos: a los lados, como casi todos los peces, o encima de la cabeza, como los cocodrilos?
+> Mirad la columna blanca más alta. ¿Cuántos exploradores, uno encima de otro, harían falta para llegar arriba? ¡Para los Prototaxites más grandes de verdad, harían falta unos siete!
 >
-> Ahora mirad la columna blanca más alta. ¿Cuántos exploradores, uno encima de otro, harían falta para llegar arriba? ¡Para los más grandes de verdad, harían falta unos siete!
+> Ahora buscad el pez de la losa verde, desde detrás de la cuerda. ¿Dónde tiene los ojos?
 
-Se responde tocando «¡Hecho!». Lo que se busca: los **ojos encima de la cabeza**, que en el pez del parque se ven muy bien (dos ojos juntos sobre una cabeza plana y triangular, fotos 103 y 106), igual que en el Tiktaalik real; se interpreta, como en los cocodrilos, como rasgo de un animal que vivía en agua poco profunda y miraba hacia arriba. La torre de exploradores no tiene respuesta fija: depende de la altura de la columna **[VERIFICAR]**; mide algo menos de tres metros (Álvaro, 26-sep): salen unos tres niños de cinco años. El «unos siete» del final es para los Prototaxites de ocho metros: ocho metros entre un metro y diez de un niño de cinco años. Se hace mirando, sin acercarse a tocar la columna ni subirse a sus piedras.
+- Correcta: «Encima de la cabeza»
+- Incorrecta: «A los lados»
+
+**Misión de 30-oct-2026.** Las losas tienen una cuerda delante (fotos del 16-oct): se miran desde ella. **Se comprueba:** el pez del parque, como el Tiktaalik real, tiene **los dos ojos encima de una cabeza plana**, como los cocodrilos: un animal de aguas poco profundas que miraba hacia arriba. La pregunta va al final para que los botones contesten a lo último que se ha dicho. La torre de exploradores no se comprueba: un niño de seis años mide algo más de un metro, y los Prototaxites más grandes llegaban a unos ocho.
 
 ---
 

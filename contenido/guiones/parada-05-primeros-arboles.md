@@ -55,16 +55,11 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Elegid uno de estos árboles, desde el camino! Todavía es muy joven: ¿su tronco es más gordo o más fino que vuestro brazo?
+> ¡Elegid uno de estos árboles jóvenes, desde el camino! ¿Su tronco es más gordo o más fino que vuestro brazo? ¿Y sus hojas: planas, como agujas o como escamitas?
 >
-> Ahora, mirad bien, sin arrancar nada. ¿Asoma alguna raíz del suelo? ¿La corteza es lisa o rugosa? Y arriba, ¿cómo son sus hojas: planas, como agujas o como escamitas?
+> Ahora, ¡sed un árbol! Los pies bien plantados en el suelo, como raíces; el cuerpo recto, como un tronco; y los brazos arriba, como las ramas buscando el sol.
 
-Se responde tocando «¡Hecho!». No hay respuesta que comprobar: vale cualquier árbol y cualquier respuesta. Lo que importa es que miren un árbol de verdad por partes, de abajo arriba: raíz, tronco y corteza, hojas. Es justo lo que luego montan en el reto. Abrazar el tronco, además, mide su grosor, y el grosor es la madera que el árbol ha ido añadiendo año tras año.
-
-**Lo que depende del sitio:**
-- **[VERIFICAR: si se puede llegar a los árboles por el camino]** Si están detrás de una cuerda o entre plantas que no se deben pisar, se cambia la primera frase por «¿Cuántos exploradores haría falta para abrazar su tronco? ¡Calculadlo con los brazos abiertos, desde el camino!».
-- **[VERIFICAR: si son pinos, cedros u otros árboles que atacan las orugas procesionarias]** Entre el invierno y la primavera (en el sur, a veces desde diciembre), las orugas de la procesionaria bajan por el tronco en fila, y sus pelos urticantes son peligrosos para los niños y para los perros. Si se ven bolsones blancos como de algodón en las ramas o filas de orugas en el suelo, en esos meses la misión debería ser solo de mirar, sin abrazar. Quizá convenga un aviso en la app.
-- **[VERIFICAR: si los troncos sueltan resina]** Mancha la ropa y cuesta de quitar. No es peligroso, pero conviene saberlo.
+Se responde tocando «¡Hecho!». No hay respuesta que comprobar: son araucarias y un pino recién plantados (fotos del 16-oct), y vale cualquier árbol. La segunda parte es el árbol del reto con el propio cuerpo: raíces, tronco y hojas, de abajo arriba. **30-oct:** sin abrazar troncos (son del grosor de un dedo) y sin arrancar nada.
 
 ---
 

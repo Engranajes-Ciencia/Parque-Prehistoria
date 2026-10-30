@@ -62,11 +62,11 @@ Dudas marcadas con **[VERIFICAR: …]**. Los textos van **tal como se leerán en
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Entrad en la cueva despacito y sin tocar las paredes, que las pinturas se estropean!
+> Entrad en la cueva despacito y sin tocar las paredes, que las pinturas se estropean.
 >
-> Ahora, buscad y contad: ¿cuántos caballos veis? ¿Y leones? ¿Y rinocerontes? ¿Y manos? Y lo más difícil: ¿dónde se esconde el ser que es mitad persona y mitad animal?
+> Buscad las manos pintadas: ¿cuántas encontráis? Y lo más difícil: ¿dónde se esconde el ser que es mitad persona y mitad animal? ¡Señaladlo sin tocarlo!
 
-Se responde tocando «¡Hecho!», como en la parada 7. **No se comprueba ningún número**: los leones de Chauvet son sobre todo cabezas montadas unas sobre otras, los rinocerontes se solapan y cada uno contará distinto; lo que importa es que miren despacio y hablen de lo que ven. Con las fotos no he podido dar una cuenta fiable (son parciales). Si más adelante se quiere pedir un número, habría que contarlos en el parque **[VERIFICAR]**.
+Se responde tocando «¡Hecho!». No se comprueba el número de manos: en las fotos del 16-oct se ven siete en negativo y dos en positivo, pero puede haber más fuera del encuadre. El ser mitad persona y mitad animal es el «brujo de la flauta» de Trois-Frères, junto a la salida. **30-oct:** se quitan los caballos, leones y rinocerontes para que la misión no pase de dos ideas.
 
 ---
 

@@ -55,11 +55,11 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Buscad las piedras que llevan otra tumbada encima, como una puerta de gigantes! ¿Cuántas encontráis? Contadlas desde fuera, sin tocarlas y sin subiros.
+> ¡Buscad las piedras que llevan otra tumbada encima, como una puerta de gigantes! Contadlas desde fuera, sin entrar, sin tocarlas y sin subiros: ¡la réplica todavía está en obras!
 >
 > Ahora, ¡haced la vuestra! Dos exploradores de pie, uno frente al otro, juntan las manos por arriba: esa es la piedra de encima. ¿Cabe alguien por debajo?
 
-Se responde tocando «¡Hecho!». No hay número que comprobar: vale cualquier cuenta, porque depende de si la réplica está completa o en ruinas **[VERIFICAR]** (en el original quedan en su sitio seis dinteles del círculo exterior y tres trilitos completos, de treinta y cinco originales). Lo que importa es que miren la estructura «dos de pie y una encima» —el trilito— y que la imiten con el cuerpo. Prepara el reto: volver a levantar un trilito.
+Se responde tocando «¡Hecho!». No se comprueba el número: la réplica está en obras hasta principios de 2027 (Álvaro) y hoy tiene dos trilitos terminados; cuando esté acabada tendrá más. Hasta entonces no se entra en el círculo. Lo que importa es la estructura «dos de pie y una encima», el trilito, imitada con el cuerpo.
 
 ---
 

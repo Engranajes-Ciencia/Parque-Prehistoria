@@ -60,11 +60,13 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 > ¡Buscad las huellas! Los niños, de uno en uno: meted un pie dentro de una. ¿Cuántos pies vuestros caben en el del dinosaurio?
 >
-> Ahora, ¡a moverse! Andad despacito, con pasos de ratón… Y ahora, ¡pasos de gigante, como si corrierais! ¿Cuándo quedan más separados vuestros pies? Así saben los científicos si un dinosaurio paseaba o corría.
+> Ahora elegid una huella bien clara y contad sus dedos. ¿Cuántos tiene?
 
-Se responde tocando «¡Hecho!». No hay respuesta que comprobar. En las fotos, las dos huellas más claras tienen **tres dedos gorditos y redondos** (de herbívoro); si las de la foto 91 resultan ser de dedos finos, mejor aún: los niños verán los dos tipos. Los pasos se dan **en el camino**, sin salir de él **[VERIFICAR: que haya sitio para dar cuatro o cinco zancadas sin estorbar]**. Prepara el reto (dedos finos, gorditos o huella redonda) y lo de la velocidad que cuenta el texto general.
+- Correcta: «3»
+- Incorrecta: «2»
+- Incorrecta: «5»
 
-**Confirmado por Álvaro (26-sep):** las huellas se pueden pisar, mejor solo los niños y de uno en uno; por eso la misión lo dice así.
+**Misión de 30-oct-2026.** Pisar las huellas, de uno en uno, lo permite el parque (Álvaro, 26-sep). **Se comprueba:** las huellas claras del parque tienen tres dedos, las anchas de herbívoro y las finas de carnívoro (fotos del 16-oct); por eso se pide elegir una «bien clara», y no la alargada, que no se sabe de quién es. Los pasos de ratón y de gigante de la misión anterior pasan al reto de mayores, que mide zancadas.
 
 ---
 

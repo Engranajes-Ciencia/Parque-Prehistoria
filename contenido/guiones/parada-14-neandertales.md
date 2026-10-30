@@ -74,11 +74,11 @@ Una sola idea: los neandertales se cuidaban unos a otros, y la imagen del bruto 
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Mirad bien el hogar! ¿Cuántas piedras rodean la leña? Contadlas desde donde estáis, sin tocarlas.
+> Mirad bien el hogar, sin tocar nada. Entre los huesos, buscad uno plano, como un abanico: es un omóplato. Llevaos una mano por encima del hombro, a la espalda: ¡ahí tenéis el vuestro!
 >
-> Ahora buscad entre los huesos uno plano, como un abanico. Es un omóplato. Llevaos una mano por encima del hombro, a la espalda: ¡ahí tenéis el vuestro!
+> Ahora, agachaos un momento alrededor, como una familia neandertal junto al fuego. ¿Qué os contaríais?
 
-Se responde tocando «¡Hecho!». No hay número que comprobar: en la foto cuento unas doce piedras, pero una está medio tapada **[VERIFICAR: número de piedras]**. Lo que importa es mirar el hogar con calma y descubrir que aquellos huesos se parecen a los nuestros: el omóplato de un caballo o de un ciervo y el de un niño tienen una forma parecida, plana y triangular, aunque el tamaño sea muy distinto. Nadie toca nada: se cuenta mirando y el omóplato se busca con los ojos **[VERIFICAR: que el hueso plano del montón de delante sea un omóplato]**.
+Se responde tocando «¡Hecho!». No hay respuesta que comprobar. Los huesos son de verdad, de un animal grande, y hay un omóplato (fotos del 16-oct): se miran sin tocar. **30-oct:** se quita la cuenta de las piedras, que no está confirmada, y se cambia por un momento de familia alrededor del fuego, que es justo lo que cuenta la parada.
 
 ---
 

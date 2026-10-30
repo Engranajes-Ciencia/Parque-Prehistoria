@@ -56,13 +56,9 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 > ¡Buscad los dos fósiles que hay sobre el agua azul! Miradlos desde fuera, sin pisar el agua. ¿Cuál es el trilobites y cuál el amonites?
 >
-> Con el dedo, en el aire, seguid la espiral del amonites desde el centro hacia fuera. ¿Cuántas vueltas da?
->
-> Y ahora, haced como el trilobites para protegerse: ¡enrollaos como una bola!
+> Con el dedo, en el aire, seguid la espiral del amonites desde el centro hacia fuera. Y ahora, haced como el trilobites para protegerse: ¡enrollaos como una bola!
 
-Se responde tocando «¡Hecho!». No hay número que comprobar: en las fotos, la espiral de la réplica da unas tres o cuatro vueltas **[VERIFICAR]**, y según dónde se empiece a contar saldrá una u otra; vale cualquiera. Lo que importa es que distingan los dos animales, que sigan la espiral (el amonites crecía añadiendo vuelta tras vuelta) y que se muevan.
-
-**Por qué enrollarse:** muchos trilobites podían enrollarse, con la cabeza contra la cola, como las cochinillas de la humedad, y se han encontrado muchos fósiles así. Es la defensa que se les atribuye. El juego de imitarlo no obliga a pisar el azul ni a tocar las réplicas: se hace en el camino o en la hierba.
+Se responde tocando «¡Hecho!». No se comprueba el número de vueltas: el amonites del parque da unas tres (fotos del 16-oct), pero según dónde se empiece a contar salen más o menos. Lo que importa es que distingan los dos animales, que sigan la espiral (el amonites crecía añadiendo vuelta tras vuelta) y que se muevan. **30-oct:** igual que antes, con las dos ideas del segundo párrafo juntas para que la misión no pase de dos pasos.
 
 ---
 

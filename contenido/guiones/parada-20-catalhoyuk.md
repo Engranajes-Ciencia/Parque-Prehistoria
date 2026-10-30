@@ -72,11 +72,14 @@ Una sola idea: **a aquellas casas se entraba por el tejado.** El uro, el mapa y 
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Mirad bien, sin tocar nada! Buscad la escalera por la que se bajaba del tejado. Buscad también el toro gigante pintado en la pared.
+> ¡Mirad bien, sin tocar nada! Buscad el toro gigante pintado en la pared y las cabezas de toro que asoman de los muros.
 >
-> Y ahora, un reto de detectives: ¿cuántas cabezas con cuernos hay en esta casa? ¡Contadlas desde donde estáis!
+> Ahora buscad la escalera. Una pregunta de detective: ¿por dónde se entraba en estas casas?
 
-Se responde tocando «¡Hecho!». No hay número que comprobar. En las fotos se ven **tres cabezas**: dos grises en la pared del fondo (una colgada y otra sobre el pedestal) y una más en la pared izquierda, junto a la esquina, que no identifico con seguridad **[VERIFICAR in situ]**. Vale cualquier cuenta: lo que importa es que recorran la casa con la vista. Todo se ve desde el pasillo central, sin subirse a las plataformas ni tocar nada.
+- Correcta: «Por el tejado»
+- Incorrecta: «Por una puerta»
+
+**Misión de 30-oct-2026.** **Se comprueba:** en Çatalhöyük las casas estaban pegadas unas a otras y no tenían puerta: se entraba por un agujero del tejado, bajando por una escalera de madera como la de la réplica. No se pide contar las cabezas de toro: en las fotos se ven tres, pero no es seguro que no haya más.
 
 ---
 

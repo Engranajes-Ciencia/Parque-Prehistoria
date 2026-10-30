@@ -64,15 +64,11 @@ Una sola idea: la tierra estuvo junta y se separó (y se sigue separando). El vo
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Sin pisar el volcán, buscad un río de lava que salga del cráter! Seguidlo con el dedo, en el aire, hasta donde se acaba.
+> Sin pisar el volcán, buscad un río de lava que salga del cráter. Seguidlo con el dedo, en el aire, hasta donde se acaba.
 >
-> Ahora mirad las piedrecitas rojizas de alrededor, sin cogerlas. ¿Veis sus agujeritos? Son burbujas de gas, como las de un refresco, que se quedaron atrapadas cuando la lava se enfrió. **[VERIFICAR: que sean piedra volcánica de verdad]**
+> Y ahora, ¡sed un volcán! Agachaos muy juntos, como la roca fundida que espera bajo tierra… y, cuando yo cuente tres, ¡arriba los brazos! Una, dos… ¡y tres!
 
-*≈ 54 palabras.*
-
-Se responde tocando «¡Hecho!». No hay respuesta que comprobar: vale cualquier río, los anchos y naranjas o los finos y amarillos. Lo que importa es que sigan con la vista el camino de la lava y que descubran que muchas rocas volcánicas guardan las burbujas del gas. Si las piedrecitas resultaran no ser volcánicas, la segunda parte se cambia por algo como «En un volcán de verdad, muchas piedras tienen agujeritos…», sin pedir que los busquen aquí.
-
-**Opción, si Álvaro la quiere:** delante del volcán hay una piedra mayor, oscura y redondeada (foto 88, abajo), con aspecto de «bomba volcánica», un pegote de lava que sale volando y se redondea en el aire. **[VERIFICAR: qué es.]** Si lo es, daría para una pregunta: «¿Encontráis una piedra más grande, redonda como una pelota?».
+Se responde tocando «¡Hecho!». No hay respuesta que comprobar. **30-oct:** se quita lo de las burbujas de las piedrecitas, porque no está confirmado que sean piedra volcánica, y se cambia por una erupción con el cuerpo, que se hace en el sitio y sin tocar nada. «La roca fundida que espera bajo tierra» es el magma; cuando sale por el cráter se llama lava.
 
 ---
 

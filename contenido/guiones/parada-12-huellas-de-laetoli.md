@@ -70,13 +70,14 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Acercaos a la losa, pero sin pisarla! Poned un pie a su lado, junto a una huella. ¿Qué es más grande, la huella o vuestro pie?
+> Primero, buscad las suricatas del camino. ¡Imitadlas! De pie, muy quietos, mirando a lo lejos… Ellas se ponen así para vigilar, pero para correr vuelven a sus cuatro patas.
 >
-> Ahora, andad muy despacito, como a cámara lenta. ¿Qué toca primero el suelo: el talón o los dedos? ¡El talón! Igual que los caminantes de Laetoli.
+> Ahora, junto a la losa y sin pisarla, andad muy despacito, como a cámara lenta. ¿Qué toca primero el suelo?
 
-Se responde tocando «¡Hecho!». No hay respuesta que comprobar en la primera pregunta: si las huellas de la losa son de adulto, a los niños les saldrá más grande la huella; a un adulto, parecida a su pie. La segunda la contesta la propia Alba, porque andando despacio casi todo el mundo apoya primero el talón, calzado o descalzo; es lo que dicen también las huellas de Laetoli (talón hondo y empuje final con los dedos). Se hace fuera de la losa y **sin pisarla**, hasta que Álvaro confirme si se puede **[VERIFICAR]**. Si se puede pisar, la primera parte puede ser como la de la parada 9: «los niños, de uno en uno, meted un pie dentro de una huella».
+- Correcta: «El talón»
+- Incorrecta: «Los dedos»
 
-Dato para quien acompañe (no se dice en voz alta): el pie de un niño de seis años mide unos dieciocho o diecinueve centímetros, lo mismo que las huellas del caminante pequeño de Laetoli.
+**Misión de 30-oct-2026,** con las suricatas que pidió Álvaro para esta parada. Se hace junto a la losa, sin pisarla. **Se comprueba:** andando normal, casi todo el mundo apoya primero el talón, calzado o descalzo; es lo que dicen también las huellas de Laetoli (talón hondo y empuje final con los dedos). Las suricatas enseñan la diferencia que cuenta el narrador: ponerse de pie un rato no es caminar de pie.
 
 ---
 

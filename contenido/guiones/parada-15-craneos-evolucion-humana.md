@@ -79,13 +79,15 @@ Los textos van **tal como se leerán en voz alta**: cifras con letras y frases c
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡A buscar barbillas! Mirad todos los cráneos de las vitrinas, sin tocar el cristal. ¿Cuál tiene barbilla? ¡Solo hay uno!
+> ¡A buscar barbillas! Mirad todos los cráneos de las vitrinas, sin tocar el cristal. Solo uno tiene barbilla. Cuando lo encontréis, tocaos la vuestra.
 >
-> Cuando lo encontréis, tocaos vuestra barbilla. Y ahora, la frente: ¿a que sube recta, como la de ese cráneo?
+> ¿De quién es ese cráneo?
 
-*≈ 40 palabras.*
+- Correcta: «De una persona de hoy»
+- Incorrecta: «De un neandertal»
+- Incorrecta: «De un gorila»
 
-Se responde tocando «¡Hecho!». La respuesta es el cráneo blanco de abajo del todo en la vitrina de los neandertales (foto 30), el de una persona de hoy. Ninguno de los otros once tiene barbilla: los simios y los fósiles no la tienen, y varios ni siquiera conservan la mandíbula **[VERIFICAR: que no haya en la sala otro cráneo actual, por ejemplo en otra vitrina o junto al retrato de Darwin]**. La misión prepara el reto (la barbilla y la frente son dos de sus cuatro diferencias) y se hace solo mirando y tocándose la propia cara: nadie toca las vitrinas.
+**Misión de 30-oct-2026.** **Se comprueba:** de los doce cráneos del museo (inventario del 16-oct), solo el de *Homo sapiens* tiene barbilla, el bulto de hueso en la punta de la mandíbula. Ni los simios, ni los australopitecos, ni los *Homo* antiguos, ni el neandertal lo tienen.
 
 ---
 

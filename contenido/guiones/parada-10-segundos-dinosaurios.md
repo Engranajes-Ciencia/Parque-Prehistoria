@@ -62,11 +62,14 @@ Una sola idea: los pájaros son dinosaurios que sobrevivieron. Las plumas del pr
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Mirad bien las patas de atrás del dinosaurio de rayas! Buscad una uña enorme y curva, como un gancho. ¿Toca el suelo, o la lleva levantada?
+> Buscad cerca una charca azul con una roca negra en medio. ¿Qué será esa roca? Una pista: ¡vino del cielo!
 >
-> Ahora buscad cerca una charca azul con una roca grande en medio. ¿Qué será esa roca? Una pista: ¡vino del cielo!
+> Ahora mirad las patas de atrás del dinosaurio de rayas. Tiene una uña enorme y curva, como un gancho. ¿Cómo la lleva?
 
-Se responde tocando «¡Hecho!». Lo que se busca: la uña va **levantada**, sin tocar el suelo (así está en la maqueta, foto 26, y así caminaban: sus huellas solo marcan dos dedos). La roca de la charca es el **asteroide**, que cayó en un mar poco profundo: por eso está en el agua. Todo se hace mirando, desde fuera de las cuerdas. **[VERIFICAR: que la garra se vea desde el camino; si no, cambiar la primera parte por «¿Cuántos dedos tiene en cada mano el dinosaurio gris? ¡Contadlos!», que son tres en el alosaurio real y en la maqueta parecen tres (foto 57), sin asegurarlo.]**
+- Correcta: «Levantada»
+- Incorrecta: «Tocando el suelo»
+
+**Misión de 30-oct-2026.** Todo se mira desde el camino; las maquetas y la charca tienen cuerda. **Se comprueba:** la uña del segundo dedo va levantada, sin tocar el suelo (se ve en las fotos del 16-oct), y así caminaban: sus huellas solo marcan dos dedos. La pregunta va al final para que los botones contesten a lo último. La roca de la charca es el **asteroide**, que cayó en un mar poco profundo: por eso está en el agua.
 
 ---
 

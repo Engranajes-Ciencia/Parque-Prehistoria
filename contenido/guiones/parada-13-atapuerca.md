@@ -53,11 +53,15 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Mirad las cuerdas del arenero! Forman cuadrados. ¿Cuántos contáis?
+> ¡Mirad las cuerdas de un arenero! Forman cuadrados, como en una excavación de verdad. Elegid uno y buscad en él solo con los ojos: ¿asoma algo?
 >
-> Ahora elegid un cuadrado y buscad en él solo con los ojos: ¿asoma algo? **[VERIFICAR: que el visitante libre pueda excavar y tenga pinceles; si no, quitar la frase siguiente]** Si podéis excavar, hacedlo dentro de vuestro cuadrado, con el pincel y sin mover las cuerdas. ¡Y al terminar, dejadlo todo como estaba para los siguientes exploradores!
+> Y antes de seguir, contad los cuadrados de ese arenero. ¿Cuántos hay?
 
-Se responde tocando «¡Hecho!». No hay número que comprobar (son dieciséis por arenero, cuatro por cuatro, como en el juego): lo que importa es que miren la cuadrícula como la miraría un arqueólogo, un cuadrado cada vez, y que busquen antes de tocar. Prepara el reto, donde cada hallazgo se apunta con su casilla. La misión funciona igual si no se puede excavar: basta con contar y mirar. Nadie cruza ninguna cuerda: las del arenero son la propia cuadrícula, y se pide expresamente no moverlas.
+- Correcta: «16»
+- Incorrecta: «9»
+- Incorrecta: «12»
+
+**Misión de 30-oct-2026.** Solo se mira: no está confirmado que cualquier visitante pueda excavar, ni que haya pinceles. **Se comprueba:** los tres areneros son iguales, de cuatro por cuatro: dieciséis cuadrados (Álvaro, 16-oct). Es la misma cuadrícula del reto, donde cada hallazgo se apunta con su casilla.
 
 ---
 

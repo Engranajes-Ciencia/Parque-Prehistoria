@@ -48,13 +48,14 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras (
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Mirad bien a los dos dinosaurios! ¿Quién tiene la cabeza cerca del suelo? ¿Y quién la tiene allá arriba?
+> Mirad bien a los dos dinosaurios, desde el camino. ¡Ahora, imitadlos! A cuatro patas, como el triceratops, mordisqueando helechos del suelo… Y ahora de puntillas, estirando el cuello y los brazos, como el brontosaurio.
 >
-> ¡Ahora, imitadlos! Poneos a cuatro patas, como el triceratops, comiendo helechos del suelo… Y ahora estirad el cuello y los brazos todo lo que podáis, como el brontosaurio. ¡Qué buena foto!
+> Una pregunta de explorador: ¿cuál de los dos come cerca del suelo?
 
-Se responde tocando «¡Hecho!». No hay respuesta que comprobar: lo que importa es que miren a las maquetas y se muevan. Prepara, además, lo que enseña el reto: cada uno come a su altura.
+- Correcta: «El triceratops»
+- Incorrecta: «El brontosaurio»
 
-*Cambiada el 25-sep: la versión anterior («medid al brontosaurio a pasos, de la cabeza a la cola») no es posible, porque los dinosaurios están detrás de una cuerda.*
+**Misión de 30-oct-2026.** Las dos maquetas están tras una cuerda: todo se hace desde el camino. **Se comprueba:** el triceratops lleva la cabeza baja y comía a ras de suelo con su pico; el brontosaurio llega mucho más arriba. Prepara el reto de peques (cada uno come a su altura). **Rigor:** el brontosaurio también podía bajar el cuello, por eso la pregunta es quién come «cerca del suelo» y no quién «no puede» comer arriba o abajo.
 
 ---
 

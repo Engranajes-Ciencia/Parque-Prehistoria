@@ -48,13 +48,15 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Dad una vuelta alrededor de la charca, sin pisar la pintura! **[VERIFICAR: que se pueda rodear por fuera sin pisarla]** Contad sus colores, del centro hacia fuera. ¿Cuántos encontráis?
+> Desde el camino, sin pasar la cuerda, mirad bien la charca. El centro es la parte más caliente: por ahí brota el agua. ¿De qué color es?
 >
-> Los azules son el agua. El amarillo, el naranja y el rojo, en la charca de verdad, son alfombras de microbios distintos. Y ahora, señalad con el dedo: ¿dónde estaría el agua más caliente?
+> Ahora, del centro hacia fuera, señalad con el dedo cada anillo de color. En la charca de verdad, los anillos de fuera son alfombras de seres diminutos.
 
-Se responde tocando «¡Hecho!». No hay un número correcto de colores: según cómo se cuenten (el azul oscuro y el turquesa, los regueros blancos y negros), saldrán entre cuatro y siete, y está bien. Lo que importa es la idea de los anillos y la pregunta final. **Respuesta:** en el centro, en el azul oscuro, que es por donde brota el agua; el narrador lo explica en «Para todos». Si el grupo solo ha escuchado el audio de peques, la pregunta se contesta pensando: «si sale por el medio y se enfría al alejarse…».
+- Correcta: «Azul»
+- Incorrecta: «Naranja»
+- Incorrecta: «Verde»
 
-**Por qué no se nombran el blanco ni el negro:** en la fuente real, los regueros claros son sobre todo depósitos minerales de sílice, no microbios. Por eso la misión nombra solo el amarillo, el naranja y el rojo.
+**Misión de 30-oct-2026.** Antes pedía dar una vuelta a la charca, pero está detrás de una cuerda (Álvaro): ahora todo se hace desde el camino. **Se comprueba:** el centro de la réplica es azul intenso (fotos del 16-oct), como el de la charca real, donde el agua sale demasiado caliente para casi todos los microbios. **Rigor:** el azul es el agua, no son microbios; por eso el texto dice «los anillos de fuera».
 
 ---
 

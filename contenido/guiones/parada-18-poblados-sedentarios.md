@@ -53,9 +53,12 @@ Los textos van **tal como se leerán en voz alta**: cifras escritas con letras y
 
 > ¡Buscad en el poblado tres cosas que no se podrían llevar en una mudanza! Una pista: son muy pesadas o están metidas en el suelo.
 >
-> Y ahora, mirad encima de la puerta de la cabaña redonda. ¿De qué animal son esas cuernas? ¿De uno de granja… o de uno salvaje?
+> Y ahora, mirad encima de la puerta de la cabaña redonda. ¿De qué animal son esas cuernas?
 
-Se responde tocando «¡Hecho!». No hay respuesta que comprobar, pero lo que se busca es: **el pozo, la cabaña firme y la empalizada** (vale también el banco o cualquier cosa pesada y fija). Las **cuernas son de ciervo**, un animal salvaje: los primeros agricultores no dejaron de cazar. Todo se hace mirando desde fuera; no hace falta entrar en la cabaña ni tocar nada.
+- Correcta: «De un ciervo, un animal salvaje»
+- Incorrecta: «De una vaca, un animal de granja»
+
+**Misión de 30-oct-2026.** **Se comprueba:** las cuernas de la puerta son de ciervo, de verdad (fotos del 16-oct): los primeros agricultores no dejaron de cazar. La primera parte no se comprueba: vale el pozo, las cabañas, la empalizada o el establo. Todo se mira desde fuera.
 
 ---
 

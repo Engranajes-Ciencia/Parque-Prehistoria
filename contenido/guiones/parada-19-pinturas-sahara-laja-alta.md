@@ -70,11 +70,15 @@ Una sola idea: **el Sáhara fue verde, y lo sabemos porque lo pintaron.** El car
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Buscad en la pared las jirafas blancas! ¿Cuántas cabezas de jirafa contáis?
+> Buscad en la pared al gigante blanco con cuernos, el que tiene los brazos en alto. ¡Levantad los brazos vosotros también, como él! Todo desde aquí, sin pasar la cuerda.
 >
-> Ahora buscad al gigante blanco con cuernos, el que tiene los brazos en alto. ¡Levantad los brazos vosotros también, como él! Y todo desde aquí, sin pasar la cuerda.
+> Ahora buscad las jirafas blancas. ¿Cuántas hay?
 
-Se responde tocando «¡Hecho!». No hay respuesta que comprobar. Si alguien pregunta: **son tres jirafas**, una grande y dos más pequeñas **[VERIFICAR in situ que siguen siendo tres]**. Las jirafas y la gran figura blanca **no salen en el juego**, así que la misión obliga a mirar el mural de verdad y no la pantalla. Todo se ve desde el banco.
+- Correcta: «3»
+- Incorrecta: «2»
+- Incorrecta: «4»
+
+**Misión de 30-oct-2026.** **Se comprueba:** son tres jirafas, una grande y dos más pequeñas (fotos del 16-oct). Las jirafas y el gigante blanco no salen en el juego: la misión obliga a mirar el mural de verdad y no la pantalla. Todo se ve desde el banco.
 
 ---
 

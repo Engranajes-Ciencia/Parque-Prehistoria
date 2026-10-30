@@ -68,11 +68,15 @@ Una sola idea: los nómadas se mudaban, y se llevaban la casa a cuestas. Prepara
 
 **Texto en pantalla y en voz de Alba:**
 
-> ¡Mirad bien las tres tiendas, sin tocarlas! ¿Cuál está hecha de ramas? ¿Cuántos palos asoman por arriba de las otras?
+> ¡Mirad bien las tres tiendas, sin tocarlas! ¿Cuántos palos asoman por arriba de las de tela? Y fijaos en el suelo: ¿para qué servirán esas piedras de alrededor?
 >
-> Ahora, fijaos en el suelo: ¿qué tienen alrededor? ¿Para qué servirán esas piedras? Y una pregunta para pensar: ¿cuántos de vosotros cabríais dentro?
+> Una pregunta de explorador: ¿cuántas tiendas están hechas de ramas?
 
-Se responde tocando «¡Hecho!», como en la parada 7. **No se comprueba ningún número**: en las fotos no se pueden contar los palos con seguridad, y cuántos caben dentro depende del tamaño de cada niño. Lo que se busca: la tienda de ramas es la de la izquierda en las fotos; las piedras **sujetan los bordes contra el viento** (y cierran el hueco por donde entraría el frío), que es lo que el texto de «Para todos» cuenta de las huellas que dejaron las tiendas antiguas. Todo se hace desde fuera: no hace falta entrar ni tocar nada.
+- Correcta: «1»
+- Incorrecta: «2»
+- Incorrecta: «3»
+
+**Misión de 30-oct-2026.** **Se comprueba:** son tres refugios, dos tiendas de lona con «piel» y uno de ramas (Álvaro, 16-oct). Las piedras **sujetan los bordes contra el viento**, que es lo que cuenta el narrador; no se comprueba. El refugio en A de ramas y cañas que hay más adelante es del poblado sedentario: no cuenta.
 
 ---
 
