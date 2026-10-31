@@ -1,6 +1,7 @@
-// Banco de pruebas de la visita SIN COBERTURA (26-sep-2026). Sirve una copia recién hecha
-// de v2/dist bajo /Parque-Prehistoria/v2/ imitando a GitHub Pages (max-age=600, 206 con
-// Range), maneja un Chrome sin ventana por CDP y corta la red de verdad (cierra sockets).
+// Banco de pruebas de la visita SIN COBERTURA (26-sep-2026). Monta el sitio como el workflow
+// de GitHub (desde el 31-oct-2026: v2/dist en la raíz, /Parque-Prehistoria/, y encima lo de
+// publicacion/, con la redirección de /v2/), lo sirve imitando a GitHub Pages (max-age=600,
+// 206 con Range), maneja un Chrome sin ventana por CDP y corta la red de verdad (cierra sockets).
 //
 // Uso (desde esta carpeta, con la app ya compilada: cd ../../v2; npm run build):
 //   node escenarios.mjs A   camino feliz: descargar la visita, cortar la red, escuchar
@@ -10,6 +11,7 @@
 //   node escenarios.mjs E   se cae la conexión a media descarga (debe dejar reintentar)
 //   node escenarios.mjs F   audio regrabado tras descargar (debe decir «Actualizar»)
 //   node escenarios.mjs G   primera visita con el manifiesto colgado; la red se arregla sola
+//   node escenarios.mjs H   móvil que tenía la visita en /v2/ cuando la app pasó a la raíz
 // Necesita Chrome en C:/Program Files/Google/Chrome. Las carpetas site/ y perfil/ son
 // desechables (están en .gitignore).
 import http from "node:http";
@@ -23,9 +25,12 @@ const RAIZ = path.join(import.meta.dirname, "site");
 const DIST = path.join(import.meta.dirname, "../../v2/dist");
 if (!fs.existsSync(DIST)) throw new Error("Falta v2/dist: compila antes (cd v2; npm run build)");
 fs.rmSync(RAIZ, { recursive: true, force: true });
-fs.cpSync(DIST, path.join(RAIZ, "Parque-Prehistoria/v2"), { recursive: true });
+export const PUBLICACION = path.join(import.meta.dirname, "../../publicacion");
+export const SITIO = path.join(RAIZ, "Parque-Prehistoria");
+fs.cpSync(DIST, SITIO, { recursive: true });
+fs.cpSync(PUBLICACION, SITIO, { recursive: true });
 const PUERTO = 8765;
-const BASE = `http://localhost:${PUERTO}/Parque-Prehistoria/v2/`;
+const BASE = `http://localhost:${PUERTO}/Parque-Prehistoria/`;
 const TIPOS = { ".html": "text/html; charset=utf-8", ".js": "application/javascript; charset=utf-8", ".css": "text/css; charset=utf-8", ".json": "application/json; charset=utf-8", ".webmanifest": "application/manifest+json; charset=utf-8", ".mp3": "audio/mp3", ".webp": "image/webp", ".png": "image/png" };
 
 export const srv = { modo: "online", retrasoSW: 0, colgar: null, fallar: null, log: [] };
@@ -37,7 +42,7 @@ const server = http.createServer((req, res) => {
   if (srv.modo === "offline") return req.socket.destroy();
   if (srv.colgar && srv.colgar.test(p)) return; // mala cobertura: nunca responde
   if (srv.fallar && srv.fallar.test(p)) return req.socket.destroy();
-  if (p === "/Parque-Prehistoria/v2") { res.writeHead(301, { Location: "/Parque-Prehistoria/v2/" }); return res.end(); }
+  if (p === "/Parque-Prehistoria" || p === "/Parque-Prehistoria/v2") { res.writeHead(301, { Location: p + "/" }); return res.end(); }
   let f = path.join(RAIZ, p);
   if (p.endsWith("/")) f = path.join(f, "index.html");
   if (!fs.existsSync(f) || fs.statSync(f).isDirectory()) { res.writeHead(404, { "Content-Type": "text/html" }); return res.end("404"); }
@@ -160,4 +165,4 @@ export async function pestana() {
   return { s, ev, cargar, recargar, hasta, cachesInfo, cerrar: () => cdp("Target.disposeBrowserContext", { browserContextId }) };
 }
 
-export { BASE, espera, cdp, server };
+export { BASE, DIST, espera, cdp, server };

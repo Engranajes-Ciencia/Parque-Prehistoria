@@ -50,6 +50,10 @@ herramientas/prueba-sin-red/perfil/
 _muestras_calidad/
 _muestras_voz_2026-10/
 
-# Notas internas de la visita del 16-oct (fe de erratas, lo que dijo el director): el repo es
+# Notas internas de la visita del 16-oct: el repo es
 # PÚBLICO y no se publican. Solo en este PC (copia en _copias/).
 docs/PARQUE_16-OCT-2026.md
+
+# Montajes locales de la publicación (el workflow los hace en GitHub)
+dist-anterior/
+sitio/

@@ -1,4 +1,4 @@
-import { arrancar, pestana, BASE, espera, srv, sinRed, conRed, server } from "./prueba.mjs";
+import { arrancar, pestana, BASE, DIST, SITIO, PUBLICACION, espera, srv, sinRed, conRed, server } from "./prueba.mjs";
 
 const cual = process.argv[2] ?? "A";
 const { chrome, version } = await arrancar();
@@ -108,7 +108,7 @@ try {
     // Nueva versión de un audio (nueva huella): ¿se borra la vieja de la caché?
     const fs = await import("node:fs");
     const path = await import("node:path");
-    const dir = path.join(import.meta.dirname, "site/Parque-Prehistoria/v2");
+    const dir = SITIO;
     const t = await pestana();
     await t.cargar(BASE);
     await t.hasta(controlada, 15000);
@@ -144,6 +144,44 @@ try {
     out("manifiesto pedido veces:", srv.log.filter((l) => l.includes("manifiesto.json")).length);
     await espera(28000); // el reintento llega a los 30 s del fallo (10 s de plazo + 30)
     out("tras arreglarse la red:", JSON.stringify(await paradaYEscuchar(t, 2500)));
+  }
+  if (cual === "H") {
+    // 31-oct-2026: la app pasa de /v2/ a la raíz. Un móvil que la abrió (y descargó la visita)
+    // en /v2/ tiene allí un service worker que seguiría sirviendo la copia vieja. Debe acabar
+    // en la raíz, en la misma pantalla, sin ese service worker y sin lo guardado en /v2/.
+    const fs = await import("node:fs");
+    const path = await import("node:path");
+    const V2 = path.join(SITIO, "v2");
+    const enV2 = BASE + "v2/";
+    // Antes: la app nueva publicada en /v2/, como estuvo del 26-sep al 31-oct.
+    fs.rmSync(V2, { recursive: true, force: true });
+    fs.cpSync(DIST, V2, { recursive: true });
+    const t = await pestana();
+    await t.cargar(enV2);
+    await t.hasta(controlada, 15000);
+    await t.ev(`location.hash = '#/recorrido'`);
+    await t.hasta(texto("Descargar la visita"));
+    await t.ev(botonTexto("Descargar la visita"));
+    await t.hasta(texto("La visita está guardada"), 120000);
+    const deV2 = `(async () => { let n = 0; for (const k of await caches.keys()) { if (k.includes('/v2/')) n++; for (const r of await (await caches.open(k)).keys()) if (r.url.includes('/v2/')) n++; } return n; })()`;
+    out("antes: en /v2/, controlada:", await t.ev(controlada), "| cosas guardadas de /v2/:", await t.ev(deV2));
+    // Despliegue nuevo: la app en la raíz y, en /v2/, la redirección y el service worker que se da de baja.
+    fs.rmSync(V2, { recursive: true, force: true });
+    fs.cpSync(path.join(PUBLICACION, "v2"), V2, { recursive: true });
+    await t.cargar("about:blank"); // se cierra la pestaña y se vuelve a abrir el enlace guardado
+    await t.cargar(enV2 + "#/parada/7");
+    let llego = false;
+    for (let i = 0; i < 150 && !llego; i++) {
+      await espera(200);
+      llego = (await t.ev(`location.pathname === '/Parque-Prehistoria/' && !!document.querySelector('#raiz')?.children.length`)) === true;
+    }
+    out("acaba en:", await t.ev(`location.pathname + location.hash`), "| app nueva cargada:", llego);
+    await t.hasta(controlada, 15000);
+    out("service workers:", await t.ev(`navigator.serviceWorker.getRegistrations().then(rs => rs.map(r => new URL(r.scope).pathname).join(', '))`));
+    out("cosas guardadas de /v2/ que quedan:", await t.ev(deV2));
+    await t.ev(`location.hash = '#/recorrido'`);
+    await t.hasta(texto("Descargar la visita"));
+    out("la tarjeta de descarga en la raíz dice:", await t.ev(`document.querySelector('.descargar')?.innerText`));
   }
 } catch (e) {
   console.error("ERROR", e);

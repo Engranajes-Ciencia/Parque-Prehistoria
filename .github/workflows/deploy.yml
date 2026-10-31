@@ -22,21 +22,30 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
-      - run: npm ci
-      - run: npm run build
-      # La app nueva (v2), en pruebas, se publica en /Parque-Prehistoria/v2/ sin tocar la actual.
+      # Desde el 31-oct-2026 la app nueva (v2) es la oficial y va en la raíz del sitio,
+      # /Parque-Prehistoria/. La vieja se guarda en /Parque-Prehistoria/anterior/, sin enlazar,
+      # por si hiciera falta volver atrás. /v2/ (donde se probó la nueva) lleva a la raíz.
+      - name: App anterior, en /anterior/
+        run: |
+          npm ci
+          npx vite build --base /Parque-Prehistoria/anterior/ --outDir dist-anterior
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: App nueva (v2)
+      - name: App nueva (v2), la oficial
         working-directory: v2
         run: |
           npm ci
           npm run build
-      - run: cp -r v2/dist dist/v2
+      - name: Montar el sitio
+        run: |
+          mkdir sitio
+          cp -r v2/dist/. sitio/
+          cp -r dist-anterior sitio/anterior
+          cp -r publicacion/. sitio/
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist   # si tu build sale a otra carpeta, cámbialo
+          path: ./sitio
   deploy:
     needs: build
     runs-on: ubuntu-latest

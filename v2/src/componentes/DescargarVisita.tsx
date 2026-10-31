@@ -27,18 +27,21 @@ type Estado =
 const CACHE = "recursos";
 const mb = (bytes: number) => Math.max(1, Math.round(bytes / 1_000_000));
 const absoluta = (url: string) => new URL(url, location.href).href;
-// Marca de «esta visita se guardó entera alguna vez»: si luego falta algo, son novedades.
+// Marca de «esta visita se guardó entera alguna vez»: si luego falta algo, son novedades. Va
+// con la dirección: lo guardado en /v2/ (donde se probó la app hasta el 31-oct-2026) no
+// es lo de la raíz, y allí la primera descarga no son «novedades».
 const MARCA = "prehistoria-v2-guardada";
+const marca = () => (location.pathname.endsWith("/v2/") ? MARCA : `${MARCA}:${location.pathname}`);
 const marcada = () => {
   try {
-    return localStorage.getItem(MARCA) === "1";
+    return localStorage.getItem(marca()) === "1";
   } catch {
     return false;
   }
 };
 const marcar = () => {
   try {
-    localStorage.setItem(MARCA, "1");
+    localStorage.setItem(marca(), "1");
   } catch {
     /* sin almacenamiento: solo se pierde el aviso de «novedades» */
   }

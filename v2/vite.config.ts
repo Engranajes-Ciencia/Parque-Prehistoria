@@ -58,6 +58,10 @@ export default defineConfig({
         globPatterns: ["**/*.{js,css,html,webmanifest}", "img/alba/*.webp", "iconos/*.png", "silencio.mp3"],
         clientsClaim: true,
         skipWaiting: true,
+        // Desde el 31-oct-2026 la app vive en la raíz del sitio, y su service worker abarca
+        // también /v2/ (donde se probó, hoy una redirección) y /anterior/ (la app vieja): sin
+        // esto, al entrar ahí sin red les serviría esta app con las rutas rotas.
+        navigateFallbackDenylist: [/\/(v2|anterior)\//],
         runtimeCaching: [
           {
             urlPattern: ({ url }) => /\/(audio|img)\//.test(url.pathname) && !url.pathname.endsWith(".json"),

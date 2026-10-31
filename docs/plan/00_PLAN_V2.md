@@ -78,6 +78,8 @@
 - **Dibujos:** lote 8 para ChatGPT (piezas de los retos de mayores que hoy van con emoji o montaje provisional).
 - **Sin push:** todo está commiteado en local; falta la decisión de Álvaro sobre las notas internas del repositorio público (`_GITHUB/PLAN_GITHUB.md` §10).
 
+**31-oct-2026: la v2 pasa a ser la app oficial** (lo pidió Álvaro): se publica en la raíz, `https://engranajes-ciencia.github.io/Parque-Prehistoria/`. La anterior queda, sin enlazar, en `/anterior/`. `/v2/` redirige a la raíz y libera la copia que hubiera guardada en el móvil. Probado con el banco sin red (escenarios A, D, F y el nuevo H).
+
 **Pendiente (27-sep):** ~~push de Álvaro~~ (hecho) · escuchar nombres propios que no están en la tabla de pronunciación · decidir el narrador y el plan de pago de ElevenLabs (licencia comercial) antes de los audios definitivos · los [VERIFICAR] que solo se resuelven en el parque · provisionales dibujados en SVG: el árbol (5), Pangea (8) y la casa (20) · probar la visita entera en el parque con un iPhone y un Android.
 
 ## 1. Qué queremos conseguir
