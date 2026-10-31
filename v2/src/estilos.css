@@ -53,16 +53,6 @@ h3 {
   margin: 10px 0 0;
 }
 
-.aviso-prueba {
-  font-size: 0.85rem;
-  background: #fff4d1;
-  border: 1px dashed var(--mostaza);
-  border-radius: 12px;
-  padding: 8px 12px;
-  margin: 14px 0;
-  color: #6a5212;
-}
-
 .tarjeta {
   background: var(--papel);
   border-radius: var(--radio);

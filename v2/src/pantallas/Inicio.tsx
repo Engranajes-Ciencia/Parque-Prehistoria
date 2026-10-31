@@ -37,8 +37,6 @@ export default function Inicio() {
           No, todos tenemos 7 años o más
         </button>
       </section>
-
-      <p className="aviso-prueba">Versión de prueba</p>
     </main>
   );
 }
